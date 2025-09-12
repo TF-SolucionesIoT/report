@@ -271,6 +271,170 @@ El problema afecta a más del 13% de la población peruana (adultos mayores), y 
 <div id='3.'><h2>3. Capítulo III: Requirements Specification</h2></div>
 
 <div id='3.1.'><h3>3.1. User Stories</h3></div>
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-lboi{border-color:inherit;text-align:left;vertical-align:middle}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+</style>
+<table class="tg"><thead>
+  <tr>
+    <th class="tg-0pky">Epic / Story ID</th>
+    <th class="tg-0pky">Título</th>
+    <th class="tg-0pky">Descripción</th>
+    <th class="tg-0pky">Criterios de Aceptación</th>
+    <th class="tg-0pky">Relacionado con (Epic ID)</th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td class="tg-0pky">US01</td>
+    <td class="tg-lboi">Registrar usuario</td>
+    <td class="tg-lboi">Como adulto mayor o cuidador, quiero registrarme en la aplicación para acceder a los servicios de monitoreo.</td>
+    <td class="tg-0pky">Escenario 1: El usuario ingresa al registro.<br>Dado que el usuario desea crear una cuenta<br>Cuando complete los datos solicitados en el formulario de registro<br>Y seleccione el botón Registrarme<br>Entonces la aplicación confirmará el registro y redirigirá al inicio de sesión.</td>
+    <td class="tg-lboi">Epic 01</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">US02</td>
+    <td class="tg-lboi">Iniciar sesión</td>
+    <td class="tg-lboi">Como usuario, quiero iniciar sesión para acceder a mi perfil y datos de salud.</td>
+    <td class="tg-0pky">Escenario 1: Inicio de sesión válido.<br>Dado que el usuario tiene una cuenta registrada<br>Cuando ingrese correo y contraseña correctos<br>Entonces accederá a la pantalla principal.</td>
+    <td class="tg-lboi">Epic 01</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">US03</td>
+    <td class="tg-lboi">Recuperar cuenta</td>
+    <td class="tg-lboi">Como usuario, quiero recuperar mi cuenta en caso de olvidar mis credenciales.</td>
+    <td class="tg-0pky">Escenario 1: Recuperación de contraseña.<br>Dado que el usuario olvidó su contraseña<br>Cuando solicite recuperación e ingrese su correo<br>Entonces recibirá un enlace de restablecimiento.</td>
+    <td class="tg-lboi">Epic 01</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">US04</td>
+    <td class="tg-lboi">Ver perfil</td>
+    <td class="tg-lboi">Como usuario, quiero visualizar mi información personal registrada en la aplicación.</td>
+    <td class="tg-0pky">Escenario 1: Visualización correcta.<br>Dado que el usuario está autenticado<br>Cuando acceda a la sección Perfil<br>Entonces podrá ver sus datos registrados.<br></td>
+    <td class="tg-lboi">Epic 02</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">US05</td>
+    <td class="tg-lboi">Cambiar datos personales</td>
+    <td class="tg-lboi">Como usuario, quiero actualizar mis datos personales para mantener mi información al día.</td>
+    <td class="tg-0pky">Escenario 1: Actualización exitosa.<br>Dado que el usuario está autenticado<br>Cuando modifique sus datos y guarde cambios<br>Entonces la aplicación confirmará la actualización.</td>
+    <td class="tg-lboi">Epic 02</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">US06</td>
+    <td class="tg-lboi">Cambiar contraseña</td>
+    <td class="tg-lboi">Como usuario, quiero cambiar mi contraseña para mantener mi cuenta segura.</td>
+    <td class="tg-0pky">Escenario 1: Cambio exitoso.<br>Dado que el usuario está en su perfil<br>Cuando solicite cambiar contraseña e ingrese la nueva<br>Entonces el sistema actualizará la credencial.</td>
+    <td class="tg-lboi">Epic 02</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">US07</td>
+    <td class="tg-lboi">Cambiar correo</td>
+    <td class="tg-lboi">Como usuario, quiero actualizar mi correo electrónico para recibir notificaciones en la cuenta correcta.</td>
+    <td class="tg-0pky">Escenario 1: Cambio de correo.<br>Dado que el usuario está autenticado<br>Cuando ingrese un nuevo correo válido<br>Entonces el sistema lo registrará como nuevo correo de contacto.</td>
+    <td class="tg-lboi">Epic 02</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">US08</td>
+    <td class="tg-lboi">Ver frecuencia cardiaca</td>
+    <td class="tg-lboi">Como usuario, quiero ver mi frecuencia cardiaca en tiempo real para monitorear mi salud.</td>
+    <td class="tg-0pky">Escenario 1: Visualización en dashboard.<br>Dado que el dispositivo IoT está conectado<br>Cuando acceda al panel de signos vitales<br>Entonces la aplicación mostrará la frecuencia cardiaca en BPM.</td>
+    <td class="tg-lboi">Epic 03</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">US09</td>
+    <td class="tg-lboi">Ver presión arterial</td>
+    <td class="tg-lboi">Como usuario, quiero consultar mis valores de presión arterial para detectar posibles anomalías.</td>
+    <td class="tg-0pky">Escenario 1: Lectura correcta.<br>Dado que el dispositivo IoT envía datos<br>Cuando acceda al panel de signos vitales<br>Entonces podrá visualizar la presión sistólica y diastólica.</td>
+    <td class="tg-lboi">Epic 03</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">US10</td>
+    <td class="tg-lboi">Ver oxigenación</td>
+    <td class="tg-lboi">Como usuario, quiero ver mis niveles de oxigenación (SpO₂) para prevenir riesgos respiratorios.</td>
+    <td class="tg-0pky">Escenario 1: Consulta de oxigenación.<br>Dado que el sensor está funcionando<br>Cuando acceda al panel<br>Entonces visualizará el nivel de SpO₂ en %.</td>
+    <td class="tg-lboi">Epic 03</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">US11</td>
+    <td class="tg-lboi">Reportar una alteración</td>
+    <td class="tg-lboi">Como usuario o cuidador, quiero reportar manualmente una alteración en la salud para que quede registrada.</td>
+    <td class="tg-0pky">Escenario 1: Reporte exitoso.<br>Dado que el usuario detecta una anomalía<br>Cuando ingrese el reporte en la aplicación<br>Entonces quedará almacenado en el sistema.</td>
+    <td class="tg-lboi">Epic 04</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">US12</td>
+    <td class="tg-lboi">Log de alteraciones</td>
+    <td class="tg-lboi">Como usuario o cuidador, quiero consultar el historial de alteraciones registradas para tener un seguimiento.</td>
+    <td class="tg-0pky">Escenario 1: Consulta del log.<br>Dado que existen reportes previos<br>Cuando acceda a la sección de alteraciones<br>Entonces verá una lista con fecha, hora y detalle.</td>
+    <td class="tg-lboi">Epic 04</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">US13</td>
+    <td class="tg-lboi">Mandar llamado a emergencia 106</td>
+    <td class="tg-lboi">Como usuario, quiero que la aplicación móvil realice un llamado directo al 106 en caso de emergencia.</td>
+    <td class="tg-0pky">Escenario 1: Llamada automática.<br>Dado que el usuario activa la opción de emergencia<br>Cuando presione el botón SOS<br>Entonces el sistema realizará automáticamente la llamada al 106.</td>
+    <td class="tg-lboi">Epic 05</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">US14</td>
+    <td class="tg-lboi">Registrar números de emergencia adicionales</td>
+    <td class="tg-lboi">Como usuario, quiero registrar números de contacto de emergencia además del 106, para notificar a familiares o cuidadores.</td>
+    <td class="tg-0pky">Escenario 1: Registro de contactos.<br>Dado que el usuario desea añadir contactos<br>Cuando ingrese los números en la sección de emergencia<br>Entonces quedarán registrados para llamadas o alertas.</td>
+    <td class="tg-lboi">Epic 05</td>
+  </tr>
+</tbody></table>
+
+<h4>Epics</h4>
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-lboi{border-color:inherit;text-align:left;vertical-align:middle}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+</style>
+<table class="tg"><thead>
+  <tr>
+    <th class="tg-0pky">Epic ID</th>
+    <th class="tg-0pky">Título</th>
+    <th class="tg-0pky">Explicación</th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td class="tg-lboi">Epic 01</td>
+    <td class="tg-lboi">Autenticación y Recuperación de Cuenta</td>
+    <td class="tg-lboi">Este epic reúne todas las funcionalidades relacionadas con el acceso inicial del usuario a la aplicación, incluyendo el registro, inicio de sesión y recuperación de credenciales en caso de olvido.</td>
+  </tr>
+  <tr>
+    <td class="tg-lboi">Epic 02</td>
+    <td class="tg-lboi">Gestión de Perfil de Usuario</td>
+    <td class="tg-lboi">Agrupa las funcionalidades orientadas a la administración de los datos personales del usuario. Incluye la visualización del perfil y la actualización de credenciales (contraseña y correo).</td>
+  </tr>
+  <tr>
+    <td class="tg-lboi">Epic 03</td>
+    <td class="tg-lboi">Monitoreo de Signos Vitales</td>
+    <td class="tg-lboi">Este epic abarca la visualización de parámetros fisiológicos captados en tiempo real por el dispositivo IoT, permitiendo al usuario consultar su frecuencia cardiaca, presión arterial y niveles de oxigenación.</td>
+  </tr>
+  <tr>
+    <td class="tg-lboi">Epic 04</td>
+    <td class="tg-lboi">Reportes y Seguimiento de Alteraciones</td>
+    <td class="tg-lboi">Incluye las funcionalidades que permiten registrar, consultar y dar seguimiento a alteraciones de salud, ya sean detectadas automáticamente o reportadas manualmente por el usuario o cuidador.</td>
+  </tr>
+  <tr>
+    <td class="tg-lboi">Epic 05</td>
+    <td class="tg-lboi">Emergencias y Alertas</td>
+    <td class="tg-lboi">Este epic integra todas las acciones orientadas a la respuesta rápida ante situaciones críticas, como llamadas directas a números de emergencia y la gestión de contactos adicionales de alerta.</td>
+  </tr>
+</tbody></table>
+
 <div id='3.2.'><h3>3.2. Impact Mapping</h3></div>
 <div id='3.3.'><h3>3.3. Product Backlog</h3></div>
 
