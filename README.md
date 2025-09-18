@@ -236,6 +236,123 @@ En esta sección, definiremos los perfiles específicos del público objetivo pa
 
 
 <div id='2.3.2.'><h4>2.3.2. User Task Matrix</h4></div>
+
+**a. User Task Matriz a un adulto mayor**
+
+A continuación, se presenta una matriz de tareas enfocada en María Luisa Ramírez, una adulta mayor que representa al segmento de usuarios principales de la pulsera inteligente. Esta herramienta permite identificar y clasificar las actividades clave que realiza en su día a día, considerando la frecuencia con la que las lleva a cabo y el nivel de importancia que representan dentro de su vida cotidiana.</br></br>
+
+<table border="1">
+  <thead>
+    <tr>
+      <th rowspan="2">Tarea</th>
+      <th colspan="2">María Luisa Ramírez</th>
+    </tr>
+    <tr>
+      <th>Frecuencia</th>
+      <th>Importancia</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Medirse la presión arterial o pulso</td>
+      <td>Media</td>
+      <td>Alta</td>
+    </tr>
+    <tr>
+      <td>Asistir a controles médicos</td>
+      <td>Baja</td>
+      <td>Alta</td>
+    </tr>
+    <tr>
+      <td>Recordar tomar medicinas</td>
+      <td>Alta</td>
+      <td>Alta</td>
+    </tr>
+    <tr>
+      <td>Pedir ayuda en caso de mareos/caída</td>
+      <td>Baja</td>
+      <td>Muy Alta</td>
+    </tr>
+    <tr>
+      <td>Caminar dentro de casa o salir a comprar</td>
+      <td>Alta</td>
+      <td>Media</td>
+    </tr>
+    <tr>
+      <td>Comunicarse con su hija por teléfono</td>
+      <td>Media</td>
+      <td>Alta</td>
+    </tr>
+    <tr>
+      <td>Usar un dispositivo digital (celular/tensiómetro)</td>
+      <td>Baja</td>
+      <td>Media</td>
+    </tr>
+  </tbody>
+</table>
+<br>
+
+
+ Del análisis de la matriz de tareas de María Luisa Ramírez, se destaca que las actividades más críticas son recordar tomar medicinas, controlar signos vitales y pedir ayuda en caso de emergencia. Aunque no todas son frecuentes, tienen alta o muy alta importancia, ya que afectan directamente a su salud y seguridad. Una solución digital debe priorizar la automatización de alertas y la simplicidad de uso, garantizando que no dependa de interacciones complejas para mantenerse protegida.
+
+ **b. User Task Matriz a un Cuidador**
+
+ A continuación, se presenta una matriz de tareas enfocada en Juan Carlos Herrera, cuidador principal de su madre adulta mayor. Esta herramienta permite identificar y clasificar las actividades clave que realiza en su rol de cuidador, considerando la frecuencia con la que las lleva a cabo y el nivel de importancia que representan dentro de su rutina diaria.</br></br>
+
+<table border="1">
+  <thead>
+    <tr>
+      <th rowspan="2">Tarea</th>
+      <th colspan="2">Juan Carlos Herrera</th>
+    </tr>
+    <tr>
+      <th>Frecuencia</th>
+      <th>Importancia</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Supervisar la salud de su madre</td>
+      <td>Alta</td>
+      <td>Muy Alta</td>
+    </tr>
+    <tr>
+      <td>Recibir alertas de emergencias</td>
+      <td>Baja (eventual)</td>
+      <td>Muy Alta</td>
+    </tr>
+    <tr>
+      <td>Organizar citas médicas y transporte</td>
+      <td>Media</td>
+      <td>Alta</td>
+    </tr>
+    <tr>
+      <td>Recordar y controlar medicación</td>
+      <td>Alta</td>
+      <td>Alta</td>
+    </tr>
+    <tr>
+      <td>Revisar reportes de signos vitales</td>
+      <td>Media</td>
+      <td>Alta</td>
+    </tr>
+    <tr>
+      <td>Coordinar con otros familiares el cuidado</td>
+      <td>Media</td>
+      <td>Media</td>
+    </tr>
+    <tr>
+      <td>Trabajar de manera remota (equilibrio trabajo-cuidado)</td>
+      <td>Alta</td>
+      <td>Alta</td>
+    </tr>
+  </tbody>
+</table>
+<br>
+
+
+ Del análisis de la matriz de tareas de Juan Carlos Herrera, se evidencia que las tareas de mayor relevancia son supervisar la salud, recibir alertas de emergencias y controlar la medicación. Aunque algunas (como emergencias) no son frecuentes, su impacto es crítico. Un sistema de monitoreo que brinde alertas inmediatas, reportes confiables y funciones de seguimiento en tiempo real es clave para brindarle tranquilidad, optimizar su tiempo y reducir la sobrecarga emocional asociada al cuidado.
+
 <div id='2.3.3.'><h4>2.3.3. User Journey Mapping</h4></div>
 <div id='2.3.4.'><h4>2.3.4. Empathy Mapping</h4></div>
 
