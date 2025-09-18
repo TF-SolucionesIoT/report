@@ -228,11 +228,12 @@ En esta sección, definiremos los perfiles específicos del público objetivo pa
  
 **a. User Persona de un adulto mayor**
 
-<img src="Img/user_persona_juan_herrera.png" alt="Imagen_User" style="margin-bottom: 5px;" width="800"/>
+<img src="Img/user_persona_maria_ramirez.png" alt="Imagen_User" style="margin-bottom: 5px;" width="800"/>
 
 **b. User Persona de un Cuidador**
 
-<img src="Img/user_persona_maria_ramirez.png" alt="Imagen_User" style="margin-bottom: 5px;" width="800"/>
+<img src="Img/user_persona_juan_herrera.png" alt="Imagen_User" style="margin-bottom: 5px;" width="800"/>
+
 
 <div id='2.3.2.'><h4>2.3.2. User Task Matrix</h4></div>
 <div id='2.3.3.'><h4>2.3.3. User Journey Mapping</h4></div>
