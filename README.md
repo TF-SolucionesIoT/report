@@ -255,13 +255,235 @@ El problema afecta a más del 13% de la población peruana (adultos mayores), y 
 * Fortaleceremos la credibilidad de nuestra solución a través de experiencias reales, incorporando testimonios de familiares, cuidadores y profesionales de la salud que validen la utilidad del sistema. Estas historias de éxito serán empleadas en nuestras campañas de marketing y materiales informativos para generar confianza en nuevos usuarios.
 
 <div id='2.2.'><h3>2.2. Entrevistas</h3></div>
+
+Esta sección recopila la información obtenida a partir de entrevistas realizadas a adultos mayores y cuidadores responsables de su atención. Se incluyen las preguntas formuladas, las entrevistas realizadas y un análisis comparativo. El objetivo es comprender sus necesidades, hábitos actuales y percepciones para fundamentar el desarrollo de una solución IoT adecuada a su entorno real.
+
 <div id='2.2.1.'><h4>2.2.1. Diseño de entrevistas</h4></div>
+
+### Preguntas para Adultos Mayores
+
+1. ¿Cuál es su nombre y edad?
+2. ¿Con quién vive actualmente (solo, con familia, en residencia)?
+3. ¿Qué enfermedades o condiciones de salud crónicas le han diagnosticado (ej. hipertensión, diabetes, problemas cardíacos)?
+4. ¿Con qué frecuencia acude a controles médicos o revisiones de rutina?
+5. ¿Ha sufrido caídas en el último año? ¿Podría contarme qué pasó y cómo reaccionaron sus familiares?
+6. ¿En qué momentos del día suele estar solo(a) en casa?
+7. ¿Qué tanta confianza tiene en el uso de dispositivos electrónicos (celulares, relojes inteligentes, pulseras, etc.)?
+8. ¿Ha usado antes algún aparato o dispositivo para medir su presión, ritmo cardíaco u otros signos vitales? ¿Cómo fue su experiencia?
+9. ¿Qué tan cómodo se sentiría utilizando un dispositivo pequeño (ej. pulsera, reloj o colgante) que monitoree su salud y detecte caídas?
+10. ¿Le resultaría útil que sus familiares reciban alertas inmediatas si sufre una caída o alguna alteración de sus signos vitales?
+11. ¿Qué aspectos le generarían desconfianza o preocupación (precio, privacidad, dificultad de uso, batería, etc.)?
+12. ¿Qué características considera más importantes en un dispositivo de este tipo (ej. fácil de usar, discreto, resistente, económico)?
+
+### Preguntas para Cuidadores / Familiares
+
+1. ¿Cuál es su relación con el adulto mayor (hijo/a, nieto/a, cuidador contratado, etc.)?
+2. ¿Con qué frecuencia se encuentra a cargo de su cuidado (diariamente, algunas horas, solo en emergencias)?
+3. ¿Qué actividades cotidianas le generan mayor preocupación respecto al adulto mayor (movilidad, alimentación, medicación, caídas, etc.)?
+4. ¿Ha tenido alguna experiencia previa con caídas o emergencias médicas de su familiar? ¿Cómo fue el proceso de atención?
+5. ¿Actualmente utilizan algún dispositivo o aplicación para monitorear su salud? ¿Cuál y cómo lo valoran?
+6. ¿Qué tan importante considera tener información en tiempo real sobre signos vitales (ej. presión, pulso, oxigenación)?
+7. ¿Cómo preferiría recibir alertas en caso de emergencias (notificación en app, llamada, SMS, correo)?
+8. ¿Cuáles serían las principales barreras para implementar un dispositivo de este tipo en su hogar (costo, conectividad, resistencia del adulto mayor a usarlo)?
+9. ¿Qué tan dispuesto estaría a invertir en un sistema IoT de monitoreo? ¿Qué rango de precio considera accesible?
+10. Si pudiera diseñar este sistema, ¿qué funciones serían prioritarias para usted (ej. botón de emergencia, historial de datos, geolocalización, recordatorio de medicación)?
+11. ¿Qué expectativas tendría en términos de seguridad y confiabilidad del dispositivo?
+12. ¿Cómo cree que un sistema de este tipo impactaría en su tranquilidad y en la calidad de vida del adulto mayor?
+
 <div id='2.2.2.'><h4>2.2.2. Registro de entrevistas</h4></div>
+
+### Segmento 1: Adultos Mayores
+
+<table style="width: 100%; border-collapse: collapse;">
+    <tr>
+        <td>Entrevistado N°1</td>
+        <td>XXX</td>
+    </tr> 
+    <tr>
+        <td>Edad</td>
+        <td>XX</td>
+    </tr> 
+    <tr>
+        <td>Distrito de residencia</td>
+        <td>XXX</td>
+    </tr> 
+    <tr>
+        <td><img src="Img/Entrevista-1.png" width="300px"></td>
+        <td>XXX</td>
+    </tr> 
+    <tr>
+        <td>Timing: 0:00 - XX:XX</td>
+        <td>URL: <a href="Link" target="_blank">NombreLink</a></td>
+    </tr> 
+    <tr>
+        <td>Entrevistado N°2</td>
+        <td>XXX</td>
+    </tr> 
+    <tr>
+        <td>Edad</td>
+        <td>XX</td>
+    </tr> 
+    <tr>
+        <td>Distrito de residencia</td>
+        <td>XXX</td>
+    </tr> 
+    <tr>
+        <td><img src="Img/Entrevista-2.png" width="300px"></td>
+        <td>XXX</td>
+    </tr> 
+    <tr>
+        <td>Timing: XX:XX - XX:XX</td>
+        <td>URL: <a href="Link" target="_blank">NombreLink</a></td>
+    </tr> 
+    <tr>
+        <td>Entrevistado N°3</td>
+        <td>XXX</td>
+    </tr> 
+    <tr>
+        <td>Edad</td>
+        <td>XX</td>
+    </tr> 
+    <tr>
+        <td>Distrito de residencia</td>
+        <td>XXX</td>
+    </tr> 
+    <tr>
+        <td><img src="Img/Entrevista-3.png" width="300px"></td>
+        <td>XXX</td>
+    </tr> 
+    <tr>
+        <td>Timing: XX:XX - XX:XX</td>
+        <td>URL: <a href="Link" target="_blank">NombreLink</a></td>
+    </tr> 
+</table>
+
+</div>
+
+### Segmento 2: Cuidadores / Familiares
+
+<table style="width: 100%; border-collapse: collapse;">
+    <tr>
+        <td>Entrevistado N°1</td>
+        <td>XXX</td>
+    </tr> 
+    <tr>
+        <td>Edad</td>
+        <td>XX</td>
+    </tr> 
+    <tr>
+        <td>Distrito de residencia</td>
+        <td>XXX</td>
+    </tr> 
+    <tr>
+        <td><img src="Img/Entrevista-1.png" width="300px"></td>
+        <td>XXX</td>
+    </tr> 
+    <tr>
+        <td>Timing: 0:00 - XX:XX</td>
+        <td>URL: <a href="Link" target="_blank">NombreLink</a></td>
+    </tr> 
+    <tr>
+        <td>Entrevistado N°2</td>
+        <td>XXX</td>
+    </tr> 
+    <tr>
+        <td>Edad</td>
+        <td>XX</td>
+    </tr> 
+    <tr>
+        <td>Distrito de residencia</td>
+        <td>XXX</td>
+    </tr> 
+    <tr>
+        <td><img src="Img/Entrevista-2.png" width="300px"></td>
+        <td>XXX</td>
+    </tr> 
+    <tr>
+        <td>Timing: XX:XX - XX:XX</td>
+        <td>URL: <a href="Link" target="_blank">NombreLink</a></td>
+    </tr> 
+    <tr>
+        <td>Entrevistado N°3</td>
+        <td>XXX</td>
+    </tr> 
+    <tr>
+        <td>Edad</td>
+        <td>XX</td>
+    </tr> 
+    <tr>
+        <td>Distrito de residencia</td>
+        <td>XXX</td>
+    </tr> 
+    <tr>
+        <td><img src="Img/Entrevista-3.png" width="300px"></td>
+        <td>XXX</td>
+    </tr> 
+    <tr>
+        <td>Timing: XX:XX - XX:XX</td>
+        <td>URL: <a href="Link" target="_blank">NombreLink</a></td>
+    </tr> 
+</table>
+
+</div>
+
 <div id='2.2.3.'><h4>2.2.3. Análisis de entrevistas</h4></div>
+
+A continuación, se presenta el análisis de las entrevistas realizadas a adultos mayores y cuidadores responsables de su atención. Este estudio permite identificar patrones, necesidades y oportunidades clave para el diseño de la solución IoT de monitoreo de signos vitales y detección de caídas.
+
+</br>
+
+**Características comunes entre adultos mayores y cuidadores entrevistados**
+
+<img src="Img/grafico-barras-entrevistas-iot.png" alt="Gráfico de barras de las entrevistas IoT" style="margin-bottom: 5px;" width="600"/>
+
+**Fuente**: Datos recolectados mediante entrevistas aplicadas a tres adultos mayores y tres cuidadores en Lima Metropolitana.
+
+</br>
+
+De acuerdo con el análisis realizado, los adultos mayores entrevistados manifestaron haber experimentado al menos una caída en el último año, en la mayoría de los casos sin acompañamiento inmediato. Todos coincidieron en que la principal dificultad es la falta de supervisión cuando están solos en casa, especialmente en horas de la mañana o la noche. Asimismo, aunque algunos han utilizado tensiómetros digitales o glucómetros, ninguno emplea actualmente dispositivos inteligentes que transmitan datos en tiempo real. Existe cierta resistencia inicial al uso de tecnología por parte de los adultos mayores, motivada por percepciones de complejidad o incomodidad, pero también mostraron disposición a probar dispositivos siempre que sean fáciles de usar, discretos y económico.
 
 <div id='2.3.'><h3>2.3. Needfinding</h3></div>
 <div id='2.3.1.'><h4>2.3.1. User Personas</h4></div>
 <div id='2.3.2.'><h4>2.3.2. User Task Matrix</h4></div>
+
+A continuación, se presentan las matrices de tareas enfocadas en los segmentos clave: un adulto mayor y un cuidador responsable. Esta herramienta permite identificar y clasificar las actividades principales que realizan en su día a día, considerando la frecuencia y el nivel de importancia de cada tarea en relación con el cuidado y la prevención de riesgos.
+
+### Matriz de tareas – Adulto Mayor
+
+| Tarea | Frecuencia | Importancia |
+|-------|------------|-------------|
+| Tomar medicación diaria | Alta | Alta |
+| Medir signos vitales (presión, pulso, glucosa) | Media | Alta |
+| Desplazarse dentro del hogar | Alta | Alta |
+<!--| Recordar próximas citas médicas | Baja | Alta |-->
+<!--| Activar ayuda en caso de emergencia | Baja | Muy Alta |-->
+<!--| Comunicar malestar o síntomas a familiares | Media | Alta |-->
+
+**Análisis adulto mayor:**  
+Las tareas más críticas para los adultos mayores están vinculadas con el **cuidado de la salud (medicación, control de signos vitales)** y la **movilidad dentro del hogar**, dado que estas representan los mayores riesgos de complicaciones o caídas. Aunque tareas como recordar citas médicas o comunicar síntomas no se realizan con tanta frecuencia, su importancia es alta, pues de ellas depende la detección temprana de problemas. <!--La **activación de ayuda en emergencias** se clasifica como de baja frecuencia pero muy alta importancia, convirtiéndose en un punto crítico que el sistema IoT debe cubrir con eficiencia y simplicidad.-->
+
+---
+
+### **Matriz de tareas – Cuidador/Familiar**
+
+| Tarea | Frecuencia | Importancia |
+|-------|------------|-------------|
+| Supervisar la toma de medicación | Alta | Alta |
+| Monitorear signos vitales del adulto mayor | Media | Alta |
+| Brindar apoyo en actividades del hogar | Alta | Media |
+| Responder en caso de caídas/emergencias | Baja | Muy Alta |
+| Mantener comunicación constante con el adulto mayor | Alta | Alta |
+| Organizar recordatorios (medicación, citas, controles) | Media | Alta |
+<!--| Acompañar a consultas médicas | Media | Alta |-->
+
+**Análisis cuidador:**  
+En el caso de los cuidadores, las actividades de mayor frecuencia y alta importancia son la **supervisión de la medicación** y la **comunicación constante**, ya que representan la base del acompañamiento cotidiano. Sin embargo, la tarea de **responder en emergencias** se ubica como de baja frecuencia pero de muy alta importancia, lo que refuerza la necesidad de contar con un sistema IoT que garantice alertas inmediatas y confiables. Asimismo, la organización de recordatorios y la supervisión de signos vitales son tareas claves que el prototipo puede automatizar para disminuir la carga del cuidador.
+
+---
+
+**Conclusión general:**  
+El análisis de ambas matrices muestra que tanto adultos mayores como cuidadores enfrentan tareas críticas relacionadas con el **control de la salud, la prevención de caídas y la atención de emergencias**. Las actividades de alta frecuencia y alta importancia (medicación, comunicación, movilidad en el hogar) deben priorizarse en la solución IoT. En paralelo, las tareas de baja frecuencia pero muy alta importancia (activación de ayuda en emergencias, respuesta a caídas) representan los **momentos decisivos donde el sistema debe ser más confiable y rápido**.  
+
 <div id='2.3.3.'><h4>2.3.3. User Journey Mapping</h4></div>
 <div id='2.3.4.'><h4>2.3.4. Empathy Mapping</h4></div>
 
