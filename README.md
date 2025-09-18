@@ -225,6 +225,15 @@ En esta sección, definiremos los perfiles específicos del público objetivo pa
 
 <div id='2.3.'><h3>2.3. Needfinding</h3></div>
 <div id='2.3.1.'><h4>2.3.1. User Personas</h4></div>
+ 
+**a. User Persona de un adulto mayor**
+
+<img src="Img/user_persona_juan_herrera.png" alt="Imagen_User" style="margin-bottom: 5px;" width="800"/>
+
+**b. User Persona de un Cuidador**
+
+<img src="Img/user_persona_maria_ramirez.png" alt="Imagen_User" style="margin-bottom: 5px;" width="800"/>
+
 <div id='2.3.2.'><h4>2.3.2. User Task Matrix</h4></div>
 <div id='2.3.3.'><h4>2.3.3. User Journey Mapping</h4></div>
 <div id='2.3.4.'><h4>2.3.4. Empathy Mapping</h4></div>
