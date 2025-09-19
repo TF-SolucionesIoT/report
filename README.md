@@ -485,6 +485,15 @@ En el caso de los cuidadores, las actividades de mayor frecuencia y alta importa
 El análisis de ambas matrices muestra que tanto adultos mayores como cuidadores enfrentan tareas críticas relacionadas con el **control de la salud, la prevención de caídas y la atención de emergencias**. Las actividades de alta frecuencia y alta importancia (medicación, comunicación, movilidad en el hogar) deben priorizarse en la solución IoT. En paralelo, las tareas de baja frecuencia pero muy alta importancia (activación de ayuda en emergencias, respuesta a caídas) representan los **momentos decisivos donde el sistema debe ser más confiable y rápido**.  
 
 <div id='2.3.3.'><h4>2.3.3. User Journey Mapping</h4></div>
+
+### User Journey Map – Adulto Mayor
+
+<img src="Img/Journey_Mapping1.jpg" alt="Journey_Mapping1"></img>
+
+### User Journey Map – Cuidador/Familiar
+
+<img src="Img/Journey_Mapping2.jpg" alt="Journey_Mapping2"></img>
+
 <div id='2.3.4.'><h4>2.3.4. Empathy Mapping</h4></div>
 
 <div id='2.4.'><h3>2.4. Big Picture EventStorming</h3></div>
