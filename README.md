@@ -242,6 +242,28 @@ El problema afecta a más del 13% de la población peruana (adultos mayores), y 
 
 <div id='1.3.'><h3>1.3. Segmentos objetivo</h3></div>
 
+En esta sección, definiremos los perfiles específicos del público objetivo para nuestro brazalete inteligente. Estos grupos comparten características demográficas, comportamientos o necesidades similares, lo que les diferencia de otros segmentos del mercado y permite ajustar estrategias para satisfacer sus necesidades de una mejor manera.
+
+### 1. Personas de edad avanzada o individuos con enfermedades cardiovasculares
+- **Segmento demográfico:**  
+  Personas mayores de 60 años en Perú, que representan cerca del 12,4 % de la población total (aproximadamente 4,1 millones en 2023), con una prevalencia de hipertensión arterial del 29,7 % y un 66 % con enfermedades crónicas como diabetes o patologías cardiovasculares (INEI, 2023; MINSA, 2023).  
+- **Segmento geográfico:**  
+  Residentes en áreas urbanas, especialmente en Lima Metropolitana, donde el 43,2 % de los hogares incluye al menos un adulto mayor (INEI, 2023).  
+- **Segmento psicográfico:**  
+  Individuos preocupados por su salud y seguridad, que valoran la tranquilidad de contar con monitoreo continuo para prevenir o manejar emergencias médicas como desmayos, arritmias o crisis hipertensivas.  
+- **Segmento conductual:**  
+  Personas que necesitan monitoreo constante de signos vitales (pulso, respiración, saturación) y alertas automáticas ante condiciones críticas. El brazalete inteligente satisface esta necesidad al proporcionar monitoreo en tiempo real y notificaciones inmediatas.
+
+### 2. Cuidadores o contactos de emergencia de los usuarios
+- **Segmento demográfico:**  
+  Cuidadores familiares, mayormente sin capacitación formal, que conviven en más de 4,4 millones de hogares con un adulto mayor o paciente crónico. Aproximadamente el 31 % presenta síntomas depresivos, y el 44 % ha dejado su empleo para dedicarse al cuidado (OPS, 2023).  
+- **Segmento geográfico:**  
+  Principalmente en áreas urbanas de Perú, con alta concentración en Lima Metropolitana, donde la convivencia con adultos mayores o pacientes crónicos es común (OPS, 2023).  
+- **Segmento psicográfico:**  
+  Cuidadores que enfrentan alto estrés, sobrecarga emocional y mental (más del 70 % reporta sobrecarga intensa), y buscan herramientas que les brinden seguridad y reduzcan la incertidumbre al cuidar de sus seres queridos.  
+- **Segmento conductual:**  
+  Cuidadores que necesitan recibir alertas inmediatas ante emergencias de salud para intervenir rápidamente. El brazalete inteligente les ofrece monitoreo continuo del paciente y notificaciones automáticas, aliviando su carga emocional y mejorando su capacidad de respuesta.  
+
 <div id='2.'><h2>2. Capítulo II: Requirements Elicitation & Analysis</h2></div>
 
 <div id='2.1.'><h3>2.1. Competidores</h3></div>
@@ -444,45 +466,133 @@ De acuerdo con el análisis realizado, los adultos mayores entrevistados manifes
 
 <div id='2.3.'><h3>2.3. Needfinding</h3></div>
 <div id='2.3.1.'><h4>2.3.1. User Personas</h4></div>
+ 
+**a. User Persona de un adulto mayor**
+
+<img src="Img/user_persona_maria_ramirez.png" alt="Imagen_User" style="margin-bottom: 5px;" width="800"/>
+
+**b. User Persona de un Cuidador**
+
+<img src="Img/user_persona_juan_herrera.png" alt="Imagen_User" style="margin-bottom: 5px;" width="800"/>
+
+
 <div id='2.3.2.'><h4>2.3.2. User Task Matrix</h4></div>
 
-A continuación, se presentan las matrices de tareas enfocadas en los segmentos clave: un adulto mayor y un cuidador responsable. Esta herramienta permite identificar y clasificar las actividades principales que realizan en su día a día, considerando la frecuencia y el nivel de importancia de cada tarea en relación con el cuidado y la prevención de riesgos.
+**a. User Task Matriz a un adulto mayor**
 
-### Matriz de tareas – Adulto Mayor
+A continuación, se presenta una matriz de tareas enfocada en María Luisa Ramírez, una adulta mayor que representa al segmento de usuarios principales de la pulsera inteligente. Esta herramienta permite identificar y clasificar las actividades clave que realiza en su día a día, considerando la frecuencia con la que las lleva a cabo y el nivel de importancia que representan dentro de su vida cotidiana.</br></br>
 
-| Tarea | Frecuencia | Importancia |
-|-------|------------|-------------|
-| Tomar medicación diaria | Alta | Alta |
-| Medir signos vitales (presión, pulso, glucosa) | Media | Alta |
-| Desplazarse dentro del hogar | Alta | Alta |
-<!--| Recordar próximas citas médicas | Baja | Alta |-->
-<!--| Activar ayuda en caso de emergencia | Baja | Muy Alta |-->
-<!--| Comunicar malestar o síntomas a familiares | Media | Alta |-->
+<table border="1">
+  <thead>
+    <tr>
+      <th rowspan="2">Tarea</th>
+      <th colspan="2">María Luisa Ramírez</th>
+    </tr>
+    <tr>
+      <th>Frecuencia</th>
+      <th>Importancia</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Medirse la presión arterial o pulso</td>
+      <td>Media</td>
+      <td>Alta</td>
+    </tr>
+    <tr>
+      <td>Asistir a controles médicos</td>
+      <td>Baja</td>
+      <td>Alta</td>
+    </tr>
+    <tr>
+      <td>Recordar tomar medicinas</td>
+      <td>Alta</td>
+      <td>Alta</td>
+    </tr>
+    <tr>
+      <td>Pedir ayuda en caso de mareos/caída</td>
+      <td>Baja</td>
+      <td>Muy Alta</td>
+    </tr>
+    <tr>
+      <td>Caminar dentro de casa o salir a comprar</td>
+      <td>Alta</td>
+      <td>Media</td>
+    </tr>
+    <tr>
+      <td>Comunicarse con su hija por teléfono</td>
+      <td>Media</td>
+      <td>Alta</td>
+    </tr>
+    <tr>
+      <td>Usar un dispositivo digital (celular/tensiómetro)</td>
+      <td>Baja</td>
+      <td>Media</td>
+    </tr>
+  </tbody>
+</table>
+<br>
 
-**Análisis adulto mayor:**  
-Las tareas más críticas para los adultos mayores están vinculadas con el **cuidado de la salud (medicación, control de signos vitales)** y la **movilidad dentro del hogar**, dado que estas representan los mayores riesgos de complicaciones o caídas. Aunque tareas como recordar citas médicas o comunicar síntomas no se realizan con tanta frecuencia, su importancia es alta, pues de ellas depende la detección temprana de problemas. <!--La **activación de ayuda en emergencias** se clasifica como de baja frecuencia pero muy alta importancia, convirtiéndose en un punto crítico que el sistema IoT debe cubrir con eficiencia y simplicidad.-->
 
----
+ Del análisis de la matriz de tareas de María Luisa Ramírez, se destaca que las actividades más críticas son recordar tomar medicinas, controlar signos vitales y pedir ayuda en caso de emergencia. Aunque no todas son frecuentes, tienen alta o muy alta importancia, ya que afectan directamente a su salud y seguridad. Una solución digital debe priorizar la automatización de alertas y la simplicidad de uso, garantizando que no dependa de interacciones complejas para mantenerse protegida.
 
-### **Matriz de tareas – Cuidador/Familiar**
+ **b. User Task Matriz a un Cuidador**
 
-| Tarea | Frecuencia | Importancia |
-|-------|------------|-------------|
-| Supervisar la toma de medicación | Alta | Alta |
-| Monitorear signos vitales del adulto mayor | Media | Alta |
-| Brindar apoyo en actividades del hogar | Alta | Media |
-| Responder en caso de caídas/emergencias | Baja | Muy Alta |
-| Mantener comunicación constante con el adulto mayor | Alta | Alta |
-| Organizar recordatorios (medicación, citas, controles) | Media | Alta |
-<!--| Acompañar a consultas médicas | Media | Alta |-->
+ A continuación, se presenta una matriz de tareas enfocada en Juan Carlos Herrera, cuidador principal de su madre adulta mayor. Esta herramienta permite identificar y clasificar las actividades clave que realiza en su rol de cuidador, considerando la frecuencia con la que las lleva a cabo y el nivel de importancia que representan dentro de su rutina diaria.</br></br>
 
-**Análisis cuidador:**  
-En el caso de los cuidadores, las actividades de mayor frecuencia y alta importancia son la **supervisión de la medicación** y la **comunicación constante**, ya que representan la base del acompañamiento cotidiano. Sin embargo, la tarea de **responder en emergencias** se ubica como de baja frecuencia pero de muy alta importancia, lo que refuerza la necesidad de contar con un sistema IoT que garantice alertas inmediatas y confiables. Asimismo, la organización de recordatorios y la supervisión de signos vitales son tareas claves que el prototipo puede automatizar para disminuir la carga del cuidador.
+<table border="1">
+  <thead>
+    <tr>
+      <th rowspan="2">Tarea</th>
+      <th colspan="2">Juan Carlos Herrera</th>
+    </tr>
+    <tr>
+      <th>Frecuencia</th>
+      <th>Importancia</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Supervisar la salud de su madre</td>
+      <td>Alta</td>
+      <td>Muy Alta</td>
+    </tr>
+    <tr>
+      <td>Recibir alertas de emergencias</td>
+      <td>Baja (eventual)</td>
+      <td>Muy Alta</td>
+    </tr>
+    <tr>
+      <td>Organizar citas médicas y transporte</td>
+      <td>Media</td>
+      <td>Alta</td>
+    </tr>
+    <tr>
+      <td>Recordar y controlar medicación</td>
+      <td>Alta</td>
+      <td>Alta</td>
+    </tr>
+    <tr>
+      <td>Revisar reportes de signos vitales</td>
+      <td>Media</td>
+      <td>Alta</td>
+    </tr>
+    <tr>
+      <td>Coordinar con otros familiares el cuidado</td>
+      <td>Media</td>
+      <td>Media</td>
+    </tr>
+    <tr>
+      <td>Trabajar de manera remota (equilibrio trabajo-cuidado)</td>
+      <td>Alta</td>
+      <td>Alta</td>
+    </tr>
+  </tbody>
+</table>
+<br>
 
----
 
-**Conclusión general:**  
-El análisis de ambas matrices muestra que tanto adultos mayores como cuidadores enfrentan tareas críticas relacionadas con el **control de la salud, la prevención de caídas y la atención de emergencias**. Las actividades de alta frecuencia y alta importancia (medicación, comunicación, movilidad en el hogar) deben priorizarse en la solución IoT. En paralelo, las tareas de baja frecuencia pero muy alta importancia (activación de ayuda en emergencias, respuesta a caídas) representan los **momentos decisivos donde el sistema debe ser más confiable y rápido**.  
+ Del análisis de la matriz de tareas de Juan Carlos Herrera, se evidencia que las tareas de mayor relevancia son supervisar la salud, recibir alertas de emergencias y controlar la medicación. Aunque algunas (como emergencias) no son frecuentes, su impacto es crítico. Un sistema de monitoreo que brinde alertas inmediatas, reportes confiables y funciones de seguimiento en tiempo real es clave para brindarle tranquilidad, optimizar su tiempo y reducir la sobrecarga emocional asociada al cuidado.
 
 <div id='2.3.3.'><h4>2.3.3. User Journey Mapping</h4></div>
 
@@ -679,4 +789,11 @@ El análisis de ambas matrices muestra que tanto adultos mayores como cuidadores
 
 <div id='5.'><h2>5. Conclusiones</h2></div>
 <div id='6.'><h2>6. Bibliografía</h2></div>
+
+Instituto Nacional de Estadística e Informática. (2023). *Perú: Estimaciones y proyecciones de población, 1950-2070*. https://www.inei.gob.pe/media/MenuRecursivo/publicaciones_digitales/Est/Lib1743/Libro.pdf  
+<br>  
+Ministerio de Salud. (2023). *Enfermedades no transmisibles y transmisibles - ENDES 2023*. Instituto Nacional de Estadística e Informática. https://proyectos.inei.gob.pe/endes/2023/SALUD/ENFERMEDADES_ENDES_2023.pdf  
+<br>  
+Organización Panamericana de la Salud. (2023). *La situación de los cuidados a largo plazo en América Latina y el Caribe*. https://iris.paho.org/bitstream/handle/10665.2/57356/9789275326879_spa.pdf?sequence=1
+
 <div id='7.'><h2>7. Anexo</h2></div>
