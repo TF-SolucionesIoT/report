@@ -521,11 +521,11 @@ Esta sección recopila la información obtenida a partir de entrevistas realizad
     </tr> 
     <tr>
         <td><img src="Img/Entrevista-1.png" width="300px"></td>
-        <td>XXX</td>
+        <td>Rosa Valera es una mujer de 65 años que vive en San Luis. Ella ha tenido resbalones en el último año y se siente insegura al estar sola en casa. Rosa tiene confianza en el uso de dispositivos electrónicos, pero no ha utilizado dispositivos para medir su salud. Le gustaría un dispositivo que monitoree su salud y alerte a sus familiares en caso de emergencia.</td>
     </tr> 
     <tr>
-        <td>Timing: 0:00 - XX:XX</td>
-        <td>URL: <a href="Link" target="_blank">NombreLink</a></td>
+        <td>Timing: 0:00 - 03:55</td>
+        <td>URL: <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211g296_upc_edu_pe/ESKRjQ6V36JEqGVMCOh_FykB88evkHckHIWId9gACrKSiQ?e=IguKBR" target="_blank">Link del Video</a></td>
     </tr> 
     <tr>
         <td>Entrevistado N°2</td>
@@ -545,7 +545,7 @@ Esta sección recopila la información obtenida a partir de entrevistas realizad
     </tr> 
     <tr>
         <td>Timing: XX:XX - XX:XX</td>
-        <td>URL: <a href="Link" target="_blank">NombreLink</a></td>
+        <td>URL: <a href="Link" target="_blank">Link del Video</a></td>
     </tr> 
     <tr>
         <td>Entrevistado N°3</td>
@@ -565,7 +565,7 @@ Esta sección recopila la información obtenida a partir de entrevistas realizad
     </tr> 
     <tr>
         <td>Timing: XX:XX - XX:XX</td>
-        <td>URL: <a href="Link" target="_blank">NombreLink</a></td>
+        <td>URL: <a href="Link" target="_blank">Link del Video</a></td>
     </tr> 
 </table>
 
@@ -612,7 +612,7 @@ Esta sección recopila la información obtenida a partir de entrevistas realizad
     </tr> 
     <tr>
         <td>Timing: XX:XX - XX:XX</td>
-        <td>URL: <a href="Link" target="_blank">NombreLink</a></td>
+        <td>URL: <a href="Link" target="_blank">Link del Video</a></td>
     </tr> 
     <tr>
         <td>Entrevistado N°3</td>
@@ -632,7 +632,7 @@ Esta sección recopila la información obtenida a partir de entrevistas realizad
     </tr> 
     <tr>
         <td>Timing: XX:XX - XX:XX</td>
-        <td>URL: <a href="Link" target="_blank">NombreLink</a></td>
+        <td>URL: <a href="Link" target="_blank">Link del Video</a></td>
     </tr> 
 </table>
 
@@ -640,19 +640,17 @@ Esta sección recopila la información obtenida a partir de entrevistas realizad
 
 <div id='2.2.3.'><h4>2.2.3. Análisis de entrevistas</h4></div>
 
-A continuación, se presenta el análisis de las entrevistas realizadas a adultos mayores y cuidadores responsables de su atención. Este estudio permite identificar patrones, necesidades y oportunidades clave para el diseño de la solución IoT de monitoreo de signos vitales y detección de caídas.
+### Análisis del segmento de adultos mayores
 
-</br>
+Los adultos mayores entrevistados valoran la posibilidad de contar con un dispositivo IoT que les brinde seguridad dentro de su propio hogar, especialmente en relación con la detección de caídas y el monitoreo de signos vitales. El 100% coincidió en que la principal ventaja sería la tranquilidad de sentirse acompañados incluso cuando están solos, reduciendo el miedo a sufrir un accidente sin asistencia. Asimismo, la mayoría destacó que un dispositivo ligero, cómodo y fácil de usar es esencial para garantizar la adopción.
 
-**Características comunes entre adultos mayores y cuidadores entrevistados**
+En general, los adultos mayores consideran que esta solución IoT puede mejorar su autonomía y calidad de vida, siempre que se prioricen el diseño ergonómico, la facilidad de uso y el acompañamiento inicial en el aprendizaje.
 
-<img src="Img/grafico-barras-entrevistas-iot.png" alt="Gráfico de barras de las entrevistas IoT" style="margin-bottom: 5px;" width="600"/>
+### Análisis del segmento de cuidadores/familiares
 
-**Fuente**: Datos recolectados mediante entrevistas aplicadas a tres adultos mayores y tres cuidadores en Lima Metropolitana.
+Los cuidadores entrevistados valoran de manera significativa la posibilidad de recibir alertas inmediatas en sus celulares en caso de caídas o alteraciones en los signos vitales de sus familiares. El 100% consideró que la función más importante es la respuesta rápida en emergencias, ya que actualmente dependen de llamadas telefónicas o visitas presenciales que no siempre son oportunas. Un 70% resaltó la utilidad de contar con un historial digital de signos vitales, que facilite la comunicación con médicos en controles regulares.
 
-</br>
-
-De acuerdo con el análisis realizado, los adultos mayores entrevistados manifestaron haber experimentado al menos una caída en el último año, en la mayoría de los casos sin acompañamiento inmediato. Todos coincidieron en que la principal dificultad es la falta de supervisión cuando están solos en casa, especialmente en horas de la mañana o la noche. Asimismo, aunque algunos han utilizado tensiómetros digitales o glucómetros, ninguno emplea actualmente dispositivos inteligentes que transmitan datos en tiempo real. Existe cierta resistencia inicial al uso de tecnología por parte de los adultos mayores, motivada por percepciones de complejidad o incomodidad, pero también mostraron disposición a probar dispositivos siempre que sean fáciles de usar, discretos y económico.
+En general, los cuidadores perciben el sistema IoT como una herramienta clave para reducir la ansiedad y garantizar la seguridad de los adultos mayores, aunque insisten en la necesidad de optimizar la precisión, la usabilidad de la aplicación y el costo de implementación.
 
 <div id='2.3.'><h3>2.3. Needfinding</h3></div>
 <div id='2.3.1.'><h4>2.3.1. User Personas</h4></div>
