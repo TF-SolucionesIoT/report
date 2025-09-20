@@ -38,10 +38,9 @@ width=50%"/>
 
 El objetivo de esta sección es resumir las modificaciones relevantes que se realizan al informe durante el ciclo de vida del proyecto. Esta sección inicia en una página nueva y se incluye un cuadro con la siguiente estructura:
 
-| Versión |   Fecha    |             Autor             | Descripción de modificación                                                                                                                                                                       |
-| :-----: | :--------: | :---------------------------: | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-|a|a|a|a|
-
+| Versión | Fecha | Autor | Descripción de modificación |
+| :-----: | :---: | :---: | --------------------------- |
+|    a    |   a   |   a   | a                           |
 
 # Project Report Collaboration Insights
 
@@ -59,9 +58,9 @@ URL del repositorio para el reporte del proyecto:
 
 Para el desarrollo del informe perteneciente a la entrega TF, se dividió la implementación de secciones de la siguiente forma para cada integrante del equipo:
 
-| Integrante                        | Tareas Asignadas                                                                                                                                                              |
-| --------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-|a|a|
+| Integrante | Tareas Asignadas |
+| ---------- | ---------------- |
+| a          | a                |
 
 **Github Collaboration Insights**
 
@@ -74,8 +73,6 @@ Los integrantes son:
 - Huapaya Cuevas, Anthony (AnthonyHuapaya)
 - Silva Tirado, Sebastián Valentino (SebasSilvaT)
 - Uribe Quispe, Jesús Guillermo(JesusU27)
-
-
 
 # Contenido
 
@@ -140,8 +137,7 @@ Los integrantes son:
 # STUDENT OUTCOME
 
 **ABET – EAC - Student Outcome 5**
- La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos proporcionan liderazgo, crean un entorno de colaboración e inclusivo, establecen objetivos, planifican tareas y cumplen objetivos.
-
+La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos proporcionan liderazgo, crean un entorno de colaboración e inclusivo, establecen objetivos, planifican tareas y cumplen objetivos.
 
 <table>
   <thead>
@@ -173,7 +169,6 @@ forma conjunta</td>
   </tbody>
 </table>
 
-
 <div id='1.'><h2>1. Capítulo I: Introducción</h2></div>
 
 <div id='1.1.'><h3>1.1. Startup Profile</h3></div>
@@ -190,7 +185,6 @@ El envejecimiento poblacional es un fenómeno global y particularmente relevante
 Paralelamente, la Organización Mundial de la Salud (OMS, 2021) advierte que las caídas son la segunda causa mundial de muertes por lesiones accidentales, afectando principalmente a adultos mayores. Los dispositivos IoT aplicados a la telemedicina se han convertido en una alternativa de apoyo para la prevención y respuesta temprana, ya que permiten el registro en tiempo real de parámetros fisiológicos y eventos de riesgo, brindando a los cuidadores o familiares alertas inmediatas.<br>
 
 Sin embargo, en el contexto peruano y de Lima Metropolitana, el acceso a estas tecnologías aún es limitado, con soluciones costosas o poco adaptadas a la realidad socioeconómica local. Esto abre la necesidad de investigar y desarrollar herramientas accesibles que permitan mejorar la calidad de vida de las personas mayores y la tranquilidad de sus familias.<br>
-
 
 **Problemática:**
 
@@ -218,13 +212,13 @@ Afecta directamente a los adultos mayores, y de manera indirecta a sus familiare
 
 Las causas principales son:
 
-* Falta de acceso a herramientas tecnológicas de monitoreo.
+- Falta de acceso a herramientas tecnológicas de monitoreo.
 
-* Alto costo de los dispositivos especializados.
+- Alto costo de los dispositivos especializados.
 
-* Limitada cultura de prevención en salud geriátrica.
+- Limitada cultura de prevención en salud geriátrica.
 
-* Ausencia de soluciones adaptadas al contexto local.
+- Ausencia de soluciones adaptadas al contexto local.
 
 **HOW (Cómo): ¿Cómo llevó a los involucrados a llegar a esta situación?**
 
@@ -236,9 +230,79 @@ El problema afecta a más del 13% de la población peruana (adultos mayores), y 
 
 <div id='1.2.2.'><h4>1.2.2. Lean UX Process</h4></div>
 <div id='1.2.2.1.'><h5>1.2.2.1. Lean UX Problem Statements</h5></div>
+
+<p align="justify">
+En la actualidad, el cuidado de los adultos mayores representa un gran reto debido a la falta de mecanismos accesibles y confiables para monitorear su estado de salud y seguridad en tiempo real. Este desafío se acentúa en contextos donde muchos adultos mayores viven solos o pasan gran parte del día sin supervisión constante, lo que incrementa el riesgo ante emergencias como caídas o alteraciones en sus signos vitales. Garantizar una atención oportuna en este entorno es fundamental para prevenir complicaciones, mejorar la calidad de vida y ofrecer tranquilidad tanto a los adultos mayores como a sus familias.
+
+Actualmente, las familias y cuidadores aún dependen de visitas presenciales o llamadas telefónicas para conocer el estado de sus seres queridos, lo que genera incertidumbre, tiempos de respuesta lentos y, en ocasiones, falta de información médica precisa para la toma de decisiones. La ausencia de una solución tecnológica integral limita la capacidad de detectar emergencias de manera inmediata y de contar con un registro histórico de la salud del adulto mayor, dificultando así la prevención y el seguimiento adecuado de su bienestar.
+
+¿Cómo podemos desarrollar una solución integral basada en dispositivos IoT y una aplicación móvil que permita a los cuidadores o familiares monitorizar en tiempo real los signos vitales y posibles caídas de los adultos mayores, generando alertas inmediatas y un historial accesible, de manera que se incremente la seguridad, se optimice el cuidado y se brinde mayor tranquilidad a todos los involucrados?
+</p>
+
 <div id='1.2.2.2.'><h5>1.2.2.2. Lean UX Assumptions</h5></div>
+
+**Business Assumptions** 
+
+* Creemos que nuestros clientes necesitan una mejor forma de monitorear el estado de salud y seguridad de los adultos mayores, especialmente en lo relacionado con el registro de signos vitales, la detección de caídas y la generación de alertas inmediatas para familiares o cuidadores.
+
+* Estas necesidades se pueden resolver mediante el uso de un dispositivo IoT portátil conectado a una aplicación móvil, que permita la recolección de datos en tiempo real, la centralización de información de salud y el envío de notificaciones en caso de emergencia.
+
+* Los clientes principales son los tutores de los adultos mayores, quienes buscan 
+tranquilidad y rapidez en la respuesta ante emergencias. Sin embargo, la solución también está diseñada para beneficiar directamente a los adultos mayores, al ofrecerles mayor seguridad en su vida cotidiana.
+
+* El valor #1 que busca el cliente es contar con un sistema accesible y confiable que incremente la seguridad y bienestar de los adultos mayores, a la vez que brinde tranquilidad a los tutores mediante la detección temprana de emergencias y un monitoreo continuo de la salud.
+
+* El cliente también puede obtener beneficios adicionales gracias a la flexibilidad y escalabilidad de la solución, que permitirá integrar nuevas métricas de salud como oxigenación, presión arterial y frecuencia cardíaca, además de incluir la capacidad de realizar llamadas a los servicios de emergencia y a los contactos registrados. Asimismo, se podrán generar reportes sobre posibles alteraciones detectadas en el estado de salud.
+
+* Vamos a adquirir la mayoría de los clientes mediante el uso de marketing digital dirigido a familias y asociaciones de adultos mayores, además de alianzas con centros de salud, hogares geriátricos y ONGs, lo que permitirá ampliar la red de usuarios y aumentar la visibilidad de la solución.
+
+* Se hará dinero a través de la venta del dispositivo IoT acompañado de un pago único por el acceso de la aplicación, aplicando cuotas bajas por el soporte y mantenimiento de la aplicación y el dispositivo.
+
+* Nuestra competencia principal en el mercado son las aplicaciones y dispositivos de monitoreo de salud y caídas ya existentes, aunque muchos presentan precios elevados, falta de integración de funciones o interfaces poco intuitivas para adultos mayores.
+
+* Los venceremos gracias al uso de tecnología accesible, un enfoque integral en seguridad y salud, y una experiencia de usuario optimizada tanto para los adultos mayores como para sus cuidadores. Además, ofreceremos soporte técnico cercano y constantes mejoras de la aplicación.
+
+* Nuestro mayor riesgo es que los adultos mayores y sus familias desconfíen o sean reacios al uso de nuevas tecnologías.
+
+* Resolveremos esto a través de demostraciones claras, interfaces simples y un soporte al cliente enfocado en la capacitación, de modo que la adaptación al sistema sea rápida, amigable y sin complicaciones.
+
+**Assumptions Worksheet** 
+
+**¿Quién es el usuario?**
+Los usuarios son los adultos mayores y sus tutores, quienes necesitan una solución confiable para monitorear la salud y la seguridad en tiempo real. El usuario principal son los tutores, quienes toman decisiones sobre herramientas tecnológicas y buscan soluciones que ofrezcan tranquilidad, respuesta rápida ante emergencias y un mejor cuidado para sus seres queridos.
+
+**¿Dónde encaja nuestro producto en su trabajo o vida?**
+Nuestra aplicación móvil junto con el dispositivo IoT se integra en la vida diaria del adulto mayor y su entorno familiar. El dispositivo acompaña al adulto mayor durante todo el día, mientras que la aplicación permite a los tutores monitorear signos vitales, recibir alertas ante caídas y acceder a un historial de salud, convirtiéndose en una herramienta esencial para incrementar la seguridad, optimizar el cuidado y brindar confianza.
+
+**¿Qué problemas tiene nuestro producto? ¿Resolver?**
+El desafío que enfrentan los usuarios es la falta de monitoreo constante cuando los adultos mayores están solos, el riesgo de caídas sin asistencia inmediata y la ausencia de información médica histórica que dificulta el seguimiento de la salud. También puede existir resistencia por parte de algunos adultos mayores al uso de nuevas tecnologías o la desconfianza inicial de las familias hacia la precisión del sistema.
+
+**¿Cuándo y cómo es nuestro producto usado?**
+La aplicación y el dispositivo IoT tienen un uso diario. El adulto mayor porta el dispositivo durante sus actividades cotidianas, mientras que los tutores utilizan la aplicación para monitorear en tiempo real, recibir notificaciones ante emergencias y consultar el historial de eventos o signos vitales.
+
+**¿Qué características son importantes?**
+Las principales características son el monitoreo en tiempo real de signos vitales y caídas, el envío de alertas automáticas inmediatas, un historial accesible con reportes de salud y una interfaz simple e intuitiva.
+
+**¿Cómo debe verse nuestro producto y cómo comportarse?**
+Debe verse limpio, amigable y confiable, transmitiendo seguridad y accesibilidad para el ámbito de salud y cuidado. La aplicación debe responder rápidamente a las acciones del usuario con una navegación sencilla presentar paneles claros con información organizada y notificaciones inmediatas.
+
 <div id='1.2.2.3.'><h5>1.2.2.3. Lean UX Hypothesis Statements</h5></div>
+
+<p align="justify">
+
+**Creemos que**, al incorporar un módulo de monitoreo en tiempo real de signos vitales y caídas, se incrementará la seguridad y tranquilidad de los adultos mayores y sus familias. Sabremos que tenemos éxito cuando logremos una reducción del 70% en incidentes no atendidos a tiempo y una respuesta más rápida por parte de los tutores.
+
+**Creemos que**, al ofrecer reportes resumidos sobre los signos vitales y eventos de caídas, los tutores podrán tomar decisiones más informadas para el cuidado del adulto mayor. Sabremos que estamos cumpliendo este objetivo cuando los cuidadores consulten regularmente los reportes y se observe una mejora del 50% en la prevención y seguimiento de la salud.
+
+**Creemos que**, al incorporar un sistema de alertas automáticas y notificaciones inmediatas a los servicios de emergencia y números registrados, se mejorará la capacidad de respuesta ante emergencias. Sabremos que estamos cumpliendo este objetivo cuando el 80% de las alertas generadas reciban una atención oportuna.
+</p>
+
 <div id='1.2.2.4.'><h5>1.2.2.4. Lean UX Canvas</h5></div>
+
+El Lean UX Canvas permitió estructurar y validar las hipótesis del proyecto, que busca ofrecer un dispositivo IoT con aplicación móvil para el monitoreo de adultos mayores. Con esta herramienta se identificaron los principales problemas, como la falta de monitoreo constante y el riesgo de caídas, los usuarios clave, como los adultos mayores y los tutores, así como los supuestos críticos y riesgos, como la resistencia a nuevas tecnologías. Además, el canvas ayudó a priorizar las funcionalidades esenciales y una interfaz simple, garantizando que la solución se enfoque en generar seguridad, confianza y valor real para los usuarios. <br>
+
+<img src="Img/lean ux canvas iot.jpg" alt="Lean UX Canvas" width="800">
+
 
 <div id='1.3.'><h3>1.3. Segmentos objetivo</h3></div>
 
@@ -270,11 +334,11 @@ En esta sección, definiremos los perfiles específicos del público objetivo pa
 <div id='2.1.1.'><h4>2.1.1. Análisis competitivo</h4></div>
 <div id='2.1.2.'><h4>2.1.2. Estrategias y tácticas frente a competidores</h4></div>
 
-* Diseñaremos un sistema de monitoreo accesible y fácil de usar, con una interfaz pensada tanto para adultos mayores como para familiares y cuidadores. La navegación será intuitiva, con alertas visuales y auditivas claras, además de un soporte técnico adaptado al usuario final, garantizando la confianza y la rápida adopción de la herramienta.
+- Diseñaremos un sistema de monitoreo accesible y fácil de usar, con una interfaz pensada tanto para adultos mayores como para familiares y cuidadores. La navegación será intuitiva, con alertas visuales y auditivas claras, además de un soporte técnico adaptado al usuario final, garantizando la confianza y la rápida adopción de la herramienta.
 
-* Diferenciaremos nuestra propuesta con la integración del sensor de caídas, que no solo enviará alertas automáticas, sino que también permitirá confirmar el estado del paciente a través de la aplicación móvil. Esta característica clave nos permitirá superar a competidores que solo ofrecen monitoreo de signos vitales sin una respuesta integral frente a emergencias.
+- Diferenciaremos nuestra propuesta con la integración del sensor de caídas, que no solo enviará alertas automáticas, sino que también permitirá confirmar el estado del paciente a través de la aplicación móvil. Esta característica clave nos permitirá superar a competidores que solo ofrecen monitoreo de signos vitales sin una respuesta integral frente a emergencias.
 
-* Fortaleceremos la credibilidad de nuestra solución a través de experiencias reales, incorporando testimonios de familiares, cuidadores y profesionales de la salud que validen la utilidad del sistema. Estas historias de éxito serán empleadas en nuestras campañas de marketing y materiales informativos para generar confianza en nuevos usuarios.
+- Fortaleceremos la credibilidad de nuestra solución a través de experiencias reales, incorporando testimonios de familiares, cuidadores y profesionales de la salud que validen la utilidad del sistema. Estas historias de éxito serán empleadas en nuestras campañas de marketing y materiales informativos para generar confianza en nuevos usuarios.
 
 <div id='2.2.'><h3>2.2. Entrevistas</h3></div>
 
@@ -630,149 +694,395 @@ A continuación, se presenta una matriz de tareas enfocada en María Luisa Ramí
     <th class="tg-0pky">Relacionado con (Epic ID)</th>
   </tr></thead>
 <tbody>
+  <tr style="background-color:#f2f2f2;">
+  <td>EP001</td>
+  <td>Autenticación y Gestión de Cuenta</td>
+  <td>Este Epic reúne todas las funcionalidades relacionadas con el acceso inicial del usuario a la aplicación, incluyendo el registro, inicio de sesión y recuperación de credenciales en caso de olvido.</td>
+  <td></td>
+  <td></td>
+</tr>
   <tr>
     <td class="tg-0pky">US01</td>
     <td class="tg-lboi">Registrar usuario</td>
     <td class="tg-lboi">Como adulto mayor o cuidador, quiero registrarme en la aplicación para acceder a los servicios de monitoreo.</td>
     <td class="tg-0pky">Escenario 1: El usuario ingresa al registro.<br>Dado que el usuario desea crear una cuenta<br>Cuando complete los datos solicitados en el formulario de registro<br>Y seleccione el botón Registrarme<br>Entonces la aplicación confirmará el registro y redirigirá al inicio de sesión.</td>
-    <td class="tg-lboi">Epic 01</td>
+    <td class="tg-lboi">EP001</td>
   </tr>
   <tr>
     <td class="tg-0pky">US02</td>
     <td class="tg-lboi">Iniciar sesión</td>
     <td class="tg-lboi">Como usuario, quiero iniciar sesión para acceder a mi perfil y datos de salud.</td>
     <td class="tg-0pky">Escenario 1: Inicio de sesión válido.<br>Dado que el usuario tiene una cuenta registrada<br>Cuando ingrese correo y contraseña correctos<br>Entonces accederá a la pantalla principal.</td>
-    <td class="tg-lboi">Epic 01</td>
+    <td class="tg-lboi">EP001</td>
   </tr>
   <tr>
     <td class="tg-0pky">US03</td>
     <td class="tg-lboi">Recuperar cuenta</td>
     <td class="tg-lboi">Como usuario, quiero recuperar mi cuenta en caso de olvidar mis credenciales.</td>
     <td class="tg-0pky">Escenario 1: Recuperación de contraseña.<br>Dado que el usuario olvidó su contraseña<br>Cuando solicite recuperación e ingrese su correo<br>Entonces recibirá un enlace de restablecimiento.</td>
-    <td class="tg-lboi">Epic 01</td>
+    <td class="tg-lboi">EP001</td>
   </tr>
+  <tr style="background-color:#f2f2f2;">
+  <td>EP002</td>
+  <td>Gestión de Perfil de Usuario</td>
+  <td>Agrupa las funcionalidades orientadas a la administración de los datos personales del usuario. Incluye la visualización del perfil y la actualización de credenciales (contraseña y correo).</td>
+  <td></td>
+  <td></td>
+</tr>
   <tr>
     <td class="tg-0pky">US04</td>
     <td class="tg-lboi">Ver perfil</td>
     <td class="tg-lboi">Como usuario, quiero visualizar mi información personal registrada en la aplicación.</td>
     <td class="tg-0pky">Escenario 1: Visualización correcta.<br>Dado que el usuario está autenticado<br>Cuando acceda a la sección Perfil<br>Entonces podrá ver sus datos registrados.<br></td>
-    <td class="tg-lboi">Epic 02</td>
+    <td class="tg-lboi">EP002</td>
   </tr>
   <tr>
     <td class="tg-0pky">US05</td>
     <td class="tg-lboi">Cambiar datos personales</td>
     <td class="tg-lboi">Como usuario, quiero actualizar mis datos personales para mantener mi información al día.</td>
     <td class="tg-0pky">Escenario 1: Actualización exitosa.<br>Dado que el usuario está autenticado<br>Cuando modifique sus datos y guarde cambios<br>Entonces la aplicación confirmará la actualización.</td>
-    <td class="tg-lboi">Epic 02</td>
+    <td class="tg-lboi">EP002</td>
   </tr>
   <tr>
     <td class="tg-0pky">US06</td>
     <td class="tg-lboi">Cambiar contraseña</td>
     <td class="tg-lboi">Como usuario, quiero cambiar mi contraseña para mantener mi cuenta segura.</td>
     <td class="tg-0pky">Escenario 1: Cambio exitoso.<br>Dado que el usuario está en su perfil<br>Cuando solicite cambiar contraseña e ingrese la nueva<br>Entonces el sistema actualizará la credencial.</td>
-    <td class="tg-lboi">Epic 02</td>
+    <td class="tg-lboi">EP002</td>
   </tr>
   <tr>
     <td class="tg-0pky">US07</td>
     <td class="tg-lboi">Cambiar correo</td>
     <td class="tg-lboi">Como usuario, quiero actualizar mi correo electrónico para recibir notificaciones en la cuenta correcta.</td>
     <td class="tg-0pky">Escenario 1: Cambio de correo.<br>Dado que el usuario está autenticado<br>Cuando ingrese un nuevo correo válido<br>Entonces el sistema lo registrará como nuevo correo de contacto.</td>
-    <td class="tg-lboi">Epic 02</td>
+    <td class="tg-lboi">EP002</td>
   </tr>
+  <tr style="background-color:#f2f2f2;">
+  <td>EP003</td>
+  <td>Monitoreo de Signos Vitales</td>
+  <td>Este epic abarca la visualización de parámetros fisiológicos captados en tiempo real por el dispositivo IoT, permitiendo al usuario consultar su frecuencia cardiaca, presión arterial y niveles de oxigenación.</td>
+  <td></td>
+  <td></td>
+</tr>
   <tr>
     <td class="tg-0pky">US08</td>
     <td class="tg-lboi">Ver frecuencia cardiaca</td>
     <td class="tg-lboi">Como usuario, quiero ver mi frecuencia cardiaca en tiempo real para monitorear mi salud.</td>
     <td class="tg-0pky">Escenario 1: Visualización en dashboard.<br>Dado que el dispositivo IoT está conectado<br>Cuando acceda al panel de signos vitales<br>Entonces la aplicación mostrará la frecuencia cardiaca en BPM.</td>
-    <td class="tg-lboi">Epic 03</td>
+    <td class="tg-lboi">EP003</td>
   </tr>
   <tr>
     <td class="tg-0pky">US09</td>
     <td class="tg-lboi">Ver presión arterial</td>
     <td class="tg-lboi">Como usuario, quiero consultar mis valores de presión arterial para detectar posibles anomalías.</td>
     <td class="tg-0pky">Escenario 1: Lectura correcta.<br>Dado que el dispositivo IoT envía datos<br>Cuando acceda al panel de signos vitales<br>Entonces podrá visualizar la presión sistólica y diastólica.</td>
-    <td class="tg-lboi">Epic 03</td>
+    <td class="tg-lboi">EP003</td>
   </tr>
   <tr>
     <td class="tg-0pky">US10</td>
     <td class="tg-lboi">Ver oxigenación</td>
     <td class="tg-lboi">Como usuario, quiero ver mis niveles de oxigenación (SpO₂) para prevenir riesgos respiratorios.</td>
     <td class="tg-0pky">Escenario 1: Consulta de oxigenación.<br>Dado que el sensor está funcionando<br>Cuando acceda al panel<br>Entonces visualizará el nivel de SpO₂ en %.</td>
-    <td class="tg-lboi">Epic 03</td>
+    <td class="tg-lboi">EP003</td>
   </tr>
   <tr>
-    <td class="tg-0pky">US11</td>
+    <td class="tg-0pky">US11</td> 
+    <td class="tg-lboi">Alertas inteligentes</td> 
+    <td class="tg-lboi">Como usuario, quiero recibir notificaciones automáticas cuando mis signos vitales salgan de los rangos normales, para actuar a tiempo.</td> 
+    <td class="tg-0pky">
+      ES1: Dado que el dispositivo IoT está transmitiendo datos<br>
+      Cuando la frecuencia cardiaca, presión arterial u oxigenación estén fuera de rango<br>
+      Entonces el sistema enviará una notificación inmediata al usuario.<br><br>
+      ES2: Dado que el usuario tiene contactos de emergencia registrados<br>
+      Cuando ocurra una alteración grave<br>
+      Entonces se enviará también la alerta a los contactos autorizados.
+    </td> 
+    <td class="tg-lboi">EP003</td> 
+</tr>
+<tr>
+    <td class="tg-0pky">US12</td> 
+    <td class="tg-lboi">Tendencias gráficas</td> 
+    <td class="tg-lboi">Como usuario, quiero ver gráficos históricos de mis signos vitales para entender la evolución de mi salud.</td> 
+    <td class="tg-0pky">
+      ES1: Dado que el usuario está autenticado<br>
+      Cuando acceda al panel de tendencias<br>
+      Entonces visualizará gráficos de frecuencia cardiaca, presión y oxigenación por día, semana o mes.
+    </td> 
+    <td class="tg-lboi">EP003</td> 
+</tr>
+<tr style="background-color:#f2f2f2;">
+  <td>EP004</td>
+  <td>Registro y Seguimiento de alteraciones</td>
+  <td>Incluye las funcionalidades que permiten registrar, consultar y dar seguimiento a alteraciones de salud, ya sean detectadas automáticamente o reportadas manualmente por el usuario o cuidador.</td>
+  <td></td>
+  <td></td>
+</tr>
+  <tr>
+    <td class="tg-0pky">US13</td>
     <td class="tg-lboi">Reportar una alteración</td>
     <td class="tg-lboi">Como usuario o cuidador, quiero reportar manualmente una alteración en la salud para que quede registrada.</td>
     <td class="tg-0pky">Escenario 1: Reporte exitoso.<br>Dado que el usuario detecta una anomalía<br>Cuando ingrese el reporte en la aplicación<br>Entonces quedará almacenado en el sistema.</td>
-    <td class="tg-lboi">Epic 04</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">US12</td>
-    <td class="tg-lboi">Log de alteraciones</td>
-    <td class="tg-lboi">Como usuario o cuidador, quiero consultar el historial de alteraciones registradas para tener un seguimiento.</td>
-    <td class="tg-0pky">Escenario 1: Consulta del log.<br>Dado que existen reportes previos<br>Cuando acceda a la sección de alteraciones<br>Entonces verá una lista con fecha, hora y detalle.</td>
-    <td class="tg-lboi">Epic 04</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">US13</td>
-    <td class="tg-lboi">Mandar llamado a emergencia 106</td>
-    <td class="tg-lboi">Como usuario, quiero que la aplicación móvil realice un llamado directo al 106 en caso de emergencia.</td>
-    <td class="tg-0pky">Escenario 1: Llamada automática.<br>Dado que el usuario activa la opción de emergencia<br>Cuando presione el botón SOS<br>Entonces el sistema realizará automáticamente la llamada al 106.</td>
-    <td class="tg-lboi">Epic 05</td>
+    <td class="tg-lboi">EP004</td>
   </tr>
   <tr>
     <td class="tg-0pky">US14</td>
+    <td class="tg-lboi">Log de alteraciones</td>
+    <td class="tg-lboi">Como usuario o cuidador, quiero consultar el historial de alteraciones registradas para tener un seguimiento.</td>
+    <td class="tg-0pky">Escenario 1: Consulta del log.<br>Dado que existen reportes previos<br>Cuando acceda a la sección de alteraciones<br>Entonces verá una lista con fecha, hora y detalle.</td>
+    <td class="tg-lboi">EP004</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">US15</td> 
+    <td class="tg-lboi">Registro de síntomas</td> 
+    <td class="tg-lboi">Como usuario, quiero registrar manualmente síntomas adicionales para complementar mis datos de salud.</td> 
+    <td class="tg-0pky">
+      ES1: Dado que el usuario detecta un síntoma<br>
+      Cuando acceda a la sección de síntomas y lo registre<br>
+      Entonces el sistema lo guardará con fecha y hora.<br><br>
+      ES2: Dado que existen síntomas previos registrados<br>
+      Cuando el usuario consulte el historial<br>
+      Entonces podrá verlos listados en orden cronológico.
+    </td> 
+    <td class="tg-lboi">EP004</td> 
+</tr>
+<tr style="background-color:#f2f2f2;">
+  <td>EP005</td>
+  <td>Emergencias y Alerta</td>
+  <td>Este epic integra todas las acciones orientadas a la respuesta rápida ante situaciones críticas, como llamadas directas a números de emergencia y la gestión de contactos adicionales de alerta.</td>
+  <td></td>
+  <td></td>
+</tr>
+  <tr>
+    <td class="tg-0pky">US16</td>
+    <td class="tg-lboi">Mandar llamado a emergencia 106</td>
+    <td class="tg-lboi">Como usuario, quiero que la aplicación móvil realice un llamado directo al 106 en caso de emergencia.</td>
+    <td class="tg-0pky">Escenario 1: Llamada automática.<br>Dado que el usuario activa la opción de emergencia<br>Cuando presione el botón SOS<br>Entonces el sistema realizará automáticamente la llamada al 106.</td>
+    <td class="tg-lboi">EP005</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">US17</td>
     <td class="tg-lboi">Registrar números de emergencia adicionales</td>
     <td class="tg-lboi">Como usuario, quiero registrar números de contacto de emergencia además del 106, para notificar a familiares o cuidadores.</td>
     <td class="tg-0pky">Escenario 1: Registro de contactos.<br>Dado que el usuario desea añadir contactos<br>Cuando ingrese los números en la sección de emergencia<br>Entonces quedarán registrados para llamadas o alertas.</td>
-    <td class="tg-lboi">Epic 05</td>
-  </tr>
-</tbody></table>
-
-<h4>Epics</h4>
-
-<table class="tg"><thead>
-  <tr>
-    <th class="tg-0pky">Epic ID</th>
-    <th class="tg-0pky">Título</th>
-    <th class="tg-0pky">Explicación</th>
-  </tr></thead>
-<tbody>
-  <tr>
-    <td class="tg-lboi">Epic 01</td>
-    <td class="tg-lboi">Autenticación y Recuperación de Cuenta</td>
-    <td class="tg-lboi">Este epic reúne todas las funcionalidades relacionadas con el acceso inicial del usuario a la aplicación, incluyendo el registro, inicio de sesión y recuperación de credenciales en caso de olvido.</td>
+    <td class="tg-lboi">EP005</td>
   </tr>
   <tr>
-    <td class="tg-lboi">Epic 02</td>
-    <td class="tg-lboi">Gestión de Perfil de Usuario</td>
-    <td class="tg-lboi">Agrupa las funcionalidades orientadas a la administración de los datos personales del usuario. Incluye la visualización del perfil y la actualización de credenciales (contraseña y correo).</td>
-  </tr>
-  <tr>
-    <td class="tg-lboi">Epic 03</td>
-    <td class="tg-lboi">Monitoreo de Signos Vitales</td>
-    <td class="tg-lboi">Este epic abarca la visualización de parámetros fisiológicos captados en tiempo real por el dispositivo IoT, permitiendo al usuario consultar su frecuencia cardiaca, presión arterial y niveles de oxigenación.</td>
-  </tr>
-  <tr>
-    <td class="tg-lboi">Epic 04</td>
-    <td class="tg-lboi">Reportes y Seguimiento de Alteraciones</td>
-    <td class="tg-lboi">Incluye las funcionalidades que permiten registrar, consultar y dar seguimiento a alteraciones de salud, ya sean detectadas automáticamente o reportadas manualmente por el usuario o cuidador.</td>
-  </tr>
-  <tr>
-    <td class="tg-lboi">Epic 05</td>
-    <td class="tg-lboi">Emergencias y Alertas</td>
-    <td class="tg-lboi">Este epic integra todas las acciones orientadas a la respuesta rápida ante situaciones críticas, como llamadas directas a números de emergencia y la gestión de contactos adicionales de alerta.</td>
-  </tr>
+    <td class="tg-0pky">US18</td> 
+    <td class="tg-lboi">Geolocalización en emergencias</td> 
+    <td class="tg-lboi">Como usuario, quiero que la aplicación envíe mi ubicación en tiempo real al presionar el botón SOS para agilizar la atención.</td> 
+    <td class="tg-0pky">
+      ES1: Dado que el usuario presiona el botón SOS<br>
+      Cuando el sistema realice la llamada al 106<br>
+      Entonces enviará también la ubicación en tiempo real al contacto autorizado.<br><br>
+      ES2: Dado que el usuario tiene contactos de emergencia registrados<br>
+      Cuando se active la alerta SOS<br>
+      Entonces cada contacto recibirá un SMS/WhatsApp con la ubicación.
+    </td> 
+    <td class="tg-lboi">EP005</td> 
+</tr>
+<tr style="background-color:#f2f2f2;">
+  <td>EP006</td>
+  <td>Soporte al Tratamiento</td>
+  <td>Incluye las funcionalidades que permite facilitar cuestiones sociales o el entendimiento de situaciones médicas.</td>
+  <td></td>
+  <td></td>
+</tr>
+<tr>
+    <td class="tg-0pky">US19</td> 
+    <td class="tg-lboi">Recordatorios de medicamentos</td> 
+    <td class="tg-lboi">Como usuario, quiero programar recordatorios de medicación para no olvidar tomarlos en el horario correcto.</td> 
+    <td class="tg-0pky">
+      ES1: Dado que el usuario ingresó un medicamento y horario<br>
+      Cuando llegue la hora programada<br>
+      Entonces la aplicación enviará una notificación recordatoria.<br><br>
+      ES2: Dado que el medicamento está marcado como "tomado"<br>
+      Cuando el usuario confirme la acción<br>
+      Entonces quedará registrado en el historial de medicación.
+    </td> 
+    <td class="tg-lboi">EP006</td> 
+</tr>
+<tr>
+    <td class="tg-0pky">US20</td> 
+    <td class="tg-lboi">Acceso multiusuario</td> 
+    <td class="tg-lboi">Como usuario, quiero autorizar a familiares o cuidadores para que puedan ver mi estado de salud en tiempo real.</td> 
+    <td class="tg-0pky">
+      ES1: Dado que el usuario desea compartir sus datos<br>
+      Cuando registre un familiar/cuidor en la sección de autorizaciones<br>
+      Entonces el sistema permitirá que dicho contacto acceda al panel de salud.<br><br>
+      ES2: Dado que un familiar tiene acceso<br>
+      Cuando consulte los signos vitales<br>
+      Entonces visualizará los mismos datos que el usuario en tiempo real.
+    </td> 
+    <td class="tg-lboi">EP006</td> 
+</tr>
 </tbody></table>
 
 <div id='3.2.'><h3>3.2. Impact Mapping</h3></div>
 <div id='3.3.'><h3>3.3. Product Backlog</h3></div>
 
+<table border="1" cellspacing="0" cellpadding="5">
+  <thead>
+    <tr>
+      <th>Orden</th>
+      <th>User Story ID</th>
+      <th>Título</th>
+      <th>Descripción</th>
+      <th>Story Points (1/2/3/5/8)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>US11</td>
+      <td>Alertas inteligentes</td>
+      <td>Recibir notificaciones automáticas cuando los signos vitales salgan de los rangos normales.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>US18</td>
+      <td>Geolocalización en emergencias</td>
+      <td>Enviar ubicación en tiempo real al activar el botón SOS.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>US12</td>
+      <td>Tendencias gráficas</td>
+      <td>Visualizar gráficos históricos de los signos vitales por día, semana o mes.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>US20</td>
+      <td>Acceso multiusuario</td>
+      <td>Autorizar a familiares o cuidadores para ver el estado de salud en tiempo real.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>US19</td>
+      <td>Recordatorios de medicamentos</td>
+      <td>Programar notificaciones para recordar la toma de medicamentos.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>US16</td>
+      <td>Mandar llamado a emergencia 106</td>
+      <td>Llamar automáticamente al 106 desde la app en caso de emergencia.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>US17</td>
+      <td>Registrar números de emergencia adicionales</td>
+      <td>Añadir contactos de emergencia adicionales para notificación en caso de SOS.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>US15</td>
+      <td>Registro de síntomas</td>
+      <td>Registrar manualmente síntomas adicionales y consultarlos en un historial.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>US13</td>
+      <td>Reportar una alteración</td>
+      <td>Reportar manualmente una alteración en la salud.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>US14</td>
+      <td>Log de alteraciones</td>
+      <td>Consultar el historial de alteraciones registradas.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td>US05</td>
+      <td>Cambiar datos personales</td>
+      <td>Actualizar datos personales en el perfil.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td>US06</td>
+      <td>Cambiar contraseña</td>
+      <td>Actualizar la contraseña desde el perfil.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>13</td>
+      <td>US07</td>
+      <td>Cambiar correo</td>
+      <td>Actualizar el correo electrónico para recibir notificaciones correctas.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>14</td>
+      <td>US08</td>
+      <td>Ver frecuencia cardiaca</td>
+      <td>Visualizar la frecuencia cardiaca en tiempo real.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>15</td>
+      <td>US09</td>
+      <td>Ver presión arterial</td>
+      <td>Consultar los valores de presión arterial en el panel de signos vitales.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>16</td>
+      <td>US10</td>
+      <td>Ver oxigenación</td>
+      <td>Consultar el nivel de oxigenación (SpO₂) en tiempo real.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>17</td>
+      <td>US01</td>
+      <td>Registrar usuario</td>
+      <td>Registrarse en la aplicación para acceder a los servicios de monitoreo.</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>18</td>
+      <td>US02</td>
+      <td>Iniciar sesión</td>
+      <td>Acceder al perfil y datos de salud con usuario y contraseña.</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>19</td>
+      <td>US03</td>
+      <td>Recuperar cuenta</td>
+      <td>Recuperar la cuenta en caso de olvidar las credenciales.</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>20</td>
+      <td>US04</td>
+      <td>Ver perfil</td>
+      <td>Visualizar información personal registrada en la aplicación.</td>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table>
+
+
 <div id='4.'><h2>4. Capítulo IV: Solution Software Design</h2></div>
 
 <div id='4.1.'><h3>4.1. Strategic-Level Domain-Driven Design</h3></div>
 <div id='4.1.1.'><h4>4.1.1. Design-Level EventStorming</h4></div>
+
+<div>
+<img src="" alt="eventstorming_1">
+</div>
 <div id='4.1.1.1.'><h5>4.1.1.1. Candidate Context Discovery</h5></div>
 <div id='4.1.1.2.'><h5>4.1.1.2. Domain Message Flows Modeling</h5></div>
 <div id='4.1.1.3.'><h5>4.1.1.3. Bounded Context Canvases</h5></div>
