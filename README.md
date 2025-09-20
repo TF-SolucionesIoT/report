@@ -1215,6 +1215,16 @@ Primero identificamos los eventos y trazamos mediante una línea imaginaria que 
 
 Algunos eventos estan en la misma columna, ya que, el orden no es consecutivo por parte de estos. identificamos a los eventos con un post-it de color anaranjado.
 
+- Post It Anaranjado: Evento a realizar.
+- Post It Azul: Comando que desata el evento de su derecha.
+- Post It Amarillo: Usuario final que genera el comando de su derecha.
+Delimitaciones amarillas: Secciona eventos y comandos relacionados a un "aggregate".
+- Post It Morado: Políticas y reglas de negocio.
+- Post It Verde: referencia a modelos UI (lo que veerá el usuario)
+- Post It Celeste: Agentes externos
+- Delimitaciones de color negro: Secciona uno o más aggregates relacionados a un bounded context.
+- Flechas punteadas: indicadores de comandos que generan eventos en distintos aggregates o bounded contexts.
+
 <div aling="center">
 <img src="Img/event1.png" >
 </div>
@@ -1433,6 +1443,7 @@ A continuación representaremos las conexiones entre bounded context mediante Do
 </div>
 
 <div id='4.2.'><h3>4.2. Tactical-Level Domain-Driven Design</h3></div>
+
 <div id='4.2.x.'><h4>4.2.X. Bounded Context: &lt;Bounded Context Name&gt;</h4></div>
 <div id='4.2.x.1.'><h5>4.2.X.1. Domain Layer</h5></div>
 <div id='4.2.x.2.'><h5>4.2.X.2. Interface Layer</h5></div>
