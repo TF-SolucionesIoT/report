@@ -805,6 +805,11 @@ A continuación, se presenta una matriz de tareas enfocada en María Luisa Ramí
 <img src="Img/Empathy_map2.png" alt="Journey_Mapping2"></img>
 
 <div id='2.4.'><h3>2.4. Big Picture EventStorming</h3></div>
+
+<div align="center">
+<img src="./Img/event10.png">
+</div>
+
 <div id='2.5.'><h3>2.5. Ubiquitous Language</h3></div>
 
 <div id='3.'><h2>3. Capítulo III: Requirements Specification</h2></div>
@@ -1206,19 +1211,226 @@ A continuación, se presenta una matriz de tareas enfocada en María Luisa Ramí
 <div id='4.1.'><h3>4.1. Strategic-Level Domain-Driven Design</h3></div>
 <div id='4.1.1.'><h4>4.1.1. Design-Level EventStorming</h4></div>
 
-<div>
-<img src="" alt="eventstorming_1">
+Primero identificamos los eventos y trazamos mediante una línea imaginaria que va de izquierda a derecha.
+
+Algunos eventos estan en la misma columna, ya que, el orden no es consecutivo por parte de estos. identificamos a los eventos con un post-it de color anaranjado.
+
+<div aling="center">
+<img src="Img/event1.png" >
+</div>
+
+<div aling="center">
+<img src="Img/event2.png" >
+</div>
+
+Como segundo paso, identificamos los comandos que llevan a acabo el evento. Identificamos a estos con un post-it de color azul.
+
+<div aling="center">
+<img src="Img/event3.png" >
+</div>
+
+Como tercer paso, identificamos los actores que realizan los comandos anteriormente establecidos.
+
+<div aling="center">
+<img src="Img/event4.png" >
+</div>
+
+Como cuarto paso, identificamos las políticas o reglas de negocio ligadas a los eventos.
+
+<div aling="center">
+<img src="Img/event5.png" >
+</div>
+
+Como quinto paso enlazamos una pequeña descripción de lo que seria la representación de los datos al usuario final.
+
+<div aling="center">
+<img src="Img/event6.png" >
+</div>
+
+<div aling="center">
+<img src="Img/event7.png" >
+</div>
+
+Como sexto paso identificamos los servicios externos y los segmentamos por Bounded Context.
+
+<div aling="center">
+<img src="Img/event8.png" >
+</div>
+
+Como séptimo paso, identificamos los agregados de cada bounded context
+
+<div aling="center">
+<img src="Img/event9.png" >
+</div>
+
+Como último paso determinamos las conexiones entre diferentes bounded context. Dichas relaciones se representan con una flecha punteada.
+
+<div aling="center">
+<img src="Img/event10.png" >
 </div>
 <div id='4.1.1.1.'><h5>4.1.1.1. Candidate Context Discovery</h5></div>
+
+En este segmento, identificamos y fundamentamos la elección de los bounded context mediante "start-with-value", "start-with-simple" y "look-for-pivotal-evens".
+
+
+| **Técnica**                | **Cómo se aplica**                                                                                       | **Bounded Contexts Identificados**                                                                 |
+|-----------------------------|----------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
+| **Start-with-Value**        | Se parte de lo más crítico para el negocio (seguridad, continuidad del servicio, confianza del usuario). | - **IAM** (login, registro, recuperación de cuenta)<br>- **Emergency Management** (SOS, alertas)   |
+| **Start-with-Simple**       | Se descomponen procesos en pasos secuenciales y fáciles de aislar.                                      | - **User Profile** (datos personales, multiusuario)<br>- **Treatment Support** (medicación, agenda) |
+| **Look-for-Pivotal-Events** | Se detectan eventos clave que cambian estados de negocio.                                               | - **Monitoring** (datos IoT que generan alertas)<br>- **Health Tracking** (síntomas → historial)   |
+
+
 <div id='4.1.1.2.'><h5>4.1.1.2. Domain Message Flows Modeling</h5></div>
+
+A continuación representaremos las conexiones entre bounded context mediante Domain Storytelling para comprender como funcionan los procesos de negocios en las diferentes partes interesadas, incluyendo expertos del negocio y equipos técnicos.
+
+**Escenario 1: Autenticación de un usuario general en el aplicativo**
+
+<div aling="center">
+<img src="Img/message_flow.png" >
+</div>
+
+<br>
+
+**Escenario 2: Detección en una anomalía de los signos vitales**
+
+<div aling="center">
+<img src="Img/message_flow2.png" >
+</div>
+
+
+
 <div id='4.1.1.3.'><h5>4.1.1.3. Bounded Context Canvases</h5></div>
 
 <div id='4.1.2.'><h4>4.1.2. Context Mapping</h4></div>
+
+<div aling="center">
+<img src="Img/context_mapping.png" alt="context_mapping." >
+</div>
+
+
+#### IAM BC
+
+- Rol: provee identidad/autenticación/autorización.
+
+- Patrón: Customer/Supplier → todos los demás consumen.
+
+##### Relaciones:
+ upstream común, no guarda lógica de negocio.
+
+
+#### UserProfile BC
+
+- Rol: perfil de usuario, datos demográficos, médicos base.
+
+- Patrón: Shared Kernel → comparte atributos con Monitoring y HealthTracking.
+
+##### Relaciones:
+
+- Enlaza con IAM para identidad.
+
+- Alimenta Monitoring (edad, sexo, condiciones para thresholds).
+
+- Alimenta HealthTracking (historial médico y datos base).
+
+#### Monitoring BC
+
+- Rol: ingestión de datos de IoT, almacenamiento temporal, publicación de eventos.
+
+- Patrón: Publica en EventBus → Customer/Supplier. Integra con dispositivos → Anti-Corruption Layer.
+
+##### Relaciones:
+
+- Depende de UserProfile para contexto del paciente.
+
+- Interactúa con RulesService para thresholds básicos.
+
+- Si RulesService cae, aplica thresholds locales como fallback.
+
+##### HealthTracking BC
+
+- Rol: historial clínico, tendencias, analítica de datos a largo plazo.
+
+- Patrón: Consume EventBus → Customer/Supplier. Comparte datos clínicos con UserProfile (Shared Kernel).
+
+##### Relaciones:
+
+- Interactúa con RulesService para análisis más fino.
+
+- Expone datos a TreatmentSupport.
+
+#### TreatmentSupport BC
+
+- Rol: recordatorios de medicación, adherencia, soporte al tratamiento.
+
+- Patrón: Consume EventBus → Customer/Supplier. Usa NotificationService para enviar alertas al paciente.
+
+##### Relaciones:
+- depende de datos de HealthTracking para tendencias de adherencia.
+
+#### EmergencyManagement BC
+
+- Rol: gestión de emergencias (contactos, ubicación, llamadas 106).
+
+- Patrón: Consume EventBus (cuando se generan alertas).
+
+- Se integra con NotificationService para avisos.
+
+- Integra con sistemas externos (106, SMS, WhatsApp) vía Anti-Corruption Layer.
+
+### Shared Services
+#### EventBus
+
+- Rol: desacoplar productores (Monitoring) y consumidores (HT, Emergencias, Tratamiento).
+
+- Beneficio: bajo acoplamiento, facilita nuevos consumidores.
+
+- Riesgo: complejidad infraestructura → requiere monitoreo y escalabilidad.
+
+#### RulesService
+
+- Rol: centralizar reglas de negocio y thresholds clínicos.
+
+- Relación: Monitoring y HealthTracking lo consultan para validar datos.
+
+- Beneficio: consistencia, un solo lugar para reglas.
+
+- Riesgo: SPOF si no se diseña redundante → requiere fallback en Monitoring.
+
+#### NotificationService
+
+- Rol: unificar envío de notificaciones (push, SMS, WhatsApp).
+
+- Beneficio: evita duplicación de lógica en Emergency y Treatment.
+
+- Riesgo: debe soportar alta disponibilidad y multi-canal.
+
+
 <div id='4.1.3.'><h4>4.1.3. Software Architecture</h4></div>
 <div id='4.1.3.1.'><h5>4.1.3.1. Software Architecture System Landscape Diagram</h5></div>
+
+<div align="center">
+<img src="Img/structurizr-SystemLandscape.png">
+</div>
+
 <div id='4.1.3.2.'><h5>4.1.3.2. Software Architecture Context Level Diagrams</h5></div>
+
+<div align="center">
+<img src="Img/structurizr-SystemContext.png">
+</div>
+
 <div id='4.1.3.3.'><h5>4.1.3.3. Software Architecture Container Level Diagrams</h5></div>
+
+<div align="center">
+<img src="Img/structurizr-HealthcareSystemContainers.png">
+</div>
+
+
 <div id='4.1.3.4.'><h5>4.1.3.4. Software Architecture Deployment Diagrams</h5></div>
+
+<div align="center">
+<img src="Img/structurizr-AmazonWebServicesDeployment.png">
+</div>
 
 <div id='4.2.'><h3>4.2. Tactical-Level Domain-Driven Design</h3></div>
 <div id='4.2.x.'><h4>4.2.X. Bounded Context: &lt;Bounded Context Name&gt;</h4></div>
