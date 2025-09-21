@@ -40,7 +40,7 @@ El objetivo de esta sección es resumir las modificaciones relevantes que se rea
 
 | Versión | Fecha | Autor | Descripción de modificación |
 | :-----: | :---: | :---: | --------------------------- |
-|    a    |   a   |   a   | a                           |
+|    TB1    |   21/09   |   a   | z                           |
 
 # Project Report Collaboration Insights
 
@@ -120,7 +120,52 @@ Los integrantes son:
    4.1.3.3. [Software Architecture Container Level Diagrams.](#4.1.3.3.)<br>
    4.1.3.4. [Software Architecture Deployment Diagrams.](#4.1.3.4.)<br>
    4.2. [Tactical-Level Domain-Driven Design.](#4.2.)<br>
-   4.2.6. [Bounded Context: Treatment Support](#4.2.6)<br>
+   4.2.1. [Bounded Context: IAM.](#4.2.1.)<br>
+   4.2.1.1. [Domain Layer.](#4.2.1.1.)<br>
+   4.2.1.2. [Interface Layer.](#4.2.1.2.)<br>
+   4.2.1.3. [Application Layer.](#4.2.1.3.)<br>
+   4.2.1.4. [Infrastructure Layer.](#4.2.1.4.)<br>
+   4.2.1.5. [Bounded Context Software Architecture Component Level Diagrams.](#4.2.1.5.)<br>
+   4.2.1.6. [Bounded Context Software Architecture Code Level Diagrams.](#4.2.1.6.)<br>
+   4.2.1.6.1. [Bounded Context Domain Layer Class Diagrams.](#4.2.1.6.1.)<br>
+   4.2.1.6.2. [Bounded Context Database Design Diagram.](#4.2.1.6.2.)<br>
+   4.2.2. [Bounded Context: Profile.](#4.2.2.)<br>
+   4.2.2.1. [Domain Layer.](#4.2.2.1.)<br>
+   4.2.2.2. [Interface Layer.](#4.2.2.2.)<br>
+   4.2.2.3. [Application Layer.](#4.2.2.3.)<br>
+   4.2.2.4. [Infrastructure Layer.](#4.2.2.4.)<br>
+   4.2.2.5. [Bounded Context Software Architecture Component Level Diagrams.](#4.2.2.5.)<br>
+   4.2.2.6. [Bounded Context Software Architecture Code Level Diagrams.](#4.2.2.6.)<br>
+   4.2.2.6.1. [Bounded Context Domain Layer Class Diagrams.](#4.2.2.6.1.)<br>
+   4.2.2.6.2. [Bounded Context Database Design Diagram.](#4.2.2.6.2.)<br>
+   4.2.3. [Bounded Context: Health Tracking.](#4.2.3.)<br>
+   4.2.3.1. [Domain Layer.](#4.2.3.1.)<br>
+   4.2.3.2. [Interface Layer.](#4.2.3.2.)<br>
+   4.2.3.3. [Application Layer.](#4.2.3.3.)<br>
+   4.2.3.4. [Infrastructure Layer.](#4.2.3.4.)<br>
+   4.2.3.5. [Bounded Context Software Architecture Component Level Diagrams.](#4.2.3.5.)<br>
+   4.2.3.6. [Bounded Context Software Architecture Code Level Diagrams.](#4.2.3.6.)<br>
+   4.2.3.6.1. [Bounded Context Domain Layer Class Diagrams.](#4.2.3.6.1.)<br>
+   4.2.3.6.2. [Bounded Context Database Design Diagram.](#4.2.3.6.2.)<br>
+   4.2.4. [Bounded Context: Monitoring.](#4.2.4.)<br>
+   4.2.4.1. [Domain Layer.](#4.2.4.1.)<br>
+   4.2.4.2. [Interface Layer.](#4.2.4.2.)<br>
+   4.2.4.3. [Application Layer.](#4.2.4.3.)<br>
+   4.2.4.4. [Infrastructure Layer.](#4.2.4.4.)<br>
+   4.2.4.5. [Bounded Context Software Architecture Component Level Diagrams.](#4.2.4.5.)<br>
+   4.2.4.6. [Bounded Context Software Architecture Code Level Diagrams.](#4.2.4.6.)<br>
+   4.2.4.6.1. [Bounded Context Domain Layer Class Diagrams.](#4.2.4.6.1.)<br>
+   4.2.4.6.2. [Bounded Context Database Design Diagram.](#4.2.4.6.2.)<br>
+   4.2.5. [Bounded Context: <Bounded Context Name>.](#4.2.5.)<br>
+   4.2.5.1. [Domain Layer.](#4.2.5.1.)<br>
+   4.2.5.2. [Interface Layer.](#4.2.5.2.)<br>
+   4.2.5.3. [Application Layer.](#4.2.5.3.)<br>
+   4.2.5.4. [Infrastructure Layer.](#4.2.5.4.)<br>
+   4.2.5.5. [Bounded Context Software Architecture Component Level Diagrams.](#4.2.5.5.)<br>
+   4.2.5.6. [Bounded Context Software Architecture Code Level Diagrams.](#4.2.5.6.)<br>
+   4.2.5.6.1. [Bounded Context Domain Layer Class Diagrams.](#4.2.5.6.1.)<br>
+   4.2.5.6.2. [Bounded Context Database Design Diagram.](#4.2.5.6.2.)<br>
+    4.2.6. [Bounded Context: Treatment Support](#4.2.6)<br>
    4.2.6.1. [Domain Layer.](#4.2.6.1.)<br>
    4.2.6.2. [Interface Layer.](#4.2.6.2.)<br>
    4.2.6.3. [Application Layer.](#4.2.6.3.)<br>
@@ -129,8 +174,6 @@ Los integrantes son:
    4.2.6.6. [Bounded Context Software Architecture Code Level Diagrams.](#4.2.6.6.)<br>
    4.2.6.6.1. [Bounded Context Domain Layer Class Diagrams.](#4.2.6.6.1.)<br>
    4.2.6.6.2. [Bounded Context Database Design Diagram.](#4.2.6.6.2.)<br>
-
-
 
 5. [Conclusiones](#5.)<br>
 6. [Bibliografía](#6.)<br>
@@ -151,27 +194,44 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
   </thead>
   <tbody>
     <tr>
-      <td style="font-weight:bold">Trabaja en equipo para
-proporcionar liderazgo en
-forma conjunta</td>
+      <td>Trabaja en equipo para proporcionar liderazgo en forma conjunta</td>
       <td>
       <strong>Huanaco Huayta, Elizabeth Lucero</strong><br>
       <strong>TB1:</strong><br>
       El desarrollo de estas tareas, desde la aplicación del Lean UX Process hasta la definición del Bounded Context: Treatment Support con sus diferentes capas y diagramas, me permitió trabajar en equipo de manera organizada y colaborativa. Cada actividad requirió discutir ideas, validar supuestos, formular hipótesis y estructurar el diseño técnico de forma conjunta, lo que fomentó la toma de decisiones compartida y la distribución de responsabilidades. Este proceso fortaleció la comunicación y coordinación dentro del grupo, lo que me permitió contribuir activamente a alcanzar el objetivo común.
+        <b>Bohorquez Lerzundi Gerardo Sebastián:</b>
+       <br> 
+       <b>TB1:</b> Participé activamente en reuniones del grupo, compartiendo ideas y propuestas sobre la estructuración del Bounded Context de Monitoring, organizando la funcionalidad en servicios y capas de arquitectura. Además, coordiné con mis compañeros para asegurar que las tareas se distribuyeran de manera equitativa y que cada miembro comprendiera su rol dentro del proyecto.
+        <br><br>
+        Huapaya Cuevas, Anthony Martin:<br>
+        TB1: En el equipo aporté liderazgo conjunto al desarrollar el Lean UX Process, ya que ayudó a estructurar nuestras hipótesis y experimentos de manera clara, lo que facilitó la toma de decisiones colaborativas. Además, trabajé en los bounded context canvases de health tracking, lo que permitió al grupo alinear la visión del sistema y delimitar responsabilidades dentro del diseño, favoreciendo un liderazgo distribuido. Finalmente, al realizar el registro de entrevistas, contribuí a organizar la información obtenida de los usuarios, asegurando que todo el equipo pudiera basar sus decisiones en evidencia real y compartida.
+        <br><br>
+        Sebastian Silva: <br>
+        TB1: Coordinó la distribución de responsabilidades entre los integrantes del equipo, 
+        fomentando la toma de decisiones de manera consensuada. Propuso soluciones 
+        ante dificultades técnicas y apoyó a sus compañeros en la comprensión de las tareas asignadas. <br>
       </td>
       <td>
-        <!--conclusion -->
+      -
       </td>
     </tr>
     <tr>
-      <td style="font-weight:bold">Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.</td>
+      <td>Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.</td>
       <td>
-      <strong>Huanaco Huayta, Elizabeth Lucero</strong><br>
+        <br><br><b>Bohorquez Lerzundi Gerardo Sebastián</b><br> 
+       <b>TB1:</b>  Contribuí en la fase de needfinding, realizando análisis de user persona y empathy map para identificar necesidades reales de los usuarios. Esto permitió al grupo empatizar con los clientes y definir soluciones más ajustadas. También participé en la planificación de tareas del proyecto, ayudando a cumplir objetivos establecidos en tiempo y forma.
+        <strong>Huanaco Huayta, Elizabeth Lucero</strong><br>
       <strong>TB1:</strong><br>
       Durante el desarrollo de estas tareas logré desarrollar junto a mi equipo un entorno colaborativo e inclusivo, en el que cada integrante pudo aportar ideas y conocimientos desde su experiencia. Definimos metas claras, como la elaboración del Lean UX Canvas y los diferentes Bounded Context, lo que nos permitió planificar tareas de manera ordenada y asignarlas. Gracias a esta organización, pudimos cumplir con los objetivos establecidos en el tiempo acordado, fortaleciendo la participación equitativa y el compromiso hacia el proyecto del curso.
+        Huapaya Cuevas, Anthony Martin:<br>
+        TB1: Durante el proyecto fomenté un entorno colaborativo e inclusivo al aplicar el Lean UX Process, donde todas las ideas del equipo fueron consideradas y priorizadas de manera conjunta. A través de los bounded context canvases de health tracking, ayudé a establecer metas claras y a planificar tareas específicas relacionadas con el diseño de los dominios, asegurando que cada miembro comprendiera su responsabilidad. Con el registro de entrevistas, contribuí a cumplir los objetivos del equipo, ya que la información recogida permitió orientar el diseño hacia las necesidades reales de los usuarios.
+        <br>Sebastian Silva: <br>
+        TB1: Promovió reuniones periódicas para definir objetivos y plazos, fomentó la 
+        participación activa de cada miembro y aseguró que las ideas fueran valoradas por igual. 
+        Elaboró un cronograma de actividades y dio seguimiento al cumplimiento de tareas.
       </td>
       <td>
-        <!-- conclusion -->
+       -
       </td>
     </tr>
   </tbody>
@@ -181,6 +241,9 @@ forma conjunta</td>
 
 <div id='1.1.'><h3>1.1. Startup Profile</h3></div>
 <div id='1.1.1.'><h4>1.1.1. Descripción del startup</h4></div>
+
+AlertaVital es una startup tecnológica dedicada a desarrollar soluciones innovadoras basadas en Internet de las Cosas (IoT) para mejorar la calidad de vida de las personas mayores y sus familias. Nuestra misión es proporcionar herramientas accesibles y confiables que permitan el monitoreo en tiempo real de signos vitales y la detección de caídas, brindando tranquilidad y seguridad tanto a los adultos mayores como a sus cuidadores. A través de un dispositivo portátil y una aplicación móvil intuitiva, AlertaVital busca transformar la manera en que se cuida a los adultos mayores, facilitando la prevención de emergencias y promoviendo un envejecimiento saludable y autónomo.
+
 <div id='1.1.2.'><h4>1.1.2. Perfiles de los integrantes del equipo</h4></div>
 
 
@@ -466,6 +529,20 @@ En esta sección, definiremos los perfiles específicos del público objetivo pa
 
 <div id='2.1.'><h3>2.1. Competidores</h3></div>
 <div id='2.1.1.'><h4>2.1.1. Análisis competitivo</h4></div>
+
+| **Competidor** |<img src="Img/nuestro-logo.svg" alt="Logo Nuestra Solución" style="margin-bottom: 5px;" width="800"> | <img src="Img/applewathc-logo.svg" alt="Logo Apple Watch" style="margin-bottom: 5px;" width="800"> | <img src="Img/unaliwear-logo.png" alt="Logo UnaliWear Kanega Watch" style="margin-bottom: 5px;" width="800"> | <img src="Img/bayalarm-logo.png" alt="Logo Bay Alarm SOS Smartwatch" style="margin-bottom: 5px;" width="800"> | <img src="Img/bewell-logo.png" alt="Logo BeWell Alert Smartwatch" style="margin-bottom: 5px;" width="800"> |
+| --------------------------- | ------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
+| **Perfil Overview** | **Nuestra Solucion**   Brazalete inteligente IoT con app móvil para monitoreo en tiempo real de signos vitales y detección de caídas en adultos mayores, enfocado en el mercado peruano. | Reloj inteligente con enfoque en monitoreo de salud, fitness y seguridad, incluyendo detección de caídas y signos vitales para usuarios mayores. | Reloj de alerta médica con detección de caídas, diseñado para protección 24/7 sin necesidad de recarga constante. | Reloj de alerta médica independiente con detección de caídas automática y seguimiento de ubicación para seniors activos. | Reloj inteligente para seniors con detección de caídas, monitoreo de signos vitales y GPS en tiempo real. |
+| **Ventaja competitiva** | Solución accesible y local con integración IoT completa, alertas inmediatas a cuidadores y servicios de emergencia, interfaz intuitiva para adultos mayores y soporte técnico cercano en Perú. | Sensores avanzados para ECG, detección de hipertensión y apnea del sueño, integración con ecosistema Apple. | Tecnología RealFall™ para detección precisa de caídas, batería intercambiable y conectividad dual (celular y WiFi). | Operación independiente sin smartphone, detección de caídas con IA y red 4G LTE para claridad y velocidad. | Dispositivo gratuito con suscripción, compliant con HIPAA, centro de emergencias certificado 24/7. |
+| **Mercado objetivo** | Adultos mayores de 60 años en Perú (especialmente Lima Metropolitana) con enfermedades crónicas, y sus cuidadores familiares que buscan tranquilidad y respuesta rápida. | Adultos mayores y personas preocupadas por la salud en áreas urbanas, con énfasis en independencia y monitoreo continuo. | Seniors que necesitan protección constante contra caídas y emergencias, priorizando facilidad de uso. | Elderly activos que requieren alertas médicas sin dependencia de teléfonos, en entornos cotidianos. | Adultos mayores viviendo solos o con condiciones médicas, y sus cuidadores buscando tranquilidad. |
+| **Estrategia de marketing** | Marketing digital dirigido a familias y asociaciones de adultos mayores, alianzas con centros de salud, hogares geriátricos y ONGs en Perú. | Presencia en tiendas Apple, publicidad digital, énfasis en características de salud y fitness, ofertas como Fitness+ gratis. | Endorsements de expertos (NY Times, NCOA), historias de clientes, contenido educativo comparativo. | Promociones como descuentos y meses gratis, enfoque en simplicidad y reseñas positivas (4.8/5). | Testimonios de usuarios y médicos, calificación alta (4.9/5), énfasis en transparencia y recomendaciones. |
+| **Productos & Servicios** | Monitoreo continuo de signos vitales (pulso, respiración, saturación de oxígeno), detección de caídas, alertas automáticas a cuidadores y emergencias, historial accesible, reportes de salud, integración con llamadas de emergencia. | Detección de caídas, monitoreo de signos vitales (ritmo cardíaco, respiración, temperatura), ECG, notificaciones de irregularidades, alertas de emergencia. | Detección de caídas automática, activación por voz o botón, conexión a agentes 24/7, sin monitoreo vital directo. | Detección de caídas con IA, botón SOS, comunicación bidireccional, contador de pasos, alertas de batería baja. | Detección de caídas automática, monitoreo de ritmo cardíaco, GPS, botón SOS con altavoz bidireccional, alertas a emergencias. |
+| **Precios & Costos** | Venta del dispositivo con pago único por acceso a la app, cuotas bajas mensuales por soporte y mantenimiento. | Precio del dispositivo desde aproximadamente $399, sin suscripción obligatoria para funciones básicas de salud. | Precio no especificado en el contenido, enfocado en suscripción para monitoreo 24/7. | Suscripciones desde $39.95/mes, con promociones de descuento y mes gratis. | Suscripciones desde $34.95/mes, dispositivo gratis, sin tarifas ocultas. |
+| **Canales de distribución** | App móvil (iOS/Android), ventas en línea, alianzas con centros de salud y ONGs. | Tiendas Apple, sitio web, App Store. | Sitio web oficial, posiblemente Amazon. | Sitio web, compras en línea con envíos. | Sitio web oficial con envíos gratuitos. |
+| **Debilidades** | Producto nuevo en el mercado, posible resistencia inicial de adultos mayores a la tecnología, dependencia de cobertura móvil en Perú. | Requiere iPhone para configuración completa, batería diaria, precio alto para algunos usuarios. | No apto para inmersión en agua, no monitorea signos vitales directamente. | Vida de batería variable (6-18 horas), GPS limitado actualmente. | Dependencia de red móvil, posibles limitaciones en áreas sin cobertura. |
+| **Oportunidades** | Crecimiento del envejecimiento poblacional en Perú (13%+), alta demanda de soluciones accesibles para monitoreo de salud crónica y prevención de caídas. | Expansión en telemedicina y integración con más métricas de salud en mercados crecientes de envejecimiento. | Mejoras en tecnología RealFall™ y expansión a más usuarios seniors con datos recolectados. | Desarrollo de app para cuidadores y mejoras en batería para mercado en crecimiento de wearables para elderly. | Expansión basada en recomendaciones médicas y mercado de independencia senior. |
+| **Fortalezas** | Adaptada al contexto socioeconómico peruano, enfoque en accesibilidad y escalabilidad, interfaz simple y confiable, beneficios directos para cuidadores con reducción de estrés. | Monitoreo avanzado de salud, detección de caídas y emergencias, integración con conectividad familiar. | Protección 24/7, detección precisa de caídas, diseño amigable para usuarios. | Independiente, detección de caídas precisa, materiales cómodos, reseñas positivas. | Confiable, fácil configuración, alta satisfacción de usuarios, enfoque en privacidad.
+
 <div id='2.1.2.'><h4>2.1.2. Estrategias y tácticas frente a competidores</h4></div>
 
 - Diseñaremos un sistema de monitoreo accesible y fácil de usar, con una interfaz pensada tanto para adultos mayores como para familiares y cuidadores. La navegación será intuitiva, con alertas visuales y auditivas claras, además de un soporte técnico adaptado al usuario final, garantizando la confianza y la rápida adopción de la herramienta.
@@ -529,31 +606,31 @@ Esta sección recopila la información obtenida a partir de entrevistas realizad
     </tr> 
     <tr>
         <td><img src="Img/Entrevista-1.png" width="300px"></td>
-        <td>XXX</td>
+        <td>Rosa Valera es una mujer de 65 años que vive en San Luis. Ella ha tenido resbalones en el último año y se siente insegura al estar sola en casa. Rosa tiene confianza en el uso de dispositivos electrónicos, pero no ha utilizado dispositivos para medir su salud. Le gustaría un dispositivo que monitoree su salud y alerte a sus familiares en caso de emergencia.</td>
     </tr> 
     <tr>
-        <td>Timing: 0:00 - XX:XX</td>
-        <td>URL: <a href="Link" target="_blank">NombreLink</a></td>
+        <td>Timing: 0:00 - 03:55</td>
+        <td>URL: <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211g296_upc_edu_pe/ESKRjQ6V36JEqGVMCOh_FykB88evkHckHIWId9gACrKSiQ?e=IguKBR" target="_blank">Link del Video</a></td>
     </tr> 
     <tr>
         <td>Entrevistado N°2</td>
-        <td>XXX</td>
+        <td>Deodora Arias</td>
     </tr> 
     <tr>
         <td>Edad</td>
-        <td>XX</td>
+        <td>81</td>
     </tr> 
     <tr>
         <td>Distrito de residencia</td>
-        <td>XXX</td>
+        <td>Santa Cruz de Flores</td>
     </tr> 
     <tr>
-        <td><img src="Img/Entrevista-2.png" width="300px"></td>
-        <td>XXX</td>
+        <td><img src="Img/entrevista_deodora.png" width="300px"></td>
+        <td>Deodora vive con su esposo y uno de sus hijos, a ella le detectaron diabetes, hipertensión y artrosis. Mensualmente acude al seguro para que le hagan su chequeo. Si ha llegado a sufrir caídas, su hijo que vive con ella se comunica con sus otros hijos y estos se ponen preocupados por dicho accidente. Generalmente se queda en casa con su hijo y esposo. Ella usa solo el celular para la comunicación y entretenimientos. Ella ha usado distintos dispositivos para medir la presión y como lleva controlada su diabetes. Ella ve factible el uso de un dispositivo como si fuera un reloj o algo un poco más discreto, además de que le interesa que este mande una alerta inmediata a sus familiares si ha sufrido alguna caída o alteración de sus signos vitales. Lo que considera más importante es que sea fácil de usar, ya que no maneja muy bien los dispositivos electrónicos.</td>
     </tr> 
     <tr>
         <td>Timing: XX:XX - XX:XX</td>
-        <td>URL: <a href="Link" target="_blank">NombreLink</a></td>
+        <td>URL: <a href="Link" target="_blank">Link del Video</a></td>
     </tr> 
     <tr>
         <td>Entrevistado N°3</td>
@@ -573,7 +650,7 @@ Esta sección recopila la información obtenida a partir de entrevistas realizad
     </tr> 
     <tr>
         <td>Timing: XX:XX - XX:XX</td>
-        <td>URL: <a href="Link" target="_blank">NombreLink</a></td>
+        <td>URL: <a href="Link" target="_blank">Link del Video</a></td>
     </tr> 
 </table>
 
@@ -620,27 +697,27 @@ Esta sección recopila la información obtenida a partir de entrevistas realizad
     </tr> 
     <tr>
         <td>Timing: XX:XX - XX:XX</td>
-        <td>URL: <a href="Link" target="_blank">NombreLink</a></td>
+        <td>URL: <a href="Link" target="_blank">Link del Video</a></td>
     </tr> 
     <tr>
         <td>Entrevistado N°3</td>
-        <td>XXX</td>
+        <td>Sonia Huapaya Arias</td>
     </tr> 
     <tr>
         <td>Edad</td>
-        <td>XX</td>
+        <td>62</td>
     </tr> 
     <tr>
         <td>Distrito de residencia</td>
-        <td>XXX</td>
+        <td>Villa María del Triunfo</td>
     </tr> 
     <tr>
-        <td><img src="Img/Entrevista-3.png" width="300px"></td>
-        <td>XXX</td>
+        <td><img src="Img/entrevista_sonia.png" width="300px"></td>
+        <td>Sonia es una enfermera técnica que brinda atención a cualquier tipo de pacientes, incluyendo adultos mayores. Generalmente, le da atención a los adultos mayores cada vez que se hospitalizan, brindando cuidado por la calidad de vida. Las mayores preocupaciones que suele tener son la movilidad, ya que sus cuerpos no le permiten por su edad. Cómo trata con adultos mayores con bajas defensas, siempre tiene que estar al pendiente si les ocurre alguna caída. Ella usa como una pizarra que le indica mediante colores el control del adulto mayor teniendo en cuenta el riesgo de caída. Estos dispositivos les indican cada 6 horas los signos vitales. Le parece conveniente que se envié un mensaje o correo una alerta para casos de emergencias. Sus principales barreras es la conectividad con el internet, ya que no tienen en la zona que trabaja. No tiene una idea exacta de cuánto sería el costo, pero si muestra interés por dichos aparatos.</td>
     </tr> 
     <tr>
         <td>Timing: XX:XX - XX:XX</td>
-        <td>URL: <a href="Link" target="_blank">NombreLink</a></td>
+        <td>URL: <a href="Link" target="_blank">Link del Video</a></td>
     </tr> 
 </table>
 
@@ -648,19 +725,17 @@ Esta sección recopila la información obtenida a partir de entrevistas realizad
 
 <div id='2.2.3.'><h4>2.2.3. Análisis de entrevistas</h4></div>
 
-A continuación, se presenta el análisis de las entrevistas realizadas a adultos mayores y cuidadores responsables de su atención. Este estudio permite identificar patrones, necesidades y oportunidades clave para el diseño de la solución IoT de monitoreo de signos vitales y detección de caídas.
+### Análisis del segmento de adultos mayores
 
-</br>
+Los adultos mayores entrevistados valoran la posibilidad de contar con un dispositivo IoT que les brinde seguridad dentro de su propio hogar, especialmente en relación con la detección de caídas y el monitoreo de signos vitales. El 100% coincidió en que la principal ventaja sería la tranquilidad de sentirse acompañados incluso cuando están solos, reduciendo el miedo a sufrir un accidente sin asistencia. Asimismo, la mayoría destacó que un dispositivo ligero, cómodo y fácil de usar es esencial para garantizar la adopción.
 
-**Características comunes entre adultos mayores y cuidadores entrevistados**
+En general, los adultos mayores consideran que esta solución IoT puede mejorar su autonomía y calidad de vida, siempre que se prioricen el diseño ergonómico, la facilidad de uso y el acompañamiento inicial en el aprendizaje.
 
-<img src="Img/grafico-barras-entrevistas-iot.png" alt="Gráfico de barras de las entrevistas IoT" style="margin-bottom: 5px;" width="600"/>
+### Análisis del segmento de cuidadores/familiares
 
-**Fuente**: Datos recolectados mediante entrevistas aplicadas a tres adultos mayores y tres cuidadores en Lima Metropolitana.
+Los cuidadores entrevistados valoran de manera significativa la posibilidad de recibir alertas inmediatas en sus celulares en caso de caídas o alteraciones en los signos vitales de sus familiares. El 100% consideró que la función más importante es la respuesta rápida en emergencias, ya que actualmente dependen de llamadas telefónicas o visitas presenciales que no siempre son oportunas. Un 70% resaltó la utilidad de contar con un historial digital de signos vitales, que facilite la comunicación con médicos en controles regulares.
 
-</br>
-
-De acuerdo con el análisis realizado, los adultos mayores entrevistados manifestaron haber experimentado al menos una caída en el último año, en la mayoría de los casos sin acompañamiento inmediato. Todos coincidieron en que la principal dificultad es la falta de supervisión cuando están solos en casa, especialmente en horas de la mañana o la noche. Asimismo, aunque algunos han utilizado tensiómetros digitales o glucómetros, ninguno emplea actualmente dispositivos inteligentes que transmitan datos en tiempo real. Existe cierta resistencia inicial al uso de tecnología por parte de los adultos mayores, motivada por percepciones de complejidad o incomodidad, pero también mostraron disposición a probar dispositivos siempre que sean fáciles de usar, discretos y económico.
+En general, los cuidadores perciben el sistema IoT como una herramienta clave para reducir la ansiedad y garantizar la seguridad de los adultos mayores, aunque insisten en la necesidad de optimizar la precisión, la usabilidad de la aplicación y el costo de implementación.
 
 <div id='2.3.'><h3>2.3. Needfinding</h3></div>
 <div id='2.3.1.'><h4>2.3.1. User Personas</h4></div>
@@ -1057,6 +1132,15 @@ A continuación, se presenta una matriz de tareas enfocada en María Luisa Ramí
 </tbody></table>
 
 <div id='3.2.'><h3>3.2. Impact Mapping</h3></div>
+
+### User Journey Map – Adulto Mayor
+
+<img src="Img/Impact_Mapping1.jpg" alt="Journey_Mapping1"></img>
+
+### User Journey Map – Cuidador/Familiar
+
+<img src="Img/Impact_Mapping2.jpg" alt="Journey_Mapping2"></img>
+
 <div id='3.3.'><h3>3.3. Product Backlog</h3></div>
 
 <table border="1" cellspacing="0" cellpadding="5">
@@ -1233,57 +1317,57 @@ Delimitaciones amarillas: Secciona eventos y comandos relacionados a un "aggrega
 - Delimitaciones de color negro: Secciona uno o más aggregates relacionados a un bounded context.
 - Flechas punteadas: indicadores de comandos que generan eventos en distintos aggregates o bounded contexts.
 
-<div aling="center">
+<div align="center">
 <img src="Img/event1.png" >
 </div>
 
-<div aling="center">
+<div align="center">
 <img src="Img/event2.png" >
 </div>
 
 Como segundo paso, identificamos los comandos que llevan a acabo el evento. Identificamos a estos con un post-it de color azul.
 
-<div aling="center">
+<div align="center">
 <img src="Img/event3.png" >
 </div>
 
 Como tercer paso, identificamos los actores que realizan los comandos anteriormente establecidos.
 
-<div aling="center">
+<div align="center">
 <img src="Img/event4.png" >
 </div>
 
 Como cuarto paso, identificamos las políticas o reglas de negocio ligadas a los eventos.
 
-<div aling="center">
+<div align="center">
 <img src="Img/event5.png" >
 </div>
 
 Como quinto paso enlazamos una pequeña descripción de lo que seria la representación de los datos al usuario final.
 
-<div aling="center">
+<div align="center">
 <img src="Img/event6.png" >
 </div>
 
-<div aling="center">
+<div align="center">
 <img src="Img/event7.png" >
 </div>
 
 Como sexto paso identificamos los servicios externos y los segmentamos por Bounded Context.
 
-<div aling="center">
+<div align="center">
 <img src="Img/event8.png" >
 </div>
 
 Como séptimo paso, identificamos los agregados de cada bounded context
 
-<div aling="center">
+<div align="center">
 <img src="Img/event9.png" >
 </div>
 
 Como último paso determinamos las conexiones entre diferentes bounded context. Dichas relaciones se representan con una flecha punteada.
 
-<div aling="center">
+<div align="center">
 <img src="Img/event10.png" >
 </div>
 <div id='4.1.1.1.'><h5>4.1.1.1. Candidate Context Discovery</h5></div>
@@ -1304,7 +1388,7 @@ A continuación representaremos las conexiones entre bounded context mediante Do
 
 **Escenario 1: Autenticación de un usuario general en el aplicativo**
 
-<div aling="center">
+<div align="center">
 <img src="Img/message_flow.png" >
 </div>
 
@@ -1312,7 +1396,7 @@ A continuación representaremos las conexiones entre bounded context mediante Do
 
 **Escenario 2: Detección en una anomalía de los signos vitales**
 
-<div aling="center">
+<div align="center">
 <img src="Img/message_flow2.png" >
 </div>
 
@@ -1320,16 +1404,31 @@ A continuación representaremos las conexiones entre bounded context mediante Do
 
 <div id='4.1.1.3.'><h5>4.1.1.3. Bounded Context Canvases</h5></div>
 
+
+### IAM:
+<div align="center">
+<img src="Img/canvas_IAM.png">
+</div>
+
+### Profile:
+<div align="center">
+<img src="Img/canvas_Profile.png">
+</div>
+
+### Health Tracking:
+<div align="center">
+<img src="Img/health_tracking_bounded_context_canvases.jpg" alt="health_tracking_canvases">
+</div>
+
 ### Treatment Support
 
 <img src="Img/treatment support bounded context canvas.jpg" alt="treatment support bounded context canvas">
 
 <div id='4.1.2.'><h4>4.1.2. Context Mapping</h4></div>
 
-<div aling="center">
+<div align="center">
 <img src="Img/context_mapping.png" alt="context_mapping." >
 </div>
-
 
 #### IAM BC
 
@@ -1455,6 +1554,437 @@ A continuación representaremos las conexiones entre bounded context mediante Do
 </div>
 
 <div id='4.2.'><h3>4.2. Tactical-Level Domain-Driven Design</h3></div>
+<div id='4.2.1.'><h4>4.2.1. Bounded Context: IAM</h4></div>
+<div id='4.2.1.1.'><h5>4.2.1.1. Domain Layer</h5></div>
+
+**Sub-capa Model:**
+| Tipo         | Nombre        | Descripción                                    | Responsabilidad Principal                                                                                         | Relación con otros elementos                                                          |
+| ------------ | ------------- | ---------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
+| Aggregate    | User          | clase para definir el Usuario de la aplicación | Ser el punto de entrada para modificar y mantener la integridad del usuario como entidad del dominio de identidad | Relacionado con los demás boundedContext, ya que encapsula toda la lógica de negocio. |
+| Command      | SignInCommand | comando para el inicio de sesión               | representar la intención de iniciar sesión                                                                        | Usado en la implementación del servicio de autenticación.                             |
+| Command      | SignUpCommand | comando para registro                          | representa la intención de registrarse a la aplicación                                                            | Usado en la implementación del servicio de autenticación                              |
+| Value Object | EmailAddress  | dirección de correo electrónico del usuario    | representar la dirección de correo del usuario                                                                    | usado en "User"                                                                       |
+| Value Object | PersonName    | nombre y apellido de usuario                   | representa los nombres y apellidos de un usuario                                                                  | usado en "User"                                                                       |
+
+**Sub-capa Services:**
+| Tipo | Nombre | Descripción | Responsabilidad Principal | Relación con otros elementos |
+| ---- | ------ | ----------- | ------------------------- | ---------------------------- |
+|Interface|AuthCommandService|servicio para métodos de autenticación|estipular una estructura clara a seguir|Uso en la capa "application" para implementar los métodos dados|
+|Interface| JWTService | servicio para métodos de JWT | estipular una estructura clara a seguir | uso en la capa "Infrastructure" para la implementación de los métodos.
+
+<div id='4.2.1.2.'><h5>4.2.1.2. Interface Layer</h5></div>
+
+**Sub-capa REST:**
+| Tipo | Nombre | Descripción | Responsabilidad Principal | Relación con otros elementos |
+| ---- | ------ | ----------- | ------------------------- | ---------------------------- |
+| Resource | AuthRequestResource | estructura de una petición para autenticar un usuario|Representar y exponer datos del dominio de forma accesible y estructurada para el cliente.| Uso en el "AuthController" para peticionar datos de una manera predeterminada en la autenticación|
+|Resource | AuthResponseResource | estructura de una respuesta al autenticar un usuario|Representar y exponer datos del dominio de forma accesible y estructurada para el cliente.| Uso en el "AuthController" para emitir datos de una manera predeterminada en la autenticación|
+| Resource | RegisterRequestResource | estructura de una petición para registrar un usuario|Representar y exponer datos del dominio de forma accesible y estructurada para el cliente.| Uso en el "AuthController" para peticionar datos de una manera predeterminada en el registro|
+|Resource | RegisterResponseResource | estructura de una respuesta al registrar un usuario|Representar y exponer datos del dominio de forma accesible y estructurada para el cliente.|Uso en el "AuthController" para emitir datos de una manera predeterminada en el registro|
+|Assembler | SignInCommandFromResourceAssembler| Convierte un recurso a un comando| Evitar la corrupción entre la comunicación de datos | Usado en el "AuthController" para convertir el recurso pedido en autenticación a un comando|
+|Assembler | SignUpCommandFromResourceAssembler|Convierte un recurso a un comando| Evitar la corrupcion entre comunicación de datos | Usaso en el "AuthController" para convertir el recurso pedido en autenticación a un comando|
+|Controller|AuthController| Parte de la aplicación que recibe las solicitudes del cliente| recibe solicitudes, coordina la ejecución y devuelve respuestas.|-|
+
+
+<div id='4.2.1.3.'><h5>4.2.1.3. Application Layer</h5></div>
+
+
+**Sub-capa Internal:**
+| Tipo | Nombre | Descripción | Responsabilidad Principal | Relación con otros elementos |
+| ---- | ------ | ----------- | ------------------------- | ---------------------------- |
+|CommandHandlers| AuthCommandServiceImpl|Implementación de los Comandos de Autenticación| Implementar los métodos para el servicio de autenticación | Implementa los métodos de la interface de su mismo nombre en la capa de "Services".|
+
+
+<div id='4.2.1.4.'><h5>4.2.1.4. Infrastructure Layer</h5></div>
+
+
+**Sub-capa Repository:**
+| Tipo | Nombre | Descripción | Responsabilidad Principal | Relación con otros elementos |
+| ---- | ------ | ----------- | ------------------------- | ---------------------------- |
+|Repository| UserRepository| repositorio a usar del modelo "User"| acceder y manipular datos persistidos| Usado en la Capa "Application" para implementar el registro y autenticación de un usuario.|
+
+**Sub-capa Security:**
+| Tipo | Nombre | Descripción | Responsabilidad Principal | Relación con otros elementos |
+| ---- | ------ | ----------- | ------------------------- | ---------------------------- |
+|Config|SecurityConfig| configuración de autorizaciones y permisos| configurar reglas de seguridad para la aplicación| Relacionado a la aplicación|
+
+
+**Sub-capa JWT:**
+| Tipo | Nombre | Descripción | Responsabilidad Principal | Relación con otros elementos |
+| ---- | ------ | ----------- | ------------------------- | ---------------------------- |
+|Class| JwtAuthFilter| Un filtro que intercepta cada petición HTTP para verificar si contiene un token JWT válido antes de dejar que llegue al controlador.|Validar el JWT en cada solicitud y establecer la autenticación en el contexto de seguridad.| Relacionado con la seguridad de la aplicación|
+|Class|JwtServiceImpl|Una clase de servicio que gestiona la creación, validación y decodificación de tokens JWT.|Encapsular toda la lógica relacionada con el manejo de tokens JWT.|Relacionado con la seguridad de la aplicación|
+
+
+<div id='4.2.1.5.'><h5>4.2.1.5. Bounded Context Software Architecture Component Level Diagrams</h5></div>
+
+<div align="center">
+<img src="Img/IAM-component.png">
+</div>
+<div id='4.2.1.6.'><h5>4.2.1.6. 
+Bounded Context Software Architecture Code Level Diagrams</h5></div>
+<div id='4.2.1.6.1.'><h6>4.2.1.6.1. Bounded Context Domain Layer Class Diagrams</h6></div>
+
+<div align="center">
+<img src="Img/profile_class.png">
+</div>
+
+<div id='4.2.1.6.2.'><h6>4.2.1.6.2. Bounded Context Database Design Diagram</h6></div>
+
+<div align="center">
+<img src="Img/user_db.png">
+</div>
+
+<div id='4.2.2.'><h4>4.2.2. Bounded Context: Profile</h4></div>
+<div id='4.2.2.1.'><h5>4.2.2.1. Domain Layer</h5></div>
+
+**Sub-capa Model:**
+| Tipo         | Nombre        | Descripción                                    | Responsabilidad Principal                                                                                         | Relación con otros elementos                                                          |
+| ------------ | ------------- | ---------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
+|Entity | Patient | Persona vulnerable a cuidar | representa los datos de la entidad "Paciente" | Relacionado con "User", este determina el tipo de usuario |
+|Entity | Caregiver | Persona que cuida de la persona vulnerable | Representar los datos de la entidad "Caregiver" | Relacionado con "User", este determina el tipo de usuario |
+|Value Object	|Birthday	|Value object usado en el Aggregate de Patient|Representar la fecha de nacimiento de un paciente.|	Relacionado con Patient |
+|Value Object |	DNI	| Value object usado en el Aggregate de Patient	y Cuidador | Representar el documento de identidad del paciente o cuidador | 	Relacionado con Patient o Caregiver|
+|Record (Query) | GetAllPatientsByCaregiver | Consulta para obtener las personas que esta cuidando el tipo de usuario "Cuidador" | Encapsula los parámetros para buscar a los pacientes de cada cuidador | Usado por servicio de Cuidador | 
+|Record (Query) | GetInformation | Consulta para obtener los datos personales del usuario general | Encapsula los parámetros para buscar los datos personales | Usado por servicio de ambos tipos de usuario | 
+|Record (Command) | RegisterInformation | Comando para guardar los datos personales | Encapsular los datos necesarios para guardar los datos personales | Usado por servicios de ambos tipos de usuario |
+|Record (Command) | UpdateInformation | Comando para actualizar los datos personales | Encapsular los datos necesarios para actualizar los datos personales | Usado por servicios de ambos tipos de usuario |
+|Record (Command) | UpdatePassword | Comando para actualizar la contraseña | Encapsular los datos necesarios para actualizar la contraseña| Usado por servicio de ambos tipos de usuario y Bounded Context de IAM |
+|Record (Command) | UpdateEmail | Comando para actualizar el correo electrónico | Encapsular los datos necesarios para actualizar el correo electrónico | Usado por servicio de ambos tipos de usuario y Bounded Context de IAM |
+
+
+
+
+
+
+**Sub-capa Services:**
+| Tipo | Nombre | Descripción | Responsabilidad Principal | Relación con otros elementos |
+| ---- | ------ | ----------- | ------------------------- | ---------------------------- |
+|Interface | ProfileCommandService | Servicio para comandos relacionados con los usuarios | Declarar métodos para crear o actualizar datos personales de los usuarios | Implementado por la clase `ProfileCommandServiceImpl`. Usado en capa Application|
+|Interface | ProfileQueryService | Servicio para comandos relacionados con los usuarios | Obtener datos persistidos de los usuarios | Implementado por la clase `ProfileQueryServiceImpl`. Usado en capa Application|
+
+
+
+
+
+<div id='4.2.2.2.'><h5>4.2.2.2. Interface Layer</h5></div>
+
+**Sub-capa REST:**
+
+| Tipo | Nombre | Descripción | Responsabilidad Principal | Relación con otros elementos |
+| ---- | ------ | ----------- | ------------------------- | ---------------------------- |
+|Controller | ProfileController| clase encargada de la gestión de los endpoints | enviar respuestas o recibir peticiones | Relacionado con las demás capas. |
+
+
+<div id='4.2.2.3.'><h5>4.2.2.3. Application Layer</h5></div>
+
+
+**Sub-capa Internal:**
+| Tipo | Nombre | Descripción | Responsabilidad Principal | Relación con otros elementos |
+| ---- | ------ | ----------- | ------------------------- | ---------------------------- |
+|Class (implementation service) | ProfileCommandServiceImpl|Implementación de los Comandos del Perfil| Implementar los métodos para el servicio de Perfil | Implementa los métodos de la interface de su mismo nombre en la capa de "Services".|
+|Class (implementation service) | ProfileQueryServiceImpl|Implementación de las Consultas del Perfil| Implementar los métodos para el servicio de Perfil | Implementa los métodos de la interface de su mismo nombre en la capa de "Services".|
+
+
+<div id='4.2.2.4.'><h5>4.2.2.4. Infrastructure Layer</h5></div>
+
+**Sub-capa Repository:**
+| Tipo | Nombre | Descripción | Responsabilidad Principal | Relación con otros elementos |
+| ---- | ------ | ----------- | ------------------------- | ---------------------------- |
+|Repository| PatientRepository| repositorio a usar del modelo "Patient"| acceder y manipular datos persistidos| Usado en la Capa "Application" para implementar el registro de un usuario "Paciente".|
+|Repository| CareGiverRepository| repositorio a usar del modelo "Caregiver"| acceder y manipular datos persistidos| Usado en la Capa "Application" para implementar el registro de un usuario "Cuidador".|
+
+
+<div id='4.2.2.5.'><h5>4.2.2.5. Bounded Context Software Architecture Component Level Diagrams</h5></div>
+
+<div align="center">
+<img src="Img/structurizr-UserProfileComponents.png">
+</div>
+<div id='4.2.2.6.'><h5>4.2.2.6. 
+Bounded Context Software Architecture Code Level Diagrams</h5></div>
+<div id='4.2.2.6.1.'><h6>4.2.2.6.1. Bounded Context Domain Layer Class Diagrams</h6></div>
+
+<div align="center">
+<img src="Img/profile_class.png">
+</div>
+
+<div id='4.2.2.6.2.'><h6>4.2.2.6.2. Bounded Context Database Design Diagram</h6></div>
+
+<br>
+los tipos de usuarios (Pacientes y cuidadores), se modelan de esta manera para una mejor escalabilidad.<br><br>
+
+Cada paciente puede tener muchos cuidadores y un cuidador puede tener muchos pacientes.
+
+<div align="center">
+<img src="Img/profile_db.png">
+</div>
+
+<div id='4.2.3.'><h4>4.2.3. Bounded Context: &lt;Health Tracking&gt;</h4></div>
+<div id='4.2.3.1.'><h5>4.2.3.1. Domain Layer</h5></div>
+
+**Sub-capa Model**
+| Tipo | Nombre | Descripción | Responsabilidad Principal | Relación con otros elementos |
+|----------|------------------------|-----------------------|-----------------------------------|----------------------------|
+| Aggregate | Patient | Representa al paciente dentro del sistema, raíz de la información clínica. | Centralizar datos clínicos y servir de punto de acceso al historial. | Relacionado con Vital, Alert, Alteration y Symptom. |
+| Value Object | Symptoms | Registro de una manifestación puntual. | Documentar síntomas subjetivos para el historial clínico. | Relacionado con el paciente. |
+| Value Object | Alteration | Cambio detectado en los signos vitales que indica una condición irregular. | Representa valores medidos y compararlos con rangos normales. | Relacionado con paciente. |
+| Value Object | Vital | Lectura puntual por parte del sensor IoT. | Estandarizar los datos del sensor. | Relacionado con . |
+| Aggregate | Alert | Notificación generada por cambios críticos en el estado del paciente. | Advertir de riesgos. | Relacionado con paciente. |
+| Command | PostPatient | Registra un nuevo paciente.          | Crear un paciente con los datos necesarios. | Usa User. |
+| Command | PostSymptom    | Añade un nuevo síntoma reportado por el paciente.                 | Crear instancia de Sintoma asociada a Paciente.       | Usa Patient y Symptom.                             |
+| Command | PostAlert       | Crea una alerta manual o automática. | Persistir una Alerta y notificar al sistema.          | Usa Patient y Alert.                              |
+| Command | PostAlteration | Registra una alteración detectada en los signos vitales.          | Persistir una Alteracion asociada al Paciente.        | Usa Patient y Alteration.                          |
+| Query | GetPatientHistory      | Devuelve el historial completo del paciente. | Reunir datos clínicos del Paciente.              | Consulta Patient y todas sus entidades relacionadas. |
+| Query | GetPendantAlert      | Recupera las alertas que no han sido atendidas.                                        | Soportar monitoreo activo del paciente.          | Consulta Alert.                                      |
+| Query | GetByPatientSymptoms                | Recupera los síntomas registrados por el paciente.                                     | Complementar información clínica.                | Consulta Symptom.                                     |
+
+**Sub-capa Services**
+| Tipo | Nombre | Descripción | Responsabilidad Principal | Relación con otros elementos |
+|----------|------------------------|-----------------------|-----------------------------------|----------------------------|
+| Interface | PatientCommandService | Servicio para comandos relacionados con pacientes | Declarar métodos para crear pacientes | Implementado por la clase `PatientCommandServiceImpl`. Usado en capa Application |
+| Interface | AlertCommandService | Servicio para comandos relacionados con alertas | Declarar métodos para crear alertas | Implementado por la clase `AlertCommandServiceImpl`. Usado en capa Application |
+| Interface | PatientQueryService | Servicio para consultas relacionadas con pacientes | Declarar métodos para obtener datos de pacientes | Implementado por la clase `PatientQueryServiceImpl`. Usado en capa Application |
+| Interface | AlertQueryService | Servicio para consultas relacionadas con alertas | Declarar métodos para obtener datos de alertas | Implementado por la clase `AlertQueryServiceImpl`. Usado en capa Application |
+
+<div id='4.2.3.2.'><h5>4.2.3.2. Interface Layer</h5></div>
+
+**Sub-capa REST:**
+| Tipo | Nombre | Descripción | Responsabilidad Principal | Relación con otros elementos |
+|-----------|---------------------------------------------|------------------------------------------------------------------|------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|
+| Controller| PatientController | Controlador REST para gestionar pacientes | Recibe solicitudes del cliente relacionadas con pacientes, coordina comandos y devuelve respuestas | Utiliza PatientRequestResource, PatientResponseResource y los assemblers correspondientes |
+| Controller| AlertController | Controlador REST para gestionar citas | Maneja solicitudes relacionadas con la creación de alertas | Utiliza AlertRequestResource, AlertResponseResource y sus respectivos assemblers |
+| Resource | PatientRequestResource | Estructura de una petición para crear o actualizar un paciente | Representa datos de entrada del cliente sobre pacientes | Usado por `PatientController` para enviar datos al sistema |
+| Resource | PatientResponseResource | Estructura de la respuesta con información de un paciente | Devuelve al cliente una representación clara de un paciente | Usado por `PatientController` como respuesta |
+| Resource | AlertRequestResource | Estructura de una petición para crear una alerta | Representa datos de entrada del cliente sobre sus signos vitales | Usado por `AlertController` para procesar citas |
+| Resource | AppointmentResponseResource | Estructura de una respuesta con datos de una cita | Devuelve al cliente una representación clara de una cita | Usado por `AlertController` |
+| Assembler | CreatePatientCommandFromResourceAssembler | Convierte un recurso de petición en un comando de creación | Traducir la entrada del cliente a un comando de dominio | Usado por `PatientController` |
+| Assembler | UpdatePatientCommandFromResourceAssembler | Convierte un recurso de petición en un comando de actualización | Traducir la entrada del cliente a un comando de dominio | Usado por `PatientController` |
+| Assembler | PatientResourceFromEntityAssembler | Convierte una entidad `Patient` en un recurso de respuesta | Traducir objetos de dominio a estructuras legibles para el cliente | Usado por `PatientController` |
+| Assembler | CreateAlertCommandFromResourceAssembler | Convierte un recurso de petición en un comando de creación | Traducir la entrada del cliente a un comando de dominio | Usado por `AlertController` |
+| Assembler | AlertResourceFromEntityAssembler | Convierte una entidad `Alert` en un recurso de respuesta | Traduce objetos del dominio a respuestas claras para el cliente | Usado por `AlertController` |
+
+<div id='4.2.3.3.'><h5>4.2.3.3. Application Layer</h5></div>
+
+**Sub-capa Internal:**
+|Tipo | Nombre | Descripción | Responsabilidad Principal | Relación con otros elementos|
+|-----------|---------------------------------------------|------------------------------------------------------------------|------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|
+|Service | PatientCommandServiceImpl | Implementación del servicio de comandos para pacientes | Ejecutar la lógica de creación, actualización y eliminación de pacientes | Implementa PatientCommandService. Utiliza entidades y repositorios de dominio |
+|Service | AlertCommandServiceImpl | Implementación del servicio de comandos para alertas | Ejecutar la lógica de creación de alertas | Implementa AlertCommandService. Interactúa con Alert y sus repositorios |
+|Service | PatientQueryServiceImpl | Implementación del servicio de consultas para pacientes | Obtener información de pacientes a partir de distintas consultas | Implementa PatientQueryService. Consulta entidades Patient |
+|Service | AlertQueryServiceImpl | Implementación del servicio de consultas para alertas | Obtener  alertas por ID | Implementa AlertQueryService. Usa Alert y consultas específicas |
+
+<div id='4.2.3.4.'><h5>4.2.3.4. Infrastructure Layer</h5></div>
+
+**Sub-capa Infrastructure:**
+Tipo | Nombre | Descripción | Responsabilidad Principal | Relación con otros elementos|
+|-----------|---------------------------------------------|------------------------------------------------------------------|------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|
+Repository | PatientRepository | Repositorio para gestionar pacientes | Encargado de la persistencia y recuperación de los datos de los pacientes | Relacionado con la entidad Patient, interactúa con la base de datos para almacenar y consultar pacientes
+Repository | AlertRepository | Repositorio para gestionar alertas | Encargado de la persistencia y recuperación de las alertas | Relacionado con la entidad Alert, interactúa con la base de datos para almacenar y consultar alertas
+
+<div id='4.2.3.5.'><h5>4.2.3.5. Bounded Context Software Architecture Component Level Diagrams</h5></div>
+
+<div align="center">
+<img src="Img/structurizr-HealthTrackingComponents.png">
+</div>
+
+<div id='4.2.3.6.'><h5>4.2.3.6. Bounded Context Software Architecture Code Level Diagrams</h5></div>
+<div id='4.2.3.6.1.'><h6>4.2.3.6.1. Bounded Context Domain Layer Class Diagrams</h6></div>
+
+Este diagrama UML representa la arquitectura de un sistema de gestión médica centrada en el paciente y las alertas. La estructura está basada en principios de diseño orientado a objetos y se organiza en capas de comandos y consultas, siguiendo un enfoque CQRS (Command Query Responsibility Segregation). A lo largo del análisis, se describirán los principales componentes del sistema, como los servicios de comandos y consultas, las entidades centrales como Patient y Alert, así como los objetos de valor (value objects) y comandos asociados. También se explicará cómo estas clases interactúan entre sí mediante relaciones de herencia, interfaces, asociación y dependencia para mantener una lógica de negocio clara y mantenible. Se estará usando Lombok para la creación de Getter y Setter para evitar en redundancia de código.
+
+<img src="Img/healt_tracking_diagram_class.png" alt="health tracking class diagram">
+
+<div id='4.2.3.6.2.'><h6>4.2.3.6.2. Bounded Context Database Design Diagram</h6></div>
+<div align="center">
+<img src="Img/healthtracking_db.png">
+</div>
+
+<div id='4.2.4.'><h4>4.2.4. Bounded Context: &lt;Monitoring&gt;</h4></div>
+<div id='4.2.4.1.'><h5>4.2.4.1. Domain Layer</h5></div>
+
+**Sub-capa Model:**
+
+| Tipo      | Nombre                       | Descripción                                                                 | Responsabilidad Principal                                 | Relación con otros elementos                                                                                       |
+| --------- | ---------------------------- | --------------------------------------------------------------------------- | --------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
+| Aggregate | Monitoring             | Clase que representa un registro de monitoreo | Ser el punto de entrada para la gestión de datos de monitoreo| Relacionado con eventos de logging, alertas y métricas recibidas desde otros bounded contexts.                      |
+| Command   | CreateMonitoringEventCommand | Comando para registrar un nuevo evento de monitoreo                         | Crear un nuevo registro de monitoreo                       | Relacionado con el Bounded Context de Infraestructura (captura de logs, métricas de red, BD, etc.).                |
+| Query     | GetMonitoringStatusQuery     | Query para obtener el estado general del sistema                            | Consultar métricas y eventos registrados                  | Se usa desde la capa de Application para mostrar datos al Dashboard.                                                |
+| Query     | GetAlertsBySeverityQuery     | Query para obtener alertas filtradas por nivel de severidad                 | Permitir análisis de criticidad en el monitoreo            | Relacionado con el módulo de alertas y con el bounded context de *Notifications*.                                   |
+
+**Sub-capa Services:**
+
+| Tipo      | Nombre                   | Descripción                                                               | Responsabilidad Principal                     | Relación con otros elementos |
+| --------- | ------------------------ | ------------------------------------------------------------------------- | --------------------------------------------- | ---------------------------- |
+| Interface | MonitoringCommandService | Servicio que define métodos para registrar eventos y métricas              | Estipular contratos claros para registrar datos| Usado en la capa "application" para implementar la lógica de registro |
+| Interface | MonitoringQueryService   | Servicio que define métodos para obtener información del monitoreo         | Estipular contratos claros para consultas      | Usado en la capa "application" para implementar consultas al sistema |
+
+<div id='4.2.4.2.'><h5>4.2.4.2. Interface Layer</h5></div>
+
+**Sub-capa REST:**
+
+| Tipo       | Nombre                                      | Descripción                                                         | Responsabilidad Principal                                                            | Relación con otros elementos |
+| ---------- | ------------------------------------------- | ------------------------------------------------------------------- | ------------------------------------------------------------------------------------ | ---------------------------- |
+| Controller | MonitoringController                        | Controlador REST para gestionar el monitoreo                        | Recibe solicitudes de clientes para consultar métricas o registrar eventos           | Utiliza resources y assemblers |
+| Resource   | MonitoringRequestResource                   | Estructura de una petición para registrar un evento de monitoreo     | Representar datos de entrada de forma accesible para el sistema                      | Usado en MonitoringController para registrar eventos |
+| Resource   | MonitoringResponseResource                  | Estructura de respuesta con datos de monitoreo                       | Exponer métricas, logs o alertas al cliente                                          | Usado en MonitoringController para devolver resultados |
+| Assembler  | CreateMonitoringCommandFromResourceAssembler| Convierte un recurso de petición en un comando de creación           | Evitar acoplamiento entre la interfaz REST y el dominio                              | Usado en MonitoringController |
+| Assembler  | MonitoringResourceFromEntityAssembler        | Convierte una entidad MonitoringRecord en un recurso de respuesta    | Asegurar consistencia en la información retornada                                    | Usado en MonitoringController |
+
+
+<div id='4.2.4.3.'><h5>4.2.4.3. Application Layer</h5></div>
+
+### Application Layer - Internal
+
+| Tipo     | Nombre                     | Descripción                                                                 | Responsabilidad Principal                                                                 | Relación con otros elementos |
+| -------- | -------------------------- | --------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- | ---------------------------- |
+| Command  | RecordVitalSignCommand     | Registrar un nuevo valor de signo vital de un paciente.                      | Validar y persistir un nuevo registro en la tabla SignosVitales.                         | Usa MonitoringService y MonitoringRepository |
+| Command  | ValidateVitalSignCommand   | Validar un signo vital contra thresholds clínicos.                           | Consultar thresholds locales y, si está disponible, delegar validación a RulesService.   | Depende de MonitoringService y RulesService |
+| Query    | GetMonitoringStatusQuery   | Obtener estado actual de los signos vitales registrados, validando contra thresholds locales y/o RulesService. | Permite consultas del estado de un paciente en tiempo real. | Usa MonitoringRepository y RulesService |
+
+
+**Sub-capa External:**
+
+| Tipo           | Nombre                        | Descripción                                                       | Responsabilidad Principal                                  | Relación con otros elementos |
+| -------------- | ----------------------------- | ----------------------------------------------------------------- | ---------------------------------------------------------- | ---------------------------- |
+| EventPublisher | MonitoringAlertPublisher | Publicador de eventos críticos detectados en el monitoreo vía EventBus | Enviar una alerta al Bounded Context de *Notifications* y/o *EmergencyManagement* para que gestionen notificaciones o llamadas SOS | Conecta con EventBus para distribuir eventos a otros BCs |
+
+
+
+<div id='4.2.4.4.'><h5>4.2.4.4. Infrastructure Layer</h5></div>
+
+**Sub-capa Repository:**
+
+| Tipo       | Nombre               | Descripción                                           | Responsabilidad Principal                   | Relación con otros elementos |
+| ---------- | -------------------- | ----------------------------------------------------- | ------------------------------------------- | ---------------------------- |
+| Repository | MonitoringRepository | Repositorio del modelo MonitoringRecord               | Acceder y manipular los registros persistidos| Usado en la capa "Application" para almacenar y recuperar eventos |
+
+
+<div id='4.2.4.5.'><h5>4.2.4.5. Bounded Context Software Architecture Component Level Diagrams</h5></div>
+
+<div align="center">
+<img src="Img/structurizr-MonitoringComponents.png">
+</div>
+
+<div id='4.2.4.6.'><h5>4.2.4.6. Bounded Context Software Architecture Code Level Diagrams</h5></div>
+<div id='4.2.4.6.1.'><h6>4.2.4.6.1. Bounded Context Domain Layer Class Diagrams</h6></div>
+
+<div align="center">
+<img src="Img/class-diagram-domain-monitoring.png">
+</div>
+
+<div id='4.2.4.6.2.'><h6>4.2.4.6.2. Bounded Context Database Design Diagram</h6></div>
+
+Al ser datos de entrada proveniente del dispositivo IoT, la persistencia la gestiona el boundedContext "HealthTracking".
+
+<div id='4.2.5.'><h4>4.2.5. Bounded Context: &lt;Emergency Management&gt;</h4></div>
+<div id='4.2.5.1.'><h5>4.2.5.1. Domain Layer</h5></div>
+
+**Sub-capa Model:**
+
+| Tipo      | Nombre                    | Descripción                    | Responsabilidad principal                          | Relación                                                                         |
+| --------- | ------------------------- | ------------------------------ | -------------------------------------------------- | -------------------------------------------------------------------------------- |
+| Aggregate | Emergencia                | Evento crítico (caída/SOS/SV). | Crear/validar/actualizar/cerrar emergencias.       | Con **Alerta** y **LlamadaSOS**; insumos de Monitoring; publica a Notifications. |
+| Command   | TriggerSOSCommand         | Disparar SOS manual.           | Crear emergencia (SOS) y disparar alertas/llamada. | App paciente.                                                                    |
+| Command   | DetectEmergencyCommand    | Alta automática.               | Crear emergencia con severidad/ubicación.          | Desde Monitoring.                                                                |
+| Command   | ConfirmEmergencyCommand   | Confirmar/descartar.           | Cambiar estado (seguir/cancelar flujo).            | App cuidador/paciente.                                                           |
+| Command   | DispatchAlertsCommand     | Enviar alertas.                | Generar alertas por canal y marcar estado.         | Notifications.                                                                   |
+| Command   | PlaceSOSCallCommand       | Llamar 106/contactos.          | Ejecutar llamada y registrar resultado.            | Telco/API voz.                                                                   |
+| Query     | GetActiveEmergenciesQuery | Emergencias abiertas.          | Listar en curso con severidad/ubicación.           | Dashboard.                                                                       |
+| Query     | GetEmergencyByIdQuery     | Detalle.                       | Recuperar emergencia + alertas + llamada.          | —                                                                                |
+
+**Sub-capa Services:**
+
+| Tipo      | Nombre                    | Descripción             | Responsabilidad principal       | Relación                        |
+| --------- | ------------------------- | ----------------------- | ------------------------------- | ------------------------------- |
+| Interface | EmergencyCommandService   | Comandos de emergencia. | Trigger/Detect/Confirm/Close.   | Repos de Emergencia/LlamadaSOS. |
+| Interface | EmergencyQueryService     | Lecturas.               | Active/ById.                    | Vistas CQRS.                    |
+| Interface | AlertCommandService       | Envío de alertas.       | Dispatch + ConsentPolicy.       | Notifications.                  |
+| Interface | AlertQueryService         | Lecturas alertas.       | Historial/estados.              | Auditoría.                      |
+| Interface | SOSCallService            | Llamadas.               | Ejecutar/reintentos.            | Telco.                          |
+| Interface | ContactCommandService     | ABM contactos.          | Add/Update/Remove + validación. | ContactoEmergencia.             |
+| Interface | ContactQueryService       | Lecturas contactos.     | Listado/consentimientos.        | —                               |
+| Interface | GeoLocationService        | Ubicación.              | Actualizar/normalizar.          | GPS/VO Ubicación.               |
+| Interface | SeverityAssessmentService | Regla.                  | Calcular severidad.             | Monitoring.                     |
+
+<div id='4.2.5.2.'><h5>4.2.5.2. Interface Layer</h5></div>
+
+**Sub-capa REST:**
+
+| Tipo       | Nombre                     | Descripción               | Responsabilidad                   | Relación                       |
+| ---------- | -------------------------- | ------------------------- | --------------------------------- | ------------------------------ |
+| Controller | EmergencyController        | Endpoints de emergencias. | TriggerSOS, Detect, Active, ById. | EmergencyCommand/QueryService. |
+| Request    | TriggerSOSRequest          | Payload disparo SOS.      | pacienteId, ubicación.            | → TriggerSOSCommand.           |
+| Request    | DetectEmergencyRequest     | Payload automática.       | pacienteId, tipo, severidad.      | → DetectEmergencyCommand.      |
+| Response   | EmergencyResponse          | Resumen de emergencia.    | id, tipo, estado, ubicación.      | Desde entidad Emergencia.      |
+| Assembler  | EmergencyCommandAssembler  | Request → Command.        | Mapear Trigger/Detect.            | Usado en Controller.           |
+| Assembler  | EmergencyResponseAssembler | Entity → Response.        | Formato consistente de salida.    | Usado en Controller.           |
+
+
+<div id='4.2.5.3.'><h5>4.2.5.3. Application Layer</h5></div>
+
+**Sub-capa Internal:**
+
+| Tipo         | Nombre                      | Descripción                          | Relación                             |
+| ------------ | --------------------------- | ------------------------------------ | ------------------------------------ |
+| CmdHandler   | EmergencyCommandServiceImpl | Ejecuta TriggerSOS, DetectEmergency. | Usa EmergenciaRepo, SeverityService. |
+| CmdHandler   | AlertCommandServiceImpl     | Manejo de alertas.                   | Usa AlertaRepo, NotificationACL.     |
+| CmdHandler   | SOSCallServiceImpl          | Llamadas SOS y reintentos.           | Usa LlamadaSOSRepo, TelephonyACL.    |
+| QueryHandler | EmergencyQueryServiceImpl   | Consultas de emergencias.            | Usa vistas CQRS.                     |
+| QueryHandler | AlertQueryServiceImpl       | Consultas de alertas.                | Usa AlertaReadModel.                 |
+| QueryHandler | ContactQueryServiceImpl     | Consultas de contactos.              | Usa ContactoReadModel.               |
+
+
+**Sub-capa External:**
+
+| Tipo      | Nombre          | Descripción                       | Relación              |
+| --------- | --------------- | --------------------------------- | --------------------- |
+| ACL       | NotificationACL | Envío SMS/WhatsApp/Push.          | AlertService.         |
+| ACL       | TelephonyACL    | Llamadas 106/contactos.           | SOSCallService.       |
+| ACL       | GeoProviderACL  | Ubicación/GPS.                    | GeoLocationService.   |
+| ACL       | MonitoringACL   | Eventos de signos vitales/caídas. | EmergencyService.     |
+| Messaging | EventBus        | Transporte de eventos.            | Notif. + Emergencies. |
+
+
+<div id='4.2.5.4.'><h5>4.2.5.4. Infrastructure Layer</h5></div>
+
+**Sub-capa Repository:**
+
+| Tipo       | Nombre               | Descripción                                 | Relación            |
+| ---------- | -------------------- | ------------------------------------------- | ------------------- |
+| Repository | EmergenciaRepository | Persistir emergencias y estado.             | EmergencyService.   |
+| Repository | AlertaRepository     | Persistir alertas y estados de entrega.     | AlertService.       |
+| Repository | LlamadaSOSRepository | Guardar llamadas y resultados.              | SOSCallService.     |
+| Repository | ContactoRepository   | Gestionar contactos de emergencia.          | ContactService.     |
+| Repository | ConsentRepository    | Consentimientos por canal/contacto.         | ConsentPolicy.      |
+| Repository | UbicacionRepository  | Guardar ubicación histórica en emergencias. | GeoLocationService. |
+
+
+<div id='4.2.5.5.'><h5>4.2.5.5. Bounded Context Software Architecture Component Level Diagrams</h5></div>
+
+A continuación se ilustra la descomposición interna del contenedor Emergency Management Application, responsable de orquestar el ciclo de vida de una emergencia (SOS manual o automática por caída/umbral de signos vitales), coordinar notificaciones multicanal, llamadas al 106/contactos y el tracking de ubicación en tiempo real. El diseño refleja la separación por capas (Interface → Application → Domain → Infrastructure) y la integración con contextos/sistemas externos.
+
+<div align="center">
+<img src="Img/structurizr-EmergencyManagementComponents.png">
+</div>
+
+<div id='4.2.5.6.'><h5>4.2.5.6. Bounded Context Software Architecture Code Level Diagrams</h5></div>
+<div id='4.2.5.6.1.'><h6>4.2.5.6.1. Bounded Context Domain Layer Class Diagrams</h6></div>
+
+Emergencia es un Aggregate Root del dominio que modela un evento crítico asociado a un paciente (p. ej., caída detectada, signos vitales críticos o SOS manual). Contiene los atributos esenciales para gestionar el ciclo de vida de la emergencia (tipo, severidad, estado, ubicación, marca de llamada) y define comportamientos de negocio para disparar, confirmar/cancelar, cerrar y actualizar la ubicación durante el incidente. Esta clase actúa como objeto de dominio y es el punto de entrada para coordinar Alertas y Llamadas SOS.
+
+Usa la interface/base AuditableAbstractAggregateRoot para heredar metadatos de auditoría (p. ej., createdAt, createdBy, updatedAt, updatedBy) y la publicación de eventos de dominio.
+
+<div align="center">
+  <img src="Img/UML_Emergency-Management.png">
+</div>
+
+<div id='4.2.5.6.2.'><h6>4.2.5.6.2. Bounded Context Database Design Diagram</h6></div>
+
+<br><br>
+
+<div align="center">
+<img src="Img/emergency_management.png">
+</div>
 
 <div id='4.2.6.'><h4>4.2.6. Bounded Context: &lt;Treatment Support&gt;</h4></div>
 
@@ -1529,7 +2059,9 @@ a continuación detallaremos las capas del Bounded Context referenciado.
 
 <div id='4.2.6.5.'><h5>4.2.6.5. Bounded Context Software Architecture Component Level Diagrams</h5></div>
 
-El flujo completo muestra una arquitectura bien separada, donde cada componente cumple una función clara: los controladores manejan la comunicación externa, los servicios de aplicación orquestan la lógica, los comandos y consultas expresan intenciones específicas, las entidades encapsulan el comportamiento del dominio y los repositorios manejan la interacción con la base de datos. Este diseño respeta los principios de Clean Architecture y DDD, promoviendo un sistema mantenible y extensible.
+<div align="center">
+  <img src="Img/structurizr-TreatmentSupportComponents.png">
+</div>
 
 <div id='4.2.6.6.'><h5>4.2.6.6. Bounded Context Software Architecture Code Level Diagrams</h5></div>
 
@@ -1546,38 +2078,8 @@ El diseño refleja una clara orientación a DDD (Domain-Driven Design), donde la
 
 <div id='4.2.6.6.2.'><h6>4.2.6.6.2. Bounded Context Database Design Diagram</h6></div>
 
-### Tabla: Tratamiento
-
-Representa el plan de tratamiento asignado a un paciente. Incluye información sobre la medicación, la dosis, la frecuencia y el período de vigencia del tratamiento.
-
 <div align="center">
-
-| Campo        | Tipo     | Descripción                                                                    |
-| ------------ | -------- | ------------------------------------------------------------------------------ |
-| id           | Long     | Identificador único del tratamiento                                            |
-| paciente\_id | Long     | Identificador único del paciente al que pertenece el tratamiento (FK Paciente) |
-| descripcion  | string   | Descripción del tratamiento (ej. nombre del medicamento o terapia)             |
-| dosis        | string   | Dosis prescrita (ej. "500 mg")                                                 |
-| frecuencia   | string   | Frecuencia de administración (ej. "2 veces al día")                            |
-| inicio       | datetime | Fecha y hora de inicio del tratamiento                                         |
-| fin          | datetime | Fecha y hora de finalización del tratamiento                                   |
-
-</div>
-
-### Tabla: Recordatorio
-
-Representa un recordatorio asociado a un tratamiento, el cual notifica al paciente sobre la toma de su medicamento en una fecha y hora específicas.
-
-<div align="center">
-
-| Campo           | Tipo     | Descripción                                                                     |
-| --------------- | -------- | ------------------------------------------------------------------------------- |
-| id              | Long     | Identificador único del recordatorio                                            |
-| tratamiento\_id | Long     | Identificador del tratamiento al que pertenece el recordatorio (FK Tratamiento) |
-| fecha\_hora     | datetime | Fecha y hora programada para el recordatorio                                    |
-| enviado         | boolean  | Indica si el recordatorio fue enviado al paciente                               |
-
-
+  <img src="Img/treatment_db.png">
 </div>
 
 <div id='5.'><h2>5. Conclusiones</h2></div>
