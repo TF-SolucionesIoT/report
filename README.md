@@ -14,7 +14,7 @@ width=50%"/>
 
 <h5 style="text-align: center"> Docente: Marco Antonio León Baca</h5>
 
-<h5 style="text-align: center"> Startup: ??? </h5>
+<h5 style="text-align: center"> Startup: AlertaVital </h5>
 
 <h5 style="text-align: center"> Producto: AlertaVital </h5>
 
@@ -40,7 +40,7 @@ El objetivo de esta sección es resumir las modificaciones relevantes que se rea
 
 | Versión | Fecha | Autor | Descripción de modificación |
 | :-----: | :---: | :---: | --------------------------- |
-|    TB1    |   21/09   |   a   | z                           |
+|    TB1    |   21/09   |   Jesús Guillermo Uribe Quispe   | Se añadió el capítulo I, II, III y IV del proyecto.                         |
 
 # Project Report Collaboration Insights
 
@@ -60,7 +60,12 @@ Para el desarrollo del informe perteneciente a la entrega TF, se dividió la imp
 
 | Integrante | Tareas Asignadas |
 | ---------- | ---------------- |
-| a          | a                |
+| Bohórquez Lerzundi, Gerardo Sebastián | Analisis competitivo, documentación de Bounded context, entrevistas |
+| Huanaco Huayta, Elizabeth Lucero | Lean UX process, entrevistas, documentación de Bounded context, entrevistas|
+| Huapaya Cuevas, Anthony | Lean UX process, entrevistas, documentación de Bounded context, entrevistas |
+| Silva Tirado, Sebastián Valentino | Antecedentes y problemática, entrevistas, documentación de Bounded context, entrevistas, Impact Mapping |
+| Uribe Quispe, Jesús Guillermo | User Stories, Product Backlog, EventStorming process, Software architecture |
+
 
 **Github Collaboration Insights**
 
@@ -196,42 +201,47 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
     <tr>
       <td>Trabaja en equipo para proporcionar liderazgo en forma conjunta</td>
       <td>
-      <strong>Huanaco Huayta, Elizabeth Lucero</strong><br>
-      <strong>TB1:</strong><br>
-      El desarrollo de estas tareas, desde la aplicación del Lean UX Process hasta la definición del Bounded Context: Treatment Support con sus diferentes capas y diagramas, me permitió trabajar en equipo de manera organizada y colaborativa. Cada actividad requirió discutir ideas, validar supuestos, formular hipótesis y estructurar el diseño técnico de forma conjunta, lo que fomentó la toma de decisiones compartida y la distribución de responsabilidades. Este proceso fortaleció la comunicación y coordinación dentro del grupo, lo que me permitió contribuir activamente a alcanzar el objetivo común.
-        <b>Bohorquez Lerzundi Gerardo Sebastián:</b>
+      <b>Bohorquez Lerzundi Gerardo Sebastián:</b>
        <br> 
        <b>TB1:</b> Participé activamente en reuniones del grupo, compartiendo ideas y propuestas sobre la estructuración del Bounded Context de Monitoring, organizando la funcionalidad en servicios y capas de arquitectura. Además, coordiné con mis compañeros para asegurar que las tareas se distribuyeran de manera equitativa y que cada miembro comprendiera su rol dentro del proyecto.
         <br><br>
-        Huapaya Cuevas, Anthony Martin:<br>
-        TB1: En el equipo aporté liderazgo conjunto al desarrollar el Lean UX Process, ya que ayudó a estructurar nuestras hipótesis y experimentos de manera clara, lo que facilitó la toma de decisiones colaborativas. Además, trabajé en los bounded context canvases de health tracking, lo que permitió al grupo alinear la visión del sistema y delimitar responsabilidades dentro del diseño, favoreciendo un liderazgo distribuido. Finalmente, al realizar el registro de entrevistas, contribuí a organizar la información obtenida de los usuarios, asegurando que todo el equipo pudiera basar sus decisiones en evidencia real y compartida.
+      <strong>Huanaco Huayta, Elizabeth Lucero</strong><br>
+      <strong>TB1:</strong><br>
+      El desarrollo de estas tareas, desde la aplicación del Lean UX Process hasta la definición del Bounded Context: Treatment Support con sus diferentes capas y diagramas, me permitió trabajar en equipo de manera organizada y colaborativa. Cada actividad requirió discutir ideas, validar supuestos, formular hipótesis y estructurar el diseño técnico de forma conjunta, lo que fomentó la toma de decisiones compartida y la distribución de responsabilidades. Este proceso fortaleció la comunicación y coordinación dentro del grupo, lo que me permitió contribuir activamente a alcanzar el objetivo común.<br><br><b>
+        Huapaya Cuevas, Anthony Martin:</b><br>
+        <b>TB1:</b> En el equipo aporté liderazgo conjunto al desarrollar el Lean UX Process, ya que ayudó a estructurar nuestras hipótesis y experimentos de manera clara, lo que facilitó la toma de decisiones colaborativas. Además, trabajé en los bounded context canvases de health tracking, lo que permitió al grupo alinear la visión del sistema y delimitar responsabilidades dentro del diseño, favoreciendo un liderazgo distribuido. Finalmente, al realizar el registro de entrevistas, contribuí a organizar la información obtenida de los usuarios, asegurando que todo el equipo pudiera basar sus decisiones en evidencia real y compartida.
         <br><br>
-        Sebastian Silva: <br>
+        <b>Silva Tirado, Sebastián:</b> <br>
         TB1: Coordinó la distribución de responsabilidades entre los integrantes del equipo, 
         fomentando la toma de decisiones de manera consensuada. Propuso soluciones 
-        ante dificultades técnicas y apoyó a sus compañeros en la comprensión de las tareas asignadas. <br>
+        ante dificultades técnicas y apoyó a sus compañeros en la comprensión de las tareas asignadas. <br><br>
+        <b>Uribe Quispe Jesús Guillermo:</b><br> Coordiné la elaboración de la arquitectura, proceso de eventstorming y needfinding. Ayudando a mis compañeros a realizar dicho proceso.
       </td>
       <td>
-      -
+      <b>TB1:</b> En conclusión, el equipo evidenció una dinámica de trabajo basada en la colaboración, la organización y el liderazgo compartido, donde cada integrante asumió un rol activo en la construcción de los bounded contexts, la aplicación del Lean UX Process y el diseño de la arquitectura del sistema. La distribución equitativa de tareas, la discusión de ideas y la validación conjunta de hipótesis fortalecieron la comunicación y la coordinación, lo que permitió tomar decisiones consensuadas y afrontar con eficacia los retos técnicos. Gracias a esta sinergia, el grupo logró estructurar de manera sólida los distintos dominios del proyecto y avanzar de forma ordenada hacia los objetivos comunes.
       </td>
     </tr>
     <tr>
       <td>Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.</td>
       <td>
         <br><br><b>Bohorquez Lerzundi Gerardo Sebastián</b><br> 
-       <b>TB1:</b>  Contribuí en la fase de needfinding, realizando análisis de user persona y empathy map para identificar necesidades reales de los usuarios. Esto permitió al grupo empatizar con los clientes y definir soluciones más ajustadas. También participé en la planificación de tareas del proyecto, ayudando a cumplir objetivos establecidos en tiempo y forma.
+       <b>TB1:</b>  Contribuí en la fase de needfinding, realizando análisis de user persona y empathy map para identificar necesidades reales de los usuarios. Esto permitió al grupo empatizar con los clientes y definir soluciones más ajustadas. También participé en la planificación de tareas del proyecto, ayudando a cumplir objetivos establecidos en tiempo y forma.<br><br>
         <strong>Huanaco Huayta, Elizabeth Lucero</strong><br>
       <strong>TB1:</strong><br>
-      Durante el desarrollo de estas tareas logré desarrollar junto a mi equipo un entorno colaborativo e inclusivo, en el que cada integrante pudo aportar ideas y conocimientos desde su experiencia. Definimos metas claras, como la elaboración del Lean UX Canvas y los diferentes Bounded Context, lo que nos permitió planificar tareas de manera ordenada y asignarlas. Gracias a esta organización, pudimos cumplir con los objetivos establecidos en el tiempo acordado, fortaleciendo la participación equitativa y el compromiso hacia el proyecto del curso.
-        Huapaya Cuevas, Anthony Martin:<br>
-        TB1: Durante el proyecto fomenté un entorno colaborativo e inclusivo al aplicar el Lean UX Process, donde todas las ideas del equipo fueron consideradas y priorizadas de manera conjunta. A través de los bounded context canvases de health tracking, ayudé a establecer metas claras y a planificar tareas específicas relacionadas con el diseño de los dominios, asegurando que cada miembro comprendiera su responsabilidad. Con el registro de entrevistas, contribuí a cumplir los objetivos del equipo, ya que la información recogida permitió orientar el diseño hacia las necesidades reales de los usuarios.
-        <br>Sebastian Silva: <br>
+      Durante el desarrollo de estas tareas logré desarrollar junto a mi equipo un entorno colaborativo e inclusivo, en el que cada integrante pudo aportar ideas y conocimientos desde su experiencia. Definimos metas claras, como la elaboración del Lean UX Canvas y los diferentes Bounded Context, lo que nos permitió planificar tareas de manera ordenada y asignarlas. Gracias a esta organización, pudimos cumplir con los objetivos establecidos en el tiempo acordado, fortaleciendo la participación equitativa y el compromiso hacia el proyecto del curso.<br><br>
+        <b>Huapaya Cuevas, Anthony Martin:</b><br>
+        TB1: Durante el proyecto fomenté un entorno colaborativo e inclusivo al aplicar el Lean UX Process, donde todas las ideas del equipo fueron consideradas y priorizadas de manera conjunta. A través de los bounded context canvases de health tracking, ayudé a establecer metas claras y a planificar tareas específicas relacionadas con el diseño de los dominios, asegurando que cada miembro comprendiera su responsabilidad. Con el registro de entrevistas, contribuí a cumplir los objetivos del equipo, ya que la información recogida permitió orientar el diseño hacia las necesidades reales de los usuarios.<br>
+        <br><b>Silva Tirado, Sebastian: </b><br>
         TB1: Promovió reuniones periódicas para definir objetivos y plazos, fomentó la 
         participación activa de cada miembro y aseguró que las ideas fueran valoradas por igual. 
         Elaboró un cronograma de actividades y dio seguimiento al cumplimiento de tareas.
+        <br><br>
+        <b>Uribe Quispe, Jesús Guillermo</b><br>
+        <b>TB1:</b><br>
+        Cree canales de comunicación entre mis compañeros y yo para desenvolvernos mejor en el proyecto. Además tracé y designé tareas con tiempo para una mayor eficiencia en la realización del entregable.
       </td>
       <td>
-       -
+       <b>TB1:</b> En conjunto, el equipo demostró un trabajo colaborativo e inclusivo, en el que cada integrante aportó desde su rol al cumplimiento de los objetivos planteados. A través de la aplicación de metodologías como Lean UX y herramientas como empathy maps, user personas y bounded contexts, lograron definir necesidades reales de los usuarios, establecer metas claras, planificar tareas de manera organizada y dar seguimiento a su ejecución. La comunicación constante, la distribución equitativa de responsabilidades y la valoración de las ideas de todos los miembros fortalecieron el compromiso y permitieron alcanzar los entregables en los tiempos acordados, consolidando así un proceso de trabajo eficiente y orientado a resultados.
       </td>
     </tr>
   </tbody>
@@ -895,6 +905,26 @@ A continuación, se presenta una matriz de tareas enfocada en María Luisa Ramí
 
 <div id='2.5.'><h3>2.5. Ubiquitous Language</h3></div>
 
+**Gestión de signos vitales (Vital Signs Management):** Proceso de recolección, almacenamiento y seguimiento de datos biométricos (como frecuencia cardíaca, saturación de oxígeno, presión arterial) provenientes de dispositivos IoT.
+
+**Alertas de irregularidades (Irregularity Alerts):** Notificaciones generadas automáticamente cuando un signo vital registrado se encuentra fuera de los rangos normales establecidos.
+
+**Usuario (User):** Persona que utiliza el sistema, ya sea un paciente que porta el dispositivo IoT, un cuidador o un profesional de la salud que accede al sistema.
+
+**Autenticación (Authentication):** Mecanismo mediante el cual un usuario valida su identidad en el sistema para acceder a las funcionalidades.
+
+**SOS:** Señal de emergencia enviada manualmente por el usuario o automáticamente por el sistema en caso de detectar una condición crítica.
+
+**Contacto de emergencia (Emergency Contact):** Persona previamente registrada que recibe notificaciones o alertas en caso de que el sistema detecte una emergencia.
+
+**Registrar signo vital (Record Vital Sign):** Acción de almacenar en el sistema una nueva medición de un parámetro biométrico tomada por el dispositivo IoT.
+
+**Panel de control (Dashboard):** Interfaz central donde los usuarios autorizados pueden visualizar datos, alertas, métricas y el estado del paciente en tiempo real.
+
+**Confirmación / Cancelación (Confirmation / Cancellation):** Respuesta del usuario o del sistema para validar o descartar una acción, como el envío de una alerta o un evento programado.
+
+**Token:** Credencial digital utilizada para mantener sesiones seguras y autorizar accesos dentro del sistema tras un proceso de autenticación.
+
 <div id='3.'><h2>3. Capítulo III: Requirements Specification</h2></div>
 
 <div id='3.1.'><h3>3.1. User Stories</h3></div>
@@ -1415,9 +1445,19 @@ A continuación representaremos las conexiones entre bounded context mediante Do
 <img src="Img/canvas_Profile.png">
 </div>
 
+### Monitoring:
+<div align="center">
+<img src="Img/monitoring_canvas.png">
+</div>
+
 ### Health Tracking:
 <div align="center">
 <img src="Img/health_tracking_bounded_context_canvases.jpg" alt="health_tracking_canvases">
+</div>
+
+### Emergency Management:
+<div align="center">
+<img src="Img/emergency_canvas.png" alt="health_tracking_canvases">
 </div>
 
 ### Treatment Support
@@ -1635,6 +1675,23 @@ Bounded Context Software Architecture Code Level Diagrams</h5></div>
 <img src="Img/user_db.png">
 </div>
 
+
+### USERS
+**Propósito**: Manejo de autenticación y datos básicos del usuario
+
+| Campo | Tipo | Descripción |
+|-------|------|-------------|
+| id | Long (PK) | Identificador único del usuario |
+| first_name | varchar | Nombre del usuario |
+| last_name | varchar | Apellido del usuario |
+| email | varchar | Correo electrónico (único) |
+| password | varchar | Contraseña hasheada |
+| type_user | varchar | Tipo de usuario (admin, user, etc.) |
+
+**Relaciones**: 
+- 1:1 con PROFILES
+
+
 <div id='4.2.2.'><h4>4.2.2. Bounded Context: Profile</h4></div>
 <div id='4.2.2.1.'><h5>4.2.2.1. Domain Layer</h5></div>
 
@@ -1719,6 +1776,62 @@ Cada paciente puede tener muchos cuidadores y un cuidador puede tener muchos pac
 <img src="Img/profile_db.png">
 </div>
 
+### PROFILES
+**Propósito**: Información demográfica común entre pacientes y cuidadores
+
+| Campo | Tipo | Descripción |
+|-------|------|-------------|
+| id | Long (PK) | Identificador único del perfil |
+| birthday | Tipo | Fecha de nacimiento |
+| gender | Tipo | Género del usuario |
+| user_id | Tipo (FK) | Referencia a USERS |
+
+**Relaciones**:
+- N:1 con USERS
+- 1:1 con PATIENTS
+- 1:1 con CAREGIVERS
+
+### PATIENTS
+**Propósito**: Información específica de pacientes
+
+| Campo | Tipo | Descripción |
+|-------|------|-------------|
+| id | Long (PK) | Identificador único del paciente |
+| profile_id | Long (FK) | Referencia a PROFILES |
+| birthday | varchar | Fecha de nacimiento específica |
+
+**Relaciones**:
+- N:1 con PROFILES
+- N:M con CAREGIVERS (a través de CAREGIVERS_PATIENTS)
+- 1:N con TREATMENTS
+- 1:N con SYMPTOMS
+- 1:N con DISTURBANCES
+- 1:N con VITAL_SIGNS_ALERT
+- 1:N con EMERGENCIES
+- 1:N con CONTACTS
+
+### CAREGIVERS
+**Propósito**: Información específica de cuidadores
+
+| Campo | Tipo | Descripción |
+|-------|------|-------------|
+| id | Long (PK) | Identificador único del cuidador |
+| profile_id | Long (FK) | Referencia a PROFILES |
+| phone_number | varchar | Número de teléfono del cuidador |
+
+**Relaciones**:
+- N:1 con PROFILES
+- N:M con PATIENTS (a través de CAREGIVERS_PATIENTS)
+
+### CAREGIVERS_PATIENTS
+**Propósito**: Tabla intermedia para la relación N:M entre cuidadores y pacientes
+
+| Campo | Tipo | Descripción |
+|-------|------|-------------|
+| id | Long (PK) | Identificador único |
+| patient_id | Long (FK) | Referencia a PATIENTS |
+| caregiver_id | Long (FK) | Referencia a CAREGIVERS |
+
 <div id='4.2.3.'><h4>4.2.3. Bounded Context: &lt;Health Tracking&gt;</h4></div>
 <div id='4.2.3.1.'><h5>4.2.3.1. Domain Layer</h5></div>
 
@@ -1798,6 +1911,49 @@ Este diagrama UML representa la arquitectura de un sistema de gestión médica c
 <div align="center">
 <img src="Img/healthtracking_db.png">
 </div>
+
+
+
+### SYMPTOMS
+**Propósito**: Registro de síntomas reportados por pacientes
+
+| Campo | Tipo | Descripción |
+|-------|------|-------------|
+| id | Long (PK) | Identificador único del síntoma |
+| patient_id | Long (FK) | Referencia a PATIENTS |
+| description | varchar | Descripción del síntoma |
+| symptom_date | datetime | Fecha de registro del síntoma |
+
+**Relaciones**:
+- N:1 con PATIENTS
+
+### DISTURBANCES
+**Propósito**: Registro de alteraciones o eventos anómalos
+
+| Campo | Tipo | Descripción |
+|-------|------|-------------|
+| id | Long (PK) | Identificador único |
+| patient_id | Long (FK) | Referencia a PATIENTS |
+| description | varchar | Descripción de la alteración |
+| disturbance_date | datetime | Fecha de la alteración |
+
+**Relaciones**:
+- N:1 con PATIENTS
+
+### VITAL_SIGNS_ALERT
+**Propósito**: Alertas relacionadas con signos vitales
+
+| Campo | Tipo | Descripción |
+|-------|------|-------------|
+| id | Long (PK) | Identificador único |
+| patient_id | Long (FK) | Referencia a PATIENTS |
+| alert_type | varchar | Tipo de alerta |
+| description | varchar | Descripción de la alerta |
+| alert_date | datetime | Fecha de la alerta |
+
+**Relaciones**:
+- N:1 con PATIENTS
+
 
 <div id='4.2.4.'><h4>4.2.4. Bounded Context: &lt;Monitoring&gt;</h4></div>
 <div id='4.2.4.1.'><h5>4.2.4.1. Domain Layer</h5></div>
@@ -1986,6 +2142,37 @@ Usa la interface/base AuditableAbstractAggregateRoot para heredar metadatos de a
 <img src="Img/emergency_management.png">
 </div>
 
+### EMERGENCIES
+**Propósito**: Registro de situaciones de emergencia
+
+| Campo | Tipo | Descripción |
+|-------|------|-------------|
+| id | Long (PK) | Identificador único |
+| patient_id | Long (FK) | Referencia a PATIENTS |
+| type_emergency | varchar | Tipo de emergencia |
+| emergency_date | datetime | Fecha de la emergencia |
+| lat | varchar | Latitud de la ubicación |
+| lon | varchar | Longitud de la ubicación |
+| successfully_call | boolean | Si se logró contactar ayuda |
+| resolved_date | datetime | Fecha de resolución |
+
+**Relaciones**:
+- N:1 con PATIENTS
+
+### CONTACTS
+**Propósito**: Contactos de emergencia para pacientes
+
+| Campo | Tipo | Descripción |
+|-------|------|-------------|
+| id | Long (PK) | Identificador único |
+| name | varchar | Nombre del contacto |
+| phone_number | varchar | Número de teléfono |
+| connection | varchar | Relación con el paciente |
+| patient_id | Long (FK) | Referencia a PATIENTS |
+
+**Relaciones**:
+- N:1 con PATIENTS
+
 <div id='4.2.6.'><h4>4.2.6. Bounded Context: &lt;Treatment Support&gt;</h4></div>
 
 Siguiendo el modelo de arquitectura "Clean Architecture" hemos dividido el proyecto en capas.
@@ -2081,6 +2268,40 @@ El diseño refleja una clara orientación a DDD (Domain-Driven Design), donde la
 <div align="center">
   <img src="Img/treatment_db.png">
 </div>
+
+### TREATMENTS
+**Propósito**: Gestión de tratamientos médicos y medicamentos
+
+| Campo | Tipo | Descripción |
+|-------|------|-------------|
+| id | Long (PK) | Identificador único del tratamiento |
+| patient_id | Long (FK) | Referencia a PATIENTS |
+| description | varchar | Descripción del tratamiento |
+| frequency | varchar | Frecuencia de administración |
+| dosage | varchar | Dosis del medicamento |
+| start_date | datetime | Fecha de inicio del tratamiento |
+| end_date | datetime | Fecha de fin del tratamiento |
+| is_active | boolean | Estado activo del tratamiento |
+
+**Relaciones**:
+- N:1 con PATIENTS
+- 1:N con TREATMENT_REMINDERS
+
+### TREATMENT_REMINDERS
+**Propósito**: Gestión de recordatorios de medicación
+
+| Campo | Tipo | Descripción |
+|-------|------|-------------|
+| id | Long (PK) | Identificador único del recordatorio |
+| treatment_id | Long (FK) | Referencia a TREATMENTS |
+| reminder_date | datetime | Fecha y hora del recordatorio |
+| status | varchar | Estado (pending/sent/failed) |
+| sent_date | datetime | Fecha de envío real |
+| reminder_type | varchar | Tipo (push/sms/email) |
+
+**Relaciones**:
+- N:1 con TREATMENTS
+
 
 <div id='5.'><h2>5. Conclusiones</h2></div>
 <div id='6.'><h2>6. Bibliografía</h2></div>
