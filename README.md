@@ -40,7 +40,7 @@ El objetivo de esta sección es resumir las modificaciones relevantes que se rea
 
 | Versión | Fecha | Autor | Descripción de modificación |
 | :-----: | :---: | :---: | --------------------------- |
-|    a    |   a   |   a   | a                           |
+|    TB1    |   21/09   |   a   | z                           |
 
 # Project Report Collaboration Insights
 
@@ -156,6 +156,15 @@ Los integrantes son:
    4.2.4.6. [Bounded Context Software Architecture Code Level Diagrams.](#4.2.4.6.)<br>
    4.2.4.6.1. [Bounded Context Domain Layer Class Diagrams.](#4.2.4.6.1.)<br>
    4.2.4.6.2. [Bounded Context Database Design Diagram.](#4.2.4.6.2.)<br>
+   4.2.5. [Bounded Context: <Bounded Context Name>.](#4.2.5.)<br>
+   4.2.5.1. [Domain Layer.](#4.2.5.1.)<br>
+   4.2.5.2. [Interface Layer.](#4.2.5.2.)<br>
+   4.2.5.3. [Application Layer.](#4.2.5.3.)<br>
+   4.2.5.4. [Infrastructure Layer.](#4.2.5.4.)<br>
+   4.2.5.5. [Bounded Context Software Architecture Component Level Diagrams.](#4.2.5.5.)<br>
+   4.2.5.6. [Bounded Context Software Architecture Code Level Diagrams.](#4.2.5.6.)<br>
+   4.2.5.6.1. [Bounded Context Domain Layer Class Diagrams.](#4.2.5.6.1.)<br>
+   4.2.5.6.2. [Bounded Context Database Design Diagram.](#4.2.5.6.2.)<br>
 
 5. [Conclusiones](#5.)<br>
 6. [Bibliografía](#6.)<br>
@@ -176,32 +185,40 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
   </thead>
   <tbody>
     <tr>
-      <td style="font-weight:bold">Trabaja en equipo para
-proporcionar liderazgo en
-forma conjunta</td>
+      <td>Trabaja en equipo para proporcionar liderazgo en forma conjunta</td>
       <td>
-        Huapaya Cuevas, Anthony Martin:<br>
-        TB1: En el equipo aporté liderazgo conjunto al desarrollar el Lean UX Process, ya que ayudó a estructurar nuestras hipótesis y experimentos de manera clara, lo que facilitó la toma de decisiones colaborativas. Además, trabajé en los bounded context canvases de health tracking, lo que permitió al grupo alinear la visión del sistema y delimitar responsabilidades dentro del diseño, favoreciendo un liderazgo distribuido. Finalmente, al realizar el registro de entrevistas, contribuí a organizar la información obtenida de los usuarios, asegurando que todo el equipo pudiera basar sus decisiones en evidencia real y compartida.
-        <br><br>
         <b>Bohorquez Lerzundi Gerardo Sebastián:</b>
        <br> 
        <b>TB1:</b> Participé activamente en reuniones del grupo, compartiendo ideas y propuestas sobre la estructuración del Bounded Context de Monitoring, organizando la funcionalidad en servicios y capas de arquitectura. Además, coordiné con mis compañeros para asegurar que las tareas se distribuyeran de manera equitativa y que cada miembro comprendiera su rol dentro del proyecto.
+        <br><br>
+        Huapaya Cuevas, Anthony Martin:<br>
+        TB1: En el equipo aporté liderazgo conjunto al desarrollar el Lean UX Process, ya que ayudó a estructurar nuestras hipótesis y experimentos de manera clara, lo que facilitó la toma de decisiones colaborativas. Además, trabajé en los bounded context canvases de health tracking, lo que permitió al grupo alinear la visión del sistema y delimitar responsabilidades dentro del diseño, favoreciendo un liderazgo distribuido. Finalmente, al realizar el registro de entrevistas, contribuí a organizar la información obtenida de los usuarios, asegurando que todo el equipo pudiera basar sus decisiones en evidencia real y compartida.
+        <br><br>
+        Sebastian Silva: <br>
+        TB1: Coordinó la distribución de responsabilidades entre los integrantes del equipo, 
+        fomentando la toma de decisiones de manera consensuada. Propuso soluciones 
+        ante dificultades técnicas y apoyó a sus compañeros en la comprensión de las tareas asignadas. <br>
       </td>
       <td>
-        <!--conclusion -->
+        
       </td>
     </tr>
     <tr>
-      <td style="font-weight:bold">Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.</td>
+      <td>Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.</td>
       <td>
-        Huapaya Cuevas, Anthony Martin:<br>
-        TB1: Durante el proyecto fomenté un entorno colaborativo e inclusivo al aplicar el Lean UX Process, donde todas las ideas del equipo fueron consideradas y priorizadas de manera conjunta. A través de los bounded context canvases de health tracking, ayudé a establecer metas claras y a planificar tareas específicas relacionadas con el diseño de los dominios, asegurando que cada miembro comprendiera su responsabilidad. Con el registro de entrevistas, contribuí a cumplir los objetivos del equipo, ya que la información recogida permitió orientar el diseño hacia las necesidades reales de los usuarios.
-      <br><br><b>Bohorquez Lerzundi Gerardo Sebastián</b>
+         <br><br><b>Bohorquez Lerzundi Gerardo Sebastián</b>
        <br> 
        <b>TB1:</b>  Contribuí en la fase de needfinding, realizando análisis de user persona y empathy map para identificar necesidades reales de los usuarios. Esto permitió al grupo empatizar con los clientes y definir soluciones más ajustadas. También participé en la planificación de tareas del proyecto, ayudando a cumplir objetivos establecidos en tiempo y forma.
+        Huapaya Cuevas, Anthony Martin:<br>
+        TB1: Durante el proyecto fomenté un entorno colaborativo e inclusivo al aplicar el Lean UX Process, donde todas las ideas del equipo fueron consideradas y priorizadas de manera conjunta. A través de los bounded context canvases de health tracking, ayudé a establecer metas claras y a planificar tareas específicas relacionadas con el diseño de los dominios, asegurando que cada miembro comprendiera su responsabilidad. Con el registro de entrevistas, contribuí a cumplir los objetivos del equipo, ya que la información recogida permitió orientar el diseño hacia las necesidades reales de los usuarios.
+        <br>Sebastian Silva: <br>
+        TB1: Promovió reuniones periódicas para definir objetivos y plazos, fomentó la 
+        participación activa de cada miembro y aseguró que las ideas fueran valoradas por igual. 
+        Elaboró un cronograma de actividades y dio seguimiento al cumplimiento de tareas.
+      
       </td>
       <td>
-        <!-- conclusion -->
+       -
       </td>
     </tr>
   </tbody>
@@ -211,6 +228,9 @@ forma conjunta</td>
 
 <div id='1.1.'><h3>1.1. Startup Profile</h3></div>
 <div id='1.1.1.'><h4>1.1.1. Descripción del startup</h4></div>
+
+AlertaVital es una startup tecnológica dedicada a desarrollar soluciones innovadoras basadas en Internet de las Cosas (IoT) para mejorar la calidad de vida de las personas mayores y sus familias. Nuestra misión es proporcionar herramientas accesibles y confiables que permitan el monitoreo en tiempo real de signos vitales y la detección de caídas, brindando tranquilidad y seguridad tanto a los adultos mayores como a sus cuidadores. A través de un dispositivo portátil y una aplicación móvil intuitiva, AlertaVital busca transformar la manera en que se cuida a los adultos mayores, facilitando la prevención de emergencias y promoviendo un envejecimiento saludable y autónomo.
+
 <div id='1.1.2.'><h4>1.1.2. Perfiles de los integrantes del equipo</h4></div>
 
 
@@ -573,11 +593,11 @@ Esta sección recopila la información obtenida a partir de entrevistas realizad
     </tr> 
     <tr>
         <td><img src="Img/Entrevista-1.png" width="300px"></td>
-        <td>XXX</td>
+        <td>Rosa Valera es una mujer de 65 años que vive en San Luis. Ella ha tenido resbalones en el último año y se siente insegura al estar sola en casa. Rosa tiene confianza en el uso de dispositivos electrónicos, pero no ha utilizado dispositivos para medir su salud. Le gustaría un dispositivo que monitoree su salud y alerte a sus familiares en caso de emergencia.</td>
     </tr> 
     <tr>
-        <td>Timing: 0:00 - XX:XX</td>
-        <td>URL: <a href="Link" target="_blank">NombreLink</a></td>
+        <td>Timing: 0:00 - 03:55</td>
+        <td>URL: <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211g296_upc_edu_pe/ESKRjQ6V36JEqGVMCOh_FykB88evkHckHIWId9gACrKSiQ?e=IguKBR" target="_blank">Link del Video</a></td>
     </tr> 
     <tr>
         <td>Entrevistado N°2</td>
@@ -597,7 +617,7 @@ Esta sección recopila la información obtenida a partir de entrevistas realizad
     </tr> 
     <tr>
         <td>Timing: XX:XX - XX:XX</td>
-        <td>URL: <a href="Link" target="_blank">NombreLink</a></td>
+        <td>URL: <a href="Link" target="_blank">Link del Video</a></td>
     </tr> 
     <tr>
         <td>Entrevistado N°3</td>
@@ -617,7 +637,7 @@ Esta sección recopila la información obtenida a partir de entrevistas realizad
     </tr> 
     <tr>
         <td>Timing: XX:XX - XX:XX</td>
-        <td>URL: <a href="Link" target="_blank">NombreLink</a></td>
+        <td>URL: <a href="Link" target="_blank">Link del Video</a></td>
     </tr> 
 </table>
 
@@ -664,7 +684,7 @@ Esta sección recopila la información obtenida a partir de entrevistas realizad
     </tr> 
     <tr>
         <td>Timing: XX:XX - XX:XX</td>
-        <td>URL: <a href="Link" target="_blank">NombreLink</a></td>
+        <td>URL: <a href="Link" target="_blank">Link del Video</a></td>
     </tr> 
     <tr>
         <td>Entrevistado N°3</td>
@@ -684,7 +704,7 @@ Esta sección recopila la información obtenida a partir de entrevistas realizad
     </tr> 
     <tr>
         <td>Timing: XX:XX - XX:XX</td>
-        <td>URL: <a href="Link" target="_blank">NombreLink</a></td>
+        <td>URL: <a href="Link" target="_blank">Link del Video</a></td>
     </tr> 
 </table>
 
@@ -692,19 +712,17 @@ Esta sección recopila la información obtenida a partir de entrevistas realizad
 
 <div id='2.2.3.'><h4>2.2.3. Análisis de entrevistas</h4></div>
 
-A continuación, se presenta el análisis de las entrevistas realizadas a adultos mayores y cuidadores responsables de su atención. Este estudio permite identificar patrones, necesidades y oportunidades clave para el diseño de la solución IoT de monitoreo de signos vitales y detección de caídas.
+### Análisis del segmento de adultos mayores
 
-</br>
+Los adultos mayores entrevistados valoran la posibilidad de contar con un dispositivo IoT que les brinde seguridad dentro de su propio hogar, especialmente en relación con la detección de caídas y el monitoreo de signos vitales. El 100% coincidió en que la principal ventaja sería la tranquilidad de sentirse acompañados incluso cuando están solos, reduciendo el miedo a sufrir un accidente sin asistencia. Asimismo, la mayoría destacó que un dispositivo ligero, cómodo y fácil de usar es esencial para garantizar la adopción.
 
-**Características comunes entre adultos mayores y cuidadores entrevistados**
+En general, los adultos mayores consideran que esta solución IoT puede mejorar su autonomía y calidad de vida, siempre que se prioricen el diseño ergonómico, la facilidad de uso y el acompañamiento inicial en el aprendizaje.
 
-<img src="Img/grafico-barras-entrevistas-iot.png" alt="Gráfico de barras de las entrevistas IoT" style="margin-bottom: 5px;" width="600"/>
+### Análisis del segmento de cuidadores/familiares
 
-**Fuente**: Datos recolectados mediante entrevistas aplicadas a tres adultos mayores y tres cuidadores en Lima Metropolitana.
+Los cuidadores entrevistados valoran de manera significativa la posibilidad de recibir alertas inmediatas en sus celulares en caso de caídas o alteraciones en los signos vitales de sus familiares. El 100% consideró que la función más importante es la respuesta rápida en emergencias, ya que actualmente dependen de llamadas telefónicas o visitas presenciales que no siempre son oportunas. Un 70% resaltó la utilidad de contar con un historial digital de signos vitales, que facilite la comunicación con médicos en controles regulares.
 
-</br>
-
-De acuerdo con el análisis realizado, los adultos mayores entrevistados manifestaron haber experimentado al menos una caída en el último año, en la mayoría de los casos sin acompañamiento inmediato. Todos coincidieron en que la principal dificultad es la falta de supervisión cuando están solos en casa, especialmente en horas de la mañana o la noche. Asimismo, aunque algunos han utilizado tensiómetros digitales o glucómetros, ninguno emplea actualmente dispositivos inteligentes que transmitan datos en tiempo real. Existe cierta resistencia inicial al uso de tecnología por parte de los adultos mayores, motivada por percepciones de complejidad o incomodidad, pero también mostraron disposición a probar dispositivos siempre que sean fáciles de usar, discretos y económico.
+En general, los cuidadores perciben el sistema IoT como una herramienta clave para reducir la ansiedad y garantizar la seguridad de los adultos mayores, aunque insisten en la necesidad de optimizar la precisión, la usabilidad de la aplicación y el costo de implementación.
 
 <div id='2.3.'><h3>2.3. Needfinding</h3></div>
 <div id='2.3.1.'><h4>2.3.1. User Personas</h4></div>
@@ -1101,6 +1119,15 @@ A continuación, se presenta una matriz de tareas enfocada en María Luisa Ramí
 </tbody></table>
 
 <div id='3.2.'><h3>3.2. Impact Mapping</h3></div>
+
+### User Journey Map – Adulto Mayor
+
+<img src="Img/Impact_Mapping1.jpg" alt="Journey_Mapping1"></img>
+
+### User Journey Map – Cuidador/Familiar
+
+<img src="Img/Impact_Mapping2.jpg" alt="Journey_Mapping2"></img>
+
 <div id='3.3.'><h3>3.3. Product Backlog</h3></div>
 
 <table border="1" cellspacing="0" cellpadding="5">
@@ -1834,6 +1861,115 @@ Este diagrama UML representa la arquitectura de un sistema de gestión médica c
 
 Al ser datos de entrada proveniente del dispositivo IoT, la persistencia la gestiona el boundedContext "HealthTracking".
 
+<div id='4.2.5.'><h4>4.2.5. Bounded Context: &lt;Emergency Management&gt;</h4></div>
+<div id='4.2.5.1.'><h5>4.2.5.1. Domain Layer</h5></div>
+
+**Sub-capa Model:**
+
+| Tipo      | Nombre                    | Descripción                    | Responsabilidad principal                          | Relación                                                                         |
+| --------- | ------------------------- | ------------------------------ | -------------------------------------------------- | -------------------------------------------------------------------------------- |
+| Aggregate | Emergencia                | Evento crítico (caída/SOS/SV). | Crear/validar/actualizar/cerrar emergencias.       | Con **Alerta** y **LlamadaSOS**; insumos de Monitoring; publica a Notifications. |
+| Command   | TriggerSOSCommand         | Disparar SOS manual.           | Crear emergencia (SOS) y disparar alertas/llamada. | App paciente.                                                                    |
+| Command   | DetectEmergencyCommand    | Alta automática.               | Crear emergencia con severidad/ubicación.          | Desde Monitoring.                                                                |
+| Command   | ConfirmEmergencyCommand   | Confirmar/descartar.           | Cambiar estado (seguir/cancelar flujo).            | App cuidador/paciente.                                                           |
+| Command   | DispatchAlertsCommand     | Enviar alertas.                | Generar alertas por canal y marcar estado.         | Notifications.                                                                   |
+| Command   | PlaceSOSCallCommand       | Llamar 106/contactos.          | Ejecutar llamada y registrar resultado.            | Telco/API voz.                                                                   |
+| Query     | GetActiveEmergenciesQuery | Emergencias abiertas.          | Listar en curso con severidad/ubicación.           | Dashboard.                                                                       |
+| Query     | GetEmergencyByIdQuery     | Detalle.                       | Recuperar emergencia + alertas + llamada.          | —                                                                                |
+
+**Sub-capa Services:**
+
+| Tipo      | Nombre                    | Descripción             | Responsabilidad principal       | Relación                        |
+| --------- | ------------------------- | ----------------------- | ------------------------------- | ------------------------------- |
+| Interface | EmergencyCommandService   | Comandos de emergencia. | Trigger/Detect/Confirm/Close.   | Repos de Emergencia/LlamadaSOS. |
+| Interface | EmergencyQueryService     | Lecturas.               | Active/ById.                    | Vistas CQRS.                    |
+| Interface | AlertCommandService       | Envío de alertas.       | Dispatch + ConsentPolicy.       | Notifications.                  |
+| Interface | AlertQueryService         | Lecturas alertas.       | Historial/estados.              | Auditoría.                      |
+| Interface | SOSCallService            | Llamadas.               | Ejecutar/reintentos.            | Telco.                          |
+| Interface | ContactCommandService     | ABM contactos.          | Add/Update/Remove + validación. | ContactoEmergencia.             |
+| Interface | ContactQueryService       | Lecturas contactos.     | Listado/consentimientos.        | —                               |
+| Interface | GeoLocationService        | Ubicación.              | Actualizar/normalizar.          | GPS/VO Ubicación.               |
+| Interface | SeverityAssessmentService | Regla.                  | Calcular severidad.             | Monitoring.                     |
+
+<div id='4.2.5.2.'><h5>4.2.5.2. Interface Layer</h5></div>
+
+**Sub-capa REST:**
+
+| Tipo       | Nombre                     | Descripción               | Responsabilidad                   | Relación                       |
+| ---------- | -------------------------- | ------------------------- | --------------------------------- | ------------------------------ |
+| Controller | EmergencyController        | Endpoints de emergencias. | TriggerSOS, Detect, Active, ById. | EmergencyCommand/QueryService. |
+| Request    | TriggerSOSRequest          | Payload disparo SOS.      | pacienteId, ubicación.            | → TriggerSOSCommand.           |
+| Request    | DetectEmergencyRequest     | Payload automática.       | pacienteId, tipo, severidad.      | → DetectEmergencyCommand.      |
+| Response   | EmergencyResponse          | Resumen de emergencia.    | id, tipo, estado, ubicación.      | Desde entidad Emergencia.      |
+| Assembler  | EmergencyCommandAssembler  | Request → Command.        | Mapear Trigger/Detect.            | Usado en Controller.           |
+| Assembler  | EmergencyResponseAssembler | Entity → Response.        | Formato consistente de salida.    | Usado en Controller.           |
+
+
+<div id='4.2.5.3.'><h5>4.2.5.3. Application Layer</h5></div>
+
+**Sub-capa Internal:**
+
+| Tipo         | Nombre                      | Descripción                          | Relación                             |
+| ------------ | --------------------------- | ------------------------------------ | ------------------------------------ |
+| CmdHandler   | EmergencyCommandServiceImpl | Ejecuta TriggerSOS, DetectEmergency. | Usa EmergenciaRepo, SeverityService. |
+| CmdHandler   | AlertCommandServiceImpl     | Manejo de alertas.                   | Usa AlertaRepo, NotificationACL.     |
+| CmdHandler   | SOSCallServiceImpl          | Llamadas SOS y reintentos.           | Usa LlamadaSOSRepo, TelephonyACL.    |
+| QueryHandler | EmergencyQueryServiceImpl   | Consultas de emergencias.            | Usa vistas CQRS.                     |
+| QueryHandler | AlertQueryServiceImpl       | Consultas de alertas.                | Usa AlertaReadModel.                 |
+| QueryHandler | ContactQueryServiceImpl     | Consultas de contactos.              | Usa ContactoReadModel.               |
+
+
+**Sub-capa External:**
+
+| Tipo      | Nombre          | Descripción                       | Relación              |
+| --------- | --------------- | --------------------------------- | --------------------- |
+| ACL       | NotificationACL | Envío SMS/WhatsApp/Push.          | AlertService.         |
+| ACL       | TelephonyACL    | Llamadas 106/contactos.           | SOSCallService.       |
+| ACL       | GeoProviderACL  | Ubicación/GPS.                    | GeoLocationService.   |
+| ACL       | MonitoringACL   | Eventos de signos vitales/caídas. | EmergencyService.     |
+| Messaging | EventBus        | Transporte de eventos.            | Notif. + Emergencies. |
+
+
+<div id='4.2.5.4.'><h5>4.2.5.4. Infrastructure Layer</h5></div>
+
+**Sub-capa Repository:**
+
+| Tipo       | Nombre               | Descripción                                 | Relación            |
+| ---------- | -------------------- | ------------------------------------------- | ------------------- |
+| Repository | EmergenciaRepository | Persistir emergencias y estado.             | EmergencyService.   |
+| Repository | AlertaRepository     | Persistir alertas y estados de entrega.     | AlertService.       |
+| Repository | LlamadaSOSRepository | Guardar llamadas y resultados.              | SOSCallService.     |
+| Repository | ContactoRepository   | Gestionar contactos de emergencia.          | ContactService.     |
+| Repository | ConsentRepository    | Consentimientos por canal/contacto.         | ConsentPolicy.      |
+| Repository | UbicacionRepository  | Guardar ubicación histórica en emergencias. | GeoLocationService. |
+
+
+<div id='4.2.5.5.'><h5>4.2.5.5. Bounded Context Software Architecture Component Level Diagrams</h5></div>
+
+A continuación se ilustra la descomposición interna del contenedor Emergency Management Application, responsable de orquestar el ciclo de vida de una emergencia (SOS manual o automática por caída/umbral de signos vitales), coordinar notificaciones multicanal, llamadas al 106/contactos y el tracking de ubicación en tiempo real. El diseño refleja la separación por capas (Interface → Application → Domain → Infrastructure) y la integración con contextos/sistemas externos.
+
+<div align="center">
+<img src="Img/structurizr-EmergencyManagementComponents.png">
+</div>
+
+<div id='4.2.5.6.'><h5>4.2.5.6. Bounded Context Software Architecture Code Level Diagrams</h5></div>
+<div id='4.2.5.6.1.'><h6>4.2.5.6.1. Bounded Context Domain Layer Class Diagrams</h6></div>
+
+Emergencia es un Aggregate Root del dominio que modela un evento crítico asociado a un paciente (p. ej., caída detectada, signos vitales críticos o SOS manual). Contiene los atributos esenciales para gestionar el ciclo de vida de la emergencia (tipo, severidad, estado, ubicación, marca de llamada) y define comportamientos de negocio para disparar, confirmar/cancelar, cerrar y actualizar la ubicación durante el incidente. Esta clase actúa como objeto de dominio y es el punto de entrada para coordinar Alertas y Llamadas SOS.
+
+Usa la interface/base AuditableAbstractAggregateRoot para heredar metadatos de auditoría (p. ej., createdAt, createdBy, updatedAt, updatedBy) y la publicación de eventos de dominio.
+
+<div align="center">
+  <img src="Img/UML_Emergency-Management.png">
+</div>
+
+<div id='4.2.5.6.2.'><h6>4.2.5.6.2. Bounded Context Database Design Diagram</h6></div>
+
+<br><br>
+
+<div align="center">
+<img src="Img/emergency_management.png">
+</div>
 
 <div id='5.'><h2>5. Conclusiones</h2></div>
 <div id='6.'><h2>6. Bibliografía</h2></div>
