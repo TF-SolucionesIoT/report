@@ -120,15 +120,17 @@ Los integrantes son:
    4.1.3.3. [Software Architecture Container Level Diagrams.](#4.1.3.3.)<br>
    4.1.3.4. [Software Architecture Deployment Diagrams.](#4.1.3.4.)<br>
    4.2. [Tactical-Level Domain-Driven Design.](#4.2.)<br>
-   4.2.X. [Bounded Context: <Bounded Context Name>.](#4.2.x.)<br>
-   4.2.X.1. [Domain Layer.](#4.2.x.1.)<br>
-   4.2.X.2. [Interface Layer.](#4.2.x.2.)<br>
-   4.2.X.3. [Application Layer.](#4.2.x.3.)<br>
-   4.2.X.4. [Infrastructure Layer.](#4.2.x.4.)<br>
-   4.2.X.5. [Bounded Context Software Architecture Component Level Diagrams.](#4.2.x.5.)<br>
-   4.2.X.6. [Bounded Context Software Architecture Code Level Diagrams.](#4.2.x.6.)<br>
-   4.2.X.6.1. [Bounded Context Domain Layer Class Diagrams.](#4.2.x.6.1.)<br>
-   4.2.X.6.2. [Bounded Context Database Design Diagram.](#4.2.x.6.2.)<br>
+   4.2.6. [Bounded Context: Treatment Support](#4.2.6)<br>
+   4.2.6.1. [Domain Layer.](#4.2.6.1.)<br>
+   4.2.6.2. [Interface Layer.](#4.2.6.2.)<br>
+   4.2.6.3. [Application Layer.](#4.2.6.3.)<br>
+   4.2.6.4. [Infrastructure Layer.](#4.2.6.4.)<br>
+   4.2.6.5. [Bounded Context Software Architecture Component Level Diagrams.](#4.2.6.5.)<br>
+   4.2.6.6. [Bounded Context Software Architecture Code Level Diagrams.](#4.2.6.6.)<br>
+   4.2.6.6.1. [Bounded Context Domain Layer Class Diagrams.](#4.2.6.6.1.)<br>
+   4.2.6.6.2. [Bounded Context Database Design Diagram.](#4.2.6.6.2.)<br>
+
+
 
 5. [Conclusiones](#5.)<br>
 6. [Bibliografía](#6.)<br>
@@ -153,6 +155,9 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
 proporcionar liderazgo en
 forma conjunta</td>
       <td>
+      <strong>Huanaco Huayta, Elizabeth Lucero</strong><br>
+      <strong>TB1:</strong><br>
+      El desarrollo de estas tareas, desde la aplicación del Lean UX Process hasta la definición del Bounded Context: Treatment Support con sus diferentes capas y diagramas, me permitió trabajar en equipo de manera organizada y colaborativa. Cada actividad requirió discutir ideas, validar supuestos, formular hipótesis y estructurar el diseño técnico de forma conjunta, lo que fomentó la toma de decisiones compartida y la distribución de responsabilidades. Este proceso fortaleció la comunicación y coordinación dentro del grupo, lo que me permitió contribuir activamente a alcanzar el objetivo común.
       </td>
       <td>
         <!--conclusion -->
@@ -161,6 +166,9 @@ forma conjunta</td>
     <tr>
       <td style="font-weight:bold">Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.</td>
       <td>
+      <strong>Huanaco Huayta, Elizabeth Lucero</strong><br>
+      <strong>TB1:</strong><br>
+      Durante el desarrollo de estas tareas logré desarrollar junto a mi equipo un entorno colaborativo e inclusivo, en el que cada integrante pudo aportar ideas y conocimientos desde su experiencia. Definimos metas claras, como la elaboración del Lean UX Canvas y los diferentes Bounded Context, lo que nos permitió planificar tareas de manera ordenada y asignarlas. Gracias a esta organización, pudimos cumplir con los objetivos establecidos en el tiempo acordado, fortaleciendo la participación equitativa y el compromiso hacia el proyecto del curso.
       </td>
       <td>
         <!-- conclusion -->
@@ -596,19 +604,19 @@ Esta sección recopila la información obtenida a partir de entrevistas realizad
     </tr> 
     <tr>
         <td>Entrevistado N°2</td>
-        <td>XXX</td>
+        <td>Fabrisio Belahonia Miranda</td>
     </tr> 
     <tr>
         <td>Edad</td>
-        <td>XX</td>
+        <td>25</td>
     </tr> 
     <tr>
         <td>Distrito de residencia</td>
-        <td>XXX</td>
+        <td>Ate</td>
     </tr> 
     <tr>
-        <td><img src="Img/Entrevista-2.png" width="300px"></td>
-        <td>XXX</td>
+        <td><img src="Img/Entrevista tutor Fabrisio.png" width="300px"></td>
+        <td>Fabrisio es hijo y cuidador principal de su padre adulto mayor, con quien convive en la misma casa. Debido a que trabaja fuera de casa, su mayor preocupación es que el adulto mayor pase varias horas solo. Relató una experiencia previa en la que su padre sufrió una caída mientras él estaba trabajando, lo que evidenció la vulnerabilidad de estas situaciones y la necesidad de contar con apoyo tecnológico para reaccionar de manera oportuna. Actualmente, solo utilizan un tensiómetro digital en los horarios en los que el tutor está presente, aunque el adulto mayor lo encuentra incómodo y suele retirárselo, lo que reduce su efectividad. Él considera fundamental disponer de información en tiempo real sobre los signos vitales, especialmente porque pasa gran parte del día fuera de casa. Además, señaló que la forma más efectiva de recibir alertas sería mediante una llamada automática, ya que no siempre puede revisar notificaciones durante el trabajo. Sin embargo, manifestó disposición a invertir en un sistema IoT de monitoreo si es confiable y este se encuentra en un rango de precio accesible.</td>
     </tr> 
     <tr>
         <td>Timing: XX:XX - XX:XX</td>
@@ -1312,6 +1320,10 @@ A continuación representaremos las conexiones entre bounded context mediante Do
 
 <div id='4.1.1.3.'><h5>4.1.1.3. Bounded Context Canvases</h5></div>
 
+### Treatment Support
+
+<img src="Img/treatment support bounded context canvas.jpg" alt="treatment support bounded context canvas">
+
 <div id='4.1.2.'><h4>4.1.2. Context Mapping</h4></div>
 
 <div aling="center">
@@ -1444,15 +1456,129 @@ A continuación representaremos las conexiones entre bounded context mediante Do
 
 <div id='4.2.'><h3>4.2. Tactical-Level Domain-Driven Design</h3></div>
 
-<div id='4.2.x.'><h4>4.2.X. Bounded Context: &lt;Bounded Context Name&gt;</h4></div>
-<div id='4.2.x.1.'><h5>4.2.X.1. Domain Layer</h5></div>
-<div id='4.2.x.2.'><h5>4.2.X.2. Interface Layer</h5></div>
-<div id='4.2.x.3.'><h5>4.2.X.3. Application Layer</h5></div>
-<div id='4.2.x.4.'><h5>4.2.X.4. Infrastructure Layer</h5></div>
-<div id='4.2.x.5.'><h5>4.2.X.5. Bounded Context Software Architecture Component Level Diagrams</h5></div>
-<div id='4.2.x.6.'><h5>4.2.X.6. Bounded Context Software Architecture Code Level Diagrams</h5></div>
-<div id='4.2.x.6.1.'><h6>4.2.X.6.1. Bounded Context Domain Layer Class Diagrams</h6></div>
-<div id='4.2.x.6.2.'><h6>4.2.X.6.2. Bounded Context Database Design Diagram</h6></div>
+<div id='4.2.6.'><h4>4.2.6. Bounded Context: &lt;Treatment Support&gt;</h4></div>
+
+Siguiendo el modelo de arquitectura "Clean Architecture" hemos dividido el proyecto en capas.
+
+a continuación detallaremos las capas del Bounded Context referenciado.
+
+<div id='4.2.6.1.'><h5>4.2.6.1. Domain Layer</h5></div>
+
+**Sub-capa Model:**
+
+| Tipo         | Nombre        | Descripción                                    | Responsabilidad Principal                                                                                         | Relación con otros elementos                                                          |
+| ------------ | ------------- | ---------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
+| Aggregate    | Treatment          | Clase para definir el tratamiento del adulto mayor | Ser el punto de entrada para modificar y mantener la integridad del tratamiento como entidad del dominio | Útil para generar alertas de recordartorios como parte del tratamiento |
+| Aggregate    | Reminder          | Clase para definir el recordatorio del consumo de medicamentos del adulto mayor | Ser el punto de entrada para modificar y mantener la integridad del recordatorio como entidad del dominio | Útil para generar alertas para que el adulto mayor consuma el medicamento en el horario establecido |
+| Command      | CreateTreatmentCommand | Comando para registro de tratamiento                          | Representa la intención de registrar tratamiento en la aplicación                                                            | Usado para registrar un nuevo tratamiento                             |
+| Command      | UpdateTreatmentCommand | Comando para actualización de tratamiento                          | Representa la intención de actualizar tratamiento en la aplicación                                                            | Usado para actualizar un nuevo tratamiento                             |
+| Command      | DeleteTreatmentCommand | Comando para eliminación de tratamiento                          | Representa la intención de eliminar tratamiento en la aplicación                                                            | Usado para eliminar un nuevo tratamiento                             |
+| Command      | CreateReminderCommand | Comando para registro de recordatorio                          | Representa la intención de registrar un recordartorio de un medicamento en la aplicación                                                            | Usado para registrar un nuevo recordatorio                             |
+| Command      | UpdateReminderCommand  | Comando para actualización de recordatorio | Representa la intención de actualizar un recordatorio ya creado | Usado para actualizar un recordatorio existente |
+| Command      | DeleteReminderCommand  | Comando para eliminación de recordatorio | Representa la intención de eliminar un recordatorio ya creado | Usado para eliminar un recordatorio existente |
+| Query      | GetAllRemindersByPatientQuery | Consulta para obtener todos los recordatorios de un adulto mayor específico                          | Permite recuperar la lista de recordatorios asociados a un paciente para visualizar sus próximos medicamentos                                                      | Usado para mostrar los recordatorios activos del adulto mayor                             |
+| Query        | GetAllTreatmentsByPatientQuery | Query para obtener todos los tratamientos de un paciente específico | Permite consultar la lista de tratamientos asociados a un adulto mayor en particular | Usado para mostrar todos los tratamientos de un paciente identificado |
+
+
+**Sub-capa Services:**
+| Tipo | Nombre | Descripción | Responsabilidad Principal | Relación con otros elementos |
+| ---- | ------ | ----------- | ------------------------- | ---------------------------- |
+|Interface|TreatmentCommandService|Servicio para la creación, modificación o eliminación de los tratamientos|estipular una estructura clara a seguir|Uso en la capa "application" para implementar los métodos dados|
+|Interface| ReminderCommandService | Servicio para la creación, modificación y actualización de recordatorios | Estipular una estructura clara a seguir | Uso en la capa "Application" para la implementación de los métodos.|
+|Interface| TreatmentQueryService | Servicio para métodos de obtención de datos| estipular una estructura clara a seguir. | Uso en la capa "application" para implementar el método estipulado.|
+|Interface | ReminderQueryService | Servicio para métodos de obtención de recordatorios| estipular una estructura clara a seguir.| Uso en la capa "application" para implementar el método estipulado.|
+
+
+<div id='4.2.6.2.'><h5>4.2.6.2. Interface Layer</h5></div>
+
+**Sub-capa REST:**
+| Tipo       | Nombre                                            | Descripción                                                                | Responsabilidad Principal                                                                 | Relación con otros elementos                                                                 |
+|------------|---------------------------------------------------|----------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|
+| Controller | TreatmentController                               | Controlador REST para gestionar tratamientos                               | Recibe solicitudes del cliente relacionadas con tratamientos, coordina comandos y queries  | Utiliza TreatmentRequestResource, TreatmentResponseResource y los assemblers correspondientes |
+| Controller | ReminderController                                | Controlador REST para gestionar recordatorios                              | Recibe solicitudes del cliente relacionadas con recordatorios, coordina comandos y queries | Utiliza ReminderRequestResource, ReminderResponseResource y los assemblers correspondientes   |
+| Resource   | TreatmentRequestResource                          | Estructura de una petición para crear o actualizar un tratamiento          | Representar y exponer datos del dominio de forma accesible y estructurada para el cliente  | Uso en TreatmentController para enviar datos estructurados al sistema                         |
+| Resource   | TreatmentResponseResource                         | Estructura de una respuesta con información de un tratamiento              | Representar y exponer datos del dominio de forma accesible y estructurada para el cliente  | Uso en TreatmentController para responder con datos del sistema                               |
+| Resource   | ReminderRequestResource                           | Estructura de una petición para crear o actualizar un recordatorio         | Representar y exponer datos del dominio de forma accesible y estructurada para el cliente  | Uso en ReminderController para enviar datos estructurados al sistema                          |
+| Resource   | ReminderResponseResource                          | Estructura de una respuesta con información de un recordatorio             | Representar y exponer datos del dominio de forma accesible y estructurada para el cliente  | Uso en ReminderController para responder con datos del sistema                                |
+| Assembler  | CreateTreatmentCommandFromResourceAssembler       | Convierte un recurso de petición en un comando de creación de tratamiento  | Evitar acoplamiento entre la interfaz REST y la capa de aplicación                         | Usado en TreatmentController para traducir la petición a CreateTreatmentCommand               |
+| Assembler  | UpdateTreatmentCommandFromResourceAssembler       | Convierte un recurso de petición en un comando de actualización de tratamiento | Evitar acoplamiento entre la interfaz REST y la capa de aplicación                      | Usado en TreatmentController para traducir la petición a UpdateTreatmentCommand               |
+| Assembler  | TreatmentResourceFromEntityAssembler              | Convierte una entidad Treatment en un recurso de respuesta                 | Asegura una respuesta consistente para el cliente                                          | Usado en TreatmentController para retornar TreatmentResponseResource                          |
+| Assembler  | CreateReminderCommandFromResourceAssembler        | Convierte un recurso de petición en un comando de creación de recordatorio | Evitar acoplamiento entre la interfaz REST y la capa de aplicación                         | Usado en ReminderController para traducir la petición a CreateReminderCommand                 |
+| Assembler  | UpdateReminderCommandFromResourceAssembler        | Convierte un recurso de petición en un comando de actualización de recordatorio | Evitar acoplamiento entre la interfaz REST y la capa de aplicación                      | Usado en ReminderController para traducir la petición a UpdateReminderCommand                 |
+| Assembler  | ReminderResourceFromEntityAssembler               | Convierte una entidad Reminder en un recurso de respuesta                  | Asegura una respuesta consistente para el cliente                                          | Usado en ReminderController para retornar ReminderResponseResource                            |
+
+
+<div id='4.2.6.3.'><h5>4.2.6.3. Application Layer</h5></div>
+
+**Sub-capa Internal:**
+| Tipo          | Nombre                        | Descripción                                               | Responsabilidad Principal                                          | Relación con otros elementos                                                                 |
+|---------------|-------------------------------|-----------------------------------------------------------|-------------------------------------------------------------------|----------------------------------------------------------------------------------------------|
+| CommandHandler| TreatmentCommandServiceImpl   | Implementación de los comandos de creación, actualización y eliminación de tratamientos | Implementar los métodos para el servicio de tratamientos           | Implementa los métodos de la interfaz TreatmentCommandService en la capa de "Services".      |
+| CommandHandler| ReminderCommandServiceImpl    | Implementación de los comandos de creación, actualización y eliminación de recordatorios | Implementar los métodos para el servicio de recordatorios          | Implementa los métodos de la interfaz ReminderCommandService en la capa de "Services".       |
+| QueryHandler  | TreatmentQueryServiceImpl     | Implementación de la obtención de datos de tratamientos    | Implementar los métodos para el servicio de consultas de tratamientos | Implementa los métodos de la interfaz TreatmentQueryService en la capa de "Services".       |
+| QueryHandler  | ReminderQueryServiceImpl      | Implementación de la obtención de datos de recordatorios   | Implementar los métodos para el servicio de consultas de recordatorios | Implementa los métodos de la interfaz ReminderQueryService en la capa de "Services".        |
+
+<div id='4.2.6.4.'><h5>4.2.6.4. Infrastructure Layer</h5></div>
+
+**Sub-capa Repository:**
+| Tipo       | Nombre              | Descripción                                   | Responsabilidad Principal              | Relación con otros elementos                                                                 |
+|------------|---------------------|-----------------------------------------------|----------------------------------------|----------------------------------------------------------------------------------------------|
+| Repository | TreatmentRepository | Repositorio a usar del modelo "Treatment"     | Acceder y manipular datos persistidos de tratamientos | Usado en la Capa "Application" para actualizar y obtener datos de tratamientos.              |
+| Repository | ReminderRepository  | Repositorio a usar del modelo "Reminder"      | Acceder y manipular datos persistidos de recordatorios | Usado en la Capa "Application" para actualizar y obtener datos de recordatorios.             |
+
+
+<div id='4.2.6.5.'><h5>4.2.6.5. Bounded Context Software Architecture Component Level Diagrams</h5></div>
+
+El flujo completo muestra una arquitectura bien separada, donde cada componente cumple una función clara: los controladores manejan la comunicación externa, los servicios de aplicación orquestan la lógica, los comandos y consultas expresan intenciones específicas, las entidades encapsulan el comportamiento del dominio y los repositorios manejan la interacción con la base de datos. Este diseño respeta los principios de Clean Architecture y DDD, promoviendo un sistema mantenible y extensible.
+
+<div id='4.2.6.6.'><h5>4.2.6.6. Bounded Context Software Architecture Code Level Diagrams</h5></div>
+
+<div id='4.2.6.6.1.'><h6>4.2.6.6.1. Bounded Context Domain Layer Class Diagrams</h6></div>
+
+Este diagrama de clases representa la estructura del modelo de dominio para el módulo de Treatment Support en una aplicación desarrollada con principios de Clean Architecture. La entidades principales son Tratamiento y Recordatorio, la cual hereda de una clase base llamada AuditableAbstractAggregateRoot que encapsula atributos comunes como id, createdAt y updatedAt, asegurando trazabilidad y consistencia en la gestión de entidades auditables. Además, se utilizará Lombok para la generación automática de métodos get y set, lo que reducirá el código repetitivo y mejorando la legibilidad del modelo.
+
+El diseño refleja una clara orientación a DDD (Domain-Driven Design), donde las entidades mantienen su lógica y reglas de negocio, apoyadas por una base auditable y clasificadas semánticamente mediante enumeraciones. Esta estructura promueve la escalabilidad, cohesión y mantenibilidad del sistema.<br>
+
+<div align="center">
+<img src="Img/treatment support class diagram.png">
+</div>
+
+
+<div id='4.2.6.6.2.'><h6>4.2.6.6.2. Bounded Context Database Design Diagram</h6></div>
+
+### Tabla: Tratamiento
+
+Representa el plan de tratamiento asignado a un paciente. Incluye información sobre la medicación, la dosis, la frecuencia y el período de vigencia del tratamiento.
+
+<div align="center">
+
+| Campo        | Tipo     | Descripción                                                                    |
+| ------------ | -------- | ------------------------------------------------------------------------------ |
+| id           | Long     | Identificador único del tratamiento                                            |
+| paciente\_id | Long     | Identificador único del paciente al que pertenece el tratamiento (FK Paciente) |
+| descripcion  | string   | Descripción del tratamiento (ej. nombre del medicamento o terapia)             |
+| dosis        | string   | Dosis prescrita (ej. "500 mg")                                                 |
+| frecuencia   | string   | Frecuencia de administración (ej. "2 veces al día")                            |
+| inicio       | datetime | Fecha y hora de inicio del tratamiento                                         |
+| fin          | datetime | Fecha y hora de finalización del tratamiento                                   |
+
+</div>
+
+### Tabla: Recordatorio
+
+Representa un recordatorio asociado a un tratamiento, el cual notifica al paciente sobre la toma de su medicamento en una fecha y hora específicas.
+
+<div align="center">
+
+| Campo           | Tipo     | Descripción                                                                     |
+| --------------- | -------- | ------------------------------------------------------------------------------- |
+| id              | Long     | Identificador único del recordatorio                                            |
+| tratamiento\_id | Long     | Identificador del tratamiento al que pertenece el recordatorio (FK Tratamiento) |
+| fecha\_hora     | datetime | Fecha y hora programada para el recordatorio                                    |
+| enviado         | boolean  | Indica si el recordatorio fue enviado al paciente                               |
+
+
+</div>
 
 <div id='5.'><h2>5. Conclusiones</h2></div>
 <div id='6.'><h2>6. Bibliografía</h2></div>
