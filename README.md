@@ -120,15 +120,15 @@ Los integrantes son:
    4.1.3.3. [Software Architecture Container Level Diagrams.](#4.1.3.3.)<br>
    4.1.3.4. [Software Architecture Deployment Diagrams.](#4.1.3.4.)<br>
    4.2. [Tactical-Level Domain-Driven Design.](#4.2.)<br>
-   4.2.X. [Bounded Context: <Bounded Context Name>.](#4.2.x.)<br>
-   4.2.X.1. [Domain Layer.](#4.2.x.1.)<br>
-   4.2.X.2. [Interface Layer.](#4.2.x.2.)<br>
-   4.2.X.3. [Application Layer.](#4.2.x.3.)<br>
-   4.2.X.4. [Infrastructure Layer.](#4.2.x.4.)<br>
-   4.2.X.5. [Bounded Context Software Architecture Component Level Diagrams.](#4.2.x.5.)<br>
-   4.2.X.6. [Bounded Context Software Architecture Code Level Diagrams.](#4.2.x.6.)<br>
-   4.2.X.6.1. [Bounded Context Domain Layer Class Diagrams.](#4.2.x.6.1.)<br>
-   4.2.X.6.2. [Bounded Context Database Design Diagram.](#4.2.x.6.2.)<br>
+   4.2.4. [Bounded Context: Monitoring.](#4.2.4.)<br>
+   4.2.4.1. [Domain Layer.](#4.2.4.1.)<br>
+   4.2.4.2. [Interface Layer.](#4.2.4.2.)<br>
+   4.2.4.3. [Application Layer.](#4.2.4.3.)<br>
+   4.2.4.4. [Infrastructure Layer.](#4.2.4.4.)<br>
+   4.2.4.5. [Bounded Context Software Architecture Component Level Diagrams.](#4.2.4.5.)<br>
+   4.2.4.6. [Bounded Context Software Architecture Code Level Diagrams.](#4.2.4.6.)<br>
+   4.2.4.6.1. [Bounded Context Domain Layer Class Diagrams.](#4.2.4.6.1.)<br>
+   4.2.4.6.2. [Bounded Context Database Design Diagram.](#4.2.4.6.2.)<br>
 
 5. [Conclusiones](#5.)<br>
 6. [Bibliografía](#6.)<br>
@@ -1444,15 +1444,94 @@ A continuación representaremos las conexiones entre bounded context mediante Do
 
 <div id='4.2.'><h3>4.2. Tactical-Level Domain-Driven Design</h3></div>
 
-<div id='4.2.x.'><h4>4.2.X. Bounded Context: &lt;Bounded Context Name&gt;</h4></div>
-<div id='4.2.x.1.'><h5>4.2.X.1. Domain Layer</h5></div>
-<div id='4.2.x.2.'><h5>4.2.X.2. Interface Layer</h5></div>
-<div id='4.2.x.3.'><h5>4.2.X.3. Application Layer</h5></div>
-<div id='4.2.x.4.'><h5>4.2.X.4. Infrastructure Layer</h5></div>
-<div id='4.2.x.5.'><h5>4.2.X.5. Bounded Context Software Architecture Component Level Diagrams</h5></div>
-<div id='4.2.x.6.'><h5>4.2.X.6. Bounded Context Software Architecture Code Level Diagrams</h5></div>
-<div id='4.2.x.6.1.'><h6>4.2.X.6.1. Bounded Context Domain Layer Class Diagrams</h6></div>
-<div id='4.2.x.6.2.'><h6>4.2.X.6.2. Bounded Context Database Design Diagram</h6></div>
+<div id='4.2.4.'><h4>4.2.4. Bounded Context: &lt;Monitoring&gt;</h4></div>
+<div id='4.2.4.1.'><h5>4.2.4.1. Domain Layer</h5></div>
+
+**Sub-capa Model:**
+
+| Tipo      | Nombre                       | Descripción                                                                 | Responsabilidad Principal                                 | Relación con otros elementos                                                                                       |
+| --------- | ---------------------------- | --------------------------------------------------------------------------- | --------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
+| Aggregate | Monitoring             | Clase que representa un registro de monitoreo | Ser el punto de entrada para la gestión de datos de monitoreo| Relacionado con eventos de logging, alertas y métricas recibidas desde otros bounded contexts.                      |
+| Command   | CreateMonitoringEventCommand | Comando para registrar un nuevo evento de monitoreo                         | Crear un nuevo registro de monitoreo                       | Relacionado con el Bounded Context de Infraestructura (captura de logs, métricas de red, BD, etc.).                |
+| Query     | GetMonitoringStatusQuery     | Query para obtener el estado general del sistema                            | Consultar métricas y eventos registrados                  | Se usa desde la capa de Application para mostrar datos al Dashboard.                                                |
+| Query     | GetAlertsBySeverityQuery     | Query para obtener alertas filtradas por nivel de severidad                 | Permitir análisis de criticidad en el monitoreo            | Relacionado con el módulo de alertas y con el bounded context de *Notifications*.                                   |
+
+**Sub-capa Services:**
+
+| Tipo      | Nombre                   | Descripción                                                               | Responsabilidad Principal                     | Relación con otros elementos |
+| --------- | ------------------------ | ------------------------------------------------------------------------- | --------------------------------------------- | ---------------------------- |
+| Interface | MonitoringCommandService | Servicio que define métodos para registrar eventos y métricas              | Estipular contratos claros para registrar datos| Usado en la capa "application" para implementar la lógica de registro |
+| Interface | MonitoringQueryService   | Servicio que define métodos para obtener información del monitoreo         | Estipular contratos claros para consultas      | Usado en la capa "application" para implementar consultas al sistema |
+
+<div id='4.2.4.2.'><h5>4.2.4.2. Interface Layer</h5></div>
+
+**Sub-capa REST:**
+
+| Tipo       | Nombre                                      | Descripción                                                         | Responsabilidad Principal                                                            | Relación con otros elementos |
+| ---------- | ------------------------------------------- | ------------------------------------------------------------------- | ------------------------------------------------------------------------------------ | ---------------------------- |
+| Controller | MonitoringController                        | Controlador REST para gestionar el monitoreo                        | Recibe solicitudes de clientes para consultar métricas o registrar eventos           | Utiliza resources y assemblers |
+| Resource   | MonitoringRequestResource                   | Estructura de una petición para registrar un evento de monitoreo     | Representar datos de entrada de forma accesible para el sistema                      | Usado en MonitoringController para registrar eventos |
+| Resource   | MonitoringResponseResource                  | Estructura de respuesta con datos de monitoreo                       | Exponer métricas, logs o alertas al cliente                                          | Usado en MonitoringController para devolver resultados |
+| Assembler  | CreateMonitoringCommandFromResourceAssembler| Convierte un recurso de petición en un comando de creación           | Evitar acoplamiento entre la interfaz REST y el dominio                              | Usado en MonitoringController |
+| Assembler  | MonitoringResourceFromEntityAssembler        | Convierte una entidad MonitoringRecord en un recurso de respuesta    | Asegurar consistencia en la información retornada                                    | Usado en MonitoringController |
+
+
+<div id='4.2.4.3.'><h5>4.2.4.3. Application Layer</h5></div>
+
+### Application Layer - Internal
+
+| Tipo     | Nombre                     | Descripción                                                                 | Responsabilidad Principal                                                                 | Relación con otros elementos |
+| -------- | -------------------------- | --------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- | ---------------------------- |
+| Command  | RecordVitalSignCommand     | Registrar un nuevo valor de signo vital de un paciente.                      | Validar y persistir un nuevo registro en la tabla SignosVitales.                         | Usa MonitoringService y MonitoringRepository |
+| Command  | ValidateVitalSignCommand   | Validar un signo vital contra thresholds clínicos.                           | Consultar thresholds locales y, si está disponible, delegar validación a RulesService.   | Depende de MonitoringService y RulesService |
+| Query    | GetMonitoringStatusQuery   | Obtener estado actual de los signos vitales registrados, validando contra thresholds locales y/o RulesService. | Permite consultas del estado de un paciente en tiempo real. | Usa MonitoringRepository y RulesService |
+
+
+**Sub-capa External:**
+
+| Tipo           | Nombre                        | Descripción                                                       | Responsabilidad Principal                                  | Relación con otros elementos |
+| -------------- | ----------------------------- | ----------------------------------------------------------------- | ---------------------------------------------------------- | ---------------------------- |
+| EventPublisher | MonitoringAlertPublisher | Publicador de eventos críticos detectados en el monitoreo vía EventBus | Enviar una alerta al Bounded Context de *Notifications* y/o *EmergencyManagement* para que gestionen notificaciones o llamadas SOS | Conecta con EventBus para distribuir eventos a otros BCs |
+
+
+
+<div id='4.2.4.4.'><h5>4.2.4.4. Infrastructure Layer</h5></div>
+
+**Sub-capa Repository:**
+
+| Tipo       | Nombre               | Descripción                                           | Responsabilidad Principal                   | Relación con otros elementos |
+| ---------- | -------------------- | ----------------------------------------------------- | ------------------------------------------- | ---------------------------- |
+| Repository | MonitoringRepository | Repositorio del modelo MonitoringRecord               | Acceder y manipular los registros persistidos| Usado en la capa "Application" para almacenar y recuperar eventos |
+
+
+<div id='4.2.4.5.'><h5>4.2.4.5. Bounded Context Software Architecture Component Level Diagrams</h5></div>
+<div id='4.2.4.6.'><h5>4.2.4.6. Bounded Context Software Architecture Code Level Diagrams</h5></div>
+<div id='4.2.4.6.1.'><h6>4.2.4.6.1. Bounded Context Domain Layer Class Diagrams</h6></div>
+
+<div align="center">
+<img src="Img/class-diagram-domain-monitoring.png">
+</div>
+
+<div id='4.2.4.6.2.'><h6>4.2.4.6.2. Bounded Context Database Design Diagram</h6></div>
+
+### Tabla: SignosVitales
+| Campo       | Tipo de Dato | Descripción                                                                 |
+| ----------- | ------------ | --------------------------------------------------------------------------- |
+| id          | int (PK)     | Identificador único del registro de signos vitales.                         |
+| paciente_id | int (FK)     | Identificador del paciente al que pertenece el signo vital.                  |
+| tipo        | varchar      | Tipo de signo vital registrado (ej: 'frecuencia_cardiaca', 'presion_arterial', 'oxigenacion'). |
+| valor       | double       | Valor medido del signo vital.                                               |
+| fecha_hora  | DateTime     | Fecha y hora en la que se registró el dato.                                 |
+
+### Tabla: Alerta
+| Campo        | Tipo de Dato | Descripción                                                                 |
+| ------------ | ------------ | --------------------------------------------------------------------------- |
+| id           | int (PK)     | Identificador único de la alerta.                                           |
+| paciente_id  | int (FK)     | Identificador del paciente al que pertenece la alerta.                       |
+| tipo_alerta  | varchar      | Tipo de alerta generada (ej: taquicardia, hipertensión, hipoxia, etc.).     |
+| descripcion  | text         | Detalle adicional sobre la alerta generada.                                 |
+| fecha_hora   | DateTime     | Fecha y hora en la que se generó la alerta.                                 |
+| generada_por | varchar      | Indica si la alerta fue generada 'manual' o 'automatica'.
 
 <div id='5.'><h2>5. Conclusiones</h2></div>
 <div id='6.'><h2>6. Bibliografía</h2></div>
