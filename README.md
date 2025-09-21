@@ -120,15 +120,15 @@ Los integrantes son:
    4.1.3.3. [Software Architecture Container Level Diagrams.](#4.1.3.3.)<br>
    4.1.3.4. [Software Architecture Deployment Diagrams.](#4.1.3.4.)<br>
    4.2. [Tactical-Level Domain-Driven Design.](#4.2.)<br>
-   4.2.X. [Bounded Context: <Bounded Context Name>.](#4.2.x.)<br>
-   4.2.X.1. [Domain Layer.](#4.2.x.1.)<br>
-   4.2.X.2. [Interface Layer.](#4.2.x.2.)<br>
-   4.2.X.3. [Application Layer.](#4.2.x.3.)<br>
-   4.2.X.4. [Infrastructure Layer.](#4.2.x.4.)<br>
-   4.2.X.5. [Bounded Context Software Architecture Component Level Diagrams.](#4.2.x.5.)<br>
-   4.2.X.6. [Bounded Context Software Architecture Code Level Diagrams.](#4.2.x.6.)<br>
-   4.2.X.6.1. [Bounded Context Domain Layer Class Diagrams.](#4.2.x.6.1.)<br>
-   4.2.X.6.2. [Bounded Context Database Design Diagram.](#4.2.x.6.2.)<br>
+   4.2.3. [Bounded Context: Health Tracking.](#4.2.3.)<br>
+   4.2.3.1. [Domain Layer.](#4.2.3.1.)<br>
+   4.2.3.2. [Interface Layer.](#4.2.3.2.)<br>
+   4.2.3.3. [Application Layer.](#4.2.3.3.)<br>
+   4.2.3.4. [Infrastructure Layer.](#4.2.3.4.)<br>
+   4.2.3.5. [Bounded Context Software Architecture Component Level Diagrams.](#4.2.3.5.)<br>
+   4.2.3.6. [Bounded Context Software Architecture Code Level Diagrams.](#4.2.3.6.)<br>
+   4.2.3.6.1. [Bounded Context Domain Layer Class Diagrams.](#4.2.3.6.1.)<br>
+   4.2.3.6.2. [Bounded Context Database Design Diagram.](#4.2.3.6.2.)<br>
 
 5. [Conclusiones](#5.)<br>
 6. [Bibliografía](#6.)<br>
@@ -153,6 +153,8 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
 proporcionar liderazgo en
 forma conjunta</td>
       <td>
+        Huapaya Cuevas, Anthony Martin:<br>
+        TB1: En el equipo aporté liderazgo conjunto al desarrollar el Lean UX Process, ya que ayudó a estructurar nuestras hipótesis y experimentos de manera clara, lo que facilitó la toma de decisiones colaborativas. Además, trabajé en los bounded context canvases de health tracking, lo que permitió al grupo alinear la visión del sistema y delimitar responsabilidades dentro del diseño, favoreciendo un liderazgo distribuido. Finalmente, al realizar el registro de entrevistas, contribuí a organizar la información obtenida de los usuarios, asegurando que todo el equipo pudiera basar sus decisiones en evidencia real y compartida.
       </td>
       <td>
         <!--conclusion -->
@@ -161,6 +163,8 @@ forma conjunta</td>
     <tr>
       <td style="font-weight:bold">Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.</td>
       <td>
+        Huapaya Cuevas, Anthony Martin:<br>
+        TB1: Durante el proyecto fomenté un entorno colaborativo e inclusivo al aplicar el Lean UX Process, donde todas las ideas del equipo fueron consideradas y priorizadas de manera conjunta. A través de los bounded context canvases de health tracking, ayudé a establecer metas claras y a planificar tareas específicas relacionadas con el diseño de los dominios, asegurando que cada miembro comprendiera su responsabilidad. Con el registro de entrevistas, contribuí a cumplir los objetivos del equipo, ya que la información recogida permitió orientar el diseño hacia las necesidades reales de los usuarios.
       </td>
       <td>
         <!-- conclusion -->
@@ -529,19 +533,19 @@ Esta sección recopila la información obtenida a partir de entrevistas realizad
     </tr> 
     <tr>
         <td>Entrevistado N°2</td>
-        <td>XXX</td>
+        <td>Deodora Arias</td>
     </tr> 
     <tr>
         <td>Edad</td>
-        <td>XX</td>
+        <td>81</td>
     </tr> 
     <tr>
         <td>Distrito de residencia</td>
-        <td>XXX</td>
+        <td>Santa Cruz de Flores</td>
     </tr> 
     <tr>
-        <td><img src="Img/Entrevista-2.png" width="300px"></td>
-        <td>XXX</td>
+        <td><img src="Img/entrevista_deodora.png" width="300px"></td>
+        <td>Deodora vive con su esposo y uno de sus hijos, a ella le detectaron diabetes, hipertensión y artrosis. Mensualmente acude al seguro para que le hagan su chequeo. Si ha llegado a sufrir caídas, su hijo que vive con ella se comunica con sus otros hijos y estos se ponen preocupados por dicho accidente. Generalmente se queda en casa con su hijo y esposo. Ella usa solo el celular para la comunicación y entretenimientos. Ella ha usado distintos dispositivos para medir la presión y como lleva controlada su diabetes. Ella ve factible el uso de un dispositivo como si fuera un reloj o algo un poco más discreto, además de que le interesa que este mande una alerta inmediata a sus familiares si ha sufrido alguna caída o alteración de sus signos vitales. Lo que considera más importante es que sea fácil de usar, ya que no maneja muy bien los dispositivos electrónicos.</td>
     </tr> 
     <tr>
         <td>Timing: XX:XX - XX:XX</td>
@@ -616,19 +620,19 @@ Esta sección recopila la información obtenida a partir de entrevistas realizad
     </tr> 
     <tr>
         <td>Entrevistado N°3</td>
-        <td>XXX</td>
+        <td>Sonia Huapaya Arias</td>
     </tr> 
     <tr>
         <td>Edad</td>
-        <td>XX</td>
+        <td>62</td>
     </tr> 
     <tr>
         <td>Distrito de residencia</td>
-        <td>XXX</td>
+        <td>Villa María del Triunfo</td>
     </tr> 
     <tr>
-        <td><img src="Img/Entrevista-3.png" width="300px"></td>
-        <td>XXX</td>
+        <td><img src="Img/entrevista_sonia.png" width="300px"></td>
+        <td>Sonia es una enfermera técnica que brinda atención a cualquier tipo de pacientes, incluyendo adultos mayores. Generalmente, le da atención a los adultos mayores cada vez que se hospitalizan, brindando cuidado por la calidad de vida. Las mayores preocupaciones que suele tener son la movilidad, ya que sus cuerpos no le permiten por su edad. Cómo trata con adultos mayores con bajas defensas, siempre tiene que estar al pendiente si les ocurre alguna caída. Ella usa como una pizarra que le indica mediante colores el control del adulto mayor teniendo en cuenta el riesgo de caída. Estos dispositivos les indican cada 6 horas los signos vitales. Le parece conveniente que se envié un mensaje o correo una alerta para casos de emergencias. Sus principales barreras es la conectividad con el internet, ya que no tienen en la zona que trabaja. No tiene una idea exacta de cuánto sería el costo, pero si muestra interés por dichos aparatos.</td>
     </tr> 
     <tr>
         <td>Timing: XX:XX - XX:XX</td>
@@ -1312,6 +1316,9 @@ A continuación representaremos las conexiones entre bounded context mediante Do
 
 <div id='4.1.1.3.'><h5>4.1.1.3. Bounded Context Canvases</h5></div>
 
+**Health Tracking**
+<img src="Img/health_tracking_bounded_context_canvases.jpg" alt="health_tracking_canvases">
+
 <div id='4.1.2.'><h4>4.1.2. Context Mapping</h4></div>
 
 <div aling="center">
@@ -1444,15 +1451,77 @@ A continuación representaremos las conexiones entre bounded context mediante Do
 
 <div id='4.2.'><h3>4.2. Tactical-Level Domain-Driven Design</h3></div>
 
-<div id='4.2.x.'><h4>4.2.X. Bounded Context: &lt;Bounded Context Name&gt;</h4></div>
-<div id='4.2.x.1.'><h5>4.2.X.1. Domain Layer</h5></div>
-<div id='4.2.x.2.'><h5>4.2.X.2. Interface Layer</h5></div>
-<div id='4.2.x.3.'><h5>4.2.X.3. Application Layer</h5></div>
-<div id='4.2.x.4.'><h5>4.2.X.4. Infrastructure Layer</h5></div>
-<div id='4.2.x.5.'><h5>4.2.X.5. Bounded Context Software Architecture Component Level Diagrams</h5></div>
-<div id='4.2.x.6.'><h5>4.2.X.6. Bounded Context Software Architecture Code Level Diagrams</h5></div>
-<div id='4.2.x.6.1.'><h6>4.2.X.6.1. Bounded Context Domain Layer Class Diagrams</h6></div>
-<div id='4.2.x.6.2.'><h6>4.2.X.6.2. Bounded Context Database Design Diagram</h6></div>
+<div id='4.2.3.'><h4>4.2.3. Bounded Context: &lt;Health Tracking&gt;</h4></div>
+<div id='4.2.3.1.'><h5>4.2.3.1. Domain Layer</h5></div>
+
+**Sub-capa Model**
+| Tipo | Nombre | Descripción | Responsabilidad Principal | Relación con otros elementos |
+|----------|------------------------|-----------------------|-----------------------------------|----------------------------|
+| Aggregate | Patient | Representa al paciente dentro del sistema, raíz de la información clínica. | Centralizar datos clínicos y servir de punto de acceso al historial. | Relacionado con Vital, Alert, Alteration y Symptom. |
+| Value Object | Symptoms | Registro de una manifestación puntual. | Documentar síntomas subjetivos para el historial clínico. | Relacionado con el paciente. |
+| Value Object | Alteration | Cambio detectado en los signos vitales que indica una condición irregular. | Representa valores medidos y compararlos con rangos normales. | Relacionado con paciente. |
+| Value Object | Vital | Lectura puntual por parte del sensor IoT. | Estandarizar los datos del sensor. | Relacionado con . |
+| Aggregate | Alert | Notificación generada por cambios críticos en el estado del paciente. | Advertir de riesgos. | Relacionado con paciente. |
+| Command | PostPatient | Registra un nuevo paciente.          | Crear un paciente con los datos necesarios. | Usa User. |
+| Command | PostSymptom    | Añade un nuevo síntoma reportado por el paciente.                 | Crear instancia de Sintoma asociada a Paciente.       | Usa Patient y Symptom.                             |
+| Command | PostAlert       | Crea una alerta manual o automática. | Persistir una Alerta y notificar al sistema.          | Usa Patient y Alert.                              |
+| Command | PostAlteration | Registra una alteración detectada en los signos vitales.          | Persistir una Alteracion asociada al Paciente.        | Usa Patient y Alteration.                          |
+| Query | GetPatientHistory      | Devuelve el historial completo del paciente. | Reunir datos clínicos del Paciente.              | Consulta Patient y todas sus entidades relacionadas. |
+| Query | GetPendantAlert      | Recupera las alertas que no han sido atendidas.                                        | Soportar monitoreo activo del paciente.          | Consulta Alert.                                      |
+| Query | GetByPatientSymptoms                | Recupera los síntomas registrados por el paciente.                                     | Complementar información clínica.                | Consulta Symptom.                                     |
+
+**Sub-capa Services**
+| Tipo | Nombre | Descripción | Responsabilidad Principal | Relación con otros elementos |
+|----------|------------------------|-----------------------|-----------------------------------|----------------------------|
+| Interface | PatientCommandService | Servicio para comandos relacionados con pacientes | Declarar métodos para crear pacientes | Implementado por la clase `PatientCommandServiceImpl`. Usado en capa Application |
+| Interface | AlertCommandService | Servicio para comandos relacionados con alertas | Declarar métodos para crear alertas | Implementado por la clase `AlertCommandServiceImpl`. Usado en capa Application |
+| Interface | PatientQueryService | Servicio para consultas relacionadas con pacientes | Declarar métodos para obtener datos de pacientes | Implementado por la clase `PatientQueryServiceImpl`. Usado en capa Application |
+| Interface | AlertQueryService | Servicio para consultas relacionadas con alertas | Declarar métodos para obtener datos de alertas | Implementado por la clase `AlertQueryServiceImpl`. Usado en capa Application |
+
+<div id='4.2.3.2.'><h5>4.2.3.2. Interface Layer</h5></div>
+
+**Sub-capa REST:**
+| Tipo | Nombre | Descripción | Responsabilidad Principal | Relación con otros elementos |
+|-----------|---------------------------------------------|------------------------------------------------------------------|------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|
+| Controller| PatientController | Controlador REST para gestionar pacientes | Recibe solicitudes del cliente relacionadas con pacientes, coordina comandos y devuelve respuestas | Utiliza PatientRequestResource, PatientResponseResource y los assemblers correspondientes |
+| Controller| AlertController | Controlador REST para gestionar citas | Maneja solicitudes relacionadas con la creación de alertas | Utiliza AlertRequestResource, AlertResponseResource y sus respectivos assemblers |
+| Resource | PatientRequestResource | Estructura de una petición para crear o actualizar un paciente | Representa datos de entrada del cliente sobre pacientes | Usado por `PatientController` para enviar datos al sistema |
+| Resource | PatientResponseResource | Estructura de la respuesta con información de un paciente | Devuelve al cliente una representación clara de un paciente | Usado por `PatientController` como respuesta |
+| Resource | AlertRequestResource | Estructura de una petición para crear una alerta | Representa datos de entrada del cliente sobre sus signos vitales | Usado por `AlertController` para procesar citas |
+| Resource | AppointmentResponseResource | Estructura de una respuesta con datos de una cita | Devuelve al cliente una representación clara de una cita | Usado por `AlertController` |
+| Assembler | CreatePatientCommandFromResourceAssembler | Convierte un recurso de petición en un comando de creación | Traducir la entrada del cliente a un comando de dominio | Usado por `PatientController` |
+| Assembler | UpdatePatientCommandFromResourceAssembler | Convierte un recurso de petición en un comando de actualización | Traducir la entrada del cliente a un comando de dominio | Usado por `PatientController` |
+| Assembler | PatientResourceFromEntityAssembler | Convierte una entidad `Patient` en un recurso de respuesta | Traducir objetos de dominio a estructuras legibles para el cliente | Usado por `PatientController` |
+| Assembler | CreateAlertCommandFromResourceAssembler | Convierte un recurso de petición en un comando de creación | Traducir la entrada del cliente a un comando de dominio | Usado por `AlertController` |
+| Assembler | AlertResourceFromEntityAssembler | Convierte una entidad `Alert` en un recurso de respuesta | Traduce objetos del dominio a respuestas claras para el cliente | Usado por `AlertController` |
+
+<div id='4.2.3.3.'><h5>4.2.3.3. Application Layer</h5></div>
+
+**Sub-capa Internal:**
+|Tipo | Nombre | Descripción | Responsabilidad Principal | Relación con otros elementos|
+|-----------|---------------------------------------------|------------------------------------------------------------------|------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|
+|Service | PatientCommandServiceImpl | Implementación del servicio de comandos para pacientes | Ejecutar la lógica de creación, actualización y eliminación de pacientes | Implementa PatientCommandService. Utiliza entidades y repositorios de dominio |
+|Service | AlertCommandServiceImpl | Implementación del servicio de comandos para alertas | Ejecutar la lógica de creación de alertas | Implementa AlertCommandService. Interactúa con Alert y sus repositorios |
+|Service | PatientQueryServiceImpl | Implementación del servicio de consultas para pacientes | Obtener información de pacientes a partir de distintas consultas | Implementa PatientQueryService. Consulta entidades Patient |
+|Service | AlertQueryServiceImpl | Implementación del servicio de consultas para alertas | Obtener  alertas por ID | Implementa AlertQueryService. Usa Alert y consultas específicas |
+
+<div id='4.2.3.4.'><h5>4.2.3.4. Infrastructure Layer</h5></div>
+
+**Sub-capa Infrastructure:**
+Tipo | Nombre | Descripción | Responsabilidad Principal | Relación con otros elementos|
+|-----------|---------------------------------------------|------------------------------------------------------------------|------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|
+Repository | PatientRepository | Repositorio para gestionar pacientes | Encargado de la persistencia y recuperación de los datos de los pacientes | Relacionado con la entidad Patient, interactúa con la base de datos para almacenar y consultar pacientes
+Repository | AlertRepository | Repositorio para gestionar alertas | Encargado de la persistencia y recuperación de las alertas | Relacionado con la entidad Alert, interactúa con la base de datos para almacenar y consultar alertas
+
+<div id='4.2.3.5.'><h5>4.2.3.5. Bounded Context Software Architecture Component Level Diagrams</h5></div>
+<div id='4.2.3.6.'><h5>4.2.3.6. Bounded Context Software Architecture Code Level Diagrams</h5></div>
+<div id='4.2.3.6.1.'><h6>4.2.3.6.1. Bounded Context Domain Layer Class Diagrams</h6></div>
+
+Este diagrama UML representa la arquitectura de un sistema de gestión médica centrada en el paciente y las alertas. La estructura está basada en principios de diseño orientado a objetos y se organiza en capas de comandos y consultas, siguiendo un enfoque CQRS (Command Query Responsibility Segregation). A lo largo del análisis, se describirán los principales componentes del sistema, como los servicios de comandos y consultas, las entidades centrales como Patient y Alert, así como los objetos de valor (value objects) y comandos asociados. También se explicará cómo estas clases interactúan entre sí mediante relaciones de herencia, interfaces, asociación y dependencia para mantener una lógica de negocio clara y mantenible. Se estará usando Lombok para la creación de Getter y Setter para evitar en redundancia de código.
+
+<img src="Img/healt_tracking_diagram_class.png" alt="health tracking class diagram">
+
+<div id='4.2.3.6.2.'><h6>4.2.3.6.2. Bounded Context Database Design Diagram</h6></div>
 
 <div id='5.'><h2>5. Conclusiones</h2></div>
 <div id='6.'><h2>6. Bibliografía</h2></div>
