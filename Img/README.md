@@ -16,7 +16,7 @@ width=50%"/>
 
 <h5 style="text-align: center"> Startup: ??? </h5>
 
-<h5 style="text-align: center"> Producto: AlertaVital </h5>
+<h5 style="text-align: center"> Producto: ??? </h5>
 
 ## Team members:
 
@@ -27,7 +27,7 @@ width=50%"/>
 | Bohorquez Lerzundi, Gerardo Sebastián | u202224149 |
 |  Huanaco Huayta, Elizabeth Lucero   | u20211g522 |
 |  Huapaya Cuevas, Anthony       | u202220235 |
-|  Silva Tirado, Sebastian Valentino         | u20211g296 |
+|  Silva Tirado, Sebastián Valentino         | u20211g296 |
 |     Uribe Quispe, Jesús Guillermo     | u202221876 |
 
 </div>
@@ -467,192 +467,9 @@ En esta sección, definiremos los perfiles específicos del público objetivo pa
 - Fortaleceremos la credibilidad de nuestra solución a través de experiencias reales, incorporando testimonios de familiares, cuidadores y profesionales de la salud que validen la utilidad del sistema. Estas historias de éxito serán empleadas en nuestras campañas de marketing y materiales informativos para generar confianza en nuevos usuarios.
 
 <div id='2.2.'><h3>2.2. Entrevistas</h3></div>
-
-Esta sección recopila la información obtenida a partir de entrevistas realizadas a adultos mayores y cuidadores responsables de su atención. Se incluyen las preguntas formuladas, las entrevistas realizadas y un análisis comparativo. El objetivo es comprender sus necesidades, hábitos actuales y percepciones para fundamentar el desarrollo de una solución IoT adecuada a su entorno real.
-
 <div id='2.2.1.'><h4>2.2.1. Diseño de entrevistas</h4></div>
-
-### Preguntas para Adultos Mayores
-
-1. ¿Cuál es su nombre y edad?
-2. ¿Con quién vive actualmente (solo, con familia, en residencia)?
-3. ¿Qué enfermedades o condiciones de salud crónicas le han diagnosticado (ej. hipertensión, diabetes, problemas cardíacos)?
-4. ¿Con qué frecuencia acude a controles médicos o revisiones de rutina?
-5. ¿Ha sufrido caídas en el último año? ¿Podría contarme qué pasó y cómo reaccionaron sus familiares?
-6. ¿En qué momentos del día suele estar solo(a) en casa?
-7. ¿Qué tanta confianza tiene en el uso de dispositivos electrónicos (celulares, relojes inteligentes, pulseras, etc.)?
-8. ¿Ha usado antes algún aparato o dispositivo para medir su presión, ritmo cardíaco u otros signos vitales? ¿Cómo fue su experiencia?
-9. ¿Qué tan cómodo se sentiría utilizando un dispositivo pequeño (ej. pulsera, reloj o colgante) que monitoree su salud y detecte caídas?
-10. ¿Le resultaría útil que sus familiares reciban alertas inmediatas si sufre una caída o alguna alteración de sus signos vitales?
-11. ¿Qué aspectos le generarían desconfianza o preocupación (precio, privacidad, dificultad de uso, batería, etc.)?
-12. ¿Qué características considera más importantes en un dispositivo de este tipo (ej. fácil de usar, discreto, resistente, económico)?
-
-### Preguntas para Cuidadores / Familiares
-
-1. ¿Cuál es su relación con el adulto mayor (hijo/a, nieto/a, cuidador contratado, etc.)?
-2. ¿Con qué frecuencia se encuentra a cargo de su cuidado (diariamente, algunas horas, solo en emergencias)?
-3. ¿Qué actividades cotidianas le generan mayor preocupación respecto al adulto mayor (movilidad, alimentación, medicación, caídas, etc.)?
-4. ¿Ha tenido alguna experiencia previa con caídas o emergencias médicas de su familiar? ¿Cómo fue el proceso de atención?
-5. ¿Actualmente utilizan algún dispositivo o aplicación para monitorear su salud? ¿Cuál y cómo lo valoran?
-6. ¿Qué tan importante considera tener información en tiempo real sobre signos vitales (ej. presión, pulso, oxigenación)?
-7. ¿Cómo preferiría recibir alertas en caso de emergencias (notificación en app, llamada, SMS, correo)?
-8. ¿Cuáles serían las principales barreras para implementar un dispositivo de este tipo en su hogar (costo, conectividad, resistencia del adulto mayor a usarlo)?
-9. ¿Qué tan dispuesto estaría a invertir en un sistema IoT de monitoreo? ¿Qué rango de precio considera accesible?
-10. Si pudiera diseñar este sistema, ¿qué funciones serían prioritarias para usted (ej. botón de emergencia, historial de datos, geolocalización, recordatorio de medicación)?
-11. ¿Qué expectativas tendría en términos de seguridad y confiabilidad del dispositivo?
-12. ¿Cómo cree que un sistema de este tipo impactaría en su tranquilidad y en la calidad de vida del adulto mayor?
-
 <div id='2.2.2.'><h4>2.2.2. Registro de entrevistas</h4></div>
-
-### Segmento 1: Adultos Mayores
-
-<table style="width: 100%; border-collapse: collapse;">
-    <tr>
-        <td>Entrevistado N°1</td>
-        <td>Rosa Valera</td>
-    </tr> 
-    <tr>
-        <td>Edad</td>
-        <td>65</td>
-    </tr> 
-    <tr>
-        <td>Distrito de residencia</td>
-        <td>San Luis</td>
-    </tr> 
-    <tr>
-        <td><img src="Img/Entrevista-1.png" width="300px"></td>
-        <td>XXX</td>
-    </tr> 
-    <tr>
-        <td>Timing: 0:00 - XX:XX</td>
-        <td>URL: <a href="Link" target="_blank">NombreLink</a></td>
-    </tr> 
-    <tr>
-        <td>Entrevistado N°2</td>
-        <td>XXX</td>
-    </tr> 
-    <tr>
-        <td>Edad</td>
-        <td>XX</td>
-    </tr> 
-    <tr>
-        <td>Distrito de residencia</td>
-        <td>XXX</td>
-    </tr> 
-    <tr>
-        <td><img src="Img/Entrevista-2.png" width="300px"></td>
-        <td>XXX</td>
-    </tr> 
-    <tr>
-        <td>Timing: XX:XX - XX:XX</td>
-        <td>URL: <a href="Link" target="_blank">NombreLink</a></td>
-    </tr> 
-    <tr>
-        <td>Entrevistado N°3</td>
-        <td>XXX</td>
-    </tr> 
-    <tr>
-        <td>Edad</td>
-        <td>XX</td>
-    </tr> 
-    <tr>
-        <td>Distrito de residencia</td>
-        <td>XXX</td>
-    </tr> 
-    <tr>
-        <td><img src="Img/Entrevista-3.png" width="300px"></td>
-        <td>XXX</td>
-    </tr> 
-    <tr>
-        <td>Timing: XX:XX - XX:XX</td>
-        <td>URL: <a href="Link" target="_blank">NombreLink</a></td>
-    </tr> 
-</table>
-
-</div>
-
-### Segmento 2: Cuidadores / Familiares
-
-<table style="width: 100%; border-collapse: collapse;">
-    <tr>
-        <td>Entrevistado N°1</td>
-        <td>Marcia Rea Gamboa</td>
-    </tr> 
-    <tr>
-        <td>Edad</td>
-        <td>21</td>
-    </tr> 
-    <tr>
-        <td>Distrito de residencia</td>
-        <td>Comas</td>
-    </tr> 
-    <tr>
-        <td><img src="Img/Entrevista-1v2.png" width="300px"></td>
-        <td>Marcia Rea es una joven que cuida de su abuela, que no se puede cuidar por si misma. Ella busca constantemente herramientas que le permitan monitorear la salud de su abuela a distancia.</td>
-    </tr> 
-    <tr>
-        <td>Timing: 0:00 - 07:47</td>
-        <td>URL: <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211g296_upc_edu_pe/ETxQdwbt6H5Kj1H0uXgnM6oBMbe7RCKMEzGafqzc-72-Rw?e=cauX0q" target="_blank">Link del Video</a></td>
-    </tr> 
-    <tr>
-        <td>Entrevistado N°2</td>
-        <td>XXX</td>
-    </tr> 
-    <tr>
-        <td>Edad</td>
-        <td>XX</td>
-    </tr> 
-    <tr>
-        <td>Distrito de residencia</td>
-        <td>XXX</td>
-    </tr> 
-    <tr>
-        <td><img src="Img/Entrevista-2.png" width="300px"></td>
-        <td>XXX</td>
-    </tr> 
-    <tr>
-        <td>Timing: XX:XX - XX:XX</td>
-        <td>URL: <a href="Link" target="_blank">NombreLink</a></td>
-    </tr> 
-    <tr>
-        <td>Entrevistado N°3</td>
-        <td>XXX</td>
-    </tr> 
-    <tr>
-        <td>Edad</td>
-        <td>XX</td>
-    </tr> 
-    <tr>
-        <td>Distrito de residencia</td>
-        <td>XXX</td>
-    </tr> 
-    <tr>
-        <td><img src="Img/Entrevista-3.png" width="300px"></td>
-        <td>XXX</td>
-    </tr> 
-    <tr>
-        <td>Timing: XX:XX - XX:XX</td>
-        <td>URL: <a href="Link" target="_blank">NombreLink</a></td>
-    </tr> 
-</table>
-
-</div>
-
 <div id='2.2.3.'><h4>2.2.3. Análisis de entrevistas</h4></div>
-
-A continuación, se presenta el análisis de las entrevistas realizadas a adultos mayores y cuidadores responsables de su atención. Este estudio permite identificar patrones, necesidades y oportunidades clave para el diseño de la solución IoT de monitoreo de signos vitales y detección de caídas.
-
-</br>
-
-**Características comunes entre adultos mayores y cuidadores entrevistados**
-
-<img src="Img/grafico-barras-entrevistas-iot.png" alt="Gráfico de barras de las entrevistas IoT" style="margin-bottom: 5px;" width="600"/>
-
-**Fuente**: Datos recolectados mediante entrevistas aplicadas a tres adultos mayores y tres cuidadores en Lima Metropolitana.
-
-</br>
-
-De acuerdo con el análisis realizado, los adultos mayores entrevistados manifestaron haber experimentado al menos una caída en el último año, en la mayoría de los casos sin acompañamiento inmediato. Todos coincidieron en que la principal dificultad es la falta de supervisión cuando están solos en casa, especialmente en horas de la mañana o la noche. Asimismo, aunque algunos han utilizado tensiómetros digitales o glucómetros, ninguno emplea actualmente dispositivos inteligentes que transmitan datos en tiempo real. Existe cierta resistencia inicial al uso de tecnología por parte de los adultos mayores, motivada por percepciones de complejidad o incomodidad, pero también mostraron disposición a probar dispositivos siempre que sean fáciles de usar, discretos y económico.
 
 <div id='2.3.'><h3>2.3. Needfinding</h3></div>
 <div id='2.3.1.'><h4>2.3.1. User Personas</h4></div>
@@ -785,31 +602,9 @@ A continuación, se presenta una matriz de tareas enfocada en María Luisa Ramí
  Del análisis de la matriz de tareas de Juan Carlos Herrera, se evidencia que las tareas de mayor relevancia son supervisar la salud, recibir alertas de emergencias y controlar la medicación. Aunque algunas (como emergencias) no son frecuentes, su impacto es crítico. Un sistema de monitoreo que brinde alertas inmediatas, reportes confiables y funciones de seguimiento en tiempo real es clave para brindarle tranquilidad, optimizar su tiempo y reducir la sobrecarga emocional asociada al cuidado.
 
 <div id='2.3.3.'><h4>2.3.3. User Journey Mapping</h4></div>
-
-### User Journey Map – Adulto Mayor
-
-<img src="Img/Journey_Mapping1.jpg" alt="Journey_Mapping1"></img>
-
-### User Journey Map – Cuidador/Familiar
-
-<img src="Img/Journey_Mapping2.jpg" alt="Journey_Mapping2"></img>
-
 <div id='2.3.4.'><h4>2.3.4. Empathy Mapping</h4></div>
 
-### User Journey Map – Adulto Mayor
-
-<img src="Img/Empathy_map1.png" alt="Journey_Mapping1"></img>
-
-### User Journey Map – Cuidador/Familiar
-
-<img src="Img/Empathy_map2.png" alt="Journey_Mapping2"></img>
-
 <div id='2.4.'><h3>2.4. Big Picture EventStorming</h3></div>
-
-<div align="center">
-<img src="./Img/event10.png">
-</div>
-
 <div id='2.5.'><h3>2.5. Ubiquitous Language</h3></div>
 
 <div id='3.'><h2>3. Capítulo III: Requirements Specification</h2></div>
@@ -1211,239 +1006,21 @@ A continuación, se presenta una matriz de tareas enfocada en María Luisa Ramí
 <div id='4.1.'><h3>4.1. Strategic-Level Domain-Driven Design</h3></div>
 <div id='4.1.1.'><h4>4.1.1. Design-Level EventStorming</h4></div>
 
-Primero identificamos los eventos y trazamos mediante una línea imaginaria que va de izquierda a derecha.
-
-Algunos eventos estan en la misma columna, ya que, el orden no es consecutivo por parte de estos. identificamos a los eventos con un post-it de color anaranjado.
-
-- Post It Anaranjado: Evento a realizar.
-- Post It Azul: Comando que desata el evento de su derecha.
-- Post It Amarillo: Usuario final que genera el comando de su derecha.
-Delimitaciones amarillas: Secciona eventos y comandos relacionados a un "aggregate".
-- Post It Morado: Políticas y reglas de negocio.
-- Post It Verde: referencia a modelos UI (lo que veerá el usuario)
-- Post It Celeste: Agentes externos
-- Delimitaciones de color negro: Secciona uno o más aggregates relacionados a un bounded context.
-- Flechas punteadas: indicadores de comandos que generan eventos en distintos aggregates o bounded contexts.
-
-<div aling="center">
-<img src="Img/event1.png" >
-</div>
-
-<div aling="center">
-<img src="Img/event2.png" >
-</div>
-
-Como segundo paso, identificamos los comandos que llevan a acabo el evento. Identificamos a estos con un post-it de color azul.
-
-<div aling="center">
-<img src="Img/event3.png" >
-</div>
-
-Como tercer paso, identificamos los actores que realizan los comandos anteriormente establecidos.
-
-<div aling="center">
-<img src="Img/event4.png" >
-</div>
-
-Como cuarto paso, identificamos las políticas o reglas de negocio ligadas a los eventos.
-
-<div aling="center">
-<img src="Img/event5.png" >
-</div>
-
-Como quinto paso enlazamos una pequeña descripción de lo que seria la representación de los datos al usuario final.
-
-<div aling="center">
-<img src="Img/event6.png" >
-</div>
-
-<div aling="center">
-<img src="Img/event7.png" >
-</div>
-
-Como sexto paso identificamos los servicios externos y los segmentamos por Bounded Context.
-
-<div aling="center">
-<img src="Img/event8.png" >
-</div>
-
-Como séptimo paso, identificamos los agregados de cada bounded context
-
-<div aling="center">
-<img src="Img/event9.png" >
-</div>
-
-Como último paso determinamos las conexiones entre diferentes bounded context. Dichas relaciones se representan con una flecha punteada.
-
-<div aling="center">
-<img src="Img/event10.png" >
+<div>
+<img src="" alt="eventstorming_1">
 </div>
 <div id='4.1.1.1.'><h5>4.1.1.1. Candidate Context Discovery</h5></div>
-
-En este segmento, identificamos y fundamentamos la elección de los bounded context mediante "start-with-value", "start-with-simple" y "look-for-pivotal-evens".
-
-
-| **Técnica**                | **Cómo se aplica**                                                                                       | **Bounded Contexts Identificados**                                                                 |
-|-----------------------------|----------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
-| **Start-with-Value**        | Se parte de lo más crítico para el negocio (seguridad, continuidad del servicio, confianza del usuario). | - **IAM** (login, registro, recuperación de cuenta)<br>- **Emergency Management** (SOS, alertas)   |
-| **Start-with-Simple**       | Se descomponen procesos en pasos secuenciales y fáciles de aislar.                                      | - **User Profile** (datos personales, multiusuario)<br>- **Treatment Support** (medicación, agenda) |
-| **Look-for-Pivotal-Events** | Se detectan eventos clave que cambian estados de negocio.                                               | - **Monitoring** (datos IoT que generan alertas)<br>- **Health Tracking** (síntomas → historial)   |
-
-
 <div id='4.1.1.2.'><h5>4.1.1.2. Domain Message Flows Modeling</h5></div>
-
-A continuación representaremos las conexiones entre bounded context mediante Domain Storytelling para comprender como funcionan los procesos de negocios en las diferentes partes interesadas, incluyendo expertos del negocio y equipos técnicos.
-
-**Escenario 1: Autenticación de un usuario general en el aplicativo**
-
-<div aling="center">
-<img src="Img/message_flow.png" >
-</div>
-
-<br>
-
-**Escenario 2: Detección en una anomalía de los signos vitales**
-
-<div aling="center">
-<img src="Img/message_flow2.png" >
-</div>
-
-
-
 <div id='4.1.1.3.'><h5>4.1.1.3. Bounded Context Canvases</h5></div>
 
 <div id='4.1.2.'><h4>4.1.2. Context Mapping</h4></div>
-
-<div aling="center">
-<img src="Img/context_mapping.png" alt="context_mapping." >
-</div>
-
-
-#### IAM BC
-
-- Rol: provee identidad/autenticación/autorización.
-
-- Patrón: Customer/Supplier → todos los demás consumen.
-
-##### Relaciones:
- upstream común, no guarda lógica de negocio.
-
-
-#### UserProfile BC
-
-- Rol: perfil de usuario, datos demográficos, médicos base.
-
-- Patrón: Shared Kernel → comparte atributos con Monitoring y HealthTracking.
-
-##### Relaciones:
-
-- Enlaza con IAM para identidad.
-
-- Alimenta Monitoring (edad, sexo, condiciones para thresholds).
-
-- Alimenta HealthTracking (historial médico y datos base).
-
-#### Monitoring BC
-
-- Rol: ingestión de datos de IoT, almacenamiento temporal, publicación de eventos.
-
-- Patrón: Publica en EventBus → Customer/Supplier. Integra con dispositivos → Anti-Corruption Layer.
-
-##### Relaciones:
-
-- Depende de UserProfile para contexto del paciente.
-
-- Interactúa con RulesService para thresholds básicos.
-
-- Si RulesService cae, aplica thresholds locales como fallback.
-
-##### HealthTracking BC
-
-- Rol: historial clínico, tendencias, analítica de datos a largo plazo.
-
-- Patrón: Consume EventBus → Customer/Supplier. Comparte datos clínicos con UserProfile (Shared Kernel).
-
-##### Relaciones:
-
-- Interactúa con RulesService para análisis más fino.
-
-- Expone datos a TreatmentSupport.
-
-#### TreatmentSupport BC
-
-- Rol: recordatorios de medicación, adherencia, soporte al tratamiento.
-
-- Patrón: Consume EventBus → Customer/Supplier. Usa NotificationService para enviar alertas al paciente.
-
-##### Relaciones:
-- depende de datos de HealthTracking para tendencias de adherencia.
-
-#### EmergencyManagement BC
-
-- Rol: gestión de emergencias (contactos, ubicación, llamadas 106).
-
-- Patrón: Consume EventBus (cuando se generan alertas).
-
-- Se integra con NotificationService para avisos.
-
-- Integra con sistemas externos (106, SMS, WhatsApp) vía Anti-Corruption Layer.
-
-### Shared Services
-#### EventBus
-
-- Rol: desacoplar productores (Monitoring) y consumidores (HT, Emergencias, Tratamiento).
-
-- Beneficio: bajo acoplamiento, facilita nuevos consumidores.
-
-- Riesgo: complejidad infraestructura → requiere monitoreo y escalabilidad.
-
-#### RulesService
-
-- Rol: centralizar reglas de negocio y thresholds clínicos.
-
-- Relación: Monitoring y HealthTracking lo consultan para validar datos.
-
-- Beneficio: consistencia, un solo lugar para reglas.
-
-- Riesgo: SPOF si no se diseña redundante → requiere fallback en Monitoring.
-
-#### NotificationService
-
-- Rol: unificar envío de notificaciones (push, SMS, WhatsApp).
-
-- Beneficio: evita duplicación de lógica en Emergency y Treatment.
-
-- Riesgo: debe soportar alta disponibilidad y multi-canal.
-
-
 <div id='4.1.3.'><h4>4.1.3. Software Architecture</h4></div>
 <div id='4.1.3.1.'><h5>4.1.3.1. Software Architecture System Landscape Diagram</h5></div>
-
-<div align="center">
-<img src="Img/structurizr-SystemLandscape.png">
-</div>
-
 <div id='4.1.3.2.'><h5>4.1.3.2. Software Architecture Context Level Diagrams</h5></div>
-
-<div align="center">
-<img src="Img/structurizr-SystemContext.png">
-</div>
-
 <div id='4.1.3.3.'><h5>4.1.3.3. Software Architecture Container Level Diagrams</h5></div>
-
-<div align="center">
-<img src="Img/structurizr-HealthcareSystemContainers.png">
-</div>
-
-
 <div id='4.1.3.4.'><h5>4.1.3.4. Software Architecture Deployment Diagrams</h5></div>
 
-<div align="center">
-<img src="Img/structurizr-AmazonWebServicesDeployment.png">
-</div>
-
 <div id='4.2.'><h3>4.2. Tactical-Level Domain-Driven Design</h3></div>
-
 <div id='4.2.x.'><h4>4.2.X. Bounded Context: &lt;Bounded Context Name&gt;</h4></div>
 <div id='4.2.x.1.'><h5>4.2.X.1. Domain Layer</h5></div>
 <div id='4.2.x.2.'><h5>4.2.X.2. Interface Layer</h5></div>
