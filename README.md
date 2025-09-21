@@ -40,7 +40,7 @@ El objetivo de esta sección es resumir las modificaciones relevantes que se rea
 
 | Versión | Fecha | Autor | Descripción de modificación |
 | :-----: | :---: | :---: | --------------------------- |
-|    a    |   a   |   a   | a                           |
+|    TB1    |   21/09   |   a   | z                           |
 
 # Project Report Collaboration Insights
 
@@ -120,15 +120,15 @@ Los integrantes son:
    4.1.3.3. [Software Architecture Container Level Diagrams.](#4.1.3.3.)<br>
    4.1.3.4. [Software Architecture Deployment Diagrams.](#4.1.3.4.)<br>
    4.2. [Tactical-Level Domain-Driven Design.](#4.2.)<br>
-   4.2.X. [Bounded Context: <Bounded Context Name>.](#4.2.x.)<br>
-   4.2.X.1. [Domain Layer.](#4.2.x.1.)<br>
-   4.2.X.2. [Interface Layer.](#4.2.x.2.)<br>
-   4.2.X.3. [Application Layer.](#4.2.x.3.)<br>
-   4.2.X.4. [Infrastructure Layer.](#4.2.x.4.)<br>
-   4.2.X.5. [Bounded Context Software Architecture Component Level Diagrams.](#4.2.x.5.)<br>
-   4.2.X.6. [Bounded Context Software Architecture Code Level Diagrams.](#4.2.x.6.)<br>
-   4.2.X.6.1. [Bounded Context Domain Layer Class Diagrams.](#4.2.x.6.1.)<br>
-   4.2.X.6.2. [Bounded Context Database Design Diagram.](#4.2.x.6.2.)<br>
+   4.2.5. [Bounded Context: <Bounded Context Name>.](#4.2.5.)<br>
+   4.2.5.1. [Domain Layer.](#4.2.5.1.)<br>
+   4.2.5.2. [Interface Layer.](#4.2.5.2.)<br>
+   4.2.5.3. [Application Layer.](#4.2.5.3.)<br>
+   4.2.5.4. [Infrastructure Layer.](#4.2.5.4.)<br>
+   4.2.5.5. [Bounded Context Software Architecture Component Level Diagrams.](#4.2.5.5.)<br>
+   4.2.5.6. [Bounded Context Software Architecture Code Level Diagrams.](#4.2.5.6.)<br>
+   4.2.5.6.1. [Bounded Context Domain Layer Class Diagrams.](#4.2.5.6.1.)<br>
+   4.2.5.6.2. [Bounded Context Database Design Diagram.](#4.2.5.6.2.)<br>
 
 5. [Conclusiones](#5.)<br>
 6. [Bibliografía](#6.)<br>
@@ -149,21 +149,29 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
   </thead>
   <tbody>
     <tr>
-      <td style="font-weight:bold">Trabaja en equipo para
-proporcionar liderazgo en
-forma conjunta</td>
+      <td>Trabaja en equipo para proporcionar liderazgo en forma conjunta</td>
       <td>
+        Sebastian Silva: <br>
+        TB1: Coordinó la distribución de responsabilidades entre los integrantes del equipo, 
+        fomentando la toma de decisiones de manera consensuada. Propuso soluciones 
+        ante dificultades técnicas y apoyó a sus compañeros en la comprensión de las tareas asignadas.
       </td>
       <td>
-        <!--conclusion -->
+        TB1: Demostró liderazgo compartido, garantizando la participación equitativa de todos los 
+        integrantes y promoviendo un ambiente de confianza que facilitó el avance del proyecto.
       </td>
     </tr>
     <tr>
-      <td style="font-weight:bold">Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.</td>
+      <td>Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.</td>
       <td>
+        Sebastian Silva: <br>
+        TB1: Promovió reuniones periódicas para definir objetivos y plazos, fomentó la 
+        participación activa de cada miembro y aseguró que las ideas fueran valoradas por igual. 
+        Elaboró un cronograma de actividades y dio seguimiento al cumplimiento de tareas.
       </td>
       <td>
-        <!-- conclusion -->
+        TB1: Contribuyó a un entorno inclusivo y organizado, donde la planificación permitió 
+        alcanzar las metas planteadas en el tiempo previsto y fortaleció la cohesión del equipo.
       </td>
     </tr>
   </tbody>
@@ -173,6 +181,9 @@ forma conjunta</td>
 
 <div id='1.1.'><h3>1.1. Startup Profile</h3></div>
 <div id='1.1.1.'><h4>1.1.1. Descripción del startup</h4></div>
+
+AlertaVital es una startup tecnológica dedicada a desarrollar soluciones innovadoras basadas en Internet de las Cosas (IoT) para mejorar la calidad de vida de las personas mayores y sus familias. Nuestra misión es proporcionar herramientas accesibles y confiables que permitan el monitoreo en tiempo real de signos vitales y la detección de caídas, brindando tranquilidad y seguridad tanto a los adultos mayores como a sus cuidadores. A través de un dispositivo portátil y una aplicación móvil intuitiva, AlertaVital busca transformar la manera en que se cuida a los adultos mayores, facilitando la prevención de emergencias y promoviendo un envejecimiento saludable y autónomo.
+
 <div id='1.1.2.'><h4>1.1.2. Perfiles de los integrantes del equipo</h4></div>
 
 
@@ -1047,6 +1058,15 @@ A continuación, se presenta una matriz de tareas enfocada en María Luisa Ramí
 </tbody></table>
 
 <div id='3.2.'><h3>3.2. Impact Mapping</h3></div>
+
+### User Journey Map – Adulto Mayor
+
+<img src="Img/Impact_Mapping1.jpg" alt="Journey_Mapping1"></img>
+
+### User Journey Map – Cuidador/Familiar
+
+<img src="Img/Impact_Mapping2.jpg" alt="Journey_Mapping2"></img>
+
 <div id='3.3.'><h3>3.3. Product Backlog</h3></div>
 
 <table border="1" cellspacing="0" cellpadding="5">
@@ -1431,15 +1451,115 @@ A continuación representaremos las conexiones entre bounded context mediante Do
 </div>
 
 <div id='4.2.'><h3>4.2. Tactical-Level Domain-Driven Design</h3></div>
-<div id='4.2.x.'><h4>4.2.X. Bounded Context: &lt;Bounded Context Name&gt;</h4></div>
-<div id='4.2.x.1.'><h5>4.2.X.1. Domain Layer</h5></div>
-<div id='4.2.x.2.'><h5>4.2.X.2. Interface Layer</h5></div>
-<div id='4.2.x.3.'><h5>4.2.X.3. Application Layer</h5></div>
-<div id='4.2.x.4.'><h5>4.2.X.4. Infrastructure Layer</h5></div>
-<div id='4.2.x.5.'><h5>4.2.X.5. Bounded Context Software Architecture Component Level Diagrams</h5></div>
-<div id='4.2.x.6.'><h5>4.2.X.6. Bounded Context Software Architecture Code Level Diagrams</h5></div>
-<div id='4.2.x.6.1.'><h6>4.2.X.6.1. Bounded Context Domain Layer Class Diagrams</h6></div>
-<div id='4.2.x.6.2.'><h6>4.2.X.6.2. Bounded Context Database Design Diagram</h6></div>
+<div id='4.2.5.'><h4>4.2.5. Bounded Context: &lt;Emergency Management&gt;</h4></div>
+<div id='4.2.5.1.'><h5>4.2.5.1. Domain Layer</h5></div>
+
+**Sub-capa Model:**
+
+| Tipo      | Nombre                    | Descripción                    | Responsabilidad principal                          | Relación                                                                         |
+| --------- | ------------------------- | ------------------------------ | -------------------------------------------------- | -------------------------------------------------------------------------------- |
+| Aggregate | Emergencia                | Evento crítico (caída/SOS/SV). | Crear/validar/actualizar/cerrar emergencias.       | Con **Alerta** y **LlamadaSOS**; insumos de Monitoring; publica a Notifications. |
+| Command   | TriggerSOSCommand         | Disparar SOS manual.           | Crear emergencia (SOS) y disparar alertas/llamada. | App paciente.                                                                    |
+| Command   | DetectEmergencyCommand    | Alta automática.               | Crear emergencia con severidad/ubicación.          | Desde Monitoring.                                                                |
+| Command   | ConfirmEmergencyCommand   | Confirmar/descartar.           | Cambiar estado (seguir/cancelar flujo).            | App cuidador/paciente.                                                           |
+| Command   | DispatchAlertsCommand     | Enviar alertas.                | Generar alertas por canal y marcar estado.         | Notifications.                                                                   |
+| Command   | PlaceSOSCallCommand       | Llamar 106/contactos.          | Ejecutar llamada y registrar resultado.            | Telco/API voz.                                                                   |
+| Query     | GetActiveEmergenciesQuery | Emergencias abiertas.          | Listar en curso con severidad/ubicación.           | Dashboard.                                                                       |
+| Query     | GetEmergencyByIdQuery     | Detalle.                       | Recuperar emergencia + alertas + llamada.          | —                                                                                |
+
+**Sub-capa Services:**
+
+| Tipo      | Nombre                    | Descripción             | Responsabilidad principal       | Relación                        |
+| --------- | ------------------------- | ----------------------- | ------------------------------- | ------------------------------- |
+| Interface | EmergencyCommandService   | Comandos de emergencia. | Trigger/Detect/Confirm/Close.   | Repos de Emergencia/LlamadaSOS. |
+| Interface | EmergencyQueryService     | Lecturas.               | Active/ById.                    | Vistas CQRS.                    |
+| Interface | AlertCommandService       | Envío de alertas.       | Dispatch + ConsentPolicy.       | Notifications.                  |
+| Interface | AlertQueryService         | Lecturas alertas.       | Historial/estados.              | Auditoría.                      |
+| Interface | SOSCallService            | Llamadas.               | Ejecutar/reintentos.            | Telco.                          |
+| Interface | ContactCommandService     | ABM contactos.          | Add/Update/Remove + validación. | ContactoEmergencia.             |
+| Interface | ContactQueryService       | Lecturas contactos.     | Listado/consentimientos.        | —                               |
+| Interface | GeoLocationService        | Ubicación.              | Actualizar/normalizar.          | GPS/VO Ubicación.               |
+| Interface | SeverityAssessmentService | Regla.                  | Calcular severidad.             | Monitoring.                     |
+
+<div id='4.2.5.2.'><h5>4.2.5.2. Interface Layer</h5></div>
+
+**Sub-capa REST:**
+
+| Tipo       | Nombre                     | Descripción               | Responsabilidad                   | Relación                       |
+| ---------- | -------------------------- | ------------------------- | --------------------------------- | ------------------------------ |
+| Controller | EmergencyController        | Endpoints de emergencias. | TriggerSOS, Detect, Active, ById. | EmergencyCommand/QueryService. |
+| Request    | TriggerSOSRequest          | Payload disparo SOS.      | pacienteId, ubicación.            | → TriggerSOSCommand.           |
+| Request    | DetectEmergencyRequest     | Payload automática.       | pacienteId, tipo, severidad.      | → DetectEmergencyCommand.      |
+| Response   | EmergencyResponse          | Resumen de emergencia.    | id, tipo, estado, ubicación.      | Desde entidad Emergencia.      |
+| Assembler  | EmergencyCommandAssembler  | Request → Command.        | Mapear Trigger/Detect.            | Usado en Controller.           |
+| Assembler  | EmergencyResponseAssembler | Entity → Response.        | Formato consistente de salida.    | Usado en Controller.           |
+
+
+<div id='4.2.5.3.'><h5>4.2.5.3. Application Layer</h5></div>
+
+**Sub-capa Internal:**
+
+| Tipo         | Nombre                      | Descripción                          | Relación                             |
+| ------------ | --------------------------- | ------------------------------------ | ------------------------------------ |
+| CmdHandler   | EmergencyCommandServiceImpl | Ejecuta TriggerSOS, DetectEmergency. | Usa EmergenciaRepo, SeverityService. |
+| CmdHandler   | AlertCommandServiceImpl     | Manejo de alertas.                   | Usa AlertaRepo, NotificationACL.     |
+| CmdHandler   | SOSCallServiceImpl          | Llamadas SOS y reintentos.           | Usa LlamadaSOSRepo, TelephonyACL.    |
+| QueryHandler | EmergencyQueryServiceImpl   | Consultas de emergencias.            | Usa vistas CQRS.                     |
+| QueryHandler | AlertQueryServiceImpl       | Consultas de alertas.                | Usa AlertaReadModel.                 |
+| QueryHandler | ContactQueryServiceImpl     | Consultas de contactos.              | Usa ContactoReadModel.               |
+
+
+**Sub-capa External:**
+
+| Tipo      | Nombre          | Descripción                       | Relación              |
+| --------- | --------------- | --------------------------------- | --------------------- |
+| ACL       | NotificationACL | Envío SMS/WhatsApp/Push.          | AlertService.         |
+| ACL       | TelephonyACL    | Llamadas 106/contactos.           | SOSCallService.       |
+| ACL       | GeoProviderACL  | Ubicación/GPS.                    | GeoLocationService.   |
+| ACL       | MonitoringACL   | Eventos de signos vitales/caídas. | EmergencyService.     |
+| Messaging | EventBus        | Transporte de eventos.            | Notif. + Emergencies. |
+
+
+<div id='4.2.5.4.'><h5>4.2.5.4. Infrastructure Layer</h5></div>
+
+**Sub-capa Repository:**
+
+| Tipo       | Nombre               | Descripción                                 | Relación            |
+| ---------- | -------------------- | ------------------------------------------- | ------------------- |
+| Repository | EmergenciaRepository | Persistir emergencias y estado.             | EmergencyService.   |
+| Repository | AlertaRepository     | Persistir alertas y estados de entrega.     | AlertService.       |
+| Repository | LlamadaSOSRepository | Guardar llamadas y resultados.              | SOSCallService.     |
+| Repository | ContactoRepository   | Gestionar contactos de emergencia.          | ContactService.     |
+| Repository | ConsentRepository    | Consentimientos por canal/contacto.         | ConsentPolicy.      |
+| Repository | UbicacionRepository  | Guardar ubicación histórica en emergencias. | GeoLocationService. |
+
+
+<div id='4.2.5.5.'><h5>4.2.5.5. Bounded Context Software Architecture Component Level Diagrams</h5></div>
+
+A continuación se ilustra la descomposición interna del contenedor Emergency Management Application, responsable de orquestar el ciclo de vida de una emergencia (SOS manual o automática por caída/umbral de signos vitales), coordinar notificaciones multicanal, llamadas al 106/contactos y el tracking de ubicación en tiempo real. El diseño refleja la separación por capas (Interface → Application → Domain → Infrastructure) y la integración con contextos/sistemas externos.
+
+<div align="center">
+<img src="Img/Emergency-Management-Application.png">
+</div>
+
+<div id='4.2.5.6.'><h5>4.2.5.6. Bounded Context Software Architecture Code Level Diagrams</h5></div>
+<div id='4.2.5.6.1.'><h6>4.2.5.6.1. Bounded Context Domain Layer Class Diagrams</h6></div>
+
+Emergencia es un Aggregate Root del dominio que modela un evento crítico asociado a un paciente (p. ej., caída detectada, signos vitales críticos o SOS manual). Contiene los atributos esenciales para gestionar el ciclo de vida de la emergencia (tipo, severidad, estado, ubicación, marca de llamada) y define comportamientos de negocio para disparar, confirmar/cancelar, cerrar y actualizar la ubicación durante el incidente. Esta clase actúa como objeto de dominio y es el punto de entrada para coordinar Alertas y Llamadas SOS.
+
+Usa la interface/base AuditableAbstractAggregateRoot para heredar metadatos de auditoría (p. ej., createdAt, createdBy, updatedAt, updatedBy) y la publicación de eventos de dominio.
+
+<div align="center">
+  <img src="Img/UML_Emergency-Management.png">
+</div>
+
+<div id='4.2.5.6.2.'><h6>4.2.5.6.2. Bounded Context Database Design Diagram</h6></div>
+
+<br><br>
+
+<div align="center">
+<img src="Img/Emergency-Management_DB.png">
+</div>
 
 <div id='5.'><h2>5. Conclusiones</h2></div>
 <div id='6.'><h2>6. Bibliografía</h2></div>
