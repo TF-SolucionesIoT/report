@@ -49,14 +49,14 @@ URL del repositorio para el reporte del proyecto:
 **TB1**
 
 <div align="center">
-  <img src="" alt="insights">
+  <img src="Img/insights.png" alt="insights">
 </div>
 
 <div align="center">
-  <img src="" alt="insights">
+  <img src="Img/insights2.png" alt="insights">
 </div>
 
-Para el desarrollo del informe perteneciente a la entrega TF, se dividió la implementación de secciones de la siguiente forma para cada integrante del equipo:
+Para el desarrollo del informe perteneciente a la entrega TB1, se dividió la implementación de secciones de la siguiente forma para cada integrante del equipo:
 
 | Integrante | Tareas Asignadas |
 | ---------- | ---------------- |
@@ -1446,6 +1446,8 @@ A continuación representaremos las conexiones entre bounded context mediante Do
 
 <div id='4.1.2.'><h4>4.1.2. Context Mapping</h4></div>
 
+Este context mapping representa un ecosistema de salud digital centrado en el paciente, donde múltiples bounded contexts colaboran para brindar servicios de monitoreo, seguimiento y atención médica integral. El diseño muestra una arquitectura distribuida que integra dispositivos IoT, servicios de notificación y gestión de emergencias.
+
 <div align="center">
 <img src="Img/context_mapping.png" alt="context_mapping." >
 </div>
@@ -2284,6 +2286,9 @@ El diseño refleja una clara orientación a DDD (Domain-Driven Design), donde la
 
 
 <div id='5.'><h2>5. Conclusiones</h2></div>
+
+A lo largo de este proyecto, hemos desarrollado de manera integral una solución IoT completa para el monitoreo de signos vitales de personas adultas mayores, estableciendo un ecosistema tecnológico que conecta eficazmente a pacientes, cuidadores y el sistema de salud. Iniciamos con un riguroso análisis competitivo que nos permitió identificar oportunidades de mercado y posicionamiento estratégico, seguido de una segmentación detallada de usuarios objetivo que definió claramente nuestros dos perfiles principales: adultos mayores que requieren supervisión médica continua y cuidadores responsables de su bienestar. El proceso de needfinding reveló necesidades críticas como la tranquilidad familiar, detección temprana de anomalías de salud y facilidad de uso sin comprometer la funcionalidad médica avanzada. Mediante la metodología Lean UX validamos tempranamente nuestras hipótesis de diseño y facilitamos iteraciones rápidas, mientras que las user stories estructuraron los requisitos desde la perspectiva real del usuario final, culminando en un product backlog priorizado que proporciona una hoja de ruta clara para el desarrollo incremental. El event storming process nos permitió mapear comprehensivamente todos los flujos del sistema, desde la captura inicial de datos de sensores IoT hasta las notificaciones de emergencia, identificando eventos críticos y procesos de negocio esenciales. La arquitectura de software resultante, basada en principios de Clean Architecture y Domain-Driven Design, se estructura en bounded contexts bien definidos que separan claramente las responsabilidades: gestión de usuarios e identidades, monitoreo de dispositivos IoT, seguimiento de salud, soporte de tratamiento y manejo de emergencias. Esta separación se refleja en el diseño de contenedores y diagramas que muestran la distribución de servicios, la comunicación entre microservicios y las integraciones con sistemas externos. El diseño de base de datos soporta eficientemente los requisitos de almacenamiento de datos médicos sensibles, históricos de signos vitales y relaciones entre pacientes y cuidadores, garantizando consistencia, escalabilidad y cumplimiento normativo. La documentación final de bounded contexts, segmentada por las capas de Clean Architecture (entidades, casos de uso, interfaces y frameworks), asegura que cada contexto mantenga su integridad conceptual mientras facilita el mantenimiento y evolución futura del sistema. Este enfoque integral nos ha permitido crear una solución que no solo resuelve las necesidades inmediatas de monitoreo de salud, sino que establece una base sólida para la expansión de funcionalidades y la integración con el ecosistema de salud digital más amplio, posicionando el producto como una herramienta valiosa para mejorar la calidad de vida de los adultos mayores y brindar tranquilidad a sus familias.
+
 <div id='6.'><h2>6. Bibliografía</h2></div>
 
 Instituto Nacional de Estadística e Informática. (2023). *Perú: Estimaciones y proyecciones de población, 1950-2070*. https://www.inei.gob.pe/media/MenuRecursivo/publicaciones_digitales/Est/Lib1743/Libro.pdf  
@@ -2293,3 +2298,10 @@ Ministerio de Salud. (2023). *Enfermedades no transmisibles y transmisibles - EN
 Organización Panamericana de la Salud. (2023). *La situación de los cuidados a largo plazo en América Latina y el Caribe*. https://iris.paho.org/bitstream/handle/10665.2/57356/9789275326879_spa.pdf?sequence=1
 
 <div id='7.'><h2>7. Anexo</h2></div>
+
+| Título  | Link |
+|-----------------|------|
+|          Organización de Github       | [https://github.com/TF-SolucionesIoT](https://github.com/TF-SolucionesIoT)     |
+|    Link de Miro             | [Miro Board](https://miro.com/welcomeonboard/M2JhbUZCSUFOdnN6ZG84cEJOM0g2R1BsUktITmFLZHNlcGMyTlMycTdBZEVsb2lmaWg1alVKL2dRMkJMWkdOTlMzdEhBV0VKeWNKZlo4bTJ2Mmtxc0t6UVVqdEV2Q1FYdjFrK3hINnhJSTYxcXpXejd2ZEtwTldRVHZRVEQ2RkhhWWluRVAxeXRuUUgwWDl3Mk1qRGVRPT0hdjE=?share_link_id=142838303004)      |
+|  Link de video de exposición          |  [Link de video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202221876_upc_edu_pe/Ecw7NNvw_IFIo9WNR4NB8M8BC4jRlWE-WH7RtcXJnlwdMQ?e=VbtdCX)    |
+| Link de video de entrevistas | [Link](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220235_upc_edu_pe/ERMsAWnlK25BgS7DKzoCgPEBcVQJPN9Nr9zo1HhWZgaR4g?nav=eyJwbGF5YmFja09wdGlvbnMiOnsic3RhcnRUaW1lSW5TZWNvbmRzIjoxNTI3LCJ0aW1lc3RhbXBlZExpbmtSZWZlcnJlckluZm8iOnsic2NlbmFyaW8iOiJDaGFwdGVyU2hhcmUiLCJhZGRpdGlvbmFsSW5mbyI6eyJpc1NoYXJlZENoYXB0ZXJBdXRvIjpmYWxzZX19fSwicmVmZXJyYWxJbmZvIjp7InJlZmVycmFsQXBwIjoiU3RyZWFtV2ViQXBwIiwicmVmZXJyYWxWaWV3IjoiU2hhcmVDaGFwdGVyTGluayIsInJlZmVycmFsQXBwUGxhdGZvcm0iOiJXZWIiLCJyZWZlcnJhbE1vZGUiOiJ2aWV3In19&e=ZFJWW8) |
