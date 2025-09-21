@@ -153,6 +153,9 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
 proporcionar liderazgo en
 forma conjunta</td>
       <td>
+      <b>Bohorquez Lerzundi Gerardo Sebastián</b>
+       <br> 
+       <b>TB1:</b> Participé activamente en reuniones del grupo, compartiendo ideas y propuestas sobre la estructuración del Bounded Context de Monitoring, organizando la funcionalidad en servicios y capas de arquitectura. Además, coordiné con mis compañeros para asegurar que las tareas se distribuyeran de manera equitativa y que cada miembro comprendiera su rol dentro del proyecto.
       </td>
       <td>
         <!--conclusion -->
@@ -161,6 +164,9 @@ forma conjunta</td>
     <tr>
       <td style="font-weight:bold">Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.</td>
       <td>
+      <b>Bohorquez Lerzundi Gerardo Sebastián</b>
+       <br> 
+       <b>TB1:</b>  Contribuí en la fase de needfinding, realizando análisis de user persona y empathy map para identificar necesidades reales de los usuarios. Esto permitió al grupo empatizar con los clientes y definir soluciones más ajustadas. También participé en la planificación de tareas del proyecto, ayudando a cumplir objetivos establecidos en tiempo y forma.
       </td>
       <td>
         <!-- conclusion -->
