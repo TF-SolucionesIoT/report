@@ -1225,57 +1225,57 @@ Delimitaciones amarillas: Secciona eventos y comandos relacionados a un "aggrega
 - Delimitaciones de color negro: Secciona uno o más aggregates relacionados a un bounded context.
 - Flechas punteadas: indicadores de comandos que generan eventos en distintos aggregates o bounded contexts.
 
-<div aling="center">
+<div align="center">
 <img src="Img/event1.png" >
 </div>
 
-<div aling="center">
+<div align="center">
 <img src="Img/event2.png" >
 </div>
 
 Como segundo paso, identificamos los comandos que llevan a acabo el evento. Identificamos a estos con un post-it de color azul.
 
-<div aling="center">
+<div align="center">
 <img src="Img/event3.png" >
 </div>
 
 Como tercer paso, identificamos los actores que realizan los comandos anteriormente establecidos.
 
-<div aling="center">
+<div align="center">
 <img src="Img/event4.png" >
 </div>
 
 Como cuarto paso, identificamos las políticas o reglas de negocio ligadas a los eventos.
 
-<div aling="center">
+<div align="center">
 <img src="Img/event5.png" >
 </div>
 
 Como quinto paso enlazamos una pequeña descripción de lo que seria la representación de los datos al usuario final.
 
-<div aling="center">
+<div align="center">
 <img src="Img/event6.png" >
 </div>
 
-<div aling="center">
+<div align="center">
 <img src="Img/event7.png" >
 </div>
 
 Como sexto paso identificamos los servicios externos y los segmentamos por Bounded Context.
 
-<div aling="center">
+<div align="center">
 <img src="Img/event8.png" >
 </div>
 
 Como séptimo paso, identificamos los agregados de cada bounded context
 
-<div aling="center">
+<div align="center">
 <img src="Img/event9.png" >
 </div>
 
 Como último paso determinamos las conexiones entre diferentes bounded context. Dichas relaciones se representan con una flecha punteada.
 
-<div aling="center">
+<div align="center">
 <img src="Img/event10.png" >
 </div>
 <div id='4.1.1.1.'><h5>4.1.1.1. Candidate Context Discovery</h5></div>
@@ -1296,7 +1296,7 @@ A continuación representaremos las conexiones entre bounded context mediante Do
 
 **Escenario 1: Autenticación de un usuario general en el aplicativo**
 
-<div aling="center">
+<div align="center">
 <img src="Img/message_flow.png" >
 </div>
 
@@ -1304,7 +1304,7 @@ A continuación representaremos las conexiones entre bounded context mediante Do
 
 **Escenario 2: Detección en una anomalía de los signos vitales**
 
-<div aling="center">
+<div align="center">
 <img src="Img/message_flow2.png" >
 </div>
 
@@ -1312,9 +1312,20 @@ A continuación representaremos las conexiones entre bounded context mediante Do
 
 <div id='4.1.1.3.'><h5>4.1.1.3. Bounded Context Canvases</h5></div>
 
+### IAM:
+<div align="center">
+<img src="Img/canvas_IAM.png">
+</div>
+
+### Profile:
+<div align="center">
+<img src="Img/canvas_Profile.png">
+</div>
+
+
 <div id='4.1.2.'><h4>4.1.2. Context Mapping</h4></div>
 
-<div aling="center">
+<div align="center">
 <img src="Img/context_mapping.png" alt="context_mapping." >
 </div>
 
@@ -1444,16 +1455,175 @@ A continuación representaremos las conexiones entre bounded context mediante Do
 
 <div id='4.2.'><h3>4.2. Tactical-Level Domain-Driven Design</h3></div>
 
-<div id='4.2.x.'><h4>4.2.X. Bounded Context: &lt;Bounded Context Name&gt;</h4></div>
-<div id='4.2.x.1.'><h5>4.2.X.1. Domain Layer</h5></div>
-<div id='4.2.x.2.'><h5>4.2.X.2. Interface Layer</h5></div>
-<div id='4.2.x.3.'><h5>4.2.X.3. Application Layer</h5></div>
-<div id='4.2.x.4.'><h5>4.2.X.4. Infrastructure Layer</h5></div>
-<div id='4.2.x.5.'><h5>4.2.X.5. Bounded Context Software Architecture Component Level Diagrams</h5></div>
-<div id='4.2.x.6.'><h5>4.2.X.6. Bounded Context Software Architecture Code Level Diagrams</h5></div>
-<div id='4.2.x.6.1.'><h6>4.2.X.6.1. Bounded Context Domain Layer Class Diagrams</h6></div>
-<div id='4.2.x.6.2.'><h6>4.2.X.6.2. Bounded Context Database Design Diagram</h6></div>
+<div id='4.2.1.'><h4>4.2.1. Bounded Context: IAM</h4></div>
+<div id='4.2.1.1.'><h5>4.2.1.1. Domain Layer</h5></div>
 
+**Sub-capa Model:**
+| Tipo         | Nombre        | Descripción                                    | Responsabilidad Principal                                                                                         | Relación con otros elementos                                                          |
+| ------------ | ------------- | ---------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
+| Aggregate    | User          | clase para definir el Usuario de la aplicación | Ser el punto de entrada para modificar y mantener la integridad del usuario como entidad del dominio de identidad | Relacionado con los demás boundedContext, ya que encapsula toda la lógica de negocio. |
+| Command      | SignInCommand | comando para el inicio de sesión               | representar la intención de iniciar sesión                                                                        | Usado en la implementación del servicio de autenticación.                             |
+| Command      | SignUpCommand | comando para registro                          | representa la intención de registrarse a la aplicación                                                            | Usado en la implementación del servicio de autenticación                              |
+| Value Object | EmailAddress  | dirección de correo electrónico del usuario    | representar la dirección de correo del usuario                                                                    | usado en "User"                                                                       |
+| Value Object | PersonName    | nombre y apellido de usuario                   | representa los nombres y apellidos de un usuario                                                                  | usado en "User"                                                                       |
+
+**Sub-capa Services:**
+| Tipo | Nombre | Descripción | Responsabilidad Principal | Relación con otros elementos |
+| ---- | ------ | ----------- | ------------------------- | ---------------------------- |
+|Interface|AuthCommandService|servicio para métodos de autenticación|estipular una estructura clara a seguir|Uso en la capa "application" para implementar los métodos dados|
+|Interface| JWTService | servicio para métodos de JWT | estipular una estructura clara a seguir | uso en la capa "Infrastructure" para la implementación de los métodos.
+
+<div id='4.2.1.2.'><h5>4.2.1.2. Interface Layer</h5></div>
+
+**Sub-capa REST:**
+| Tipo | Nombre | Descripción | Responsabilidad Principal | Relación con otros elementos |
+| ---- | ------ | ----------- | ------------------------- | ---------------------------- |
+| Resource | AuthRequestResource | estructura de una petición para autenticar un usuario|Representar y exponer datos del dominio de forma accesible y estructurada para el cliente.| Uso en el "AuthController" para peticionar datos de una manera predeterminada en la autenticación|
+|Resource | AuthResponseResource | estructura de una respuesta al autenticar un usuario|Representar y exponer datos del dominio de forma accesible y estructurada para el cliente.| Uso en el "AuthController" para emitir datos de una manera predeterminada en la autenticación|
+| Resource | RegisterRequestResource | estructura de una petición para registrar un usuario|Representar y exponer datos del dominio de forma accesible y estructurada para el cliente.| Uso en el "AuthController" para peticionar datos de una manera predeterminada en el registro|
+|Resource | RegisterResponseResource | estructura de una respuesta al registrar un usuario|Representar y exponer datos del dominio de forma accesible y estructurada para el cliente.|Uso en el "AuthController" para emitir datos de una manera predeterminada en el registro|
+|Assembler | SignInCommandFromResourceAssembler| Convierte un recurso a un comando| Evitar la corrupción entre la comunicación de datos | Usado en el "AuthController" para convertir el recurso pedido en autenticación a un comando|
+|Assembler | SignUpCommandFromResourceAssembler|Convierte un recurso a un comando| Evitar la corrupcion entre comunicación de datos | Usaso en el "AuthController" para convertir el recurso pedido en autenticación a un comando|
+|Controller|AuthController| Parte de la aplicación que recibe las solicitudes del cliente| recibe solicitudes, coordina la ejecución y devuelve respuestas.|-|
+
+
+<div id='4.2.1.3.'><h5>4.2.1.3. Application Layer</h5></div>
+
+
+**Sub-capa Internal:**
+| Tipo | Nombre | Descripción | Responsabilidad Principal | Relación con otros elementos |
+| ---- | ------ | ----------- | ------------------------- | ---------------------------- |
+|CommandHandlers| AuthCommandServiceImpl|Implementación de los Comandos de Autenticación| Implementar los métodos para el servicio de autenticación | Implementa los métodos de la interface de su mismo nombre en la capa de "Services".|
+
+
+<div id='4.2.1.4.'><h5>4.2.1.4. Infrastructure Layer</h5></div>
+
+
+**Sub-capa Repository:**
+| Tipo | Nombre | Descripción | Responsabilidad Principal | Relación con otros elementos |
+| ---- | ------ | ----------- | ------------------------- | ---------------------------- |
+|Repository| UserRepository| repositorio a usar del modelo "User"| acceder y manipular datos persistidos| Usado en la Capa "Application" para implementar el registro y autenticación de un usuario.|
+
+**Sub-capa Security:**
+| Tipo | Nombre | Descripción | Responsabilidad Principal | Relación con otros elementos |
+| ---- | ------ | ----------- | ------------------------- | ---------------------------- |
+|Config|SecurityConfig| configuración de autorizaciones y permisos| configurar reglas de seguridad para la aplicación| Relacionado a la aplicación|
+
+
+**Sub-capa JWT:**
+| Tipo | Nombre | Descripción | Responsabilidad Principal | Relación con otros elementos |
+| ---- | ------ | ----------- | ------------------------- | ---------------------------- |
+|Class| JwtAuthFilter| Un filtro que intercepta cada petición HTTP para verificar si contiene un token JWT válido antes de dejar que llegue al controlador.|Validar el JWT en cada solicitud y establecer la autenticación en el contexto de seguridad.| Relacionado con la seguridad de la aplicación|
+|Class|JwtServiceImpl|Una clase de servicio que gestiona la creación, validación y decodificación de tokens JWT.|Encapsular toda la lógica relacionada con el manejo de tokens JWT.|Relacionado con la seguridad de la aplicación|
+
+
+<div id='4.2.1.5.'><h5>4.2.1.5. Bounded Context Software Architecture Component Level Diagrams</h5></div>
+
+<div align="center">
+<img src="Img/IAM-component.png">
+</div>
+<div id='4.2.1.6.'><h5>4.2.1.6. 
+Bounded Context Software Architecture Code Level Diagrams</h5></div>
+<div id='4.2.1.6.1.'><h6>4.2.1.6.1. Bounded Context Domain Layer Class Diagrams</h6></div>
+
+<div align="center">
+<img src="Img/profile_class.png">
+</div>
+
+<div id='4.2.1.6.2.'><h6>4.2.1.6.2. Bounded Context Database Design Diagram</h6></div>
+
+<div align="center">
+<img src="Img/user_db.png">
+</div>
+
+<div id='4.2.2.'><h4>4.2.2. Bounded Context: Profile</h4></div>
+<div id='4.2.2.1.'><h5>4.2.2.1. Domain Layer</h5></div>
+
+**Sub-capa Model:**
+| Tipo         | Nombre        | Descripción                                    | Responsabilidad Principal                                                                                         | Relación con otros elementos                                                          |
+| ------------ | ------------- | ---------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
+|Entity | Patient | Persona vulnerable a cuidar | representa los datos de la entidad "Paciente" | Relacionado con "User", este determina el tipo de usuario |
+|Entity | Caregiver | Persona que cuida de la persona vulnerable | Representar los datos de la entidad "Caregiver" | Relacionado con "User", este determina el tipo de usuario |
+|Value Object	|Birthday	|Value object usado en el Aggregate de Patient|Representar la fecha de nacimiento de un paciente.|	Relacionado con Patient |
+|Value Object |	DNI	| Value object usado en el Aggregate de Patient	y Cuidador | Representar el documento de identidad del paciente o cuidador | 	Relacionado con Patient o Caregiver|
+|Record (Query) | GetAllPatientsByCaregiver | Consulta para obtener las personas que esta cuidando el tipo de usuario "Cuidador" | Encapsula los parámetros para buscar a los pacientes de cada cuidador | Usado por servicio de Cuidador | 
+|Record (Query) | GetInformation | Consulta para obtener los datos personales del usuario general | Encapsula los parámetros para buscar los datos personales | Usado por servicio de ambos tipos de usuario | 
+|Record (Command) | RegisterInformation | Comando para guardar los datos personales | Encapsular los datos necesarios para guardar los datos personales | Usado por servicios de ambos tipos de usuario |
+|Record (Command) | UpdateInformation | Comando para actualizar los datos personales | Encapsular los datos necesarios para actualizar los datos personales | Usado por servicios de ambos tipos de usuario |
+|Record (Command) | UpdatePassword | Comando para actualizar la contraseña | Encapsular los datos necesarios para actualizar la contraseña| Usado por servicio de ambos tipos de usuario y Bounded Context de IAM |
+|Record (Command) | UpdateEmail | Comando para actualizar el correo electrónico | Encapsular los datos necesarios para actualizar el correo electrónico | Usado por servicio de ambos tipos de usuario y Bounded Context de IAM |
+
+
+
+
+
+
+**Sub-capa Services:**
+| Tipo | Nombre | Descripción | Responsabilidad Principal | Relación con otros elementos |
+| ---- | ------ | ----------- | ------------------------- | ---------------------------- |
+|Interface | ProfileCommandService | Servicio para comandos relacionados con los usuarios | Declarar métodos para crear o actualizar datos personales de los usuarios | Implementado por la clase `ProfileCommandServiceImpl`. Usado en capa Application|
+|Interface | ProfileQueryService | Servicio para comandos relacionados con los usuarios | Obtener datos persistidos de los usuarios | Implementado por la clase `ProfileQueryServiceImpl`. Usado en capa Application|
+
+
+
+
+
+<div id='4.2.2.2.'><h5>4.2.2.2. Interface Layer</h5></div>
+
+**Sub-capa REST:**
+
+| Tipo | Nombre | Descripción | Responsabilidad Principal | Relación con otros elementos |
+| ---- | ------ | ----------- | ------------------------- | ---------------------------- |
+|Controller | ProfileController| clase encargada de la gestión de los endpoints | enviar respuestas o recibir peticiones | Relacionado con las demás capas. |
+
+
+<div id='4.2.2.3.'><h5>4.2.2.3. Application Layer</h5></div>
+
+
+**Sub-capa Internal:**
+| Tipo | Nombre | Descripción | Responsabilidad Principal | Relación con otros elementos |
+| ---- | ------ | ----------- | ------------------------- | ---------------------------- |
+|Class (implementation service) | ProfileCommandServiceImpl|Implementación de los Comandos del Perfil| Implementar los métodos para el servicio de Perfil | Implementa los métodos de la interface de su mismo nombre en la capa de "Services".|
+|Class (implementation service) | ProfileQueryServiceImpl|Implementación de las Consultas del Perfil| Implementar los métodos para el servicio de Perfil | Implementa los métodos de la interface de su mismo nombre en la capa de "Services".|
+
+
+<div id='4.2.2.4.'><h5>4.2.2.4. Infrastructure Layer</h5></div>
+
+
+**Sub-capa Repository:**
+| Tipo | Nombre | Descripción | Responsabilidad Principal | Relación con otros elementos |
+| ---- | ------ | ----------- | ------------------------- | ---------------------------- |
+|Repository| PatientRepository| repositorio a usar del modelo "Patient"| acceder y manipular datos persistidos| Usado en la Capa "Application" para implementar el registro de un usuario "Paciente".|
+|Repository| CareGiverRepository| repositorio a usar del modelo "Caregiver"| acceder y manipular datos persistidos| Usado en la Capa "Application" para implementar el registro de un usuario "Cuidador".|
+
+
+<div id='4.2.2.5.'><h5>4.2.2.5. Bounded Context Software Architecture Component Level Diagrams</h5></div>
+
+<div align="center">
+<img src="Img/IAM-component.png">
+</div>
+<div id='4.2.2.6.'><h5>4.2.2.6. 
+Bounded Context Software Architecture Code Level Diagrams</h5></div>
+<div id='4.2.2.6.1.'><h6>4.2.2.6.1. Bounded Context Domain Layer Class Diagrams</h6></div>
+
+<div align="center">
+<img src="Img/profile_class.png">
+</div>
+
+<div id='4.2.2.6.2.'><h6>4.2.2.6.2. Bounded Context Database Design Diagram</h6></div>
+
+<br>
+los tipos de usuarios (Pacientes y cuidadores), se modelan de esta manera para una mejor escalabilidad.<br><br>
+
+Cada paciente puede tener muchos cuidadores y un cuidador puede tener muchos pacientes.
+
+<div align="center">
+<img src="Img/profile_db.png">
+</div>
+
+
+
+ 
 <div id='5.'><h2>5. Conclusiones</h2></div>
 <div id='6.'><h2>6. Bibliografía</h2></div>
 
