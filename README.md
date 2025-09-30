@@ -32,6 +32,8 @@ width=50%"/>
 
 </div>
 
+<br><br><br><br><br><br><br><br><br><br><br>
+
 <h5 style="text-align: center"> Ciclo 2025-02 </h5>
 
 # Registro de Versiones del Informe
@@ -1564,8 +1566,14 @@ Este context mapping representa un ecosistema de salud digital centrado en el pa
 
 <div id='4.1.3.3.'><h5>4.1.3.3. Software Architecture Container Level Diagrams</h5></div>
 
+#### Health System Container
 <div align="center">
 <img src="Img/structurizr-HealthcareSystemContainers.png">
+</div>
+
+#### Mobile App Container
+<div align="center">
+<img src="Img/structurizr-MobileAppContainers.png">
 </div>
 
 
