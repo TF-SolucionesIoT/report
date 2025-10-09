@@ -2492,10 +2492,175 @@ Principios de interacción:
 
 <div id='5.2.'><h3>5.2. Information Architecture.</h3></div>
 <div id='5.2.1.'><h4>5.2.1. Organization Systems.</h4></div>
+
+**Web App (Plataforma de Monitoreo y Gestión)**
+
+La estructura de la Web App se organiza en módulos funcionales accesibles desde un panel principal:
+
+- Dashboard general: muestra los signos vitales en tiempo real, alertas recientes y el estado del dispositivo.
+
+- Usuarios: listado de adultos mayores registrados y sus cuidadores.
+
+- Historial Médico: registros ordenados cronológicamente, con filtros por fecha y tipo de evento.
+
+- Alertas y Reportes: panel para revisar y exportar incidentes de caídas o variaciones críticas.
+
+- Configuración: gestión de cuentas, permisos y dispositivos IoT vinculados.
+
+La jerarquía prioriza el acceso rápido a información crítica (alertas y monitoreo), mientras que las opciones administrativas se ubican en segundo nivel.
+
+**Mobile App (Aplicación para Usuarios y Cuidadores)**
+
+En la aplicación móvil, la organización se centra en la facilidad de uso táctil, utilizando botones grandes, íconos visuales y una navegación simplificada.
+
+Las secciones principales son:
+
+- Monitoreo en Tiempo Real (pantalla principal): muestra ritmo cardíaco, oxigenación y actividad del usuario.
+
+- Alertas y Emergencias: notificaciones instantáneas con opción de contacto directo o envío de ubicación.
+
+- Historial de Salud: registros visuales y gráficos simples de las últimas mediciones.
+
+- Perfil del Usuario: información personal, configuraciones y dispositivos asociados.
+
+Ejemplo: la opción “Enviar alerta” o “SOS” se presenta como un botón flotante permanente en color azul degradado, accesible desde cualquier pantalla.
+
+**Landing Page (Sitio Web Informativo y Comercial)**
+
+La landing page sigue una estructura informativa con secuencia narrativa, diseñada para presentar el producto y captar nuevos usuarios.
+Sus secciones principales son:
+
+- Inicio: presentación del propósito de AlertaVital y su propuesta tecnológica.
+
+- Nosotros: información de la startup y su misión social.
+
+- Tecnología IoT: explicación del funcionamiento y beneficios del sistema.
+
+- Productos: presentación de la App, Web App y Dispositivo IoT.
+
+- Contáctanos: formulario, datos de contacto y enlaces a redes sociales.
+
+El contenido se organiza en bloques con encabezados grandes, íconos ilustrativos y llamados a la acción (CTA) como “Descargar App” o “Solicitar una demostración”.
+
+**Dispositivo IoT (Wearable Inteligente AlertaVital)**
+
+En el dispositivo IoT, la organización es mínima pero funcional, orientada a la inmediatez:
+
+- Pantalla principal: muestra los signos vitales más relevantes (frecuencia cardíaca, oxigenación, nivel de actividad).
+
+- Indicadores visuales (LED):
+ 
+  - Azul: conexión activa.
+
+  - Celeste: monitoreo estable.
+
+  - Rojo: alerta de caída o emergencia. 
+
+- Botón físico SOS: envía una alerta inmediata al cuidador registrado.
+
+La disposición busca evitar sobrecarga cognitiva, facilitando la respuesta rápida ante eventos críticos.
+
 <div id='5.2.2.'><h4>5.2.2. Labeling Systems.</h4></div>
+
+**Web App:**
+
+Las etiquetas son técnicas pero claras, orientadas a la gestión profesional. Ejemplos:
+
+- “Panel de Monitoreo”, “Historial Clínico”, “Alertas Activas”, “Configurar Dispositivo”.
+
+**Mobile App:**
+
+Se usan etiquetas simples y de acción directa, adaptadas a un público general:
+
+- “Ver Signos Vitales”, “Enviar Alerta”, “Historial”, “Mi Perfil”.
+
+**Landing Page:**
+
+Las secciones están etiquetadas con lenguaje natural, orientado a visitantes y posibles clientes:
+
+- “Nosotros”, “Tecnología IoT”, “Productos”, “Contáctanos”.
+
+**Dispositivo IoT:**
+
+Etiquetas visuales o breves textos universales:
+
+- “SOS”, “OK”, “Conectado”, “Batería Baja”
+
 <div id='5.2.3.'><h4>5.2.3. SEO Tags and Meta Tags</h4></div>
+
+Para maximizar la visibilidad en buscadores y tiendas de aplicaciones (ASO y SEO), AlertaVital implementa etiquetas descriptivas y optimizadas.
+
+**Web App / Landing Page:**
+
+- Título: “AlertaVital – Soluciones IoT para el Cuidado de Adultos Mayores”.
+
+- Meta descripción: “Monitorea signos vitales y detecta caídas en tiempo real con AlertaVital, tecnología IoT accesible para la seguridad y bienestar de los adultos mayores.”
+
+- Palabras clave: “IoT salud”, “detección de caídas”, “monitoreo remoto”, “cuidado adulto mayor”, “startup tecnología médica”.
+
+**Mobile App:**
+
+- Título: “AlertaVital – Monitoreo y Alertas IoT”.
+
+- Descripción corta: “Seguridad y salud en tu bolsillo. Supervisa signos vitales y recibe alertas en tiempo real.”
+
+- Descripción extendida: “AlertaVital conecta a las familias con sus seres queridos mayores mediante tecnología IoT, ofreciendo monitoreo constante, alertas inmediatas y tranquilidad en todo momento.”
+
+- Palabras clave: “app salud IoT, adultos mayores, seguridad médica, wearable, cuidado remoto”.
+
+**IoT Device:**
+
+Aunque no aplica SEO tradicional, se incluye metadata técnica en la app que lo gestiona (identificador del dispositivo, modelo, versión de firmware), útil para indexación en sistemas conectados y compatibilidad de API.
+
 <div id='5.2.4.'><h4>5.2.4. Searching Systems.</h4></div>
+
+**Web App:**
+Incluye una barra de búsqueda avanzada con filtros por usuario, rango de fechas, tipo de alerta o parámetros fisiológicos (ej. “frecuencia cardíaca”).
+Ejemplo: un cuidador puede buscar “caídas de octubre” o “alertas de oxigenación baja” y acceder a los registros precisos.
+
+**Mobile App:**
+Integra búsqueda contextual con resultados dinámicos, permitiendo localizar pacientes, alertas o historiales directamente desde el menú principal.
+Ejemplo: al escribir “Pedro López”, el sistema muestra su historial y datos de monitoreo más recientes.
+
+**Landing Page:**
+Dispone de una búsqueda informativa simple que facilita encontrar secciones o artículos como “Beneficios del IoT” o “Cómo funciona AlertaVital”.
+
+**Dispositivo IoT:**
+No dispone de búsqueda textual; su sistema “busca” de forma automatizada patrones irregulares en signos vitales, generando alertas automáticas al detectar anomalías.
+
 <div id='5.2.5.'><h4>5.2.5. Navigation Systems.</h4></div>
+
+**Menú Principal:**
+
+- **Web App:**
+Navegación lateral fija tipo dashboard, con iconos representativos y estados activos en azul degradado.
+Ejemplo: el módulo “Alertas” se resalta con color celeste brillante cuando hay notificaciones nuevas.
+
+- **Mobile App:**
+Menú inferior con iconos grandes y etiquetas: “Inicio”, “Alertas”, “Historial”, “Perfil”.
+Ejemplo: un botón flotante de emergencia (“SOS”) permite enviar alertas desde cualquier pantalla.
+
+- **Landing Page:**
+Menú superior fijo con anclas internas a secciones como “Inicio”, “Nosotros”, “Tecnología”, “Productos” y “Contáctanos”.
+En móviles, se transforma en un menú hamburguesa con íconos minimalistas.
+
+- **Dispositivo IoT:**
+Navegación física simple con botones “SOS” y “Menú”.
+Indicadores visuales cambian de color según el estado del dispositivo, guiando al usuario sin necesidad de texto.
+
+**Navegación Contextual:**
+
+- **Web App:**
+Desde el historial de un usuario, se puede acceder a su monitoreo en tiempo real o enviar una alerta manual.
+
+- **Mobile App:**
+Desde una alerta recibida, se puede abrir directamente el perfil del paciente y ver sus signos vitales actuales.
+
+- **Landing Page:**
+En “Tecnología IoT”, enlaces conducen a “Productos” o “Contáctanos”, manteniendo la fluidez.
+
+- **IoT Device:**
+Un toque prolongado en el botón principal activa la función SOS o reinicia la conexión, facilitando navegación táctil mínima.
 
 <div id='5.3.'><h3>5.3. Landing Page UI Design.</h3></div>
 <div id='5.3.1.'><h4>5.3.1. Landing Page Wireframe.</h4></div>
