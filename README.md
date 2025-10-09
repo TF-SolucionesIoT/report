@@ -585,7 +585,7 @@ En esta sección, definiremos los perfiles específicos del público objetivo pa
 <div id='2.1.'><h3>2.1. Competidores</h3></div>
 <div id='2.1.1.'><h4>2.1.1. Análisis competitivo</h4></div>
 
-| **Competidor** |<img src="Img/nuestro-logo.svg" alt="Logo Nuestra Solución" style="margin-bottom: 5px;" width="800"> | <img src="Img/applewathc-logo.svg" alt="Logo Apple Watch" style="margin-bottom: 5px;" width="800"> | <img src="Img/unaliwear-logo.png" alt="Logo UnaliWear Kanega Watch" style="margin-bottom: 5px;" width="800"> | <img src="Img/bayalarm-logo.png" alt="Logo Bay Alarm SOS Smartwatch" style="margin-bottom: 5px;" width="800"> | <img src="Img/bewell-logo.png" alt="Logo BeWell Alert Smartwatch" style="margin-bottom: 5px;" width="800"> |
+| **Competidor** |<img src="Img/logo.png" alt="Logo Nuestra Solución" style="margin-bottom: 5px;" width="800"> | <img src="Img/applewathc-logo.svg" alt="Logo Apple Watch" style="margin-bottom: 5px;" width="800"> | <img src="Img/unaliwear-logo.png" alt="Logo UnaliWear Kanega Watch" style="margin-bottom: 5px;" width="800"> | <img src="Img/bayalarm-logo.png" alt="Logo Bay Alarm SOS Smartwatch" style="margin-bottom: 5px;" width="800"> | <img src="Img/bewell-logo.png" alt="Logo BeWell Alert Smartwatch" style="margin-bottom: 5px;" width="800"> |
 | --------------------------- | ------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
 | **Perfil Overview** | **Nuestra Solucion**   Brazalete inteligente IoT con app móvil para monitoreo en tiempo real de signos vitales y detección de caídas en adultos mayores, enfocado en el mercado peruano. | Reloj inteligente con enfoque en monitoreo de salud, fitness y seguridad, incluyendo detección de caídas y signos vitales para usuarios mayores. | Reloj de alerta médica con detección de caídas, diseñado para protección 24/7 sin necesidad de recarga constante. | Reloj de alerta médica independiente con detección de caídas automática y seguimiento de ubicación para seniors activos. | Reloj inteligente para seniors con detección de caídas, monitoreo de signos vitales y GPS en tiempo real. |
 | **Ventaja competitiva** | Solución accesible y local con integración IoT completa, alertas inmediatas a cuidadores y servicios de emergencia, interfaz intuitiva para adultos mayores y soporte técnico cercano en Perú. | Sensores avanzados para ECG, detección de hipertensión y apnea del sueño, integración con ecosistema Apple. | Tecnología RealFall™ para detección precisa de caídas, batería intercambiable y conectividad dual (celular y WiFi). | Operación independiente sin smartphone, detección de caídas con IA y red 4G LTE para claridad y velocidad. | Dispositivo gratuito con suscripción, compliant con HIPAA, centro de emergencias certificado 24/7. |
@@ -2334,7 +2334,161 @@ El diseño refleja una clara orientación a DDD (Domain-Driven Design), donde la
 
 <div id='5.1.'><h3>5.1. Style Guidelines.</h3></div>
 <div id='5.1.1.'><h4>5.1.1. General Style Guidelines.</h4></div>
+
+**Nombre y Logotipo**
+
+El nombre AlertaVital transmite seguridad, tecnología y cuidado humano, reflejando el compromiso de la startup con la innovación en salud y el bienestar de las personas mayores.
+El logotipo de AlertaVital está compuesto por un símbolo y un logotipo tipográfico, donde el ícono combina elementos de tecnología y salud, como un corazón digital o una onda de pulso conectada, representando la conectividad IoT y la monitorización de signos vitales en tiempo real.
+
+El diseño general es limpio, minimalista y moderno, asegurando una identidad visual fácil de reconocer y adaptable a distintos entornos digitales, como aplicaciones móviles, wearables y plataformas web.
+El conjunto visual busca inspirar confianza, empatía y tranquilidad, alineado con la misión de la marca: cuidar y proteger la vida de los adultos mayores mediante soluciones tecnológicas accesibles.
+
+<div align="center">
+<img src="Img/logo.png">
+</div><br>
+
+**Tono de Comunicación**
+
+El tono de comunicación de AlertaVital será humano, confiable, empático y profesional.
+Se evita el lenguaje excesivamente técnico o distante, priorizando una comunicación clara y accesible para usuarios de todas las edades, especialmente adultos mayores y sus familias.
+El mensaje de la marca debe proyectar tranquilidad y apoyo, actuando como un asistente confiable y cercano que ofrece soluciones tecnológicas sin perder la calidez humana.
+
+**Colors**
+
+La identidad visual de AlertaVital se basa en una paleta de azules y celestes en degradado, que representa confianza, calma y tecnología, al mismo tiempo que evoca una sensación de serenidad y bienestar.
+El uso del degradado entre azul y celeste simboliza la transición entre lo humano y lo digital, mostrando la conexión entre las personas y la tecnología de cuidado.
+Los colores secundarios son blanco y gris suave, que aportan claridad, equilibrio visual y legibilidad.
+
+<div align="center">
+<img src="Img/general-styleguidelines.png">
+</div><br>
+
+**Typography**
+
+La tipografía principal de AlertaVital es Poppins, elegida por su claridad, modernidad y accesibilidad.
+Su estructura redondeada y legible transmite empatía y cercanía, mientras que su estilo geométrico refleja la precisión tecnológica del proyecto.
+Los títulos usan un peso seminegrita o negrita, los subtítulos un peso medio, y el texto regular se mantiene ligero y cómodo de leer en pantallas de diferentes tamaños.
+
+<div align="center">
+<img src="Img/Typography.png">
+</div><br>
+
+**Spacing**
+
+El sistema de espaciado en la interfaz de AlertaVital prioriza la legibilidad y la accesibilidad visual.
+Se aplican márgenes amplios (20px) entre secciones principales, padding de 16–18px en botones y elementos interactivos, y un interlineado de 1.5x en textos largos.
+Este enfoque garantiza una experiencia ordenada y fluida, especialmente para usuarios mayores o con menor familiaridad tecnológica.
+
+**Íconos de la aplicación**
+
+Los íconos de AlertaVital son minimalistas, coherentes y de trazo redondeado, alineados con la identidad del logotipo.
+Su diseño utiliza el mismo degradado azul-celeste para mantener una apariencia homogénea en toda la interfaz.
+Cada ícono tiene un propósito funcional claro: alertas, monitoreo, conexión y cuidado.
+Su consistencia visual refuerza la confianza y facilita la comprensión inmediata de las acciones dentro de la app.
+<div align="center">
+<img src="Img/icons.png">
+</div><br>
+
+**Lenguaje aplicado**
+
+El lenguaje de AlertaVital es formal, empático y tranquilizador, diseñado para inspirar confianza y cercanía.
+Se evita el uso de tecnicismos, priorizando frases cortas, claras y amables.
+La app y su web comunican con una voz que acompaña y guía, reflejando la visión de la startup: facilitar un envejecimiento saludable y autónomo mediante la tecnología.
+
+Consistencia
+
+AlertaVital mantiene consistencia visual y comunicativa en todas sus plataformas.
+El uso uniforme del degradado azul-celeste, la tipografía Poppins y los íconos minimalistas crea una identidad reconocible y confiable.
+Esta coherencia asegura que el usuario se sienta seguro y orientado, fortaleciendo la percepción de una marca tecnológica, empática y estable.
+
+Simplicidad
+
+El diseño prioriza la simplicidad y funcionalidad, eliminando elementos innecesarios y destacando solo la información relevante.
+El objetivo es que cualquier usuario, independientemente de su edad, pueda navegar fácilmente y comprender la app sin esfuerzo.
+La simplicidad refuerza la misión de AlertaVital: hacer que la tecnología del cuidado sea accesible y humana.
+
+Comunicación
+
+El sistema de comunicación visual de AlertaVital incluye confirmaciones visuales y auditivas al realizar acciones importantes, como registrar signos vitales o enviar una alerta.
+Estos elementos generan confianza y seguridad emocional, garantizando que el usuario siempre sepa que el sistema está activo y atento a su bienestar.
+Cada interacción busca transmitir calma, control y acompañamiento.
+
 <div id='5.1.2.'><h4>5.1.2. Web, Mobile and IoT Style Guidelines.</h4></div>
+
+**Diseño general**
+
+El diseño en los entornos web, móvil e IoT de AlertaVital mantiene una identidad visual uniforme, priorizando la claridad, accesibilidad y consistencia.
+Todos los componentes siguen la misma línea estética basada en colores azul y celeste degradados, acompañados de tonos neutros (blanco, gris y negro) para garantizar una presentación limpia, moderna y profesional.
+
+El objetivo es que la experiencia del usuario sea fluida y coherente, sin importar el dispositivo o entorno desde el cual interactúe con la plataforma (navegador, aplicación móvil o dispositivo IoT).
+
+**Colores y degradados**
+
+La paleta principal de AlertaVital se centra en la gama de azules y celestes para reflejar confianza, tecnología y bienestar.
+El uso de degradados suaves entre estos tonos crea una apariencia dinámica y moderna, sin perder sobriedad ni legibilidad.
+
+<div align="center">
+<img src="Img/general-styleguidelines.png">
+</div><br>
+
+Aplicación por entorno:
+
+- Web: degradados sutiles en cabeceras, botones de acción y secciones destacadas.
+
+- Móvil: colores planos con acentos degradados para mejorar contraste y legibilidad en pantallas pequeñas.
+
+- IoT: uso del azul principal para retroiluminación o pantallas LED, complementado por blanco y gris para mantener una lectura clara en entornos con poca luz.
+  
+**Tipografía**
+
+Se utiliza la tipografía Poppins o Roboto, asegurando una experiencia legible y moderna en cualquier dispositivo.
+Su diseño geométrico y redondeado transmite cercanía y precisión, ideal para productos tecnológicos enfocados en el cuidado de la salud.
+
+<div align="center">
+<img src="Img/Typography.png">
+</div><br>
+
+**Componentes visuales**
+
+Los elementos visuales de AlertaVital comparten una estética minimalista y funcional.
+Se prioriza la simplicidad para facilitar la interacción, especialmente en usuarios mayores.
+
+Principales componentes:
+
+- Botones: bordes redondeados, fondo azul-celeste degradado, texto blanco.
+
+- Tarjetas de información: fondo blanco o gris claro, sombras suaves para destacar contenido.
+
+- Alertas y notificaciones: colores azul degradado para alertas informativas y tonos celeste más brillante para mensajes positivos o de confirmación.
+
+- Gráficos de signos vitales: líneas finas en azul o celeste, fondo neutro y legibilidad clara.
+
+**Diseño responsivo**
+
+El diseño es completamente adaptable y mantiene su coherencia visual en todos los dispositivos.
+Los elementos se ajustan según el entorno:
+
+- Web: estructura modular, con secciones amplias y distribución en columnas.
+
+- Móvil: diseño vertical, botones amplios y navegación táctil optimizada.
+
+- IoT: interfaz reducida con elementos esenciales, priorizando claridad y reacción inmediata ante alertas.
+
+**Interacción y usabilidad**
+
+El sistema de diseño de AlertaVital se centra en la experiencia del usuario.
+Cada interacción debe generar claridad y confianza.
+
+Principios de interacción:
+
+- Retroalimentación inmediata: cambios de color o microanimaciones al interactuar con botones o íconos.
+
+- Estados visuales claros: diferenciación entre botones activos, inactivos y presionados.
+
+- Animaciones suaves: transiciones ligeras con degradados para dar sensación de fluidez.
+
+- Iconografía uniforme: íconos redondeados, minimalistas, en azul o celeste con fondo blanco.
+
 
 <div id='5.2.'><h3>5.2. Information Architecture.</h3></div>
 <div id='5.2.1.'><h4>5.2.1. Organization Systems.</h4></div>
