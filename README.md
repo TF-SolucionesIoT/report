@@ -689,7 +689,27 @@ Esta sección recopila la información obtenida a partir de entrevistas realizad
     <tr>
         <td>Timing: 00:05 - 04:36</td>
         <td>URL: <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220235_upc_edu_pe/ERMsAWnlK25BgS7DKzoCgPEBcVQJPN9Nr9zo1HhWZgaR4g?nav=eyJwbGF5YmFja09wdGlvbnMiOnsic3RhcnRUaW1lSW5TZWNvbmRzIjo1LCJ0aW1lc3RhbXBlZExpbmtSZWZlcnJlckluZm8iOnsic2NlbmFyaW8iOiJDaGFwdGVyU2hhcmUiLCJhZGRpdGlvbmFsSW5mbyI6eyJpc1NoYXJlZENoYXB0ZXJBdXRvIjpmYWxzZX19fSwicmVmZXJyYWxJbmZvIjp7InJlZmVycmFsQXBwIjoiU3RyZWFtV2ViQXBwIiwicmVmZXJyYWxWaWV3IjoiU2hhcmVDaGFwdGVyTGluayIsInJlZmVycmFsQXBwUGxhdGZvcm0iOiJXZWIiLCJyZWZlcnJhbE1vZGUiOiJ2aWV3In19&e=cXMVMJ" target="_blank">Link del Video</a></td>
+    </tr>
+        <tr>
+        <td>Entrevistado N°3</td>
+        <td>Juan Carlos Herrera</td>
     </tr> 
+    <tr>
+        <td>Edad</td>
+        <td>78</td>
+    </tr> 
+    <tr>
+        <td>Distrito de residencia</td>
+        <td>Ate</td>
+    </tr> 
+    <tr>
+        <td><img src="Img/entrevista_juanCarlos.png" width="300px"></td>
+        <td>Juan Carlos Herrera es un adulto mayor de 78 años que vive en Ate. Él ha tenido problemas de salud en el pasado, incluyendo diabetes tipo 2. Juan Carlos se siente inseguro al estar solo en casa y le gustaría tener un dispositivo que lo ayude a monitorear su salud y que alerte a sus familiares en caso de emergencia.</td>
+    </tr> 
+    <tr>
+        <td>Timing: 6:58 min</td>
+        <td>URL: <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211g296_upc_edu_pe/ETQ99XoO8HBOlEOs5QFKbVYBeGMje7GfS5o9n_bB2UWfAA?e=g3Vufr" target="_blank">Link del Video</a></td>
+    </tr>  
 </table>
 
 </div>
