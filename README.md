@@ -33,9 +33,9 @@ width=50%"/>
 
 </div>
 
-<br><br><br><br><br><br><br><br><br><br><br>
-
 <h5 style="text-align: center"> Ciclo 2025-20 </h5>
+
+<br><br><br><br><br><br><br><br><br><br><br>
 
 # Registro de Versiones del Informe
 
