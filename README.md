@@ -2775,6 +2775,45 @@ Sección de Descargas de aplicación móvil y pie de página:
   <img src="./Img/mockup6.png">
 </div>
 
+### Mockups Landing Page (Mobile)
+
+Sección Principal de la landing page
+
+<div align = "center">
+  <img src="./Img/mockupm1.png">
+</div>
+
+Sección Características y Beneficios:
+
+<div align = "center">
+  <img src="./Img/mockupm2.png">
+</div>
+
+Sección Antecedentes:
+
+<div align = "center">
+  <img src="./Img/mockupm3.png">
+</div>
+
+Sección "Acerca de":
+
+<div align = "center">
+  <img src="./Img/mockupm4.png">
+</div>
+
+Sección de Formulario de contacto:
+
+<div align = "center">
+  <img src="./Img/mockupm5.png">
+</div>
+
+Sección de Descargas de aplicación móvil y pie de página:
+
+<div align = "center">
+  <img src="./Img/mockupm6.png">
+</div>
+
+
 <div id='5.4.'><h3>5.4. Applications UX/UI Design.</h3></div>
 <div id='5.4.1.'><h4>5.4.1. Applications Wireframes.</h4></div>
 <div id='5.4.2.'><h4>5.4.2. Applications Wireflow Diagrams.</h4></div>
