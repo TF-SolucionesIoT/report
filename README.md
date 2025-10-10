@@ -2759,19 +2759,19 @@ Link Lucid: https://lucid.app/lucidchart/a47baef7-d733-4cd7-baf0-e65d8a534db6/ed
 User Goal: Autenticación y gestión de cuenta
 
 <div align = "center">
-  <img src="./Img/wflowm1.png">
+  <img src="./Img/wireflow mobile 1.jpg">
 </div>
 
 User Goal: Gestión de Perfil de Usuario
 
 <div align = "center">
-  <img src="./Img/wflowm2.png">
+  <img src="./Img/wireflow mobile 2.jpg">
 </div>
 
 User Goal: Monitoreo de Signos Vitales
 
 <div align = "center">
-  <img src="./Img/wflowm3.png">
+  <img src="./Img/wireflow mobile 3.jpg">
 </div>
 
 User Goal: Registro y Seguimiento de alteraciones
@@ -2982,6 +2982,15 @@ Link Prototipo: https://www.figma.com/proto/wDXE0NQLCOx7ccB5TPlRYr/IoT?node-id=7
 </div>
 
 Link Prototipo: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220235_upc_edu_pe/EQ7A-FlrQLpOuExC6cEqW6MB0okmyZfggY1jekoiwepePw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=tz3ksu
+
+**Prototipo móvil del adulto mayor**
+
+<div align = "center">
+  <img src="./Img/older adult mobile prototype capture.png">
+</div>
+
+Link del Prototipo: https://upcedupe-my.sharepoint.com/personal/u20211g522_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu20211g522%5Fupc%5Fedu%5Fpe%2FDocuments%2FUniversidad%20%2D%20archivos%2FCICLO%20VII%2FDise%C3%B1o%20de%20soluciones%20IoT%2FProyecto%2Fprototype%20mobile%20older%20adult%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ee3032e6a%2Dc77e%2D4640%2D86bf%2D5b96acfd7ff3 
+
 
 <div id='6.'><h2>Capítulo VI: Product Implementation, Validation & Deployment</h2></div>
 
