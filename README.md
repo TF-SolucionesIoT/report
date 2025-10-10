@@ -248,7 +248,7 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
       <td>
       <b>Bohorquez Lerzundi Gerardo Sebastián:</b>
        <br> 
-       <b>TB1:</b> Participé activamente en reuniones del grupo, compartiendo ideas y propuestas sobre la estructuración del Bounded Context de Monitoring, organizando la funcionalidad en servicios y capas de arquitectura. Además, coordiné con mis compañeros para asegurar que las tareas se distribuyeran de manera equitativa y que cada miembro comprendiera su rol dentro del proyecto.
+       <b>TB1:</b> Participé activamente en reuniones del grupo, compartiendo ideas y propuestas sobre la estructuración del Bounded Context de Monitoring, organizando la funcionalidad en servicios y capas de arquitectura. Además, coordiné con mis compañeros para asegurar que las tareas se distribuyeran de manera equitativa y que cada miembro comprendiera su rol dentro del proyecto.<br>    <b>TF1: </b> Este trabajo me ayudó a fortalecer mis habilidades de liderazgo compartido, aprendiendo a coordinar con mi grupo y aportar de forma activa en las decisiones del proyecto. Comprendí que un buen trabajo en equipo se basa en la comunicación y en el apoyo mutuo para alcanzar los objetivos comunes.
         <br><br>
       <strong>Huanaco Huayta, Elizabeth Lucero</strong><br>
       <strong>TB1:</strong><br>
@@ -270,7 +270,9 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
       <td>Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.</td>
       <td>
         <br><br><b>Bohorquez Lerzundi Gerardo Sebastián</b><br> 
-       <b>TB1:</b>  Contribuí en la fase de needfinding, realizando análisis de user persona y empathy map para identificar necesidades reales de los usuarios. Esto permitió al grupo empatizar con los clientes y definir soluciones más ajustadas. También participé en la planificación de tareas del proyecto, ayudando a cumplir objetivos establecidos en tiempo y forma.<br><br>
+       <b>TB1:</b>  Contribuí en la fase de needfinding, realizando análisis de user persona y empathy map para identificar necesidades reales de los usuarios. Esto permitió al grupo empatizar con los clientes y definir soluciones más ajustadas. También participé en la planificación de tareas del proyecto, ayudando a cumplir objetivos establecidos en tiempo y forma.<br> <b>TF1:</b>Este proyecto me hizo valorar la importancia de la planificación y la colaboración. Trabajar en un entorno inclusivo me permitió reconocer el aporte de cada integrante y entender que el cumplimiento de metas depende del compromiso y la organización colectiva.<br><br> 
+
+       
         <strong>Huanaco Huayta, Elizabeth Lucero</strong><br>
       <strong>TB1:</strong><br>
       Durante el desarrollo de estas tareas logré desarrollar junto a mi equipo un entorno colaborativo e inclusivo, en el que cada integrante pudo aportar ideas y conocimientos desde su experiencia. Definimos metas claras, como la elaboración del Lean UX Canvas y los diferentes Bounded Context, lo que nos permitió planificar tareas de manera ordenada y asignarlas. Gracias a esta organización, pudimos cumplir con los objetivos establecidos en el tiempo acordado, fortaleciendo la participación equitativa y el compromiso hacia el proyecto del curso.<br><br>
