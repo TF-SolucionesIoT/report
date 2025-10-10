@@ -197,7 +197,7 @@ Los integrantes son:
    4.2.5.6. [Bounded Context Software Architecture Code Level Diagrams.](#4.2.5.6.)<br>
    4.2.5.6.1. [Bounded Context Domain Layer Class Diagrams.](#4.2.5.6.1.)<br>
    4.2.5.6.2. [Bounded Context Database Design Diagram.](#4.2.5.6.2.)<br>
-    4.2.6. [Bounded Context: Treatment Support](#4.2.6)<br>
+   4.2.6. [Bounded Context: Treatment Support](#4.2.6)<br>
    4.2.6.1. [Domain Layer.](#4.2.6.1.)<br>
    4.2.6.2. [Interface Layer.](#4.2.6.2.)<br>
    4.2.6.3. [Application Layer.](#4.2.6.3.)<br>
@@ -206,49 +206,42 @@ Los integrantes son:
    4.2.6.6. [Bounded Context Software Architecture Code Level Diagrams.](#4.2.6.6.)<br>
    4.2.6.6.1. [Bounded Context Domain Layer Class Diagrams.](#4.2.6.6.1.)<br>
    4.2.6.6.2. [Bounded Context Database Design Diagram.](#4.2.6.6.2.)<br>
-   5. [Capítulo V: Solution UI/UX Design.](#5.)<br>
-5.1. [Style Guidelines.](#5.1.)<br>
-5.1.1. [General Style Guidelines.](#5.1.1.)<br>
-5.1.2. [Web, Mobile and IoT Style Guidelines.](#5.1.2.)<br>
-
-5.2. [Information Architecture.](#5.2.)<br>
-5.2.1. [Organization Systems.](#5.2.1.)<br>
-5.2.2. [Labeling Systems.](#5.2.2.)<br>
-5.2.3. [SEO Tags and Meta Tags.](#5.2.3.)<br>
-5.2.4. [Searching Systems.](#5.2.4.)<br>
-5.2.5. [Navigation Systems.](#5.2.5.)<br>
-
-5.3. [Landing Page UI Design.](#5.3.)<br>
-5.3.1. [Landing Page Wireframe.](#5.3.1.)<br>
-5.3.2. [Landing Page Mock-up.](#5.3.2.)<br>
-
-5.4. [Applications UX/UI Design.](#5.4.)<br>
-5.4.1. [Applications Wireframes.](#5.4.1.)<br>
-5.4.2. [Applications Wireflow Diagrams.](#5.4.2.)<br>
-5.4.2.1. [Applications Mock-ups.](#5.4.2.1.)<br>
-5.4.3. [Applications User Flow Diagrams.](#5.4.3.)<br>
-
-5.5. [Applications Prototyping.](#5.5.)<br>
-
-6. [Capítulo VI: Product Implementation, Validation & Deployment.](#6.)<br>
-6.1. [Software Configuration Management.](#6.1.)<br>
-6.1.1. [Software Development Environment Configuration.](#6.1.1.)<br>
-6.1.2. [Source Code Management.](#6.1.2.)<br>
-6.1.3. [Source Code Style Guide & Conventions.](#6.1.3.)<br>
-6.1.4. [Software Deployment Configuration.](#6.1.4.)<br>
-
-6.2. [Landing Page, Services & Applications Implementation.](#6.2.)<br>
-6.2.1. [Sprint n.](#6.2.1.)<br>
-6.2.1.1. [Sprint Planning n.](#6.2.1.1.)<br>
-6.2.1.2. [Aspect Leaders and Collaborators.](#6.2.1.2.)<br>
-6.2.1.3. [Sprint Backlog n.](#6.2.1.3.)<br>
-6.2.1.4. [Development Evidence for Sprint Review.](#6.2.1.4.)<br>
-6.2.1.5. [Testing Suite Evidence for Sprint Review.](#6.2.1.5.)<br>
-6.2.1.6. [Execution Evidence for Sprint Review.](#6.2.1.6.)<br>
-6.2.1.7. [Services Documentation Evidence for Sprint Review.](#6.2.1.7.)<br>
-6.2.1.8. [Software Deployment Evidence for Sprint Review.](#6.2.1.8.)<br>
-6.2.1.9. [Team Collaboration Insights during Sprint.](#6.2.1.9.)<br>
-
+5. [**Capítulo V: Solution UI/UX Design.**](#5.)<br>
+   5.1. [Style Guidelines.](#5.1.)<br>
+   5.1.1. [General Style Guidelines.](#5.1.1.)<br>
+   5.1.2. [Web, Mobile and IoT Style Guidelines.](#5.1.2.)<br>
+   5.2. [Information Architecture.](#5.2.)<br>
+   5.2.1. [Organization Systems.](#5.2.1.)<br>
+   5.2.2. [Labeling Systems.](#5.2.2.)<br>
+   5.2.3. [SEO Tags and Meta Tags.](#5.2.3.)<br>
+   5.2.4. [Searching Systems.](#5.2.4.)<br>
+   5.2.5. [Navigation Systems.](#5.2.5.)<br>
+   5.3. [Landing Page UI Design.](#5.3.)<br>
+   5.3.1. [Landing Page Wireframe.](#5.3.1.)<br>
+   5.3.2. [Landing Page Mock-up.](#5.3.2.)<br>
+   5.4. [Applications UX/UI Design.](#5.4.)<br>
+   5.4.1. [Applications Wireframes.](#5.4.1.)<br>
+   5.4.2. [Applications Wireflow Diagrams.](#5.4.2.)<br>
+   5.4.2.1. [Applications Mock-ups.](#5.4.2.1.)<br>
+   5.4.3. [Applications User Flow Diagrams.](#5.4.3.)<br>
+   5.5. [Applications Prototyping.](#5.5.)<br>
+6. [**Capítulo VI: Product Implementation, Validation & Deployment.**](#6.)<br>
+   6.1. [Software Configuration Management.](#6.1.)<br>
+   6.1.1. [Software Development Environment Configuration.](#6.1.1.)<br>
+   6.1.2. [Source Code Management.](#6.1.2.)<br>
+   6.1.3. [Source Code Style Guide & Conventions.](#6.1.3.)<br>
+   6.1.4. [Software Deployment Configuration.](#6.1.4.)<br>
+   6.2. [Landing Page, Services & Applications Implementation.](#6.2.)<br>
+   6.2.1. [Sprint n.](#6.2.1.)<br>
+   6.2.1.1. [Sprint Planning n.](#6.2.1.1.)<br>
+   6.2.1.2. [Aspect Leaders and Collaborators.](#6.2.1.2.)<br>
+   6.2.1.3. [Sprint Backlog n.](#6.2.1.3.)<br>
+   6.2.1.4. [Development Evidence for Sprint Review.](#6.2.1.4.)<br>
+   6.2.1.5. [Testing Suite Evidence for Sprint Review.](#6.2.1.5.)<br>
+   6.2.1.6. [Execution Evidence for Sprint Review.](#6.2.1.6.)<br>
+   6.2.1.7. [Services Documentation Evidence for Sprint Review.](#6.2.1.7.)<br>
+   6.2.1.8. [Software Deployment Evidence for Sprint Review.](#6.2.1.8.)<br>
+   6.2.1.9. [Team Collaboration Insights during Sprint.](#6.2.1.9.)<br>
 
 7. [Conclusiones](#7.)<br>
 8. [Bibliografía](#8.)<br>
@@ -2477,34 +2470,34 @@ Un toque prolongado en el botón principal activa la función SOS o reinicia la 
 Sección Principal de la landing page:
 
 <div align = "center">
-  <img src="./Img/wf1.png">
+  <img src="./Img/wf1.png" style="margin-bottom: 5px;" width="500">
 </div>
 
 
 Sección Características y Beneficios:
 <div align = "center">
-  <img src="./Img/wf2.png">
+  <img src="./Img/wf2.png" style="margin-bottom: 5px;" width="500">
 </div>
 
 Sección Antecedentes:
 <div align = "center">
-  <img src="./Img/wf3.png">
+  <img src="./Img/wf3.png" style="margin-bottom: 5px;" width="500">
 </div>
 
 Sección "Acerca de":
 <div align = "center">
-  <img src="./Img/wf4.png">
+  <img src="./Img/wf4.png" style="margin-bottom: 5px;" width="500">
 </div>
 
 Sección de Formulario de contacto:
 
 <div align = "center">
-  <img src="./Img/wf5.png">
+  <img src="./Img/wf5.png" style="margin-bottom: 5px;" width="500">
 </div>
 
 Sección de Descargas de aplicación móvil y pie de página:
 <div align = "center">
-  <img src="./Img/wf6.png">
+  <img src="./Img/wf6.png" style="margin-bottom: 5px;" width="500">
 </div>
 
 ### Wireframe Landing Page (Mobile)
@@ -2512,34 +2505,34 @@ Sección de Descargas de aplicación móvil y pie de página:
 Sección Principal de la landing page:
 
 <div align = "center">
-  <img src="./Img/wfm1.png">
+  <img src="./Img/wfm1.png" style="margin-bottom: 5px;" width="250">
 </div>
 
 
 Sección Características y Beneficios:
 <div align = "center">
-  <img src="./Img/wfm2.png">
+  <img src="./Img/wfm2.png" style="margin-bottom: 5px;" width="250">
 </div>
 
 Sección Antecedentes:
 <div align = "center">
-  <img src="./Img/wfm3.png">
+  <img src="./Img/wfm3.png" style="margin-bottom: 5px;" width="250">
 </div>
 
 Sección "Acerca de":
 <div align = "center">
-  <img src="./Img/wfm4.png">
+  <img src="./Img/wfm4.png" style="margin-bottom: 5px;" width="250">
 </div>
 
 Sección de Formulario de contacto:
 
 <div align = "center">
-  <img src="./Img/wfm5.png">
+  <img src="./Img/wfm5.png" style="margin-bottom: 5px;" width="250">
 </div>
 
 Sección de Descargas de aplicación móvil y pie de página:
 <div align = "center">
-  <img src="./Img/wfm6.png">
+  <img src="./Img/wfm6.png" style="margin-bottom: 5px;" width="250">
 </div>
 
 <div id='5.3.2.'><h4>5.3.2. Landing Page Mock-up.</h4></div>
@@ -2549,37 +2542,37 @@ Sección de Descargas de aplicación móvil y pie de página:
 Sección Principal de la landing page
 
 <div align = "center">
-  <img src="./Img/mockup1.png">
+  <img src="./Img/mockup1.png" style="margin-bottom: 5px;" width="500">
 </div>
 
 Sección Características y Beneficios:
 
 <div align = "center">
-  <img src="./Img/mockup2.png">
+  <img src="./Img/mockup2.png" style="margin-bottom: 5px;" width="500">
 </div>
 
 Sección Antecedentes:
 
 <div align = "center">
-  <img src="./Img/mockup3.png">
+  <img src="./Img/mockup3.png" style="margin-bottom: 5px;" width="500">
 </div>
 
 Sección "Acerca de":
 
 <div align = "center">
-  <img src="./Img/mockup4.png">
+  <img src="./Img/mockup4.png" style="margin-bottom: 5px;" width="500">
 </div>
 
 Sección de Formulario de contacto:
 
 <div align = "center">
-  <img src="./Img/mockup5.png">
+  <img src="./Img/mockup5.png" style="margin-bottom: 5px;" width="500">
 </div>
 
 Sección de Descargas de aplicación móvil y pie de página:
 
 <div align = "center">
-  <img src="./Img/mockup6.png">
+  <img src="./Img/mockup6.png" style="margin-bottom: 5px;" width="500">
 </div>
 
 ### Mockups Landing Page (Mobile)
@@ -2587,37 +2580,37 @@ Sección de Descargas de aplicación móvil y pie de página:
 Sección Principal de la landing page
 
 <div align = "center">
-  <img src="./Img/mockupm1.png">
+  <img src="./Img/mockupm1.png" style="margin-bottom: 5px;" width="250">
 </div>
 
 Sección Características y Beneficios:
 
 <div align = "center">
-  <img src="./Img/mockupm2.png">
+  <img src="./Img/mockupm2.png" style="margin-bottom: 5px;" width="250">
 </div>
 
 Sección Antecedentes:
 
 <div align = "center">
-  <img src="./Img/mockupm3.png">
+  <img src="./Img/mockupm3.png" style="margin-bottom: 5px;" width="250">
 </div>
 
 Sección "Acerca de":
 
 <div align = "center">
-  <img src="./Img/mockupm4.png">
+  <img src="./Img/mockupm4.png" style="margin-bottom: 5px;" width="250">
 </div>
 
 Sección de Formulario de contacto:
 
 <div align = "center">
-  <img src="./Img/mockupm5.png">
+  <img src="./Img/mockupm5.png" style="margin-bottom: 5px;" width="250">
 </div>
 
 Sección de Descargas de aplicación móvil y pie de página:
 
 <div align = "center">
-  <img src="./Img/mockupm6.png">
+  <img src="./Img/mockupm6.png" style="margin-bottom: 5px;" width="250">
 </div>
 
 
@@ -2629,43 +2622,43 @@ Sección de Descargas de aplicación móvil y pie de página:
 Register
 
 <div align = "center">
-  <img src="./Img/webappwf2.png">
+  <img src="./Img/webappwf2.png" style="margin-bottom: 5px;" width="500">
 </div>
 
 Login
 
 <div align = "center">
-  <img src="./Img/webappwf1.png">
+  <img src="./Img/webappwf1.png" style="margin-bottom: 5px;" width="500">
 </div>
 
 Dashboard
 
 <div align = "center">
-  <img src="./Img/webappwf3.png">
+  <img src="./Img/webappwf3.png" style="margin-bottom: 5px;" width="500">
 </div>
 
 Emergencia
 
 <div align = "center">
-  <img src="./Img/webappwf4.png">
+  <img src="./Img/webappwf4.png" style="margin-bottom: 5px;" width="500">
 </div>
 
 Signos Vitales
 
 <div align = "center">
-  <img src="./Img/webappwf5.png">
+  <img src="./Img/webappwf5.png" style="margin-bottom: 5px;" width="500">
 </div>
 
 Alteraciones
 
 <div align = "center">
-  <img src="./Img/webappwf6.png">
+  <img src="./Img/webappwf6.png" style="margin-bottom: 5px;" width="500">
 </div>
 
 Perfil
 
 <div align = "center">
-  <img src="./Img/webappwf6.png">
+  <img src="./Img/webappwf7.png" style="margin-bottom: 5px;" width="500">
 </div>
 
 **Application wireframes (mobile)**
@@ -2673,43 +2666,43 @@ Perfil
 Register
 
 <div align = "center">
-  <img src="./Img/webappwfm2.png">
+  <img src="./Img/webappwfm2.png" style="margin-bottom: 5px;" width="250">
 </div>
 
 Login
 
 <div align = "center">
-  <img src="./Img/webappwfm1.png">
+  <img src="./Img/webappwfm1.png" style="margin-bottom: 5px;" width="250">
 </div>
 
 Dashboard
 
 <div align = "center">
-  <img src="./Img/webappwfm3.png">
+  <img src="./Img/webappwfm3.png" style="margin-bottom: 5px;" width="250">
 </div>
 
 Emergencia
 
 <div align = "center">
-  <img src="./Img/webappwfm4.png">
+  <img src="./Img/webappwfm4.png" style="margin-bottom: 5px;" width="250">
 </div>
 
 Signos Vitales
 
 <div align = "center">
-  <img src="./Img/webappwfm5.png">
+  <img src="./Img/webappwfm5.png" style="margin-bottom: 5px;" width="250">
 </div>
 
 Alteraciones
 
 <div align = "center">
-  <img src="./Img/webappwfm6.png">
+  <img src="./Img/webappwfm6.png" style="margin-bottom: 5px;" width="250">
 </div>
 
 Perfil
 
 <div align = "center">
-  <img src="./Img/webappwfm7.png">
+  <img src="./Img/webappwfm7.png" style="margin-bottom: 5px;" width="250">
 </div>
 
 <div id='5.4.2.'><h4>5.4.2. Applications Wireflow Diagrams.</h4></div>
@@ -2719,37 +2712,37 @@ Perfil
 User Goal: Autenticación y gestión de cuenta
 
 <div align = "center">
-  <img src="./Img/wflow1.png">
+  <img src="./Img/wflow1.png" style="margin-bottom: 5px;" width="500">
 </div>
 
 User Goal: Gestión de Perfil de Usuario
 
 <div align = "center">
-  <img src="./Img/wflow2.png">
+  <img src="./Img/wflow2.png" style="margin-bottom: 5px;" width="500">
 </div>
 
 User Goal: Monitoreo de Signos Vitales
 
 <div align = "center">
-  <img src="./Img/wflow3.png">
+  <img src="./Img/wflow3.png" style="margin-bottom: 5px;" width="500">
 </div>
 
 User Goal: Registro y Seguimiento de alteraciones
 
 <div align = "center">
-  <img src="./Img/wflow4.png">
+  <img src="./Img/wflow4.png" style="margin-bottom: 5px;" width="500">
 </div>
 
 User Goal: Emergencias y Alerta
 
 <div align = "center">
-  <img src="./Img/wflow5.png">
+  <img src="./Img/wflow5.png" style="margin-bottom: 5px;" width="500">
 </div>
 
 User Goal: Soporte al Tratamiento
 
 <div align = "center">
-  <img src="./Img/wflow6.png">
+  <img src="./Img/wflow6.png" style="margin-bottom: 5px;" width="500">
 </div>
 
 **Applications Wireflows Diagrams (Mobile)**
@@ -2759,37 +2752,37 @@ Link Lucid: https://lucid.app/lucidchart/a47baef7-d733-4cd7-baf0-e65d8a534db6/ed
 User Goal: Autenticación y gestión de cuenta
 
 <div align = "center">
-  <img src="./Img/wireflow mobile 1.jpg">
+  <img src="./Img/wireflow mobile 1.jpg" style="margin-bottom: 5px;" width="500">
 </div>
 
 User Goal: Gestión de Perfil de Usuario
 
 <div align = "center">
-  <img src="./Img/wireflow mobile 2.jpg">
+  <img src="./Img/wireflow mobile 2.jpg" style="margin-bottom: 5px;" width="500">
 </div>
 
 User Goal: Monitoreo de Signos Vitales
 
 <div align = "center">
-  <img src="./Img/wireflow mobile 3.jpg">
+  <img src="./Img/wireflow mobile 3.jpg" style="margin-bottom: 5px;" width="500">
 </div>
 
 User Goal: Registro y Seguimiento de alteraciones
 
 <div align = "center">
-  <img src="./Img/wireflow_4.jpg">
+  <img src="./Img/wireflow_4.jpg" style="margin-bottom: 5px;" width="500">
 </div>
 
 User Goal: Emergencias y Alerta
 
 <div align = "center">
-  <img src="./Img/wireflow_5.jpg">
+  <img src="./Img/wireflow_5.jpg" style="margin-bottom: 5px;" width="500">
 </div>
 
 User Goal: Soporte al Tratamiento
 
 <div align = "center">
-  <img src="./Img/wireflow_6.jpg">
+  <img src="./Img/wireflow_6.jpg" style="margin-bottom: 5px;" width="500">
 </div>
 
 <div id='5.4.2.1.'><h5>5.4.2. Applications Mock-ups.</h5></div>
@@ -2799,43 +2792,43 @@ User Goal: Soporte al Tratamiento
 Register
 
 <div align = "center">
-  <img src="./Img/webappmo1.png">
+  <img src="./Img/webappmo1.png" style="margin-bottom: 5px;" width="500">
 </div>
 
 Login
 
 <div align = "center">
-  <img src="./Img/webappmo2.png">
+  <img src="./Img/webappmo2.png" style="margin-bottom: 5px;" width="500">
 </div>
 
 Dashboard
 
 <div align = "center">
-  <img src="./Img/webappmo3.png">
+  <img src="./Img/webappmo3.png" style="margin-bottom: 5px;" width="500">
 </div>
 
 Emergencia
 
 <div align = "center">
-  <img src="./Img/webappmo4.png">
+  <img src="./Img/webappmo4.png" style="margin-bottom: 5px;" width="500">
 </div>
 
 Signos Vitales
 
 <div align = "center">
-  <img src="./Img/webappmo5.png">
+  <img src="./Img/webappmo5.png" style="margin-bottom: 5px;" width="500">
 </div>
 
 Alteraciones
 
 <div align = "center">
-  <img src="./Img/webappmo6.png">
+  <img src="./Img/webappmo6.png" style="margin-bottom: 5px;" width="500">
 </div>
 
 Perfil
 
 <div align = "center">
-  <img src="./Img/webappmo6.png">
+  <img src="./Img/webappmo6.png" style="margin-bottom: 5px;" width="500">
 </div>
 
 **Application Mock-ups (mobile)**
@@ -2843,43 +2836,43 @@ Perfil
 Register
 
 <div align = "center">
-  <img src="./Img/webappmom1.png">
+  <img src="./Img/webappmom1.png" style="margin-bottom: 5px;" width="250">
 </div>
 
 Login
 
 <div align = "center">
-  <img src="./Img/webappmom2.png">
+  <img src="./Img/webappmom2.png" style="margin-bottom: 5px;" width="250">
 </div>
 
 Dashboard
 
 <div align = "center">
-  <img src="./Img/webappmom3.png">
+  <img src="./Img/webappmom3.png" style="margin-bottom: 5px;" width="250">
 </div>
 
 Emergencia
 
 <div align = "center">
-  <img src="./Img/webappmom4.png">
+  <img src="./Img/webappmom4.png" style="margin-bottom: 5px;" width="250">
 </div>
 
 Signos Vitales
 
 <div align = "center">
-  <img src="./Img/webappmom5.png">
+  <img src="./Img/webappmom5.png" style="margin-bottom: 5px;" width="250">
 </div>
 
 Alteraciones
 
 <div align = "center">
-  <img src="./Img/webappmom6.png">
+  <img src="./Img/webappmom6.png" style="margin-bottom: 5px;" width="250">
 </div>
 
 Perfil
 
 <div align = "center">
-  <img src="./Img/webappmom7.png">
+  <img src="./Img/webappmom7.png" style="margin-bottom: 5px;" width="250">
 </div>
 
 
@@ -2892,105 +2885,104 @@ Link Lucid: https://lucid.app/lucidchart/217716ff-f8b0-4cf2-a47f-ce803460c6f1/ed
 User Goal: Autenticación y gestión de cuenta
 
 <div align = "center">
-  <img src="./Img/userflow1.png">
+  <img src="./Img/userflow1.png" style="margin-bottom: 5px;" width="500">
 </div>
 
 User Goal: Gestión de Perfil de Usuario
 
 <div align = "center">
-  <img src="./Img/userflow2.png">
+  <img src="./Img/userflow2.png" style="margin-bottom: 5px;" width="500">
 </div>
 
 User Goal: Monitoreo de Signos Vitales
 
 <div align = "center">
-  <img src="./Img/userflow3.png">
+  <img src="./Img/userflow3.png" style="margin-bottom: 5px;" width="500">
 </div>
 
 User Goal: Registro y Seguimiento de alteraciones
 
 <div align = "center">
-  <img src="./Img/userflow4.png">
+  <img src="./Img/userflow4.png" style="margin-bottom: 5px;" width="500">
 </div>
 
 User Goal: Emergencias y Alerta
 
 <div align = "center">
-  <img src="./Img/userflow5.png">
+  <img src="./Img/userflow5.png" style="margin-bottom: 5px;" width="500">
 </div>
 
 User Goal: Soporte al Tratamiento
 
 <div align = "center">
-  <img src="./Img/userflow6.png">
+  <img src="./Img/userflow6.png" style="margin-bottom: 5px;" width="500">
 </div>
 
 
 **Applications User Flow Diagrams (Mobile)**
 
-Link Lucid: https://lucid.app/lucidchart/56228267-948d-4917-a4ce-c1c0a8345ffc/edit?view_items=HBfY-7Xjwzhr&page=vAfYoJjIZ-Tr&invitationId=inv_6667df5d-4724-4df5-bc23-452b278a75f8
+Link Lucid: <a href="https://lucid.app/lucidchart/56228267-948d-4917-a4ce-c1c0a8345ffc/edit?view_items=HBfY-7Xjwzhr&page=vAfYoJjIZ-Tr&invitationId=inv_6667df5d-4724-4df5-bc23-452b278a75f8" target="_blank">Link</a></td>
+
 User Goal: Autenticación y gestión de cuenta
 
 <div align = "center">
-  <img src="./Img/userflowm1.png">
+  <img src="./Img/userflowm1.png" style="margin-bottom: 5px;" width="500">
 </div>
 
 User Goal: Gestión de Perfil de Usuario
 
 <div align = "center">
-  <img src="./Img/userflowm2.png">
+  <img src="./Img/userflowm2.png" style="margin-bottom: 5px;" width="500">
 </div>
 
 User Goal: Monitoreo de Signos Vitales
 
 <div align = "center">
-  <img src="./Img/userflowm3.png">
+  <img src="./Img/userflowm3.png" style="margin-bottom: 5px;" width="500">
 </div>
 
 User Goal: Registro y Seguimiento de alteraciones
 
 <div align = "center">
-  <img src="./Img/userflowm4.png">
+  <img src="./Img/userflowm4.png" style="margin-bottom: 5px;" width="500">
 </div>
 
 User Goal: Emergencias y Alerta
 
 <div align = "center">
-  <img src="./Img/userflowm6.png">
+  <img src="./Img/userflowm6.png" style="margin-bottom: 5px;" width="500">
 </div>
 
 User Goal: Soporte al Tratamiento
 
 <div align = "center">
-  <img src="./Img/userflowm5.png">
+  <img src="./Img/userflowm5.png" style="margin-bottom: 5px;" width="500">
 </div>
 
 
 <div id='5.5.'><h3>5.5. Applications Prototyping.</h3></div>
 
 <div align = "center">
-  <img src="./Img/prototipo.png">
+  <img src="./Img/prototipo.png" style="margin-bottom: 5px;" width="500">
 </div>
 
-
-Link Prototipo: https://www.figma.com/proto/wDXE0NQLCOx7ccB5TPlRYr/IoT?node-id=73-6622&t=pD1aaJtBOTr4UEQg-1&scaling=contain&content-scaling=fixed&page-id=1%3A2&starting-point-node-id=73%3A6622&show-proto-sidebar=1
+Link Prototipo: <a href="https://www.figma.com/proto/wDXE0NQLCOx7ccB5TPlRYr/IoT?node-id=73-6622&t=pD1aaJtBOTr4UEQg-1&scaling=contain&content-scaling=fixed&page-id=1%3A2&starting-point-node-id=73%3A6622&show-proto-sidebar=1" target="_blank">Link</a></td>
 
 **Prototipo móvil del tutor**
 
 <div align = "center">
-  <img src="./Img/prototype_mobile_tutor.png">
+  <img src="./Img/prototype_mobile_tutor.png" style="margin-bottom: 5px;" width="500">
 </div>
 
-Link Prototipo: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220235_upc_edu_pe/EQ7A-FlrQLpOuExC6cEqW6MB0okmyZfggY1jekoiwepePw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=tz3ksu
+Link Prototipo: <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220235_upc_edu_pe/EQ7A-FlrQLpOuExC6cEqW6MB0okmyZfggY1jekoiwepePw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=tz3ksu" target="_blank">Link</a></td>
 
 **Prototipo móvil del adulto mayor**
 
 <div align = "center">
-  <img src="./Img/older adult mobile prototype capture.png">
+  <img src="./Img/older adult mobile prototype capture.png" style="margin-bottom: 5px;" width="500">
 </div>
 
-Link del Prototipo: https://upcedupe-my.sharepoint.com/personal/u20211g522_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu20211g522%5Fupc%5Fedu%5Fpe%2FDocuments%2FUniversidad%20%2D%20archivos%2FCICLO%20VII%2FDise%C3%B1o%20de%20soluciones%20IoT%2FProyecto%2Fprototype%20mobile%20older%20adult%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ee3032e6a%2Dc77e%2D4640%2D86bf%2D5b96acfd7ff3 
-
+Link Prototipo: <a href="https://upcedupe-my.sharepoint.com/personal/u20211g522_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu20211g522%5Fupc%5Fedu%5Fpe%2FDocuments%2FUniversidad%20%2D%20archivos%2FCICLO%20VII%2FDise%C3%B1o%20de%20soluciones%20IoT%2FProyecto%2Fprototype%20mobile%20older%20adult%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ee3032e6a%2Dc77e%2D4640%2D86bf%2D5b96acfd7ff3 " target="_blank">Link</a></td>
 
 <div id='6.'><h2>Capítulo VI: Product Implementation, Validation & Deployment</h2></div>
 
