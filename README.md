@@ -10,11 +10,12 @@ width=50%"/>
 <h5 style="text-align: center"> Área: Ingeniería de Software </h5>
 
 <h5 style="text-align: center"> Curso: Desarrollo de Soluciones IoT </h5>
+<h5 style="text-align: center"> Código del curso: 1ASI0572 </h5>
 <h5 style="text-align: center"> NRC: 3428 </h5>
 
 <h5 style="text-align: center"> Docente: Marco Antonio León Baca</h5>
 
-<h5 style="text-align: center"> Startup: ??? </h5>
+<h5 style="text-align: center"> Startup: AlertaVital </h5>
 
 <h5 style="text-align: center"> Producto: AlertaVital </h5>
 
@@ -32,7 +33,9 @@ width=50%"/>
 
 </div>
 
-<h5 style="text-align: center"> Ciclo 2025-02 </h5>
+<br><br><br><br><br><br><br><br><br><br><br>
+
+<h5 style="text-align: center"> Ciclo 2025-20 </h5>
 
 # Registro de Versiones del Informe
 
@@ -40,27 +43,56 @@ El objetivo de esta sección es resumir las modificaciones relevantes que se rea
 
 | Versión | Fecha | Autor | Descripción de modificación |
 | :-----: | :---: | :---: | --------------------------- |
-|    TB1    |   21/09   |   a   | z                           |
+|    TB1    |   21/09   |   Jesús Guillermo Uribe Quispe   | Se añadió el capítulo I, II, III y IV del proyecto.                         |
+|TP | 10/10 | Jesús Guillermo Uribe Quispe | UX/UI Design, Software Development and Sprint 1 |
 
 # Project Report Collaboration Insights
 
 URL del repositorio para el reporte del proyecto:
 
-**TB1**
+
+**TP:**
 
 <div align="center">
-  <img src="" alt="insights">
+  <img src="Img/insight_tp1.png" alt="insights">
 </div>
 
 <div align="center">
-  <img src="" alt="insights">
+  <img src="Img/insight_tp1a.png" alt="insights">
 </div>
 
-Para el desarrollo del informe perteneciente a la entrega TF, se dividió la implementación de secciones de la siguiente forma para cada integrante del equipo:
+Para el desarrollo del informe perteneciente a la entrega del trabajo parcial, se dividió la implementación de secciones de la siguiente forma para cada integrante del equipo:
 
 | Integrante | Tareas Asignadas |
 | ---------- | ---------------- |
-| a          | a                |
+| Bohórquez Lerzundi, Gerardo Sebastián |Solution UX / UI Design, Information Architecture, Systems |
+| Huanaco Huayta, Elizabeth Lucero | UX/UI Mobile Design |
+| Huapaya Cuevas, Anthony | UX/UI Mobile Design |
+| Silva Tirado, Sebastián Valentino | Corrección de errores, Desarrollo App Web, UX / UI Web App Design |
+| Uribe Quispe, Jesús Guillermo | Desarrollo Landing Page, UX/UI Design  |
+
+<br><br>
+
+**TB1**
+
+<div align="center">
+  <img src="Img/insights.png" alt="insights">
+</div>
+
+<div align="center">
+  <img src="Img/insights2.png" alt="insights">
+</div>
+
+Para el desarrollo del informe perteneciente a la entrega TB1, se dividió la implementación de secciones de la siguiente forma para cada integrante del equipo:
+
+| Integrante | Tareas Asignadas |
+| ---------- | ---------------- |
+| Bohórquez Lerzundi, Gerardo Sebastián | Analisis competitivo, documentación de Bounded context, entrevistas |
+| Huanaco Huayta, Elizabeth Lucero | Lean UX process, entrevistas, documentación de Bounded context, entrevistas|
+| Huapaya Cuevas, Anthony | Lean UX process, entrevistas, documentación de Bounded context, entrevistas |
+| Silva Tirado, Sebastián Valentino | Antecedentes y problemática, entrevistas, documentación de Bounded context, entrevistas, Impact Mapping |
+| Uribe Quispe, Jesús Guillermo | User Stories, Product Backlog, EventStorming process, Software architecture |
+
 
 **Github Collaboration Insights**
 
@@ -174,10 +206,53 @@ Los integrantes son:
    4.2.6.6. [Bounded Context Software Architecture Code Level Diagrams.](#4.2.6.6.)<br>
    4.2.6.6.1. [Bounded Context Domain Layer Class Diagrams.](#4.2.6.6.1.)<br>
    4.2.6.6.2. [Bounded Context Database Design Diagram.](#4.2.6.6.2.)<br>
+   5. [Capítulo V: Solution UI/UX Design.](#5.)<br>
+5.1. [Style Guidelines.](#5.1.)<br>
+5.1.1. [General Style Guidelines.](#5.1.1.)<br>
+5.1.2. [Web, Mobile and IoT Style Guidelines.](#5.1.2.)<br>
 
-5. [Conclusiones](#5.)<br>
-6. [Bibliografía](#6.)<br>
-7. [Anexo](#7.)<br>
+5.2. [Information Architecture.](#5.2.)<br>
+5.2.1. [Organization Systems.](#5.2.1.)<br>
+5.2.2. [Labeling Systems.](#5.2.2.)<br>
+5.2.3. [SEO Tags and Meta Tags.](#5.2.3.)<br>
+5.2.4. [Searching Systems.](#5.2.4.)<br>
+5.2.5. [Navigation Systems.](#5.2.5.)<br>
+
+5.3. [Landing Page UI Design.](#5.3.)<br>
+5.3.1. [Landing Page Wireframe.](#5.3.1.)<br>
+5.3.2. [Landing Page Mock-up.](#5.3.2.)<br>
+
+5.4. [Applications UX/UI Design.](#5.4.)<br>
+5.4.1. [Applications Wireframes.](#5.4.1.)<br>
+5.4.2. [Applications Wireflow Diagrams.](#5.4.2.)<br>
+5.4.2.1. [Applications Mock-ups.](#5.4.2.1.)<br>
+5.4.3. [Applications User Flow Diagrams.](#5.4.3.)<br>
+
+5.5. [Applications Prototyping.](#5.5.)<br>
+
+6. [Capítulo VI: Product Implementation, Validation & Deployment.](#6.)<br>
+6.1. [Software Configuration Management.](#6.1.)<br>
+6.1.1. [Software Development Environment Configuration.](#6.1.1.)<br>
+6.1.2. [Source Code Management.](#6.1.2.)<br>
+6.1.3. [Source Code Style Guide & Conventions.](#6.1.3.)<br>
+6.1.4. [Software Deployment Configuration.](#6.1.4.)<br>
+
+6.2. [Landing Page, Services & Applications Implementation.](#6.2.)<br>
+6.2.1. [Sprint n.](#6.2.1.)<br>
+6.2.1.1. [Sprint Planning n.](#6.2.1.1.)<br>
+6.2.1.2. [Aspect Leaders and Collaborators.](#6.2.1.2.)<br>
+6.2.1.3. [Sprint Backlog n.](#6.2.1.3.)<br>
+6.2.1.4. [Development Evidence for Sprint Review.](#6.2.1.4.)<br>
+6.2.1.5. [Testing Suite Evidence for Sprint Review.](#6.2.1.5.)<br>
+6.2.1.6. [Execution Evidence for Sprint Review.](#6.2.1.6.)<br>
+6.2.1.7. [Services Documentation Evidence for Sprint Review.](#6.2.1.7.)<br>
+6.2.1.8. [Software Deployment Evidence for Sprint Review.](#6.2.1.8.)<br>
+6.2.1.9. [Team Collaboration Insights during Sprint.](#6.2.1.9.)<br>
+
+
+7. [Conclusiones](#7.)<br>
+8. [Bibliografía](#8.)<br>
+9. [Anexo](#9.)<br>
 
 # STUDENT OUTCOME
 
@@ -196,42 +271,49 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
     <tr>
       <td>Trabaja en equipo para proporcionar liderazgo en forma conjunta</td>
       <td>
-      <strong>Huanaco Huayta, Elizabeth Lucero</strong><br>
-      <strong>TB1:</strong><br>
-      El desarrollo de estas tareas, desde la aplicación del Lean UX Process hasta la definición del Bounded Context: Treatment Support con sus diferentes capas y diagramas, me permitió trabajar en equipo de manera organizada y colaborativa. Cada actividad requirió discutir ideas, validar supuestos, formular hipótesis y estructurar el diseño técnico de forma conjunta, lo que fomentó la toma de decisiones compartida y la distribución de responsabilidades. Este proceso fortaleció la comunicación y coordinación dentro del grupo, lo que me permitió contribuir activamente a alcanzar el objetivo común.
-        <b>Bohorquez Lerzundi Gerardo Sebastián:</b>
-       <br> 
-       <b>TB1:</b> Participé activamente en reuniones del grupo, compartiendo ideas y propuestas sobre la estructuración del Bounded Context de Monitoring, organizando la funcionalidad en servicios y capas de arquitectura. Además, coordiné con mis compañeros para asegurar que las tareas se distribuyeran de manera equitativa y que cada miembro comprendiera su rol dentro del proyecto.
-        <br><br>
-        Huapaya Cuevas, Anthony Martin:<br>
-        TB1: En el equipo aporté liderazgo conjunto al desarrollar el Lean UX Process, ya que ayudó a estructurar nuestras hipótesis y experimentos de manera clara, lo que facilitó la toma de decisiones colaborativas. Además, trabajé en los bounded context canvases de health tracking, lo que permitió al grupo alinear la visión del sistema y delimitar responsabilidades dentro del diseño, favoreciendo un liderazgo distribuido. Finalmente, al realizar el registro de entrevistas, contribuí a organizar la información obtenida de los usuarios, asegurando que todo el equipo pudiera basar sus decisiones en evidencia real y compartida.
-        <br><br>
-        Sebastian Silva: <br>
-        TB1: Coordinó la distribución de responsabilidades entre los integrantes del equipo, 
-        fomentando la toma de decisiones de manera consensuada. Propuso soluciones 
-        ante dificultades técnicas y apoyó a sus compañeros en la comprensión de las tareas asignadas. <br>
+        <b>Bohorquez Lerzundi Gerardo Sebastián:</b><br>
+        <b>TB1:</b> Participé activamente en reuniones del grupo, compartiendo ideas y propuestas sobre la estructuración del Bounded Context de Monitoring, organizando la funcionalidad en servicios y capas de arquitectura. Además, coordiné con mis compañeros para asegurar que las tareas se distribuyeran de manera equitativa y que cada miembro comprendiera su rol dentro del proyecto.<br>
+        <b>TP1:</b> En la segunda entrega, lideré la integración de nuevas funcionalidades en el sistema, facilitando la revisión de código y la resolución de conflictos entre ramas. Promoví la colaboración en la documentación técnica y la validación de los diagramas de arquitectura, asegurando que todos los integrantes participaran en la toma de decisiones sobre el diseño final.<br><br>
+        <strong>Huanaco Huayta, Elizabeth Lucero</strong><br>
+        <strong>TB1:</strong> El desarrollo de estas tareas, desde la aplicación del Lean UX Process hasta la definición del Bounded Context: Treatment Support con sus diferentes capas y diagramas, me permitió trabajar en equipo de manera organizada y colaborativa. Cada actividad requirió discutir ideas, validar supuestos, formular hipótesis y estructurar el diseño técnico de forma conjunta, lo que fomentó la toma de decisiones compartida y la distribución de responsabilidades. Este proceso fortaleció la comunicación y coordinación dentro del grupo, lo que me permitió contribuir activamente a alcanzar el objetivo común.<br>
+        <strong>TP1:</strong> En la segunda fase, participé en la revisión y mejora de los flujos de usuario y wireframes, coordinando sesiones de feedback con el equipo. Impulsé la integración de los prototipos en Figma y la validación conjunta de los criterios de aceptación, asegurando que el liderazgo fuera compartido y que todos los miembros pudieran aportar en la definición de la experiencia de usuario.<br><br>
+        <b>Huapaya Cuevas, Anthony Martin:</b><br>
+        <b>TB1:</b> En el equipo aporté liderazgo conjunto al desarrollar el Lean UX Process, ya que ayudó a estructurar nuestras hipótesis y experimentos de manera clara, lo que facilitó la toma de decisiones colaborativas. Además, trabajé en los bounded context canvases de health tracking, lo que permitió al grupo alinear la visión del sistema y delimitar responsabilidades dentro del diseño, favoreciendo un liderazgo distribuido. Finalmente, al realizar el registro de entrevistas, contribuí a organizar la información obtenida de los usuarios, asegurando que todo el equipo pudiera basar sus decisiones en evidencia real y compartida.<br>
+        <b>TP1:</b> En la segunda entrega, lideré la integración de los resultados de las entrevistas en el diseño de la arquitectura, coordinando la actualización de los diagramas y la documentación. Fomenté la participación activa de los miembros en la validación de los casos de uso y la revisión de los criterios de aceptación, consolidando el liderazgo conjunto en la toma de decisiones técnicas.<br><br>
+        <b>Silva Tirado, Sebastián:</b><br>
+        <b>TB1:</b> Coordinó la distribución de responsabilidades entre los integrantes del equipo, fomentando la toma de decisiones de manera consensuada. Propuso soluciones ante dificultades técnicas y apoyó a sus compañeros en la comprensión de las tareas asignadas.<br>
+        <b>TP1:</b> En la segunda fase, lideré la planificación de los sprints y la asignación de tareas, asegurando que cada integrante tuviera claridad sobre sus responsabilidades. Promoví la revisión cruzada de entregables y la resolución colaborativa de problemas, fortaleciendo el liderazgo compartido y la cohesión del grupo.<br><br>
+        <b>Uribe Quispe Jesús Guillermo:</b><br>
+        <b>TB1:</b> Coordiné la elaboración de la arquitectura, proceso de eventstorming y needfinding. Ayudando a mis compañeros a realizar dicho proceso.<br>
+        <b>TP1:</b> En la segunda entrega, lideré la integración de los diagramas de arquitectura y la documentación técnica, facilitando la revisión y validación conjunta de los modelos. Promoví la participación activa en la definición de los flujos de trabajo y la toma de decisiones sobre la estructura final del sistema.<br>
       </td>
       <td>
-      -
+        <b>TB1:</b> En conclusión, el equipo evidenció una dinámica de trabajo basada en la colaboración, la organización y el liderazgo compartido, donde cada integrante asumió un rol activo en la construcción de los bounded contexts, la aplicación del Lean UX Process y el diseño de la arquitectura del sistema. La distribución equitativa de tareas, la discusión de ideas y la validación conjunta de hipótesis fortalecieron la comunicación y la coordinación, lo que permitió tomar decisiones consensuadas y afrontar con eficacia los retos técnicos. Gracias a esta sinergia, el grupo logró estructurar de manera sólida los distintos dominios del proyecto y avanzar de forma ordenada hacia los objetivos comunes.<br>
+        <b>TP1:</b> En la segunda entrega, el liderazgo conjunto se consolidó mediante la integración de nuevas funcionalidades, la validación colaborativa de los prototipos y la revisión técnica de los diagramas. La participación activa de todos los miembros en la toma de decisiones y la resolución de conflictos permitió fortalecer la cohesión del equipo y avanzar de manera eficiente hacia los objetivos planteados, demostrando una capacidad sólida para liderar y coordinar el trabajo en equipo.
       </td>
     </tr>
     <tr>
       <td>Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.</td>
       <td>
-        <br><br><b>Bohorquez Lerzundi Gerardo Sebastián</b><br> 
-       <b>TB1:</b>  Contribuí en la fase de needfinding, realizando análisis de user persona y empathy map para identificar necesidades reales de los usuarios. Esto permitió al grupo empatizar con los clientes y definir soluciones más ajustadas. También participé en la planificación de tareas del proyecto, ayudando a cumplir objetivos establecidos en tiempo y forma.
+        <b>Bohorquez Lerzundi Gerardo Sebastián:</b><br>
+        <b>TB1:</b> Contribuí en la fase de needfinding, realizando análisis de user persona y empathy map para identificar necesidades reales de los usuarios. Esto permitió al grupo empatizar con los clientes y definir soluciones más ajustadas. También participé en la planificación de tareas del proyecto, ayudando a cumplir objetivos establecidos en tiempo y forma.<br>
+        <b>TP1:</b> En la segunda entrega, colaboré en la definición de los objetivos del sprint y la planificación de las tareas, asegurando que el entorno de trabajo fuera inclusivo y que todos los miembros pudieran aportar sus ideas. Fomenté la revisión cruzada de entregables y la retroalimentación constante, lo que permitió cumplir los objetivos en los plazos establecidos.<br><br>
         <strong>Huanaco Huayta, Elizabeth Lucero</strong><br>
-      <strong>TB1:</strong><br>
-      Durante el desarrollo de estas tareas logré desarrollar junto a mi equipo un entorno colaborativo e inclusivo, en el que cada integrante pudo aportar ideas y conocimientos desde su experiencia. Definimos metas claras, como la elaboración del Lean UX Canvas y los diferentes Bounded Context, lo que nos permitió planificar tareas de manera ordenada y asignarlas. Gracias a esta organización, pudimos cumplir con los objetivos establecidos en el tiempo acordado, fortaleciendo la participación equitativa y el compromiso hacia el proyecto del curso.
-        Huapaya Cuevas, Anthony Martin:<br>
-        TB1: Durante el proyecto fomenté un entorno colaborativo e inclusivo al aplicar el Lean UX Process, donde todas las ideas del equipo fueron consideradas y priorizadas de manera conjunta. A través de los bounded context canvases de health tracking, ayudé a establecer metas claras y a planificar tareas específicas relacionadas con el diseño de los dominios, asegurando que cada miembro comprendiera su responsabilidad. Con el registro de entrevistas, contribuí a cumplir los objetivos del equipo, ya que la información recogida permitió orientar el diseño hacia las necesidades reales de los usuarios.
-        <br>Sebastian Silva: <br>
-        TB1: Promovió reuniones periódicas para definir objetivos y plazos, fomentó la 
-        participación activa de cada miembro y aseguró que las ideas fueran valoradas por igual. 
-        Elaboró un cronograma de actividades y dio seguimiento al cumplimiento de tareas.
+        <strong>TB1:</strong> Durante el desarrollo de estas tareas logré desarrollar junto a mi equipo un entorno colaborativo e inclusivo, en el que cada integrante pudo aportar ideas y conocimientos desde su experiencia. Definimos metas claras, como la elaboración del Lean UX Canvas y los diferentes Bounded Context, lo que nos permitió planificar tareas de manera ordenada y asignarlas. Gracias a esta organización, pudimos cumplir con los objetivos establecidos en el tiempo acordado, fortaleciendo la participación equitativa y el compromiso hacia el proyecto del curso.<br>
+        <strong>TP1:</strong> En la segunda fase, participé en la planificación de los sprints y la definición de los entregables, promoviendo la inclusión de todos los miembros en la toma de decisiones. Coordiné la revisión de los prototipos y la validación de los criterios de aceptación, asegurando que el entorno de trabajo fuera colaborativo y que los objetivos se cumplieran en los plazos establecidos.<br><br>
+        <b>Huapaya Cuevas, Anthony Martin:</b><br>
+        <b>TB1:</b> Durante el proyecto fomenté un entorno colaborativo e inclusivo al aplicar el Lean UX Process, donde todas las ideas del equipo fueron consideradas y priorizadas de manera conjunta. A través de los bounded context canvases de health tracking, ayudé a establecer metas claras y a planificar tareas específicas relacionadas con el diseño de los dominios, asegurando que cada miembro comprendiera su responsabilidad. Con el registro de entrevistas, contribuí a cumplir los objetivos del equipo, ya que la información recogida permitió orientar el diseño hacia las necesidades reales de los usuarios.<br>
+        <b>TP1:</b> En la segunda entrega, colaboré en la planificación de los sprints y la asignación de tareas, promoviendo la inclusión de todos los miembros en la toma de decisiones. Fomenté la revisión cruzada de entregables y la retroalimentación constante, lo que permitió cumplir los objetivos en los plazos establecidos y fortalecer el entorno colaborativo.<br><br>
+        <b>Silva Tirado, Sebastian:</b><br>
+        <b>TB1:</b> Promovió reuniones periódicas para definir objetivos y plazos, fomentó la participación activa de cada miembro y aseguró que las ideas fueran valoradas por igual. Elaboró un cronograma de actividades y dio seguimiento al cumplimiento de tareas.<br>
+        <b>TP1:</b> En la segunda fase, coordinó la planificación de los sprints y la definición de los entregables, asegurando que el entorno de trabajo fuera inclusivo y que todos los miembros pudieran aportar sus ideas. Fomentó la revisión cruzada de entregables y la retroalimentación constante, lo que permitió cumplir los objetivos en los plazos establecidos.<br><br>
+        <b>Uribe Quispe, Jesús Guillermo:</b><br>
+        <b>TB1:</b> Cree canales de comunicación entre mis compañeros y yo para desenvolvernos mejor en el proyecto. Además tracé y designé tareas con tiempo para una mayor eficiencia en la realización del entregable.<br>
+        <b>TP1:</b> En la segunda entrega, coordiné la planificación de los sprints y la definición de los entregables, promoviendo la inclusión de todos los miembros en la toma de decisiones. Fomenté la revisión cruzada de entregables y la retroalimentación constante, lo que permitió cumplir los objetivos en los plazos establecidos y fortalecer el entorno colaborativo.<br>
       </td>
       <td>
-       -
+        <b>TB1:</b> En conjunto, el equipo demostró un trabajo colaborativo e inclusivo, en el que cada integrante aportó desde su rol al cumplimiento de los objetivos planteados. A través de la aplicación de metodologías como Lean UX y herramientas como empathy maps, user personas y bounded contexts, lograron definir necesidades reales de los usuarios, establecer metas claras, planificar tareas de manera organizada y dar seguimiento a su ejecución. La comunicación constante, la distribución equitativa de responsabilidades y la valoración de las ideas de todos los miembros fortalecieron el compromiso y permitieron alcanzar los entregables en los tiempos acordados, consolidando así un proceso de trabajo eficiente y orientado a resultados.<br>
+        <b>TP1:</b> En la segunda entrega, el equipo consolidó el entorno colaborativo e inclusivo mediante la planificación conjunta de los sprints, la definición de los objetivos y la revisión cruzada de los entregables. La participación activa de todos los miembros en la toma de decisiones y la retroalimentación constante permitieron cumplir los objetivos en los plazos establecidos, fortaleciendo la cohesión del grupo y la eficiencia en el trabajo en equipo.
       </td>
     </tr>
   </tbody>
@@ -530,7 +612,7 @@ En esta sección, definiremos los perfiles específicos del público objetivo pa
 <div id='2.1.'><h3>2.1. Competidores</h3></div>
 <div id='2.1.1.'><h4>2.1.1. Análisis competitivo</h4></div>
 
-| **Competidor** |<img src="Img/nuestro-logo.svg" alt="Logo Nuestra Solución" style="margin-bottom: 5px;" width="800"> | <img src="Img/applewathc-logo.svg" alt="Logo Apple Watch" style="margin-bottom: 5px;" width="800"> | <img src="Img/unaliwear-logo.png" alt="Logo UnaliWear Kanega Watch" style="margin-bottom: 5px;" width="800"> | <img src="Img/bayalarm-logo.png" alt="Logo Bay Alarm SOS Smartwatch" style="margin-bottom: 5px;" width="800"> | <img src="Img/bewell-logo.png" alt="Logo BeWell Alert Smartwatch" style="margin-bottom: 5px;" width="800"> |
+| **Competidor** |<img src="Img/logo.png" alt="Logo Nuestra Solución" style="margin-bottom: 5px;" width="800"> | <img src="Img/applewathc-logo.svg" alt="Logo Apple Watch" style="margin-bottom: 5px;" width="800"> | <img src="Img/unaliwear-logo.png" alt="Logo UnaliWear Kanega Watch" style="margin-bottom: 5px;" width="800"> | <img src="Img/bayalarm-logo.png" alt="Logo Bay Alarm SOS Smartwatch" style="margin-bottom: 5px;" width="800"> | <img src="Img/bewell-logo.png" alt="Logo BeWell Alert Smartwatch" style="margin-bottom: 5px;" width="800"> |
 | --------------------------- | ------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
 | **Perfil Overview** | **Nuestra Solucion**   Brazalete inteligente IoT con app móvil para monitoreo en tiempo real de signos vitales y detección de caídas en adultos mayores, enfocado en el mercado peruano. | Reloj inteligente con enfoque en monitoreo de salud, fitness y seguridad, incluyendo detección de caídas y signos vitales para usuarios mayores. | Reloj de alerta médica con detección de caídas, diseñado para protección 24/7 sin necesidad de recarga constante. | Reloj de alerta médica independiente con detección de caídas automática y seguimiento de ubicación para seniors activos. | Reloj inteligente para seniors con detección de caídas, monitoreo de signos vitales y GPS en tiempo real. |
 | **Ventaja competitiva** | Solución accesible y local con integración IoT completa, alertas inmediatas a cuidadores y servicios de emergencia, interfaz intuitiva para adultos mayores y soporte técnico cercano en Perú. | Sensores avanzados para ECG, detección de hipertensión y apnea del sueño, integración con ecosistema Apple. | Tecnología RealFall™ para detección precisa de caídas, batería intercambiable y conectividad dual (celular y WiFi). | Operación independiente sin smartphone, detección de caídas con IA y red 4G LTE para claridad y velocidad. | Dispositivo gratuito con suscripción, compliant con HIPAA, centro de emergencias certificado 24/7. |
@@ -609,8 +691,8 @@ Esta sección recopila la información obtenida a partir de entrevistas realizad
         <td>Rosa Valera es una mujer de 65 años que vive en San Luis. Ella ha tenido resbalones en el último año y se siente insegura al estar sola en casa. Rosa tiene confianza en el uso de dispositivos electrónicos, pero no ha utilizado dispositivos para medir su salud. Le gustaría un dispositivo que monitoree su salud y alerte a sus familiares en caso de emergencia.</td>
     </tr> 
     <tr>
-        <td>Timing: 0:00 - 03:55</td>
-        <td>URL: <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211g296_upc_edu_pe/ESKRjQ6V36JEqGVMCOh_FykB88evkHckHIWId9gACrKSiQ?e=IguKBR" target="_blank">Link del Video</a></td>
+        <td>Timing: 04:36 - 08:32</td>
+        <td>URL: <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220235_upc_edu_pe/ERMsAWnlK25BgS7DKzoCgPEBcVQJPN9Nr9zo1HhWZgaR4g?nav=eyJwbGF5YmFja09wdGlvbnMiOnsic3RhcnRUaW1lSW5TZWNvbmRzIjoyNzYsInRpbWVzdGFtcGVkTGlua1JlZmVycmVySW5mbyI6eyJzY2VuYXJpbyI6IkNoYXB0ZXJTaGFyZSIsImFkZGl0aW9uYWxJbmZvIjp7ImlzU2hhcmVkQ2hhcHRlckF1dG8iOmZhbHNlfX19LCJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZUNoYXB0ZXJMaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&e=tNXrKS" target="_blank">Link del Video</a></td>
     </tr> 
     <tr>
         <td>Entrevistado N°2</td>
@@ -629,29 +711,29 @@ Esta sección recopila la información obtenida a partir de entrevistas realizad
         <td>Deodora vive con su esposo y uno de sus hijos, a ella le detectaron diabetes, hipertensión y artrosis. Mensualmente acude al seguro para que le hagan su chequeo. Si ha llegado a sufrir caídas, su hijo que vive con ella se comunica con sus otros hijos y estos se ponen preocupados por dicho accidente. Generalmente se queda en casa con su hijo y esposo. Ella usa solo el celular para la comunicación y entretenimientos. Ella ha usado distintos dispositivos para medir la presión y como lleva controlada su diabetes. Ella ve factible el uso de un dispositivo como si fuera un reloj o algo un poco más discreto, además de que le interesa que este mande una alerta inmediata a sus familiares si ha sufrido alguna caída o alteración de sus signos vitales. Lo que considera más importante es que sea fácil de usar, ya que no maneja muy bien los dispositivos electrónicos.</td>
     </tr> 
     <tr>
-        <td>Timing: XX:XX - XX:XX</td>
-        <td>URL: <a href="Link" target="_blank">Link del Video</a></td>
-    </tr> 
-    <tr>
+        <td>Timing: 00:05 - 04:36</td>
+        <td>URL: <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220235_upc_edu_pe/ERMsAWnlK25BgS7DKzoCgPEBcVQJPN9Nr9zo1HhWZgaR4g?nav=eyJwbGF5YmFja09wdGlvbnMiOnsic3RhcnRUaW1lSW5TZWNvbmRzIjo1LCJ0aW1lc3RhbXBlZExpbmtSZWZlcnJlckluZm8iOnsic2NlbmFyaW8iOiJDaGFwdGVyU2hhcmUiLCJhZGRpdGlvbmFsSW5mbyI6eyJpc1NoYXJlZENoYXB0ZXJBdXRvIjpmYWxzZX19fSwicmVmZXJyYWxJbmZvIjp7InJlZmVycmFsQXBwIjoiU3RyZWFtV2ViQXBwIiwicmVmZXJyYWxWaWV3IjoiU2hhcmVDaGFwdGVyTGluayIsInJlZmVycmFsQXBwUGxhdGZvcm0iOiJXZWIiLCJyZWZlcnJhbE1vZGUiOiJ2aWV3In19&e=cXMVMJ" target="_blank">Link del Video</a></td>
+    </tr>
+        <tr>
         <td>Entrevistado N°3</td>
-        <td>XXX</td>
+        <td>Juan Carlos Herrera</td>
     </tr> 
     <tr>
         <td>Edad</td>
-        <td>XX</td>
+        <td>78</td>
     </tr> 
     <tr>
         <td>Distrito de residencia</td>
-        <td>XXX</td>
+        <td>Ate</td>
     </tr> 
     <tr>
-        <td><img src="Img/Entrevista-3.png" width="300px"></td>
-        <td>XXX</td>
+        <td><img src="Img/entrevista_juanCarlos.png" width="300px"></td>
+        <td>Juan Carlos Herrera es un adulto mayor de 78 años que vive en Ate. Él ha tenido problemas de salud en el pasado, incluyendo diabetes tipo 2. Juan Carlos se siente inseguro al estar solo en casa y le gustaría tener un dispositivo que lo ayude a monitorear su salud y que alerte a sus familiares en caso de emergencia.</td>
     </tr> 
     <tr>
-        <td>Timing: XX:XX - XX:XX</td>
-        <td>URL: <a href="Link" target="_blank">Link del Video</a></td>
-    </tr> 
+        <td>Timing: 6:58 min</td>
+        <td>URL: <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211g296_upc_edu_pe/ETQ99XoO8HBOlEOs5QFKbVYBeGMje7GfS5o9n_bB2UWfAA?e=g3Vufr" target="_blank">Link del Video</a></td>
+    </tr>  
 </table>
 
 </div>
@@ -676,8 +758,8 @@ Esta sección recopila la información obtenida a partir de entrevistas realizad
         <td>Marcia Rea es una joven que cuida de su abuela, que no se puede cuidar por si misma. Ella busca constantemente herramientas que le permitan monitorear la salud de su abuela a distancia.</td>
     </tr> 
     <tr>
-        <td>Timing: 0:00 - 07:47</td>
-        <td>URL: <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211g296_upc_edu_pe/ETxQdwbt6H5Kj1H0uXgnM6oBMbe7RCKMEzGafqzc-72-Rw?e=cauX0q" target="_blank">Link del Video</a></td>
+        <td>Timing: 25:27 - 33:14</td>
+        <td>URL: <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220235_upc_edu_pe/ERMsAWnlK25BgS7DKzoCgPEBcVQJPN9Nr9zo1HhWZgaR4g?nav=eyJwbGF5YmFja09wdGlvbnMiOnsic3RhcnRUaW1lSW5TZWNvbmRzIjoxNTI3LCJ0aW1lc3RhbXBlZExpbmtSZWZlcnJlckluZm8iOnsic2NlbmFyaW8iOiJDaGFwdGVyU2hhcmUiLCJhZGRpdGlvbmFsSW5mbyI6eyJpc1NoYXJlZENoYXB0ZXJBdXRvIjpmYWxzZX19fSwicmVmZXJyYWxJbmZvIjp7InJlZmVycmFsQXBwIjoiU3RyZWFtV2ViQXBwIiwicmVmZXJyYWxWaWV3IjoiU2hhcmVDaGFwdGVyTGluayIsInJlZmVycmFsQXBwUGxhdGZvcm0iOiJXZWIiLCJyZWZlcnJhbE1vZGUiOiJ2aWV3In19&e=ZFJWW8" target="_blank">Link del Video</a></td>
     </tr> 
     <tr>
         <td>Entrevistado N°2</td>
@@ -696,8 +778,8 @@ Esta sección recopila la información obtenida a partir de entrevistas realizad
         <td>Fabrisio es hijo y cuidador principal de su padre adulto mayor, con quien convive en la misma casa. Debido a que trabaja fuera de casa, su mayor preocupación es que el adulto mayor pase varias horas solo. Relató una experiencia previa en la que su padre sufrió una caída mientras él estaba trabajando, lo que evidenció la vulnerabilidad de estas situaciones y la necesidad de contar con apoyo tecnológico para reaccionar de manera oportuna. Actualmente, solo utilizan un tensiómetro digital en los horarios en los que el tutor está presente, aunque el adulto mayor lo encuentra incómodo y suele retirárselo, lo que reduce su efectividad. Él considera fundamental disponer de información en tiempo real sobre los signos vitales, especialmente porque pasa gran parte del día fuera de casa. Además, señaló que la forma más efectiva de recibir alertas sería mediante una llamada automática, ya que no siempre puede revisar notificaciones durante el trabajo. Sin embargo, manifestó disposición a invertir en un sistema IoT de monitoreo si es confiable y este se encuentra en un rango de precio accesible.</td>
     </tr> 
     <tr>
-        <td>Timing: XX:XX - XX:XX</td>
-        <td>URL: <a href="Link" target="_blank">Link del Video</a></td>
+        <td>Timing: 08:37 - 15:33</td>
+        <td>URL: <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220235_upc_edu_pe/ERMsAWnlK25BgS7DKzoCgPEBcVQJPN9Nr9zo1HhWZgaR4g?nav=eyJwbGF5YmFja09wdGlvbnMiOnsic3RhcnRUaW1lSW5TZWNvbmRzIjo1MTcsInRpbWVzdGFtcGVkTGlua1JlZmVycmVySW5mbyI6eyJzY2VuYXJpbyI6IkNoYXB0ZXJTaGFyZSIsImFkZGl0aW9uYWxJbmZvIjp7ImlzU2hhcmVkQ2hhcHRlckF1dG8iOmZhbHNlfX19LCJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZUNoYXB0ZXJMaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&e=JY4dX1" target="_blank">Link del Video</a></td>
     </tr> 
     <tr>
         <td>Entrevistado N°3</td>
@@ -716,8 +798,8 @@ Esta sección recopila la información obtenida a partir de entrevistas realizad
         <td>Sonia es una enfermera técnica que brinda atención a cualquier tipo de pacientes, incluyendo adultos mayores. Generalmente, le da atención a los adultos mayores cada vez que se hospitalizan, brindando cuidado por la calidad de vida. Las mayores preocupaciones que suele tener son la movilidad, ya que sus cuerpos no le permiten por su edad. Cómo trata con adultos mayores con bajas defensas, siempre tiene que estar al pendiente si les ocurre alguna caída. Ella usa como una pizarra que le indica mediante colores el control del adulto mayor teniendo en cuenta el riesgo de caída. Estos dispositivos les indican cada 6 horas los signos vitales. Le parece conveniente que se envié un mensaje o correo una alerta para casos de emergencias. Sus principales barreras es la conectividad con el internet, ya que no tienen en la zona que trabaja. No tiene una idea exacta de cuánto sería el costo, pero si muestra interés por dichos aparatos.</td>
     </tr> 
     <tr>
-        <td>Timing: XX:XX - XX:XX</td>
-        <td>URL: <a href="Link" target="_blank">Link del Video</a></td>
+        <td>Timing: 15:33 - 25:27</td>
+        <td>URL: <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220235_upc_edu_pe/ERMsAWnlK25BgS7DKzoCgPEBcVQJPN9Nr9zo1HhWZgaR4g?nav=eyJwbGF5YmFja09wdGlvbnMiOnsic3RhcnRUaW1lSW5TZWNvbmRzIjo5MzMsInRpbWVzdGFtcGVkTGlua1JlZmVycmVySW5mbyI6eyJzY2VuYXJpbyI6IkNoYXB0ZXJTaGFyZSIsImFkZGl0aW9uYWxJbmZvIjp7ImlzU2hhcmVkQ2hhcHRlckF1dG8iOmZhbHNlfX19LCJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZUNoYXB0ZXJMaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&e=W3qSGj" target="_blank">Link del Video</a></td>
     </tr> 
 </table>
 
@@ -895,241 +977,67 @@ A continuación, se presenta una matriz de tareas enfocada en María Luisa Ramí
 
 <div id='2.5.'><h3>2.5. Ubiquitous Language</h3></div>
 
+**Gestión de signos vitales (Vital Signs Management):** Proceso de recolección, almacenamiento y seguimiento de datos biométricos (como frecuencia cardíaca, saturación de oxígeno, presión arterial) provenientes de dispositivos IoT.
+
+**Alertas de irregularidades (Irregularity Alerts):** Notificaciones generadas automáticamente cuando un signo vital registrado se encuentra fuera de los rangos normales establecidos.
+
+**Usuario (User):** Persona que utiliza el sistema, ya sea un paciente que porta el dispositivo IoT, un cuidador o un profesional de la salud que accede al sistema.
+
+**Autenticación (Authentication):** Mecanismo mediante el cual un usuario valida su identidad en el sistema para acceder a las funcionalidades.
+
+**SOS:** Señal de emergencia enviada manualmente por el usuario o automáticamente por el sistema en caso de detectar una condición crítica.
+
+**Contacto de emergencia (Emergency Contact):** Persona previamente registrada que recibe notificaciones o alertas en caso de que el sistema detecte una emergencia.
+
+**Registrar signo vital (Record Vital Sign):** Acción de almacenar en el sistema una nueva medición de un parámetro biométrico tomada por el dispositivo IoT.
+
+**Panel de control (Dashboard):** Interfaz central donde los usuarios autorizados pueden visualizar datos, alertas, métricas y el estado del paciente en tiempo real.
+
+**Confirmación / Cancelación (Confirmation / Cancellation):** Respuesta del usuario o del sistema para validar o descartar una acción, como el envío de una alerta o un evento programado.
+
+**Token:** Credencial digital utilizada para mantener sesiones seguras y autorizar accesos dentro del sistema tras un proceso de autenticación.
+
 <div id='3.'><h2>3. Capítulo III: Requirements Specification</h2></div>
 
 <div id='3.1.'><h3>3.1. User Stories</h3></div>
 
-<table class="tg"><thead>
-  <tr>
-    <th class="tg-0pky">Epic / Story ID</th>
-    <th class="tg-0pky">Título</th>
-    <th class="tg-0pky">Descripción</th>
-    <th class="tg-0pky">Criterios de Aceptación</th>
-    <th class="tg-0pky">Relacionado con (Epic ID)</th>
-  </tr></thead>
-<tbody>
-  <tr style="background-color:#f2f2f2;">
-  <td>EP001</td>
-  <td>Autenticación y Gestión de Cuenta</td>
-  <td>Este Epic reúne todas las funcionalidades relacionadas con el acceso inicial del usuario a la aplicación, incluyendo el registro, inicio de sesión y recuperación de credenciales en caso de olvido.</td>
-  <td></td>
-  <td></td>
-</tr>
-  <tr>
-    <td class="tg-0pky">US01</td>
-    <td class="tg-lboi">Registrar usuario</td>
-    <td class="tg-lboi">Como adulto mayor o cuidador, quiero registrarme en la aplicación para acceder a los servicios de monitoreo.</td>
-    <td class="tg-0pky">Escenario 1: El usuario ingresa al registro.<br>Dado que el usuario desea crear una cuenta<br>Cuando complete los datos solicitados en el formulario de registro<br>Y seleccione el botón Registrarme<br>Entonces la aplicación confirmará el registro y redirigirá al inicio de sesión.</td>
-    <td class="tg-lboi">EP001</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">US02</td>
-    <td class="tg-lboi">Iniciar sesión</td>
-    <td class="tg-lboi">Como usuario, quiero iniciar sesión para acceder a mi perfil y datos de salud.</td>
-    <td class="tg-0pky">Escenario 1: Inicio de sesión válido.<br>Dado que el usuario tiene una cuenta registrada<br>Cuando ingrese correo y contraseña correctos<br>Entonces accederá a la pantalla principal.</td>
-    <td class="tg-lboi">EP001</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">US03</td>
-    <td class="tg-lboi">Recuperar cuenta</td>
-    <td class="tg-lboi">Como usuario, quiero recuperar mi cuenta en caso de olvidar mis credenciales.</td>
-    <td class="tg-0pky">Escenario 1: Recuperación de contraseña.<br>Dado que el usuario olvidó su contraseña<br>Cuando solicite recuperación e ingrese su correo<br>Entonces recibirá un enlace de restablecimiento.</td>
-    <td class="tg-lboi">EP001</td>
-  </tr>
-  <tr style="background-color:#f2f2f2;">
-  <td>EP002</td>
-  <td>Gestión de Perfil de Usuario</td>
-  <td>Agrupa las funcionalidades orientadas a la administración de los datos personales del usuario. Incluye la visualización del perfil y la actualización de credenciales (contraseña y correo).</td>
-  <td></td>
-  <td></td>
-</tr>
-  <tr>
-    <td class="tg-0pky">US04</td>
-    <td class="tg-lboi">Ver perfil</td>
-    <td class="tg-lboi">Como usuario, quiero visualizar mi información personal registrada en la aplicación.</td>
-    <td class="tg-0pky">Escenario 1: Visualización correcta.<br>Dado que el usuario está autenticado<br>Cuando acceda a la sección Perfil<br>Entonces podrá ver sus datos registrados.<br></td>
-    <td class="tg-lboi">EP002</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">US05</td>
-    <td class="tg-lboi">Cambiar datos personales</td>
-    <td class="tg-lboi">Como usuario, quiero actualizar mis datos personales para mantener mi información al día.</td>
-    <td class="tg-0pky">Escenario 1: Actualización exitosa.<br>Dado que el usuario está autenticado<br>Cuando modifique sus datos y guarde cambios<br>Entonces la aplicación confirmará la actualización.</td>
-    <td class="tg-lboi">EP002</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">US06</td>
-    <td class="tg-lboi">Cambiar contraseña</td>
-    <td class="tg-lboi">Como usuario, quiero cambiar mi contraseña para mantener mi cuenta segura.</td>
-    <td class="tg-0pky">Escenario 1: Cambio exitoso.<br>Dado que el usuario está en su perfil<br>Cuando solicite cambiar contraseña e ingrese la nueva<br>Entonces el sistema actualizará la credencial.</td>
-    <td class="tg-lboi">EP002</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">US07</td>
-    <td class="tg-lboi">Cambiar correo</td>
-    <td class="tg-lboi">Como usuario, quiero actualizar mi correo electrónico para recibir notificaciones en la cuenta correcta.</td>
-    <td class="tg-0pky">Escenario 1: Cambio de correo.<br>Dado que el usuario está autenticado<br>Cuando ingrese un nuevo correo válido<br>Entonces el sistema lo registrará como nuevo correo de contacto.</td>
-    <td class="tg-lboi">EP002</td>
-  </tr>
-  <tr style="background-color:#f2f2f2;">
-  <td>EP003</td>
-  <td>Monitoreo de Signos Vitales</td>
-  <td>Este epic abarca la visualización de parámetros fisiológicos captados en tiempo real por el dispositivo IoT, permitiendo al usuario consultar su frecuencia cardiaca, presión arterial y niveles de oxigenación.</td>
-  <td></td>
-  <td></td>
-</tr>
-  <tr>
-    <td class="tg-0pky">US08</td>
-    <td class="tg-lboi">Ver frecuencia cardiaca</td>
-    <td class="tg-lboi">Como usuario, quiero ver mi frecuencia cardiaca en tiempo real para monitorear mi salud.</td>
-    <td class="tg-0pky">Escenario 1: Visualización en dashboard.<br>Dado que el dispositivo IoT está conectado<br>Cuando acceda al panel de signos vitales<br>Entonces la aplicación mostrará la frecuencia cardiaca en BPM.</td>
-    <td class="tg-lboi">EP003</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">US09</td>
-    <td class="tg-lboi">Ver presión arterial</td>
-    <td class="tg-lboi">Como usuario, quiero consultar mis valores de presión arterial para detectar posibles anomalías.</td>
-    <td class="tg-0pky">Escenario 1: Lectura correcta.<br>Dado que el dispositivo IoT envía datos<br>Cuando acceda al panel de signos vitales<br>Entonces podrá visualizar la presión sistólica y diastólica.</td>
-    <td class="tg-lboi">EP003</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">US10</td>
-    <td class="tg-lboi">Ver oxigenación</td>
-    <td class="tg-lboi">Como usuario, quiero ver mis niveles de oxigenación (SpO₂) para prevenir riesgos respiratorios.</td>
-    <td class="tg-0pky">Escenario 1: Consulta de oxigenación.<br>Dado que el sensor está funcionando<br>Cuando acceda al panel<br>Entonces visualizará el nivel de SpO₂ en %.</td>
-    <td class="tg-lboi">EP003</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">US11</td> 
-    <td class="tg-lboi">Alertas inteligentes</td> 
-    <td class="tg-lboi">Como usuario, quiero recibir notificaciones automáticas cuando mis signos vitales salgan de los rangos normales, para actuar a tiempo.</td> 
-    <td class="tg-0pky">
-      ES1: Dado que el dispositivo IoT está transmitiendo datos<br>
-      Cuando la frecuencia cardiaca, presión arterial u oxigenación estén fuera de rango<br>
-      Entonces el sistema enviará una notificación inmediata al usuario.<br><br>
-      ES2: Dado que el usuario tiene contactos de emergencia registrados<br>
-      Cuando ocurra una alteración grave<br>
-      Entonces se enviará también la alerta a los contactos autorizados.
-    </td> 
-    <td class="tg-lboi">EP003</td> 
-</tr>
-<tr>
-    <td class="tg-0pky">US12</td> 
-    <td class="tg-lboi">Tendencias gráficas</td> 
-    <td class="tg-lboi">Como usuario, quiero ver gráficos históricos de mis signos vitales para entender la evolución de mi salud.</td> 
-    <td class="tg-0pky">
-      ES1: Dado que el usuario está autenticado<br>
-      Cuando acceda al panel de tendencias<br>
-      Entonces visualizará gráficos de frecuencia cardiaca, presión y oxigenación por día, semana o mes.
-    </td> 
-    <td class="tg-lboi">EP003</td> 
-</tr>
-<tr style="background-color:#f2f2f2;">
-  <td>EP004</td>
-  <td>Registro y Seguimiento de alteraciones</td>
-  <td>Incluye las funcionalidades que permiten registrar, consultar y dar seguimiento a alteraciones de salud, ya sean detectadas automáticamente o reportadas manualmente por el usuario o cuidador.</td>
-  <td></td>
-  <td></td>
-</tr>
-  <tr>
-    <td class="tg-0pky">US13</td>
-    <td class="tg-lboi">Reportar una alteración</td>
-    <td class="tg-lboi">Como usuario o cuidador, quiero reportar manualmente una alteración en la salud para que quede registrada.</td>
-    <td class="tg-0pky">Escenario 1: Reporte exitoso.<br>Dado que el usuario detecta una anomalía<br>Cuando ingrese el reporte en la aplicación<br>Entonces quedará almacenado en el sistema.</td>
-    <td class="tg-lboi">EP004</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">US14</td>
-    <td class="tg-lboi">Log de alteraciones</td>
-    <td class="tg-lboi">Como usuario o cuidador, quiero consultar el historial de alteraciones registradas para tener un seguimiento.</td>
-    <td class="tg-0pky">Escenario 1: Consulta del log.<br>Dado que existen reportes previos<br>Cuando acceda a la sección de alteraciones<br>Entonces verá una lista con fecha, hora y detalle.</td>
-    <td class="tg-lboi">EP004</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">US15</td> 
-    <td class="tg-lboi">Registro de síntomas</td> 
-    <td class="tg-lboi">Como usuario, quiero registrar manualmente síntomas adicionales para complementar mis datos de salud.</td> 
-    <td class="tg-0pky">
-      ES1: Dado que el usuario detecta un síntoma<br>
-      Cuando acceda a la sección de síntomas y lo registre<br>
-      Entonces el sistema lo guardará con fecha y hora.<br><br>
-      ES2: Dado que existen síntomas previos registrados<br>
-      Cuando el usuario consulte el historial<br>
-      Entonces podrá verlos listados en orden cronológico.
-    </td> 
-    <td class="tg-lboi">EP004</td> 
-</tr>
-<tr style="background-color:#f2f2f2;">
-  <td>EP005</td>
-  <td>Emergencias y Alerta</td>
-  <td>Este epic integra todas las acciones orientadas a la respuesta rápida ante situaciones críticas, como llamadas directas a números de emergencia y la gestión de contactos adicionales de alerta.</td>
-  <td></td>
-  <td></td>
-</tr>
-  <tr>
-    <td class="tg-0pky">US16</td>
-    <td class="tg-lboi">Mandar llamado a emergencia 106</td>
-    <td class="tg-lboi">Como usuario, quiero que la aplicación móvil realice un llamado directo al 106 en caso de emergencia.</td>
-    <td class="tg-0pky">Escenario 1: Llamada automática.<br>Dado que el usuario activa la opción de emergencia<br>Cuando presione el botón SOS<br>Entonces el sistema realizará automáticamente la llamada al 106.</td>
-    <td class="tg-lboi">EP005</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">US17</td>
-    <td class="tg-lboi">Registrar números de emergencia adicionales</td>
-    <td class="tg-lboi">Como usuario, quiero registrar números de contacto de emergencia además del 106, para notificar a familiares o cuidadores.</td>
-    <td class="tg-0pky">Escenario 1: Registro de contactos.<br>Dado que el usuario desea añadir contactos<br>Cuando ingrese los números en la sección de emergencia<br>Entonces quedarán registrados para llamadas o alertas.</td>
-    <td class="tg-lboi">EP005</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">US18</td> 
-    <td class="tg-lboi">Geolocalización en emergencias</td> 
-    <td class="tg-lboi">Como usuario, quiero que la aplicación envíe mi ubicación en tiempo real al presionar el botón SOS para agilizar la atención.</td> 
-    <td class="tg-0pky">
-      ES1: Dado que el usuario presiona el botón SOS<br>
-      Cuando el sistema realice la llamada al 106<br>
-      Entonces enviará también la ubicación en tiempo real al contacto autorizado.<br><br>
-      ES2: Dado que el usuario tiene contactos de emergencia registrados<br>
-      Cuando se active la alerta SOS<br>
-      Entonces cada contacto recibirá un SMS/WhatsApp con la ubicación.
-    </td> 
-    <td class="tg-lboi">EP005</td> 
-</tr>
-<tr style="background-color:#f2f2f2;">
-  <td>EP006</td>
-  <td>Soporte al Tratamiento</td>
-  <td>Incluye las funcionalidades que permite facilitar cuestiones sociales o el entendimiento de situaciones médicas.</td>
-  <td></td>
-  <td></td>
-</tr>
-<tr>
-    <td class="tg-0pky">US19</td> 
-    <td class="tg-lboi">Recordatorios de medicamentos</td> 
-    <td class="tg-lboi">Como usuario, quiero programar recordatorios de medicación para no olvidar tomarlos en el horario correcto.</td> 
-    <td class="tg-0pky">
-      ES1: Dado que el usuario ingresó un medicamento y horario<br>
-      Cuando llegue la hora programada<br>
-      Entonces la aplicación enviará una notificación recordatoria.<br><br>
-      ES2: Dado que el medicamento está marcado como "tomado"<br>
-      Cuando el usuario confirme la acción<br>
-      Entonces quedará registrado en el historial de medicación.
-    </td> 
-    <td class="tg-lboi">EP006</td> 
-</tr>
-<tr>
-    <td class="tg-0pky">US20</td> 
-    <td class="tg-lboi">Acceso multiusuario</td> 
-    <td class="tg-lboi">Como usuario, quiero autorizar a familiares o cuidadores para que puedan ver mi estado de salud en tiempo real.</td> 
-    <td class="tg-0pky">
-      ES1: Dado que el usuario desea compartir sus datos<br>
-      Cuando registre un familiar/cuidor en la sección de autorizaciones<br>
-      Entonces el sistema permitirá que dicho contacto acceda al panel de salud.<br><br>
-      ES2: Dado que un familiar tiene acceso<br>
-      Cuando consulte los signos vitales<br>
-      Entonces visualizará los mismos datos que el usuario en tiempo real.
-    </td> 
-    <td class="tg-lboi">EP006</td> 
-</tr>
-</tbody></table>
+| Epic / Story ID | Título | Descripción | Criterios de Aceptación | Relacionado con (Epic ID) |
+|-----------------|---------|--------------|-------------------------------------------|---------------------------|
+| **EP001** | **Autenticación y Gestión de Cuenta** | Funcionalidades relacionadas con el acceso inicial del usuario (registro, inicio de sesión y recuperación). | | |
+| US01 | Registrar usuario | Como adulto mayor o cuidador, quiero registrarme en la aplicación para acceder a los servicios de monitoreo. | **ES1:** Registro exitoso → Al completar datos válidos y pulsar *Registrarme*, se confirma y redirige al inicio de sesión.<br>**ES2:** Validaciones → Si el correo o contraseña son inválidos, muestra error y bloquea envío.<br>**ES3:** Correo ya registrado → Si el correo existe, informa y ofrece *Recuperar cuenta*. | EP001 |
+| US02 | Iniciar sesión | Como usuario, quiero iniciar sesión para acceder a mi perfil y datos de salud. | **ES1:** Inicio válido → Con credenciales correctas accede al panel principal.<br>**ES2:** Credenciales inválidas → Muestra error y ofrece *Olvidé mi contraseña*.<br>**ES3:** Cuenta no verificada → Solicita verificación o informa bloqueo temporal. | EP001 |
+| US03 | Recuperar cuenta | Como usuario, quiero recuperar mi cuenta si olvido mis credenciales. | **ES1:** Solicitud de restablecimiento → Envío de enlace al correo registrado.<br>**ES2:** Correo no registrado → Mensaje genérico (“si existe el correo…”).<br>**ES3:** Enlace expirado → Indica vencimiento y permite generar uno nuevo. | EP001 |
+| **EP002** | **Gestión de Perfil de Usuario** | Administración de datos personales, visualización y actualización de credenciales. | | |
+| US04 | Ver perfil | Como usuario, quiero visualizar mi información personal registrada. | **ES1:** Visualización correcta → Muestra datos completos al estar autenticado.<br>**ES2:** Sin conexión → Muestra datos en caché con aviso de sincronización.<br>**ES3:** Accesibilidad → Ajuste de fuentes sin pérdida de contenido. | EP002 |
+| US05 | Cambiar datos personales | Como usuario, quiero actualizar mis datos para mantener la información al día. | **ES1:** Actualización exitosa → Cambios guardados y confirmados.<br>**ES2:** Validaciones → Formatos incorrectos muestran error.<br>**ES3:** Conflicto → Notifica cambios desde otro dispositivo y permite resolver. | EP002 |
+| US06 | Cambiar contraseña | Como usuario, quiero cambiar mi contraseña para mantener mi cuenta segura. | **ES1:** Cambio exitoso → Actualiza credencial y cierra otras sesiones.<br>**ES2:** Error → Si la actual o nueva no cumplen requisitos, muestra mensaje.<br>**ES3:** Reautenticación → Solicita contraseña actual por seguridad. | EP002 |
+| US07 | Cambiar correo | Como usuario, quiero actualizar mi correo electrónico. | **ES1:** Cambio con verificación → Envía correo de confirmación antes de actualizar.<br>**ES2:** Correo inválido/duplicado → Error y no se guarda.<br>**ES3:** No verificación → Reversión al correo anterior tras vencimiento. | EP002 |
+| **EP003** | **Monitoreo de Signos Vitales** | Visualización de frecuencia cardiaca, presión arterial y oxigenación en tiempo real. | | |
+| US08 | Ver frecuencia cardiaca | Como usuario, quiero ver mi frecuencia cardiaca en tiempo real. | **ES1:** Lectura en tiempo real → Muestra BPM y estado de conexión.<br>**ES2:** Sin conexión → Último valor conocido y sugerencia de reconexión.<br>**ES3:** Filtros → Permite seleccionar intervalos de tiempo. | EP003 |
+| US09 | Ver presión arterial | Como usuario, quiero consultar mi presión arterial. | **ES1:** Lectura correcta → Muestra sistólica y diastólica.<br>**ES2:** Unidad y calibración → Indica mmHg y última calibración.<br>**ES3:** Falta parcial → Muestra aviso si falta un valor. | EP003 |
+| US10 | Ver oxigenación | Como usuario, quiero ver mis niveles de oxigenación (SpO₂). | **ES1:** Consulta correcta → Muestra nivel SpO₂ con calidad de señal.<br>**ES2:** Alerta visual → Color de advertencia bajo umbral.<br>**ES3:** Ahorro energía → Indica menor frecuencia de lectura. | EP003 |
+| US11 | Alertas inteligentes | Como usuario, quiero recibir notificaciones automáticas al detectar valores fuera de rango. | **ES1:** Alerta a usuario → Envía notificación con valor y recomendación.<br>**ES2:** Alerta a contactos → Envía aviso a contactos ante anomalías graves.<br>**ES3:** Evitar ruido → Agrupa eventos frecuentes para no saturar. | EP003 |
+| US12 | Tendencias gráficas | Como usuario, quiero ver gráficos históricos de mis signos vitales. | **ES1:** Rango temporal → Visualización diaria, semanal o mensual.<br>**ES2:** Filtros → Recalcula estadísticas según rango.<br>**ES3:** Exportación → Genera PDF o CSV con los datos. | EP003 |
+| **EP004** | **Registro y Seguimiento de alteraciones** | Registro, consulta y seguimiento de alteraciones detectadas o reportadas. | | |
+| US13 | Reportar una alteración | Como usuario o cuidador, quiero registrar manualmente una alteración de salud. | **ES1:** Reporte exitoso → Guarda tipo, severidad y descripción.<br>**ES2:** Adjuntos → Permite agregar foto o nota de voz.<br>**ES3:** Validaciones → No permite guardar con campos vacíos. | EP004 |
+| US14 | Log de alteraciones | Como usuario o cuidador, quiero consultar el historial de alteraciones. | **ES1:** Consulta → Lista con fecha, hora y detalle.<br>**ES2:** Filtros → Permite buscar por severidad o fecha.<br>**ES3:** Detalle → Muestra historial de cambios y adjuntos. | EP004 |
+| US15 | Registro de síntomas | Como usuario, quiero registrar síntomas adicionales. | **ES1:** Alta → Guarda síntoma con fecha y notas.<br>**ES2:** Historial → Muestra síntomas en orden cronológico.<br>**ES3:** Edición → Permite corregir o eliminar con trazabilidad. | EP004 |
+| **EP005** | **Emergencias y Alerta** | Acciones ante situaciones críticas, llamadas al 106 y contactos adicionales. | | |
+| US16 | Mandar llamado a emergencia 106 | Como usuario, quiero que la app realice una llamada directa al 106 en caso de emergencia. | **ES1:** Llamada automática → Botón SOS inicia llamada con cuenta regresiva.<br>**ES2:** Sin permisos → Solicita permiso o muestra número manual.<br>**ES3:** Confirmación → Pide doble toque para evitar errores. | EP005 |
+| US17 | Registrar números de emergencia adicionales | Como usuario, quiero registrar contactos de emergencia. | **ES1:** Registro → Guarda nombre, relación y número.<br>**ES2:** Validación → Evita duplicados o formato inválido.<br>**ES3:** Prioridad → Ordena contactos por nivel de aviso. | EP005 |
+| US18 | Geolocalización en emergencias | Como usuario, quiero enviar mi ubicación al activar SOS. | **ES1:** Envío con llamada → Envía ubicación al 106 y contactos.<br>**ES2:** Notificación → Envía SMS/WhatsApp con enlace de seguimiento.<br>**ES3:** Sin permisos → Usa última ubicación conocida. | EP005 |
+| **EP006** | **Soporte al Tratamiento** | Funcionalidades de apoyo social o médico como recordatorios y acceso multiusuario. | | |
+| US19 | Recordatorios de medicamentos | Como usuario, quiero programar recordatorios para no olvidar medicación. | **ES1:** Notificación → Envía alerta a la hora programada.<br>**ES2:** Registro → Marca como tomado u omitido.<br>**ES3:** Reprogramación → Permite posponer o registrar omisión. | EP006 |
+| US20 | Acceso multiusuario | Como usuario, quiero autorizar a familiares o cuidadores a ver mi estado de salud. | **ES1:** Conceder acceso → Registra contacto y define permisos.<br>**ES2:** Revocar acceso → Permite modificar o eliminar permisos.<br>**ES3:** Privacidad → Comparte solo la información autorizada. | EP006 |
+| **EP007** | **Landing Page Informativa** | Este Epic abarca las secciones públicas de la aplicación web orientadas a captar nuevos usuarios y comunicar valor: características, beneficios, problemática, acerca de, testimonios, contacto y descarga. | | |
+| US21 | Ver características | Como visitante, quiero conocer las principales características de la aplicación para entender qué ofrece. | **ES1:** Carga de sección → Al entrar al sitio, se muestran iconos y descripciones de funcionalidades clave.<br>**ES2:** Accesibilidad → Las tarjetas son legibles, con texto alternativo e íconos descriptivos.<br>**ES3:** Navegación → Los enlaces de “Ver más” dirigen correctamente a detalles o registro. | EP007 |
+| US22 | Ver beneficios | Como visitante, quiero ver los beneficios de usar la aplicación para motivarme a registrarme. | **ES1:** Visualización clara → La sección muestra beneficios con frases breves y visuales.<br>**ES2:** Responsive → El diseño se adapta correctamente en móvil y escritorio.<br>**ES3:** Llamado a la acción → Incluye botón “Regístrate” o “Descarga la app” visible. | EP007 |
+| US23 | Comprender la problemática | Como visitante, quiero entender la problemática de salud que aborda la aplicación para sentirme identificado con su propósito. | **ES1:** Texto informativo → Se muestra explicación clara y empática de la problemática.<br>**ES2:** Recursos visuales → Incluye imágenes o gráficos ilustrativos.<br>**ES3:** Tiempo de carga → La sección carga sin retrasos perceptibles (<3s). | EP007 |
+| US24 | Conocer acerca del proyecto | Como visitante, quiero leer información sobre la misión, visión y el equipo detrás de la aplicación. | **ES1:** Muestra datos clave → Presenta misión, visión y miembros principales del proyecto.<br>**ES2:** Enlaces externos → Los botones de redes sociales o “Conócenos” funcionan correctamente.<br>**ES3:** Diseño accesible → Compatible con lectores de pantalla y contraste adecuado. | EP007 |
+| US25 | Ver testimonios | Como visitante, quiero leer opiniones de otros usuarios o cuidadores para generar confianza. | **ES1:** Visualización → Se muestran al menos tres testimonios con nombre y foto opcional.<br>**ES2:** Carrusel funcional → Permite desplazarse sin errores entre testimonios.<br>**ES3:** Validación de contenido → Los testimonios no se repiten y cargan dinámicamente. | EP007 |
+| US26 | Enviar mensaje de contacto | Como visitante, quiero enviar un mensaje a través del formulario de contacto para resolver mis dudas. | **ES1:** Envío exitoso → Al completar nombre, correo y mensaje válidos, se confirma el envío.<br>**ES2:** Validaciones → Si falta algún campo o el correo es inválido, se muestra mensaje de error.<br>**ES3:** Protección antispam → No se permiten envíos automáticos (captcha activo). | EP007 |
+| US27 | Descargar la aplicación | Como visitante, quiero descargar la aplicación desde la landing page para comenzar a usarla. | **ES1:** Enlaces funcionales → Los botones de “Descargar en Play Store / App Store” redirigen correctamente.<br>**ES2:** Detección de dispositivo → Si accede desde Android o iOS, se sugiere el enlace correspondiente.<br>**ES3:** Versión web → Si el dispositivo no es compatible, se ofrece versión web o aviso informativo. | EP007 |
+
 
 <div id='3.2.'><h3>3.2. Impact Mapping</h3></div>
 
@@ -1154,146 +1062,33 @@ A continuación, se presenta una matriz de tareas enfocada en María Luisa Ramí
     </tr>
   </thead>
   <tbody>
-    <tr>
-      <td>1</td>
-      <td>US11</td>
-      <td>Alertas inteligentes</td>
-      <td>Recibir notificaciones automáticas cuando los signos vitales salgan de los rangos normales.</td>
-      <td>5</td>
-    </tr>
-    <tr>
-      <td>2</td>
-      <td>US18</td>
-      <td>Geolocalización en emergencias</td>
-      <td>Enviar ubicación en tiempo real al activar el botón SOS.</td>
-      <td>5</td>
-    </tr>
-    <tr>
-      <td>3</td>
-      <td>US12</td>
-      <td>Tendencias gráficas</td>
-      <td>Visualizar gráficos históricos de los signos vitales por día, semana o mes.</td>
-      <td>5</td>
-    </tr>
-    <tr>
-      <td>4</td>
-      <td>US20</td>
-      <td>Acceso multiusuario</td>
-      <td>Autorizar a familiares o cuidadores para ver el estado de salud en tiempo real.</td>
-      <td>5</td>
-    </tr>
-    <tr>
-      <td>5</td>
-      <td>US19</td>
-      <td>Recordatorios de medicamentos</td>
-      <td>Programar notificaciones para recordar la toma de medicamentos.</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <td>6</td>
-      <td>US16</td>
-      <td>Mandar llamado a emergencia 106</td>
-      <td>Llamar automáticamente al 106 desde la app en caso de emergencia.</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <td>7</td>
-      <td>US17</td>
-      <td>Registrar números de emergencia adicionales</td>
-      <td>Añadir contactos de emergencia adicionales para notificación en caso de SOS.</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <td>8</td>
-      <td>US15</td>
-      <td>Registro de síntomas</td>
-      <td>Registrar manualmente síntomas adicionales y consultarlos en un historial.</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <td>9</td>
-      <td>US13</td>
-      <td>Reportar una alteración</td>
-      <td>Reportar manualmente una alteración en la salud.</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <td>10</td>
-      <td>US14</td>
-      <td>Log de alteraciones</td>
-      <td>Consultar el historial de alteraciones registradas.</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <td>11</td>
-      <td>US05</td>
-      <td>Cambiar datos personales</td>
-      <td>Actualizar datos personales en el perfil.</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <td>12</td>
-      <td>US06</td>
-      <td>Cambiar contraseña</td>
-      <td>Actualizar la contraseña desde el perfil.</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <td>13</td>
-      <td>US07</td>
-      <td>Cambiar correo</td>
-      <td>Actualizar el correo electrónico para recibir notificaciones correctas.</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <td>14</td>
-      <td>US08</td>
-      <td>Ver frecuencia cardiaca</td>
-      <td>Visualizar la frecuencia cardiaca en tiempo real.</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <td>15</td>
-      <td>US09</td>
-      <td>Ver presión arterial</td>
-      <td>Consultar los valores de presión arterial en el panel de signos vitales.</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <td>16</td>
-      <td>US10</td>
-      <td>Ver oxigenación</td>
-      <td>Consultar el nivel de oxigenación (SpO₂) en tiempo real.</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <td>17</td>
-      <td>US01</td>
-      <td>Registrar usuario</td>
-      <td>Registrarse en la aplicación para acceder a los servicios de monitoreo.</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <td>18</td>
-      <td>US02</td>
-      <td>Iniciar sesión</td>
-      <td>Acceder al perfil y datos de salud con usuario y contraseña.</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <td>19</td>
-      <td>US03</td>
-      <td>Recuperar cuenta</td>
-      <td>Recuperar la cuenta en caso de olvidar las credenciales.</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <td>20</td>
-      <td>US04</td>
-      <td>Ver perfil</td>
-      <td>Visualizar información personal registrada en la aplicación.</td>
-      <td>1</td>
-    </tr>
+    <tr><td>1</td><td>US11</td><td>Alertas inteligentes</td><td>Recibir notificaciones automáticas cuando los signos vitales salgan de los rangos normales.</td><td>5</td></tr>
+    <tr><td>2</td><td>US18</td><td>Geolocalización en emergencias</td><td>Enviar ubicación en tiempo real al activar el botón SOS.</td><td>5</td></tr>
+    <tr><td>3</td><td>US12</td><td>Tendencias gráficas</td><td>Visualizar gráficos históricos de los signos vitales por día, semana o mes.</td><td>5</td></tr>
+    <tr><td>4</td><td>US20</td><td>Acceso multiusuario</td><td>Autorizar a familiares o cuidadores para ver el estado de salud en tiempo real.</td><td>5</td></tr>
+    <tr><td>5</td><td>US19</td><td>Recordatorios de medicamentos</td><td>Programar notificaciones para recordar la toma de medicamentos.</td><td>3</td></tr>
+    <tr><td>6</td><td>US16</td><td>Mandar llamado a emergencia 106</td><td>Llamar automáticamente al 106 desde la app en caso de emergencia.</td><td>3</td></tr>
+    <tr><td>7</td><td>US17</td><td>Registrar números de emergencia adicionales</td><td>Añadir contactos de emergencia adicionales para notificación en caso de SOS.</td><td>3</td></tr>
+    <tr><td>8</td><td>US15</td><td>Registro de síntomas</td><td>Registrar manualmente síntomas adicionales y consultarlos en un historial.</td><td>3</td></tr>
+    <tr><td>9</td><td>US13</td><td>Reportar una alteración</td><td>Reportar manualmente una alteración en la salud.</td><td>2</td></tr>
+    <tr><td>10</td><td>US14</td><td>Log de alteraciones</td><td>Consultar el historial de alteraciones registradas.</td><td>2</td></tr>
+    <tr><td>11</td><td>US05</td><td>Cambiar datos personales</td><td>Actualizar datos personales en el perfil.</td><td>2</td></tr>
+    <tr><td>12</td><td>US06</td><td>Cambiar contraseña</td><td>Actualizar la contraseña desde el perfil.</td><td>2</td></tr>
+    <tr><td>13</td><td>US07</td><td>Cambiar correo</td><td>Actualizar el correo electrónico para recibir notificaciones correctas.</td><td>2</td></tr>
+    <tr><td>14</td><td>US08</td><td>Ver frecuencia cardiaca</td><td>Visualizar la frecuencia cardiaca en tiempo real.</td><td>2</td></tr>
+    <tr><td>15</td><td>US09</td><td>Ver presión arterial</td><td>Consultar los valores de presión arterial en el panel de signos vitales.</td><td>2</td></tr>
+    <tr><td>16</td><td>US10</td><td>Ver oxigenación</td><td>Consultar el nivel de oxigenación (SpO₂) en tiempo real.</td><td>2</td></tr>
+    <tr><td>17</td><td>US01</td><td>Registrar usuario</td><td>Registrarse en la aplicación para acceder a los servicios de monitoreo.</td><td>1</td></tr>
+    <tr><td>18</td><td>US02</td><td>Iniciar sesión</td><td>Acceder al perfil y datos de salud con usuario y contraseña.</td><td>1</td></tr>
+    <tr><td>19</td><td>US03</td><td>Recuperar cuenta</td><td>Recuperar la cuenta en caso de olvidar las credenciales.</td><td>1</td></tr>
+    <tr><td>20</td><td>US04</td><td>Ver perfil</td><td>Visualizar información personal registrada en la aplicación.</td><td>1</td></tr>
+    <tr><td>21</td><td>US21</td><td>Ver características</td><td>Mostrar las principales funcionalidades de la aplicación en la landing page.</td><td>1</td></tr>
+    <tr><td>22</td><td>US22</td><td>Ver beneficios</td><td>Presentar los beneficios del uso de la aplicación para incentivar el registro.</td><td>1</td></tr>
+    <tr><td>23</td><td>US23</td><td>Comprender la problemática</td><td>Explicar la problemática de salud que aborda la aplicación para generar empatía.</td><td>1</td></tr>
+    <tr><td>24</td><td>US24</td><td>Conocer acerca del proyecto</td><td>Mostrar misión, visión y equipo responsable del desarrollo de la aplicación.</td><td>1</td></tr>
+    <tr><td>25</td><td>US25</td><td>Ver testimonios</td><td>Visualizar experiencias reales de usuarios o cuidadores para generar confianza.</td><td>2</td></tr>
+    <tr><td>26</td><td>US26</td><td>Enviar mensaje de contacto</td><td>Permitir al visitante enviar un mensaje o consulta mediante formulario de contacto.</td><td>3</td></tr>
+    <tr><td>27</td><td>US27</td><td>Descargar la aplicación</td><td>Proveer enlaces de descarga directa a la app en Play Store o App Store.</td><td>2</td></tr>
   </tbody>
 </table>
 
@@ -1415,9 +1210,19 @@ A continuación representaremos las conexiones entre bounded context mediante Do
 <img src="Img/canvas_Profile.png">
 </div>
 
+### Monitoring:
+<div align="center">
+<img src="Img/monitoring_canvas.png">
+</div>
+
 ### Health Tracking:
 <div align="center">
 <img src="Img/health_tracking_bounded_context_canvases.jpg" alt="health_tracking_canvases">
+</div>
+
+### Emergency Management:
+<div align="center">
+<img src="Img/emergency_canvas.png" alt="health_tracking_canvases">
 </div>
 
 ### Treatment Support
@@ -1425,6 +1230,8 @@ A continuación representaremos las conexiones entre bounded context mediante Do
 <img src="Img/treatment support bounded context canvas.jpg" alt="treatment support bounded context canvas">
 
 <div id='4.1.2.'><h4>4.1.2. Context Mapping</h4></div>
+
+Este context mapping representa un ecosistema de salud digital centrado en el paciente, donde múltiples bounded contexts colaboran para brindar servicios de monitoreo, seguimiento y atención médica integral. El diseño muestra una arquitectura distribuida que integra dispositivos IoT, servicios de notificación y gestión de emergencias.
 
 <div align="center">
 <img src="Img/context_mapping.png" alt="context_mapping." >
@@ -1531,19 +1338,20 @@ A continuación representaremos las conexiones entre bounded context mediante Do
 <div id='4.1.3.1.'><h5>4.1.3.1. Software Architecture System Landscape Diagram</h5></div>
 
 <div align="center">
-<img src="Img/structurizr-SystemLandscape.png">
+<img src="Img/structurizr-SystemLandscape (1).png">
 </div>
 
 <div id='4.1.3.2.'><h5>4.1.3.2. Software Architecture Context Level Diagrams</h5></div>
 
 <div align="center">
-<img src="Img/structurizr-SystemContext.png">
+<img src="Img/structurizr-SystemContext (1).png">
 </div>
 
 <div id='4.1.3.3.'><h5>4.1.3.3. Software Architecture Container Level Diagrams</h5></div>
 
+#### Health System Container
 <div align="center">
-<img src="Img/structurizr-HealthcareSystemContainers.png">
+<img src="Img/structurizr-HealthcareSystemContainers (1).png">
 </div>
 
 
@@ -1635,6 +1443,23 @@ Bounded Context Software Architecture Code Level Diagrams</h5></div>
 <img src="Img/user_db.png">
 </div>
 
+
+### USERS
+**Propósito**: Manejo de autenticación y datos básicos del usuario
+
+| Campo | Tipo | Descripción |
+|-------|------|-------------|
+| id | Long (PK) | Identificador único del usuario |
+| first_name | varchar | Nombre del usuario |
+| last_name | varchar | Apellido del usuario |
+| email | varchar | Correo electrónico (único) |
+| password | varchar | Contraseña hasheada |
+| type_user | varchar | Tipo de usuario (admin, user, etc.) |
+
+**Relaciones**: 
+- 1:1 con PROFILES
+
+
 <div id='4.2.2.'><h4>4.2.2. Bounded Context: Profile</h4></div>
 <div id='4.2.2.1.'><h5>4.2.2.1. Domain Layer</h5></div>
 
@@ -1719,6 +1544,62 @@ Cada paciente puede tener muchos cuidadores y un cuidador puede tener muchos pac
 <img src="Img/profile_db.png">
 </div>
 
+### PROFILES
+**Propósito**: Información demográfica común entre pacientes y cuidadores
+
+| Campo | Tipo | Descripción |
+|-------|------|-------------|
+| id | Long (PK) | Identificador único del perfil |
+| birthday | Tipo | Fecha de nacimiento |
+| gender | Tipo | Género del usuario |
+| user_id | Tipo (FK) | Referencia a USERS |
+
+**Relaciones**:
+- N:1 con USERS
+- 1:1 con PATIENTS
+- 1:1 con CAREGIVERS
+
+### PATIENTS
+**Propósito**: Información específica de pacientes
+
+| Campo | Tipo | Descripción |
+|-------|------|-------------|
+| id | Long (PK) | Identificador único del paciente |
+| profile_id | Long (FK) | Referencia a PROFILES |
+| birthday | varchar | Fecha de nacimiento específica |
+
+**Relaciones**:
+- N:1 con PROFILES
+- N:M con CAREGIVERS (a través de CAREGIVERS_PATIENTS)
+- 1:N con TREATMENTS
+- 1:N con SYMPTOMS
+- 1:N con DISTURBANCES
+- 1:N con VITAL_SIGNS_ALERT
+- 1:N con EMERGENCIES
+- 1:N con CONTACTS
+
+### CAREGIVERS
+**Propósito**: Información específica de cuidadores
+
+| Campo | Tipo | Descripción |
+|-------|------|-------------|
+| id | Long (PK) | Identificador único del cuidador |
+| profile_id | Long (FK) | Referencia a PROFILES |
+| phone_number | varchar | Número de teléfono del cuidador |
+
+**Relaciones**:
+- N:1 con PROFILES
+- N:M con PATIENTS (a través de CAREGIVERS_PATIENTS)
+
+### CAREGIVERS_PATIENTS
+**Propósito**: Tabla intermedia para la relación N:M entre cuidadores y pacientes
+
+| Campo | Tipo | Descripción |
+|-------|------|-------------|
+| id | Long (PK) | Identificador único |
+| patient_id | Long (FK) | Referencia a PATIENTS |
+| caregiver_id | Long (FK) | Referencia a CAREGIVERS |
+
 <div id='4.2.3.'><h4>4.2.3. Bounded Context: &lt;Health Tracking&gt;</h4></div>
 <div id='4.2.3.1.'><h5>4.2.3.1. Domain Layer</h5></div>
 
@@ -1745,6 +1626,116 @@ Cada paciente puede tener muchos cuidadores y un cuidador puede tener muchos pac
 | Interface | AlertCommandService | Servicio para comandos relacionados con alertas | Declarar métodos para crear alertas | Implementado por la clase `AlertCommandServiceImpl`. Usado en capa Application |
 | Interface | PatientQueryService | Servicio para consultas relacionadas con pacientes | Declarar métodos para obtener datos de pacientes | Implementado por la clase `PatientQueryServiceImpl`. Usado en capa Application |
 | Interface | AlertQueryService | Servicio para consultas relacionadas con alertas | Declarar métodos para obtener datos de alertas | Implementado por la clase `AlertQueryServiceImpl`. Usado en capa Application |
+
+<div id='4.2.3.2.'><h5>4.2.3.2. Interface Layer</h5></div>
+
+**Sub-capa REST:**
+| Tipo | Nombre | Descripción | Responsabilidad Principal | Relación con otros elementos |
+|-----------|---------------------------------------------|------------------------------------------------------------------|------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|
+| Controller| PatientController | Controlador REST para gestionar pacientes | Recibe solicitudes del cliente relacionadas con pacientes, coordina comandos y devuelve respuestas | Utiliza PatientRequestResource, PatientResponseResource y los assemblers correspondientes |
+| Controller| AlertController | Controlador REST para gestionar citas | Maneja solicitudes relacionadas con la creación de alertas | Utiliza AlertRequestResource, AlertResponseResource y sus respectivos assemblers |
+| Resource | PatientRequestResource | Estructura de una petición para crear o actualizar un paciente | Representa datos de entrada del cliente sobre pacientes | Usado por `PatientController` para enviar datos al sistema |
+| Resource | PatientResponseResource | Estructura de la respuesta con información de un paciente | Devuelve al cliente una representación clara de un paciente | Usado por `PatientController` como respuesta |
+| Resource | AlertRequestResource | Estructura de una petición para crear una alerta | Representa datos de entrada del cliente sobre sus signos vitales | Usado por `AlertController` para procesar citas |
+| Resource | AppointmentResponseResource | Estructura de una respuesta con datos de una cita | Devuelve al cliente una representación clara de una cita | Usado por `AlertController` |
+| Assembler | CreatePatientCommandFromResourceAssembler | Convierte un recurso de petición en un comando de creación | Traducir la entrada del cliente a un comando de dominio | Usado por `PatientController` |
+| Assembler | UpdatePatientCommandFromResourceAssembler | Convierte un recurso de petición en un comando de actualización | Traducir la entrada del cliente a un comando de dominio | Usado por `PatientController` |
+| Assembler | PatientResourceFromEntityAssembler | Convierte una entidad `Patient` en un recurso de respuesta | Traducir objetos de dominio a estructuras legibles para el cliente | Usado por `PatientController` |
+| Assembler | CreateAlertCommandFromResourceAssembler | Convierte un recurso de petición en un comando de creación | Traducir la entrada del cliente a un comando de dominio | Usado por `AlertController` |
+| Assembler | AlertResourceFromEntityAssembler | Convierte una entidad `Alert` en un recurso de respuesta | Traduce objetos del dominio a respuestas claras para el cliente | Usado por `AlertController` |
+
+<div id='4.2.3.3.'><h5>4.2.3.3. Application Layer</h5></div>
+
+**Sub-capa Internal:**
+|Tipo | Nombre | Descripción | Responsabilidad Principal | Relación con otros elementos|
+|-----------|---------------------------------------------|------------------------------------------------------------------|------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|
+|Service | PatientCommandServiceImpl | Implementación del servicio de comandos para pacientes | Ejecutar la lógica de creación, actualización y eliminación de pacientes | Implementa PatientCommandService. Utiliza entidades y repositorios de dominio |
+|Service | AlertCommandServiceImpl | Implementación del servicio de comandos para alertas | Ejecutar la lógica de creación de alertas | Implementa AlertCommandService. Interactúa con Alert y sus repositorios |
+|Service | PatientQueryServiceImpl | Implementación del servicio de consultas para pacientes | Obtener información de pacientes a partir de distintas consultas | Implementa PatientQueryService. Consulta entidades Patient |
+|Service | AlertQueryServiceImpl | Implementación del servicio de consultas para alertas | Obtener  alertas por ID | Implementa AlertQueryService. Usa Alert y consultas específicas |
+
+<div id='4.2.3.4.'><h5>4.2.3.4. Infrastructure Layer</h5></div>
+
+**Sub-capa Infrastructure:**
+Tipo | Nombre | Descripción | Responsabilidad Principal | Relación con otros elementos|
+|-----------|---------------------------------------------|------------------------------------------------------------------|------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|
+Repository | PatientRepository | Repositorio para gestionar pacientes | Encargado de la persistencia y recuperación de los datos de los pacientes | Relacionado con la entidad Patient, interactúa con la base de datos para almacenar y consultar pacientes
+Repository | AlertRepository | Repositorio para gestionar alertas | Encargado de la persistencia y recuperación de las alertas | Relacionado con la entidad Alert, interactúa con la base de datos para almacenar y consultar alertas
+
+<div id='4.2.3.5.'><h5>4.2.3.5. Bounded Context Software Architecture Component Level Diagrams</h5></div>
+
+<div align="center">
+<img src="Img/structurizr-HealthTrackingComponents.png">
+</div>
+
+<div id='4.2.3.6.'><h5>4.2.3.6. Bounded Context Software Architecture Code Level Diagrams</h5></div>
+<div id='4.2.3.6.1.'><h6>4.2.3.6.1. Bounded Context Domain Layer Class Diagrams</h6></div>
+
+Este diagrama UML representa la arquitectura de un sistema de gestión médica centrada en el paciente y las alertas. La estructura está basada en principios de diseño orientado a objetos y se organiza en capas de comandos y consultas, siguiendo un enfoque CQRS (Command Query Responsibility Segregation). A lo largo del análisis, se describirán los principales componentes del sistema, como los servicios de comandos y consultas, las entidades centrales como Patient y Alert, así como los objetos de valor (value objects) y comandos asociados. También se explicará cómo estas clases interactúan entre sí mediante relaciones de herencia, interfaces, asociación y dependencia para mantener una lógica de negocio clara y mantenible. Se estará usando Lombok para la creación de Getter y Setter para evitar en redundancia de código.
+
+<img src="Img/healt_tracking_diagram_class.png" alt="health tracking class diagram">
+
+<div id='4.2.3.6.2.'><h6>4.2.3.6.2. Bounded Context Database Design Diagram</h6></div>
+<div align="center">
+<img src="Img/healthtracking_db.png">
+</div>
+
+**Sub-capa Model**
+| Tipo | Nombre | Descripción | Responsabilidad Principal | Relación con otros elementos |
+|----------|------------------------|-----------------------|-----------------------------------|----------------------------|
+| Aggregate | Patient | Representa al paciente dentro del sistema, raíz de la información clínica. | Centralizar datos clínicos y servir de punto de acceso al historial. | Relacionado con Vital, Alert, Alteration y Symptom. |
+| Value Object | Symptoms | Registro de una manifestación puntual. | Documentar síntomas subjetivos para el historial clínico. | Relacionado con el paciente. |
+| Value Object | Alteration | Cambio detectado en los signos vitales que indica una condición irregular. | Representa valores medidos y compararlos con rangos normales. | Relacionado con paciente. |
+| Value Object | Vital | Lectura puntual por parte del sensor IoT. | Estandarizar los datos del sensor. | Relacionado con . |
+| Aggregate | Alert | Notificación generada por cambios críticos en el estado del paciente. | Advertir de riesgos. | Relacionado con paciente. |
+| Command | PostPatient | Registra un nuevo paciente.          | Crear un paciente con los datos necesarios. | Usa User. |
+| Command | PostSymptom    | Añade un nuevo síntoma reportado por el paciente.                 | Crear instancia de Sintoma asociada a Paciente.       | Usa Patient y Symptom.                             |
+| Command | PostAlert       | Crea una alerta manual o automática. | Persistir una Alerta y notificar al sistema.          | Usa Patient y Alert.                              |
+| Command | PostAlteration | Registra una alteración detectada en los signos vitales.          | Persistir una Alteracion asociada al Paciente.        | Usa Patient y Alteration.                          |
+| Query | GetPatientHistory      | Devuelve el historial completo del paciente. | Reunir datos clínicos del Paciente.              | Consulta Patient y todas sus entidades relacionadas. |
+| Query | GetPendantAlert      | Recupera las alertas que no han sido atendidas.                                        | Soportar monitoreo activo del paciente.          | Consulta Alert.                                      |
+| Query | GetByPatientSymptoms                | Recupera los síntomas registrados por el paciente.                                     | Complementar información clínica.                | Consulta Symptom.                                     |
+
+
+### SYMPTOMS
+**Propósito**: Registro de síntomas reportados por pacientes
+
+| Campo | Tipo | Descripción |
+|-------|------|-------------|
+| id | Long (PK) | Identificador único del síntoma |
+| patient_id | Long (FK) | Referencia a PATIENTS |
+| description | varchar | Descripción del síntoma |
+| symptom_date | datetime | Fecha de registro del síntoma |
+
+**Relaciones**:
+- N:1 con PATIENTS
+
+### DISTURBANCES
+**Propósito**: Registro de alteraciones o eventos anómalos
+
+| Campo | Tipo | Descripción |
+|-------|------|-------------|
+| id | Long (PK) | Identificador único |
+| patient_id | Long (FK) | Referencia a PATIENTS |
+| description | varchar | Descripción de la alteración |
+| disturbance_date | datetime | Fecha de la alteración |
+
+**Relaciones**:
+- N:1 con PATIENTS
+
+### VITAL_SIGNS_ALERT
+**Propósito**: Alertas relacionadas con signos vitales
+
+| Campo | Tipo | Descripción |
+|-------|------|-------------|
+| id | Long (PK) | Identificador único |
+| patient_id | Long (FK) | Referencia a PATIENTS |
+| alert_type | varchar | Tipo de alerta |
+| description | varchar | Descripción de la alerta |
+| alert_date | datetime | Fecha de la alerta |
+
+**Relaciones**:
+- N:1 con PATIENTS
 
 <div id='4.2.3.2.'><h5>4.2.3.2. Interface Layer</h5></div>
 
@@ -1986,6 +1977,37 @@ Usa la interface/base AuditableAbstractAggregateRoot para heredar metadatos de a
 <img src="Img/emergency_management.png">
 </div>
 
+### EMERGENCIES
+**Propósito**: Registro de situaciones de emergencia
+
+| Campo | Tipo | Descripción |
+|-------|------|-------------|
+| id | Long (PK) | Identificador único |
+| patient_id | Long (FK) | Referencia a PATIENTS |
+| type_emergency | varchar | Tipo de emergencia |
+| emergency_date | datetime | Fecha de la emergencia |
+| lat | varchar | Latitud de la ubicación |
+| lon | varchar | Longitud de la ubicación |
+| successfully_call | boolean | Si se logró contactar ayuda |
+| resolved_date | datetime | Fecha de resolución |
+
+**Relaciones**:
+- N:1 con PATIENTS
+
+### CONTACTS
+**Propósito**: Contactos de emergencia para pacientes
+
+| Campo | Tipo | Descripción |
+|-------|------|-------------|
+| id | Long (PK) | Identificador único |
+| name | varchar | Nombre del contacto |
+| phone_number | varchar | Número de teléfono |
+| connection | varchar | Relación con el paciente |
+| patient_id | Long (FK) | Referencia a PATIENTS |
+
+**Relaciones**:
+- N:1 con PATIENTS
+
 <div id='4.2.6.'><h4>4.2.6. Bounded Context: &lt;Treatment Support&gt;</h4></div>
 
 Siguiendo el modelo de arquitectura "Clean Architecture" hemos dividido el proyecto en capas.
@@ -2082,8 +2104,1672 @@ El diseño refleja una clara orientación a DDD (Domain-Driven Design), donde la
   <img src="Img/treatment_db.png">
 </div>
 
-<div id='5.'><h2>5. Conclusiones</h2></div>
-<div id='6.'><h2>6. Bibliografía</h2></div>
+### TREATMENTS
+**Propósito**: Gestión de tratamientos médicos y medicamentos
+
+| Campo | Tipo | Descripción |
+|-------|------|-------------|
+| id | Long (PK) | Identificador único del tratamiento |
+| patient_id | Long (FK) | Referencia a PATIENTS |
+| description | varchar | Descripción del tratamiento |
+| frequency | varchar | Frecuencia de administración |
+| dosage | varchar | Dosis del medicamento |
+| start_date | datetime | Fecha de inicio del tratamiento |
+| end_date | datetime | Fecha de fin del tratamiento |
+| is_active | boolean | Estado activo del tratamiento |
+
+**Relaciones**:
+- N:1 con PATIENTS
+- 1:N con TREATMENT_REMINDERS
+
+### TREATMENT_REMINDERS
+**Propósito**: Gestión de recordatorios de medicación
+
+| Campo | Tipo | Descripción |
+|-------|------|-------------|
+| id | Long (PK) | Identificador único del recordatorio |
+| treatment_id | Long (FK) | Referencia a TREATMENTS |
+| reminder_date | datetime | Fecha y hora del recordatorio |
+| status | varchar | Estado (pending/sent/failed) |
+| sent_date | datetime | Fecha de envío real |
+| reminder_type | varchar | Tipo (push/sms/email) |
+
+**Relaciones**:
+- N:1 con TREATMENTS
+
+<div id='5.'><h2>Capítulo V: Solution UI/UX Design</h2></div>
+
+<div id='5.1.'><h3>5.1. Style Guidelines.</h3></div>
+<div id='5.1.1.'><h4>5.1.1. General Style Guidelines.</h4></div>
+
+**Nombre y Logotipo**
+
+El nombre AlertaVital transmite seguridad, tecnología y cuidado humano, reflejando el compromiso de la startup con la innovación en salud y el bienestar de las personas mayores.
+El logotipo de AlertaVital está compuesto por un símbolo y un logotipo tipográfico, donde el ícono combina elementos de tecnología y salud, como un corazón digital o una onda de pulso conectada, representando la conectividad IoT y la monitorización de signos vitales en tiempo real.
+
+El diseño general es limpio, minimalista y moderno, asegurando una identidad visual fácil de reconocer y adaptable a distintos entornos digitales, como aplicaciones móviles, wearables y plataformas web.
+El conjunto visual busca inspirar confianza, empatía y tranquilidad, alineado con la misión de la marca: cuidar y proteger la vida de los adultos mayores mediante soluciones tecnológicas accesibles.
+
+<div align="center">
+<img src="Img/logo.png">
+</div><br>
+
+**Tono de Comunicación**
+
+El tono de comunicación de AlertaVital será humano, confiable, empático y profesional.
+Se evita el lenguaje excesivamente técnico o distante, priorizando una comunicación clara y accesible para usuarios de todas las edades, especialmente adultos mayores y sus familias.
+El mensaje de la marca debe proyectar tranquilidad y apoyo, actuando como un asistente confiable y cercano que ofrece soluciones tecnológicas sin perder la calidez humana.
+
+**Colors**
+
+La identidad visual de AlertaVital se basa en una paleta de azules y celestes en degradado, que representa confianza, calma y tecnología, al mismo tiempo que evoca una sensación de serenidad y bienestar.
+El uso del degradado entre azul y celeste simboliza la transición entre lo humano y lo digital, mostrando la conexión entre las personas y la tecnología de cuidado.
+Los colores secundarios son blanco y gris suave, que aportan claridad, equilibrio visual y legibilidad.
+
+<div align="center">
+<img src="Img/general-styleguidelines.png">
+</div><br>
+
+**Typography**
+
+La tipografía principal de AlertaVital es Poppins, elegida por su claridad, modernidad y accesibilidad.
+Su estructura redondeada y legible transmite empatía y cercanía, mientras que su estilo geométrico refleja la precisión tecnológica del proyecto.
+Los títulos usan un peso seminegrita o negrita, los subtítulos un peso medio, y el texto regular se mantiene ligero y cómodo de leer en pantallas de diferentes tamaños.
+
+<div align="center">
+<img src="Img/Typography.png">
+</div><br>
+
+**Spacing**
+
+El sistema de espaciado en la interfaz de AlertaVital prioriza la legibilidad y la accesibilidad visual.
+Se aplican márgenes amplios (20px) entre secciones principales, padding de 16–18px en botones y elementos interactivos, y un interlineado de 1.5x en textos largos.
+Este enfoque garantiza una experiencia ordenada y fluida, especialmente para usuarios mayores o con menor familiaridad tecnológica.
+
+**Íconos de la aplicación**
+
+Los íconos de AlertaVital son minimalistas, coherentes y de trazo redondeado, alineados con la identidad del logotipo.
+Su diseño utiliza el mismo degradado azul-celeste para mantener una apariencia homogénea en toda la interfaz.
+Cada ícono tiene un propósito funcional claro: alertas, monitoreo, conexión y cuidado.
+Su consistencia visual refuerza la confianza y facilita la comprensión inmediata de las acciones dentro de la app.
+<div align="center">
+<img src="Img/icons.png">
+</div><br>
+
+**Lenguaje aplicado**
+
+El lenguaje de AlertaVital es formal, empático y tranquilizador, diseñado para inspirar confianza y cercanía.
+Se evita el uso de tecnicismos, priorizando frases cortas, claras y amables.
+La app y su web comunican con una voz que acompaña y guía, reflejando la visión de la startup: facilitar un envejecimiento saludable y autónomo mediante la tecnología.
+
+Consistencia
+
+AlertaVital mantiene consistencia visual y comunicativa en todas sus plataformas.
+El uso uniforme del degradado azul-celeste, la tipografía Poppins y los íconos minimalistas crea una identidad reconocible y confiable.
+Esta coherencia asegura que el usuario se sienta seguro y orientado, fortaleciendo la percepción de una marca tecnológica, empática y estable.
+
+Simplicidad
+
+El diseño prioriza la simplicidad y funcionalidad, eliminando elementos innecesarios y destacando solo la información relevante.
+El objetivo es que cualquier usuario, independientemente de su edad, pueda navegar fácilmente y comprender la app sin esfuerzo.
+La simplicidad refuerza la misión de AlertaVital: hacer que la tecnología del cuidado sea accesible y humana.
+
+Comunicación
+
+El sistema de comunicación visual de AlertaVital incluye confirmaciones visuales y auditivas al realizar acciones importantes, como registrar signos vitales o enviar una alerta.
+Estos elementos generan confianza y seguridad emocional, garantizando que el usuario siempre sepa que el sistema está activo y atento a su bienestar.
+Cada interacción busca transmitir calma, control y acompañamiento.
+
+<div id='5.1.2.'><h4>5.1.2. Web, Mobile and IoT Style Guidelines.</h4></div>
+
+**Diseño general**
+
+El diseño en los entornos web, móvil e IoT de AlertaVital mantiene una identidad visual uniforme, priorizando la claridad, accesibilidad y consistencia.
+Todos los componentes siguen la misma línea estética basada en colores azul y celeste degradados, acompañados de tonos neutros (blanco, gris y negro) para garantizar una presentación limpia, moderna y profesional.
+
+El objetivo es que la experiencia del usuario sea fluida y coherente, sin importar el dispositivo o entorno desde el cual interactúe con la plataforma (navegador, aplicación móvil o dispositivo IoT).
+
+**Colores y degradados**
+
+La paleta principal de AlertaVital se centra en la gama de azules y celestes para reflejar confianza, tecnología y bienestar.
+El uso de degradados suaves entre estos tonos crea una apariencia dinámica y moderna, sin perder sobriedad ni legibilidad.
+
+<div align="center">
+<img src="Img/general-styleguidelines.png">
+</div><br>
+
+Aplicación por entorno:
+
+- Web: degradados sutiles en cabeceras, botones de acción y secciones destacadas.
+
+- Móvil: colores planos con acentos degradados para mejorar contraste y legibilidad en pantallas pequeñas.
+
+- IoT: uso del azul principal para retroiluminación o pantallas LED, complementado por blanco y gris para mantener una lectura clara en entornos con poca luz.
+  
+**Tipografía**
+
+Se utiliza la tipografía Poppins o Roboto, asegurando una experiencia legible y moderna en cualquier dispositivo.
+Su diseño geométrico y redondeado transmite cercanía y precisión, ideal para productos tecnológicos enfocados en el cuidado de la salud.
+
+<div align="center">
+<img src="Img/Typography.png">
+</div><br>
+
+**Componentes visuales**
+
+Los elementos visuales de AlertaVital comparten una estética minimalista y funcional.
+Se prioriza la simplicidad para facilitar la interacción, especialmente en usuarios mayores.
+
+Principales componentes:
+
+- Botones: bordes redondeados, fondo azul-celeste degradado, texto blanco.
+
+- Tarjetas de información: fondo blanco o gris claro, sombras suaves para destacar contenido.
+
+- Alertas y notificaciones: colores azul degradado para alertas informativas y tonos celeste más brillante para mensajes positivos o de confirmación.
+
+- Gráficos de signos vitales: líneas finas en azul o celeste, fondo neutro y legibilidad clara.
+
+**Diseño responsivo**
+
+El diseño es completamente adaptable y mantiene su coherencia visual en todos los dispositivos.
+Los elementos se ajustan según el entorno:
+
+- Web: estructura modular, con secciones amplias y distribución en columnas.
+
+- Móvil: diseño vertical, botones amplios y navegación táctil optimizada.
+
+- IoT: interfaz reducida con elementos esenciales, priorizando claridad y reacción inmediata ante alertas.
+
+**Interacción y usabilidad**
+
+El sistema de diseño de AlertaVital se centra en la experiencia del usuario.
+Cada interacción debe generar claridad y confianza.
+
+Principios de interacción:
+
+- Retroalimentación inmediata: cambios de color o microanimaciones al interactuar con botones o íconos.
+
+- Estados visuales claros: diferenciación entre botones activos, inactivos y presionados.
+
+- Animaciones suaves: transiciones ligeras con degradados para dar sensación de fluidez.
+
+- Iconografía uniforme: íconos redondeados, minimalistas, en azul o celeste con fondo blanco.
+
+
+<div id='5.2.'><h3>5.2. Information Architecture.</h3></div>
+<div id='5.2.1.'><h4>5.2.1. Organization Systems.</h4></div>
+
+**Web App (Plataforma de Monitoreo y Gestión)**
+
+La estructura de la Web App se organiza en módulos funcionales accesibles desde un panel principal:
+
+- Dashboard general: muestra los signos vitales en tiempo real, alertas recientes y el estado del dispositivo.
+
+- Usuarios: listado de adultos mayores registrados y sus cuidadores.
+
+- Historial Médico: registros ordenados cronológicamente, con filtros por fecha y tipo de evento.
+
+- Alertas y Reportes: panel para revisar y exportar incidentes de caídas o variaciones críticas.
+
+- Configuración: gestión de cuentas, permisos y dispositivos IoT vinculados.
+
+La jerarquía prioriza el acceso rápido a información crítica (alertas y monitoreo), mientras que las opciones administrativas se ubican en segundo nivel.
+
+**Mobile App (Aplicación para Usuarios y Cuidadores)**
+
+En la aplicación móvil, la organización se centra en la facilidad de uso táctil, utilizando botones grandes, íconos visuales y una navegación simplificada.
+
+Las secciones principales son:
+
+- Monitoreo en Tiempo Real (pantalla principal): muestra ritmo cardíaco, oxigenación y actividad del usuario.
+
+- Alertas y Emergencias: notificaciones instantáneas con opción de contacto directo o envío de ubicación.
+
+- Historial de Salud: registros visuales y gráficos simples de las últimas mediciones.
+
+- Perfil del Usuario: información personal, configuraciones y dispositivos asociados.
+
+Ejemplo: la opción “Enviar alerta” o “SOS” se presenta como un botón flotante permanente en color azul degradado, accesible desde cualquier pantalla.
+
+**Landing Page (Sitio Web Informativo y Comercial)**
+
+La landing page sigue una estructura informativa con secuencia narrativa, diseñada para presentar el producto y captar nuevos usuarios.
+Sus secciones principales son:
+
+- Inicio: presentación del propósito de AlertaVital y su propuesta tecnológica.
+
+- Nosotros: información de la startup y su misión social.
+
+- Tecnología IoT: explicación del funcionamiento y beneficios del sistema.
+
+- Productos: presentación de la App, Web App y Dispositivo IoT.
+
+- Contáctanos: formulario, datos de contacto y enlaces a redes sociales.
+
+El contenido se organiza en bloques con encabezados grandes, íconos ilustrativos y llamados a la acción (CTA) como “Descargar App” o “Solicitar una demostración”.
+
+**Dispositivo IoT (Wearable Inteligente AlertaVital)**
+
+En el dispositivo IoT, la organización es mínima pero funcional, orientada a la inmediatez:
+
+- Pantalla principal: muestra los signos vitales más relevantes (frecuencia cardíaca, oxigenación, nivel de actividad).
+
+- Indicadores visuales (LED):
+ 
+  - Azul: conexión activa.
+
+  - Celeste: monitoreo estable.
+
+  - Rojo: alerta de caída o emergencia. 
+
+- Botón físico SOS: envía una alerta inmediata al cuidador registrado.
+
+La disposición busca evitar sobrecarga cognitiva, facilitando la respuesta rápida ante eventos críticos.
+
+<div id='5.2.2.'><h4>5.2.2. Labeling Systems.</h4></div>
+
+**Web App:**
+
+Las etiquetas son técnicas pero claras, orientadas a la gestión profesional. Ejemplos:
+
+- “Panel de Monitoreo”, “Historial Clínico”, “Alertas Activas”, “Configurar Dispositivo”.
+
+**Mobile App:**
+
+Se usan etiquetas simples y de acción directa, adaptadas a un público general:
+
+- “Ver Signos Vitales”, “Enviar Alerta”, “Historial”, “Mi Perfil”.
+
+**Landing Page:**
+
+Las secciones están etiquetadas con lenguaje natural, orientado a visitantes y posibles clientes:
+
+- “Nosotros”, “Tecnología IoT”, “Productos”, “Contáctanos”.
+
+**Dispositivo IoT:**
+
+Etiquetas visuales o breves textos universales:
+
+- “SOS”, “OK”, “Conectado”, “Batería Baja”
+
+<div id='5.2.3.'><h4>5.2.3. SEO Tags and Meta Tags</h4></div>
+
+Para maximizar la visibilidad en buscadores y tiendas de aplicaciones (ASO y SEO), AlertaVital implementa etiquetas descriptivas y optimizadas.
+
+**Web App / Landing Page:**
+
+- Título: “AlertaVital – Soluciones IoT para el Cuidado de Adultos Mayores”.
+
+- Meta descripción: “Monitorea signos vitales y detecta caídas en tiempo real con AlertaVital, tecnología IoT accesible para la seguridad y bienestar de los adultos mayores.”
+
+- Palabras clave: “IoT salud”, “detección de caídas”, “monitoreo remoto”, “cuidado adulto mayor”, “startup tecnología médica”.
+
+**Mobile App:**
+
+- Título: “AlertaVital – Monitoreo y Alertas IoT”.
+
+- Descripción corta: “Seguridad y salud en tu bolsillo. Supervisa signos vitales y recibe alertas en tiempo real.”
+
+- Descripción extendida: “AlertaVital conecta a las familias con sus seres queridos mayores mediante tecnología IoT, ofreciendo monitoreo constante, alertas inmediatas y tranquilidad en todo momento.”
+
+- Palabras clave: “app salud IoT, adultos mayores, seguridad médica, wearable, cuidado remoto”.
+
+**IoT Device:**
+
+Aunque no aplica SEO tradicional, se incluye metadata técnica en la app que lo gestiona (identificador del dispositivo, modelo, versión de firmware), útil para indexación en sistemas conectados y compatibilidad de API.
+
+<div id='5.2.4.'><h4>5.2.4. Searching Systems.</h4></div>
+
+**Web App:**
+Incluye una barra de búsqueda avanzada con filtros por usuario, rango de fechas, tipo de alerta o parámetros fisiológicos (ej. “frecuencia cardíaca”).
+Ejemplo: un cuidador puede buscar “caídas de octubre” o “alertas de oxigenación baja” y acceder a los registros precisos.
+
+**Mobile App:**
+Integra búsqueda contextual con resultados dinámicos, permitiendo localizar pacientes, alertas o historiales directamente desde el menú principal.
+Ejemplo: al escribir “Pedro López”, el sistema muestra su historial y datos de monitoreo más recientes.
+
+**Landing Page:**
+Dispone de una búsqueda informativa simple que facilita encontrar secciones o artículos como “Beneficios del IoT” o “Cómo funciona AlertaVital”.
+
+**Dispositivo IoT:**
+No dispone de búsqueda textual; su sistema “busca” de forma automatizada patrones irregulares en signos vitales, generando alertas automáticas al detectar anomalías.
+
+<div id='5.2.5.'><h4>5.2.5. Navigation Systems.</h4></div>
+
+**Menú Principal:**
+
+- **Web App:**
+Navegación lateral fija tipo dashboard, con iconos representativos y estados activos en azul degradado.
+Ejemplo: el módulo “Alertas” se resalta con color celeste brillante cuando hay notificaciones nuevas.
+
+- **Mobile App:**
+Menú inferior con iconos grandes y etiquetas: “Inicio”, “Alertas”, “Historial”, “Perfil”.
+Ejemplo: un botón flotante de emergencia (“SOS”) permite enviar alertas desde cualquier pantalla.
+
+- **Landing Page:**
+Menú superior fijo con anclas internas a secciones como “Inicio”, “Nosotros”, “Tecnología”, “Productos” y “Contáctanos”.
+En móviles, se transforma en un menú hamburguesa con íconos minimalistas.
+
+- **Dispositivo IoT:**
+Navegación física simple con botones “SOS” y “Menú”.
+Indicadores visuales cambian de color según el estado del dispositivo, guiando al usuario sin necesidad de texto.
+
+**Navegación Contextual:**
+
+- **Web App:**
+Desde el historial de un usuario, se puede acceder a su monitoreo en tiempo real o enviar una alerta manual.
+
+- **Mobile App:**
+Desde una alerta recibida, se puede abrir directamente el perfil del paciente y ver sus signos vitales actuales.
+
+- **Landing Page:**
+En “Tecnología IoT”, enlaces conducen a “Productos” o “Contáctanos”, manteniendo la fluidez.
+
+- **IoT Device:**
+Un toque prolongado en el botón principal activa la función SOS o reinicia la conexión, facilitando navegación táctil mínima.
+
+<div id='5.3.'><h3>5.3. Landing Page UI Design.</h3></div>
+<div id='5.3.1.'><h4>5.3.1. Landing Page Wireframe.</h4></div>
+
+#### Wireframe Landing Page (Desktop)
+
+Sección Principal de la landing page:
+
+<div align = "center">
+  <img src="./Img/wf1.png">
+</div>
+
+
+Sección Características y Beneficios:
+<div align = "center">
+  <img src="./Img/wf2.png">
+</div>
+
+Sección Antecedentes:
+<div align = "center">
+  <img src="./Img/wf3.png">
+</div>
+
+Sección "Acerca de":
+<div align = "center">
+  <img src="./Img/wf4.png">
+</div>
+
+Sección de Formulario de contacto:
+
+<div align = "center">
+  <img src="./Img/wf5.png">
+</div>
+
+Sección de Descargas de aplicación móvil y pie de página:
+<div align = "center">
+  <img src="./Img/wf6.png">
+</div>
+
+### Wireframe Landing Page (Mobile)
+
+Sección Principal de la landing page:
+
+<div align = "center">
+  <img src="./Img/wfm1.png">
+</div>
+
+
+Sección Características y Beneficios:
+<div align = "center">
+  <img src="./Img/wfm2.png">
+</div>
+
+Sección Antecedentes:
+<div align = "center">
+  <img src="./Img/wfm3.png">
+</div>
+
+Sección "Acerca de":
+<div align = "center">
+  <img src="./Img/wfm4.png">
+</div>
+
+Sección de Formulario de contacto:
+
+<div align = "center">
+  <img src="./Img/wfm5.png">
+</div>
+
+Sección de Descargas de aplicación móvil y pie de página:
+<div align = "center">
+  <img src="./Img/wfm6.png">
+</div>
+
+<div id='5.3.2.'><h4>5.3.2. Landing Page Mock-up.</h4></div>
+
+### Mockups Landing Page (Desktop)
+
+Sección Principal de la landing page
+
+<div align = "center">
+  <img src="./Img/mockup1.png">
+</div>
+
+Sección Características y Beneficios:
+
+<div align = "center">
+  <img src="./Img/mockup2.png">
+</div>
+
+Sección Antecedentes:
+
+<div align = "center">
+  <img src="./Img/mockup3.png">
+</div>
+
+Sección "Acerca de":
+
+<div align = "center">
+  <img src="./Img/mockup4.png">
+</div>
+
+Sección de Formulario de contacto:
+
+<div align = "center">
+  <img src="./Img/mockup5.png">
+</div>
+
+Sección de Descargas de aplicación móvil y pie de página:
+
+<div align = "center">
+  <img src="./Img/mockup6.png">
+</div>
+
+### Mockups Landing Page (Mobile)
+
+Sección Principal de la landing page
+
+<div align = "center">
+  <img src="./Img/mockupm1.png">
+</div>
+
+Sección Características y Beneficios:
+
+<div align = "center">
+  <img src="./Img/mockupm2.png">
+</div>
+
+Sección Antecedentes:
+
+<div align = "center">
+  <img src="./Img/mockupm3.png">
+</div>
+
+Sección "Acerca de":
+
+<div align = "center">
+  <img src="./Img/mockupm4.png">
+</div>
+
+Sección de Formulario de contacto:
+
+<div align = "center">
+  <img src="./Img/mockupm5.png">
+</div>
+
+Sección de Descargas de aplicación móvil y pie de página:
+
+<div align = "center">
+  <img src="./Img/mockupm6.png">
+</div>
+
+
+<div id='5.4.'><h3>5.4. Applications UX/UI Design.</h3></div>
+<div id='5.4.1.'><h4>5.4.1. Applications Wireframes.</h4></div>
+
+**Application wireframes (Desktop)**
+
+Register
+
+<div align = "center">
+  <img src="./Img/webappwf2.png">
+</div>
+
+Login
+
+<div align = "center">
+  <img src="./Img/webappwf1.png">
+</div>
+
+Dashboard
+
+<div align = "center">
+  <img src="./Img/webappwf3.png">
+</div>
+
+Emergencia
+
+<div align = "center">
+  <img src="./Img/webappwf4.png">
+</div>
+
+Signos Vitales
+
+<div align = "center">
+  <img src="./Img/webappwf5.png">
+</div>
+
+Alteraciones
+
+<div align = "center">
+  <img src="./Img/webappwf6.png">
+</div>
+
+Perfil
+
+<div align = "center">
+  <img src="./Img/webappwf6.png">
+</div>
+
+**Application wireframes (mobile)**
+
+Register
+
+<div align = "center">
+  <img src="./Img/webappwfm2.png">
+</div>
+
+Login
+
+<div align = "center">
+  <img src="./Img/webappwfm1.png">
+</div>
+
+Dashboard
+
+<div align = "center">
+  <img src="./Img/webappwfm3.png">
+</div>
+
+Emergencia
+
+<div align = "center">
+  <img src="./Img/webappwfm4.png">
+</div>
+
+Signos Vitales
+
+<div align = "center">
+  <img src="./Img/webappwfm5.png">
+</div>
+
+Alteraciones
+
+<div align = "center">
+  <img src="./Img/webappwfm6.png">
+</div>
+
+Perfil
+
+<div align = "center">
+  <img src="./Img/webappwfm7.png">
+</div>
+
+<div id='5.4.2.'><h4>5.4.2. Applications Wireflow Diagrams.</h4></div>
+
+**Applications Wireflows Diagrams (Desktop)**
+
+User Goal: Autenticación y gestión de cuenta
+
+<div align = "center">
+  <img src="./Img/wflow1.png">
+</div>
+
+User Goal: Gestión de Perfil de Usuario
+
+<div align = "center">
+  <img src="./Img/wflow2.png">
+</div>
+
+User Goal: Monitoreo de Signos Vitales
+
+<div align = "center">
+  <img src="./Img/wflow3.png">
+</div>
+
+User Goal: Registro y Seguimiento de alteraciones
+
+<div align = "center">
+  <img src="./Img/wflow4.png">
+</div>
+
+User Goal: Emergencias y Alerta
+
+<div align = "center">
+  <img src="./Img/wflow5.png">
+</div>
+
+User Goal: Soporte al Tratamiento
+
+<div align = "center">
+  <img src="./Img/wflow6.png">
+</div>
+
+**Applications Wireflows Diagrams (Mobile)**
+
+User Goal: Autenticación y gestión de cuenta
+
+<div align = "center">
+  <img src="./Img/wflowm1.png">
+</div>
+
+User Goal: Gestión de Perfil de Usuario
+
+<div align = "center">
+  <img src="./Img/wflowm2.png">
+</div>
+
+User Goal: Monitoreo de Signos Vitales
+
+<div align = "center">
+  <img src="./Img/wflowm3.png">
+</div>
+
+User Goal: Registro y Seguimiento de alteraciones
+
+<div align = "center">
+  <img src="./Img/wflowm4.png">
+</div>
+
+User Goal: Emergencias y Alerta
+
+<div align = "center">
+  <img src="./Img/wflowm5.png">
+</div>
+
+User Goal: Soporte al Tratamiento
+
+<div align = "center">
+  <img src="./Img/wflowm6.png">
+</div>
+
+<div id='5.4.2.1.'><h5>5.4.2. Applications Mock-ups.</h5></div>
+
+**Application Mock-ups (Desktop)**
+
+Register
+
+<div align = "center">
+  <img src="./Img/webappmo1.png">
+</div>
+
+Login
+
+<div align = "center">
+  <img src="./Img/webappmo2.png">
+</div>
+
+Dashboard
+
+<div align = "center">
+  <img src="./Img/webappmo3.png">
+</div>
+
+Emergencia
+
+<div align = "center">
+  <img src="./Img/webappmo4.png">
+</div>
+
+Signos Vitales
+
+<div align = "center">
+  <img src="./Img/webappmo5.png">
+</div>
+
+Alteraciones
+
+<div align = "center">
+  <img src="./Img/webappmo6.png">
+</div>
+
+Perfil
+
+<div align = "center">
+  <img src="./Img/webappmo6.png">
+</div>
+
+**Application Mock-ups (mobile)**
+
+Register
+
+<div align = "center">
+  <img src="./Img/webappmom1.png">
+</div>
+
+Login
+
+<div align = "center">
+  <img src="./Img/webappmom2.png">
+</div>
+
+Dashboard
+
+<div align = "center">
+  <img src="./Img/webappmom3.png">
+</div>
+
+Emergencia
+
+<div align = "center">
+  <img src="./Img/webappmom4.png">
+</div>
+
+Signos Vitales
+
+<div align = "center">
+  <img src="./Img/webappmom5.png">
+</div>
+
+Alteraciones
+
+<div align = "center">
+  <img src="./Img/webappmom6.png">
+</div>
+
+Perfil
+
+<div align = "center">
+  <img src="./Img/webappmom7.png">
+</div>
+
+
+<div id='5.4.3.'><h4>5.4.3. Applications User Flow Diagrams.</h4></div>
+
+**Applications User Flow Diagrams (Desktop)**
+
+Link Lucid: https://lucid.app/lucidchart/217716ff-f8b0-4cf2-a47f-ce803460c6f1/edit?invitationId=inv_ae9bfffb-0ebf-41e1-be65-e88fde48c9a1&page=0_0#
+
+User Goal: Autenticación y gestión de cuenta
+
+<div align = "center">
+  <img src="./Img/userflow1.png">
+</div>
+
+User Goal: Gestión de Perfil de Usuario
+
+<div align = "center">
+  <img src="./Img/userflow2.png">
+</div>
+
+User Goal: Monitoreo de Signos Vitales
+
+<div align = "center">
+  <img src="./Img/userflow3.png">
+</div>
+
+User Goal: Registro y Seguimiento de alteraciones
+
+<div align = "center">
+  <img src="./Img/userflow4.png">
+</div>
+
+User Goal: Emergencias y Alerta
+
+<div align = "center">
+  <img src="./Img/userflow5.png">
+</div>
+
+User Goal: Soporte al Tratamiento
+
+<div align = "center">
+  <img src="./Img/userflow6.png">
+</div>
+
+
+**Applications User Flow Diagrams (Mobile)**
+
+Link Lucid: https://lucid.app/lucidchart/56228267-948d-4917-a4ce-c1c0a8345ffc/edit?view_items=HBfY-7Xjwzhr&page=vAfYoJjIZ-Tr&invitationId=inv_6667df5d-4724-4df5-bc23-452b278a75f8
+User Goal: Autenticación y gestión de cuenta
+
+<div align = "center">
+  <img src="./Img/userflowm1.png">
+</div>
+
+User Goal: Gestión de Perfil de Usuario
+
+<div align = "center">
+  <img src="./Img/userflowm2.png">
+</div>
+
+User Goal: Monitoreo de Signos Vitales
+
+<div align = "center">
+  <img src="./Img/userflowm3.png">
+</div>
+
+User Goal: Registro y Seguimiento de alteraciones
+
+<div align = "center">
+  <img src="./Img/userflowm4.png">
+</div>
+
+User Goal: Emergencias y Alerta
+
+<div align = "center">
+  <img src="./Img/userflowm6.png">
+</div>
+
+User Goal: Soporte al Tratamiento
+
+<div align = "center">
+  <img src="./Img/userflowm5.png">
+</div>
+
+
+<div id='5.5.'><h3>5.5. Applications Prototyping.</h3></div>
+
+<div align = "center">
+  <img src="./Img/prototipo.png">
+</div>
+
+
+Link Prototipo: https://www.figma.com/proto/wDXE0NQLCOx7ccB5TPlRYr/IoT?node-id=73-6622&t=pD1aaJtBOTr4UEQg-1&scaling=contain&content-scaling=fixed&page-id=1%3A2&starting-point-node-id=73%3A6622&show-proto-sidebar=1
+
+
+
+<div id='6.'><h2>Capítulo VI: Product Implementation, Validation & Deployment</h2></div>
+
+<div id='6.1.'><h3>6.1. Software Configuration Management.</h3></div>
+<div id='6.1.1.'><h4>6.1.1. Software Development Environment Configuration.</h4></div>
+Para la realización del producto, hemos usado las siguientes herramientas:
+
+**Requirements Management:**
+
+**UxPressia:** herramienta que se usó para desarrollar los distintos aspectos de la experiencia del cliente final. Gracias a esta herramienta se elaboraron los conceptos de Needfinding como User persona, Journey Map, Empathy Map e Impact Maps.
+
+**Ruta de referencia:** https://uxpressia.com
+
+<div align="center">
+<img src="Img/uxpressia.png" style="width: 200px">
+</div>
+<br><br>
+
+**Miro:** Plataforma en línea que nos ayudó gracias a la creación de diagramas,flujos de trabajos y principalmente el EventStorming process.
+
+**Ruta de referencia:** https://miro.com/es/
+
+<div align="center">
+<img src="https://www.insightplatforms.com/wp-content/uploads/2021/04/Miro-Logo-Square-Insight-Platforms.png" style="width: 200px">
+</div>
+
+**PRODUCT UX/UI DESIGN:**
+
+**Figma:** herramienta de diseño colaborativo que se usó para desarrollar la capa de presentación de la aplicación móvil, web y la Landing Page y prototipos interactivos, permitiendo simular y probar la navegación y las interacciones que deseamos brindar al usuario.
+
+**Ruta de referencia:** https://www.figma.com
+
+<div align="center">
+<img src="Img/figma.png" style="width: 200px">
+</div>
+<br>
+
+**Overflow:** Es un plugin de Figma que usamos para crear Wireflows y User Flows. Overflow nos permite combinar wireframes con flujos de usuario para visualizar cómo los usuarios interactúan con la interfaz. Además, con Overflow podemos determinar el recorrido completo del usuario.
+
+**Ruta de referencia:** https://www.figma.com/community/plugin/880782315986192393/overflow
+
+<div align="center">
+<img src="https://overflow.io/assets/images/social/facebook-share.png?v=1736240147689" alt="overflow" style="margin-bottom: 5px;" width="400"/> 
+</div>
+
+<br>
+
+**Software Development** <br>
+**Visual Studio Code:** Es un editor de código fuente, gratuito y de código abierto desarrollado por Microsoft. Dicha herramienta nos permite escribir y editar el código HTML, CSS y JavaScript y la biblioteca "React" para elaborar la landing page y la aplicación web.
+
+**Ruta de referencia:** https://code.visualstudio.com
+
+<div align="center">
+<img src="https://live.mrf.io/statics/i/ps/www.muylinux.com/wp-content/uploads/2019/07/vscode.jpg?width=1200&enable=upscale" alt="vscode" style="margin-bottom: 5px;" width="300"/> 
+</div>
+
+<br><br>
+
+**Android Studio:** Es un IDE oficial para el desarrollo de aplicaciones Android. Dicho software es gratuito y está basado en IntelliJ IDEA. Esta herramienta nos permite desarrollar la aplicación móvil planteada.
+
+**Ruta de referencia:** https://developer.android.com/
+
+<div align="center">
+<img src="Img/android_studio.png" style="width: 200px">
+
+</div>
+
+<br><br>
+
+**Bootstrap 5:** Es una biblioteca de componentes y un sistema de grillas que facilita el diseño web responsivo. Utilizamos Bootstrap 5 en esta landing page para agilizar la creación de un diseño adaptable y aprovechar sus componentes preconstruidos, como botones, formularios y barras de navegación.
+
+**Ruta de referencia:** https://getbootstrap.com/
+
+<div align="center">
+<img src="Img/bootstrap.webp" alt="bootstrap" style="margin-bottom: 5px; width:300px"/>
+
+</div>
+
+**Software Deployment** <br>
+**Git:** Es una herramienta de control de versiones que nos permite colaborar de manera eficiente y mantener un historial detallado de las modificaciones en el código.
+
+**Ruta de referencia:** https://git-scm.com/
+
+<div align="center">
+<img src="Img/git.png" alt="git" style="width: 200px;"/>
+
+<br><br>
+
+</div>
+
+**Software Documentation and Project Management**
+**GitHub:** Como plataforma de alojamiento, nos facilita la colaboración en equipo, la gestión de ramas y la integración continua, optimizando el flujo de trabajo de desarrollo. Además, usamos github para recurrir a su funcionalidad Github Pages y desplegar la Landing Page de manera sencilla.
+
+**Ruta de referencia:** https://github.com/
+
+<div align="center">
+<img src="Img/github.png" alt="github" style="margin-bottom: 5px; width: 200px;"/> 
+</div>
+
+<div id='6.1.2.'><h4>6.1.2. Source Code Management.</h4></div>
+
+La gestión del proyecto de la aplicación móvil, landing page y aplicación web, siguen los principios del modelo "Git Branch Model" en la cual se define como una estrategia para administrar y organizar un trabajo en un repositorio de Github mediante la creación de ramas con distintas funcionalidades. Uno de los modelos que usaremos es el "Git Flow", la cual define como crear ramas para mantener el control del ciclo de vida del desarrollo del software.
+
+**Repositorio de Landing Page:** [https://github.com/TF-SolucionesIoT/LandingPage](https://github.com/TF-SolucionesIoT/LandingPage)
+
+**Repositorio de Aplicación Web:** 
+
+
+### Estructura de ramas:
+
+1. Rama principal: esta rama es la principal del proyecto, contendrá versiones finales del desarrollo. Solo se permitirán cambios si ya han pasado por una previa revisión en otras ramas de testing.<br><br>
+
+2. Rama de Desarrollo: esta rama es en donde se lleva a cabo los avances del proyecto en equipo. Es donde se integran las nuevas características antes de fusionarlas al main.<br><br>
+
+3. Rama de Características: Se crean a partir de develop para desarrollar nuevas características o funcionalidades. Una vez completadas, se fusionan de nuevo a develop. Cabe destacar que estas ramas son temporales, ya que su única funcionalidad es desarrollar una funcionalidad y fusionarla con la rama de desarrollo si es que se completó el requerimiento. Sin embargo en el proyecto de la Landing Page, no se eliminarán para fines de descripción.<br><br>
+
+4. Rama de Corrección: Estas ramas se crean para abarcar un error específico y poder solucionarlo para fusionarlo a la rama de desarrollo.<br><br>
+
+5. Rama de Lanzamiento: Se crean cuando en la rama de desarrollo está listo para una nueva versión de producción. Permiten hacer pruebas y correcciones menores antes de fusionar a main.<br><br>
+
+Versionamiento Semántico: Para nombrar las Releases, se utilizará el sistema de versionamiento semántico (Semantic Versioning 2.0.0).
+
+Convenciones de Commits: Para los mensajes de los commits realizados, se usa la especificación Conventional Commits, La estructura a seguir será la siguiente:
+
+"(tipo):(titulo)" y "(descripcion)"
+<div id='6.1.3.'><h4>6.1.3. Source Code Style Guide & Conventions.</h4></div>
+
+Para el desarrollo de nuestro producto, hemos recurrido a estos lenguajes para desarrollar la solución:
+
+**HTML**
+
+Para el desarrollo en HTML, se han seguido las Convenciones de Codificación para HTML. Los puntos más importantes aplicados son:
+
+- **Uso de etiquetas semánticas:**
+  Se han utilizado etiquetas como header, nav, main, footer para mejorar la accesibilidad y la comprensión del documento.
+  <br>
+
+- **Indentación y estructura:**
+  A pesar de que HTML permite combinar mayúsculas y minúsculas en los nombres de los elementos y atributos, se limitará al uso de minúsculas para mantener el orden y garantizar la legibilidad, usaremos "kebab-case".
+
+**CSS**
+En el CSS, se ha implementado la convención BEM y las guías de estilo recomendadas para mantener el código claro y organizado. Aquí algunos detalles específicos de tu código CSS:
+
+- **Uso de nombres de clases descriptivos y en inglés:**
+  Las clases siguen un esquema claro, usando "kebab-case", lo que facilita la identificación del propósito de cada clase.
+  <br>
+- **Transiciones y efectos en botones:**
+  Se implementaron transiciones suaves para mejorar la experiencia de usuario cuando interactúa con botones.
+  <br>
+- **Uso de fuentes personalizadas:**
+  Se han utilizado varias fuentes personalizadas cargadas mediante @font-face, lo que sigue las mejores prácticas de personalización tipográfica en CSS.
+
+**JavaScript**
+En el proyecto se ha utilizado Bootstrap para manejar la interactividad y los componentes dinámicos de la interfaz. Los archivos JavaScript incluidos son versiones oficiales del framework, lo que permite aprovechar funcionalidades avanzadas sin necesidad de escribir código JavaScript desde cero.
+
+**Bootstrap**
+Para Bootstrap, se han seguido las mejores prácticas, como utilizar clases predefinidas para ahorrar tiempo y asegurar que el diseño sea responsive. Además, se ha personalizado el diseño sin modificar directamente las clases de Bootstrap, lo que asegura compatibilidad y facilidad de actualización.
+
+**Java (Springboot)**
+
+Para la aplicación API Restful, usamos la convención estándar "Google Java Style Guide".
+
+- **Definición de nombres de clases:**
+  Para la creación de las clases y métodos de estos en Java hemos usado PascalCase y para la instancia de atributos de clases hemos usado lowerCamelCase.
+  <br>
+
+- **Organización y estructura del proyecto:**
+  Para un mejor desarrollo de la aplicación, hemos usado "Clean Architecture" y principios de Domain Driven Design, separando por Bounded context y dentro de estas por capas como Aplicación, Infraestructura, Dominio e Interfaces.
+
+**Kotlin (Android Studio)**
+
+Para el desarrollo de la aplicación móvil, usamos convenciones de "Google Kotlin Style Guide" para organizar de una mejor manera el proyecto.
+
+- **Definición de nombres de clases:**
+  Para la creación de las clases y métodos de estos en Kotlin hemos usado PascalCase y para la instancia de atributos de clases hemos usado lowerCamelCase.
+  <br>
+
+- **Organización y estructura del proyecto:**
+  Para un mejor desarrollo de la aplicación, hemos usado "Clean Architecture" y principios de Domain Driven Design, separando por Bounded context y dentro de estas por capas como Repositorios, UI, Casos de Uso y Dominios.
+
+<div id='6.1.4.'><h4>6.1.4. Software Deployment Configuration.</h4></div>
+
+#### Landing Page:
+
+En el caso de la Landing Page, desplegaremos la página en Github Pages que es la funcionalidad de Github para deplegar páginas estáticas.
+
+<br>
+Para configurar GitHub Pages una vez el código esté en el repositorio, sigue estos pasos para habilitar GitHub Pages:
+<br><br>
+Ve a tu repositorio en GitHub. Haz clic en la pestaña Settings (Configuración). Desplázate hacia abajo hasta la sección Pages en el menú lateral izquierdo. 
+<br><br>
+
+<div align="center">
+<img src="Img/6_1_4-a.png">
+</div>
+
+En la sección Source, selecciona la rama de la que quieres desplegar (normalmente main).
+
+<div align="center">
+<img src="Img/6_1_4-b.png">
+</div>
+
+
+GitHub ahora generará una URL para tu landing page, que estará disponible en algo como: https://usuario.github.io/Example
+
+<div align="center">
+<img src="Img/6_1_4-c.png">
+</div>
+
+Si necesitas hacer actualizaciones, cada vez que hagas un cambio en la rama que seleccionaste en la configuración, GitHub Pages actualizará automáticamente la página en cuestión de minutos.
+
+**Consideraciones:** GitHub Pages solo soporta sitios estáticos (HTML, CSS, JavaScript). Si tu landing page necesita procesamiento en el servidor, necesitarás otro servicio de hospedaje. Este también necesita de un archivo "index.html" para poder desplegarse, de lo contrario no se podrá.
+
+<br>
+
+#### Web Application:
+
+Para el despliegue de la primera versión de la aplicación web, primero debemos buildear nuestro proyecto.
+
+**comando de build:** npm run build 
+**comando para verificar ejecución de la build**: npm start
+
+Luego de verificar que la build funciona correctamente, debemos de instalar una dependencia solo para desarrollo, en este caso de Vercel.
+
+**comando Vercel CLI:** npm i -g vercel
+
+Iniciamos sesión con: vercel login
+
+Finalmente ejecutamos el comando "vercel" y seguimos los pasos que se nos indican en la terminal:
+
+<div align="center">
+<img src="Img/webapp_a.png">
+</div>
+
+Al final de los pasos, podemos ver que nos brinda los links para gestionar el despliegue y verlo en la web.
+
+<div align="center">
+<img src="Img/deploy_aw1.png">
+</div>
+
+
+<div id='6.2.'><h3>6.2. Landing Page, Services & Applications Implementation.</h3></div>
+<div id='6.2.1.'><h4>6.2.1. Sprint 1</h4></div>
+<div id='6.2.1.1.'><h5>6.2.1.1. Sprint Planning 1.</h5></div>
+
+En la siguiente sección, se presentará el sprint #1 con la primera versión de la landing page y la primera versión de la aplicación web.
+
+| Sprint #                               | Sprint 1                                                                                                                                                                                                                                                                                                                                                               |
+| -------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Sprint Planning Background**         |                                                                                                                                                                                                                                                                                                                                                                        |
+| **Date**                               | 2025-09-18                                                                                                                                                                                                                                                                                                                                                             |
+| **Time**                               | 04:30 PM                                                                                                                                                                                                                                                                                                                                                               |
+| **Location**                           | llamada por la plataforma "Discord"                                                                                                                                                                                                                                                                                                                                    |
+| **Prepared By**                        | Uribe Quispe, Jesús Guillermo                                                                                                                                                                                                                                                                                                                                          |
+| **Attendees (to planning meeting)**    | Uribe Quispe Jesús Guillermo / Bohorquez Lerzundi Gerardo Sebastián / Huanaco Huayta Elizabeth Lucero / Huapaya Cuevas Anthony / Sebastián Silva Tirado                                                                                                                                                                                                                |
+| **Sprint 1 – 1 Review Summary**        | Desarrollo de UX/UI DESIGN, landing page y aplicación web.                                                                                                                                                                                                                                                                                                                                        |
+| **Sprint 1 – 1 Retrospective Summary** | Como es el primer sprint, no hay una retrospectiva anterior.                                                                                                                                                                                                                                                                         |
+| **Sprint Goal & User Stories**         |                                                                                                                                                                                                                                                                                                                                                                        |
+| **Sprint #1 Goal**                     | Nuestro enfoque está en presentar AlertaVital a los potenciales usuarios mediante una landing page clara y atractiva, y en entregar la primera versión funcional de la aplicación web. Creemos que esto generará mayor visibilidad y compromiso de los usuarios iniciales y posibles clientes. Esto se confirmará cuando los visitantes puedan acceder a la landing page, comprender la propuesta de valor del producto y utilizar con éxito las funciones iniciales de la aplicación web. |
+| **Sprint #1 Velocity**                 |  68h                                                                                                                                                                                                                                                                                                                  |
+| **Sum of Story Points**                | 17                                                                                                                                                                                                                                                                                                                                                             |
+
+
+<div id='6.2.1.2.'><h5>6.2.1.2. Aspect Leaders and Collaborators.</h5></div>
+
+| Team Member (Last Name, First Name) | GitHub Username | Landing Page  | Web Application |
+|------------------------------------|-----------------|----------------|---------------------------------------------|
+| Huapaya, Anthony     |  AnthonyHuapaya   | C             | C    |
+| Huanaco, Elizabeth  | lucerohh      | C              | C    |
+| Silva, Sebastián  | SebasSilvaT      | C           | L   |
+| Bohorquez, Sebastián | sebasbl562      | C              | C    |
+| Uribe, Jesús  | JesusU27      | L             | C    |
+
+<div id='6.2.1.3.'><h5>6.2.1.3. Sprint Backlog 1.</h5></div>
+
+Para el Sprint #1 nos trazamos como objetivo desarrollar y desplegar una landing page funcional, optimizada para móviles y preparada para captar leads, lista para producción en GitHub Pages con un diseño responsivo y tiempos de carga rápidos.
+<table>
+  <thead>
+    <tr>
+      <th># Sprint</th>
+      <th colspan="8">Sprint 1</th>
+    </tr>
+    <tr>
+      <th colspan="2">User Story</th>
+      <th colspan="7">Work Item / Task</th>
+    </tr>
+    <tr>
+      <th>Id</th>
+      <th>Title</th>
+      <th>Id</th>
+      <th>Title</th>
+      <th>Descripción</th>
+      <th>Estimación (Horas)</th>
+      <th>Story Points</th>
+      <th>Asignado a</th>
+      <th>Estado</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>US21</td>
+      <td>Ver características</td>
+      <td>WT01</td>
+      <td>Ver características</td>
+      <td>Como visitante, quiero conocer las principales características de la aplicación para entender qué ofrece.</td>
+      <td>4h</td>
+      <td>1</td>
+      <td>Jesús</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US22</td>
+      <td>Ver beneficios</td>
+      <td>WT02</td>
+      <td>Ver beneficios</td>
+      <td>Como visitante, quiero ver los beneficios de usar la aplicación para motivarme a registrarme.</td>
+      <td>4h</td>
+      <td>1</td>
+      <td>Jesús</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US23</td>
+      <td>Comprender la problemática</td>
+      <td>WT03</td>
+      <td>Comprender la problemática</td>
+      <td>Como visitante, quiero entender la problemática de salud que aborda la aplicación para sentirme identificado con su propósito.</td>
+      <td>4h</td>
+      <td>1</td>
+      <td>Jesús</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US24</td>
+      <td>Conocer acerca del proyecto</td>
+      <td>WT04</td>
+      <td>Conocer acerca del proyecto</td>
+      <td>Como visitante, quiero leer información sobre la misión, visión y el equipo detrás de la aplicación.</td>
+      <td>4h</td>
+      <td>1</td>
+      <td>Jesús</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US25</td>
+      <td>Ver testimonios</td>
+      <td>WT05</td>
+      <td>Ver testimonios</td>
+      <td>Como visitante, quiero leer opiniones de otros usuarios o cuidadores para generar confianza.</td>
+      <td>8h</td>
+      <td>2</td>
+      <td>Jesús</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US26</td>
+      <td>Enviar mensaje de contacto</td>
+      <td>WT06</td>
+      <td>Enviar mensaje de contacto</td>
+      <td>Como visitante, quiero enviar un mensaje a través del formulario de contacto para resolver mis dudas.</td>
+      <td>12h</td>
+      <td>3</td>
+      <td>Jesús</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US27</td>
+      <td>Descargar la aplicación</td>
+      <td>WT07</td>
+      <td>Descargar la aplicación</td>
+      <td>Como visitante, quiero descargar la aplicación desde la landing page para comenzar a usarla.</td>
+      <td>8h</td>
+      <td>2</td>
+      <td>Jesús</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+  <td>US19</td>
+  <td>Recordatorios de medicamentos</td>
+  <td>WT08</td>
+  <td>Recordatorios de medicamentos</td>
+  <td>Programar notificaciones para recordar la toma de medicamentos.</td>
+  <td>12h</td>
+  <td>3</td>
+  <td>Sebastián Bohorquez</td>
+  <td>In Process</td>
+</tr>
+<tr>
+  <td>US15</td>
+  <td>Registro de síntomas</td>
+  <td>WT09</td>
+  <td>Registro de síntomas</td>
+  <td>Registrar manualmente síntomas adicionales y consultarlos en un historial.</td>
+  <td>12h</td>
+  <td>3</td>
+  <td>Sebastian Bohorquez</td>
+  <td>In Process</td>
+</tr>
+<tr>
+  <td>US13</td>
+  <td>Reportar una alteración</td>
+  <td>WT10</td>
+  <td>Reportar una alteración</td>
+  <td>Reportar manualmente una alteración en la salud.</td>
+  <td>8h</td>
+  <td>2</td>
+  <td>Elizabeth</td>
+  <td>In Process</td>
+</tr>
+<tr>
+  <td>US14</td>
+  <td>Log de alteraciones</td>
+  <td>WT11</td>
+  <td>Log de alteraciones</td>
+  <td>Consultar el historial de alteraciones registradas.</td>
+  <td>8h</td>
+  <td>2</td>
+  <td>Elizabeth</td>
+  <td>In Process</td>
+</tr>
+<tr>
+  <td>US05</td>
+  <td>Cambiar datos personales</td>
+  <td>WT12</td>
+  <td>Cambiar datos personales</td>
+  <td>Actualizar datos personales en el perfil.</td>
+  <td>8h</td>
+  <td>2</td>
+  <td>Anthony</td>
+  <td>In Process</td>
+</tr>
+<tr>
+  <td>US06</td>
+  <td>Cambiar contraseña</td>
+  <td>WT13</td>
+  <td>Cambiar contraseña</td>
+  <td>Actualizar la contraseña desde el perfil.</td>
+  <td>8h</td>
+  <td>2</td>
+  <td>Sebastian Silva</td>
+  <td>In Process</td>
+</tr>
+<tr>
+  <td>US07</td>
+  <td>Cambiar correo</td>
+  <td>WT14</td>
+  <td>Cambiar correo</td>
+  <td>Actualizar el correo electrónico para recibir notificaciones correctas.</td>
+  <td>8h</td>
+  <td>2</td>
+  <td>Sebastian Bohorquez</td>
+  <td>In Process</td>
+</tr>
+<tr>
+  <td>US08</td>
+  <td>Ver frecuencia cardiaca</td>
+  <td>WT15</td>
+  <td>Ver frecuencia cardiaca</td>
+  <td>Visualizar la frecuencia cardiaca en tiempo real.</td>
+  <td>8h</td>
+  <td>2</td>
+  <td>Anthony Huapaya</td>
+  <td>In Process</td>
+</tr>
+<tr>
+  <td>US09</td>
+  <td>Ver presión arterial</td>
+  <td>WT16</td>
+  <td>Ver presión arterial</td>
+  <td>Consultar los valores de presión arterial en el panel de signos vitales.</td>
+  <td>8h</td>
+  <td>2</td>
+  <td>Sebastián Silva</td>
+  <td>In Process</td>
+</tr>
+<tr>
+  <td>US10</td>
+  <td>Ver oxigenación</td>
+  <td>WT17</td>
+  <td>Ver oxigenación</td>
+  <td>Consultar el nivel de oxigenación (SpO₂) en tiempo real.</td>
+  <td>8h</td>
+  <td>2</td>
+  <td>Anthony Huapaya</td>
+  <td>In Process</td>
+</tr>
+<tr>
+  <td>US02</td>
+  <td>Iniciar sesión</td>
+  <td>WT18</td>
+  <td>Iniciar sesión</td>
+  <td>Acceder al perfil y datos de salud con usuario y contraseña.</td>
+  <td>4h</td>
+  <td>1</td>
+  <td>Sebastián Silva</td>
+  <td>In Process</td>
+</tr>
+<tr>
+  <td>US04</td>
+  <td>Ver perfil</td>
+  <td>WT19</td>
+  <td>Ver perfil</td>
+  <td>Visualizar información personal registrada en la aplicación.</td>
+  <td>4h</td>
+  <td>1</td>
+  <td>Elizabeth </td>
+  <td>In Process</td>
+</tr>
+  </tbody>
+</table>
+
+
+<div id='6.2.1.4.'><h5>6.2.1.4. Development Evidence for Sprint Review.</h5></div>
+
+### LANDING PAGE:
+
+Debido a la refactorización de un código, además de la realización de solo una persona por elección y consentimiento de todo el grupo, solo se presenta el commit de subida al repositorio principal de la organización.
+
+<table><thead>
+  <tr>
+    <th>&nbsp;&nbsp;&nbsp;<br>Repository&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Branch&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Commit ID&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Commit<br>&nbsp;&nbsp;&nbsp;<br>Message&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Commit<br>&nbsp;&nbsp;&nbsp;<br>Message Body&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Committed on&nbsp;&nbsp;&nbsp;(Date)&nbsp;&nbsp;&nbsp;</th>
+  </tr></thead>
+<tbody>
+  <tr>
+<td rowspan="10">
+	<a href="https://github.com/TF-SolucionesIoT/LandingPage" target="_blank" rel="noopener noreferrer">https://github.com/TF-SolucionesIoT/LandingPage</a>
+	<br>
+</td>
+    <td><br>main</td>
+    <td><br>47fea191f279d7aeac5bd1cf043b4b887c3b48e2</td>
+    <td><br>first commit</td>
+    <td><br>first commit</td>
+    <td><br>2/10/2025</td>
+  </tr>
+  
+</tbody></table>
+
+
+### WEB APPLICATION:
+
+<table><thead>
+  <tr>
+    <th>&nbsp;&nbsp;&nbsp;<br>Repository&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Branch&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Commit ID&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Commit<br>&nbsp;&nbsp;&nbsp;<br>Message&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Commit<br>&nbsp;&nbsp;&nbsp;<br>Message Body&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Committed on&nbsp;&nbsp;&nbsp;(Date)&nbsp;&nbsp;&nbsp;</th>
+  </tr></thead>
+<tbody>
+  <tr>
+<td>
+	<a href="https://github.com/TF-SolucionesIoT/Front-End-IOT" target="_blank" rel="noopener noreferrer">https://github.com/TF-SolucionesIoT/Front-End-IOT</a>
+	<br>
+</td>
+    <td><br>main</td>
+    <td><br>79d7aea8</td>
+    <td><br>first commit</td>
+    <td><br>first commit</td>
+    <td><br>2/10/2025</td>
+  </tr>
+  <tr>
+  <td>
+	<a href="https://github.com/TF-SolucionesIoT/Front-End-IOT" target="_blank" rel="noopener noreferrer">https://github.com/TF-SolucionesIoT/Front-End-IOT</a>
+	<br>
+</td>
+  <td>main</td>
+  <td>9992216</td>
+  <td>Thanks, now that you add a chart/dashboard for “SpO₂”</td>
+  <td></td>
+  <td>2025-10-09</td>
+  </tr>
+  <tr><td>
+	<a href="https://github.com/TF-SolucionesIoT/Front-End-IOT" target="_blank" rel="noopener noreferrer">https://github.com/TF-SolucionesIoT/Front-End-IOT</a>
+	<br>
+</td><td>main</td><td>329ec31</td><td>In the “Vitals” section, when clicking on “Heart Rate”, “SpO₂”, or “Bloo</td><td></td><td>2025-10-09</td></tr><tr><td>
+	<a href="https://github.com/TF-SolucionesIoT/Front-End-IOT" target="_blank" rel="noopener noreferrer">https://github.com/TF-SolucionesIoT/Front-End-IOT</a>
+	<br>
+</td><td>main</td><td>a341a86</td><td>In the “Treatments” section, add a button labeled “Add Treatment” that a</td><td></td><td>2025-10-09</td></tr><tr>
+<td>
+	<a href="https://github.com/TF-SolucionesIoT/Front-End-IOT" target="_blank" rel="noopener noreferrer">https://github.com/TF-SolucionesIoT/Front-End-IOT</a>
+	<br>
+</td><td>main</td><td>8d09a7b</td><td>Add a new section called “Syntomic” to display a history of symptoms wit</td><td></td><td>2025-10-09</td></tr><tr><td>
+	<a href="https://github.com/TF-SolucionesIoT/Front-End-IOT" target="_blank" rel="noopener noreferrer">https://github.com/TF-SolucionesIoT/Front-End-IOT</a>
+	<br>
+</td><td>main</td><td>7c0093a</td><td>Add a new section called “Alteration” to display a history of alteration</td><td></td><td>2025-10-09</td></tr><tr><td>
+	<a href="https://github.com/TF-SolucionesIoT/Front-End-IOT" target="_blank" rel="noopener noreferrer">https://github.com/TF-SolucionesIoT/Front-End-IOT</a>
+	<br>
+</td><td>main</td><td>3a7dc50</td><td>I see that the background is still: 0F1729, I would like it to be change</td><td></td><td>2025-10-09</td></tr><tr><td>
+	<a href="https://github.com/TF-SolucionesIoT/Front-End-IOT" target="_blank" rel="noopener noreferrer">https://github.com/TF-SolucionesIoT/Front-End-IOT</a>
+	<br>
+</td><td>main</td><td>403dc2a</td><td>I would like the sidebar to have this color: F7FAFE and the background w</td><td></td><td>2025-10-09</td></tr><tr><td>
+	<a href="https://github.com/TF-SolucionesIoT/Front-End-IOT" target="_blank" rel="noopener noreferrer">https://github.com/TF-SolucionesIoT/Front-End-IOT</a>
+	<br>
+</td><td>main</td><td>96b2142</td><td>Configure the sidebar with the following sections and behaviors:</td><td>
+</td><td>2025-10-09</td></tr><tr><td>
+	<a href="https://github.com/TF-SolucionesIoT/Front-End-IOT" target="_blank" rel="noopener noreferrer">https://github.com/TF-SolucionesIoT/Front-End-IOT</a>
+	<br>
+</td><td>main</td><td>f4c2165</td><td>Well the program show: This page could not be found. Yo try to find the</td><td></td><td>2025-10-09</td></tr><tr><td>
+	<a href="https://github.com/TF-SolucionesIoT/Front-End-IOT" target="_blank" rel="noopener noreferrer">https://github.com/TF-SolucionesIoT/Front-End-IOT</a>
+	<br>
+</td><td>main</td><td>b6fa798</td><td>First, fix the errors</td><td></td><td>2025-10-09</td></tr>
+<tr><td>
+	<a href="https://github.com/TF-SolucionesIoT/Front-End-IOT" target="_blank" rel="noopener noreferrer">https://github.com/TF-SolucionesIoT/Front-End-IOT</a>
+	<br>
+</td><td>main</td><td>4bac8bf</td><td>Initial prototype</td><td></td><td>2025-10-09</td></tr>
+<tr><td>
+	<a href="https://github.com/TF-SolucionesIoT/Front-End-IOT" target="_blank" rel="noopener noreferrer">https://github.com/TF-SolucionesIoT/Front-End-IOT</a>
+	<br>
+</td><td>main</td><td>ecacaab</td><td>Initialized workspace with Firebase Studio</td><td></td><td>2025-10-06</td></tr>
+
+  
+</tbody></table>
+
+
+<div id='6.2.1.5.'><h5>6.2.1.5. Testing Suite Evidence for Sprint Review.</h5></div>
+
+Para este sprint, no nos centramos en elaborar los servicios web, por lo tanto, no hay pruebas unitarias, de integración y de aceptación.
+
+
+<div id='6.2.1.6.'><h5>6.2.1.6. Execution Evidence for Sprint Review.</h5></div>
+
+A continuación, se muestran las evidencias de ejecución de la landing page y de la primera versión de la aplicación web.
+
+#### Landing Page:
+
+<div align="center">
+<img src="Img/execution_a.png">
+</div>
+
+<div align="center">
+<img src="Img/execution_b.png">
+</div>
+
+<div align="center">
+<img src="Img/execution_c.png">
+</div>
+
+<div align="center">
+<img src="Img/execution_d.png">
+</div>
+
+#### Web Application:
+
+Iniciar Sesion:
+<div align="center">
+<img src="Img/executionappweb_k.png">
+</div>
+
+Perfil:
+<div align="center">
+<img src="Img/executionappweb_j.png">
+</div>
+
+Emergencias:
+<div align="center">
+<img src="Img/executionappweb_a.png">
+</div>
+
+Tratamientos:
+
+<div align="center">
+<img src="Img/executionappweb_b.png">
+</div>
+
+Alteraciones:
+
+<div align="center">
+<img src="Img/executionappweb_c.png">
+</div>
+
+Añadir alteraciones
+<div align="center">
+<img src="Img/executionappweb_f.png">
+</div>
+
+Simtomas:
+<div align="center">
+<img src="Img/executionappweb_d.png">
+</div>
+
+Añadir Sintomas:
+<div align="center">
+<img src="Img/executionappweb_e.png">
+</div>
+
+Tratamientos:
+<div align="center">
+<img src="Img/executionappweb_g.png">
+</div>
+
+Añadir Tratamiento:
+<div align="center">
+<img src="Img/executionappweb_h.png">
+</div>
+
+Signos Vitales:
+<div align="center">
+<img src="Img/executionappweb_i.png">
+</div>
+
+
+
+<div id='6.2.1.7.'><h5>6.2.1.7. Services Documentation Evidence for Sprint Review.</h5></div>
+
+Para este sprint, no nos centramos en elaborar los servicios web, por lo tanto, no hay evidencia de documentación de dichos servicios.
+
+<div id='6.2.1.8.'><h5>6.2.1.8. Software Deployment Evidence for Sprint Review.</h5></div>
+
+En este primer sprint, se desplegaron tanto la Landing Page, como la primera versión de la aplicación web.
+
+#### Landing Page:
+
+En el caso de la Landing Page, desplegaremos la página en Github Pages que es la funcionalidad de Github para deplegar páginas estáticas.
+
+Para configurar GitHub Pages una vez el código esté en el repositorio, sigue estos pasos para habilitar GitHub Pages:
+<br><br>
+Ve a tu repositorio en GitHub. Haz clic en la pestaña Settings (Configuración). Desplázate hacia abajo hasta la sección Pages en el menú lateral izquierdo. 
+<br><br>
+
+<div align="center">
+<img src="Img/6_1_4-a.png">
+</div>
+
+En la sección Source, selecciona la rama de la que quieres desplegar (normalmente main).
+
+<div align="center">
+<img src="Img/6_1_4-b.png">
+</div>
+
+
+GitHub ahora generará una URL para tu landing page, que estará disponible en algo como: https://usuario.github.io/Example
+
+<div align="center">
+<img src="Img/6_1_4-c.png">
+</div>
+
+Si necesitas hacer actualizaciones, cada vez que hagas un cambio en la rama que seleccionaste en la configuración, GitHub Pages actualizará automáticamente la página en cuestión de minutos.
+
+Finalmente con el link proporcionado, podemos ver la landing page desplegada en la web.
+
+<div align="center">
+<img src="Img/deploy_ld1.png">
+</div>
+
+#### Web Application:
+
+Para el despliegue de la primera versión de la aplicación web, primero debemos buildear nuestro proyecto.
+
+**comando de build:** npm run build 
+**comando para verificar ejecución de la build**: npm start
+
+Luego de verificar que la build funciona correctamente, debemos de instalar una dependencia solo para desarrollo, en este caso de Vercel.
+
+**comando Vercel CLI:** npm i -g vercel
+
+Iniciamos sesión con: vercel login
+
+Finalmente ejecutamos el comando "vercel" y seguimos los pasos que se nos indican en la terminal:
+
+<div align="center">
+<img src="Img/webapp_a.png">
+</div>
+
+Al final de los pasos, podemos ver que nos brinda los links para gestionar el despliegue y verlo en la web.
+
+<div align="center">
+<img src="Img/deploy_aw1.png">
+</div>
+
+
+
+
+<div id='6.2.1.9.'><h5>6.2.1.9. Team Collaboration Insights during Sprint.</h5></div>
+
+a continuación, se demuestran los insights en base a este Sprint:
+
+<div align="center">
+  <img src="Img/insight_tp1.png" alt="insights">
+</div>
+
+
+
+
+
+
+<div id='7.'><h2>7. Conclusiones</h2></div>
+
+Durante la unidad 5 y 6, el equipo se enfocó en el diseño y desarrollo de la Landing Page y la aplicación web, aplicando principios de UX/UI y buenas prácticas de ingeniería de software. Se inició con la definición de la arquitectura de información y wireframes en Figma, asegurando una navegación clara y accesible para los usuarios objetivo: adultos mayores y sus cuidadores. La Landing Page fue implementada utilizando HTML, CSS, Bootstrap y React, priorizando la presentación de beneficios, características, testimonios y acceso rápido a la descarga de la app. El desarrollo siguió una estructura modular y responsiva, facilitando la adaptación a distintos dispositivos. Para la aplicación web, se empleó una arquitectura basada en Clean Architecture y Domain-Driven Design, separando los módulos de autenticación, monitoreo, gestión de usuarios y soporte al tratamiento. El control de versiones se realizó con Git y GitHub, aplicando Git Flow para organizar las ramas y asegurar la calidad del código. La documentación técnica y los diagramas de componentes respaldan la mantenibilidad y escalabilidad del sistema. En conjunto, estas unidades permitieron entregar una solución digital robusta, centrada en la experiencia del usuario y alineada con los objetivos del proyecto.
+
+<div id='8.'><h2>8. Bibliografía</h2></div>
 
 Instituto Nacional de Estadística e Informática. (2023). *Perú: Estimaciones y proyecciones de población, 1950-2070*. https://www.inei.gob.pe/media/MenuRecursivo/publicaciones_digitales/Est/Lib1743/Libro.pdf  
 <br>  
@@ -2091,4 +3777,12 @@ Ministerio de Salud. (2023). *Enfermedades no transmisibles y transmisibles - EN
 <br>  
 Organización Panamericana de la Salud. (2023). *La situación de los cuidados a largo plazo en América Latina y el Caribe*. https://iris.paho.org/bitstream/handle/10665.2/57356/9789275326879_spa.pdf?sequence=1
 
-<div id='7.'><h2>7. Anexo</h2></div>
+<div id='9.'><h2>9. Anexo</h2></div>
+
+| Título  | Link |
+|-----------------|------|
+|          Organización de Github       | [https://github.com/TF-SolucionesIoT](https://github.com/TF-SolucionesIoT)     |
+|    Link de Miro             | [Miro Board](https://miro.com/welcomeonboard/M2JhbUZCSUFOdnN6ZG84cEJOM0g2R1BsUktITmFLZHNlcGMyTlMycTdBZEVsb2lmaWg1alVKL2dRMkJMWkdOTlMzdEhBV0VKeWNKZlo4bTJ2Mmtxc0t6UVVqdEV2Q1FYdjFrK3hINnhJSTYxcXpXejd2ZEtwTldRVHZRVEQ2RkhhWWluRVAxeXRuUUgwWDl3Mk1qRGVRPT0hdjE=?share_link_id=142838303004)      |
+|  Link de video de exposición          |  [Link de video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202221876_upc_edu_pe/Ecw7NNvw_IFIo9WNR4NB8M8BC4jRlWE-WH7RtcXJnlwdMQ?e=VbtdCX)    |
+| Link de video de entrevistas | [Link](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220235_upc_edu_pe/ERMsAWnlK25BgS7DKzoCgPEBcVQJPN9Nr9zo1HhWZgaR4g?nav=eyJwbGF5YmFja09wdGlvbnMiOnsic3RhcnRUaW1lSW5TZWNvbmRzIjoxNTI3LCJ0aW1lc3RhbXBlZExpbmtSZWZlcnJlckluZm8iOnsic2NlbmFyaW8iOiJDaGFwdGVyU2hhcmUiLCJhZGRpdGlvbmFsSW5mbyI6eyJpc1NoYXJlZENoYXB0ZXJBdXRvIjpmYWxzZX19fSwicmVmZXJyYWxJbmZvIjp7InJlZmVycmFsQXBwIjoiU3RyZWFtV2ViQXBwIiwicmVmZXJyYWxWaWV3IjoiU2hhcmVDaGFwdGVyTGluayIsInJlZmVycmFsQXBwUGxhdGZvcm0iOiJXZWIiLCJyZWZlcnJhbE1vZGUiOiJ2aWV3In19&e=ZFJWW8) |
+| Link de Figma | [Link](https://www.figma.com/design/wDXE0NQLCOx7ccB5TPlRYr/IoT?node-id=1-3&t=ByrmBRuCKYXO44gX-1) |
