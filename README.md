@@ -2816,11 +2816,356 @@ Sección de Descargas de aplicación móvil y pie de página:
 
 <div id='5.4.'><h3>5.4. Applications UX/UI Design.</h3></div>
 <div id='5.4.1.'><h4>5.4.1. Applications Wireframes.</h4></div>
+
+**Application wireframes (Desktop)**
+
+Register
+
+<div align = "center">
+  <img src="./Img/webappwf2.png">
+</div>
+
+Login
+
+<div align = "center">
+  <img src="./Img/webappwf1.png">
+</div>
+
+Dashboard
+
+<div align = "center">
+  <img src="./Img/webappwf3.png">
+</div>
+
+Emergencia
+
+<div align = "center">
+  <img src="./Img/webappwf4.png">
+</div>
+
+Signos Vitales
+
+<div align = "center">
+  <img src="./Img/webappwf5.png">
+</div>
+
+Alteraciones
+
+<div align = "center">
+  <img src="./Img/webappwf6.png">
+</div>
+
+Perfil
+
+<div align = "center">
+  <img src="./Img/webappwf6.png">
+</div>
+
+**Application wireframes (mobile)**
+
+Register
+
+<div align = "center">
+  <img src="./Img/webappwfm2.png">
+</div>
+
+Login
+
+<div align = "center">
+  <img src="./Img/webappwfm1.png">
+</div>
+
+Dashboard
+
+<div align = "center">
+  <img src="./Img/webappwfm3.png">
+</div>
+
+Emergencia
+
+<div align = "center">
+  <img src="./Img/webappwfm4.png">
+</div>
+
+Signos Vitales
+
+<div align = "center">
+  <img src="./Img/webappwfm5.png">
+</div>
+
+Alteraciones
+
+<div align = "center">
+  <img src="./Img/webappwfm6.png">
+</div>
+
+Perfil
+
+<div align = "center">
+  <img src="./Img/webappwfm7.png">
+</div>
+
 <div id='5.4.2.'><h4>5.4.2. Applications Wireflow Diagrams.</h4></div>
+
+**Applications Wireflows Diagrams (Desktop)**
+
+User Goal: Autenticación y gestión de cuenta
+
+<div align = "center">
+  <img src="./Img/wflow1.png">
+</div>
+
+User Goal: Gestión de Perfil de Usuario
+
+<div align = "center">
+  <img src="./Img/wflow2.png">
+</div>
+
+User Goal: Monitoreo de Signos Vitales
+
+<div align = "center">
+  <img src="./Img/wflow3.png">
+</div>
+
+User Goal: Registro y Seguimiento de alteraciones
+
+<div align = "center">
+  <img src="./Img/wflow4.png">
+</div>
+
+User Goal: Emergencias y Alerta
+
+<div align = "center">
+  <img src="./Img/wflow5.png">
+</div>
+
+User Goal: Soporte al Tratamiento
+
+<div align = "center">
+  <img src="./Img/wflow6.png">
+</div>
+
+**Applications Wireflows Diagrams (Mobile)**
+
+User Goal: Autenticación y gestión de cuenta
+
+<div align = "center">
+  <img src="./Img/wflowm1.png">
+</div>
+
+User Goal: Gestión de Perfil de Usuario
+
+<div align = "center">
+  <img src="./Img/wflowm2.png">
+</div>
+
+User Goal: Monitoreo de Signos Vitales
+
+<div align = "center">
+  <img src="./Img/wflowm3.png">
+</div>
+
+User Goal: Registro y Seguimiento de alteraciones
+
+<div align = "center">
+  <img src="./Img/wflowm4.png">
+</div>
+
+User Goal: Emergencias y Alerta
+
+<div align = "center">
+  <img src="./Img/wflowm5.png">
+</div>
+
+User Goal: Soporte al Tratamiento
+
+<div align = "center">
+  <img src="./Img/wflowm6.png">
+</div>
+
 <div id='5.4.2.1.'><h5>5.4.2. Applications Mock-ups.</h5></div>
+
+**Application Mock-ups (Desktop)**
+
+Register
+
+<div align = "center">
+  <img src="./Img/webappmo1.png">
+</div>
+
+Login
+
+<div align = "center">
+  <img src="./Img/webappmo2.png">
+</div>
+
+Dashboard
+
+<div align = "center">
+  <img src="./Img/webappmo3.png">
+</div>
+
+Emergencia
+
+<div align = "center">
+  <img src="./Img/webappmo4.png">
+</div>
+
+Signos Vitales
+
+<div align = "center">
+  <img src="./Img/webappmo5.png">
+</div>
+
+Alteraciones
+
+<div align = "center">
+  <img src="./Img/webappmo6.png">
+</div>
+
+Perfil
+
+<div align = "center">
+  <img src="./Img/webappmo6.png">
+</div>
+
+**Application Mock-ups (mobile)**
+
+Register
+
+<div align = "center">
+  <img src="./Img/webappmom1.png">
+</div>
+
+Login
+
+<div align = "center">
+  <img src="./Img/webappmom2.png">
+</div>
+
+Dashboard
+
+<div align = "center">
+  <img src="./Img/webappmom3.png">
+</div>
+
+Emergencia
+
+<div align = "center">
+  <img src="./Img/webappmom4.png">
+</div>
+
+Signos Vitales
+
+<div align = "center">
+  <img src="./Img/webappmom5.png">
+</div>
+
+Alteraciones
+
+<div align = "center">
+  <img src="./Img/webappmom6.png">
+</div>
+
+Perfil
+
+<div align = "center">
+  <img src="./Img/webappmom7.png">
+</div>
+
+
 <div id='5.4.3.'><h4>5.4.3. Applications User Flow Diagrams.</h4></div>
 
+**Applications User Flow Diagrams (Desktop)**
+
+Link Lucid: https://lucid.app/lucidchart/217716ff-f8b0-4cf2-a47f-ce803460c6f1/edit?invitationId=inv_ae9bfffb-0ebf-41e1-be65-e88fde48c9a1&page=0_0#
+
+User Goal: Autenticación y gestión de cuenta
+
+<div align = "center">
+  <img src="./Img/userflow1.png">
+</div>
+
+User Goal: Gestión de Perfil de Usuario
+
+<div align = "center">
+  <img src="./Img/userflow2.png">
+</div>
+
+User Goal: Monitoreo de Signos Vitales
+
+<div align = "center">
+  <img src="./Img/userflow3.png">
+</div>
+
+User Goal: Registro y Seguimiento de alteraciones
+
+<div align = "center">
+  <img src="./Img/userflow4.png">
+</div>
+
+User Goal: Emergencias y Alerta
+
+<div align = "center">
+  <img src="./Img/userflow5.png">
+</div>
+
+User Goal: Soporte al Tratamiento
+
+<div align = "center">
+  <img src="./Img/userflow6.png">
+</div>
+
+
+**Applications User Flow Diagrams (Mobile)**
+
+Link Lucid: https://lucid.app/lucidchart/56228267-948d-4917-a4ce-c1c0a8345ffc/edit?view_items=HBfY-7Xjwzhr&page=vAfYoJjIZ-Tr&invitationId=inv_6667df5d-4724-4df5-bc23-452b278a75f8
+User Goal: Autenticación y gestión de cuenta
+
+<div align = "center">
+  <img src="./Img/userflowm1.png">
+</div>
+
+User Goal: Gestión de Perfil de Usuario
+
+<div align = "center">
+  <img src="./Img/userflowm2.png">
+</div>
+
+User Goal: Monitoreo de Signos Vitales
+
+<div align = "center">
+  <img src="./Img/userflowm3.png">
+</div>
+
+User Goal: Registro y Seguimiento de alteraciones
+
+<div align = "center">
+  <img src="./Img/userflowm4.png">
+</div>
+
+User Goal: Emergencias y Alerta
+
+<div align = "center">
+  <img src="./Img/userflowm6.png">
+</div>
+
+User Goal: Soporte al Tratamiento
+
+<div align = "center">
+  <img src="./Img/userflowm5.png">
+</div>
+
+
 <div id='5.5.'><h3>5.5. Applications Prototyping.</h3></div>
+
+<div align = "center">
+  <img src="./Img/prototipo.png">
+</div>
+
+
+Link Prototipo: https://www.figma.com/proto/wDXE0NQLCOx7ccB5TPlRYr/IoT?node-id=73-6622&t=pD1aaJtBOTr4UEQg-1&scaling=contain&content-scaling=fixed&page-id=1%3A2&starting-point-node-id=73%3A6622&show-proto-sidebar=1
+
 
 
 <div id='6.'><h2>Capítulo VI: Product Implementation, Validation & Deployment</h2></div>
