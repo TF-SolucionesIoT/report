@@ -2647,15 +2647,206 @@ Si necesitas hacer actualizaciones, cada vez que hagas un cambio en la rama que 
 <div id='6.2.1.'><h4>6.2.1. Sprint 1</h4></div>
 <div id='6.2.1.1.'><h5>6.2.1.1. Sprint Planning 1.</h5></div>
 
+En la siguiente sección, se presentará el sprint #1 con la primera versión de la landing page y la primera versión de la aplicación web.
+
+| Sprint #                               | Sprint 1                                                                                                                                                                                                                                                                                                                                                               |
+| -------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Sprint Planning Background**         |                                                                                                                                                                                                                                                                                                                                                                        |
+| **Date**                               | 2025-09-18                                                                                                                                                                                                                                                                                                                                                             |
+| **Time**                               | 04:30 PM                                                                                                                                                                                                                                                                                                                                                               |
+| **Location**                           | llamada por la plataforma "Discord"                                                                                                                                                                                                                                                                                                                                    |
+| **Prepared By**                        | Uribe Quispe, Jesús Guillermo                                                                                                                                                                                                                                                                                                                                          |
+| **Attendees (to planning meeting)**    | Uribe Quispe Jesús Guillermo / Bohorquez Lerzundi Gerardo Sebastián / Huanaco Huayta Elizabeth Lucero / Huapaya Cuevas Anthony / Sebastián Silva Tirado                                                                                                                                                                                                                |
+| **Sprint 1 – 1 Review Summary**        | Desarrollo de UX/UI DESIGN, landing page y aplicación web.                                                                                                                                                                                                                                                                                                                                        |
+| **Sprint 1 – 1 Retrospective Summary** | Como es el primer sprint, no hay una retrospectiva anterior.                                                                                                                                                                                                                                                                         |
+| **Sprint Goal & User Stories**         |                                                                                                                                                                                                                                                                                                                                                                        |
+| **Sprint #1 Goal**                     | Nuestro enfoque está en presentar AlertaVital a los potenciales usuarios mediante una landing page clara y atractiva, y en entregar la primera versión funcional de la aplicación web. Creemos que esto generará mayor visibilidad y compromiso de los usuarios iniciales y posibles clientes. Esto se confirmará cuando los visitantes puedan acceder a la landing page, comprender la propuesta de valor del producto y utilizar con éxito las funciones iniciales de la aplicación web. |
+| **Sprint #1 Velocity**                 | XXX                                                                                                                                                                                                                                                                                                                     |
+| **Sum of Story Points**                | XX                                                                                                                                                                                                                                                                                                                                                             |
+
 
 <div id='6.2.1.2.'><h5>6.2.1.2. Aspect Leaders and Collaborators.</h5></div>
+
+| Team Member (Last Name, First Name) | GitHub Username | Aspect Name 1 | Role | Aspect Name 2 | Role | … Aspect Name n | Role |
+|------------------------------------|-----------------|----------------|------|----------------|------|-----------------|------|
+| Jiménez Rosas, Arturo Eduardo      | ajimenezrosas   | L              | C    | …              |      |                 |      |
+| Rodríguez Peña, Jorge Andrés       | Japr91           | C              | C    | …              | L    | L               |      |
+
+
 <div id='6.2.1.3.'><h5>6.2.1.3. Sprint Backlog 1.</h5></div>
+
+Para el Sprint #1 nos trazamos como objetivo desarrollar y desplegar una landing page funcional, optimizada para móviles y preparada para captar leads, lista para producción en GitHub Pages con un diseño responsivo y tiempos de carga rápidos.
+
+<table><thead>
+  <tr>
+    <th>&nbsp;&nbsp;&nbsp;<br># Sprint&nbsp;&nbsp;&nbsp;</th>
+    <th colspan="7">Sprint 1</th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td colspan="2">&nbsp;&nbsp;&nbsp;<br>User Story&nbsp;&nbsp;&nbsp;</td>
+    <td colspan="6">Work Item/Task</td>
+  </tr>
+  <tr>
+    <td>&nbsp;&nbsp;&nbsp;<br>Id&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>Title&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>Id&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>Title&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>Descripción&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>Estimación (Hours)&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>Story points &nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>Assigned to&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>Status (In&nbsp;&nbsp;&nbsp;-process / To - review / Done)&nbsp;&nbsp;&nbsp;</td>
+  </tr>
+  <tr>
+    <td>&nbsp;&nbsp;&nbsp;<br>-</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>-</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>UT01</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>-</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>-</td>
+    <td>&nbsp;&nbsp;&nbsp;<br> -</td>
+	  <td>&nbsp;&nbsp;&nbsp;<br>- </td>
+    <td>&nbsp;&nbsp;&nbsp;<br></td>
+    <td>&nbsp;&nbsp;&nbsp;<br></td>
+  </tr>
+  <tr>
+    <td><br>-</td>
+    <td><br>-</td>
+    <td><br>-</td>
+    <td><br>-</td>
+    <td><br>-</td>
+    <td><br> -</td>
+	  <td><br> -</td>
+    <td><br> -</td>
+    <td><br>-</td>
+  </tr>
+    <tr>
+    <td>&nbsp;&nbsp;&nbsp;<br>-</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>-</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>-</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>-</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>-</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>- </td>
+	  <td>&nbsp;&nbsp;&nbsp;<br> -</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>-</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>-</td>
+  </tr>
+  
+  
+</tbody></table>
+
 <div id='6.2.1.4.'><h5>6.2.1.4. Development Evidence for Sprint Review.</h5></div>
+
+### LANDING PAGE:
+
+En el apartado de Landing Page, solo un integrante desarrolló este pequeño proyecto y solo en su máquina local, ya que, al solo ser un participante, por comodidad se optó por esto.
+
+<table><thead>
+  <tr>
+    <th>&nbsp;&nbsp;&nbsp;<br>Repository&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Branch&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Commit ID&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Commit<br>&nbsp;&nbsp;&nbsp;<br>Message&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Commit<br>&nbsp;&nbsp;&nbsp;<br>Message Body&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Committed on&nbsp;&nbsp;&nbsp;(Date)&nbsp;&nbsp;&nbsp;</th>
+  </tr></thead>
+<tbody>
+  <tr>
+<td rowspan="10">
+	<a href="https://github.com/TF-SolucionesIoT/LandingPage" target="_blank" rel="noopener noreferrer">https://github.com/TF-SolucionesIoT/LandingPage</a>
+	<br>
+</td>
+    <td><br>main</td>
+    <td><br>47fea191f279d7aeac5bd1cf043b4b887c3b48e2</td>
+    <td><br>first commit</td>
+    <td><br>first commit</td>
+    <td><br>2/10/2025</td>
+  </tr>
+</tbody></table>
+
+
 <div id='6.2.1.5.'><h5>6.2.1.5. Testing Suite Evidence for Sprint Review.</h5></div>
+
+Para este sprint, no nos centramos en elaborar los servicios web, por lo tanto, no hay pruebas unitarias, de integración y de aceptación.
+
+
 <div id='6.2.1.6.'><h5>6.2.1.6. Execution Evidence for Sprint Review.</h5></div>
+
+A continuación, se muestran las evidencias de ejecución de la landing page y de la primera versión de la aplicación web.
+
+#### Landing Page:
+
+<div align="center">
+<img src="Img/execution_a.png">
+</div>
+
+<div align="center">
+<img src="Img/execution_b.png">
+</div>
+
+<div align="center">
+<img src="Img/execution_c.png">
+</div>
+
+<div align="center">
+<img src="Img/execution_d.png">
+</div>
+
+
 <div id='6.2.1.7.'><h5>6.2.1.7. Services Documentation Evidence for Sprint Review.</h5></div>
+
+Para este sprint, no nos centramos en elaborar los servicios web, por lo tanto, no hay evidencia de documentación de dichos servicios.
+
 <div id='6.2.1.8.'><h5>6.2.1.8. Software Deployment Evidence for Sprint Review.</h5></div>
+
+En este primer sprint, se desplegaron tanto la Landing Page, como la primera versión de la aplicación web.
+
+#### Landing Page:
+
+En el caso de la Landing Page, desplegaremos la página en Github Pages que es la funcionalidad de Github para deplegar páginas estáticas.
+
+Para configurar GitHub Pages una vez el código esté en el repositorio, sigue estos pasos para habilitar GitHub Pages:
+<br><br>
+Ve a tu repositorio en GitHub. Haz clic en la pestaña Settings (Configuración). Desplázate hacia abajo hasta la sección Pages en el menú lateral izquierdo. 
+<br><br>
+
+<div align="center">
+<img src="Img/6_1_4-a.png">
+</div>
+
+En la sección Source, selecciona la rama de la que quieres desplegar (normalmente main).
+
+<div align="center">
+<img src="Img/6_1_4-b.png">
+</div>
+
+
+GitHub ahora generará una URL para tu landing page, que estará disponible en algo como: https://usuario.github.io/Example
+
+<div align="center">
+<img src="Img/6_1_4-c.png">
+</div>
+
+Si necesitas hacer actualizaciones, cada vez que hagas un cambio en la rama que seleccionaste en la configuración, GitHub Pages actualizará automáticamente la página en cuestión de minutos.
+
+Finalmente con el link proporcionado, podemos ver la landing page desplegada en la web.
+
+<div align="center">
+<img src="Img/deploy_ld1.png">
+</div>
+
+
 <div id='6.2.1.9.'><h5>6.2.1.9. Team Collaboration Insights during Sprint.</h5></div>
+
+a continuación, se demuestran los insights en base a este Sprint:
+
+<div align="center">
+<img src="Img/6_2_1_9a.png">
+</div>
+
+
+
+
 
 
 
