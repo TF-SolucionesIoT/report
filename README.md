@@ -2754,6 +2754,8 @@ User Goal: Soporte al Tratamiento
 
 **Applications Wireflows Diagrams (Mobile)**
 
+Link Lucid: https://lucid.app/lucidchart/a47baef7-d733-4cd7-baf0-e65d8a534db6/edit?viewport_loc=-11%2C-11%2C2217%2C1052%2C0_0&invitationId=inv_cd890741-d2b7-48f0-9b7c-56cc9bf788bf
+
 User Goal: Autenticación y gestión de cuenta
 
 <div align = "center">
@@ -2775,19 +2777,19 @@ User Goal: Monitoreo de Signos Vitales
 User Goal: Registro y Seguimiento de alteraciones
 
 <div align = "center">
-  <img src="./Img/wflowm4.png">
+  <img src="./Img/wireflow_4.jpg">
 </div>
 
 User Goal: Emergencias y Alerta
 
 <div align = "center">
-  <img src="./Img/wflowm5.png">
+  <img src="./Img/wireflow_5.jpg">
 </div>
 
 User Goal: Soporte al Tratamiento
 
 <div align = "center">
-  <img src="./Img/wflowm6.png">
+  <img src="./Img/wireflow_6.jpg">
 </div>
 
 <div id='5.4.2.1.'><h5>5.4.2. Applications Mock-ups.</h5></div>
@@ -2973,6 +2975,13 @@ User Goal: Soporte al Tratamiento
 
 Link Prototipo: https://www.figma.com/proto/wDXE0NQLCOx7ccB5TPlRYr/IoT?node-id=73-6622&t=pD1aaJtBOTr4UEQg-1&scaling=contain&content-scaling=fixed&page-id=1%3A2&starting-point-node-id=73%3A6622&show-proto-sidebar=1
 
+**Prototipo móvil del tutor**
+
+<div align = "center">
+  <img src="./Img/prototype_mobile_tutor.png">
+</div>
+
+Link Prototipo: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220235_upc_edu_pe/EQ7A-FlrQLpOuExC6cEqW6MB0okmyZfggY1jekoiwepePw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=tz3ksu
 
 **Prototipo móvil del adulto mayor**
 
@@ -2981,6 +2990,7 @@ Link Prototipo: https://www.figma.com/proto/wDXE0NQLCOx7ccB5TPlRYr/IoT?node-id=7
 </div>
 
 Link del Prototipo: https://upcedupe-my.sharepoint.com/personal/u20211g522_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu20211g522%5Fupc%5Fedu%5Fpe%2FDocuments%2FUniversidad%20%2D%20archivos%2FCICLO%20VII%2FDise%C3%B1o%20de%20soluciones%20IoT%2FProyecto%2Fprototype%20mobile%20older%20adult%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ee3032e6a%2Dc77e%2D4640%2D86bf%2D5b96acfd7ff3 
+
 
 <div id='6.'><h2>Capítulo VI: Product Implementation, Validation & Deployment</h2></div>
 
