@@ -588,7 +588,7 @@ En esta sección, definiremos los perfiles específicos del público objetivo pa
 <div id='2.1.'><h3>2.1. Competidores</h3></div>
 <div id='2.1.1.'><h4>2.1.1. Análisis competitivo</h4></div>
 
-| **Competidor** |<img src="Img/nuestro-logo.svg" alt="Logo Nuestra Solución" style="margin-bottom: 5px;" width="800"> | <img src="Img/applewathc-logo.svg" alt="Logo Apple Watch" style="margin-bottom: 5px;" width="800"> | <img src="Img/unaliwear-logo.png" alt="Logo UnaliWear Kanega Watch" style="margin-bottom: 5px;" width="800"> | <img src="Img/bayalarm-logo.png" alt="Logo Bay Alarm SOS Smartwatch" style="margin-bottom: 5px;" width="800"> | <img src="Img/bewell-logo.png" alt="Logo BeWell Alert Smartwatch" style="margin-bottom: 5px;" width="800"> |
+| **Competidor** |<img src="Img/logo.png" alt="Logo Nuestra Solución" style="margin-bottom: 5px;" width="800"> | <img src="Img/applewathc-logo.svg" alt="Logo Apple Watch" style="margin-bottom: 5px;" width="800"> | <img src="Img/unaliwear-logo.png" alt="Logo UnaliWear Kanega Watch" style="margin-bottom: 5px;" width="800"> | <img src="Img/bayalarm-logo.png" alt="Logo Bay Alarm SOS Smartwatch" style="margin-bottom: 5px;" width="800"> | <img src="Img/bewell-logo.png" alt="Logo BeWell Alert Smartwatch" style="margin-bottom: 5px;" width="800"> |
 | --------------------------- | ------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
 | **Perfil Overview** | **Nuestra Solucion**   Brazalete inteligente IoT con app móvil para monitoreo en tiempo real de signos vitales y detección de caídas en adultos mayores, enfocado en el mercado peruano. | Reloj inteligente con enfoque en monitoreo de salud, fitness y seguridad, incluyendo detección de caídas y signos vitales para usuarios mayores. | Reloj de alerta médica con detección de caídas, diseñado para protección 24/7 sin necesidad de recarga constante. | Reloj de alerta médica independiente con detección de caídas automática y seguimiento de ubicación para seniors activos. | Reloj inteligente para seniors con detección de caídas, monitoreo de signos vitales y GPS en tiempo real. |
 | **Ventaja competitiva** | Solución accesible y local con integración IoT completa, alertas inmediatas a cuidadores y servicios de emergencia, interfaz intuitiva para adultos mayores y soporte técnico cercano en Perú. | Sensores avanzados para ECG, detección de hipertensión y apnea del sueño, integración con ecosistema Apple. | Tecnología RealFall™ para detección precisa de caídas, batería intercambiable y conectividad dual (celular y WiFi). | Operación independiente sin smartphone, detección de caídas con IA y red 4G LTE para claridad y velocidad. | Dispositivo gratuito con suscripción, compliant con HIPAA, centro de emergencias certificado 24/7. |
@@ -2050,14 +2050,333 @@ El diseño refleja una clara orientación a DDD (Domain-Driven Design), donde la
 
 <div id='5.1.'><h3>5.1. Style Guidelines.</h3></div>
 <div id='5.1.1.'><h4>5.1.1. General Style Guidelines.</h4></div>
+
+**Nombre y Logotipo**
+
+El nombre AlertaVital transmite seguridad, tecnología y cuidado humano, reflejando el compromiso de la startup con la innovación en salud y el bienestar de las personas mayores.
+El logotipo de AlertaVital está compuesto por un símbolo y un logotipo tipográfico, donde el ícono combina elementos de tecnología y salud, como un corazón digital o una onda de pulso conectada, representando la conectividad IoT y la monitorización de signos vitales en tiempo real.
+
+El diseño general es limpio, minimalista y moderno, asegurando una identidad visual fácil de reconocer y adaptable a distintos entornos digitales, como aplicaciones móviles, wearables y plataformas web.
+El conjunto visual busca inspirar confianza, empatía y tranquilidad, alineado con la misión de la marca: cuidar y proteger la vida de los adultos mayores mediante soluciones tecnológicas accesibles.
+
+<div align="center">
+<img src="Img/logo.png">
+</div><br>
+
+**Tono de Comunicación**
+
+El tono de comunicación de AlertaVital será humano, confiable, empático y profesional.
+Se evita el lenguaje excesivamente técnico o distante, priorizando una comunicación clara y accesible para usuarios de todas las edades, especialmente adultos mayores y sus familias.
+El mensaje de la marca debe proyectar tranquilidad y apoyo, actuando como un asistente confiable y cercano que ofrece soluciones tecnológicas sin perder la calidez humana.
+
+**Colors**
+
+La identidad visual de AlertaVital se basa en una paleta de azules y celestes en degradado, que representa confianza, calma y tecnología, al mismo tiempo que evoca una sensación de serenidad y bienestar.
+El uso del degradado entre azul y celeste simboliza la transición entre lo humano y lo digital, mostrando la conexión entre las personas y la tecnología de cuidado.
+Los colores secundarios son blanco y gris suave, que aportan claridad, equilibrio visual y legibilidad.
+
+<div align="center">
+<img src="Img/general-styleguidelines.png">
+</div><br>
+
+**Typography**
+
+La tipografía principal de AlertaVital es Poppins, elegida por su claridad, modernidad y accesibilidad.
+Su estructura redondeada y legible transmite empatía y cercanía, mientras que su estilo geométrico refleja la precisión tecnológica del proyecto.
+Los títulos usan un peso seminegrita o negrita, los subtítulos un peso medio, y el texto regular se mantiene ligero y cómodo de leer en pantallas de diferentes tamaños.
+
+<div align="center">
+<img src="Img/Typography.png">
+</div><br>
+
+**Spacing**
+
+El sistema de espaciado en la interfaz de AlertaVital prioriza la legibilidad y la accesibilidad visual.
+Se aplican márgenes amplios (20px) entre secciones principales, padding de 16–18px en botones y elementos interactivos, y un interlineado de 1.5x en textos largos.
+Este enfoque garantiza una experiencia ordenada y fluida, especialmente para usuarios mayores o con menor familiaridad tecnológica.
+
+**Íconos de la aplicación**
+
+Los íconos de AlertaVital son minimalistas, coherentes y de trazo redondeado, alineados con la identidad del logotipo.
+Su diseño utiliza el mismo degradado azul-celeste para mantener una apariencia homogénea en toda la interfaz.
+Cada ícono tiene un propósito funcional claro: alertas, monitoreo, conexión y cuidado.
+Su consistencia visual refuerza la confianza y facilita la comprensión inmediata de las acciones dentro de la app.
+<div align="center">
+<img src="Img/icons.png">
+</div><br>
+
+**Lenguaje aplicado**
+
+El lenguaje de AlertaVital es formal, empático y tranquilizador, diseñado para inspirar confianza y cercanía.
+Se evita el uso de tecnicismos, priorizando frases cortas, claras y amables.
+La app y su web comunican con una voz que acompaña y guía, reflejando la visión de la startup: facilitar un envejecimiento saludable y autónomo mediante la tecnología.
+
+Consistencia
+
+AlertaVital mantiene consistencia visual y comunicativa en todas sus plataformas.
+El uso uniforme del degradado azul-celeste, la tipografía Poppins y los íconos minimalistas crea una identidad reconocible y confiable.
+Esta coherencia asegura que el usuario se sienta seguro y orientado, fortaleciendo la percepción de una marca tecnológica, empática y estable.
+
+Simplicidad
+
+El diseño prioriza la simplicidad y funcionalidad, eliminando elementos innecesarios y destacando solo la información relevante.
+El objetivo es que cualquier usuario, independientemente de su edad, pueda navegar fácilmente y comprender la app sin esfuerzo.
+La simplicidad refuerza la misión de AlertaVital: hacer que la tecnología del cuidado sea accesible y humana.
+
+Comunicación
+
+El sistema de comunicación visual de AlertaVital incluye confirmaciones visuales y auditivas al realizar acciones importantes, como registrar signos vitales o enviar una alerta.
+Estos elementos generan confianza y seguridad emocional, garantizando que el usuario siempre sepa que el sistema está activo y atento a su bienestar.
+Cada interacción busca transmitir calma, control y acompañamiento.
+
 <div id='5.1.2.'><h4>5.1.2. Web, Mobile and IoT Style Guidelines.</h4></div>
+
+**Diseño general**
+
+El diseño en los entornos web, móvil e IoT de AlertaVital mantiene una identidad visual uniforme, priorizando la claridad, accesibilidad y consistencia.
+Todos los componentes siguen la misma línea estética basada en colores azul y celeste degradados, acompañados de tonos neutros (blanco, gris y negro) para garantizar una presentación limpia, moderna y profesional.
+
+El objetivo es que la experiencia del usuario sea fluida y coherente, sin importar el dispositivo o entorno desde el cual interactúe con la plataforma (navegador, aplicación móvil o dispositivo IoT).
+
+**Colores y degradados**
+
+La paleta principal de AlertaVital se centra en la gama de azules y celestes para reflejar confianza, tecnología y bienestar.
+El uso de degradados suaves entre estos tonos crea una apariencia dinámica y moderna, sin perder sobriedad ni legibilidad.
+
+<div align="center">
+<img src="Img/general-styleguidelines.png">
+</div><br>
+
+Aplicación por entorno:
+
+- Web: degradados sutiles en cabeceras, botones de acción y secciones destacadas.
+
+- Móvil: colores planos con acentos degradados para mejorar contraste y legibilidad en pantallas pequeñas.
+
+- IoT: uso del azul principal para retroiluminación o pantallas LED, complementado por blanco y gris para mantener una lectura clara en entornos con poca luz.
+  
+**Tipografía**
+
+Se utiliza la tipografía Poppins o Roboto, asegurando una experiencia legible y moderna en cualquier dispositivo.
+Su diseño geométrico y redondeado transmite cercanía y precisión, ideal para productos tecnológicos enfocados en el cuidado de la salud.
+
+<div align="center">
+<img src="Img/Typography.png">
+</div><br>
+
+**Componentes visuales**
+
+Los elementos visuales de AlertaVital comparten una estética minimalista y funcional.
+Se prioriza la simplicidad para facilitar la interacción, especialmente en usuarios mayores.
+
+Principales componentes:
+
+- Botones: bordes redondeados, fondo azul-celeste degradado, texto blanco.
+
+- Tarjetas de información: fondo blanco o gris claro, sombras suaves para destacar contenido.
+
+- Alertas y notificaciones: colores azul degradado para alertas informativas y tonos celeste más brillante para mensajes positivos o de confirmación.
+
+- Gráficos de signos vitales: líneas finas en azul o celeste, fondo neutro y legibilidad clara.
+
+**Diseño responsivo**
+
+El diseño es completamente adaptable y mantiene su coherencia visual en todos los dispositivos.
+Los elementos se ajustan según el entorno:
+
+- Web: estructura modular, con secciones amplias y distribución en columnas.
+
+- Móvil: diseño vertical, botones amplios y navegación táctil optimizada.
+
+- IoT: interfaz reducida con elementos esenciales, priorizando claridad y reacción inmediata ante alertas.
+
+**Interacción y usabilidad**
+
+El sistema de diseño de AlertaVital se centra en la experiencia del usuario.
+Cada interacción debe generar claridad y confianza.
+
+Principios de interacción:
+
+- Retroalimentación inmediata: cambios de color o microanimaciones al interactuar con botones o íconos.
+
+- Estados visuales claros: diferenciación entre botones activos, inactivos y presionados.
+
+- Animaciones suaves: transiciones ligeras con degradados para dar sensación de fluidez.
+
+- Iconografía uniforme: íconos redondeados, minimalistas, en azul o celeste con fondo blanco.
+
 
 <div id='5.2.'><h3>5.2. Information Architecture.</h3></div>
 <div id='5.2.1.'><h4>5.2.1. Organization Systems.</h4></div>
+
+**Web App (Plataforma de Monitoreo y Gestión)**
+
+La estructura de la Web App se organiza en módulos funcionales accesibles desde un panel principal:
+
+- Dashboard general: muestra los signos vitales en tiempo real, alertas recientes y el estado del dispositivo.
+
+- Usuarios: listado de adultos mayores registrados y sus cuidadores.
+
+- Historial Médico: registros ordenados cronológicamente, con filtros por fecha y tipo de evento.
+
+- Alertas y Reportes: panel para revisar y exportar incidentes de caídas o variaciones críticas.
+
+- Configuración: gestión de cuentas, permisos y dispositivos IoT vinculados.
+
+La jerarquía prioriza el acceso rápido a información crítica (alertas y monitoreo), mientras que las opciones administrativas se ubican en segundo nivel.
+
+**Mobile App (Aplicación para Usuarios y Cuidadores)**
+
+En la aplicación móvil, la organización se centra en la facilidad de uso táctil, utilizando botones grandes, íconos visuales y una navegación simplificada.
+
+Las secciones principales son:
+
+- Monitoreo en Tiempo Real (pantalla principal): muestra ritmo cardíaco, oxigenación y actividad del usuario.
+
+- Alertas y Emergencias: notificaciones instantáneas con opción de contacto directo o envío de ubicación.
+
+- Historial de Salud: registros visuales y gráficos simples de las últimas mediciones.
+
+- Perfil del Usuario: información personal, configuraciones y dispositivos asociados.
+
+Ejemplo: la opción “Enviar alerta” o “SOS” se presenta como un botón flotante permanente en color azul degradado, accesible desde cualquier pantalla.
+
+**Landing Page (Sitio Web Informativo y Comercial)**
+
+La landing page sigue una estructura informativa con secuencia narrativa, diseñada para presentar el producto y captar nuevos usuarios.
+Sus secciones principales son:
+
+- Inicio: presentación del propósito de AlertaVital y su propuesta tecnológica.
+
+- Nosotros: información de la startup y su misión social.
+
+- Tecnología IoT: explicación del funcionamiento y beneficios del sistema.
+
+- Productos: presentación de la App, Web App y Dispositivo IoT.
+
+- Contáctanos: formulario, datos de contacto y enlaces a redes sociales.
+
+El contenido se organiza en bloques con encabezados grandes, íconos ilustrativos y llamados a la acción (CTA) como “Descargar App” o “Solicitar una demostración”.
+
+**Dispositivo IoT (Wearable Inteligente AlertaVital)**
+
+En el dispositivo IoT, la organización es mínima pero funcional, orientada a la inmediatez:
+
+- Pantalla principal: muestra los signos vitales más relevantes (frecuencia cardíaca, oxigenación, nivel de actividad).
+
+- Indicadores visuales (LED):
+ 
+  - Azul: conexión activa.
+
+  - Celeste: monitoreo estable.
+
+  - Rojo: alerta de caída o emergencia. 
+
+- Botón físico SOS: envía una alerta inmediata al cuidador registrado.
+
+La disposición busca evitar sobrecarga cognitiva, facilitando la respuesta rápida ante eventos críticos.
+
 <div id='5.2.2.'><h4>5.2.2. Labeling Systems.</h4></div>
+
+**Web App:**
+
+Las etiquetas son técnicas pero claras, orientadas a la gestión profesional. Ejemplos:
+
+- “Panel de Monitoreo”, “Historial Clínico”, “Alertas Activas”, “Configurar Dispositivo”.
+
+**Mobile App:**
+
+Se usan etiquetas simples y de acción directa, adaptadas a un público general:
+
+- “Ver Signos Vitales”, “Enviar Alerta”, “Historial”, “Mi Perfil”.
+
+**Landing Page:**
+
+Las secciones están etiquetadas con lenguaje natural, orientado a visitantes y posibles clientes:
+
+- “Nosotros”, “Tecnología IoT”, “Productos”, “Contáctanos”.
+
+**Dispositivo IoT:**
+
+Etiquetas visuales o breves textos universales:
+
+- “SOS”, “OK”, “Conectado”, “Batería Baja”
+
 <div id='5.2.3.'><h4>5.2.3. SEO Tags and Meta Tags</h4></div>
+
+Para maximizar la visibilidad en buscadores y tiendas de aplicaciones (ASO y SEO), AlertaVital implementa etiquetas descriptivas y optimizadas.
+
+**Web App / Landing Page:**
+
+- Título: “AlertaVital – Soluciones IoT para el Cuidado de Adultos Mayores”.
+
+- Meta descripción: “Monitorea signos vitales y detecta caídas en tiempo real con AlertaVital, tecnología IoT accesible para la seguridad y bienestar de los adultos mayores.”
+
+- Palabras clave: “IoT salud”, “detección de caídas”, “monitoreo remoto”, “cuidado adulto mayor”, “startup tecnología médica”.
+
+**Mobile App:**
+
+- Título: “AlertaVital – Monitoreo y Alertas IoT”.
+
+- Descripción corta: “Seguridad y salud en tu bolsillo. Supervisa signos vitales y recibe alertas en tiempo real.”
+
+- Descripción extendida: “AlertaVital conecta a las familias con sus seres queridos mayores mediante tecnología IoT, ofreciendo monitoreo constante, alertas inmediatas y tranquilidad en todo momento.”
+
+- Palabras clave: “app salud IoT, adultos mayores, seguridad médica, wearable, cuidado remoto”.
+
+**IoT Device:**
+
+Aunque no aplica SEO tradicional, se incluye metadata técnica en la app que lo gestiona (identificador del dispositivo, modelo, versión de firmware), útil para indexación en sistemas conectados y compatibilidad de API.
+
 <div id='5.2.4.'><h4>5.2.4. Searching Systems.</h4></div>
+
+**Web App:**
+Incluye una barra de búsqueda avanzada con filtros por usuario, rango de fechas, tipo de alerta o parámetros fisiológicos (ej. “frecuencia cardíaca”).
+Ejemplo: un cuidador puede buscar “caídas de octubre” o “alertas de oxigenación baja” y acceder a los registros precisos.
+
+**Mobile App:**
+Integra búsqueda contextual con resultados dinámicos, permitiendo localizar pacientes, alertas o historiales directamente desde el menú principal.
+Ejemplo: al escribir “Pedro López”, el sistema muestra su historial y datos de monitoreo más recientes.
+
+**Landing Page:**
+Dispone de una búsqueda informativa simple que facilita encontrar secciones o artículos como “Beneficios del IoT” o “Cómo funciona AlertaVital”.
+
+**Dispositivo IoT:**
+No dispone de búsqueda textual; su sistema “busca” de forma automatizada patrones irregulares en signos vitales, generando alertas automáticas al detectar anomalías.
+
 <div id='5.2.5.'><h4>5.2.5. Navigation Systems.</h4></div>
+
+**Menú Principal:**
+
+- **Web App:**
+Navegación lateral fija tipo dashboard, con iconos representativos y estados activos en azul degradado.
+Ejemplo: el módulo “Alertas” se resalta con color celeste brillante cuando hay notificaciones nuevas.
+
+- **Mobile App:**
+Menú inferior con iconos grandes y etiquetas: “Inicio”, “Alertas”, “Historial”, “Perfil”.
+Ejemplo: un botón flotante de emergencia (“SOS”) permite enviar alertas desde cualquier pantalla.
+
+- **Landing Page:**
+Menú superior fijo con anclas internas a secciones como “Inicio”, “Nosotros”, “Tecnología”, “Productos” y “Contáctanos”.
+En móviles, se transforma en un menú hamburguesa con íconos minimalistas.
+
+- **Dispositivo IoT:**
+Navegación física simple con botones “SOS” y “Menú”.
+Indicadores visuales cambian de color según el estado del dispositivo, guiando al usuario sin necesidad de texto.
+
+**Navegación Contextual:**
+
+- **Web App:**
+Desde el historial de un usuario, se puede acceder a su monitoreo en tiempo real o enviar una alerta manual.
+
+- **Mobile App:**
+Desde una alerta recibida, se puede abrir directamente el perfil del paciente y ver sus signos vitales actuales.
+
+- **Landing Page:**
+En “Tecnología IoT”, enlaces conducen a “Productos” o “Contáctanos”, manteniendo la fluidez.
+
+- **IoT Device:**
+Un toque prolongado en el botón principal activa la función SOS o reinicia la conexión, facilitando navegación táctil mínima.
 
 <div id='5.3.'><h3>5.3. Landing Page UI Design.</h3></div>
 <div id='5.3.1.'><h4>5.3.1. Landing Page Wireframe.</h4></div>
@@ -2097,9 +2416,44 @@ Sección de Descargas de aplicación móvil y pie de página:
   <img src="./Img/wf6.png">
 </div>
 
+### Wireframe Landing Page (Mobile)
+
+Sección Principal de la landing page:
+
+<div align = "center">
+  <img src="./Img/wfm1.png">
+</div>
+
+
+Sección Características y Beneficios:
+<div align = "center">
+  <img src="./Img/wfm2.png">
+</div>
+
+Sección Antecedentes:
+<div align = "center">
+  <img src="./Img/wfm3.png">
+</div>
+
+Sección "Acerca de":
+<div align = "center">
+  <img src="./Img/wfm4.png">
+</div>
+
+Sección de Formulario de contacto:
+
+<div align = "center">
+  <img src="./Img/wfm5.png">
+</div>
+
+Sección de Descargas de aplicación móvil y pie de página:
+<div align = "center">
+  <img src="./Img/wfm6.png">
+</div>
 
 <div id='5.3.2.'><h4>5.3.2. Landing Page Mock-up.</h4></div>
 
+### Mockups Landing Page (Desktop)
 
 Sección Principal de la landing page
 
@@ -2137,13 +2491,397 @@ Sección de Descargas de aplicación móvil y pie de página:
   <img src="./Img/mockup6.png">
 </div>
 
+### Mockups Landing Page (Mobile)
+
+Sección Principal de la landing page
+
+<div align = "center">
+  <img src="./Img/mockupm1.png">
+</div>
+
+Sección Características y Beneficios:
+
+<div align = "center">
+  <img src="./Img/mockupm2.png">
+</div>
+
+Sección Antecedentes:
+
+<div align = "center">
+  <img src="./Img/mockupm3.png">
+</div>
+
+Sección "Acerca de":
+
+<div align = "center">
+  <img src="./Img/mockupm4.png">
+</div>
+
+Sección de Formulario de contacto:
+
+<div align = "center">
+  <img src="./Img/mockupm5.png">
+</div>
+
+Sección de Descargas de aplicación móvil y pie de página:
+
+<div align = "center">
+  <img src="./Img/mockupm6.png">
+</div>
+
+
 <div id='5.4.'><h3>5.4. Applications UX/UI Design.</h3></div>
 <div id='5.4.1.'><h4>5.4.1. Applications Wireframes.</h4></div>
+
+**Application wireframes (Desktop)**
+
+Register
+
+<div align = "center">
+  <img src="./Img/webappwf2.png">
+</div>
+
+Login
+
+<div align = "center">
+  <img src="./Img/webappwf1.png">
+</div>
+
+Dashboard
+
+<div align = "center">
+  <img src="./Img/webappwf3.png">
+</div>
+
+Emergencia
+
+<div align = "center">
+  <img src="./Img/webappwf4.png">
+</div>
+
+Signos Vitales
+
+<div align = "center">
+  <img src="./Img/webappwf5.png">
+</div>
+
+Alteraciones
+
+<div align = "center">
+  <img src="./Img/webappwf6.png">
+</div>
+
+Perfil
+
+<div align = "center">
+  <img src="./Img/webappwf6.png">
+</div>
+
+**Application wireframes (mobile)**
+
+Register
+
+<div align = "center">
+  <img src="./Img/webappwfm2.png">
+</div>
+
+Login
+
+<div align = "center">
+  <img src="./Img/webappwfm1.png">
+</div>
+
+Dashboard
+
+<div align = "center">
+  <img src="./Img/webappwfm3.png">
+</div>
+
+Emergencia
+
+<div align = "center">
+  <img src="./Img/webappwfm4.png">
+</div>
+
+Signos Vitales
+
+<div align = "center">
+  <img src="./Img/webappwfm5.png">
+</div>
+
+Alteraciones
+
+<div align = "center">
+  <img src="./Img/webappwfm6.png">
+</div>
+
+Perfil
+
+<div align = "center">
+  <img src="./Img/webappwfm7.png">
+</div>
+
 <div id='5.4.2.'><h4>5.4.2. Applications Wireflow Diagrams.</h4></div>
+
+**Applications Wireflows Diagrams (Desktop)**
+
+User Goal: Autenticación y gestión de cuenta
+
+<div align = "center">
+  <img src="./Img/wflow1.png">
+</div>
+
+User Goal: Gestión de Perfil de Usuario
+
+<div align = "center">
+  <img src="./Img/wflow2.png">
+</div>
+
+User Goal: Monitoreo de Signos Vitales
+
+<div align = "center">
+  <img src="./Img/wflow3.png">
+</div>
+
+User Goal: Registro y Seguimiento de alteraciones
+
+<div align = "center">
+  <img src="./Img/wflow4.png">
+</div>
+
+User Goal: Emergencias y Alerta
+
+<div align = "center">
+  <img src="./Img/wflow5.png">
+</div>
+
+User Goal: Soporte al Tratamiento
+
+<div align = "center">
+  <img src="./Img/wflow6.png">
+</div>
+
+**Applications Wireflows Diagrams (Mobile)**
+
+User Goal: Autenticación y gestión de cuenta
+
+<div align = "center">
+  <img src="./Img/wflowm1.png">
+</div>
+
+User Goal: Gestión de Perfil de Usuario
+
+<div align = "center">
+  <img src="./Img/wflowm2.png">
+</div>
+
+User Goal: Monitoreo de Signos Vitales
+
+<div align = "center">
+  <img src="./Img/wflowm3.png">
+</div>
+
+User Goal: Registro y Seguimiento de alteraciones
+
+<div align = "center">
+  <img src="./Img/wflowm4.png">
+</div>
+
+User Goal: Emergencias y Alerta
+
+<div align = "center">
+  <img src="./Img/wflowm5.png">
+</div>
+
+User Goal: Soporte al Tratamiento
+
+<div align = "center">
+  <img src="./Img/wflowm6.png">
+</div>
+
 <div id='5.4.2.1.'><h5>5.4.2. Applications Mock-ups.</h5></div>
+
+**Application Mock-ups (Desktop)**
+
+Register
+
+<div align = "center">
+  <img src="./Img/webappmo1.png">
+</div>
+
+Login
+
+<div align = "center">
+  <img src="./Img/webappmo2.png">
+</div>
+
+Dashboard
+
+<div align = "center">
+  <img src="./Img/webappmo3.png">
+</div>
+
+Emergencia
+
+<div align = "center">
+  <img src="./Img/webappmo4.png">
+</div>
+
+Signos Vitales
+
+<div align = "center">
+  <img src="./Img/webappmo5.png">
+</div>
+
+Alteraciones
+
+<div align = "center">
+  <img src="./Img/webappmo6.png">
+</div>
+
+Perfil
+
+<div align = "center">
+  <img src="./Img/webappmo6.png">
+</div>
+
+**Application Mock-ups (mobile)**
+
+Register
+
+<div align = "center">
+  <img src="./Img/webappmom1.png">
+</div>
+
+Login
+
+<div align = "center">
+  <img src="./Img/webappmom2.png">
+</div>
+
+Dashboard
+
+<div align = "center">
+  <img src="./Img/webappmom3.png">
+</div>
+
+Emergencia
+
+<div align = "center">
+  <img src="./Img/webappmom4.png">
+</div>
+
+Signos Vitales
+
+<div align = "center">
+  <img src="./Img/webappmom5.png">
+</div>
+
+Alteraciones
+
+<div align = "center">
+  <img src="./Img/webappmom6.png">
+</div>
+
+Perfil
+
+<div align = "center">
+  <img src="./Img/webappmom7.png">
+</div>
+
+
 <div id='5.4.3.'><h4>5.4.3. Applications User Flow Diagrams.</h4></div>
 
+**Applications User Flow Diagrams (Desktop)**
+
+Link Lucid: https://lucid.app/lucidchart/217716ff-f8b0-4cf2-a47f-ce803460c6f1/edit?invitationId=inv_ae9bfffb-0ebf-41e1-be65-e88fde48c9a1&page=0_0#
+
+User Goal: Autenticación y gestión de cuenta
+
+<div align = "center">
+  <img src="./Img/userflow1.png">
+</div>
+
+User Goal: Gestión de Perfil de Usuario
+
+<div align = "center">
+  <img src="./Img/userflow2.png">
+</div>
+
+User Goal: Monitoreo de Signos Vitales
+
+<div align = "center">
+  <img src="./Img/userflow3.png">
+</div>
+
+User Goal: Registro y Seguimiento de alteraciones
+
+<div align = "center">
+  <img src="./Img/userflow4.png">
+</div>
+
+User Goal: Emergencias y Alerta
+
+<div align = "center">
+  <img src="./Img/userflow5.png">
+</div>
+
+User Goal: Soporte al Tratamiento
+
+<div align = "center">
+  <img src="./Img/userflow6.png">
+</div>
+
+
+**Applications User Flow Diagrams (Mobile)**
+
+Link Lucid: https://lucid.app/lucidchart/56228267-948d-4917-a4ce-c1c0a8345ffc/edit?view_items=HBfY-7Xjwzhr&page=vAfYoJjIZ-Tr&invitationId=inv_6667df5d-4724-4df5-bc23-452b278a75f8
+User Goal: Autenticación y gestión de cuenta
+
+<div align = "center">
+  <img src="./Img/userflowm1.png">
+</div>
+
+User Goal: Gestión de Perfil de Usuario
+
+<div align = "center">
+  <img src="./Img/userflowm2.png">
+</div>
+
+User Goal: Monitoreo de Signos Vitales
+
+<div align = "center">
+  <img src="./Img/userflowm3.png">
+</div>
+
+User Goal: Registro y Seguimiento de alteraciones
+
+<div align = "center">
+  <img src="./Img/userflowm4.png">
+</div>
+
+User Goal: Emergencias y Alerta
+
+<div align = "center">
+  <img src="./Img/userflowm6.png">
+</div>
+
+User Goal: Soporte al Tratamiento
+
+<div align = "center">
+  <img src="./Img/userflowm5.png">
+</div>
+
+
 <div id='5.5.'><h3>5.5. Applications Prototyping.</h3></div>
+
+<div align = "center">
+  <img src="./Img/prototipo.png">
+</div>
+
+
+Link Prototipo: https://www.figma.com/proto/wDXE0NQLCOx7ccB5TPlRYr/IoT?node-id=73-6622&t=pD1aaJtBOTr4UEQg-1&scaling=contain&content-scaling=fixed&page-id=1%3A2&starting-point-node-id=73%3A6622&show-proto-sidebar=1
+
 
 
 <div id='6.'><h2>Capítulo VI: Product Implementation, Validation & Deployment</h2></div>
