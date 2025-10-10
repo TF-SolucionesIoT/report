@@ -10,6 +10,7 @@ width=50%"/>
 <h5 style="text-align: center"> Área: Ingeniería de Software </h5>
 
 <h5 style="text-align: center"> Curso: Desarrollo de Soluciones IoT </h5>
+<h5 style="text-align: center"> Código del curso: 1ASI0572 </h5>
 <h5 style="text-align: center"> NRC: 3428 </h5>
 
 <h5 style="text-align: center"> Docente: Marco Antonio León Baca</h5>
@@ -34,7 +35,7 @@ width=50%"/>
 
 <br><br><br><br><br><br><br><br><br><br><br>
 
-<h5 style="text-align: center"> Ciclo 2025-02 </h5>
+<h5 style="text-align: center"> Ciclo 2025-20 </h5>
 
 # Registro de Versiones del Informe
 
@@ -246,47 +247,49 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
     <tr>
       <td>Trabaja en equipo para proporcionar liderazgo en forma conjunta</td>
       <td>
-      <b>Bohorquez Lerzundi Gerardo Sebastián:</b>
-       <br> 
-       <b>TB1:</b> Participé activamente en reuniones del grupo, compartiendo ideas y propuestas sobre la estructuración del Bounded Context de Monitoring, organizando la funcionalidad en servicios y capas de arquitectura. Además, coordiné con mis compañeros para asegurar que las tareas se distribuyeran de manera equitativa y que cada miembro comprendiera su rol dentro del proyecto.
-        <br><br>
-      <strong>Huanaco Huayta, Elizabeth Lucero</strong><br>
-      <strong>TB1:</strong><br>
-      El desarrollo de estas tareas, desde la aplicación del Lean UX Process hasta la definición del Bounded Context: Treatment Support con sus diferentes capas y diagramas, me permitió trabajar en equipo de manera organizada y colaborativa. Cada actividad requirió discutir ideas, validar supuestos, formular hipótesis y estructurar el diseño técnico de forma conjunta, lo que fomentó la toma de decisiones compartida y la distribución de responsabilidades. Este proceso fortaleció la comunicación y coordinación dentro del grupo, lo que me permitió contribuir activamente a alcanzar el objetivo común.<br><br><b>
-        Huapaya Cuevas, Anthony Martin:</b><br>
-        <b>TB1:</b> En el equipo aporté liderazgo conjunto al desarrollar el Lean UX Process, ya que ayudó a estructurar nuestras hipótesis y experimentos de manera clara, lo que facilitó la toma de decisiones colaborativas. Además, trabajé en los bounded context canvases de health tracking, lo que permitió al grupo alinear la visión del sistema y delimitar responsabilidades dentro del diseño, favoreciendo un liderazgo distribuido. Finalmente, al realizar el registro de entrevistas, contribuí a organizar la información obtenida de los usuarios, asegurando que todo el equipo pudiera basar sus decisiones en evidencia real y compartida.
-        <br><br>
-        <b>Silva Tirado, Sebastián:</b> <br>
-        TB1: Coordinó la distribución de responsabilidades entre los integrantes del equipo, 
-        fomentando la toma de decisiones de manera consensuada. Propuso soluciones 
-        ante dificultades técnicas y apoyó a sus compañeros en la comprensión de las tareas asignadas. <br><br>
-        <b>Uribe Quispe Jesús Guillermo:</b><br> Coordiné la elaboración de la arquitectura, proceso de eventstorming y needfinding. Ayudando a mis compañeros a realizar dicho proceso.
+        <b>Bohorquez Lerzundi Gerardo Sebastián:</b><br>
+        <b>TB1:</b> Participé activamente en reuniones del grupo, compartiendo ideas y propuestas sobre la estructuración del Bounded Context de Monitoring, organizando la funcionalidad en servicios y capas de arquitectura. Además, coordiné con mis compañeros para asegurar que las tareas se distribuyeran de manera equitativa y que cada miembro comprendiera su rol dentro del proyecto.<br>
+        <b>TP1:</b> En la segunda entrega, lideré la integración de nuevas funcionalidades en el sistema, facilitando la revisión de código y la resolución de conflictos entre ramas. Promoví la colaboración en la documentación técnica y la validación de los diagramas de arquitectura, asegurando que todos los integrantes participaran en la toma de decisiones sobre el diseño final.<br><br>
+        <strong>Huanaco Huayta, Elizabeth Lucero</strong><br>
+        <strong>TB1:</strong> El desarrollo de estas tareas, desde la aplicación del Lean UX Process hasta la definición del Bounded Context: Treatment Support con sus diferentes capas y diagramas, me permitió trabajar en equipo de manera organizada y colaborativa. Cada actividad requirió discutir ideas, validar supuestos, formular hipótesis y estructurar el diseño técnico de forma conjunta, lo que fomentó la toma de decisiones compartida y la distribución de responsabilidades. Este proceso fortaleció la comunicación y coordinación dentro del grupo, lo que me permitió contribuir activamente a alcanzar el objetivo común.<br>
+        <strong>TP1:</strong> En la segunda fase, participé en la revisión y mejora de los flujos de usuario y wireframes, coordinando sesiones de feedback con el equipo. Impulsé la integración de los prototipos en Figma y la validación conjunta de los criterios de aceptación, asegurando que el liderazgo fuera compartido y que todos los miembros pudieran aportar en la definición de la experiencia de usuario.<br><br>
+        <b>Huapaya Cuevas, Anthony Martin:</b><br>
+        <b>TB1:</b> En el equipo aporté liderazgo conjunto al desarrollar el Lean UX Process, ya que ayudó a estructurar nuestras hipótesis y experimentos de manera clara, lo que facilitó la toma de decisiones colaborativas. Además, trabajé en los bounded context canvases de health tracking, lo que permitió al grupo alinear la visión del sistema y delimitar responsabilidades dentro del diseño, favoreciendo un liderazgo distribuido. Finalmente, al realizar el registro de entrevistas, contribuí a organizar la información obtenida de los usuarios, asegurando que todo el equipo pudiera basar sus decisiones en evidencia real y compartida.<br>
+        <b>TP1:</b> En la segunda entrega, lideré la integración de los resultados de las entrevistas en el diseño de la arquitectura, coordinando la actualización de los diagramas y la documentación. Fomenté la participación activa de los miembros en la validación de los casos de uso y la revisión de los criterios de aceptación, consolidando el liderazgo conjunto en la toma de decisiones técnicas.<br><br>
+        <b>Silva Tirado, Sebastián:</b><br>
+        <b>TB1:</b> Coordinó la distribución de responsabilidades entre los integrantes del equipo, fomentando la toma de decisiones de manera consensuada. Propuso soluciones ante dificultades técnicas y apoyó a sus compañeros en la comprensión de las tareas asignadas.<br>
+        <b>TP1:</b> En la segunda fase, lideré la planificación de los sprints y la asignación de tareas, asegurando que cada integrante tuviera claridad sobre sus responsabilidades. Promoví la revisión cruzada de entregables y la resolución colaborativa de problemas, fortaleciendo el liderazgo compartido y la cohesión del grupo.<br><br>
+        <b>Uribe Quispe Jesús Guillermo:</b><br>
+        <b>TB1:</b> Coordiné la elaboración de la arquitectura, proceso de eventstorming y needfinding. Ayudando a mis compañeros a realizar dicho proceso.<br>
+        <b>TP1:</b> En la segunda entrega, lideré la integración de los diagramas de arquitectura y la documentación técnica, facilitando la revisión y validación conjunta de los modelos. Promoví la participación activa en la definición de los flujos de trabajo y la toma de decisiones sobre la estructura final del sistema.<br>
       </td>
       <td>
-      <b>TB1:</b> En conclusión, el equipo evidenció una dinámica de trabajo basada en la colaboración, la organización y el liderazgo compartido, donde cada integrante asumió un rol activo en la construcción de los bounded contexts, la aplicación del Lean UX Process y el diseño de la arquitectura del sistema. La distribución equitativa de tareas, la discusión de ideas y la validación conjunta de hipótesis fortalecieron la comunicación y la coordinación, lo que permitió tomar decisiones consensuadas y afrontar con eficacia los retos técnicos. Gracias a esta sinergia, el grupo logró estructurar de manera sólida los distintos dominios del proyecto y avanzar de forma ordenada hacia los objetivos comunes.
+        <b>TB1:</b> En conclusión, el equipo evidenció una dinámica de trabajo basada en la colaboración, la organización y el liderazgo compartido, donde cada integrante asumió un rol activo en la construcción de los bounded contexts, la aplicación del Lean UX Process y el diseño de la arquitectura del sistema. La distribución equitativa de tareas, la discusión de ideas y la validación conjunta de hipótesis fortalecieron la comunicación y la coordinación, lo que permitió tomar decisiones consensuadas y afrontar con eficacia los retos técnicos. Gracias a esta sinergia, el grupo logró estructurar de manera sólida los distintos dominios del proyecto y avanzar de forma ordenada hacia los objetivos comunes.<br>
+        <b>TP1:</b> En la segunda entrega, el liderazgo conjunto se consolidó mediante la integración de nuevas funcionalidades, la validación colaborativa de los prototipos y la revisión técnica de los diagramas. La participación activa de todos los miembros en la toma de decisiones y la resolución de conflictos permitió fortalecer la cohesión del equipo y avanzar de manera eficiente hacia los objetivos planteados, demostrando una capacidad sólida para liderar y coordinar el trabajo en equipo.
       </td>
     </tr>
     <tr>
       <td>Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.</td>
       <td>
-        <br><br><b>Bohorquez Lerzundi Gerardo Sebastián</b><br> 
-       <b>TB1:</b>  Contribuí en la fase de needfinding, realizando análisis de user persona y empathy map para identificar necesidades reales de los usuarios. Esto permitió al grupo empatizar con los clientes y definir soluciones más ajustadas. También participé en la planificación de tareas del proyecto, ayudando a cumplir objetivos establecidos en tiempo y forma.<br><br>
+        <b>Bohorquez Lerzundi Gerardo Sebastián:</b><br>
+        <b>TB1:</b> Contribuí en la fase de needfinding, realizando análisis de user persona y empathy map para identificar necesidades reales de los usuarios. Esto permitió al grupo empatizar con los clientes y definir soluciones más ajustadas. También participé en la planificación de tareas del proyecto, ayudando a cumplir objetivos establecidos en tiempo y forma.<br>
+        <b>TP1:</b> En la segunda entrega, colaboré en la definición de los objetivos del sprint y la planificación de las tareas, asegurando que el entorno de trabajo fuera inclusivo y que todos los miembros pudieran aportar sus ideas. Fomenté la revisión cruzada de entregables y la retroalimentación constante, lo que permitió cumplir los objetivos en los plazos establecidos.<br><br>
         <strong>Huanaco Huayta, Elizabeth Lucero</strong><br>
-      <strong>TB1:</strong><br>
-      Durante el desarrollo de estas tareas logré desarrollar junto a mi equipo un entorno colaborativo e inclusivo, en el que cada integrante pudo aportar ideas y conocimientos desde su experiencia. Definimos metas claras, como la elaboración del Lean UX Canvas y los diferentes Bounded Context, lo que nos permitió planificar tareas de manera ordenada y asignarlas. Gracias a esta organización, pudimos cumplir con los objetivos establecidos en el tiempo acordado, fortaleciendo la participación equitativa y el compromiso hacia el proyecto del curso.<br><br>
+        <strong>TB1:</strong> Durante el desarrollo de estas tareas logré desarrollar junto a mi equipo un entorno colaborativo e inclusivo, en el que cada integrante pudo aportar ideas y conocimientos desde su experiencia. Definimos metas claras, como la elaboración del Lean UX Canvas y los diferentes Bounded Context, lo que nos permitió planificar tareas de manera ordenada y asignarlas. Gracias a esta organización, pudimos cumplir con los objetivos establecidos en el tiempo acordado, fortaleciendo la participación equitativa y el compromiso hacia el proyecto del curso.<br>
+        <strong>TP1:</strong> En la segunda fase, participé en la planificación de los sprints y la definición de los entregables, promoviendo la inclusión de todos los miembros en la toma de decisiones. Coordiné la revisión de los prototipos y la validación de los criterios de aceptación, asegurando que el entorno de trabajo fuera colaborativo y que los objetivos se cumplieran en los plazos establecidos.<br><br>
         <b>Huapaya Cuevas, Anthony Martin:</b><br>
-        TB1: Durante el proyecto fomenté un entorno colaborativo e inclusivo al aplicar el Lean UX Process, donde todas las ideas del equipo fueron consideradas y priorizadas de manera conjunta. A través de los bounded context canvases de health tracking, ayudé a establecer metas claras y a planificar tareas específicas relacionadas con el diseño de los dominios, asegurando que cada miembro comprendiera su responsabilidad. Con el registro de entrevistas, contribuí a cumplir los objetivos del equipo, ya que la información recogida permitió orientar el diseño hacia las necesidades reales de los usuarios.<br>
-        <br><b>Silva Tirado, Sebastian: </b><br>
-        TB1: Promovió reuniones periódicas para definir objetivos y plazos, fomentó la 
-        participación activa de cada miembro y aseguró que las ideas fueran valoradas por igual. 
-        Elaboró un cronograma de actividades y dio seguimiento al cumplimiento de tareas.
-        <br><br>
-        <b>Uribe Quispe, Jesús Guillermo</b><br>
-        <b>TB1:</b><br>
-        Cree canales de comunicación entre mis compañeros y yo para desenvolvernos mejor en el proyecto. Además tracé y designé tareas con tiempo para una mayor eficiencia en la realización del entregable.
+        <b>TB1:</b> Durante el proyecto fomenté un entorno colaborativo e inclusivo al aplicar el Lean UX Process, donde todas las ideas del equipo fueron consideradas y priorizadas de manera conjunta. A través de los bounded context canvases de health tracking, ayudé a establecer metas claras y a planificar tareas específicas relacionadas con el diseño de los dominios, asegurando que cada miembro comprendiera su responsabilidad. Con el registro de entrevistas, contribuí a cumplir los objetivos del equipo, ya que la información recogida permitió orientar el diseño hacia las necesidades reales de los usuarios.<br>
+        <b>TP1:</b> En la segunda entrega, colaboré en la planificación de los sprints y la asignación de tareas, promoviendo la inclusión de todos los miembros en la toma de decisiones. Fomenté la revisión cruzada de entregables y la retroalimentación constante, lo que permitió cumplir los objetivos en los plazos establecidos y fortalecer el entorno colaborativo.<br><br>
+        <b>Silva Tirado, Sebastian:</b><br>
+        <b>TB1:</b> Promovió reuniones periódicas para definir objetivos y plazos, fomentó la participación activa de cada miembro y aseguró que las ideas fueran valoradas por igual. Elaboró un cronograma de actividades y dio seguimiento al cumplimiento de tareas.<br>
+        <b>TP1:</b> En la segunda fase, coordinó la planificación de los sprints y la definición de los entregables, asegurando que el entorno de trabajo fuera inclusivo y que todos los miembros pudieran aportar sus ideas. Fomentó la revisión cruzada de entregables y la retroalimentación constante, lo que permitió cumplir los objetivos en los plazos establecidos.<br><br>
+        <b>Uribe Quispe, Jesús Guillermo:</b><br>
+        <b>TB1:</b> Cree canales de comunicación entre mis compañeros y yo para desenvolvernos mejor en el proyecto. Además tracé y designé tareas con tiempo para una mayor eficiencia en la realización del entregable.<br>
+        <b>TP1:</b> En la segunda entrega, coordiné la planificación de los sprints y la definición de los entregables, promoviendo la inclusión de todos los miembros en la toma de decisiones. Fomenté la revisión cruzada de entregables y la retroalimentación constante, lo que permitió cumplir los objetivos en los plazos establecidos y fortalecer el entorno colaborativo.<br>
       </td>
       <td>
-       <b>TB1:</b> En conjunto, el equipo demostró un trabajo colaborativo e inclusivo, en el que cada integrante aportó desde su rol al cumplimiento de los objetivos planteados. A través de la aplicación de metodologías como Lean UX y herramientas como empathy maps, user personas y bounded contexts, lograron definir necesidades reales de los usuarios, establecer metas claras, planificar tareas de manera organizada y dar seguimiento a su ejecución. La comunicación constante, la distribución equitativa de responsabilidades y la valoración de las ideas de todos los miembros fortalecieron el compromiso y permitieron alcanzar los entregables en los tiempos acordados, consolidando así un proceso de trabajo eficiente y orientado a resultados.
+        <b>TB1:</b> En conjunto, el equipo demostró un trabajo colaborativo e inclusivo, en el que cada integrante aportó desde su rol al cumplimiento de los objetivos planteados. A través de la aplicación de metodologías como Lean UX y herramientas como empathy maps, user personas y bounded contexts, lograron definir necesidades reales de los usuarios, establecer metas claras, planificar tareas de manera organizada y dar seguimiento a su ejecución. La comunicación constante, la distribución equitativa de responsabilidades y la valoración de las ideas de todos los miembros fortalecieron el compromiso y permitieron alcanzar los entregables en los tiempos acordados, consolidando así un proceso de trabajo eficiente y orientado a resultados.<br>
+        <b>TP1:</b> En la segunda entrega, el equipo consolidó el entorno colaborativo e inclusivo mediante la planificación conjunta de los sprints, la definición de los objetivos y la revisión cruzada de los entregables. La participación activa de todos los miembros en la toma de decisiones y la retroalimentación constante permitieron cumplir los objetivos en los plazos establecidos, fortaleciendo la cohesión del grupo y la eficiencia en el trabajo en equipo.
       </td>
     </tr>
   </tbody>
@@ -954,7 +957,43 @@ A continuación, se presenta una matriz de tareas enfocada en María Luisa Ramí
 
 <div id='3.1.'><h3>3.1. User Stories</h3></div>
 
-<table class="tg"><thead>
+| Epic / Story ID | Título | Descripción | Criterios de Aceptación | Relacionado con (Epic ID) |
+|-----------------|---------|--------------|-------------------------------------------|---------------------------|
+| **EP001** | **Autenticación y Gestión de Cuenta** | Funcionalidades relacionadas con el acceso inicial del usuario (registro, inicio de sesión y recuperación). | | |
+| US01 | Registrar usuario | Como adulto mayor o cuidador, quiero registrarme en la aplicación para acceder a los servicios de monitoreo. | **ES1:** Registro exitoso → Al completar datos válidos y pulsar *Registrarme*, se confirma y redirige al inicio de sesión.<br>**ES2:** Validaciones → Si el correo o contraseña son inválidos, muestra error y bloquea envío.<br>**ES3:** Correo ya registrado → Si el correo existe, informa y ofrece *Recuperar cuenta*. | EP001 |
+| US02 | Iniciar sesión | Como usuario, quiero iniciar sesión para acceder a mi perfil y datos de salud. | **ES1:** Inicio válido → Con credenciales correctas accede al panel principal.<br>**ES2:** Credenciales inválidas → Muestra error y ofrece *Olvidé mi contraseña*.<br>**ES3:** Cuenta no verificada → Solicita verificación o informa bloqueo temporal. | EP001 |
+| US03 | Recuperar cuenta | Como usuario, quiero recuperar mi cuenta si olvido mis credenciales. | **ES1:** Solicitud de restablecimiento → Envío de enlace al correo registrado.<br>**ES2:** Correo no registrado → Mensaje genérico (“si existe el correo…”).<br>**ES3:** Enlace expirado → Indica vencimiento y permite generar uno nuevo. | EP001 |
+| **EP002** | **Gestión de Perfil de Usuario** | Administración de datos personales, visualización y actualización de credenciales. | | |
+| US04 | Ver perfil | Como usuario, quiero visualizar mi información personal registrada. | **ES1:** Visualización correcta → Muestra datos completos al estar autenticado.<br>**ES2:** Sin conexión → Muestra datos en caché con aviso de sincronización.<br>**ES3:** Accesibilidad → Ajuste de fuentes sin pérdida de contenido. | EP002 |
+| US05 | Cambiar datos personales | Como usuario, quiero actualizar mis datos para mantener la información al día. | **ES1:** Actualización exitosa → Cambios guardados y confirmados.<br>**ES2:** Validaciones → Formatos incorrectos muestran error.<br>**ES3:** Conflicto → Notifica cambios desde otro dispositivo y permite resolver. | EP002 |
+| US06 | Cambiar contraseña | Como usuario, quiero cambiar mi contraseña para mantener mi cuenta segura. | **ES1:** Cambio exitoso → Actualiza credencial y cierra otras sesiones.<br>**ES2:** Error → Si la actual o nueva no cumplen requisitos, muestra mensaje.<br>**ES3:** Reautenticación → Solicita contraseña actual por seguridad. | EP002 |
+| US07 | Cambiar correo | Como usuario, quiero actualizar mi correo electrónico. | **ES1:** Cambio con verificación → Envía correo de confirmación antes de actualizar.<br>**ES2:** Correo inválido/duplicado → Error y no se guarda.<br>**ES3:** No verificación → Reversión al correo anterior tras vencimiento. | EP002 |
+| **EP003** | **Monitoreo de Signos Vitales** | Visualización de frecuencia cardiaca, presión arterial y oxigenación en tiempo real. | | |
+| US08 | Ver frecuencia cardiaca | Como usuario, quiero ver mi frecuencia cardiaca en tiempo real. | **ES1:** Lectura en tiempo real → Muestra BPM y estado de conexión.<br>**ES2:** Sin conexión → Último valor conocido y sugerencia de reconexión.<br>**ES3:** Filtros → Permite seleccionar intervalos de tiempo. | EP003 |
+| US09 | Ver presión arterial | Como usuario, quiero consultar mi presión arterial. | **ES1:** Lectura correcta → Muestra sistólica y diastólica.<br>**ES2:** Unidad y calibración → Indica mmHg y última calibración.<br>**ES3:** Falta parcial → Muestra aviso si falta un valor. | EP003 |
+| US10 | Ver oxigenación | Como usuario, quiero ver mis niveles de oxigenación (SpO₂). | **ES1:** Consulta correcta → Muestra nivel SpO₂ con calidad de señal.<br>**ES2:** Alerta visual → Color de advertencia bajo umbral.<br>**ES3:** Ahorro energía → Indica menor frecuencia de lectura. | EP003 |
+| US11 | Alertas inteligentes | Como usuario, quiero recibir notificaciones automáticas al detectar valores fuera de rango. | **ES1:** Alerta a usuario → Envía notificación con valor y recomendación.<br>**ES2:** Alerta a contactos → Envía aviso a contactos ante anomalías graves.<br>**ES3:** Evitar ruido → Agrupa eventos frecuentes para no saturar. | EP003 |
+| US12 | Tendencias gráficas | Como usuario, quiero ver gráficos históricos de mis signos vitales. | **ES1:** Rango temporal → Visualización diaria, semanal o mensual.<br>**ES2:** Filtros → Recalcula estadísticas según rango.<br>**ES3:** Exportación → Genera PDF o CSV con los datos. | EP003 |
+| **EP004** | **Registro y Seguimiento de alteraciones** | Registro, consulta y seguimiento de alteraciones detectadas o reportadas. | | |
+| US13 | Reportar una alteración | Como usuario o cuidador, quiero registrar manualmente una alteración de salud. | **ES1:** Reporte exitoso → Guarda tipo, severidad y descripción.<br>**ES2:** Adjuntos → Permite agregar foto o nota de voz.<br>**ES3:** Validaciones → No permite guardar con campos vacíos. | EP004 |
+| US14 | Log de alteraciones | Como usuario o cuidador, quiero consultar el historial de alteraciones. | **ES1:** Consulta → Lista con fecha, hora y detalle.<br>**ES2:** Filtros → Permite buscar por severidad o fecha.<br>**ES3:** Detalle → Muestra historial de cambios y adjuntos. | EP004 |
+| US15 | Registro de síntomas | Como usuario, quiero registrar síntomas adicionales. | **ES1:** Alta → Guarda síntoma con fecha y notas.<br>**ES2:** Historial → Muestra síntomas en orden cronológico.<br>**ES3:** Edición → Permite corregir o eliminar con trazabilidad. | EP004 |
+| **EP005** | **Emergencias y Alerta** | Acciones ante situaciones críticas, llamadas al 106 y contactos adicionales. | | |
+| US16 | Mandar llamado a emergencia 106 | Como usuario, quiero que la app realice una llamada directa al 106 en caso de emergencia. | **ES1:** Llamada automática → Botón SOS inicia llamada con cuenta regresiva.<br>**ES2:** Sin permisos → Solicita permiso o muestra número manual.<br>**ES3:** Confirmación → Pide doble toque para evitar errores. | EP005 |
+| US17 | Registrar números de emergencia adicionales | Como usuario, quiero registrar contactos de emergencia. | **ES1:** Registro → Guarda nombre, relación y número.<br>**ES2:** Validación → Evita duplicados o formato inválido.<br>**ES3:** Prioridad → Ordena contactos por nivel de aviso. | EP005 |
+| US18 | Geolocalización en emergencias | Como usuario, quiero enviar mi ubicación al activar SOS. | **ES1:** Envío con llamada → Envía ubicación al 106 y contactos.<br>**ES2:** Notificación → Envía SMS/WhatsApp con enlace de seguimiento.<br>**ES3:** Sin permisos → Usa última ubicación conocida. | EP005 |
+| **EP006** | **Soporte al Tratamiento** | Funcionalidades de apoyo social o médico como recordatorios y acceso multiusuario. | | |
+| US19 | Recordatorios de medicamentos | Como usuario, quiero programar recordatorios para no olvidar medicación. | **ES1:** Notificación → Envía alerta a la hora programada.<br>**ES2:** Registro → Marca como tomado u omitido.<br>**ES3:** Reprogramación → Permite posponer o registrar omisión. | EP006 |
+| US20 | Acceso multiusuario | Como usuario, quiero autorizar a familiares o cuidadores a ver mi estado de salud. | **ES1:** Conceder acceso → Registra contacto y define permisos.<br>**ES2:** Revocar acceso → Permite modificar o eliminar permisos.<br>**ES3:** Privacidad → Comparte solo la información autorizada. | EP006 |
+| **EP007** | **Landing Page Informativa** | Este Epic abarca las secciones públicas de la aplicación web orientadas a captar nuevos usuarios y comunicar valor: características, beneficios, problemática, acerca de, testimonios, contacto y descarga. | | |
+| US21 | Ver características | Como visitante, quiero conocer las principales características de la aplicación para entender qué ofrece. | **ES1:** Carga de sección → Al entrar al sitio, se muestran iconos y descripciones de funcionalidades clave.<br>**ES2:** Accesibilidad → Las tarjetas son legibles, con texto alternativo e íconos descriptivos.<br>**ES3:** Navegación → Los enlaces de “Ver más” dirigen correctamente a detalles o registro. | EP007 |
+| US22 | Ver beneficios | Como visitante, quiero ver los beneficios de usar la aplicación para motivarme a registrarme. | **ES1:** Visualización clara → La sección muestra beneficios con frases breves y visuales.<br>**ES2:** Responsive → El diseño se adapta correctamente en móvil y escritorio.<br>**ES3:** Llamado a la acción → Incluye botón “Regístrate” o “Descarga la app” visible. | EP007 |
+| US23 | Comprender la problemática | Como visitante, quiero entender la problemática de salud que aborda la aplicación para sentirme identificado con su propósito. | **ES1:** Texto informativo → Se muestra explicación clara y empática de la problemática.<br>**ES2:** Recursos visuales → Incluye imágenes o gráficos ilustrativos.<br>**ES3:** Tiempo de carga → La sección carga sin retrasos perceptibles (<3s). | EP007 |
+| US24 | Conocer acerca del proyecto | Como visitante, quiero leer información sobre la misión, visión y el equipo detrás de la aplicación. | **ES1:** Muestra datos clave → Presenta misión, visión y miembros principales del proyecto.<br>**ES2:** Enlaces externos → Los botones de redes sociales o “Conócenos” funcionan correctamente.<br>**ES3:** Diseño accesible → Compatible con lectores de pantalla y contraste adecuado. | EP007 |
+| US25 | Ver testimonios | Como visitante, quiero leer opiniones de otros usuarios o cuidadores para generar confianza. | **ES1:** Visualización → Se muestran al menos tres testimonios con nombre y foto opcional.<br>**ES2:** Carrusel funcional → Permite desplazarse sin errores entre testimonios.<br>**ES3:** Validación de contenido → Los testimonios no se repiten y cargan dinámicamente. | EP007 |
+| US26 | Enviar mensaje de contacto | Como visitante, quiero enviar un mensaje a través del formulario de contacto para resolver mis dudas. | **ES1:** Envío exitoso → Al completar nombre, correo y mensaje válidos, se confirma el envío.<br>**ES2:** Validaciones → Si falta algún campo o el correo es inválido, se muestra mensaje de error.<br>**ES3:** Protección antispam → No se permiten envíos automáticos (captcha activo). | EP007 |
+| US27 | Descargar la aplicación | Como visitante, quiero descargar la aplicación desde la landing page para comenzar a usarla. | **ES1:** Enlaces funcionales → Los botones de “Descargar en Play Store / App Store” redirigen correctamente.<br>**ES2:** Detección de dispositivo → Si accede desde Android o iOS, se sugiere el enlace correspondiente.<br>**ES3:** Versión web → Si el dispositivo no es compatible, se ofrece versión web o aviso informativo. | EP007 |
+
   <tr>
     <th class="tg-0pky">Epic / Story ID</th>
     <th class="tg-0pky">Título</th>
@@ -1209,146 +1248,33 @@ A continuación, se presenta una matriz de tareas enfocada en María Luisa Ramí
     </tr>
   </thead>
   <tbody>
-    <tr>
-      <td>1</td>
-      <td>US11</td>
-      <td>Alertas inteligentes</td>
-      <td>Recibir notificaciones automáticas cuando los signos vitales salgan de los rangos normales.</td>
-      <td>5</td>
-    </tr>
-    <tr>
-      <td>2</td>
-      <td>US18</td>
-      <td>Geolocalización en emergencias</td>
-      <td>Enviar ubicación en tiempo real al activar el botón SOS.</td>
-      <td>5</td>
-    </tr>
-    <tr>
-      <td>3</td>
-      <td>US12</td>
-      <td>Tendencias gráficas</td>
-      <td>Visualizar gráficos históricos de los signos vitales por día, semana o mes.</td>
-      <td>5</td>
-    </tr>
-    <tr>
-      <td>4</td>
-      <td>US20</td>
-      <td>Acceso multiusuario</td>
-      <td>Autorizar a familiares o cuidadores para ver el estado de salud en tiempo real.</td>
-      <td>5</td>
-    </tr>
-    <tr>
-      <td>5</td>
-      <td>US19</td>
-      <td>Recordatorios de medicamentos</td>
-      <td>Programar notificaciones para recordar la toma de medicamentos.</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <td>6</td>
-      <td>US16</td>
-      <td>Mandar llamado a emergencia 106</td>
-      <td>Llamar automáticamente al 106 desde la app en caso de emergencia.</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <td>7</td>
-      <td>US17</td>
-      <td>Registrar números de emergencia adicionales</td>
-      <td>Añadir contactos de emergencia adicionales para notificación en caso de SOS.</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <td>8</td>
-      <td>US15</td>
-      <td>Registro de síntomas</td>
-      <td>Registrar manualmente síntomas adicionales y consultarlos en un historial.</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <td>9</td>
-      <td>US13</td>
-      <td>Reportar una alteración</td>
-      <td>Reportar manualmente una alteración en la salud.</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <td>10</td>
-      <td>US14</td>
-      <td>Log de alteraciones</td>
-      <td>Consultar el historial de alteraciones registradas.</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <td>11</td>
-      <td>US05</td>
-      <td>Cambiar datos personales</td>
-      <td>Actualizar datos personales en el perfil.</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <td>12</td>
-      <td>US06</td>
-      <td>Cambiar contraseña</td>
-      <td>Actualizar la contraseña desde el perfil.</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <td>13</td>
-      <td>US07</td>
-      <td>Cambiar correo</td>
-      <td>Actualizar el correo electrónico para recibir notificaciones correctas.</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <td>14</td>
-      <td>US08</td>
-      <td>Ver frecuencia cardiaca</td>
-      <td>Visualizar la frecuencia cardiaca en tiempo real.</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <td>15</td>
-      <td>US09</td>
-      <td>Ver presión arterial</td>
-      <td>Consultar los valores de presión arterial en el panel de signos vitales.</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <td>16</td>
-      <td>US10</td>
-      <td>Ver oxigenación</td>
-      <td>Consultar el nivel de oxigenación (SpO₂) en tiempo real.</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <td>17</td>
-      <td>US01</td>
-      <td>Registrar usuario</td>
-      <td>Registrarse en la aplicación para acceder a los servicios de monitoreo.</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <td>18</td>
-      <td>US02</td>
-      <td>Iniciar sesión</td>
-      <td>Acceder al perfil y datos de salud con usuario y contraseña.</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <td>19</td>
-      <td>US03</td>
-      <td>Recuperar cuenta</td>
-      <td>Recuperar la cuenta en caso de olvidar las credenciales.</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <td>20</td>
-      <td>US04</td>
-      <td>Ver perfil</td>
-      <td>Visualizar información personal registrada en la aplicación.</td>
-      <td>1</td>
-    </tr>
+    <tr><td>1</td><td>US11</td><td>Alertas inteligentes</td><td>Recibir notificaciones automáticas cuando los signos vitales salgan de los rangos normales.</td><td>5</td></tr>
+    <tr><td>2</td><td>US18</td><td>Geolocalización en emergencias</td><td>Enviar ubicación en tiempo real al activar el botón SOS.</td><td>5</td></tr>
+    <tr><td>3</td><td>US12</td><td>Tendencias gráficas</td><td>Visualizar gráficos históricos de los signos vitales por día, semana o mes.</td><td>5</td></tr>
+    <tr><td>4</td><td>US20</td><td>Acceso multiusuario</td><td>Autorizar a familiares o cuidadores para ver el estado de salud en tiempo real.</td><td>5</td></tr>
+    <tr><td>5</td><td>US19</td><td>Recordatorios de medicamentos</td><td>Programar notificaciones para recordar la toma de medicamentos.</td><td>3</td></tr>
+    <tr><td>6</td><td>US16</td><td>Mandar llamado a emergencia 106</td><td>Llamar automáticamente al 106 desde la app en caso de emergencia.</td><td>3</td></tr>
+    <tr><td>7</td><td>US17</td><td>Registrar números de emergencia adicionales</td><td>Añadir contactos de emergencia adicionales para notificación en caso de SOS.</td><td>3</td></tr>
+    <tr><td>8</td><td>US15</td><td>Registro de síntomas</td><td>Registrar manualmente síntomas adicionales y consultarlos en un historial.</td><td>3</td></tr>
+    <tr><td>9</td><td>US13</td><td>Reportar una alteración</td><td>Reportar manualmente una alteración en la salud.</td><td>2</td></tr>
+    <tr><td>10</td><td>US14</td><td>Log de alteraciones</td><td>Consultar el historial de alteraciones registradas.</td><td>2</td></tr>
+    <tr><td>11</td><td>US05</td><td>Cambiar datos personales</td><td>Actualizar datos personales en el perfil.</td><td>2</td></tr>
+    <tr><td>12</td><td>US06</td><td>Cambiar contraseña</td><td>Actualizar la contraseña desde el perfil.</td><td>2</td></tr>
+    <tr><td>13</td><td>US07</td><td>Cambiar correo</td><td>Actualizar el correo electrónico para recibir notificaciones correctas.</td><td>2</td></tr>
+    <tr><td>14</td><td>US08</td><td>Ver frecuencia cardiaca</td><td>Visualizar la frecuencia cardiaca en tiempo real.</td><td>2</td></tr>
+    <tr><td>15</td><td>US09</td><td>Ver presión arterial</td><td>Consultar los valores de presión arterial en el panel de signos vitales.</td><td>2</td></tr>
+    <tr><td>16</td><td>US10</td><td>Ver oxigenación</td><td>Consultar el nivel de oxigenación (SpO₂) en tiempo real.</td><td>2</td></tr>
+    <tr><td>17</td><td>US01</td><td>Registrar usuario</td><td>Registrarse en la aplicación para acceder a los servicios de monitoreo.</td><td>1</td></tr>
+    <tr><td>18</td><td>US02</td><td>Iniciar sesión</td><td>Acceder al perfil y datos de salud con usuario y contraseña.</td><td>1</td></tr>
+    <tr><td>19</td><td>US03</td><td>Recuperar cuenta</td><td>Recuperar la cuenta en caso de olvidar las credenciales.</td><td>1</td></tr>
+    <tr><td>20</td><td>US04</td><td>Ver perfil</td><td>Visualizar información personal registrada en la aplicación.</td><td>1</td></tr>
+    <tr><td>21</td><td>US21</td><td>Ver características</td><td>Mostrar las principales funcionalidades de la aplicación en la landing page.</td><td>1</td></tr>
+    <tr><td>22</td><td>US22</td><td>Ver beneficios</td><td>Presentar los beneficios del uso de la aplicación para incentivar el registro.</td><td>1</td></tr>
+    <tr><td>23</td><td>US23</td><td>Comprender la problemática</td><td>Explicar la problemática de salud que aborda la aplicación para generar empatía.</td><td>1</td></tr>
+    <tr><td>24</td><td>US24</td><td>Conocer acerca del proyecto</td><td>Mostrar misión, visión y equipo responsable del desarrollo de la aplicación.</td><td>1</td></tr>
+    <tr><td>25</td><td>US25</td><td>Ver testimonios</td><td>Visualizar experiencias reales de usuarios o cuidadores para generar confianza.</td><td>2</td></tr>
+    <tr><td>26</td><td>US26</td><td>Enviar mensaje de contacto</td><td>Permitir al visitante enviar un mensaje o consulta mediante formulario de contacto.</td><td>3</td></tr>
+    <tr><td>27</td><td>US27</td><td>Descargar la aplicación</td><td>Proveer enlaces de descarga directa a la app en Play Store o App Store.</td><td>2</td></tr>
   </tbody>
 </table>
 
@@ -2661,7 +2587,7 @@ Si necesitas hacer actualizaciones, cada vez que hagas un cambio en la rama que 
 
 <div id='7.'><h2>7. Conclusiones</h2></div>
 
-A lo largo de este proyecto, hemos desarrollado de manera integral una solución IoT completa para el monitoreo de signos vitales de personas adultas mayores, estableciendo un ecosistema tecnológico que conecta eficazmente a pacientes, cuidadores y el sistema de salud. Iniciamos con un riguroso análisis competitivo que nos permitió identificar oportunidades de mercado y posicionamiento estratégico, seguido de una segmentación detallada de usuarios objetivo que definió claramente nuestros dos perfiles principales: adultos mayores que requieren supervisión médica continua y cuidadores responsables de su bienestar. El proceso de needfinding reveló necesidades críticas como la tranquilidad familiar, detección temprana de anomalías de salud y facilidad de uso sin comprometer la funcionalidad médica avanzada. Mediante la metodología Lean UX validamos tempranamente nuestras hipótesis de diseño y facilitamos iteraciones rápidas, mientras que las user stories estructuraron los requisitos desde la perspectiva real del usuario final, culminando en un product backlog priorizado que proporciona una hoja de ruta clara para el desarrollo incremental. El event storming process nos permitió mapear comprehensivamente todos los flujos del sistema, desde la captura inicial de datos de sensores IoT hasta las notificaciones de emergencia, identificando eventos críticos y procesos de negocio esenciales. La arquitectura de software resultante, basada en principios de Clean Architecture y Domain-Driven Design, se estructura en bounded contexts bien definidos que separan claramente las responsabilidades: gestión de usuarios e identidades, monitoreo de dispositivos IoT, seguimiento de salud, soporte de tratamiento y manejo de emergencias. Esta separación se refleja en el diseño de contenedores y diagramas que muestran la distribución de servicios, la comunicación entre microservicios y las integraciones con sistemas externos. El diseño de base de datos soporta eficientemente los requisitos de almacenamiento de datos médicos sensibles, históricos de signos vitales y relaciones entre pacientes y cuidadores, garantizando consistencia, escalabilidad y cumplimiento normativo. La documentación final de bounded contexts, segmentada por las capas de Clean Architecture (entidades, casos de uso, interfaces y frameworks), asegura que cada contexto mantenga su integridad conceptual mientras facilita el mantenimiento y evolución futura del sistema. Este enfoque integral nos ha permitido crear una solución que no solo resuelve las necesidades inmediatas de monitoreo de salud, sino que establece una base sólida para la expansión de funcionalidades y la integración con el ecosistema de salud digital más amplio, posicionando el producto como una herramienta valiosa para mejorar la calidad de vida de los adultos mayores y brindar tranquilidad a sus familias.
+Durante la unidad 5 y 6, el equipo se enfocó en el diseño y desarrollo de la Landing Page y la aplicación web, aplicando principios de UX/UI y buenas prácticas de ingeniería de software. Se inició con la definición de la arquitectura de información y wireframes en Figma, asegurando una navegación clara y accesible para los usuarios objetivo: adultos mayores y sus cuidadores. La Landing Page fue implementada utilizando HTML, CSS, Bootstrap y React, priorizando la presentación de beneficios, características, testimonios y acceso rápido a la descarga de la app. El desarrollo siguió una estructura modular y responsiva, facilitando la adaptación a distintos dispositivos. Para la aplicación web, se empleó una arquitectura basada en Clean Architecture y Domain-Driven Design, separando los módulos de autenticación, monitoreo, gestión de usuarios y soporte al tratamiento. El control de versiones se realizó con Git y GitHub, aplicando Git Flow para organizar las ramas y asegurar la calidad del código. La documentación técnica y los diagramas de componentes respaldan la mantenibilidad y escalabilidad del sistema. En conjunto, estas unidades permitieron entregar una solución digital robusta, centrada en la experiencia del usuario y alineada con los objetivos del proyecto.
 
 <div id='8.'><h2>8. Bibliografía</h2></div>
 
@@ -2679,3 +2605,4 @@ Organización Panamericana de la Salud. (2023). *La situación de los cuidados a
 |    Link de Miro             | [Miro Board](https://miro.com/welcomeonboard/M2JhbUZCSUFOdnN6ZG84cEJOM0g2R1BsUktITmFLZHNlcGMyTlMycTdBZEVsb2lmaWg1alVKL2dRMkJMWkdOTlMzdEhBV0VKeWNKZlo4bTJ2Mmtxc0t6UVVqdEV2Q1FYdjFrK3hINnhJSTYxcXpXejd2ZEtwTldRVHZRVEQ2RkhhWWluRVAxeXRuUUgwWDl3Mk1qRGVRPT0hdjE=?share_link_id=142838303004)      |
 |  Link de video de exposición          |  [Link de video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202221876_upc_edu_pe/Ecw7NNvw_IFIo9WNR4NB8M8BC4jRlWE-WH7RtcXJnlwdMQ?e=VbtdCX)    |
 | Link de video de entrevistas | [Link](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220235_upc_edu_pe/ERMsAWnlK25BgS7DKzoCgPEBcVQJPN9Nr9zo1HhWZgaR4g?nav=eyJwbGF5YmFja09wdGlvbnMiOnsic3RhcnRUaW1lSW5TZWNvbmRzIjoxNTI3LCJ0aW1lc3RhbXBlZExpbmtSZWZlcnJlckluZm8iOnsic2NlbmFyaW8iOiJDaGFwdGVyU2hhcmUiLCJhZGRpdGlvbmFsSW5mbyI6eyJpc1NoYXJlZENoYXB0ZXJBdXRvIjpmYWxzZX19fSwicmVmZXJyYWxJbmZvIjp7InJlZmVycmFsQXBwIjoiU3RyZWFtV2ViQXBwIiwicmVmZXJyYWxWaWV3IjoiU2hhcmVDaGFwdGVyTGluayIsInJlZmVycmFsQXBwUGxhdGZvcm0iOiJXZWIiLCJyZWZlcnJhbE1vZGUiOiJ2aWV3In19&e=ZFJWW8) |
+| Link de Figma | [Link](https://www.figma.com/design/wDXE0NQLCOx7ccB5TPlRYr/IoT?node-id=1-3&t=ByrmBRuCKYXO44gX-1) |
