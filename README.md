@@ -44,10 +44,34 @@ El objetivo de esta sección es resumir las modificaciones relevantes que se rea
 | Versión | Fecha | Autor | Descripción de modificación |
 | :-----: | :---: | :---: | --------------------------- |
 |    TB1    |   21/09   |   Jesús Guillermo Uribe Quispe   | Se añadió el capítulo I, II, III y IV del proyecto.                         |
+|TP | 10/10 | Jesús Guillermo Uribe Quispe | UX/UI Design, Software Development and Sprint 1 |
 
 # Project Report Collaboration Insights
 
 URL del repositorio para el reporte del proyecto:
+
+
+**TP:**
+
+<div align="center">
+  <img src="Img/insight_tp1.png" alt="insights">
+</div>
+
+<div align="center">
+  <img src="Img/insight_tp1a.png" alt="insights">
+</div>
+
+Para el desarrollo del informe perteneciente a la entrega del trabajo parcial, se dividió la implementación de secciones de la siguiente forma para cada integrante del equipo:
+
+| Integrante | Tareas Asignadas |
+| ---------- | ---------------- |
+| Bohórquez Lerzundi, Gerardo Sebastián |Solution UX / UI Design, Information Architecture, Systems |
+| Huanaco Huayta, Elizabeth Lucero | UX/UI Mobile Design |
+| Huapaya Cuevas, Anthony | UX/UI Mobile Design |
+| Silva Tirado, Sebastián Valentino | Corrección de errores, Desarrollo App Web, UX / UI Web App Design |
+| Uribe Quispe, Jesús Guillermo | Desarrollo Landing Page, UX/UI Design  |
+
+<br><br>
 
 **TB1**
 
@@ -3470,10 +3494,7 @@ Debido a la refactorización de un código, además de la realización de solo u
 <td>
 	<a href="https://github.com/TF-SolucionesIoT/Front-End-IOT" target="_blank" rel="noopener noreferrer">https://github.com/TF-SolucionesIoT/Front-End-IOT</a>
 	<br>
-</td><td>main</td><td>8d09a7b</td><td>Add a new section called “Syntomic” to display a history of symptoms wit</td><td></td><td>2025-10-09</td><td>
-	<a href="https://github.com/TF-SolucionesIoT/Front-End-IOT" target="_blank" rel="noopener noreferrer">https://github.com/TF-SolucionesIoT/Front-End-IOT</a>
-	<br>
-</td></tr><tr><td>
+</td><td>main</td><td>8d09a7b</td><td>Add a new section called “Syntomic” to display a history of symptoms wit</td><td></td><td>2025-10-09</td></tr><tr><td>
 	<a href="https://github.com/TF-SolucionesIoT/Front-End-IOT" target="_blank" rel="noopener noreferrer">https://github.com/TF-SolucionesIoT/Front-End-IOT</a>
 	<br>
 </td><td>main</td><td>7c0093a</td><td>Add a new section called “Alteration” to display a history of alteration</td><td></td><td>2025-10-09</td></tr><tr><td>
@@ -3669,9 +3690,8 @@ Al final de los pasos, podemos ver que nos brinda los links para gestionar el de
 a continuación, se demuestran los insights en base a este Sprint:
 
 <div align="center">
-<img src="Img/6_2_1_9a.png">
+  <img src="Img/insight_tp1.png" alt="insights">
 </div>
-
 
 
 
