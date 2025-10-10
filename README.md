@@ -2700,9 +2700,44 @@ Sección de Descargas de aplicación móvil y pie de página:
   <img src="./Img/wf6.png">
 </div>
 
+### Wireframe Landing Page (Mobile)
+
+Sección Principal de la landing page:
+
+<div align = "center">
+  <img src="./Img/wfm1.png">
+</div>
+
+
+Sección Características y Beneficios:
+<div align = "center">
+  <img src="./Img/wfm2.png">
+</div>
+
+Sección Antecedentes:
+<div align = "center">
+  <img src="./Img/wfm3.png">
+</div>
+
+Sección "Acerca de":
+<div align = "center">
+  <img src="./Img/wfm4.png">
+</div>
+
+Sección de Formulario de contacto:
+
+<div align = "center">
+  <img src="./Img/wfm5.png">
+</div>
+
+Sección de Descargas de aplicación móvil y pie de página:
+<div align = "center">
+  <img src="./Img/wfm6.png">
+</div>
 
 <div id='5.3.2.'><h4>5.3.2. Landing Page Mock-up.</h4></div>
 
+### Mockups Landing Page (Desktop)
 
 Sección Principal de la landing page
 
