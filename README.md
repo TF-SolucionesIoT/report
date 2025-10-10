@@ -1014,236 +1014,6 @@ A continuación, se presenta una matriz de tareas enfocada en María Luisa Ramí
 | US26 | Enviar mensaje de contacto | Como visitante, quiero enviar un mensaje a través del formulario de contacto para resolver mis dudas. | **ES1:** Envío exitoso → Al completar nombre, correo y mensaje válidos, se confirma el envío.<br>**ES2:** Validaciones → Si falta algún campo o el correo es inválido, se muestra mensaje de error.<br>**ES3:** Protección antispam → No se permiten envíos automáticos (captcha activo). | EP007 |
 | US27 | Descargar la aplicación | Como visitante, quiero descargar la aplicación desde la landing page para comenzar a usarla. | **ES1:** Enlaces funcionales → Los botones de “Descargar en Play Store / App Store” redirigen correctamente.<br>**ES2:** Detección de dispositivo → Si accede desde Android o iOS, se sugiere el enlace correspondiente.<br>**ES3:** Versión web → Si el dispositivo no es compatible, se ofrece versión web o aviso informativo. | EP007 |
 
-  <tr>
-    <th class="tg-0pky">Epic / Story ID</th>
-    <th class="tg-0pky">Título</th>
-    <th class="tg-0pky">Descripción</th>
-    <th class="tg-0pky">Criterios de Aceptación</th>
-    <th class="tg-0pky">Relacionado con (Epic ID)</th>
-  </tr></thead>
-<tbody>
-  <tr style="background-color:#f2f2f2;">
-  <td>EP001</td>
-  <td>Autenticación y Gestión de Cuenta</td>
-  <td>Este Epic reúne todas las funcionalidades relacionadas con el acceso inicial del usuario a la aplicación, incluyendo el registro, inicio de sesión y recuperación de credenciales en caso de olvido.</td>
-  <td></td>
-  <td></td>
-</tr>
-  <tr>
-    <td class="tg-0pky">US01</td>
-    <td class="tg-lboi">Registrar usuario</td>
-    <td class="tg-lboi">Como adulto mayor o cuidador, quiero registrarme en la aplicación para acceder a los servicios de monitoreo.</td>
-    <td class="tg-0pky">Escenario 1: El usuario ingresa al registro.<br>Dado que el usuario desea crear una cuenta<br>Cuando complete los datos solicitados en el formulario de registro<br>Y seleccione el botón Registrarme<br>Entonces la aplicación confirmará el registro y redirigirá al inicio de sesión.</td>
-    <td class="tg-lboi">EP001</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">US02</td>
-    <td class="tg-lboi">Iniciar sesión</td>
-    <td class="tg-lboi">Como usuario, quiero iniciar sesión para acceder a mi perfil y datos de salud.</td>
-    <td class="tg-0pky">Escenario 1: Inicio de sesión válido.<br>Dado que el usuario tiene una cuenta registrada<br>Cuando ingrese correo y contraseña correctos<br>Entonces accederá a la pantalla principal.</td>
-    <td class="tg-lboi">EP001</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">US03</td>
-    <td class="tg-lboi">Recuperar cuenta</td>
-    <td class="tg-lboi">Como usuario, quiero recuperar mi cuenta en caso de olvidar mis credenciales.</td>
-    <td class="tg-0pky">Escenario 1: Recuperación de contraseña.<br>Dado que el usuario olvidó su contraseña<br>Cuando solicite recuperación e ingrese su correo<br>Entonces recibirá un enlace de restablecimiento.</td>
-    <td class="tg-lboi">EP001</td>
-  </tr>
-  <tr style="background-color:#f2f2f2;">
-  <td>EP002</td>
-  <td>Gestión de Perfil de Usuario</td>
-  <td>Agrupa las funcionalidades orientadas a la administración de los datos personales del usuario. Incluye la visualización del perfil y la actualización de credenciales (contraseña y correo).</td>
-  <td></td>
-  <td></td>
-</tr>
-  <tr>
-    <td class="tg-0pky">US04</td>
-    <td class="tg-lboi">Ver perfil</td>
-    <td class="tg-lboi">Como usuario, quiero visualizar mi información personal registrada en la aplicación.</td>
-    <td class="tg-0pky">Escenario 1: Visualización correcta.<br>Dado que el usuario está autenticado<br>Cuando acceda a la sección Perfil<br>Entonces podrá ver sus datos registrados.<br></td>
-    <td class="tg-lboi">EP002</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">US05</td>
-    <td class="tg-lboi">Cambiar datos personales</td>
-    <td class="tg-lboi">Como usuario, quiero actualizar mis datos personales para mantener mi información al día.</td>
-    <td class="tg-0pky">Escenario 1: Actualización exitosa.<br>Dado que el usuario está autenticado<br>Cuando modifique sus datos y guarde cambios<br>Entonces la aplicación confirmará la actualización.</td>
-    <td class="tg-lboi">EP002</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">US06</td>
-    <td class="tg-lboi">Cambiar contraseña</td>
-    <td class="tg-lboi">Como usuario, quiero cambiar mi contraseña para mantener mi cuenta segura.</td>
-    <td class="tg-0pky">Escenario 1: Cambio exitoso.<br>Dado que el usuario está en su perfil<br>Cuando solicite cambiar contraseña e ingrese la nueva<br>Entonces el sistema actualizará la credencial.</td>
-    <td class="tg-lboi">EP002</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">US07</td>
-    <td class="tg-lboi">Cambiar correo</td>
-    <td class="tg-lboi">Como usuario, quiero actualizar mi correo electrónico para recibir notificaciones en la cuenta correcta.</td>
-    <td class="tg-0pky">Escenario 1: Cambio de correo.<br>Dado que el usuario está autenticado<br>Cuando ingrese un nuevo correo válido<br>Entonces el sistema lo registrará como nuevo correo de contacto.</td>
-    <td class="tg-lboi">EP002</td>
-  </tr>
-  <tr style="background-color:#f2f2f2;">
-  <td>EP003</td>
-  <td>Monitoreo de Signos Vitales</td>
-  <td>Este epic abarca la visualización de parámetros fisiológicos captados en tiempo real por el dispositivo IoT, permitiendo al usuario consultar su frecuencia cardiaca, presión arterial y niveles de oxigenación.</td>
-  <td></td>
-  <td></td>
-</tr>
-  <tr>
-    <td class="tg-0pky">US08</td>
-    <td class="tg-lboi">Ver frecuencia cardiaca</td>
-    <td class="tg-lboi">Como usuario, quiero ver mi frecuencia cardiaca en tiempo real para monitorear mi salud.</td>
-    <td class="tg-0pky">Escenario 1: Visualización en dashboard.<br>Dado que el dispositivo IoT está conectado<br>Cuando acceda al panel de signos vitales<br>Entonces la aplicación mostrará la frecuencia cardiaca en BPM.</td>
-    <td class="tg-lboi">EP003</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">US09</td>
-    <td class="tg-lboi">Ver presión arterial</td>
-    <td class="tg-lboi">Como usuario, quiero consultar mis valores de presión arterial para detectar posibles anomalías.</td>
-    <td class="tg-0pky">Escenario 1: Lectura correcta.<br>Dado que el dispositivo IoT envía datos<br>Cuando acceda al panel de signos vitales<br>Entonces podrá visualizar la presión sistólica y diastólica.</td>
-    <td class="tg-lboi">EP003</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">US10</td>
-    <td class="tg-lboi">Ver oxigenación</td>
-    <td class="tg-lboi">Como usuario, quiero ver mis niveles de oxigenación (SpO₂) para prevenir riesgos respiratorios.</td>
-    <td class="tg-0pky">Escenario 1: Consulta de oxigenación.<br>Dado que el sensor está funcionando<br>Cuando acceda al panel<br>Entonces visualizará el nivel de SpO₂ en %.</td>
-    <td class="tg-lboi">EP003</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">US11</td> 
-    <td class="tg-lboi">Alertas inteligentes</td> 
-    <td class="tg-lboi">Como usuario, quiero recibir notificaciones automáticas cuando mis signos vitales salgan de los rangos normales, para actuar a tiempo.</td> 
-    <td class="tg-0pky">
-      ES1: Dado que el dispositivo IoT está transmitiendo datos<br>
-      Cuando la frecuencia cardiaca, presión arterial u oxigenación estén fuera de rango<br>
-      Entonces el sistema enviará una notificación inmediata al usuario.<br><br>
-      ES2: Dado que el usuario tiene contactos de emergencia registrados<br>
-      Cuando ocurra una alteración grave<br>
-      Entonces se enviará también la alerta a los contactos autorizados.
-    </td> 
-    <td class="tg-lboi">EP003</td> 
-</tr>
-<tr>
-    <td class="tg-0pky">US12</td> 
-    <td class="tg-lboi">Tendencias gráficas</td> 
-    <td class="tg-lboi">Como usuario, quiero ver gráficos históricos de mis signos vitales para entender la evolución de mi salud.</td> 
-    <td class="tg-0pky">
-      ES1: Dado que el usuario está autenticado<br>
-      Cuando acceda al panel de tendencias<br>
-      Entonces visualizará gráficos de frecuencia cardiaca, presión y oxigenación por día, semana o mes.
-    </td> 
-    <td class="tg-lboi">EP003</td> 
-</tr>
-<tr style="background-color:#f2f2f2;">
-  <td>EP004</td>
-  <td>Registro y Seguimiento de alteraciones</td>
-  <td>Incluye las funcionalidades que permiten registrar, consultar y dar seguimiento a alteraciones de salud, ya sean detectadas automáticamente o reportadas manualmente por el usuario o cuidador.</td>
-  <td></td>
-  <td></td>
-</tr>
-  <tr>
-    <td class="tg-0pky">US13</td>
-    <td class="tg-lboi">Reportar una alteración</td>
-    <td class="tg-lboi">Como usuario o cuidador, quiero reportar manualmente una alteración en la salud para que quede registrada.</td>
-    <td class="tg-0pky">Escenario 1: Reporte exitoso.<br>Dado que el usuario detecta una anomalía<br>Cuando ingrese el reporte en la aplicación<br>Entonces quedará almacenado en el sistema.</td>
-    <td class="tg-lboi">EP004</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">US14</td>
-    <td class="tg-lboi">Log de alteraciones</td>
-    <td class="tg-lboi">Como usuario o cuidador, quiero consultar el historial de alteraciones registradas para tener un seguimiento.</td>
-    <td class="tg-0pky">Escenario 1: Consulta del log.<br>Dado que existen reportes previos<br>Cuando acceda a la sección de alteraciones<br>Entonces verá una lista con fecha, hora y detalle.</td>
-    <td class="tg-lboi">EP004</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">US15</td> 
-    <td class="tg-lboi">Registro de síntomas</td> 
-    <td class="tg-lboi">Como usuario, quiero registrar manualmente síntomas adicionales para complementar mis datos de salud.</td> 
-    <td class="tg-0pky">
-      ES1: Dado que el usuario detecta un síntoma<br>
-      Cuando acceda a la sección de síntomas y lo registre<br>
-      Entonces el sistema lo guardará con fecha y hora.<br><br>
-      ES2: Dado que existen síntomas previos registrados<br>
-      Cuando el usuario consulte el historial<br>
-      Entonces podrá verlos listados en orden cronológico.
-    </td> 
-    <td class="tg-lboi">EP004</td> 
-</tr>
-<tr style="background-color:#f2f2f2;">
-  <td>EP005</td>
-  <td>Emergencias y Alerta</td>
-  <td>Este epic integra todas las acciones orientadas a la respuesta rápida ante situaciones críticas, como llamadas directas a números de emergencia y la gestión de contactos adicionales de alerta.</td>
-  <td></td>
-  <td></td>
-</tr>
-  <tr>
-    <td class="tg-0pky">US16</td>
-    <td class="tg-lboi">Mandar llamado a emergencia 106</td>
-    <td class="tg-lboi">Como usuario, quiero que la aplicación móvil realice un llamado directo al 106 en caso de emergencia.</td>
-    <td class="tg-0pky">Escenario 1: Llamada automática.<br>Dado que el usuario activa la opción de emergencia<br>Cuando presione el botón SOS<br>Entonces el sistema realizará automáticamente la llamada al 106.</td>
-    <td class="tg-lboi">EP005</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">US17</td>
-    <td class="tg-lboi">Registrar números de emergencia adicionales</td>
-    <td class="tg-lboi">Como usuario, quiero registrar números de contacto de emergencia además del 106, para notificar a familiares o cuidadores.</td>
-    <td class="tg-0pky">Escenario 1: Registro de contactos.<br>Dado que el usuario desea añadir contactos<br>Cuando ingrese los números en la sección de emergencia<br>Entonces quedarán registrados para llamadas o alertas.</td>
-    <td class="tg-lboi">EP005</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">US18</td> 
-    <td class="tg-lboi">Geolocalización en emergencias</td> 
-    <td class="tg-lboi">Como usuario, quiero que la aplicación envíe mi ubicación en tiempo real al presionar el botón SOS para agilizar la atención.</td> 
-    <td class="tg-0pky">
-      ES1: Dado que el usuario presiona el botón SOS<br>
-      Cuando el sistema realice la llamada al 106<br>
-      Entonces enviará también la ubicación en tiempo real al contacto autorizado.<br><br>
-      ES2: Dado que el usuario tiene contactos de emergencia registrados<br>
-      Cuando se active la alerta SOS<br>
-      Entonces cada contacto recibirá un SMS/WhatsApp con la ubicación.
-    </td> 
-    <td class="tg-lboi">EP005</td> 
-</tr>
-<tr style="background-color:#f2f2f2;">
-  <td>EP006</td>
-  <td>Soporte al Tratamiento</td>
-  <td>Incluye las funcionalidades que permite facilitar cuestiones sociales o el entendimiento de situaciones médicas.</td>
-  <td></td>
-  <td></td>
-</tr>
-<tr>
-    <td class="tg-0pky">US19</td> 
-    <td class="tg-lboi">Recordatorios de medicamentos</td> 
-    <td class="tg-lboi">Como usuario, quiero programar recordatorios de medicación para no olvidar tomarlos en el horario correcto.</td> 
-    <td class="tg-0pky">
-      ES1: Dado que el usuario ingresó un medicamento y horario<br>
-      Cuando llegue la hora programada<br>
-      Entonces la aplicación enviará una notificación recordatoria.<br><br>
-      ES2: Dado que el medicamento está marcado como "tomado"<br>
-      Cuando el usuario confirme la acción<br>
-      Entonces quedará registrado en el historial de medicación.
-    </td> 
-    <td class="tg-lboi">EP006</td> 
-</tr>
-<tr>
-    <td class="tg-0pky">US20</td> 
-    <td class="tg-lboi">Acceso multiusuario</td> 
-    <td class="tg-lboi">Como usuario, quiero autorizar a familiares o cuidadores para que puedan ver mi estado de salud en tiempo real.</td> 
-    <td class="tg-0pky">
-      ES1: Dado que el usuario desea compartir sus datos<br>
-      Cuando registre un familiar/cuidor en la sección de autorizaciones<br>
-      Entonces el sistema permitirá que dicho contacto acceda al panel de salud.<br><br>
-      ES2: Dado que un familiar tiene acceso<br>
-      Cuando consulte los signos vitales<br>
-      Entonces visualizará los mismos datos que el usuario en tiempo real.
-    </td> 
-    <td class="tg-lboi">EP006</td> 
-</tr>
-</tbody></table>
 
 <div id='3.2.'><h3>3.2. Impact Mapping</h3></div>
 
@@ -2588,6 +2358,33 @@ Si necesitas hacer actualizaciones, cada vez que hagas un cambio en la rama que 
 
 **Consideraciones:** GitHub Pages solo soporta sitios estáticos (HTML, CSS, JavaScript). Si tu landing page necesita procesamiento en el servidor, necesitarás otro servicio de hospedaje. Este también necesita de un archivo "index.html" para poder desplegarse, de lo contrario no se podrá.
 
+<br>
+
+#### Web Application:
+
+Para el despliegue de la primera versión de la aplicación web, primero debemos buildear nuestro proyecto.
+
+**comando de build:** npm run build 
+**comando para verificar ejecución de la build**: npm start
+
+Luego de verificar que la build funciona correctamente, debemos de instalar una dependencia solo para desarrollo, en este caso de Vercel.
+
+**comando Vercel CLI:** npm i -g vercel
+
+Iniciamos sesión con: vercel login
+
+Finalmente ejecutamos el comando "vercel" y seguimos los pasos que se nos indican en la terminal:
+
+<div align="center">
+<img src="Img/webapp_a.png">
+</div>
+
+Al final de los pasos, podemos ver que nos brinda los links para gestionar el despliegue y verlo en la web.
+
+<div align="center">
+<img src="Img/deploy_aw1.png">
+</div>
+
 
 <div id='6.2.'><h3>6.2. Landing Page, Services & Applications Implementation.</h3></div>
 <div id='6.2.1.'><h4>6.2.1. Sprint 1</h4></div>
@@ -2607,85 +2404,264 @@ En la siguiente sección, se presentará el sprint #1 con la primera versión de
 | **Sprint 1 – 1 Retrospective Summary** | Como es el primer sprint, no hay una retrospectiva anterior.                                                                                                                                                                                                                                                                         |
 | **Sprint Goal & User Stories**         |                                                                                                                                                                                                                                                                                                                                                                        |
 | **Sprint #1 Goal**                     | Nuestro enfoque está en presentar AlertaVital a los potenciales usuarios mediante una landing page clara y atractiva, y en entregar la primera versión funcional de la aplicación web. Creemos que esto generará mayor visibilidad y compromiso de los usuarios iniciales y posibles clientes. Esto se confirmará cuando los visitantes puedan acceder a la landing page, comprender la propuesta de valor del producto y utilizar con éxito las funciones iniciales de la aplicación web. |
-| **Sprint #1 Velocity**                 | XXX                                                                                                                                                                                                                                                                                                                     |
-| **Sum of Story Points**                | XX                                                                                                                                                                                                                                                                                                                                                             |
+| **Sprint #1 Velocity**                 |  68h                                                                                                                                                                                                                                                                                                                  |
+| **Sum of Story Points**                | 17                                                                                                                                                                                                                                                                                                                                                             |
 
 
 <div id='6.2.1.2.'><h5>6.2.1.2. Aspect Leaders and Collaborators.</h5></div>
 
-| Team Member (Last Name, First Name) | GitHub Username | Aspect Name 1 | Role | Aspect Name 2 | Role | … Aspect Name n | Role |
-|------------------------------------|-----------------|----------------|------|----------------|------|-----------------|------|
-| Jiménez Rosas, Arturo Eduardo      | ajimenezrosas   | L              | C    | …              |      |                 |      |
-| Rodríguez Peña, Jorge Andrés       | Japr91           | C              | C    | …              | L    | L               |      |
-
+| Team Member (Last Name, First Name) | GitHub Username | Landing Page  | Web Application |
+|------------------------------------|-----------------|----------------|---------------------------------------------|
+| Huapaya, Anthony     |  AnthonyHuapaya   | C             | C    |
+| Huanaco, Elizabeth  | lucerohh      | C              | C    |
+| Silva, Sebastián  | SebasSilvaT      | C           | L   |
+| Bohorquez, Sebastián | sebasbl562      | C              | C    |
+| Uribe, Jesús  | JesusU27      | L             | C    |
 
 <div id='6.2.1.3.'><h5>6.2.1.3. Sprint Backlog 1.</h5></div>
 
 Para el Sprint #1 nos trazamos como objetivo desarrollar y desplegar una landing page funcional, optimizada para móviles y preparada para captar leads, lista para producción en GitHub Pages con un diseño responsivo y tiempos de carga rápidos.
-
-<table><thead>
-  <tr>
-    <th>&nbsp;&nbsp;&nbsp;<br># Sprint&nbsp;&nbsp;&nbsp;</th>
-    <th colspan="7">Sprint 1</th>
-  </tr></thead>
-<tbody>
-  <tr>
-    <td colspan="2">&nbsp;&nbsp;&nbsp;<br>User Story&nbsp;&nbsp;&nbsp;</td>
-    <td colspan="6">Work Item/Task</td>
-  </tr>
-  <tr>
-    <td>&nbsp;&nbsp;&nbsp;<br>Id&nbsp;&nbsp;&nbsp;</td>
-    <td>&nbsp;&nbsp;&nbsp;<br>Title&nbsp;&nbsp;&nbsp;</td>
-    <td>&nbsp;&nbsp;&nbsp;<br>Id&nbsp;&nbsp;&nbsp;</td>
-    <td>&nbsp;&nbsp;&nbsp;<br>Title&nbsp;&nbsp;&nbsp;</td>
-    <td>&nbsp;&nbsp;&nbsp;<br>Descripción&nbsp;&nbsp;&nbsp;</td>
-    <td>&nbsp;&nbsp;&nbsp;<br>Estimación (Hours)&nbsp;&nbsp;&nbsp;</td>
-    <td>&nbsp;&nbsp;&nbsp;<br>Story points &nbsp;&nbsp;&nbsp;</td>
-    <td>&nbsp;&nbsp;&nbsp;<br>Assigned to&nbsp;&nbsp;&nbsp;</td>
-    <td>&nbsp;&nbsp;&nbsp;<br>Status (In&nbsp;&nbsp;&nbsp;-process / To - review / Done)&nbsp;&nbsp;&nbsp;</td>
-  </tr>
-  <tr>
-    <td>&nbsp;&nbsp;&nbsp;<br>-</td>
-    <td>&nbsp;&nbsp;&nbsp;<br>-</td>
-    <td>&nbsp;&nbsp;&nbsp;<br>UT01</td>
-    <td>&nbsp;&nbsp;&nbsp;<br>-</td>
-    <td>&nbsp;&nbsp;&nbsp;<br>-</td>
-    <td>&nbsp;&nbsp;&nbsp;<br> -</td>
-	  <td>&nbsp;&nbsp;&nbsp;<br>- </td>
-    <td>&nbsp;&nbsp;&nbsp;<br></td>
-    <td>&nbsp;&nbsp;&nbsp;<br></td>
-  </tr>
-  <tr>
-    <td><br>-</td>
-    <td><br>-</td>
-    <td><br>-</td>
-    <td><br>-</td>
-    <td><br>-</td>
-    <td><br> -</td>
-	  <td><br> -</td>
-    <td><br> -</td>
-    <td><br>-</td>
-  </tr>
+<table>
+  <thead>
     <tr>
-    <td>&nbsp;&nbsp;&nbsp;<br>-</td>
-    <td>&nbsp;&nbsp;&nbsp;<br>-</td>
-    <td>&nbsp;&nbsp;&nbsp;<br>-</td>
-    <td>&nbsp;&nbsp;&nbsp;<br>-</td>
-    <td>&nbsp;&nbsp;&nbsp;<br>-</td>
-    <td>&nbsp;&nbsp;&nbsp;<br>- </td>
-	  <td>&nbsp;&nbsp;&nbsp;<br> -</td>
-    <td>&nbsp;&nbsp;&nbsp;<br>-</td>
-    <td>&nbsp;&nbsp;&nbsp;<br>-</td>
-  </tr>
-  
-  
-</tbody></table>
+      <th># Sprint</th>
+      <th colspan="8">Sprint 1</th>
+    </tr>
+    <tr>
+      <th colspan="2">User Story</th>
+      <th colspan="7">Work Item / Task</th>
+    </tr>
+    <tr>
+      <th>Id</th>
+      <th>Title</th>
+      <th>Id</th>
+      <th>Title</th>
+      <th>Descripción</th>
+      <th>Estimación (Horas)</th>
+      <th>Story Points</th>
+      <th>Asignado a</th>
+      <th>Estado</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>US21</td>
+      <td>Ver características</td>
+      <td>WT01</td>
+      <td>Ver características</td>
+      <td>Como visitante, quiero conocer las principales características de la aplicación para entender qué ofrece.</td>
+      <td>4h</td>
+      <td>1</td>
+      <td>Jesús</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US22</td>
+      <td>Ver beneficios</td>
+      <td>WT02</td>
+      <td>Ver beneficios</td>
+      <td>Como visitante, quiero ver los beneficios de usar la aplicación para motivarme a registrarme.</td>
+      <td>4h</td>
+      <td>1</td>
+      <td>Jesús</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US23</td>
+      <td>Comprender la problemática</td>
+      <td>WT03</td>
+      <td>Comprender la problemática</td>
+      <td>Como visitante, quiero entender la problemática de salud que aborda la aplicación para sentirme identificado con su propósito.</td>
+      <td>4h</td>
+      <td>1</td>
+      <td>Jesús</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US24</td>
+      <td>Conocer acerca del proyecto</td>
+      <td>WT04</td>
+      <td>Conocer acerca del proyecto</td>
+      <td>Como visitante, quiero leer información sobre la misión, visión y el equipo detrás de la aplicación.</td>
+      <td>4h</td>
+      <td>1</td>
+      <td>Jesús</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US25</td>
+      <td>Ver testimonios</td>
+      <td>WT05</td>
+      <td>Ver testimonios</td>
+      <td>Como visitante, quiero leer opiniones de otros usuarios o cuidadores para generar confianza.</td>
+      <td>8h</td>
+      <td>2</td>
+      <td>Jesús</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US26</td>
+      <td>Enviar mensaje de contacto</td>
+      <td>WT06</td>
+      <td>Enviar mensaje de contacto</td>
+      <td>Como visitante, quiero enviar un mensaje a través del formulario de contacto para resolver mis dudas.</td>
+      <td>12h</td>
+      <td>3</td>
+      <td>Jesús</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US27</td>
+      <td>Descargar la aplicación</td>
+      <td>WT07</td>
+      <td>Descargar la aplicación</td>
+      <td>Como visitante, quiero descargar la aplicación desde la landing page para comenzar a usarla.</td>
+      <td>8h</td>
+      <td>2</td>
+      <td>Jesús</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+  <td>US19</td>
+  <td>Recordatorios de medicamentos</td>
+  <td>WT08</td>
+  <td>Recordatorios de medicamentos</td>
+  <td>Programar notificaciones para recordar la toma de medicamentos.</td>
+  <td>12h</td>
+  <td>3</td>
+  <td>Sebastián Bohorquez</td>
+  <td>In Process</td>
+</tr>
+<tr>
+  <td>US15</td>
+  <td>Registro de síntomas</td>
+  <td>WT09</td>
+  <td>Registro de síntomas</td>
+  <td>Registrar manualmente síntomas adicionales y consultarlos en un historial.</td>
+  <td>12h</td>
+  <td>3</td>
+  <td>Sebastian Bohorquez</td>
+  <td>In Process</td>
+</tr>
+<tr>
+  <td>US13</td>
+  <td>Reportar una alteración</td>
+  <td>WT10</td>
+  <td>Reportar una alteración</td>
+  <td>Reportar manualmente una alteración en la salud.</td>
+  <td>8h</td>
+  <td>2</td>
+  <td>Elizabeth</td>
+  <td>In Process</td>
+</tr>
+<tr>
+  <td>US14</td>
+  <td>Log de alteraciones</td>
+  <td>WT11</td>
+  <td>Log de alteraciones</td>
+  <td>Consultar el historial de alteraciones registradas.</td>
+  <td>8h</td>
+  <td>2</td>
+  <td>Elizabeth</td>
+  <td>In Process</td>
+</tr>
+<tr>
+  <td>US05</td>
+  <td>Cambiar datos personales</td>
+  <td>WT12</td>
+  <td>Cambiar datos personales</td>
+  <td>Actualizar datos personales en el perfil.</td>
+  <td>8h</td>
+  <td>2</td>
+  <td>Anthony</td>
+  <td>In Process</td>
+</tr>
+<tr>
+  <td>US06</td>
+  <td>Cambiar contraseña</td>
+  <td>WT13</td>
+  <td>Cambiar contraseña</td>
+  <td>Actualizar la contraseña desde el perfil.</td>
+  <td>8h</td>
+  <td>2</td>
+  <td>Sebastian Silva</td>
+  <td>In Process</td>
+</tr>
+<tr>
+  <td>US07</td>
+  <td>Cambiar correo</td>
+  <td>WT14</td>
+  <td>Cambiar correo</td>
+  <td>Actualizar el correo electrónico para recibir notificaciones correctas.</td>
+  <td>8h</td>
+  <td>2</td>
+  <td>Sebastian Bohorquez</td>
+  <td>In Process</td>
+</tr>
+<tr>
+  <td>US08</td>
+  <td>Ver frecuencia cardiaca</td>
+  <td>WT15</td>
+  <td>Ver frecuencia cardiaca</td>
+  <td>Visualizar la frecuencia cardiaca en tiempo real.</td>
+  <td>8h</td>
+  <td>2</td>
+  <td>Anthony Huapaya</td>
+  <td>In Process</td>
+</tr>
+<tr>
+  <td>US09</td>
+  <td>Ver presión arterial</td>
+  <td>WT16</td>
+  <td>Ver presión arterial</td>
+  <td>Consultar los valores de presión arterial en el panel de signos vitales.</td>
+  <td>8h</td>
+  <td>2</td>
+  <td>Sebastián Silva</td>
+  <td>In Process</td>
+</tr>
+<tr>
+  <td>US10</td>
+  <td>Ver oxigenación</td>
+  <td>WT17</td>
+  <td>Ver oxigenación</td>
+  <td>Consultar el nivel de oxigenación (SpO₂) en tiempo real.</td>
+  <td>8h</td>
+  <td>2</td>
+  <td>Anthony Huapaya</td>
+  <td>In Process</td>
+</tr>
+<tr>
+  <td>US02</td>
+  <td>Iniciar sesión</td>
+  <td>WT18</td>
+  <td>Iniciar sesión</td>
+  <td>Acceder al perfil y datos de salud con usuario y contraseña.</td>
+  <td>4h</td>
+  <td>1</td>
+  <td>Sebastián Silva</td>
+  <td>In Process</td>
+</tr>
+<tr>
+  <td>US04</td>
+  <td>Ver perfil</td>
+  <td>WT19</td>
+  <td>Ver perfil</td>
+  <td>Visualizar información personal registrada en la aplicación.</td>
+  <td>4h</td>
+  <td>1</td>
+  <td>Elizabeth </td>
+  <td>In Process</td>
+</tr>
+  </tbody>
+</table>
+
 
 <div id='6.2.1.4.'><h5>6.2.1.4. Development Evidence for Sprint Review.</h5></div>
 
 ### LANDING PAGE:
 
-En el apartado de Landing Page, solo un integrante desarrolló este pequeño proyecto y solo en su máquina local, ya que, al solo ser un participante, por comodidad se optó por esto.
+Debido a la refactorización de un código, además de la realización de solo una persona por elección y consentimiento de todo el grupo, solo se presenta el commit de subida al repositorio principal de la organización.
 
 <table><thead>
   <tr>
@@ -2708,6 +2684,87 @@ En el apartado de Landing Page, solo un integrante desarrolló este pequeño pro
     <td><br>first commit</td>
     <td><br>2/10/2025</td>
   </tr>
+  
+</tbody></table>
+
+
+### WEB APPLICATION:
+
+<table><thead>
+  <tr>
+    <th>&nbsp;&nbsp;&nbsp;<br>Repository&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Branch&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Commit ID&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Commit<br>&nbsp;&nbsp;&nbsp;<br>Message&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Commit<br>&nbsp;&nbsp;&nbsp;<br>Message Body&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Committed on&nbsp;&nbsp;&nbsp;(Date)&nbsp;&nbsp;&nbsp;</th>
+  </tr></thead>
+<tbody>
+  <tr>
+<td>
+	<a href="https://github.com/TF-SolucionesIoT/Front-End-IOT" target="_blank" rel="noopener noreferrer">https://github.com/TF-SolucionesIoT/Front-End-IOT</a>
+	<br>
+</td>
+    <td><br>main</td>
+    <td><br>79d7aea8</td>
+    <td><br>first commit</td>
+    <td><br>first commit</td>
+    <td><br>2/10/2025</td>
+  </tr>
+  <tr>
+  <td>
+	<a href="https://github.com/TF-SolucionesIoT/Front-End-IOT" target="_blank" rel="noopener noreferrer">https://github.com/TF-SolucionesIoT/Front-End-IOT</a>
+	<br>
+</td>
+  <td>main</td>
+  <td>9992216</td>
+  <td>Thanks, now that you add a chart/dashboard for “SpO₂”</td>
+  <td></td>
+  <td>2025-10-09</td>
+  </tr>
+  <tr><td>
+	<a href="https://github.com/TF-SolucionesIoT/Front-End-IOT" target="_blank" rel="noopener noreferrer">https://github.com/TF-SolucionesIoT/Front-End-IOT</a>
+	<br>
+</td><td>main</td><td>329ec31</td><td>In the “Vitals” section, when clicking on “Heart Rate”, “SpO₂”, or “Bloo</td><td></td><td>2025-10-09</td></tr><tr><td>
+	<a href="https://github.com/TF-SolucionesIoT/Front-End-IOT" target="_blank" rel="noopener noreferrer">https://github.com/TF-SolucionesIoT/Front-End-IOT</a>
+	<br>
+</td><td>main</td><td>a341a86</td><td>In the “Treatments” section, add a button labeled “Add Treatment” that a</td><td></td><td>2025-10-09</td></tr><tr>
+<td>
+	<a href="https://github.com/TF-SolucionesIoT/Front-End-IOT" target="_blank" rel="noopener noreferrer">https://github.com/TF-SolucionesIoT/Front-End-IOT</a>
+	<br>
+</td><td>main</td><td>8d09a7b</td><td>Add a new section called “Syntomic” to display a history of symptoms wit</td><td></td><td>2025-10-09</td><td>
+	<a href="https://github.com/TF-SolucionesIoT/Front-End-IOT" target="_blank" rel="noopener noreferrer">https://github.com/TF-SolucionesIoT/Front-End-IOT</a>
+	<br>
+</td></tr><tr><td>
+	<a href="https://github.com/TF-SolucionesIoT/Front-End-IOT" target="_blank" rel="noopener noreferrer">https://github.com/TF-SolucionesIoT/Front-End-IOT</a>
+	<br>
+</td><td>main</td><td>7c0093a</td><td>Add a new section called “Alteration” to display a history of alteration</td><td></td><td>2025-10-09</td></tr><tr><td>
+	<a href="https://github.com/TF-SolucionesIoT/Front-End-IOT" target="_blank" rel="noopener noreferrer">https://github.com/TF-SolucionesIoT/Front-End-IOT</a>
+	<br>
+</td><td>main</td><td>3a7dc50</td><td>I see that the background is still: 0F1729, I would like it to be change</td><td></td><td>2025-10-09</td></tr><tr><td>
+	<a href="https://github.com/TF-SolucionesIoT/Front-End-IOT" target="_blank" rel="noopener noreferrer">https://github.com/TF-SolucionesIoT/Front-End-IOT</a>
+	<br>
+</td><td>main</td><td>403dc2a</td><td>I would like the sidebar to have this color: F7FAFE and the background w</td><td></td><td>2025-10-09</td></tr><tr><td>
+	<a href="https://github.com/TF-SolucionesIoT/Front-End-IOT" target="_blank" rel="noopener noreferrer">https://github.com/TF-SolucionesIoT/Front-End-IOT</a>
+	<br>
+</td><td>main</td><td>96b2142</td><td>Configure the sidebar with the following sections and behaviors:</td><td>
+</td><td>2025-10-09</td></tr><tr><td>
+	<a href="https://github.com/TF-SolucionesIoT/Front-End-IOT" target="_blank" rel="noopener noreferrer">https://github.com/TF-SolucionesIoT/Front-End-IOT</a>
+	<br>
+</td><td>main</td><td>f4c2165</td><td>Well the program show: This page could not be found. Yo try to find the</td><td></td><td>2025-10-09</td></tr><tr><td>
+	<a href="https://github.com/TF-SolucionesIoT/Front-End-IOT" target="_blank" rel="noopener noreferrer">https://github.com/TF-SolucionesIoT/Front-End-IOT</a>
+	<br>
+</td><td>main</td><td>b6fa798</td><td>First, fix the errors</td><td></td><td>2025-10-09</td></tr>
+<tr><td>
+	<a href="https://github.com/TF-SolucionesIoT/Front-End-IOT" target="_blank" rel="noopener noreferrer">https://github.com/TF-SolucionesIoT/Front-End-IOT</a>
+	<br>
+</td><td>main</td><td>4bac8bf</td><td>Initial prototype</td><td></td><td>2025-10-09</td></tr>
+<tr><td>
+	<a href="https://github.com/TF-SolucionesIoT/Front-End-IOT" target="_blank" rel="noopener noreferrer">https://github.com/TF-SolucionesIoT/Front-End-IOT</a>
+	<br>
+</td><td>main</td><td>ecacaab</td><td>Initialized workspace with Firebase Studio</td><td></td><td>2025-10-06</td></tr>
+
+  
 </tbody></table>
 
 
@@ -2737,6 +2794,66 @@ A continuación, se muestran las evidencias de ejecución de la landing page y d
 <div align="center">
 <img src="Img/execution_d.png">
 </div>
+
+#### Web Application:
+
+Iniciar Sesion:
+<div align="center">
+<img src="Img/executionappweb_k.png">
+</div>
+
+Perfil:
+<div align="center">
+<img src="Img/executionappweb_j.png">
+</div>
+
+Emergencias:
+<div align="center">
+<img src="Img/executionappweb_a.png">
+</div>
+
+Tratamientos:
+
+<div align="center">
+<img src="Img/executionappweb_b.png">
+</div>
+
+Alteraciones:
+
+<div align="center">
+<img src="Img/executionappweb_c.png">
+</div>
+
+Añadir alteraciones
+<div align="center">
+<img src="Img/executionappweb_f.png">
+</div>
+
+Simtomas:
+<div align="center">
+<img src="Img/executionappweb_d.png">
+</div>
+
+Añadir Sintomas:
+<div align="center">
+<img src="Img/executionappweb_e.png">
+</div>
+
+Tratamientos:
+<div align="center">
+<img src="Img/executionappweb_g.png">
+</div>
+
+Añadir Tratamiento:
+<div align="center">
+<img src="Img/executionappweb_h.png">
+</div>
+
+Signos Vitales:
+<div align="center">
+<img src="Img/executionappweb_i.png">
+</div>
+
 
 
 <div id='6.2.1.7.'><h5>6.2.1.7. Services Documentation Evidence for Sprint Review.</h5></div>
@@ -2780,6 +2897,33 @@ Finalmente con el link proporcionado, podemos ver la landing page desplegada en 
 <div align="center">
 <img src="Img/deploy_ld1.png">
 </div>
+
+#### Web Application:
+
+Para el despliegue de la primera versión de la aplicación web, primero debemos buildear nuestro proyecto.
+
+**comando de build:** npm run build 
+**comando para verificar ejecución de la build**: npm start
+
+Luego de verificar que la build funciona correctamente, debemos de instalar una dependencia solo para desarrollo, en este caso de Vercel.
+
+**comando Vercel CLI:** npm i -g vercel
+
+Iniciamos sesión con: vercel login
+
+Finalmente ejecutamos el comando "vercel" y seguimos los pasos que se nos indican en la terminal:
+
+<div align="center">
+<img src="Img/webapp_a.png">
+</div>
+
+Al final de los pasos, podemos ver que nos brinda los links para gestionar el despliegue y verlo en la web.
+
+<div align="center">
+<img src="Img/deploy_aw1.png">
+</div>
+
+
 
 
 <div id='6.2.1.9.'><h5>6.2.1.9. Team Collaboration Insights during Sprint.</h5></div>
