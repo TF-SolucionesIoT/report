@@ -1680,6 +1680,21 @@ Este diagrama UML representa la arquitectura de un sistema de gestión médica c
 <img src="Img/healthtracking_db.png">
 </div>
 
+**Sub-capa Model**
+| Tipo | Nombre | Descripción | Responsabilidad Principal | Relación con otros elementos |
+|----------|------------------------|-----------------------|-----------------------------------|----------------------------|
+| Aggregate | Patient | Representa al paciente dentro del sistema, raíz de la información clínica. | Centralizar datos clínicos y servir de punto de acceso al historial. | Relacionado con Vital, Alert, Alteration y Symptom. |
+| Value Object | Symptoms | Registro de una manifestación puntual. | Documentar síntomas subjetivos para el historial clínico. | Relacionado con el paciente. |
+| Value Object | Alteration | Cambio detectado en los signos vitales que indica una condición irregular. | Representa valores medidos y compararlos con rangos normales. | Relacionado con paciente. |
+| Value Object | Vital | Lectura puntual por parte del sensor IoT. | Estandarizar los datos del sensor. | Relacionado con . |
+| Aggregate | Alert | Notificación generada por cambios críticos en el estado del paciente. | Advertir de riesgos. | Relacionado con paciente. |
+| Command | PostPatient | Registra un nuevo paciente.          | Crear un paciente con los datos necesarios. | Usa User. |
+| Command | PostSymptom    | Añade un nuevo síntoma reportado por el paciente.                 | Crear instancia de Sintoma asociada a Paciente.       | Usa Patient y Symptom.                             |
+| Command | PostAlert       | Crea una alerta manual o automática. | Persistir una Alerta y notificar al sistema.          | Usa Patient y Alert.                              |
+| Command | PostAlteration | Registra una alteración detectada en los signos vitales.          | Persistir una Alteracion asociada al Paciente.        | Usa Patient y Alteration.                          |
+| Query | GetPatientHistory      | Devuelve el historial completo del paciente. | Reunir datos clínicos del Paciente.              | Consulta Patient y todas sus entidades relacionadas. |
+| Query | GetPendantAlert      | Recupera las alertas que no han sido atendidas.                                        | Soportar monitoreo activo del paciente.          | Consulta Alert.                                      |
+| Query | GetByPatientSymptoms                | Recupera los síntomas registrados por el paciente.                                     | Complementar información clínica.                | Consulta Symptom.                                     |
 
 
 ### SYMPTOMS
@@ -1722,6 +1737,58 @@ Este diagrama UML representa la arquitectura de un sistema de gestión médica c
 **Relaciones**:
 - N:1 con PATIENTS
 
+<div id='4.2.3.2.'><h5>4.2.3.2. Interface Layer</h5></div>
+
+**Sub-capa REST:**
+| Tipo | Nombre | Descripción | Responsabilidad Principal | Relación con otros elementos |
+|-----------|---------------------------------------------|------------------------------------------------------------------|------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|
+| Controller| PatientController | Controlador REST para gestionar pacientes | Recibe solicitudes del cliente relacionadas con pacientes, coordina comandos y devuelve respuestas | Utiliza PatientRequestResource, PatientResponseResource y los assemblers correspondientes |
+| Controller| AlertController | Controlador REST para gestionar citas | Maneja solicitudes relacionadas con la creación de alertas | Utiliza AlertRequestResource, AlertResponseResource y sus respectivos assemblers |
+| Resource | PatientRequestResource | Estructura de una petición para crear o actualizar un paciente | Representa datos de entrada del cliente sobre pacientes | Usado por `PatientController` para enviar datos al sistema |
+| Resource | PatientResponseResource | Estructura de la respuesta con información de un paciente | Devuelve al cliente una representación clara de un paciente | Usado por `PatientController` como respuesta |
+| Resource | AlertRequestResource | Estructura de una petición para crear una alerta | Representa datos de entrada del cliente sobre sus signos vitales | Usado por `AlertController` para procesar citas |
+| Resource | AppointmentResponseResource | Estructura de una respuesta con datos de una cita | Devuelve al cliente una representación clara de una cita | Usado por `AlertController` |
+| Assembler | CreatePatientCommandFromResourceAssembler | Convierte un recurso de petición en un comando de creación | Traducir la entrada del cliente a un comando de dominio | Usado por `PatientController` |
+| Assembler | UpdatePatientCommandFromResourceAssembler | Convierte un recurso de petición en un comando de actualización | Traducir la entrada del cliente a un comando de dominio | Usado por `PatientController` |
+| Assembler | PatientResourceFromEntityAssembler | Convierte una entidad `Patient` en un recurso de respuesta | Traducir objetos de dominio a estructuras legibles para el cliente | Usado por `PatientController` |
+| Assembler | CreateAlertCommandFromResourceAssembler | Convierte un recurso de petición en un comando de creación | Traducir la entrada del cliente a un comando de dominio | Usado por `AlertController` |
+| Assembler | AlertResourceFromEntityAssembler | Convierte una entidad `Alert` en un recurso de respuesta | Traduce objetos del dominio a respuestas claras para el cliente | Usado por `AlertController` |
+
+<div id='4.2.3.3.'><h5>4.2.3.3. Application Layer</h5></div>
+
+**Sub-capa Internal:**
+|Tipo | Nombre | Descripción | Responsabilidad Principal | Relación con otros elementos|
+|-----------|---------------------------------------------|------------------------------------------------------------------|------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|
+|Service | PatientCommandServiceImpl | Implementación del servicio de comandos para pacientes | Ejecutar la lógica de creación, actualización y eliminación de pacientes | Implementa PatientCommandService. Utiliza entidades y repositorios de dominio |
+|Service | AlertCommandServiceImpl | Implementación del servicio de comandos para alertas | Ejecutar la lógica de creación de alertas | Implementa AlertCommandService. Interactúa con Alert y sus repositorios |
+|Service | PatientQueryServiceImpl | Implementación del servicio de consultas para pacientes | Obtener información de pacientes a partir de distintas consultas | Implementa PatientQueryService. Consulta entidades Patient |
+|Service | AlertQueryServiceImpl | Implementación del servicio de consultas para alertas | Obtener  alertas por ID | Implementa AlertQueryService. Usa Alert y consultas específicas |
+
+<div id='4.2.3.4.'><h5>4.2.3.4. Infrastructure Layer</h5></div>
+
+**Sub-capa Infrastructure:**
+Tipo | Nombre | Descripción | Responsabilidad Principal | Relación con otros elementos|
+|-----------|---------------------------------------------|------------------------------------------------------------------|------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|
+Repository | PatientRepository | Repositorio para gestionar pacientes | Encargado de la persistencia y recuperación de los datos de los pacientes | Relacionado con la entidad Patient, interactúa con la base de datos para almacenar y consultar pacientes
+Repository | AlertRepository | Repositorio para gestionar alertas | Encargado de la persistencia y recuperación de las alertas | Relacionado con la entidad Alert, interactúa con la base de datos para almacenar y consultar alertas
+
+<div id='4.2.3.5.'><h5>4.2.3.5. Bounded Context Software Architecture Component Level Diagrams</h5></div>
+
+<div align="center">
+<img src="Img/structurizr-HealthTrackingComponents.png">
+</div>
+
+<div id='4.2.3.6.'><h5>4.2.3.6. Bounded Context Software Architecture Code Level Diagrams</h5></div>
+<div id='4.2.3.6.1.'><h6>4.2.3.6.1. Bounded Context Domain Layer Class Diagrams</h6></div>
+
+Este diagrama UML representa la arquitectura de un sistema de gestión médica centrada en el paciente y las alertas. La estructura está basada en principios de diseño orientado a objetos y se organiza en capas de comandos y consultas, siguiendo un enfoque CQRS (Command Query Responsibility Segregation). A lo largo del análisis, se describirán los principales componentes del sistema, como los servicios de comandos y consultas, las entidades centrales como Patient y Alert, así como los objetos de valor (value objects) y comandos asociados. También se explicará cómo estas clases interactúan entre sí mediante relaciones de herencia, interfaces, asociación y dependencia para mantener una lógica de negocio clara y mantenible. Se estará usando Lombok para la creación de Getter y Setter para evitar en redundancia de código.
+
+<img src="Img/healt_tracking_diagram_class.png" alt="health tracking class diagram">
+
+<div id='4.2.3.6.2.'><h6>4.2.3.6.2. Bounded Context Database Design Diagram</h6></div>
+<div align="center">
+<img src="Img/healthtracking_db.png">
+</div>
 
 <div id='4.2.4.'><h4>4.2.4. Bounded Context: &lt;Monitoring&gt;</h4></div>
 <div id='4.2.4.1.'><h5>4.2.4.1. Domain Layer</h5></div>
@@ -2690,19 +2757,19 @@ User Goal: Soporte al Tratamiento
 User Goal: Autenticación y gestión de cuenta
 
 <div align = "center">
-  <img src="./Img/wflowm1.png">
+  <img src="./Img/wireflow mobile 1.jpg">
 </div>
 
 User Goal: Gestión de Perfil de Usuario
 
 <div align = "center">
-  <img src="./Img/wflowm2.png">
+  <img src="./Img/wireflow mobile 2.jpg">
 </div>
 
 User Goal: Monitoreo de Signos Vitales
 
 <div align = "center">
-  <img src="./Img/wflowm3.png">
+  <img src="./Img/wireflow mobile 3.jpg">
 </div>
 
 User Goal: Registro y Seguimiento de alteraciones
@@ -2907,6 +2974,13 @@ User Goal: Soporte al Tratamiento
 Link Prototipo: https://www.figma.com/proto/wDXE0NQLCOx7ccB5TPlRYr/IoT?node-id=73-6622&t=pD1aaJtBOTr4UEQg-1&scaling=contain&content-scaling=fixed&page-id=1%3A2&starting-point-node-id=73%3A6622&show-proto-sidebar=1
 
 
+**Prototipo móvil del adulto mayor**
+
+<div align = "center">
+  <img src="./Img/older adult mobile prototype capture.png">
+</div>
+
+Link del Prototipo: https://upcedupe-my.sharepoint.com/personal/u20211g522_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu20211g522%5Fupc%5Fedu%5Fpe%2FDocuments%2FUniversidad%20%2D%20archivos%2FCICLO%20VII%2FDise%C3%B1o%20de%20soluciones%20IoT%2FProyecto%2Fprototype%20mobile%20older%20adult%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ee3032e6a%2Dc77e%2D4640%2D86bf%2D5b96acfd7ff3 
 
 <div id='6.'><h2>Capítulo VI: Product Implementation, Validation & Deployment</h2></div>
 
