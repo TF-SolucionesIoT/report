@@ -3763,16 +3763,54 @@ Al final de los pasos, podemos ver que nos brinda los links para gestionar el de
 
 <div id='6.2.1.9.'><h5>6.2.1.9. Team Collaboration Insights during Sprint.</h5></div>
 
-a continuación, se demuestran los insights en base a este Sprint:
+A continuación, se demuestran los insights en base a este Sprint:
 
 <div align="center">
   <img src="Img/insight_tp1.png" alt="insights">
 </div>
 
+<div id='6.2.2.'><h4>6.2.2. Sprint 2</h4></div>
+<div id='6.2.2.1.'><h5>6.2.2.1. Sprint Planning 2.</h5></div>
 
+En la siguiente sección, se presentará el sprint #2 con la segunda versión de la aplicación web y primera versión del backend.
 
+| Sprint #2                               | Sprint 2                                                                                                                                                                                                                                                                                                                                                               |
+| -------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Sprint Planning Background**         |                                                                                                                                                                                                                                                                                                                                                                        |
+| **Date**                               | 2025-11-04                                                                                                                                                                                                                                                                                                                                                             |
+| **Time**                               | 04:30 PM                                                                                                                                                                                                                                                                                                                                                               |
+| **Location**                           | Llamada por la plataforma "Discord"                                                                                                                                                                                                                                                                                                                                    |
+| **Prepared By**                        | Uribe Quispe, Jesús Guillermo                                                                                                                                                                                                                                                                                                                                          |
+| **Attendees (to planning meeting)**    | Uribe Quispe Jesús Guillermo / Bohorquez Lerzundi Gerardo Sebastián / Huanaco Huayta Elizabeth Lucero / Huapaya Cuevas Anthony / Sebastián Silva Tirado                                                                                                                                                                                                                |
+| **Sprint 2 – 1 Review Summary**        | Desarrollo de UX/UI DESIGN, Aplicación web y Back-end                                                                                                                                                                                                                                                                                                                                        |
+| **Sprint 2 – 1 Retrospective Summary** | XXX                                                                                                                                                                                                                                                                         |
+| **Sprint Goal & User Stories**         |                                                                                                                                                                                                                                                                                                                                                                        |
+| **Sprint #2 Goal** | Nuestro enfoque está en completar y entregar la segunda versión integrada del frontend y del backend de AlertaVital: una interfaz web interactiva (monitoreo, alertas, gestión de usuarios) y una API REST segura y persistente que soporte autenticación, registros de signos vitales y manejo de emergencias. Sabremos que tuvimos éxito cuando: (1) el frontend consuma correctamente los endpoints del backend; (2) las funciones críticas (inicio de sesión, visualización de signos vitales, envío/recepción de alertas y registro de emergencias) funcionen de forma end-to-end en un entorno de staging; y (3) ambos componentes estén desplegados y accesibles para pruebas de usuario. |
+| **Sprint #2 Velocity** |  XXh |
+| **Sum of Story Points** | XX |
 
+<div id='6.2.2.2.'><h5>6.2.2.2. Aspect Leaders and Collaborators.</h5></div>
 
+| Team Member (Last Name, First Name) 	| GitHub Username 	| Web Application 	| Backend 	| Mobile Application 	|
+|-------------------------------------	|-----------------	|-----------------	|---------	|--------------------	|
+| Huapaya, Anthony                    	| AnthonyHuapaya  	| C               	| C       	| C                  	|
+| Huanaco, Elizabeth                  	| lucerohh        	| C               	| C       	| L                  	|
+| Silva, Sebastian                    	| SebasSilvaT     	| L               	| C       	| C                  	|
+| Bohorquez, Sebastián                	| sebasbl562      	| C               	| C       	| C                  	|
+| Uribe, Jesús                        	| JesusU27        	| C               	| L       	| C                  	|
+
+<div id='6.2.2.3.'><h5>6.2.2.3. Sprint Backlog 2.</h5></div>
+<div id='6.2.2.4.'><h5>6.2.2.4. Development Evidence for Sprint Review.</h5></div>
+<div id='6.2.2.5.'><h5>6.2.2.5. Testing Suite Evidence for Sprint Review.</h5></div>
+<div id='6.2.2.6.'><h5>6.2.2.6. Execution Evidence for Sprint Review.</h5></div>
+<div id='6.2.2.7.'><h5>6.2.2.7. Services Documentation Evidence for Sprint Review.</h5></div>
+<div id='6.2.2.8.'><h5>6.2.2.8. Software Deployment Evidence for Sprint Review.</h5></div>
+<div id='6.2.2.9.'><h5>6.2.2.9. Team Collaboration Insights during Sprint.</h5></div>
+<div id='6.3.'><h3>6.3. Validation Interviews.</h3></div>
+<div id='6.3.1.'><h4>6.3.1. Diseño de Entrevistas.</h4></div>
+<div id='6.3.2.'><h4>6.3.2. Registro de Entrevistas.</h4></div>
+<div id='6.3.3.'><h4>6.3.3. Evaluaciones según heurísticas.</h4></div>
+<div id='6.4.'><h3>6.4. Video About-the-Product.</h3></div>
 
 <div id='7.'><h2>7. Conclusiones</h2></div>
 
