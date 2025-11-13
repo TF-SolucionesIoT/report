@@ -232,17 +232,31 @@ Los integrantes son:
    6.1.3. [Source Code Style Guide & Conventions.](#6.1.3.)<br>
    6.1.4. [Software Deployment Configuration.](#6.1.4.)<br>
    6.2. [Landing Page, Services & Applications Implementation.](#6.2.)<br>
-   6.2.1. [Sprint n.](#6.2.1.)<br>
-   6.2.1.1. [Sprint Planning n.](#6.2.1.1.)<br>
+   6.2.1. [Sprint 1.](#6.2.1.)<br>
+   6.2.1.1. [Sprint Planning 1.](#6.2.1.1.)<br>
    6.2.1.2. [Aspect Leaders and Collaborators.](#6.2.1.2.)<br>
-   6.2.1.3. [Sprint Backlog n.](#6.2.1.3.)<br>
+   6.2.1.3. [Sprint Backlog 1.](#6.2.1.3.)<br>
    6.2.1.4. [Development Evidence for Sprint Review.](#6.2.1.4.)<br>
    6.2.1.5. [Testing Suite Evidence for Sprint Review.](#6.2.1.5.)<br>
    6.2.1.6. [Execution Evidence for Sprint Review.](#6.2.1.6.)<br>
    6.2.1.7. [Services Documentation Evidence for Sprint Review.](#6.2.1.7.)<br>
    6.2.1.8. [Software Deployment Evidence for Sprint Review.](#6.2.1.8.)<br>
    6.2.1.9. [Team Collaboration Insights during Sprint.](#6.2.1.9.)<br>
-
+   6.2.2. [Sprint 2.](#6.2.2.)<br>
+   6.2.2.1. [Sprint Planning 2.](#6.2.2.1.)<br>
+   6.2.2.2. [Aspect Leaders and Collaborators.](#6.2.2.2.)<br>
+   6.2.2.3. [Sprint Backlog 2.](#6.2.2.3.)<br>
+   6.2.2.4. [Development Evidence for Sprint Review.](#6.2.2.4.)<br>
+   6.2.2.5. [Testing Suite Evidence for Sprint Review.](#6.2.2.5.)<br>
+   6.2.2.6. [Execution Evidence for Sprint Review.](#6.2.2.6.)<br>
+   6.2.2.7. [Services Documentation Evidence for Sprint Review.](#6.2.2.7.)<br>
+   6.2.2.8. [Software Deployment Evidence for Sprint Review.](#6.2.2.8.)<br>
+   6.2.2.9. [Team Collaboration Insights during Sprint.](#6.2.2.9.)<br>
+   6.3. [Validation Interviews.](#6.3.)<br>
+   6.3.1. [Diseño de Entrevistas.](#6.3.1.)<br>
+   6.3.2. [Registro de Entrevistas.](#6.3.2.)<br>
+   6.3.3. [Evaluaciones según heurísticas.](#6.3.3.)<br>
+   6.4. [Video About-the-Product.](#6.4.)<br>
 7. [Conclusiones](#7.)<br>
 8. [Bibliografía](#8.)<br>
 9. [Anexo](#9.)<br>
@@ -3763,16 +3777,299 @@ Al final de los pasos, podemos ver que nos brinda los links para gestionar el de
 
 <div id='6.2.1.9.'><h5>6.2.1.9. Team Collaboration Insights during Sprint.</h5></div>
 
-a continuación, se demuestran los insights en base a este Sprint:
+A continuación, se demuestran los insights en base a este Sprint:
 
 <div align="center">
   <img src="Img/insight_tp1.png" alt="insights">
 </div>
 
+<div id='6.2.2.'><h4>6.2.2. Sprint 2</h4></div>
+<div id='6.2.2.1.'><h5>6.2.2.1. Sprint Planning 2.</h5></div>
+
+En la siguiente sección, se presentará el sprint #2 con primera versión del backend y mobile app.
+
+| Sprint #2                               | Sprint 2                                                                                                                                                                                                                                                                                                                                                               |
+| -------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Sprint Planning Background**         |                                                                                                                                                                                                                                                                                                                                                                        |
+| **Date**                               | 2025-11-04                                                                                                                                                                                                                                                                                                                                                             |
+| **Time**                               | 04:30 PM                                                                                                                                                                                                                                                                                                                                                               |
+| **Location**                           | Llamada por la plataforma "Discord"                                                                                                                                                                                                                                                                                                                                    |
+| **Prepared By**                        | Uribe Quispe, Jesús Guillermo                                                                                                                                                                                                                                                                                                                                          |
+| **Attendees (to planning meeting)**    | Uribe Quispe Jesús Guillermo / Bohorquez Lerzundi Gerardo Sebastián / Huanaco Huayta Elizabeth Lucero / Huapaya Cuevas Anthony / Sebastián Silva Tirado                                                                                                                                                                                                                |
+| **Sprint 2 – 1 Review Summary**        | Desarrollo de UX/UI DESIGN, Back-end y Mobile App                                                                                                                                                                                                                                                                                                                                       |
+| **Sprint 2 – 1 Retrospective Summary** | XXX                                                                                                                                                                                                                                                                         |
+| **Sprint Goal & User Stories**         |                                                                                                                                                                                                                                                                                                                                                                        |
+| **Sprint #2 Goal** | Nuestro enfoque está en completar y entregar la segunda versión integrada del frontend y del backend de AlertaVital: una interfaz web interactiva (monitoreo, alertas, gestión de usuarios) y una API REST segura y persistente que soporte autenticación, registros de signos vitales y manejo de emergencias. Sabremos que tuvimos éxito cuando: (1) el frontend consuma correctamente los endpoints del backend; (2) las funciones críticas (inicio de sesión, visualización de signos vitales, envío/recepción de alertas y registro de emergencias) funcionen de forma end-to-end en un entorno de staging; y (3) ambos componentes estén desplegados y accesibles para pruebas de usuario. |
+| **Sprint #2 Velocity** |  XXh |
+| **Sum of Story Points** | XX |
+
+<div id='6.2.2.2.'><h5>6.2.2.2. Aspect Leaders and Collaborators.</h5></div>
+
+| Team Member (Last Name, First Name) 	| GitHub Username 	| Backend 	| Mobile Application 	|
+|-------------------------------------	|-----------------	|---------	|--------------------	|
+| Huapaya, Anthony                    	| AnthonyHuapaya  	| C       	| C                  	|
+| Huanaco, Elizabeth                  	| lucerohh        	| C       	| L                  	|
+| Silva, Sebastian                    	| SebasSilvaT     	| C       	| C                  	|
+| Bohorquez, Sebastián                	| sebasbl562      	| C       	| C                  	|
+| Uribe, Jesús                        	| JesusU27        	| L       	| C                  	|
+
+<div id='6.2.2.3.'><h5>6.2.2.3. Sprint Backlog 2.</h5></div>
+<div id='6.2.2.4.'><h5>6.2.2.4. Development Evidence for Sprint Review.</h5></div>
+
+### BACKEND:
+
+<table><thead>
+  <tr>
+    <th>&nbsp;&nbsp;&nbsp;<br>Repository&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Branch&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Commit ID&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Commit<br>&nbsp;&nbsp;&nbsp;<br>Message&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Commit<br>&nbsp;&nbsp;&nbsp;<br>Message Body&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Committed on&nbsp;&nbsp;&nbsp;(Date)&nbsp;&nbsp;&nbsp;</th>
+  </tr></thead>
+<tbody>
+  <tr>
+<td rowspan="10">
+	<a href="https://github.com/TF-SolucionesIoT/iam_service" target="_blank" rel="noopener noreferrer">https://github.com/TF-SolucionesIoT/iam_service</a>
+	<br>
+</td>
+    <td><br>main</td>
+    <td><br>XXX</td>
+    <td><br>first commit</td>
+    <td><br>first commit</td>
+    <td><br>XX/XX/2025</td>
+  </tr>
+  
+</tbody></table>
+
+### MOBILE APPLICATION:
+
+<table><thead>
+  <tr>
+    <th>&nbsp;&nbsp;&nbsp;<br>Repository&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Branch&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Commit ID&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Commit<br>&nbsp;&nbsp;&nbsp;<br>Message&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Commit<br>&nbsp;&nbsp;&nbsp;<br>Message Body&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Committed on&nbsp;&nbsp;&nbsp;(Date)&nbsp;&nbsp;&nbsp;</th>
+  </tr></thead>
+<tbody>
+  <tr>
+<td rowspan="10">
+	<a href="https://github.com/TF-SolucionesIoT/Mobile" target="_blank" rel="noopener noreferrer">https://github.com/TF-SolucionesIoT/Mobile</a>
+	<br>
+</td>
+    <td><br>main</td>
+    <td><br>XXX</td>
+    <td><br>first commit</td>
+    <td><br>first commit</td>
+    <td><br>XX/XX/2025</td>
+  </tr>
+  
+</tbody></table>
+
+<div id='6.2.2.5.'><h5>6.2.2.5. Testing Suite Evidence for Sprint Review.</h5></div>
 
 
 
+<div id='6.2.2.6.'><h5>6.2.2.6. Execution Evidence for Sprint Review.</h5></div>
 
+A continuación, se muestran las evidencias de ejecución del backend y de la primera versión del mobile app.
+
+#### Backend:
+
+<div align="center">
+<img src="Img/execution_e.png">
+</div>
+
+#### Mobile App:
+
+<div align="center">
+<img src="Img/execution_m.png">
+</div>
+
+</div>
+
+<div id='6.2.2.7.'><h5>6.2.2.7. Services Documentation Evidence for Sprint Review.</h5></div>
+
+
+
+<div id='6.2.2.8.'><h5>6.2.2.8. Software Deployment Evidence for Sprint Review.</h5></div>
+
+En este segundo sprint, se desplegaron tanto el backend, como la primera versión del mobile app.
+
+#### Backend:
+
+En el caso del backend, desplegaremos ...
+
+Para configurar ...:
+<br><br>
+Ve a tu repositorio en ... 
+<br><br>
+
+<div align="center">
+<img src="Img/des_back_1.png">
+</div>
+
+#### Mobile App:
+
+En el caso del mobile app, desplegaremos la aplicación en una plataforma de hosting adecuada...
+
+Para configurar ...:
+<br><br>
+Ve a tu repositorio en ... 
+<br><br>
+
+<div align="center">
+<img src="Img/des_mobile_1.png">
+</div>
+
+<div id='6.2.2.9.'><h5>6.2.2.9. Team Collaboration Insights during Sprint.</h5></div>
+
+A continuación, se demuestran los insights en base a este Sprint:
+
+<div align="center">
+  <img src="Img/insight_tb2.png" alt="insights">
+</div>
+
+<div id='6.3.'><h3>6.3. Validation Interviews.</h3></div>
+
+En esta sección de nuestro proyecto, nos enfocamos en detectar cuáles son los puntos de mejora de nuestra solución IoT para lograr una mayor efectividad en el monitoreo y cuidado de adultos mayores. Esta fase crucial del proyecto implica un diálogo directo con nuestros usuarios principales (adultos mayores y sus cuidadores) para recopilar sus opiniones y sugerencias a través de entrevistas. Así, aseguramos que la plataforma no solo cumpla con los requisitos técnicos, sino que también se adapte a las necesidades diarias y expectativas tanto de los adultos mayores como de sus cuidadores, mejorando la experiencia de monitoreo de signos vitales y la gestión de emergencias.
+
+<div id='6.3.1.'><h4>6.3.1. Diseño de Entrevistas.</h4></div>
+
+Esta sección detalla los objetivos de usuario que guiarán nuestras entrevistas, los cuales son fundamentales para asegurar que nuestro aplicativo, AlertaVital, responda efectivamente a las necesidades reales de los adultos mayores y sus cuidadores. A continuación, se presentan dichos objetivos de usuario:
+
+User Flows: Aplicación Móvil
+
+User goal: Gestión de Perfil de Usuario
+
+Al ingresar a la aplicación AlertaVital, el usuario debe autenticarse. Una vez dentro, puede acceder a su perfil para actualizar datos personales como nombre, correo electrónico, contraseña y datos médicos relevantes. También puede gestionar sus contactos de emergencia y preferencias de notificación.
+
+User goal: Monitoreo de Signos Vitales
+
+Al ingresar a la aplicación AlertaVital, el usuario puede visualizar en tiempo real sus signos vitales principales como frecuencia cardíaca, presión arterial y niveles de oxigenación. Los datos son mostrados de forma clara y accesible, con indicadores visuales que señalan cuando los valores están fuera de rangos normales.
+
+User goal: Registro y Seguimiento de alteraciones
+
+Al ingresar a la aplicación AlertaVital, el usuario puede registrar manualmente alteraciones en su salud y consultar un historial de las mismas. Esto incluye la capacidad de documentar síntomas, eventos específicos o cambios en su condición médica.
+
+User goal: Emergencias y Alertas
+
+Al ingresar a la aplicación AlertaVital, el usuario tiene acceso inmediato a un botón de emergencia SOS. Puede enviar alertas automáticas a sus cuidadores cuando se detectan anomalías en sus signos vitales o cuando sufre una caída. También puede consultar un historial de alertas previas.
+
+User goal: Soporte al Tratamiento
+
+Al ingresar a la aplicación AlertaVital, el usuario puede gestionar sus tratamientos médicos, incluyendo recordatorios de medicación y seguimiento de rutinas de cuidado. Puede programar alertas para tomas de medicamentos y registrar su cumplimiento.
+
+Landing Page
+
+Al ingresar al landing page de AlertaVital, el usuario encuentra información clara sobre cómo la solución IoT ayuda en el monitoreo y cuidado de adultos mayores. La página presenta las características principales del sistema, testimonios de usuarios, planes de suscripción y una sección de contacto. Está diseñada considerando la accesibilidad para usuarios mayores, con tipografía clara y navegación intuitiva. Al final se incluyen las políticas de privacidad y términos de uso.
+
+<div id='6.3.2.'><h4>6.3.2. Registro de Entrevistas.</h4></div>
+
+<table style="font-size: 12px;">
+  <tr>
+    <th>Sección</th>
+    <th>Características del video</th>
+    <th>Sobre el contenido</th>
+    <th>Integración y entrega</th>
+  </tr>
+  <tr>
+    <td>Validation Interviews</td>
+    <td>
+      <strong>Cantidad de videos</strong>: 1<br>
+      <strong>Nomenclatura</strong>: XXX<n><br>
+      <strong>Formato</strong>: .mp4<br>
+      <strong>Duración</strong>: XX:XX min
+    </td>
+    <td>
+      Nombre: XXX
+      <br>Segmento Objetivo: XXX
+      <br>Edad: XX
+      <br>Distrito: XXX
+    </td>
+    <td>
+      Screenshot: <br>
+      <img src="Img/vi-vid.png" style="width: 200px;"></img>
+       Link: <a href="XXX">Video</a>
+    </td>
+
+  </tr>
+  <tr>
+    <td>Validation Interviews</td>
+    <td>
+      <strong>Cantidad de videos</strong>: 1<br>
+      <strong>Nomenclatura</strong>: upc-pre-202501-cc238-353-Dentify-validation-sprint-2<n><br>
+      <strong>Formato</strong>: .mp4<br>
+      <strong>Duración</strong>: 12:30 min<br>
+    </td>
+    <td>
+      Nombre: XXX
+      <br>Segmento Objetivo: XXX<br>
+      <br>Edad: XXX
+      <br>Distrito: XXX
+    </td>
+    <td>
+      Screenshot: <br>
+      <img src="Img/validation_interviews_2.png" style="width: 200px;"><br>
+      Link: <a href="XXX">Video</a>
+    </td>
+  </tr>
+  <tr>
+    <td>Validation Interviews</td>
+    <td>
+      <strong>Cantidad de videos</strong>: 1<br>
+      <strong>Nomenclatura</strong>: XXX<n><br>
+      <strong>Formato</strong>: .mp4<br>
+      <strong>Duración</strong>: X:XX min
+    </td>
+    <td>
+      Nombre: XXX
+      <br>Segmento Objetivo: XXX<br>
+      <br>Edad: XXX
+      <br>Distrito: XXX
+    </td>
+    <td>
+      Screenshot: <br>
+      <img src="Img/validation_interviews_3.png" style="width: 200px;"><br>
+      Link: <a href="XXX">Video</a>
+    </td>
+  </tr>
+ 
+</table>
+
+<div id='6.3.3.'><h4>6.3.3. Evaluaciones según heurísticas.</h4></div>
+
+
+
+<div id='6.4.'><h3>6.4. Video About-the-Product.</h3></div>
+
+<table style="font-size: 12px;">
+  <tr>
+    <th>Sección</th>
+    <th>Características del video</th>
+    <th>Sobre el contenido</th>
+    <th>Integración y entrega</th>
+  </tr>
+  <tr>
+    <td>About The Product</td>
+    <td>
+      <strong>Cantidad de videos</strong>: 1<br>
+      <strong>Nomenclatura</strong>: upc-pre-202501-cc238-353-MediTech-about-the-product-sprint-3<br>
+      <strong>Formato</strong>: .mp4<br>
+      <strong>Duración</strong>: XX:XX min
+    </td>
+    <td>
+      Video de About The Product en base a la aplicación "AlertaVital" desarrollado por Alerta Vital.
+    </td>
+    <td>
+      Screenshot: <br>
+      <img src="Img/screen-video-about-the-product.png" alt="ATP" style="width: 200px;"><br>
+      Link: <a href="XXX">Video</a>
+    </td>
+  </tr>
+  </table>
 
 <div id='7.'><h2>7. Conclusiones</h2></div>
 
