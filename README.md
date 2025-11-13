@@ -21,7 +21,7 @@ width=50%"/>
 
 ## Team members:
 
-<div style="text-align: center;">
+<div align="center">
   
 |                Nombre                 |   Código   |
 | :-----------------------------------: | :--------: |
@@ -54,11 +54,11 @@ URL del repositorio para el reporte del proyecto:
 **TP:**
 
 <div align="center">
-  <img src="Img/insight_tp1.png" alt="insights">
+  <img src="Img/insight_tp1.png" alt="insights" width=350>
 </div>
 
 <div align="center">
-  <img src="Img/insight_tp1a.png" alt="insights">
+  <img src="Img/insight_tp1a.png" alt="insights" width=350>
 </div>
 
 Para el desarrollo del informe perteneciente a la entrega del trabajo parcial, se dividió la implementación de secciones de la siguiente forma para cada integrante del equipo:
@@ -71,16 +71,16 @@ Para el desarrollo del informe perteneciente a la entrega del trabajo parcial, s
 | Silva Tirado, Sebastián Valentino | Corrección de errores, Desarrollo App Web, UX / UI Web App Design |
 | Uribe Quispe, Jesús Guillermo | Desarrollo Landing Page, UX/UI Design  |
 
-<br><br>
+<br>
 
 **TB1**
 
 <div align="center">
-  <img src="Img/insights.png" alt="insights">
+  <img src="Img/insights.png" alt="insights" width=350>
 </div>
 
 <div align="center">
-  <img src="Img/insights2.png" alt="insights">
+  <img src="Img/insights2.png" alt="insights" width=350>
 </div>
 
 Para el desarrollo del informe perteneciente a la entrega TB1, se dividió la implementación de secciones de la siguiente forma para cada integrante del equipo:
@@ -106,6 +106,7 @@ Los integrantes son:
 - Silva Tirado, Sebastián Valentino (SebasSilvaT)
 - Uribe Quispe, Jesús Guillermo(JesusU27)
 
+<br><br><br><br><br><br><br><br><br>
 # Contenido
 
 1. [**Capítulo I: Introducción.**](#1.) <br>
@@ -254,6 +255,9 @@ Los integrantes son:
 8. [Bibliografía](#8.)<br>
 9. [Anexo](#9.)<br>
 
+<br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br>
+
 # STUDENT OUTCOME
 
 **ABET – EAC - Student Outcome 5**
@@ -318,6 +322,11 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
     </tr>
   </tbody>
 </table>
+
+
+<br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br>
 
 <div id='1.'><h2>1. Capítulo I: Introducción</h2></div>
 
@@ -582,7 +591,7 @@ El Lean UX Canvas permitió estructurar y validar las hipótesis del proyecto, q
 
 <img src="Img/lean ux canvas iot.jpg" alt="Lean UX Canvas" width="800">
 
-
+<br><br><br><br><br>
 <div id='1.3.'><h3>1.3. Segmentos objetivo</h3></div>
 
 En esta sección, definiremos los perfiles específicos del público objetivo para nuestro brazalete inteligente. Estos grupos comparten características demográficas, comportamientos o necesidades similares, lo que les diferencia de otros segmentos del mercado y permite ajustar estrategias para satisfacer sus necesidades de una mejor manera.
@@ -607,6 +616,8 @@ En esta sección, definiremos los perfiles específicos del público objetivo pa
 - **Segmento conductual:**  
   Cuidadores que necesitan recibir alertas inmediatas ante emergencias de salud para intervenir rápidamente. El brazalete inteligente les ofrece monitoreo continuo del paciente y notificaciones automáticas, aliviando su carga emocional y mejorando su capacidad de respuesta.  
 
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 <div id='2.'><h2>2. Capítulo II: Requirements Elicitation & Analysis</h2></div>
 
 <div id='2.1.'><h3>2.1. Competidores</h3></div>
@@ -625,6 +636,7 @@ En esta sección, definiremos los perfiles específicos del público objetivo pa
 | **Oportunidades** | Crecimiento del envejecimiento poblacional en Perú (13%+), alta demanda de soluciones accesibles para monitoreo de salud crónica y prevención de caídas. | Expansión en telemedicina y integración con más métricas de salud en mercados crecientes de envejecimiento. | Mejoras en tecnología RealFall™ y expansión a más usuarios seniors con datos recolectados. | Desarrollo de app para cuidadores y mejoras en batería para mercado en crecimiento de wearables para elderly. | Expansión basada en recomendaciones médicas y mercado de independencia senior. |
 | **Fortalezas** | Adaptada al contexto socioeconómico peruano, enfoque en accesibilidad y escalabilidad, interfaz simple y confiable, beneficios directos para cuidadores con reducción de estrés. | Monitoreo avanzado de salud, detección de caídas y emergencias, integración con conectividad familiar. | Protección 24/7, detección precisa de caídas, diseño amigable para usuarios. | Independiente, detección de caídas precisa, materiales cómodos, reseñas positivas. | Confiable, fácil configuración, alta satisfacción de usuarios, enfoque en privacidad.
 
+<br><br>
 <div id='2.1.2.'><h4>2.1.2. Estrategias y tácticas frente a competidores</h4></div>
 
 - Diseñaremos un sistema de monitoreo accesible y fácil de usar, con una interfaz pensada tanto para adultos mayores como para familiares y cuidadores. La navegación será intuitiva, con alertas visuales y auditivas claras, además de un soporte técnico adaptado al usuario final, garantizando la confianza y la rápida adopción de la herramienta.
@@ -669,6 +681,7 @@ Esta sección recopila la información obtenida a partir de entrevistas realizad
 11. ¿Qué expectativas tendría en términos de seguridad y confiabilidad del dispositivo?
 12. ¿Cómo cree que un sistema de este tipo impactaría en su tranquilidad y en la calidad de vida del adulto mayor?
 
+<br><br>
 <div id='2.2.2.'><h4>2.2.2. Registro de entrevistas</h4></div>
 
 ### Segmento 1: Adultos Mayores
@@ -805,6 +818,7 @@ Esta sección recopila la información obtenida a partir de entrevistas realizad
 
 </div>
 
+<br><br><br><br><br><br><br><br><br><br><br>
 <div id='2.2.3.'><h4>2.2.3. Análisis de entrevistas</h4></div>
 
 ### Análisis del segmento de adultos mayores
@@ -824,11 +838,11 @@ En general, los cuidadores perciben el sistema IoT como una herramienta clave pa
  
 **a. User Persona de un adulto mayor**
 
-<img src="Img/user_persona_maria_ramirez.png" alt="Imagen_User" style="margin-bottom: 5px;" width="800"/>
+<img src="Img/user_persona_maria_ramirez.png" alt="Imagen_User" style="margin-bottom: 5px;" width="300"/>
 
 **b. User Persona de un Cuidador**
 
-<img src="Img/user_persona_juan_herrera.png" alt="Imagen_User" style="margin-bottom: 5px;" width="800"/>
+<img src="Img/user_persona_juan_herrera.png" alt="Imagen_User" style="margin-bottom: 5px;" width="300"/>
 
 
 <div id='2.3.2.'><h4>2.3.2. User Task Matrix</h4></div>
@@ -3638,6 +3652,7 @@ A continuación, se muestran las evidencias de ejecución de la landing page y d
 <img src="Img/execution_d.png">
 </div>
 
+Link de Video: [https://upcedupe-my.sharepoint.com/v:/g/personal/u202221876_upc_edu_pe/ES14VABBaE1HttolgWJvG4IBV8ZsJiyVlWeUVjRBrGbOdA?e=TTZLFc](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202221876_upc_edu_pe/ES14VABBaE1HttolgWJvG4IBV8ZsJiyVlWeUVjRBrGbOdA?e=TTZLFc)
 #### Web Application:
 
 Iniciar Sesion:
@@ -3697,6 +3712,7 @@ Signos Vitales:
 <img src="Img/executionappweb_i.png">
 </div>
 
+Link de video: [https://upcedupe-my.sharepoint.com/v:/g/personal/u202221876_upc_edu_pe/EdCzlnRFUMBNmYdpdZZpk0IBA2j7wJJ-wcfvjDW3xGw_pw?e=HZaZ2R](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202221876_upc_edu_pe/EdCzlnRFUMBNmYdpdZZpk0IBA2j7wJJ-wcfvjDW3xGw_pw?e=HZaZ2R)
 
 
 <div id='6.2.1.7.'><h5>6.2.1.7. Services Documentation Evidence for Sprint Review.</h5></div>
@@ -3800,6 +3816,8 @@ Organización Panamericana de la Salud. (2023). *La situación de los cuidados a
 |-----------------|------|
 |          Organización de Github       | [https://github.com/TF-SolucionesIoT](https://github.com/TF-SolucionesIoT)     |
 |    Link de Miro             | [Miro Board](https://miro.com/welcomeonboard/M2JhbUZCSUFOdnN6ZG84cEJOM0g2R1BsUktITmFLZHNlcGMyTlMycTdBZEVsb2lmaWg1alVKL2dRMkJMWkdOTlMzdEhBV0VKeWNKZlo4bTJ2Mmtxc0t6UVVqdEV2Q1FYdjFrK3hINnhJSTYxcXpXejd2ZEtwTldRVHZRVEQ2RkhhWWluRVAxeXRuUUgwWDl3Mk1qRGVRPT0hdjE=?share_link_id=142838303004)      |
-|  Link de video de exposición          |  [Link de video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202221876_upc_edu_pe/Ecw7NNvw_IFIo9WNR4NB8M8BC4jRlWE-WH7RtcXJnlwdMQ?e=VbtdCX)    |
+|  Link de video de exposición          |  [Link de video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202221876_upc_edu_pe/EXvZqwze7apOu3moDficAfYBfor80Eh9jrz-ZFLR0JkPyQ?e=XYeo46)    |
 | Link de video de entrevistas | [Link](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220235_upc_edu_pe/ERMsAWnlK25BgS7DKzoCgPEBcVQJPN9Nr9zo1HhWZgaR4g?nav=eyJwbGF5YmFja09wdGlvbnMiOnsic3RhcnRUaW1lSW5TZWNvbmRzIjoxNTI3LCJ0aW1lc3RhbXBlZExpbmtSZWZlcnJlckluZm8iOnsic2NlbmFyaW8iOiJDaGFwdGVyU2hhcmUiLCJhZGRpdGlvbmFsSW5mbyI6eyJpc1NoYXJlZENoYXB0ZXJBdXRvIjpmYWxzZX19fSwicmVmZXJyYWxJbmZvIjp7InJlZmVycmFsQXBwIjoiU3RyZWFtV2ViQXBwIiwicmVmZXJyYWxWaWV3IjoiU2hhcmVDaGFwdGVyTGluayIsInJlZmVycmFsQXBwUGxhdGZvcm0iOiJXZWIiLCJyZWZlcnJhbE1vZGUiOiJ2aWV3In19&e=ZFJWW8) |
 | Link de Figma | [Link](https://www.figma.com/design/wDXE0NQLCOx7ccB5TPlRYr/IoT?node-id=1-3&t=ByrmBRuCKYXO44gX-1) |
+| Link de video de evidencia de Landing page | [Link](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202221876_upc_edu_pe/ES14VABBaE1HttolgWJvG4IBV8ZsJiyVlWeUVjRBrGbOdA?e=TTZLFc) |
+|Link de video de evidencia de Aplicación Web | [Link](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202221876_upc_edu_pe/EdCzlnRFUMBNmYdpdZZpk0IBA2j7wJJ-wcfvjDW3xGw_pw?e=HZaZ2R) |
