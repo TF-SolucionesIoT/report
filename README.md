@@ -1060,6 +1060,20 @@ A continuación, se presenta una matriz de tareas enfocada en María Luisa Ramí
 | US27 | Descargar la aplicación | Como visitante, quiero descargar la aplicación desde la landing page para comenzar a usarla. | **ES1:** Enlaces funcionales → Los botones de “Descargar en Play Store / App Store” redirigen correctamente.<br>**ES2:** Detección de dispositivo → Si accede desde Android o iOS, se sugiere el enlace correspondiente.<br>**ES3:** Versión web → Si el dispositivo no es compatible, se ofrece versión web o aviso informativo. | EP007 |
 
 
+
+| Epic / Story ID | Título | Descripción | Criterios de Aceptación | Relacionado con (Epic ID) |
+|-----------------|---------|--------------|-------------------------------------------|---------------------------|
+| **EP01** | **Backend APIs y Servicios** | Endpoints y lógica del lado servidor para autenticación, gestión de entidades clínicas y relaciones entre pacientes y cuidadores. | | |
+| TS01 | Login (API) | Endpoint REST para autenticación de usuarios (email/password) y emisión de JWT. | **ES1:** POST /api/auth/login → devuelve token JWT y datos básicos del usuario.<br>**ES2:** Credenciales inválidas → 401 con mensaje genérico.<br>**ES3:** Token válido → accesible recursos protegidos. | EP01 |
+| TS02 | Registrar cuidador (Backend) | Endpoint para crear cuenta de tipo "caregiver" y perfil asociado. | **ES1:** POST /api/auth/register-caregiver crea User + Profile + Caregiver y devuelve 201.<br>**ES2:** Email duplicado → 409 y mensaje.<br>**ES3:** Validaciones de campos (dni, teléfono) aplicadas. | EP01 |
+| TS03 | Registrar paciente (Backend) | Endpoint para crear cuenta/registro de paciente (puede ser por caretakers). | **ES1:** POST /api/patients crea Patient y Profile y devuelve 201.<br>**ES2:** Si es creado por caregiver, se establece relación N:M inicial.<br>**ES3:** Validaciones de datos clínicos básicas. | EP01 |
+| TS04 | Vincular paciente ↔ cuidador | Endpoint para relacionar un paciente con un cuidador (adds relation). | **ES1:** POST /api/caregivers/{id}/patients con patientId → devuelve 200 y relación creada.<br>**ES2:** Si ya existe relación → 409.<br>**ES3:** Permisos: solo caregiver autenticado o admin puede vincular. | EP01 |
+| TS05 | CRUD Disturbances (Alteraciones) | Endpoints para crear, listar y eliminar alteraciones detectadas (disturbances). | **ES1:** POST /api/patients/{id}/disturbances crea entrada y devuelve 201.<br>**ES2:** GET /api/patients/{id}/disturbances devuelve lista paginada.<br>**ES3:** DELETE /api/disturbances/{id} borra (soft delete) con permisos adecuados (caregiver/patient/admin). | EP01 |
+| TS06 | CRUD Symptoms (Síntomas) | Endpoints para reportar, consultar y eliminar síntomas asociados a pacientes. | **ES1:** POST /api/patients/{id}/symptoms → 201 con id del síntoma.<br>**ES2:** GET /api/patients/{id}/symptoms → lista ordenada por fecha.<br>**ES3:** DELETE /api/symptoms/{id} → 200 y registro marcado inactivo. | EP01 |
+| TS07 | CRUD Treatments (Tratamientos) | Endpoints para gestionar tratamientos y recordatorios (create/get/delete). | **ES1:** POST /api/patients/{id}/treatments crea tratamiento y devuelve 201.<br>**ES2:** GET /api/patients/{id}/treatments devuelve activos/inactivos filtrables.<br>**ES3:** DELETE /api/treatments/{id} desactiva o elimina según política. | EP01 |
+| TS08 | Asociar recordatorios a Treatment | Backend para crear y listar treatment reminders. | **ES1:** POST /api/treatments/{id}/reminders crea reminder con hora y tipo → 201.<br>**ES2:** GET /api/treatments/{id}/reminders lista próximos recordatorios.<br>**ES3:** Scheduler/worker debe leer reminders activos para notificaciones. | EP01 |
+| TS09 | Seguridad y permisos en APIs | Implementar middleware de autorización (roles: patient, caregiver, admin) y validaciones. | **ES1:** Rutas protegidas validan JWT y rol.<br>**ES2:** Acciones sobre datos de paciente solo permitidas si relacion/permiso existe.<br>**ES3:** Logs de auditoría para creación/elim/acciones críticas. | EP01 |
+
 <div id='3.2.'><h3>3.2. Impact Mapping</h3></div>
 
 ### User Journey Map – Adulto Mayor
@@ -1071,6 +1085,12 @@ A continuación, se presenta una matriz de tareas enfocada en María Luisa Ramí
 <img src="Img/Impact_Mapping2.jpg" alt="Journey_Mapping2"></img>
 
 <div id='3.3.'><h3>3.3. Product Backlog</h3></div>
+
+Esta tabla muestra una lista estructurada de las funcionalidades principales que deben desarrollarse para el sistema IOT, organizadas conforme a la prioridad del negocio y las necesidades del usuario. Las características se clasifican en User Stories (historias de usuario) y Technical Stories (historias técnicas), y se ordenan según su importancia para asegurar que las más relevantes se atiendan primero.
+
+La intención de esta organización es facilitar una implementación eficaz, dando prioridad a las funciones que aportan mayor valor tanto al negocio como a la experiencia del usuario. Entre ellas se incluyen la administración de pacientes, registro de tratamientos, sintomas y recordatorios, vinculación de cuidador a paciente y otros elementos fundamentales para el funcionamiento de los sensores IOT. También se considera el esfuerzo requerido para cada actividad, expresado en Story Points, con el fin de optimizar la entrega de valor en el menor tiempo posible.
+
+Así, se define un plan de trabajo claro para el equipo de desarrollo, garantizando que las funcionalidades más importantes estén disponibles desde las primeras fases del proyecto.
 
 <table border="1" cellspacing="0" cellpadding="5">
   <thead>
@@ -1109,7 +1129,15 @@ A continuación, se presenta una matriz de tareas enfocada en María Luisa Ramí
     <tr><td>24</td><td>US24</td><td>Conocer acerca del proyecto</td><td>Mostrar misión, visión y equipo responsable del desarrollo de la aplicación.</td><td>1</td></tr>
     <tr><td>25</td><td>US25</td><td>Ver testimonios</td><td>Visualizar experiencias reales de usuarios o cuidadores para generar confianza.</td><td>2</td></tr>
     <tr><td>26</td><td>US26</td><td>Enviar mensaje de contacto</td><td>Permitir al visitante enviar un mensaje o consulta mediante formulario de contacto.</td><td>3</td></tr>
-    <tr><td>27</td><td>US27</td><td>Descargar la aplicación</td><td>Proveer enlaces de descarga directa a la app en Play Store o App Store.</td><td>2</td></tr>
+    <tr><td>28</td><td>TS01</td><td>Login (API)</td><td>Endpoint REST para autenticación de usuarios (email/password) y emisión de JWT.</td><td>3</td></tr>
+    <tr><td>29</td><td>TS02</td><td>Registrar cuidador (Backend)</td><td>Endpoint para crear cuenta de tipo "caregiver" y perfil asociado (User + Profile + Caregiver).</td><td>5</td></tr>
+    <tr><td>30</td><td>TS03</td><td>Registrar paciente (Backend)</td><td>Endpoint para crear cuenta/registro de paciente (puede ser creado por caregivers) y establecer relaciones iniciales.</td><td>5</td></tr>
+    <tr><td>31</td><td>TS04</td><td>Vincular paciente ↔ cuidador</td><td>Endpoint para relacionar un paciente con un cuidador (crear relación N:M) con validaciones y permisos.</td><td>3</td></tr>
+    <tr><td>32</td><td>TS05</td><td>CRUD Disturbances (Alteraciones)</td><td>Endpoints para crear, listar, filtrar y eliminar alteraciones detectadas por el sistema (soft delete, paginación).</td><td>5</td></tr>
+    <tr><td>33</td><td>TS06</td><td>CRUD Symptoms (Síntomas)</td><td>Endpoints para reportar, consultar y eliminar síntomas asociados a pacientes (incluye adjuntos y trazabilidad).</td><td>3</td></tr>
+    <tr><td>34</td><td>TS07</td><td>CRUD Treatments (Tratamientos)</td><td>Endpoints para gestionar tratamientos y su ciclo de vida (create/get/update/delete) y relaciones con recordatorios.</td><td>5</td></tr>
+    <tr><td>35</td><td>TS08</td><td>Asociar recordatorios a Treatment</td><td>Backend para crear/listar recordatorios asociados a tratamientos y exponer scheduler/worker para notificaciones.</td><td>5</td></tr>
+    <tr><td>36</td><td>TS09</td><td>Seguridad y permisos en APIs</td><td>Implementar middleware de autorización (roles: patient, caregiver, admin), validación de JWT y política de acceso por relación.</td><td>8</td></tr>
   </tbody>
 </table>
 
@@ -3830,6 +3858,134 @@ En la siguiente sección, se presentará el sprint #2 con primera versión del b
 | Uribe, Jesús                        	| JesusU27        	| L       	| C                  	|
 
 <div id='6.2.2.3.'><h5>6.2.2.3. Sprint Backlog 2.</h5></div>
+
+Para el Sprint #2 nos trazamos como objetivo desarrollar y desplegar la primera versión del backend funcional, listo funcionalmente con la mayoria de implementaciones para producción y tiempos de carga rápidos.
+
+<table>
+  <thead>
+    <tr>
+      <th># Sprint</th>
+      <th colspan="8">Sprint 2 (Backend)</th>
+    </tr>
+    <tr>
+      <th colspan="2">Technical Story</th>
+      <th colspan="7">Work Item / Task</th>
+    </tr>
+    <tr>
+      <th>Id</th>
+      <th>Título</th>
+      <th>Id</th>
+      <th>Título</th>
+      <th>Descripción</th>
+      <th>Estimación (Horas)</th>
+      <th>Story Points</th>
+      <th>Asignado a</th>
+      <th>Estado</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>TS01</td>
+      <td>Login (API)</td>
+      <td>WT-BK01</td>
+      <td>Endpoint /auth/login</td>
+      <td>Implementar endpoint REST para autenticación (email/password) y emisión de JWT.</td>
+      <td>24h</td>
+      <td>3</td>
+      <td>Sebastián Silva</td>
+      <td>In Progress</td>
+    </tr>
+    <tr>
+      <td>TS02</td>
+      <td>Registrar cuidador (Backend)</td>
+      <td>WT-BK02</td>
+      <td>Crear endpoint register-caregiver</td>
+      <td>Endpoint para crear cuenta de tipo "caregiver" + validaciones (dni, teléfono) y manejo de duplicados.</td>
+      <td>40h</td>
+      <td>5</td>
+      <td>Sebastián Bohorquez</td>
+      <td>In Progress</td>
+    </tr>
+    <tr>
+      <td>TS03</td>
+      <td>Registrar paciente (Backend)</td>
+      <td>WT-BK03</td>
+      <td>Crear endpoint patients</td>
+      <td>Endpoint para registrar paciente (posible creación por caregiver) y establecer relaciones iniciales.</td>
+      <td>40h</td>
+      <td>5</td>
+      <td>Anthony Huapaya</td>
+      <td>In Progress</td>
+    </tr>
+    <tr>
+      <td>TS04</td>
+      <td>Vincular paciente ↔ cuidador</td>
+      <td>WT-BK04</td>
+      <td>Relacionar pacientes y cuidadores</td>
+      <td>Endpoint para relacionar patientId ↔ caregiverId con validaciones de permisos y duplicados.</td>
+      <td>24h</td>
+      <td>3</td>
+      <td>Elizabeth Huanaco</td>
+      <td>To Do</td>
+    </tr>
+    <tr>
+      <td>TS05</td>
+      <td>CRUD Disturbances (Alteraciones)</td>
+      <td>WT-BK05</td>
+      <td>Endpoints disturbaces</td>
+      <td>Crear, listar (paginado) y eliminar alteraciones detectadas (soft delete) con permisos.</td>
+      <td>40h</td>
+      <td>5</td>
+      <td>Anthony Huapaya</td>
+      <td>In Progress</td>
+    </tr>
+    <tr>
+      <td>TS06</td>
+      <td>CRUD Symptoms (Síntomas)</td>
+      <td>WT-BK06</td>
+      <td>Endpoints symptoms</td>
+      <td>Reportar, consultar y eliminar síntomas (adjuntos, trazabilidad) para pacientes.</td>
+      <td>24h</td>
+      <td>3</td>
+      <td>Sebastián Bohorquez</td>
+      <td>In Progress</td>
+    </tr>
+    <tr>
+      <td>TS07</td>
+      <td>CRUD Treatments (Tratamientos)</td>
+      <td>WT-BK07</td>
+      <td>Endpoints treatments</td>
+      <td>Gestionar tratamientos y recordatorios (create/get/update/delete) y relaciones con reminders.</td>
+      <td>40h</td>
+      <td>5</td>
+      <td>Jesús Uribe</td>
+      <td>In Progress</td>
+    </tr>
+    <tr>
+      <td>TS08</td>
+      <td>Asociar recordatorios a Treatment</td>
+      <td>WT-BK08</td>
+      <td>Reminders scheduler</td>
+      <td>Backend para crear/listar reminders asociados a treatments y exponer scheduler/worker para notificaciones.</td>
+      <td>40h</td>
+      <td>5</td>
+      <td>Jesús Uribe</td>
+      <td>In Progress</td>
+    </tr>
+    <tr>
+      <td>TS09</td>
+      <td>Seguridad y permisos en APIs</td>
+      <td>WT-BK09</td>
+      <td>JWT & RBAC</td>
+      <td>Middleware de autorización (roles: patient, caregiver, admin), validación de JWT y políticas de acceso por relación.</td>
+      <td>64h</td>
+      <td>8</td>
+      <td>Jesús Uribe</td>
+      <td>In Progress</td>
+    </tr>
+  </tbody>
+</table>
+
 <div id='6.2.2.4.'><h5>6.2.2.4. Development Evidence for Sprint Review.</h5></div>
 
 ### BACKEND:
@@ -3847,32 +4003,6 @@ En la siguiente sección, se presentará el sprint #2 con primera versión del b
   <tr>
 <td rowspan="10">
 	<a href="https://github.com/TF-SolucionesIoT/iam_service" target="_blank" rel="noopener noreferrer">https://github.com/TF-SolucionesIoT/iam_service</a>
-	<br>
-</td>
-    <td><br>main</td>
-    <td><br>XXX</td>
-    <td><br>first commit</td>
-    <td><br>first commit</td>
-    <td><br>XX/XX/2025</td>
-  </tr>
-  
-</tbody></table>
-
-### MOBILE APPLICATION:
-
-<table><thead>
-  <tr>
-    <th>&nbsp;&nbsp;&nbsp;<br>Repository&nbsp;&nbsp;&nbsp;</th>
-    <th>&nbsp;&nbsp;&nbsp;<br>Branch&nbsp;&nbsp;&nbsp;</th>
-    <th>&nbsp;&nbsp;&nbsp;<br>Commit ID&nbsp;&nbsp;&nbsp;</th>
-    <th>&nbsp;&nbsp;&nbsp;<br>Commit<br>&nbsp;&nbsp;&nbsp;<br>Message&nbsp;&nbsp;&nbsp;</th>
-    <th>&nbsp;&nbsp;&nbsp;<br>Commit<br>&nbsp;&nbsp;&nbsp;<br>Message Body&nbsp;&nbsp;&nbsp;</th>
-    <th>&nbsp;&nbsp;&nbsp;<br>Committed on&nbsp;&nbsp;&nbsp;(Date)&nbsp;&nbsp;&nbsp;</th>
-  </tr></thead>
-<tbody>
-  <tr>
-<td rowspan="10">
-	<a href="https://github.com/TF-SolucionesIoT/Mobile" target="_blank" rel="noopener noreferrer">https://github.com/TF-SolucionesIoT/Mobile</a>
 	<br>
 </td>
     <td><br>main</td>
