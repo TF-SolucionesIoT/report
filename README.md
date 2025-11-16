@@ -287,7 +287,8 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
         <b>TP1:</b> En la segunda entrega, lideré la integración de nuevas funcionalidades en el sistema, facilitando la revisión de código y la resolución de conflictos entre ramas. Promoví la colaboración en la documentación técnica y la validación de los diagramas de arquitectura, asegurando que todos los integrantes participaran en la toma de decisiones sobre el diseño final.<br><br>
         <strong>Huanaco Huayta, Elizabeth Lucero</strong><br>
         <strong>TB1:</strong> El desarrollo de estas tareas, desde la aplicación del Lean UX Process hasta la definición del Bounded Context: Treatment Support con sus diferentes capas y diagramas, me permitió trabajar en equipo de manera organizada y colaborativa. Cada actividad requirió discutir ideas, validar supuestos, formular hipótesis y estructurar el diseño técnico de forma conjunta, lo que fomentó la toma de decisiones compartida y la distribución de responsabilidades. Este proceso fortaleció la comunicación y coordinación dentro del grupo, lo que me permitió contribuir activamente a alcanzar el objetivo común.<br>
-        <strong>TP1:</strong> En la segunda fase, participé en la revisión y mejora de los flujos de usuario y wireframes, coordinando sesiones de feedback con el equipo. Impulsé la integración de los prototipos en Figma y la validación conjunta de los criterios de aceptación, asegurando que el liderazgo fuera compartido y que todos los miembros pudieran aportar en la definición de la experiencia de usuario.<br><br>
+        <strong>TP1:</strong> En la segunda fase, participé en la revisión y mejora de los flujos de usuario y wireframes, coordinando sesiones de feedback con el equipo. Impulsé la integración de los prototipos en Figma y la validación conjunta de los criterios de aceptación, asegurando que el liderazgo fuera compartido y que todos los miembros pudieran aportar en la definición de la experiencia de usuario.<br>
+        <strong>TB2:</strong> A lo largo del proyecto trabajé de manera colaborativa con mi equipo, ejerciendo un liderazgo compartido que nos permitió organizarnos y tomar decisiones en conjunto. Participé activamente en la planificación, la asignación de tareas y la revisión de cada fase del trabajo, incluyendo el diseño de las entrevistas, la validación heurística y la creación del video About-the-Product. Esta forma de trabajo fomentó una comunicación constante, la resolución conjunta de problemas y la consideración de todas las opiniones, lo que fortaleció tanto el trabajo en equipo como nuestro liderazgo colectivo.<br><br>
         <b>Huapaya Cuevas, Anthony Martin:</b><br>
         <b>TB1:</b> En el equipo aporté liderazgo conjunto al desarrollar el Lean UX Process, ya que ayudó a estructurar nuestras hipótesis y experimentos de manera clara, lo que facilitó la toma de decisiones colaborativas. Además, trabajé en los bounded context canvases de health tracking, lo que permitió al grupo alinear la visión del sistema y delimitar responsabilidades dentro del diseño, favoreciendo un liderazgo distribuido. Finalmente, al realizar el registro de entrevistas, contribuí a organizar la información obtenida de los usuarios, asegurando que todo el equipo pudiera basar sus decisiones en evidencia real y compartida.<br>
         <b>TP1:</b> En la segunda entrega, lideré la integración de los resultados de las entrevistas en el diseño de la arquitectura, coordinando la actualización de los diagramas y la documentación. Fomenté la participación activa de los miembros en la validación de los casos de uso y la revisión de los criterios de aceptación, consolidando el liderazgo conjunto en la toma de decisiones técnicas.<br><br>
@@ -311,7 +312,8 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
         <b>TP1:</b> En la segunda entrega, colaboré en la definición de los objetivos del sprint y la planificación de las tareas, asegurando que el entorno de trabajo fuera inclusivo y que todos los miembros pudieran aportar sus ideas. Fomenté la revisión cruzada de entregables y la retroalimentación constante, lo que permitió cumplir los objetivos en los plazos establecidos.<br><br>
         <strong>Huanaco Huayta, Elizabeth Lucero</strong><br>
         <strong>TB1:</strong> Durante el desarrollo de estas tareas logré desarrollar junto a mi equipo un entorno colaborativo e inclusivo, en el que cada integrante pudo aportar ideas y conocimientos desde su experiencia. Definimos metas claras, como la elaboración del Lean UX Canvas y los diferentes Bounded Context, lo que nos permitió planificar tareas de manera ordenada y asignarlas. Gracias a esta organización, pudimos cumplir con los objetivos establecidos en el tiempo acordado, fortaleciendo la participación equitativa y el compromiso hacia el proyecto del curso.<br>
-        <strong>TP1:</strong> En la segunda fase, participé en la planificación de los sprints y la definición de los entregables, promoviendo la inclusión de todos los miembros en la toma de decisiones. Coordiné la revisión de los prototipos y la validación de los criterios de aceptación, asegurando que el entorno de trabajo fuera colaborativo y que los objetivos se cumplieran en los plazos establecidos.<br><br>
+        <strong>TP1:</strong> En la segunda fase, participé en la planificación de los sprints y la definición de los entregables, promoviendo la inclusión de todos los miembros en la toma de decisiones. Coordiné la revisión de los prototipos y la validación de los criterios de aceptación, asegurando que el entorno de trabajo fuera colaborativo y que los objetivos se cumplieran en los plazos establecidos.<br>
+        <strong>TB2:</strong> Durante el desarrollo del proyecto me esforcé por fomentar un ambiente colaborativo e inclusivo dentro del equipo, garantizando que cada integrante tuviera espacio para participar y expresar sus ideas. Junto con mis compañeros establecimos metas claras, lo que permitió organizar y planificar las tareas de forma más eficaz. Además, procuré cumplir los objetivos planteados en cada etapa, manteniendo una comunicación constante y promoviendo un entorno de trabajo que favoreciera el crecimiento de todos y el progreso del proyecto.<br><br>
         <b>Huapaya Cuevas, Anthony Martin:</b><br>
         <b>TB1:</b> Durante el proyecto fomenté un entorno colaborativo e inclusivo al aplicar el Lean UX Process, donde todas las ideas del equipo fueron consideradas y priorizadas de manera conjunta. A través de los bounded context canvases de health tracking, ayudé a establecer metas claras y a planificar tareas específicas relacionadas con el diseño de los dominios, asegurando que cada miembro comprendiera su responsabilidad. Con el registro de entrevistas, contribuí a cumplir los objetivos del equipo, ya que la información recogida permitió orientar el diseño hacia las necesidades reales de los usuarios.<br>
         <b>TP1:</b> En la segunda entrega, colaboré en la planificación de los sprints y la asignación de tareas, promoviendo la inclusión de todos los miembros en la toma de decisiones. Fomenté la revisión cruzada de entregables y la retroalimentación constante, lo que permitió cumplir los objetivos en los plazos establecidos y fortalecer el entorno colaborativo.<br><br>
@@ -1060,6 +1062,20 @@ A continuación, se presenta una matriz de tareas enfocada en María Luisa Ramí
 | US27 | Descargar la aplicación | Como visitante, quiero descargar la aplicación desde la landing page para comenzar a usarla. | **ES1:** Enlaces funcionales → Los botones de “Descargar en Play Store / App Store” redirigen correctamente.<br>**ES2:** Detección de dispositivo → Si accede desde Android o iOS, se sugiere el enlace correspondiente.<br>**ES3:** Versión web → Si el dispositivo no es compatible, se ofrece versión web o aviso informativo. | EP007 |
 
 
+
+| Epic / Story ID | Título | Descripción | Criterios de Aceptación | Relacionado con (Epic ID) |
+|-----------------|---------|--------------|-------------------------------------------|---------------------------|
+| **EP01** | **Backend APIs y Servicios** | Endpoints y lógica del lado servidor para autenticación, gestión de entidades clínicas y relaciones entre pacientes y cuidadores. | | |
+| TS01 | Login (API) | Endpoint REST para autenticación de usuarios (email/password) y emisión de JWT. | **ES1:** POST /api/auth/login → devuelve token JWT y datos básicos del usuario.<br>**ES2:** Credenciales inválidas → 401 con mensaje genérico.<br>**ES3:** Token válido → accesible recursos protegidos. | EP01 |
+| TS02 | Registrar cuidador (Backend) | Endpoint para crear cuenta de tipo "caregiver" y perfil asociado. | **ES1:** POST /api/auth/register-caregiver crea User + Profile + Caregiver y devuelve 201.<br>**ES2:** Email duplicado → 409 y mensaje.<br>**ES3:** Validaciones de campos (dni, teléfono) aplicadas. | EP01 |
+| TS03 | Registrar paciente (Backend) | Endpoint para crear cuenta/registro de paciente (puede ser por caretakers). | **ES1:** POST /api/patients crea Patient y Profile y devuelve 201.<br>**ES2:** Si es creado por caregiver, se establece relación N:M inicial.<br>**ES3:** Validaciones de datos clínicos básicas. | EP01 |
+| TS04 | Vincular paciente ↔ cuidador | Endpoint para relacionar un paciente con un cuidador (adds relation). | **ES1:** POST /api/caregivers/{id}/patients con patientId → devuelve 200 y relación creada.<br>**ES2:** Si ya existe relación → 409.<br>**ES3:** Permisos: solo caregiver autenticado o admin puede vincular. | EP01 |
+| TS05 | CRUD Disturbances (Alteraciones) | Endpoints para crear, listar y eliminar alteraciones detectadas (disturbances). | **ES1:** POST /api/patients/{id}/disturbances crea entrada y devuelve 201.<br>**ES2:** GET /api/patients/{id}/disturbances devuelve lista paginada.<br>**ES3:** DELETE /api/disturbances/{id} borra (soft delete) con permisos adecuados (caregiver/patient/admin). | EP01 |
+| TS06 | CRUD Symptoms (Síntomas) | Endpoints para reportar, consultar y eliminar síntomas asociados a pacientes. | **ES1:** POST /api/patients/{id}/symptoms → 201 con id del síntoma.<br>**ES2:** GET /api/patients/{id}/symptoms → lista ordenada por fecha.<br>**ES3:** DELETE /api/symptoms/{id} → 200 y registro marcado inactivo. | EP01 |
+| TS07 | CRUD Treatments (Tratamientos) | Endpoints para gestionar tratamientos y recordatorios (create/get/delete). | **ES1:** POST /api/patients/{id}/treatments crea tratamiento y devuelve 201.<br>**ES2:** GET /api/patients/{id}/treatments devuelve activos/inactivos filtrables.<br>**ES3:** DELETE /api/treatments/{id} desactiva o elimina según política. | EP01 |
+<tr><td>37</td><td>TS10</td><td>Device Controller - Registrar dispositivo (POST /api/device)</td><td>Endpoint REST para registrar y vincular un dispositivo IoT a un paciente. Valida payload (deviceId, patientId, model, firmware), crea/actualiza registro del dispositivo y publica evento de dispositivo registrado. Maneja duplicados y devuelve 201 con recurso creado.</td><td>3</td></tr>
+<tr><td>38</td><td>TS11</td><td>Device Controller - Obtener lecturas (GET /api/device/readings/all)</td><td>Endpoint REST para obtener todas las lecturas recopiladas por los dispositivos. Soporta filtros (patientId, deviceId, from,to), paginación y ordenamiento. Protege ruta (roles/permiso), valida acceso y devuelve lista paginada de lecturas con metadatos.</td><td>5</td></tr>
+
 <div id='3.2.'><h3>3.2. Impact Mapping</h3></div>
 
 ### User Journey Map – Adulto Mayor
@@ -1071,6 +1087,12 @@ A continuación, se presenta una matriz de tareas enfocada en María Luisa Ramí
 <img src="Img/Impact_Mapping2.jpg" alt="Journey_Mapping2"></img>
 
 <div id='3.3.'><h3>3.3. Product Backlog</h3></div>
+
+Esta tabla muestra una lista estructurada de las funcionalidades principales que deben desarrollarse para el sistema IOT, organizadas conforme a la prioridad del negocio y las necesidades del usuario. Las características se clasifican en User Stories (historias de usuario) y Technical Stories (historias técnicas), y se ordenan según su importancia para asegurar que las más relevantes se atiendan primero.
+
+La intención de esta organización es facilitar una implementación eficaz, dando prioridad a las funciones que aportan mayor valor tanto al negocio como a la experiencia del usuario. Entre ellas se incluyen la administración de pacientes, registro de tratamientos, sintomas y recordatorios, vinculación de cuidador a paciente y otros elementos fundamentales para el funcionamiento de los sensores IOT. También se considera el esfuerzo requerido para cada actividad, expresado en Story Points, con el fin de optimizar la entrega de valor en el menor tiempo posible.
+
+Así, se define un plan de trabajo claro para el equipo de desarrollo, garantizando que las funcionalidades más importantes estén disponibles desde las primeras fases del proyecto.
 
 <table border="1" cellspacing="0" cellpadding="5">
   <thead>
@@ -1109,7 +1131,16 @@ A continuación, se presenta una matriz de tareas enfocada en María Luisa Ramí
     <tr><td>24</td><td>US24</td><td>Conocer acerca del proyecto</td><td>Mostrar misión, visión y equipo responsable del desarrollo de la aplicación.</td><td>1</td></tr>
     <tr><td>25</td><td>US25</td><td>Ver testimonios</td><td>Visualizar experiencias reales de usuarios o cuidadores para generar confianza.</td><td>2</td></tr>
     <tr><td>26</td><td>US26</td><td>Enviar mensaje de contacto</td><td>Permitir al visitante enviar un mensaje o consulta mediante formulario de contacto.</td><td>3</td></tr>
-    <tr><td>27</td><td>US27</td><td>Descargar la aplicación</td><td>Proveer enlaces de descarga directa a la app en Play Store o App Store.</td><td>2</td></tr>
+    <tr><td>28</td><td>TS01</td><td>Login (API)</td><td>Endpoint REST para autenticación de usuarios (email/password) y emisión de JWT.</td><td>3</td></tr>
+    <tr><td>29</td><td>TS02</td><td>Registrar cuidador (Backend)</td><td>Endpoint para crear cuenta de tipo "caregiver" y perfil asociado (User + Profile + Caregiver).</td><td>5</td></tr>
+    <tr><td>30</td><td>TS03</td><td>Registrar paciente (Backend)</td><td>Endpoint para crear cuenta/registro de paciente (puede ser creado por caregivers) y establecer relaciones iniciales.</td><td>5</td></tr>
+    <tr><td>31</td><td>TS04</td><td>Vincular paciente ↔ cuidador</td><td>Endpoint para relacionar un paciente con un cuidador (crear relación N:M) con validaciones y permisos.</td><td>3</td></tr>
+    <tr><td>32</td><td>TS05</td><td>CRUD Disturbances (Alteraciones)</td><td>Endpoints para crear, listar, filtrar y eliminar alteraciones detectadas por el sistema (soft delete, paginación).</td><td>5</td></tr>
+    <tr><td>33</td><td>TS06</td><td>CRUD Symptoms (Síntomas)</td><td>Endpoints para reportar, consultar y eliminar síntomas asociados a pacientes (incluye adjuntos y trazabilidad).</td><td>3</td></tr>
+    <tr><td>34</td><td>TS07</td><td>CRUD Treatments (Tratamientos)</td><td>Endpoints para gestionar tratamientos y su ciclo de vida (create/get/update/delete) y relaciones con recordatorios.</td><td>5</td></tr>
+    <tr><td>35</td><td>TS08</td><td>Asociar recordatorios a Treatment</td><td>Backend para crear/listar recordatorios asociados a tratamientos y exponer scheduler/worker para notificaciones.</td><td>5</td></tr>
+    <tr><td>37</td><td>TS10</td><td>Device Controller - Registrar dispositivo (POST /api/device)</td><td>Endpoint REST para registrar y vincular un dispositivo IoT a un paciente. Valida payload (deviceId, patientId, model, firmware), crea/actualiza registro del dispositivo y publica evento de dispositivo registrado. Maneja duplicados y devuelve 201 con recurso creado.</td><td>3</td></tr>
+    <tr><td>38</td><td>TS11</td><td>Device Controller - Obtener lecturas (GET /api/device/readings/all)</td><td>Endpoint REST para obtener todas las lecturas recopiladas por los dispositivos. Soporta filtros (patientId, deviceId, from,to), paginación y ordenamiento. Protege ruta (roles/permiso), valida acceso y devuelve lista paginada de lecturas con metadatos.</td><td>5</td></tr>
   </tbody>
 </table>
 
@@ -3830,6 +3861,155 @@ En la siguiente sección, se presentará el sprint #2 con primera versión del b
 | Uribe, Jesús                        	| JesusU27        	| L       	| C                  	|
 
 <div id='6.2.2.3.'><h5>6.2.2.3. Sprint Backlog 2.</h5></div>
+
+Para el Sprint #2 nos trazamos como objetivo desarrollar y desplegar la primera versión del backend funcional, listo funcionalmente con la mayoria de implementaciones para producción y tiempos de carga rápidos.
+
+<table>
+  <thead>
+    <tr>
+      <th># Sprint</th>
+      <th colspan="8">Sprint 2 (Backend)</th>
+    </tr>
+    <tr>
+      <th colspan="2">Technical Story</th>
+      <th colspan="7">Work Item / Task</th>
+    </tr>
+    <tr>
+      <th>Id</th>
+      <th>Título</th>
+      <th>Id</th>
+      <th>Título</th>
+      <th>Descripción</th>
+      <th>Estimación (Horas)</th>
+      <th>Story Points</th>
+      <th>Asignado a</th>
+      <th>Estado</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>TS01</td>
+      <td>Login (API)</td>
+      <td>WT-BK01</td>
+      <td>Endpoint /auth/login</td>
+      <td>Implementar endpoint REST para autenticación (email/password) y emisión de JWT.</td>
+      <td>24h</td>
+      <td>3</td>
+      <td>Sebastián Silva</td>
+      <td>In Progress</td>
+    </tr>
+    <tr>
+      <td>TS02</td>
+      <td>Registrar cuidador (Backend)</td>
+      <td>WT-BK02</td>
+      <td>Crear endpoint register-caregiver</td>
+      <td>Endpoint para crear cuenta de tipo "caregiver" + validaciones (dni, teléfono) y manejo de duplicados.</td>
+      <td>40h</td>
+      <td>5</td>
+      <td>Sebastián Bohorquez</td>
+      <td>In Progress</td>
+    </tr>
+    <tr>
+      <td>TS03</td>
+      <td>Registrar paciente (Backend)</td>
+      <td>WT-BK03</td>
+      <td>Crear endpoint patients</td>
+      <td>Endpoint para registrar paciente (posible creación por caregiver) y establecer relaciones iniciales.</td>
+      <td>40h</td>
+      <td>5</td>
+      <td>Anthony Huapaya</td>
+      <td>In Progress</td>
+    </tr>
+    <tr>
+      <td>TS04</td>
+      <td>Vincular paciente ↔ cuidador</td>
+      <td>WT-BK04</td>
+      <td>Relacionar pacientes y cuidadores</td>
+      <td>Endpoint para relacionar patientId ↔ caregiverId con validaciones de permisos y duplicados.</td>
+      <td>24h</td>
+      <td>3</td>
+      <td>Elizabeth Huanaco</td>
+      <td>To Do</td>
+    </tr>
+    <tr>
+      <td>TS05</td>
+      <td>CRUD Disturbances (Alteraciones)</td>
+      <td>WT-BK05</td>
+      <td>Endpoints disturbaces</td>
+      <td>Crear, listar (paginado) y eliminar alteraciones detectadas (soft delete) con permisos.</td>
+      <td>40h</td>
+      <td>5</td>
+      <td>Anthony Huapaya</td>
+      <td>In Progress</td>
+    </tr>
+    <tr>
+      <td>TS06</td>
+      <td>CRUD Symptoms (Síntomas)</td>
+      <td>WT-BK06</td>
+      <td>Endpoints symptoms</td>
+      <td>Reportar, consultar y eliminar síntomas (adjuntos, trazabilidad) para pacientes.</td>
+      <td>24h</td>
+      <td>3</td>
+      <td>Sebastián Bohorquez</td>
+      <td>In Progress</td>
+    </tr>
+    <tr>
+      <td>TS07</td>
+      <td>CRUD Treatments (Tratamientos)</td>
+      <td>WT-BK07</td>
+      <td>Endpoints treatments</td>
+      <td>Gestionar tratamientos y recordatorios (create/get/update/delete) y relaciones con reminders.</td>
+      <td>40h</td>
+      <td>5</td>
+      <td>Jesús Uribe</td>
+      <td>In Progress</td>
+    </tr>
+    <tr>
+      <td>TS08</td>
+      <td>Asociar recordatorios a Treatment</td>
+      <td>WT-BK08</td>
+      <td>Reminders scheduler</td>
+      <td>Backend para crear/listar reminders asociados a treatments y exponer scheduler/worker para notificaciones.</td>
+      <td>40h</td>
+      <td>5</td>
+      <td>Jesús Uribe</td>
+      <td>In Progress</td>
+    </tr>
+    <tr>
+      <td>TS09</td>
+      <td>Seguridad y permisos en APIs</td>
+      <td>WT-BK09</td>
+      <td>JWT & RBAC</td>
+      <td>Middleware de autorización (roles: patient, caregiver, admin), validación de JWT y políticas de acceso por relación.</td>
+      <td>64h</td>
+      <td>8</td>
+      <td>Jesús Uribe</td>
+      <td>In Progress</td>
+    <tr>
+      <td>TS10</td>
+      <td>Device Controller - Registrar dispositivo</td>
+      <td>WT-BK10</td>
+      <td>POST /api/device</td>
+      <td>Implementar endpoint REST para registrar y vincular un dispositivo IoT a un paciente. Validar payload (deviceId, patientId, model, firmware), crear/actualizar registro del dispositivo y publicar evento de dispositivo registrado. Manejar duplicados y devolver 201 con recurso creado.</td>
+      <td>32h</td>
+      <td>5</td>
+      <td>Anthony Huapaya</td>
+      <td>To Do</td>
+    </tr>
+    <tr>
+      <td>TS11</td>
+      <td>Device Controller - Obtener lecturas</td>
+      <td>WT-BK11</td>
+      <td>GET /api/device/readings/all</td>
+      <td>Implementar endpoint REST para obtener todas las lecturas recopiladas por los dispositivos. Soportar filtros (patientId, deviceId, from, to), paginación y ordenamiento. Proteger ruta (roles/permiso), validar acceso y devolver lista paginada de lecturas con metadatos.</td>
+      <td>32h</td>
+      <td>5</td>
+      <td>Elizabeth Huanaco</td>
+      <td>To Do</td>
+    </tr>
+  </tbody>
+</table>
+
 <div id='6.2.2.4.'><h5>6.2.2.4. Development Evidence for Sprint Review.</h5></div>
 
 ### BACKEND:
@@ -3847,32 +4027,6 @@ En la siguiente sección, se presentará el sprint #2 con primera versión del b
   <tr>
 <td rowspan="10">
 	<a href="https://github.com/TF-SolucionesIoT/iam_service" target="_blank" rel="noopener noreferrer">https://github.com/TF-SolucionesIoT/iam_service</a>
-	<br>
-</td>
-    <td><br>main</td>
-    <td><br>XXX</td>
-    <td><br>first commit</td>
-    <td><br>first commit</td>
-    <td><br>XX/XX/2025</td>
-  </tr>
-  
-</tbody></table>
-
-### MOBILE APPLICATION:
-
-<table><thead>
-  <tr>
-    <th>&nbsp;&nbsp;&nbsp;<br>Repository&nbsp;&nbsp;&nbsp;</th>
-    <th>&nbsp;&nbsp;&nbsp;<br>Branch&nbsp;&nbsp;&nbsp;</th>
-    <th>&nbsp;&nbsp;&nbsp;<br>Commit ID&nbsp;&nbsp;&nbsp;</th>
-    <th>&nbsp;&nbsp;&nbsp;<br>Commit<br>&nbsp;&nbsp;&nbsp;<br>Message&nbsp;&nbsp;&nbsp;</th>
-    <th>&nbsp;&nbsp;&nbsp;<br>Commit<br>&nbsp;&nbsp;&nbsp;<br>Message Body&nbsp;&nbsp;&nbsp;</th>
-    <th>&nbsp;&nbsp;&nbsp;<br>Committed on&nbsp;&nbsp;&nbsp;(Date)&nbsp;&nbsp;&nbsp;</th>
-  </tr></thead>
-<tbody>
-  <tr>
-<td rowspan="10">
-	<a href="https://github.com/TF-SolucionesIoT/Mobile" target="_blank" rel="noopener noreferrer">https://github.com/TF-SolucionesIoT/Mobile</a>
 	<br>
 </td>
     <td><br>main</td>
@@ -4057,6 +4211,150 @@ Al ingresar al landing page de AlertaVital, el usuario encuentra información cl
 
 <div id='6.3.3.'><h4>6.3.3. Evaluaciones según heurísticas.</h4></div>
 
+**App a evaluar**
+AlertaVital - Web Application for <br>
+**Tareas a evaluar**
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
+
+| **Site Web** |
+|--------------|
+
+| ID | Tarea                                          |
+|----|------------------------------------------------|
+| 1  | Inicio de sesión                               |
+| 2  | Recuperación de contraseña                     |
+| 3  | Dashboard de la aplicación                     |
+| 4  | Gestión de contactos (listar, ver, agregar, eliminar) |
+| 5  | Diagrama de los signos vitales                 |
+| 6  | Gestión de tratamientos                        |
+| 7  | Gestión de síntomas                            |
+| 8  | Gestión de alteraciones                        |
+
+<br>
+
+| **Web Landing Page** |
+|-----------------------|
+
+| ID | Tarea                                  |
+|----|----------------------------------------|
+| 1  | Redireccionamiento a la aplicación web |
+| 2  | Formulario de contactos                |
+| 3  | Direccionamiento de la barra de navegación |
+| 4  | Información de los testimonios         |
+
+<br>
+
+**Escala de severidad**
+<br>
+Los errores serán puntuados tomando en cuenta la siguiente escala de severidad.
+
+| Nivel | Descripción                                                                                                                                                 |
+|-------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1     | Problema superficial: puede ser fácilmente superado por el usuario o ocurre con muy poca frecuencia. No necesita ser arreglado a menos que exista tiempo.  |
+| 2     | Problema menor: ocurre un poco más frecuentemente o es más difícil de superar. Se le debe asignar prioridad baja para la siguiente versión.               |
+| 3     | Problema mayor: ocurre frecuentemente o los usuarios no pueden resolverlo. Debe corregirse con prioridad alta.                                             |
+| 4     | Problema muy grave: impide al usuario continuar con el uso de la herramienta. Es imperativo corregirlo antes del lanzamiento.                              |
+
+<br>
+
+**Tabla Resumen**
+
+| # | Problema                                                | Escala de severidad | Heurística / Principio violado        |
+|---|---------------------------------------------------------|----------------------|----------------------------------------|
+| 1 | El botón de emergencias “SOS” está en sección secundaria | 3                    | Control y libertad de usuario          |
+| 2 | Aumentar el tamaño de las letras en la barra de navegación | 2                  | Flexibilidad y eficiencia de uso       |
+| 3 | Falta de contraste y diferenciación entre secciones       | 3                    | Reconocimiento en lugar de recuerdo    |
+| 4 | Mantiene un color dominante en casi todas las pantallas  | 3                    | Diseño estético y minimalista          |
+| 5 | Uso de guías o tutoriales dentro de la aplicación        | 2                    | Ayuda y documentación                  |
+| 6 | Opción “Forgot your password” no funcional               | 4                    | Control y libertad de usuario          |
+
+<br>
+
+**Detalle de los problemas**
+
+**Problema #1: El botón de emergencias “SOS” está ubicado en una sección secundaria.**
+<br>
+Severidad: 3
+Control y libertad de usuario
+Problema:
+El botón de emergencias está ubicado en una sección secundaria, lo que dificulta la acción inmediata. Esto viola la idea de que el usuario debe poder ejecutar funciones críticas de manera rápida y sin barreras.
+
+<img src="Img/problema1.jpg" style="width: 700px;"><br>
+
+Recomendaciones:
+- Implementar la funcionalidad del botón en el dashboard, de esa manera estará al alcance al momento de necesitar pedir una llamada de emergencia.
+<br>
+
+
+**Problema #2: Aumentar el tamaño de las letras en la barra de navegación.**
+<br>
+Severidad: 2
+Heurística violada: Flexibilidad y eficiencia de uso
+Problema:
+La solicitud de aumentar el tamaño de las letras en la barra de navegación indica un fallo en la legibilidad, que es clave especialmente para usuarios con limitaciones visuales o con estrés en situaciones de emergencia.
+
+<img src="Img/problema2.jpg" style="width: 700px;"><br>
+
+Recomendaciones:
+- Mejorar el diseño de la barra lateral, como aumentando más el tamaño de letra para que sea visible para cualquier persona que lo use.
+<br>
+
+**Problema #3: Falta de contraste y diferenciación entre secciones**
+<br>
+Severidad: 3
+Heurística violada: Reconocimiento en lugar de recuerdo
+Problema:
+La falta de contraste y diferenciación entre secciones hace que el usuario tenga que recordar qué parte de la aplicación está viendo, en lugar de reconocerla inmediatamente
+
+<img src="Img/problema3.jpg" style="width: 700px;"><br>
+
+Recomendaciones:
+- Mejorar el diseño para que tenga un mejor contraste al momento de cambiar entre distintas secciones de la aplicación.
+<br>
+
+**Problema #4: Mantiene un color dominante en casi todas las pantallas**
+<br>
+Severidad: 3
+Heurística violada: Diseño estético y minimalista
+Problema:
+El diseño mantiene un color dominante en casi todas las pantallas, lo que genera una falta de diferenciación entre secciones, además de los problemas de contraste y jerarquía visual.
+Esto rompe con la consistencia visual adecuada, ya que no se aplican estándares de contraste ni convenciones de diseño que ayuden a la identificación rápida.
+
+<img src="Img/problema4.jpg" style="width: 700px;"><br>
+
+Recomendaciones:
+- Mejorar el diseño de acuerdo con un mejor uso de las paleta de colores para que no predomine un mismo color en toda la aplicación.
+<br>
+
+**Problema #5: Uso de guías o tutoriales dentro de la aplicación**
+<br>
+Severidad: 2
+Heurística violada: Ayuda y documentación
+Problema:
+Muchos adultos mayores requieren guías o tutoriales dentro de la aplicación. Aunque la app es fácil de usar, no se evidencia la presencia de ayudas o instrucciones, lo que puede dificultar el aprendizaje de nuevas funciones y reducir la autonomía del usuario.
+
+<img src="Img/problema5.jpg" style="width: 700px;"><br>
+
+Recomendaciones:
+- Añadir una opción de tutorial o guía que pueda permitir a cualquier usuario aprender a cómo usar la aplicación sin dificultades.
+<br>
+
+**Problema #6: Opción “Forgot your password” no funcional**
+<br>
+Severidad: 4
+Heurística violada: Control y libertad de usuario
+Problema:
+En la vista de inicio de sesión, el enlace de “Forgot your password” presenta un comportamiento incorrecto. El enlace es clickeable, pero no produce ninguna acción observable para el usuario. No te redirige a la página para ver el tema de la contraseña del usuario.
+Además, el sistema no provee ninguna señal de que la acción está procesando, ni tampoco muestra mensajes de error si el backend falla.
+Esto genera un estado de incertidumbre en el usuario, ya que no queda claro si el sistema está trabajando o hubo un error.
+
+<img src="Img/problema6.jpg" style="width: 700px;"><br>
+
+Recomendaciones
+- Proveer feedback inmediato al usuario.
+  - Deshabilitar interacción mientras procesa.
+- Validar y manejar errores del backend.
+<br>
 
 
 <div id='6.4.'><h3>6.4. Video About-the-Product.</h3></div>
