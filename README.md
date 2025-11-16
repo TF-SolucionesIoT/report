@@ -4243,6 +4243,7 @@ El alcance de esta evaluación incluye la revisión de la usabilidad de las sigu
 <br>
 
 **Escala de severidad**
+<br>
 Los errores serán puntuados tomando en cuenta la siguiente escala de severidad.
 
 | Nivel | Descripción                                                                                                                                                 |
@@ -4270,6 +4271,7 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad.
 **Detalle de los problemas**
 
 **Problema #1: El botón de emergencias “SOS” está ubicado en una sección secundaria.**
+<br>
 Severidad: 3
 Control y libertad de usuario
 Problema:
@@ -4279,8 +4281,11 @@ El botón de emergencias está ubicado en una sección secundaria, lo que dificu
 
 Recomendaciones:
 - Implementar la funcionalidad del botón en el dashboard, de esa manera estará al alcance al momento de necesitar pedir una llamada de emergencia.
+<br>
+
 
 **Problema #2: Aumentar el tamaño de las letras en la barra de navegación.**
+<br>
 Severidad: 2
 Heurística violada: Flexibilidad y eficiencia de uso
 Problema:
@@ -4290,8 +4295,11 @@ La solicitud de aumentar el tamaño de las letras en la barra de navegación ind
 
 Recomendaciones:
 - Mejorar el diseño de la barra lateral, como aumentando más el tamaño de letra para que sea visible para cualquier persona que lo use.
+<br>
 
 **Problema #3: Falta de contraste y diferenciación entre secciones**
+<br>
+
 Severidad: 3
 Heurística violada: Reconocimiento en lugar de recuerdo
 Problema:
@@ -4301,8 +4309,10 @@ La falta de contraste y diferenciación entre secciones hace que el usuario teng
 
 Recomendaciones:
 - Mejorar el diseño para que tenga un mejor contraste al momento de cambiar entre distintas secciones de la aplicación.
+<br>
 
 **Problema #4: Mantiene un color dominante en casi todas las pantallas**
+<br>
 Severidad: 3
 Heurística violada: Diseño estético y minimalista
 Problema:
@@ -4313,8 +4323,10 @@ Esto rompe con la consistencia visual adecuada, ya que no se aplican estándares
 
 Recomendaciones:
 - Mejorar el diseño de acuerdo con un mejor uso de las paleta de colores para que no predomine un mismo color en toda la aplicación.
+<br>
 
 **Problema #5: Uso de guías o tutoriales dentro de la aplicación**
+<br>
 Severidad: 2
 Heurística violada: Ayuda y documentación
 Problema:
@@ -4324,8 +4336,10 @@ Muchos adultos mayores requieren guías o tutoriales dentro de la aplicación. A
 
 Recomendaciones:
 - Añadir una opción de tutorial o guía que pueda permitir a cualquier usuario aprender a cómo usar la aplicación sin dificultades.
+<br>
 
 **Problema #6: Opción “Forgot your password” no funcional**
+<br>
 Severidad: 4
 Heurística violada: Control y libertad de usuario
 Problema:
@@ -4339,6 +4353,7 @@ Recomendaciones
 - Proveer feedback inmediato al usuario.
   - Deshabilitar interacción mientras procesa.
 - Validar y manejar errores del backend.
+<br>
 
 
 <div id='6.4.'><h3>6.4. Video About-the-Product.</h3></div>
