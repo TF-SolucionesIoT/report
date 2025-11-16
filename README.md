@@ -1449,7 +1449,7 @@ Este context mapping representa un ecosistema de salud digital centrado en el pa
 Representa el panorama global de la organización. En esta vista se identifican todas las personas y sistemas que existen en el ecosistema, independientemente de si forman parte o no del sistema principal. El System Landscape incluye a las dos personas (Usuario y Cuidador), los sistemas externos (Oauth 2.0, IoT Device y Firebase Cloud Messaging) y el sistema principal denominado Healthcare System. También muestra las relaciones de alto nivel entre todos estos elementos, permitiendo entender cómo encaja el Healthcare System dentro del entorno tecnológico total.
 
 <div align="center">
-<img src="Img/structurizr-SystemContext (1).jpg">
+<img src="Img/structurizr-SystemLandscape2.png">
 </div>
 
 <div id='4.1.3.2.'><h5>4.1.3.2. Software Architecture Context Level Diagrams</h5></div>
