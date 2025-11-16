@@ -4228,6 +4228,8 @@ El alcance de esta evaluación incluye la revisión de la usabilidad de las sigu
 | 7  | Gestión de síntomas                            |
 | 8  | Gestión de alteraciones                        |
 
+<br>
+
 | **Web Landing Page** |
 |-----------------------|
 
@@ -4238,7 +4240,105 @@ El alcance de esta evaluación incluye la revisión de la usabilidad de las sigu
 | 3  | Direccionamiento de la barra de navegación |
 | 4  | Información de los testimonios         |
 
+<br>
+
 **Escala de severidad**
+Los errores serán puntuados tomando en cuenta la siguiente escala de severidad.
+
+| Nivel | Descripción                                                                                                                                                 |
+|-------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1     | Problema superficial: puede ser fácilmente superado por el usuario o ocurre con muy poca frecuencia. No necesita ser arreglado a menos que exista tiempo.  |
+| 2     | Problema menor: ocurre un poco más frecuentemente o es más difícil de superar. Se le debe asignar prioridad baja para la siguiente versión.               |
+| 3     | Problema mayor: ocurre frecuentemente o los usuarios no pueden resolverlo. Debe corregirse con prioridad alta.                                             |
+| 4     | Problema muy grave: impide al usuario continuar con el uso de la herramienta. Es imperativo corregirlo antes del lanzamiento.                              |
+
+<br>
+
+**Tabla Resumen**
+
+| # | Problema                                                | Escala de severidad | Heurística / Principio violado        |
+|---|---------------------------------------------------------|----------------------|----------------------------------------|
+| 1 | El botón de emergencias “SOS” está en sección secundaria | 3                    | Control y libertad de usuario          |
+| 2 | Aumentar el tamaño de las letras en la barra de navegación | 2                  | Flexibilidad y eficiencia de uso       |
+| 3 | Falta de contraste y diferenciación entre secciones       | 3                    | Reconocimiento en lugar de recuerdo    |
+| 4 | Mantiene un color dominante en casi todas las pantallas  | 3                    | Diseño estético y minimalista          |
+| 5 | Uso de guías o tutoriales dentro de la aplicación        | 2                    | Ayuda y documentación                  |
+| 6 | Opción “Forgot your password” no funcional               | 4                    | Control y libertad de usuario          |
+
+<br>
+
+**Detalle de los problemas**
+
+**Problema #1: El botón de emergencias “SOS” está ubicado en una sección secundaria.**
+Severidad: 3
+Control y libertad de usuario
+Problema:
+El botón de emergencias está ubicado en una sección secundaria, lo que dificulta la acción inmediata. Esto viola la idea de que el usuario debe poder ejecutar funciones críticas de manera rápida y sin barreras.
+
+<img src="Img/problema1.jpg" style="width: 700px;"><br>
+
+Recomendaciones:
+- Implementar la funcionalidad del botón en el dashboard, de esa manera estará al alcance al momento de necesitar pedir una llamada de emergencia.
+
+**Problema #2: Aumentar el tamaño de las letras en la barra de navegación.**
+Severidad: 2
+Heurística violada: Flexibilidad y eficiencia de uso
+Problema:
+La solicitud de aumentar el tamaño de las letras en la barra de navegación indica un fallo en la legibilidad, que es clave especialmente para usuarios con limitaciones visuales o con estrés en situaciones de emergencia.
+
+<img src="Img/problema2.jpg" style="width: 700px;"><br>
+
+Recomendaciones:
+- Mejorar el diseño de la barra lateral, como aumentando más el tamaño de letra para que sea visible para cualquier persona que lo use.
+
+**Problema #3: Falta de contraste y diferenciación entre secciones**
+Severidad: 3
+Heurística violada: Reconocimiento en lugar de recuerdo
+Problema:
+La falta de contraste y diferenciación entre secciones hace que el usuario tenga que recordar qué parte de la aplicación está viendo, en lugar de reconocerla inmediatamente
+
+<img src="Img/problema3.jpg" style="width: 700px;"><br>
+
+Recomendaciones:
+- Mejorar el diseño para que tenga un mejor contraste al momento de cambiar entre distintas secciones de la aplicación.
+
+**Problema #4: Mantiene un color dominante en casi todas las pantallas**
+Severidad: 3
+Heurística violada: Diseño estético y minimalista
+Problema:
+El diseño mantiene un color dominante en casi todas las pantallas, lo que genera una falta de diferenciación entre secciones, además de los problemas de contraste y jerarquía visual.
+Esto rompe con la consistencia visual adecuada, ya que no se aplican estándares de contraste ni convenciones de diseño que ayuden a la identificación rápida.
+
+<img src="Img/problema4.jpg" style="width: 700px;"><br>
+
+Recomendaciones:
+- Mejorar el diseño de acuerdo con un mejor uso de las paleta de colores para que no predomine un mismo color en toda la aplicación.
+
+**Problema #5: Uso de guías o tutoriales dentro de la aplicación**
+Severidad: 2
+Heurística violada: Ayuda y documentación
+Problema:
+Muchos adultos mayores requieren guías o tutoriales dentro de la aplicación. Aunque la app es fácil de usar, no se evidencia la presencia de ayudas o instrucciones, lo que puede dificultar el aprendizaje de nuevas funciones y reducir la autonomía del usuario.
+
+<img src="Img/problema5.jpg" style="width: 700px;"><br>
+
+Recomendaciones:
+- Añadir una opción de tutorial o guía que pueda permitir a cualquier usuario aprender a cómo usar la aplicación sin dificultades.
+
+**Problema #6: Opción “Forgot your password” no funcional**
+Severidad: 4
+Heurística violada: Control y libertad de usuario
+Problema:
+En la vista de inicio de sesión, el enlace de “Forgot your password” presenta un comportamiento incorrecto. El enlace es clickeable, pero no produce ninguna acción observable para el usuario. No te redirige a la página para ver el tema de la contraseña del usuario.
+Además, el sistema no provee ninguna señal de que la acción está procesando, ni tampoco muestra mensajes de error si el backend falla.
+Esto genera un estado de incertidumbre en el usuario, ya que no queda claro si el sistema está trabajando o hubo un error.
+
+<img src="Img/problema6.jpg" style="width: 700px;"><br>
+
+Recomendaciones
+- Proveer feedback inmediato al usuario.
+  - Deshabilitar interacción mientras procesa.
+- Validar y manejar errores del backend.
 
 
 <div id='6.4.'><h3>6.4. Video About-the-Product.</h3></div>
