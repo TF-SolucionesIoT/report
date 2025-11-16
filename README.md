@@ -51,7 +51,7 @@ El objetivo de esta sección es resumir las modificaciones relevantes que se rea
 
 URL del repositorio para el reporte del proyecto:
 
-**TP:**
+**TB2:**
 
 <div align="center">
   <img src="Img/insight_tb2.png" alt="insights" width=350>
@@ -61,15 +61,16 @@ URL del repositorio para el reporte del proyecto:
   <img src="Img/insight_tb2a.png" alt="insights" width=350>
 </div>
 
+
 Para el desarrollo del informe perteneciente a la entrega del trabajo parcial, se dividió la implementación de secciones de la siguiente forma para cada integrante del equipo:
 
 | Integrante | Tareas Asignadas |
 | ---------- | ---------------- |
-| Bohórquez Lerzundi, Gerardo Sebastián | XXXXXXXXXXXXX |
-| Huanaco Huayta, Elizabeth Lucero | XXXXXXXXXXXXX |
-| Huapaya Cuevas, Anthony | XXXXXXXXXXXXX |
-| Silva Tirado, Sebastián Valentino | XXXXXXXXXXXXX |
-| Uribe Quispe, Jesús Guillermo | XXXXXXXXXXXXX  |
+| Bohórquez Lerzundi, Gerardo Sebastián | Despliegue servicio web y aplicacion web, desarrollo de funcionalidades en servicios web |
+| Huanaco Huayta, Elizabeth Lucero | Validation Interviews, desarrollo de funcionalidades en servicios web |
+| Huapaya Cuevas, Anthony | Validation Interviews, desarrollo de funcionalidades en servicios web  |
+| Silva Tirado, Sebastián Valentino | Desarrollo de aplicación web. |
+| Uribe Quispe, Jesús Guillermo | Desarrollo de servicio web y aplicación edge.  |
 
 <br>
 
@@ -1421,11 +1422,15 @@ Este context mapping representa un ecosistema de salud digital centrado en el pa
 <div id='4.1.3.'><h4>4.1.3. Software Architecture</h4></div>
 <div id='4.1.3.1.'><h5>4.1.3.1. Software Architecture System Landscape Diagram</h5></div>
 
+Representa el panorama global de la organización. En esta vista se identifican todas las personas y sistemas que existen en el ecosistema, independientemente de si forman parte o no del sistema principal. El System Landscape incluye a las dos personas (Usuario y Cuidador), los sistemas externos (Oauth 2.0, IoT Device y Firebase Cloud Messaging) y el sistema principal denominado Healthcare System. También muestra las relaciones de alto nivel entre todos estos elementos, permitiendo entender cómo encaja el Healthcare System dentro del entorno tecnológico total.
+
 <div align="center">
-<img src="Img/structurizr-SystemLandscape (1).png">
+<img src="Img/structurizr-SystemContext (1).jpg">
 </div>
 
 <div id='4.1.3.2.'><h5>4.1.3.2. Software Architecture Context Level Diagrams</h5></div>
+
+Este nivel se centra exclusivamente en el Healthcare System y su interacción con el exterior. Aquí se muestran las personas que utilizan el sistema (Usuario y Cuidador), los sistemas externos con los que se integra (Oauth 2.0, IoT Device y Firebase Cloud Messaging) y las relaciones entre ellos. No se entra en detalles internos del sistema; sólo se muestra cómo se vincula con su entorno. Esta vista define claramente los límites del Healthcare System y establece el alcance general del modelo.
 
 <div align="center">
 <img src="Img/structurizr-SystemContext (1).jpg">
@@ -1433,13 +1438,18 @@ Este context mapping representa un ecosistema de salud digital centrado en el pa
 
 <div id='4.1.3.3.'><h5>4.1.3.3. Software Architecture Container Level Diagrams</h5></div>
 
+Este nivel descompone el Healthcare System en sus principales contenedores, es decir, en los bloques tecnológicos que lo conforman: aplicaciones, servicios, bases de datos y ejecutables. En tu caso, se identifican la aplicación web, la aplicación móvil, la base de datos principal, los bounded contexts (IAM_BC, User_Profile_BC, Monitoring_BC, Health_Tracking_BC y Emergency_Management_BC), el software edge, el dispositivo embebido y las bases de datos SQLite locales de los dispositivos móviles y del edge. También se muestran las relaciones entre estos contenedores, lo cual permite comprender cómo se estructura el sistema internamente y cómo cada parte colabora para cumplir las funcionalidades globales.
+
 #### Health System Container
 <div align="center">
-<img src="Img/structurizr-HealthcareSystemContainers (1).png">
+<img src="Img/containers.png">
 </div>
 
 
 <div id='4.1.3.4.'><h5>4.1.3.4. Software Architecture Deployment Diagrams</h5></div>
+
+Diagrama de despliegue, en donde se puede definir que para la aplicación web usaremos una web llamada Netlify, para las aplicaciones móviles se distribuiran las apks firmadas en Firebase Distribution y el servicio Web junto a su base de datos estaran desplegadas en servicios de Azure.
+
 
 <div align="center">
 <img src="Img/structurizr-AmazonWebServicesDeployment.png">
@@ -3925,10 +3935,10 @@ Para el Sprint #2 nos trazamos como objetivo desarrollar y desplegar la primera 
       <td>WT-BK01</td>
       <td>Endpoint /auth/login</td>
       <td>Implementar endpoint REST para autenticación (email/password) y emisión de JWT.</td>
-      <td>24h</td>
+      <td>4h</td>
       <td>3</td>
-      <td>Sebastián Silva</td>
-      <td>In Progress</td>
+      <td>Jesús Uribe</td>
+      <td>Done</td>
     </tr>
     <tr>
       <td>TS02</td>
@@ -3936,10 +3946,10 @@ Para el Sprint #2 nos trazamos como objetivo desarrollar y desplegar la primera 
       <td>WT-BK02</td>
       <td>Crear endpoint register-caregiver</td>
       <td>Endpoint para crear cuenta de tipo "caregiver" + validaciones (dni, teléfono) y manejo de duplicados.</td>
-      <td>40h</td>
+      <td>4h</td>
       <td>5</td>
-      <td>Sebastián Bohorquez</td>
-      <td>In Progress</td>
+      <td>Jesús Uribe</td>
+      <td>Done</td>
     </tr>
     <tr>
       <td>TS03</td>
@@ -3947,10 +3957,10 @@ Para el Sprint #2 nos trazamos como objetivo desarrollar y desplegar la primera 
       <td>WT-BK03</td>
       <td>Crear endpoint patients</td>
       <td>Endpoint para registrar paciente (posible creación por caregiver) y establecer relaciones iniciales.</td>
-      <td>40h</td>
+      <td>4h</td>
       <td>5</td>
-      <td>Anthony Huapaya</td>
-      <td>In Progress</td>
+      <td>Jesús Uribe</td>
+      <td>Done</td>
     </tr>
     <tr>
       <td>TS04</td>
@@ -3958,10 +3968,10 @@ Para el Sprint #2 nos trazamos como objetivo desarrollar y desplegar la primera 
       <td>WT-BK04</td>
       <td>Relacionar pacientes y cuidadores</td>
       <td>Endpoint para relacionar patientId ↔ caregiverId con validaciones de permisos y duplicados.</td>
-      <td>24h</td>
-      <td>3</td>
-      <td>Elizabeth Huanaco</td>
-      <td>To Do</td>
+      <td>4h</td>
+      <td>5</td>
+      <td>Sebastián Bohorquez</td>
+      <td>Done</td>
     </tr>
     <tr>
       <td>TS05</td>
@@ -3969,10 +3979,10 @@ Para el Sprint #2 nos trazamos como objetivo desarrollar y desplegar la primera 
       <td>WT-BK05</td>
       <td>Endpoints disturbaces</td>
       <td>Crear, listar (paginado) y eliminar alteraciones detectadas (soft delete) con permisos.</td>
-      <td>40h</td>
+      <td>4h</td>
       <td>5</td>
-      <td>Anthony Huapaya</td>
-      <td>In Progress</td>
+      <td>Sebastián Silva</td>
+      <td>Done</td>
     </tr>
     <tr>
       <td>TS06</td>
@@ -3982,8 +3992,8 @@ Para el Sprint #2 nos trazamos como objetivo desarrollar y desplegar la primera 
       <td>Reportar, consultar y eliminar síntomas (adjuntos, trazabilidad) para pacientes.</td>
       <td>24h</td>
       <td>3</td>
-      <td>Sebastián Bohorquez</td>
-      <td>In Progress</td>
+      <td>Jesús Uribe</td>
+      <td>Done</td>
     </tr>
     <tr>
       <td>TS07</td>
@@ -3994,7 +4004,7 @@ Para el Sprint #2 nos trazamos como objetivo desarrollar y desplegar la primera 
       <td>40h</td>
       <td>5</td>
       <td>Jesús Uribe</td>
-      <td>In Progress</td>
+      <td>Done</td>
     </tr>
     <tr>
       <td>TS08</td>
@@ -4002,7 +4012,7 @@ Para el Sprint #2 nos trazamos como objetivo desarrollar y desplegar la primera 
       <td>WT-BK08</td>
       <td>Reminders scheduler</td>
       <td>Backend para crear/listar reminders asociados a treatments y exponer scheduler/worker para notificaciones.</td>
-      <td>40h</td>
+      <td>4h</td>
       <td>5</td>
       <td>Jesús Uribe</td>
       <td>In Progress</td>
@@ -4013,20 +4023,20 @@ Para el Sprint #2 nos trazamos como objetivo desarrollar y desplegar la primera 
       <td>WT-BK09</td>
       <td>JWT & RBAC</td>
       <td>Middleware de autorización (roles: patient, caregiver, admin), validación de JWT y políticas de acceso por relación.</td>
-      <td>64h</td>
-      <td>8</td>
+      <td>8h</td>
+      <td>5</td>
       <td>Jesús Uribe</td>
-      <td>In Progress</td>
+      <td>Done</td>
     <tr>
       <td>TS10</td>
       <td>Device Controller - Registrar dispositivo</td>
       <td>WT-BK10</td>
       <td>POST /api/device</td>
       <td>Implementar endpoint REST para registrar y vincular un dispositivo IoT a un paciente. Validar payload (deviceId, patientId, model, firmware), crear/actualizar registro del dispositivo y publicar evento de dispositivo registrado. Manejar duplicados y devolver 201 con recurso creado.</td>
-      <td>32h</td>
+      <td>8h</td>
       <td>5</td>
-      <td>Anthony Huapaya</td>
-      <td>To Do</td>
+      <td>Jesús Uribe</td>
+      <td>In Progress</td>
     </tr>
     <tr>
       <td>TS11</td>
@@ -4034,17 +4044,17 @@ Para el Sprint #2 nos trazamos como objetivo desarrollar y desplegar la primera 
       <td>WT-BK11</td>
       <td>GET /api/device/readings/all</td>
       <td>Implementar endpoint REST para obtener todas las lecturas recopiladas por los dispositivos. Soportar filtros (patientId, deviceId, from, to), paginación y ordenamiento. Proteger ruta (roles/permiso), validar acceso y devolver lista paginada de lecturas con metadatos.</td>
-      <td>32h</td>
+      <td>8h</td>
       <td>5</td>
-      <td>Elizabeth Huanaco</td>
-      <td>To Do</td>
+      <td>Jesús Uribe</td>
+      <td>In Progress</td>
     </tr>
   </tbody>
 </table>
 
 <div id='6.2.2.4.'><h5>6.2.2.4. Development Evidence for Sprint Review.</h5></div>
 
-### BACKEND:
+### WEB SERVICE:
 
 <table><thead>
   <tr>
@@ -4063,87 +4073,383 @@ Para el Sprint #2 nos trazamos como objetivo desarrollar y desplegar la primera 
     </td>
   </tr>
   <tr>
-    <td>backup</td>
-    <td>fix-cors-auth-me</td>
-    <td>fix: fix duplicated cors configuration and bug in auth controller (profiles/me)</td>
+  <td>HEAD -> backup, origin/backup</td>
+  <td>1c8c310</td>
+  <td>fix: fix duplicated cors configuration and bug in auth controller (profiles/me)</td>
+  <td>-</td>
+  <td>2025-11-15</td>
+</tr>
+<tr>
+  <td>-</td>
+  <td>2abaf83</td>
+  <td>Merge pull request #11 from TF-SolucionesIoT/feat/emergencymanagement</td>
+  <td>Feat/emergencymanagement</td>
+  <td>2025-11-15</td>
+</tr>
+<tr>
+  <td>origin/dev</td>
+  <td>dea97f8</td>
+  <td>merge branch "feat/monitoring-wss" into dev</td>
+  <td>feat: implemented Broadcast to see real data using a patient or caregiver</td>
+  <td>2025-11-15</td>
+</tr>
+<tr>
+  <td>origin/feat/monitoring-wss, feat/monitoring-wss</td>
+  <td>4196e8e</td>
+  <td>feat: implemented Broadcast to see real data using a patient or caregiver account</td>
+  <td>-</td>
+  <td>2025-11-15</td>
+</tr>
+<tr>
+  <td>-</td>
+  <td>da43ccb</td>
+  <td>Merge pull request #9 from TF-SolucionesIoT/update-healthTracking</td>
+  <td>Add: Get patient by caregiver</td>
+  <td>2025-11-15</td>
+</tr>
+<tr>
+  <td>-</td>
+  <td>39491cd</td>
+  <td>Merge pull request #7 from TF-SolucionesIoT/feat/monitoring-wss</td>
+  <td>Feat/monitoring wss</td>
+  <td>2025-11-15</td>
+</tr>
+<tr>
+  <td>-</td>
+  <td>e0e0b16</td>
+  <td>feat: add data from edge by patient authenticated</td>
+  <td>-</td>
+  <td>2025-11-15</td>
+</tr>
+<tr>
+  <td>origin/update-healthTracking</td>
+  <td>36fda47</td>
+  <td>Add: Get patient by caregiver</td>
+  <td>-</td>
+  <td>2025-11-15</td>
+</tr>
+<tr>
+  <td>origin/feat/emergencymanagement</td>
+  <td>bc92f03</td>
+  <td>feat: Add controller and fix Entity</td>
+  <td>-</td>
+  <td>2025-11-15</td>
+</tr>
+<tr>
+  <td>-</td>
+  <td>a0d79f0</td>
+  <td>feat: add websockets handler from edge application and real time brodcast to front end</td>
+  <td>-</td>
+  <td>2025-11-15</td>
+</tr>
+<tr>
+  <td>-</td>
+  <td>c498af0</td>
+  <td>feat: add emergency management endpoints v1 bounded context</td>
+  <td>-</td>
+  <td>2025-11-15</td>
+</tr>
+<tr>
+  <td>-</td>
+  <td>b0a7833</td>
+  <td>feat: add user profile retrieval endpoint and related resource/assembler</td>
+  <td>-</td>
+  <td>2025-11-12</td>
+  <td></td>
+</tr>
+  <td></td>
+  <td>dev</td>
+  <td>c958c82</td>
+  <td>fix: invite code authorization</td>
+  <td>-</td>
+  <td>2025-11-11</td></tr>
+<tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td>925c6ae</td>
+  <td>Merge branch "feat/relations" into "dev"</td>
+  <td>Merge branch "feat/relations" into "dev"</td>
+  <td>2025-11-11</td>
+</tr>
+<tr>
     <td></td>
-    <td>2025-11-15</td>
+  <td>origin/feat/relations, feat/relations</td>
+  <td>cf736b1</td>
+  <td>feat: added user type and verify authorization</td>
+  <td></td>
+  <td>2025-11-11</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td>002d8c0</td>
+  <td>feat: relations with generated unique code caregiver-patient</td>
+  <td></td>
+  <td>2025-11-11</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td>20fa4fe</td>
+  <td>Feat/monitoring</td>
+  <td>Feat/monitoring</td>
+  <td>2025-11-11</td>
+</tr>
+<tr>
+  <td></td>
+  <td>origin/feat/monitoring</td>
+  <td>19730ec</td>
+  <td>feat: reading data associated on device id</td>
+  <td></td>
+  <td>2025-11-11</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td>9e43415</td>
+  <td>feat: device associated with patient</td>
+  <td></td>
+  <td>2025-11-11</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td>91ebf57</td>
+  <td>Feat/sympton</td>
+  <td>Feat/sympton</td>
+  <td>2025-11-08</td>
+</tr>
+<tr>
+  <td></td>
+  <td>origin/feat/sympton</td>
+  <td>ed58bd6</td>
+  <td>feat: implement treatment management functionality in RecordsController and related classes</td>
+  <td></td>
+  <td>2025-11-08</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td>43f24de</td>
+  <td>feat: add sympton management functionality in RecordsController</td>
+  <td></td>
+  <td>2025-11-08</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td>42d0ba9</td>
+  <td>Feat/healthtracking</td>
+  <td>Feat/healthtracking</td>
+  <td>2025-11-07</td>
+</tr>
+<tr>
+  <td></td>
+  <td>origin/feat/healthtracking, master</td>
+  <td>73257d5</td>
+  <td>feat: delete disturbance by id and user id</td>
+  <td></td>
+  <td>2025-11-07</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td>3ef6497</td>
+  <td>feat: healthtracking domain layer - sympton entity</td>
+  <td></td>
+  <td>2025-11-07</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td>88c259d</td>
+  <td>feat: healthtracking interface layer</td>
+  <td></td>
+  <td>2025-11-07</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td>b0583aa</td>
+  <td>feat: healthtracking infrastructure layer</td>
+  <td></td>
+  <td>2025-11-07</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td>7109256</td>
+  <td>feat: healthtracking application layer</td>
+  <td></td>
+  <td>2025-11-07</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td>4b31441</td>
+  <td>feat: healthtracking domain layer</td>
+  <td></td>
+  <td>2025-11-07</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td>59065b5</td>
+  <td>feat: implementation of create patient and caregiver user</td>
+  <td></td>
+  <td>2025-11-05</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td>5b5097f</td>
+  <td>feat: implementation of profiles bc</td>
+  <td></td>
+  <td>2025-11-05</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td>ce6aca4</td>
+  <td>feat: domain layer of profiles bc</td>
+  <td></td>
+  <td>2025-11-04</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td>ced0dea</td>
+  <td>feat: interface layer of iam bc</td>
+  <td></td>
+  <td>2025-11-04</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td>1694352</td>
+  <td>feat: infrastructure layer of iam bc</td>
+  <td></td>
+  <td>2025-11-04</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td>3f9524e</td>
+  <td>feat: application layer of iam bc</td>
+  <td></td>
+  <td>2025-11-04</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td>8a129aa</td>
+  <td>feat: shared files</td>
+  <td></td>
+  <td>2025-11-04</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td>b2760d7</td>
+  <td>feat: domain layer of bc iam</td>
+  <td></td>
+  <td>2025-11-04</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td>f1aeffa</td>
+  <td>first commit</td>
+  <td></td>
+  <td>2025-11-04</td>
+</tr>
+
+</tbody></table>
+
+### EDGE APP:
+
+<table><thead>
+  <tr>
+    <th>&nbsp;&nbsp;&nbsp;<br>Repository&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Branch&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Commit ID&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Commit<br>&nbsp;&nbsp;&nbsp;<br>Message&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Commit<br>&nbsp;&nbsp;&nbsp;<br>Message Body&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Committed on&nbsp;&nbsp;&nbsp;(Date)&nbsp;&nbsp;&nbsp;</th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td rowspan="13">
+      <a href="https://github.com/TF-SolucionesIoT/edge_app" target="_blank" rel="noopener noreferrer">https://github.com/TF-SolucionesIoT/edge_app</a>
+      <br>
+    </td>
   </tr>
   <tr>
-    <td>backup</td>
-    <td>merge-emergencymanagement</td>
-    <td>Merge pull request #11 from TF-SolucionesIoT/feat/emergencymanagement</td>
-    <td></td>
-    <td>2025-11-15</td>
+  <td>HEAD -> master, origin/main</td>
+  <td>371f9e8</td>
+  <td>feat: edge app (simulation)</td>
+  <td></td>
+  <td>2025-11-16</td>
   </tr>
   <tr>
-    <td>backup</td>
-    <td>merge-monitoring-wss-dev</td>
-    <td>merge branch "feat/monitoring-wss" into dev</td>
-    <td></td>
-    <td>2025-11-15</td>
-  </tr>
+  <td></td>
+  <td>c26de3e</td>
+  <td>feat: update git ignore</td>
+  <td></td>
+  <td>2025-11-16</td>
   <tr>
-    <td>backup</td>
-    <td>broadcast-realdata</td>
-    <td>feat: implemented Broadcast to see real data using a patient or caregiver account</td>
-    <td></td>
-    <td>2025-11-15</td>
-  </tr>
-  <tr>
-    <td>backup</td>
-    <td>merge-update-healthTracking</td>
-    <td>Merge pull request #9 from TF-SolucionesIoT/update-healthTracking</td>
-    <td></td>
-    <td>2025-11-15</td>
-  </tr>
-  <tr>
-    <td>backup</td>
-    <td>merge-monitoring-wss</td>
-    <td>Merge pull request #7 from TF-SolucionesIoT/feat/monitoring-wss</td>
-    <td></td>
-    <td>2025-11-15</td>
-  </tr>
-  <tr>
-    <td>backup</td>
-    <td>add-edge-data-patient</td>
-    <td>feat: add data from edge by patient authenticated</td>
-    <td></td>
-    <td>2025-11-15</td>
-  </tr>
-  <tr>
-    <td>backup</td>
-    <td>get-patient-by-caregiver</td>
-    <td>Add: Get patient by caregiver</td>
-    <td></td>
-    <td>2025-11-15</td>
-  </tr>
-  <tr>
-    <td>backup</td>
-    <td>add-controller-fix-entity</td>
-    <td>feat: Add controller and fix Entity</td>
-    <td></td>
-    <td>2025-11-15</td>
-  </tr>
-  <tr>
-    <td>backup</td>
-    <td>add-websockets-broadcast</td>
-    <td>feat: add websockets handler from edge application and real time brodcast to front end</td>
-    <td></td>
-    <td>2025-11-15</td>
-  </tr>
-  <tr>
-    <td>backup</td>
-    <td>add-emergency-management</td>
-    <td>feat: add emergency management endpoints v1 bounded context</td>
-    <td></td>
-    <td>2025-11-14</td>
-  </tr>
+  <td></td>
+  <td>6d81a57</td>
+  <td>gitignore</td>
+  <td></td>
+  <td>2025-11-16</td>
+</tr>
+
 </tbody></table>
 
 <div id='6.2.2.5.'><h5>6.2.2.5. Testing Suite Evidence for Sprint Review.</h5></div>
 
 A continuación se presenta el detalle de los archivos `.feature` desarrollados y subidos en el repositorio, relacionados a los user tasks implementados en este Sprint:
+
+
+<table><thead>
+  <tr>
+    <th>&nbsp;&nbsp;&nbsp;<br>Repository&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Branch&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Commit ID&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Commit<br>&nbsp;&nbsp;&nbsp;<br>Message&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Commit<br>&nbsp;&nbsp;&nbsp;<br>Message Body&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Committed on&nbsp;&nbsp;&nbsp;(Date)&nbsp;&nbsp;&nbsp;</th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td rowspan="13">
+      <a href="https://github.com/TF-SolucionesIoT/iam_service" target="_blank" rel="noopener noreferrer">https://github.com/TF-SolucionesIoT/alerta-vital-service</a>
+      <br>
+    </td>
+  </tr>
+   <tr>
+  <td>develop</td>
+  <td>371f9e8</td>
+  <td>Silva (#20)</td>
+  <td>
+
+* Refactor code structure for improved readability and maintainability
+
+* Update project report with new version entries and collaboration insights
+
+* Refactor code structure and remove redundant sections for improved readability and maintainability
+
+</td>
+  <td>2025-11-16</td>
+  </tr>
+</tbody></table>
+
+
+
+### DESCRIPCIÓN:
+
 
 | Archivo .feature           | Descripción                                               | User Task Relacionada                          |
 |---------------------------|-----------------------------------------------------------|------------------------------------------------|
@@ -4175,7 +4481,24 @@ A continuación, se muestran las evidencias de ejecución del backend.
 
 Link de Video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211g296_upc_edu_pe/IQDT3p9qrFqAR51RJFfNdNnIAfC8V3H6L9FagOaDpz_8Pdo?e=medbbd
 
+
+
+### EDGE APP:
+
+Simulación de envío de datos a la nube por medio de websockets:
+
+<div align="center">
+<img src="Img/edge_app.png">
 </div>
+
+Recepción de la nube por parte de la aplicación Edge por medio de websockets:
+
+<div align="center">
+<img src="Img/edge_app2.png">
+</div>
+
+Link de video: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202221876_upc_edu_pe/IQCsvrOFrXhZTK8dVXel_wPyAc6l3Q_Vc6rxp3V0wtVh-RM?e=NZK4zA&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202221876_upc_edu_pe/IQCsvrOFrXhZTK8dVXel_wPyAc6l3Q_Vc6rxp3V0wtVh-RM?e=NZK4zA&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
 
 <div id='6.2.2.7.'><h5>6.2.2.7. Services Documentation Evidence for Sprint Review.</h5></div>
 
@@ -4187,53 +4510,39 @@ A continuación se presenta una tabla resumen de los principales endpoints REST 
 |--------|----------|-------------|------------------------|
 | **Autenticación (IAM)** | | | |
 | POST   | `/api/auth/login` | Autenticación de usuario, retorna JWT | Público |
-| POST   | `/api/auth/register-caregiver` | Registro de cuidador | Público |
-| POST   | `/api/auth/register-patient` | Registro de paciente | Caregiver/Admin |
-| POST   | `/api/auth/forgot-password` | Solicitud de recuperación de contraseña | Público |
-| POST   | `/api/auth/reset-password` | Restablecimiento de contraseña | Público |
-| **Gestión de Perfil** | | | |
-| GET    | `/api/profiles/me` | Obtener perfil del usuario autenticado | JWT |
-| PUT    | `/api/profiles/me` | Actualizar datos personales | JWT |
-| PUT    | `/api/profiles/me/password` | Cambiar contraseña | JWT |
-| PUT    | `/api/profiles/me/email` | Cambiar correo electrónico | JWT |
-| **Pacientes y Cuidadores** | | | |
-| GET    | `/api/caregivers/{id}/patients` | Listar pacientes de un cuidador | Caregiver/Admin |
-| POST   | `/api/caregivers/{id}/patients` | Vincular paciente a cuidador | Caregiver/Admin |
-| GET    | `/api/patients/{id}` | Obtener datos de paciente | JWT (relación) |
-| **Signos Vitales y Monitoreo** | | | |
-| POST   | `/api/device` | Registrar/vincular dispositivo IoT | JWT |
-| GET    | `/api/device/readings/all` | Listar lecturas de dispositivos (filtros: patientId, deviceId, fechas) | JWT (relación) |
-| **Síntomas y Alteraciones** | | | |
-| POST   | `/api/patients/{id}/symptoms` | Registrar síntoma | JWT (relación) |
-| GET    | `/api/patients/{id}/symptoms` | Listar síntomas | JWT (relación) |
-| DELETE | `/api/symptoms/{id}` | Eliminar síntoma | JWT (relación) |
-| POST   | `/api/patients/{id}/disturbances` | Registrar alteración | JWT (relación) |
-| GET    | `/api/patients/{id}/disturbances` | Listar alteraciones | JWT (relación) |
-| DELETE | `/api/disturbances/{id}` | Eliminar alteración | JWT (relación) |
-| **Tratamientos y Recordatorios** | | | |
-| POST   | `/api/patients/{id}/treatments` | Crear tratamiento | JWT (relación) |
-| GET    | `/api/patients/{id}/treatments` | Listar tratamientos | JWT (relación) |
-| DELETE | `/api/treatments/{id}` | Eliminar tratamiento | JWT (relación) |
-| POST   | `/api/treatments/{id}/reminders` | Crear recordatorio | JWT (relación) |
-| GET    | `/api/treatments/{id}/reminders` | Listar recordatorios | JWT (relación) |
-| DELETE | `/api/reminders/{id}` | Eliminar recordatorio | JWT (relación) |
-| **Emergencias y Contactos** | | | |
-| POST   | `/api/emergencies/trigger-sos` | Disparar emergencia SOS | JWT (paciente) |
-| POST   | `/api/emergencies/detect` | Registrar emergencia automática | JWT (sistema) |
-| GET    | `/api/emergencies/active` | Listar emergencias activas | JWT (relación) |
-| GET    | `/api/emergencies/{id}` | Detalle de emergencia | JWT (relación) |
-| POST   | `/api/patients/{id}/contacts` | Registrar contacto de emergencia | JWT (relación) |
-| GET    | `/api/patients/{id}/contacts` | Listar contactos de emergencia | JWT (relación) |
-| DELETE | `/api/contacts/{id}` | Eliminar contacto de emergencia | JWT (relación) |
+| POST   | `/api/auth/register/patient` | Registro de nuevo paciente | Público |
+| POST   | `/api/auth/register/caregiver` | Registro de nuevo cuidador | Público |
+| GET    | `/api/auth/profile/me` | Obtener perfil del usuario autenticado | Requiere Auth |
+| **Contactos de Emergencia** | | | |
+| POST   | `/api/contacts/emergencies` | Crear nuevo contacto de emergencia | Requiere Auth |
+| PUT    | `/api/contacts/emergencies/contact/{id}` | Actualizar contacto de emergencia por ID | Requiere Auth |
+| DELETE | `/api/contacts/emergencies/contact/{id}` | Eliminar contacto de emergencia por ID | Requiere Auth |
+| GET    | `/api/contacts/emergencies/patient/{patientId}/all` | Obtener todos los contactos de emergencia de un paciente | Requiere Auth |
+| **Registros Médicos** | | | |
+| POST   | `/api/records/treatments` | Crear nuevo registro de tratamiento | Requiere Auth |
+| GET    | `/api/records/treatments/all` | Obtener todos los tratamientos | Requiere Auth |
+| POST   | `/api/records/symptons` | Crear nuevo registro de síntoma | Requiere Auth |
+| DELETE | `/api/records/symptons` | Eliminar registro de síntoma | Requiere Auth |
+| GET    | `/api/records/symptons/all` | Obtener todos los síntomas | Requiere Auth |
+| POST   | `/api/records/disturbances` | Crear nuevo registro de alteración | Requiere Auth |
+| DELETE | `/api/records/disturbances` | Eliminar registro de alteración | Requiere Auth |
+| GET    | `/api/records/disturbances/all` | Obtener todas las alteraciones | Requiere Auth |
+| GET    | `/api/records/patient/{patientId}` | Obtener todos los registros médicos de un paciente | Requiere Auth |
+| **Dispositivos** | | | |
+| POST   | `/api/device` | Registrar nuevo dispositivo | Requiere Auth |
+| GET    | `/api/device/readings/all` | Obtener todas las lecturas de dispositivos | Requiere Auth |
+| **Códigos de Invitación** | | | |
+| POST   | `/api/invite/generate` | Generar nuevo código de invitación | Requiere Auth |
+| POST   | `/api/invite/use/{code}` | Usar código de invitación | Requiere Auth |
 
 > **Nota:** Todos los endpoints protegidos requieren autenticación JWT y validan la relación usuario-paciente/caregiver según el rol. Para detalles de payload y respuestas, consultar la documentación Swagger disponible en: [https://alertavital-aqesfcbafwe4d7fk.canadacentral-01.azurewebsites.net/swagger-ui/index.html](https://alertavital-aqesfcbafwe4d7fk.canadacentral-01.azurewebsites.net/swagger-ui/index.html)
 
 
 <div id='6.2.2.8.'><h5>6.2.2.8. Software Deployment Evidence for Sprint Review.</h5></div>
 
-En este segundo sprint, se desplegó la primera versión del backend.
+En este segundo sprint, se desplegó un avance del desarrollo del servicio Web.
 
-#### Backend:
+#### Servicio Web:
 
 **Paso 1: Despliegue de la base de datos**
 
@@ -4322,6 +4631,28 @@ A continuación, se demuestran los insights en base a este Sprint:
 <div align="center">
   <img src="Img/insight_tb2.png" alt="insights">
 </div>
+
+<div align="center">
+  <img src="Img/insight_tb2a.png" alt="insights">
+</div>
+
+
+
+
+
+
+
+| Integrante | Tareas Asignadas |
+| ---------- | ---------------- |
+| Bohórquez Lerzundi, Gerardo Sebastián | Despliegue servicio web y aplicacion web, desarrollo de funcionalidades en servicios web |
+| Huanaco Huayta, Elizabeth Lucero | Validation Interviews, desarrollo de funcionalidades en servicios web |
+| Huapaya Cuevas, Anthony | Validation Interviews, desarrollo de funcionalidades en servicios web  |
+| Silva Tirado, Sebastián Valentino | Desarrollo de aplicación web. |
+| Uribe Quispe, Jesús Guillermo | Desarrollo de servicio web y aplicación edge.  |
+
+
+
+
 
 <div id='6.3.'><h3>6.3. Validation Interviews.</h3></div>
 
@@ -4657,7 +4988,7 @@ Recomendaciones
       <strong>Cantidad de videos</strong>: 1<br>
       <strong>Nomenclatura</strong>: upc-pre-202501-cc238-353-AlertaVital-about-the-product-sprint-3<br>
       <strong>Formato</strong>: .mp4<br>
-      <strong>Duración</strong>: XX:XX min
+      <strong>Duración</strong>: 02:58 min
     </td>
     <td>
       Video de About The Product en base a la aplicación "AlertaVital" desarrollado por Alerta Vital.
