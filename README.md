@@ -21,21 +21,41 @@ width=50%"/>
 
 ## Team members:
 
-<div align="center">
-  
-|                Nombre                 |   Código   |
-| :-----------------------------------: | :--------: |
-| Bohorquez Lerzundi, Gerardo Sebastián | u202224149 |
-|  Huanaco Huayta, Elizabeth Lucero   | u20211g522 |
-|  Huapaya Cuevas, Anthony       | u202220235 |
-|  Silva Tirado, Sebastian Valentino         | u20211g296 |
-|     Uribe Quispe, Jesús Guillermo     | u202221876 |
-
+<div style="text-align: center;">
+  <table border="1" cellspacing="0" cellpadding="8" style="margin: 0 auto; border-collapse: collapse;">
+    <tr>
+      <th>Nombre</th>
+      <th>Código</th>
+    </tr>
+    <tr>
+      <td>Bohorquez Lerzundi, Gerardo Sebastián</td>
+      <td>u202224149</td>
+    </tr>
+    <tr>
+      <td>Huanaco Huayta, Elizabeth Lucero</td>
+      <td>u20211g522</td>
+    </tr>
+    <tr>
+      <td>Huapaya Cuevas, Anthony</td>
+      <td>u202220235</td>
+    </tr>
+    <tr>
+      <td>Silva Tirado, Sebastian Valentino</td>
+      <td>u20211g296</td>
+    </tr>
+    <tr>
+      <td>Uribe Quispe, Jesús Guillermo</td>
+      <td>u202221876</td>
+    </tr>
+  </table>
 </div>
+
 
 <h5 style="text-align: center"> Ciclo 2025-20 </h5>
 
 <br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br>
 
 # Registro de Versiones del Informe
 
@@ -287,6 +307,8 @@ Los integrantes son:
 
 <br><br><br><br><br><br><br><br><br><br><br><br>
 <br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br>
+<br><br><br><br>
 
 # STUDENT OUTCOME
 
@@ -366,6 +388,8 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
 </table>
 
 
+<br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br>
 <br><br><br><br><br><br><br><br><br>
 <br><br><br><br><br><br><br><br><br>
 <br><br><br><br><br><br><br><br><br>
