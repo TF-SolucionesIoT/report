@@ -4209,6 +4209,36 @@ Al ingresar al landing page de AlertaVital, el usuario encuentra información cl
 
 <div id='6.3.3.'><h4>6.3.3. Evaluaciones según heurísticas.</h4></div>
 
+**App a evaluar**
+AlertaVital - Web Application for <br>
+**Tareas a evaluar**
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
+
+| **Site Web** |
+|--------------|
+
+| ID | Tarea                                          |
+|----|------------------------------------------------|
+| 1  | Inicio de sesión                               |
+| 2  | Recuperación de contraseña                     |
+| 3  | Dashboard de la aplicación                     |
+| 4  | Gestión de contactos (listar, ver, agregar, eliminar) |
+| 5  | Diagrama de los signos vitales                 |
+| 6  | Gestión de tratamientos                        |
+| 7  | Gestión de síntomas                            |
+| 8  | Gestión de alteraciones                        |
+
+| **Web Landing Page** |
+|-----------------------|
+
+| ID | Tarea                                  |
+|----|----------------------------------------|
+| 1  | Redireccionamiento a la aplicación web |
+| 2  | Formulario de contactos                |
+| 3  | Direccionamiento de la barra de navegación |
+| 4  | Información de los testimonios         |
+
+**Escala de severidad**
 
 
 <div id='6.4.'><h3>6.4. Video About-the-Product.</h3></div>
