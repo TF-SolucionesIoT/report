@@ -3896,6 +3896,9 @@ A continuación, se demuestran los insights en base a este Sprint:
   <img src="Img/insight_tp1.png" alt="insights">
 </div>
 
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
 <div id='6.2.2.'><h4>6.2.2. Sprint 2</h4></div>
 <div id='6.2.2.1.'><h5>6.2.2.1. Sprint Planning 2.</h5></div>
 
@@ -4014,7 +4017,7 @@ Para el Sprint #2 nos trazamos como objetivo desarrollar y desplegar la primera 
       <td>WT-BK06</td>
       <td>Endpoints symptoms</td>
       <td>Reportar, consultar y eliminar síntomas (adjuntos, trazabilidad) para pacientes.</td>
-      <td>24h</td>
+      <td>8h</td>
       <td>3</td>
       <td>Jesús Uribe</td>
       <td>Done</td>
@@ -4025,7 +4028,7 @@ Para el Sprint #2 nos trazamos como objetivo desarrollar y desplegar la primera 
       <td>WT-BK07</td>
       <td>Endpoints treatments</td>
       <td>Gestionar tratamientos y recordatorios (create/get/update/delete) y relaciones con reminders.</td>
-      <td>40h</td>
+      <td>8h</td>
       <td>5</td>
       <td>Jesús Uribe</td>
       <td>Done</td>
@@ -5042,12 +5045,11 @@ Organización Panamericana de la Salud. (2023). *La situación de los cuidados a
 | Título  | Link |
 |-----------------|------|
 |          Organización de Github       | [https://github.com/TF-SolucionesIoT](https://github.com/TF-SolucionesIoT)     |
-|    Link de Miro             | [Miro Board](https://miro.com/welcomeonboard/M2JhbUZCSUFOdnN6ZG84cEJOM0g2R1BsUktITmFLZHNlcGMyTlMycTdBZEVsb2lmaWg1alVKL2dRMkJMWkdOTlMzdEhBV0VKeWNKZlo4bTJ2Mmtxc0t6UVVqdEV2Q1FYdjFrK3hINnhJSTYxcXpXejd2ZEtwTldRVHZRVEQ2RkhhWWluRVAxeXRuUUgwWDl3Mk1qRGVRPT0hdjE=?share_link_id=142838303004)      |
-|  Link de video de exposición          |  [Link de video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202221876_upc_edu_pe/EXvZqwze7apOu3moDficAfYBfor80Eh9jrz-ZFLR0JkPyQ?e=XYeo46)    |
+|  Link de video de exposición          |  [Link de video TB2](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211g296_upc_edu_pe/IQA8HR0BdiJoTpUwEgrOWUBHAYqHkQqFsNPcD5aYixlh_-8?e=4LD3ho)    |
 | Link de video de entrevistas | [Link](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220235_upc_edu_pe/ERMsAWnlK25BgS7DKzoCgPEBcVQJPN9Nr9zo1HhWZgaR4g?nav=eyJwbGF5YmFja09wdGlvbnMiOnsic3RhcnRUaW1lSW5TZWNvbmRzIjoxNTI3LCJ0aW1lc3RhbXBlZExpbmtSZWZlcnJlckluZm8iOnsic2NlbmFyaW8iOiJDaGFwdGVyU2hhcmUiLCJhZGRpdGlvbmFsSW5mbyI6eyJpc1NoYXJlZENoYXB0ZXJBdXRvIjpmYWxzZX19fSwicmVmZXJyYWxJbmZvIjp7InJlZmVycmFsQXBwIjoiU3RyZWFtV2ViQXBwIiwicmVmZXJyYWxWaWV3IjoiU2hhcmVDaGFwdGVyTGluayIsInJlZmVycmFsQXBwUGxhdGZvcm0iOiJXZWIiLCJyZWZlcnJhbE1vZGUiOiJ2aWV3In19&e=ZFJWW8) |
+| Link de video de validación de entrevistas | [Link](https://upcedupe-my.sharepoint.com/personal/u202220235_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202220235_upc_edu_pe%2FDocuments%2Fupc-pre-202520-1asi0572-3428-AlertaVital-validation-sprint-2%2Emp4&nav=eyJwbGF5YmFja09wdGlvbnMiOnsic3RhcnRUaW1lSW5TZWNvbmRzIjo1LCJ0aW1lc3RhbXBlZExpbmtSZWZlcnJlckluZm8iOnsic2NlbmFyaW8iOiJDaGFwdGVyU2hhcmUiLCJhZGRpdGlvbmFsSW5mbyI6eyJpc1NoYXJlZENoYXB0ZXJBdXRvIjpmYWxzZX19fSwicmVmZXJyYWxJbmZvIjp7InJlZmVycmFsQXBwIjoiU3RyZWFtV2ViQXBwIiwicmVmZXJyYWxWaWV3IjoiU2hhcmVDaGFwdGVyTGluayIsInJlZmVycmFsQXBwUGxhdGZvcm0iOiJXZWIiLCJyZWZlcnJhbE1vZGUiOiJ2aWV3In19&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E24ea7c43-f590-400d-8062-9fd01facecf5) |
 | Link de Figma | [Link](https://www.figma.com/design/wDXE0NQLCOx7ccB5TPlRYr/IoT?node-id=1-3&t=ByrmBRuCKYXO44gX-1) |
 | Link Frontend Web | [Link](https://front-end-iot-smoky.vercel.app/auth/login) |
 | Link de Despliegue de Landing Page | [https://tf-solucionesiot.github.io/LandingPage/](https://tf-solucionesiot.github.io/LandingPage/) |
 | Link de documentacion de los servicios web | [https://alertavital-aqesfcbafwe4d7fk.canadacentral-01.azurewebsites.net/swagger-ui/index.html](https://alertavital-aqesfcbafwe4d7fk.canadacentral-01.azurewebsites.net/swagger-ui/index.html) |
-| Link de Despliegue de Web App | [https://front-end-iot-smoky.vercel.app/](https://front-end-iot-smoky.vercel.app/) |
 
