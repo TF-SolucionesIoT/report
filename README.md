@@ -3876,11 +3876,11 @@ En la siguiente sección, se presentará el sprint #2 con primera versión del b
 | **Prepared By**                        | Uribe Quispe, Jesús Guillermo                                                                                                                                                                                                                                                                                                                                          |
 | **Attendees (to planning meeting)**    | Uribe Quispe Jesús Guillermo / Bohorquez Lerzundi Gerardo Sebastián / Huanaco Huayta Elizabeth Lucero / Huapaya Cuevas Anthony / Sebastián Silva Tirado                                                                                                                                                                                                                |
 | **Sprint 2 – 1 Review Summary**        | Desarrollo de UX/UI DESIGN, Back-end y Mobile App                                                                                                                                                                                                                                                                                                                                       |
-| **Sprint 2 – 1 Retrospective Summary** | XXX                                                                                                                                                                                                                                                                         |
+| **Sprint 2 – 1 Retrospective Summary** | Mejorar el frontend enlanzando al backend                                                                                                                                                                                                                                                                         |
 | **Sprint Goal & User Stories**         |                                                                                                                                                                                                                                                                                                                                                                        |
 | **Sprint #2 Goal** | Nuestro enfoque está en completar y entregar la segunda versión integrada del frontend y del backend de AlertaVital: una interfaz web interactiva (monitoreo, alertas, gestión de usuarios) y una API REST segura y persistente que soporte autenticación, registros de signos vitales y manejo de emergencias. Sabremos que tuvimos éxito cuando: (1) el frontend consuma correctamente los endpoints del backend; (2) las funciones críticas (inicio de sesión, visualización de signos vitales, envío/recepción de alertas y registro de emergencias) funcionen de forma end-to-end en un entorno de staging; y (3) ambos componentes estén desplegados y accesibles para pruebas de usuario. |
-| **Sprint #2 Velocity** |  XXh |
-| **Sum of Story Points** | XX |
+| **Sprint #2 Velocity** |  65h |
+| **Sum of Story Points** | 15 |
 
 <div id='6.2.2.2.'><h5>6.2.2.2. Aspect Leaders and Collaborators.</h5></div>
 
@@ -4143,6 +4143,20 @@ Para el Sprint #2 nos trazamos como objetivo desarrollar y desplegar la primera 
 
 <div id='6.2.2.5.'><h5>6.2.2.5. Testing Suite Evidence for Sprint Review.</h5></div>
 
+A continuación se presenta el detalle de los archivos `.feature` desarrollados y subidos en el repositorio, relacionados a los user tasks implementados en este Sprint:
+
+| Archivo .feature           | Descripción                                               | User Task Relacionada                          |
+|---------------------------|-----------------------------------------------------------|------------------------------------------------|
+| login.feature              | Prueba de inicio de sesión de usuario (autenticación exitosa y fallida) | Login (API)                                    |
+| register_caregiver.feature | Registro de un nuevo cuidador, validando datos y duplicados | Registrar cuidador (Backend)                   |
+| register_patient.feature   | Registro de paciente y asociación con cuidador            | Registrar paciente (Backend)                    |
+| disturbances_crud.feature  | Alta, consulta y eliminación de alteraciones (disturbances) | CRUD Disturbances (Alteraciones)               |
+| symptoms_crud.feature      | Registro, consulta y eliminación de síntomas              | CRUD Symptoms (Síntomas)                        |
+| treatments_reminders.feature | Gestión de tratamientos y recordatorios asociados        | CRUD Treatments (Tratamientos) / Asociar recordatorios a Treatment |
+| device_register.feature    | Registro y vinculación de dispositivo IoT                 | Device Controller - Registrar dispositivo       |
+| device_readings.feature    | Consulta de lecturas de dispositivos IoT                  | Device Controller - Obtener lecturas            |
+
+> **Nota:** Puedes revisar todos los archivos en la carpeta [Features del repositorio](https://github.com/TF-SolucionesIoT/report/tree/main/Features).
 
 
 <div id='6.2.2.6.'><h5>6.2.2.6. Execution Evidence for Sprint Review.</h5></div>
@@ -4165,6 +4179,54 @@ Link de Video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211g296_upc_
 
 <div id='6.2.2.7.'><h5>6.2.2.7. Services Documentation Evidence for Sprint Review.</h5></div>
 
+### Documentación de Endpoints Backend
+
+A continuación se presenta una tabla resumen de los principales endpoints REST implementados en el backend de AlertaVital, agrupados por contexto funcional. Para cada endpoint se indica el método HTTP, la ruta, una breve descripción y los permisos requeridos.
+
+| Método | Endpoint | Descripción | Permisos/Requiere Auth |
+|--------|----------|-------------|------------------------|
+| **Autenticación (IAM)** | | | |
+| POST   | `/api/auth/login` | Autenticación de usuario, retorna JWT | Público |
+| POST   | `/api/auth/register-caregiver` | Registro de cuidador | Público |
+| POST   | `/api/auth/register-patient` | Registro de paciente | Caregiver/Admin |
+| POST   | `/api/auth/forgot-password` | Solicitud de recuperación de contraseña | Público |
+| POST   | `/api/auth/reset-password` | Restablecimiento de contraseña | Público |
+| **Gestión de Perfil** | | | |
+| GET    | `/api/profiles/me` | Obtener perfil del usuario autenticado | JWT |
+| PUT    | `/api/profiles/me` | Actualizar datos personales | JWT |
+| PUT    | `/api/profiles/me/password` | Cambiar contraseña | JWT |
+| PUT    | `/api/profiles/me/email` | Cambiar correo electrónico | JWT |
+| **Pacientes y Cuidadores** | | | |
+| GET    | `/api/caregivers/{id}/patients` | Listar pacientes de un cuidador | Caregiver/Admin |
+| POST   | `/api/caregivers/{id}/patients` | Vincular paciente a cuidador | Caregiver/Admin |
+| GET    | `/api/patients/{id}` | Obtener datos de paciente | JWT (relación) |
+| **Signos Vitales y Monitoreo** | | | |
+| POST   | `/api/device` | Registrar/vincular dispositivo IoT | JWT |
+| GET    | `/api/device/readings/all` | Listar lecturas de dispositivos (filtros: patientId, deviceId, fechas) | JWT (relación) |
+| **Síntomas y Alteraciones** | | | |
+| POST   | `/api/patients/{id}/symptoms` | Registrar síntoma | JWT (relación) |
+| GET    | `/api/patients/{id}/symptoms` | Listar síntomas | JWT (relación) |
+| DELETE | `/api/symptoms/{id}` | Eliminar síntoma | JWT (relación) |
+| POST   | `/api/patients/{id}/disturbances` | Registrar alteración | JWT (relación) |
+| GET    | `/api/patients/{id}/disturbances` | Listar alteraciones | JWT (relación) |
+| DELETE | `/api/disturbances/{id}` | Eliminar alteración | JWT (relación) |
+| **Tratamientos y Recordatorios** | | | |
+| POST   | `/api/patients/{id}/treatments` | Crear tratamiento | JWT (relación) |
+| GET    | `/api/patients/{id}/treatments` | Listar tratamientos | JWT (relación) |
+| DELETE | `/api/treatments/{id}` | Eliminar tratamiento | JWT (relación) |
+| POST   | `/api/treatments/{id}/reminders` | Crear recordatorio | JWT (relación) |
+| GET    | `/api/treatments/{id}/reminders` | Listar recordatorios | JWT (relación) |
+| DELETE | `/api/reminders/{id}` | Eliminar recordatorio | JWT (relación) |
+| **Emergencias y Contactos** | | | |
+| POST   | `/api/emergencies/trigger-sos` | Disparar emergencia SOS | JWT (paciente) |
+| POST   | `/api/emergencies/detect` | Registrar emergencia automática | JWT (sistema) |
+| GET    | `/api/emergencies/active` | Listar emergencias activas | JWT (relación) |
+| GET    | `/api/emergencies/{id}` | Detalle de emergencia | JWT (relación) |
+| POST   | `/api/patients/{id}/contacts` | Registrar contacto de emergencia | JWT (relación) |
+| GET    | `/api/patients/{id}/contacts` | Listar contactos de emergencia | JWT (relación) |
+| DELETE | `/api/contacts/{id}` | Eliminar contacto de emergencia | JWT (relación) |
+
+> **Nota:** Todos los endpoints protegidos requieren autenticación JWT y validan la relación usuario-paciente/caregiver según el rol. Para detalles de payload y respuestas, consultar la documentación Swagger disponible en: [https://alertavital-aqesfcbafwe4d7fk.canadacentral-01.azurewebsites.net/swagger-ui/index.html](https://alertavital-aqesfcbafwe4d7fk.canadacentral-01.azurewebsites.net/swagger-ui/index.html)
 
 
 <div id='6.2.2.8.'><h5>6.2.2.8. Software Deployment Evidence for Sprint Review.</h5></div>
@@ -4211,27 +4273,46 @@ Para facilitar el despliegue y la administración, se puede conectar el entorno 
 
 **Paso 1: Creación de un proyecto en Firebase**
 
-Para el frontend, se utiliza Firebase Hosting como plataforma de despliegue. En la imagen se muestra la creación de un nuevo proyecto en la consola de Firebase, donde se asigna un nombre y se habilitan los servicios necesarios para el alojamiento web.
+Para el frontend, se utiliza Vercel como plataforma de despliegue debido a su facilidad de integración con repositorios de código y su capacidad para automatizar el proceso de publicación de aplicaciones web modernas. Vercel permite realizar despliegues continuos, lo que significa que cada vez que se realiza un cambio en el repositorio, la aplicación puede actualizarse automáticamente en producción. En la imagen a continuación se muestra el proceso de creación de un nuevo proyecto en Vercel, donde se asigna un nombre representativo y se habilitan los servicios necesarios para el alojamiento web, asegurando así una gestión centralizada y eficiente del ciclo de vida del frontend.
 
 <div align="center">
-<img src="Img/des_back_5.jpeg">
+<img src="Img/des_front_1.png">
 </div>
 
-**Paso 2: Instalación de Firebase CLI e inicio de sesión**
+**Paso 2: Importación y conexión con GitHub**
 
-Antes de desplegar, es necesario instalar la herramienta de línea de comandos de Firebase (`firebase-tools`) y autenticarse con una cuenta de Google. La imagen ilustra el proceso de inicio de sesión, que autoriza el acceso a los recursos del proyecto desde la terminal.
+En este paso, se importa el repositorio del proyecto directamente desde GitHub, lo que permite a Vercel acceder al código fuente y mantener sincronización continua con los cambios realizados por el equipo de desarrollo. Posteriormente, se asigna un nombre único al proyecto dentro de Vercel, facilitando su identificación y administración entre múltiples aplicaciones o entornos de despliegue. Esta integración garantiza que el flujo de trabajo de desarrollo y despliegue sea ágil y seguro.
 
 <div align="center">
-<img src="Img/des_back_6.jpeg">
+<img src="Img/des_front_2.png">
 </div>
 
-**Paso 3: Inicialización del proyecto con `firebase init`**
+**Paso 3: Configuración de rama específica para despliegue**
 
-Finalmente, se ejecuta el comando `firebase init` para configurar el proyecto localmente. Este comando permite seleccionar los servicios a utilizar (por ejemplo, Hosting), definir la carpeta de distribución y establecer las reglas de despliegue. Una vez completado este proceso, el frontend está listo para ser publicado en Firebase Hosting.
-
+En muchos proyectos, es común trabajar con varias ramas (por ejemplo, `main`, `develop`, `feature/*`). Vercel permite seleccionar una rama específica para desplegar en el entorno de producción, lo que resulta útil para pruebas, revisiones o lanzamientos controlados. Para ello, se accede a la sección "Environments" y se selecciona "Production" para editar sus características, asegurando que solo la rama deseada se publique en el entorno final.
 
 <div align="center">
-<img src="Img/des_back_7.jpeg">
+<img src="Img/des_front_3.png">
+</div>
+
+A continuación, se ingresa el nombre de la rama que se desea desplegar. Esto permite que el equipo tenga control total sobre qué versión del código está activa en producción, facilitando la gestión de versiones y la implementación de nuevas funcionalidades de manera segura.
+
+<div align="center">
+<img src="Img/des_front_4.png">
+</div>
+
+**Configuración de variables de entorno**
+
+En este paso, se configuran las variables de entorno necesarias para el correcto funcionamiento de la aplicación. Estas variables pueden incluir claves de API, URLs de servicios externos, credenciales y otros parámetros sensibles que no deben estar expuestos en el código fuente. Vercel ofrece una interfaz sencilla para definir y gestionar estas variables, asegurando que cada entorno (desarrollo, staging, producción) tenga la configuración adecuada y segura.
+
+<div align="center">
+<img src="Img/des_front_5.png">
+</div>
+
+Una vez completada la configuración, Vercel despliega automáticamente la aplicación cada vez que se detectan cambios en la rama seleccionada o en las variables de entorno. Este proceso automatizado reduce el riesgo de errores manuales y acelera la entrega continua, permitiendo que el equipo de desarrollo se enfoque en la mejora constante del producto.
+
+<div align="center">
+<img src="Img/des_front_6.png">
 </div>
 
 <div id='6.2.2.9.'><h5>6.2.2.9. Team Collaboration Insights during Sprint.</h5></div>
@@ -4610,3 +4691,5 @@ Organización Panamericana de la Salud. (2023). *La situación de los cuidados a
 |  Link de video de exposición          |  [Link de video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202221876_upc_edu_pe/EXvZqwze7apOu3moDficAfYBfor80Eh9jrz-ZFLR0JkPyQ?e=XYeo46)    |
 | Link de video de entrevistas | [Link](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220235_upc_edu_pe/ERMsAWnlK25BgS7DKzoCgPEBcVQJPN9Nr9zo1HhWZgaR4g?nav=eyJwbGF5YmFja09wdGlvbnMiOnsic3RhcnRUaW1lSW5TZWNvbmRzIjoxNTI3LCJ0aW1lc3RhbXBlZExpbmtSZWZlcnJlckluZm8iOnsic2NlbmFyaW8iOiJDaGFwdGVyU2hhcmUiLCJhZGRpdGlvbmFsSW5mbyI6eyJpc1NoYXJlZENoYXB0ZXJBdXRvIjpmYWxzZX19fSwicmVmZXJyYWxJbmZvIjp7InJlZmVycmFsQXBwIjoiU3RyZWFtV2ViQXBwIiwicmVmZXJyYWxWaWV3IjoiU2hhcmVDaGFwdGVyTGluayIsInJlZmVycmFsQXBwUGxhdGZvcm0iOiJXZWIiLCJyZWZlcnJhbE1vZGUiOiJ2aWV3In19&e=ZFJWW8) |
 | Link de Figma | [Link](https://www.figma.com/design/wDXE0NQLCOx7ccB5TPlRYr/IoT?node-id=1-3&t=ByrmBRuCKYXO44gX-1) |
+| Link Frontend Web | [Link](https://front-end-iot-smoky.vercel.app/auth/login) |
+| Link backend | [Link](https://alertavital-aqesfcbafwe4d7fk.canadacentral-01.azurewebsites.net/swagger-ui/index.html) |
