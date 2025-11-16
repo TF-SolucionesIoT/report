@@ -4027,17 +4027,88 @@ Para el Sprint #2 nos trazamos como objetivo desarrollar y desplegar la primera 
   </tr></thead>
 <tbody>
   <tr>
-<td rowspan="10">
-	<a href="https://github.com/TF-SolucionesIoT/iam_service" target="_blank" rel="noopener noreferrer">https://github.com/TF-SolucionesIoT/iam_service</a>
-	<br>
-</td>
-    <td><br>main</td>
-    <td><br>XXX</td>
-    <td><br>first commit</td>
-    <td><br>first commit</td>
-    <td><br>XX/XX/2025</td>
+    <td rowspan="13">
+      <a href="https://github.com/TF-SolucionesIoT/iam_service" target="_blank" rel="noopener noreferrer">https://github.com/TF-SolucionesIoT/alerta-vital-service</a>
+      <br>
+    </td>
   </tr>
-  
+  <tr>
+    <td>backup</td>
+    <td>fix-cors-auth-me</td>
+    <td>fix: fix duplicated cors configuration and bug in auth controller (profiles/me)</td>
+    <td></td>
+    <td>2025-11-15</td>
+  </tr>
+  <tr>
+    <td>backup</td>
+    <td>merge-emergencymanagement</td>
+    <td>Merge pull request #11 from TF-SolucionesIoT/feat/emergencymanagement</td>
+    <td></td>
+    <td>2025-11-15</td>
+  </tr>
+  <tr>
+    <td>backup</td>
+    <td>merge-monitoring-wss-dev</td>
+    <td>merge branch "feat/monitoring-wss" into dev</td>
+    <td></td>
+    <td>2025-11-15</td>
+  </tr>
+  <tr>
+    <td>backup</td>
+    <td>broadcast-realdata</td>
+    <td>feat: implemented Broadcast to see real data using a patient or caregiver account</td>
+    <td></td>
+    <td>2025-11-15</td>
+  </tr>
+  <tr>
+    <td>backup</td>
+    <td>merge-update-healthTracking</td>
+    <td>Merge pull request #9 from TF-SolucionesIoT/update-healthTracking</td>
+    <td></td>
+    <td>2025-11-15</td>
+  </tr>
+  <tr>
+    <td>backup</td>
+    <td>merge-monitoring-wss</td>
+    <td>Merge pull request #7 from TF-SolucionesIoT/feat/monitoring-wss</td>
+    <td></td>
+    <td>2025-11-15</td>
+  </tr>
+  <tr>
+    <td>backup</td>
+    <td>add-edge-data-patient</td>
+    <td>feat: add data from edge by patient authenticated</td>
+    <td></td>
+    <td>2025-11-15</td>
+  </tr>
+  <tr>
+    <td>backup</td>
+    <td>get-patient-by-caregiver</td>
+    <td>Add: Get patient by caregiver</td>
+    <td></td>
+    <td>2025-11-15</td>
+  </tr>
+  <tr>
+    <td>backup</td>
+    <td>add-controller-fix-entity</td>
+    <td>feat: Add controller and fix Entity</td>
+    <td></td>
+    <td>2025-11-15</td>
+  </tr>
+  <tr>
+    <td>backup</td>
+    <td>add-websockets-broadcast</td>
+    <td>feat: add websockets handler from edge application and real time brodcast to front end</td>
+    <td></td>
+    <td>2025-11-15</td>
+  </tr>
+  <tr>
+    <td>backup</td>
+    <td>add-emergency-management</td>
+    <td>feat: add emergency management endpoints v1 bounded context</td>
+    <td></td>
+    <td>2025-11-14</td>
+  </tr>
 </tbody></table>
 
 <div id='6.2.2.5.'><h5>6.2.2.5. Testing Suite Evidence for Sprint Review.</h5></div>
@@ -4046,19 +4117,19 @@ Para el Sprint #2 nos trazamos como objetivo desarrollar y desplegar la primera 
 
 <div id='6.2.2.6.'><h5>6.2.2.6. Execution Evidence for Sprint Review.</h5></div>
 
-A continuación, se muestran las evidencias de ejecución del backend y de la primera versión del mobile app.
+A continuación, se muestran las evidencias de ejecución del backend.
 
 #### Backend:
 
 <div align="center">
-<img src="Img/execution_e.png">
+<img src="Img/back1.png">
 </div>
-
-#### Mobile App:
 
 <div align="center">
-<img src="Img/execution_m.png">
+<img src="Img/back2.png">
 </div>
+
+Link de Video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211g296_upc_edu_pe/IQDT3p9qrFqAR51RJFfNdNnIAfC8V3H6L9FagOaDpz_8Pdo?e=medbbd
 
 </div>
 
@@ -4068,32 +4139,69 @@ A continuación, se muestran las evidencias de ejecución del backend y de la pr
 
 <div id='6.2.2.8.'><h5>6.2.2.8. Software Deployment Evidence for Sprint Review.</h5></div>
 
-En este segundo sprint, se desplegaron tanto el backend, como la primera versión del mobile app.
+En este segundo sprint, se desplegó la primera versión del backend.
 
 #### Backend:
 
-En el caso del backend, desplegaremos ...
+**Paso 1: Despliegue de la base de datos**
 
-Para configurar ...:
-<br><br>
-Ve a tu repositorio en ... 
-<br><br>
+Antes de desplegar la aplicación backend, es fundamental contar con una base de datos accesible desde la nube. En la imagen se muestra la creación y configuración de una base de datos SQL en Azure, donde se definen parámetros como el nombre, usuario, contraseña y reglas de firewall para permitir conexiones externas.
 
 <div align="center">
-<img src="Img/des_back_1.png">
+<img src="Img/des_back_1.jpeg">
 </div>
 
-#### Mobile App:
+**Paso 2: Creación de la aplicación web backend**
 
-En el caso del mobile app, desplegaremos la aplicación en una plataforma de hosting adecuada...
-
-Para configurar ...:
-<br><br>
-Ve a tu repositorio en ... 
-<br><br>
+El siguiente paso consiste en crear el recurso de App Service en Azure, que alojará la aplicación backend. En la imagen se observa la configuración del entorno de despliegue, seleccionando el stack tecnológico (por ejemplo, Java/Spring Boot), el grupo de recursos y el nombre de la aplicación.
 
 <div align="center">
-<img src="Img/des_mobile_1.png">
+<img src="Img/des_back_2.jpeg">
+</div>
+
+**Paso 3: Despliegue en Azure**
+
+Una vez configurada la App Service, se procede a desplegar el artefacto generado (por ejemplo, un archivo .jar o .war) desde el entorno local o mediante integración continua. La imagen muestra el panel de Azure donde se gestiona el despliegue, permitiendo cargar el archivo y monitorear el estado de la publicación.
+
+<div align="center">
+<img src="Img/des_back_3.jpeg">
+</div>
+
+**Paso 4: Conexión desde IntelliJ IDEA a Azure**
+
+Para facilitar el despliegue y la administración, se puede conectar el entorno de desarrollo (IntelliJ IDEA) directamente con Azure. En la imagen se visualiza la integración, que permite desplegar el backend, configurar variables de entorno y realizar pruebas directamente desde el IDE.
+
+<div align="center">
+<img src="Img/des_back_4.jpeg">
+</div>
+
+---
+
+### Frontend:
+
+**Paso 1: Creación de un proyecto en Firebase**
+
+Para el frontend, se utiliza Firebase Hosting como plataforma de despliegue. En la imagen se muestra la creación de un nuevo proyecto en la consola de Firebase, donde se asigna un nombre y se habilitan los servicios necesarios para el alojamiento web.
+
+<div align="center">
+<img src="Img/des_back_5.jpeg">
+</div>
+
+**Paso 2: Instalación de Firebase CLI e inicio de sesión**
+
+Antes de desplegar, es necesario instalar la herramienta de línea de comandos de Firebase (`firebase-tools`) y autenticarse con una cuenta de Google. La imagen ilustra el proceso de inicio de sesión, que autoriza el acceso a los recursos del proyecto desde la terminal.
+
+<div align="center">
+<img src="Img/des_back_6.jpeg">
+</div>
+
+**Paso 3: Inicialización del proyecto con `firebase init`**
+
+Finalmente, se ejecuta el comando `firebase init` para configurar el proyecto localmente. Este comando permite seleccionar los servicios a utilizar (por ejemplo, Hosting), definir la carpeta de distribución y establecer las reglas de despliegue. Una vez completado este proceso, el frontend está listo para ser publicado en Firebase Hosting.
+
+
+<div align="center">
+<img src="Img/des_back_7.jpeg">
 </div>
 
 <div id='6.2.2.9.'><h5>6.2.2.9. Team Collaboration Insights during Sprint.</h5></div>
@@ -4436,7 +4544,7 @@ Recomendaciones
     <td>About The Product</td>
     <td>
       <strong>Cantidad de videos</strong>: 1<br>
-      <strong>Nomenclatura</strong>: upc-pre-202501-cc238-353-MediTech-about-the-product-sprint-3<br>
+      <strong>Nomenclatura</strong>: upc-pre-202501-cc238-353-AlertaVital-about-the-product-sprint-3<br>
       <strong>Formato</strong>: .mp4<br>
       <strong>Duración</strong>: XX:XX min
     </td>
@@ -4446,14 +4554,14 @@ Recomendaciones
     <td>
       Screenshot: <br>
       <img src="Img/screen-video-about-the-product.png" alt="ATP" style="width: 200px;"><br>
-      Link: <a href="XXX">Video</a>
+      Link: <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211g296_upc_edu_pe/IQBlY5mHhggtT577uM1LcouFATT3hgO_Hgu9vqEbA2m1kHA?e=0nRS4U">Video</a>
     </td>
   </tr>
   </table>
 
 <div id='7.'><h2>7. Conclusiones</h2></div>
 
-Durante la unidad 5 y 6, el equipo se enfocó en el diseño y desarrollo de la Landing Page y la aplicación web, aplicando principios de UX/UI y buenas prácticas de ingeniería de software. Se inició con la definición de la arquitectura de información y wireframes en Figma, asegurando una navegación clara y accesible para los usuarios objetivo: adultos mayores y sus cuidadores. La Landing Page fue implementada utilizando HTML, CSS, Bootstrap y React, priorizando la presentación de beneficios, características, testimonios y acceso rápido a la descarga de la app. El desarrollo siguió una estructura modular y responsiva, facilitando la adaptación a distintos dispositivos. Para la aplicación web, se empleó una arquitectura basada en Clean Architecture y Domain-Driven Design, separando los módulos de autenticación, monitoreo, gestión de usuarios y soporte al tratamiento. El control de versiones se realizó con Git y GitHub, aplicando Git Flow para organizar las ramas y asegurar la calidad del código. La documentación técnica y los diagramas de componentes respaldan la mantenibilidad y escalabilidad del sistema. En conjunto, estas unidades permitieron entregar una solución digital robusta, centrada en la experiencia del usuario y alineada con los objetivos del proyecto.
+Durante la unidad 6, correspondiente al entregable 3 (Sprint #2), el equipo se enfocó en el desarrollo del backend, la implementación de la capa edge y la integración de WebSocket para la comunicación en tiempo real. Se diseñó y construyó la API RESTful utilizando Java Spring Boot, siguiendo principios de Clean Architecture y Domain-Driven Design para asegurar una separación clara entre los módulos de autenticación, gestión de usuarios, monitoreo de signos vitales, emergencias y soporte al tratamiento. La capa edge se implementó para facilitar la integración con dispositivos IoT, permitiendo la recepción y procesamiento eficiente de datos provenientes de los sensores. Además, se incorporó WebSocket para habilitar la actualización en tiempo real de los datos críticos, como alertas y cambios en los signos vitales, mejorando la experiencia de usuario tanto en la aplicación web como en la móvil. El control de versiones y la colaboración se gestionaron mediante Git y GitHub, aplicando Git Flow para mantener la calidad y trazabilidad del código. La documentación técnica, los diagramas de arquitectura y las pruebas de integración respaldan la robustez y escalabilidad de la solución, alineando el desarrollo con los objetivos funcionales y de negocio del proyecto.
 
 <div id='8.'><h2>8. Bibliografía</h2></div>
 
