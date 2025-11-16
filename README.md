@@ -45,11 +45,33 @@ El objetivo de esta sección es resumir las modificaciones relevantes que se rea
 | :-----: | :---: | :---: | --------------------------- |
 |    TB1    |   21/09   |   Jesús Guillermo Uribe Quispe   | Se añadió el capítulo I, II, III y IV del proyecto.                         |
 |TP | 10/10 | Jesús Guillermo Uribe Quispe | UX/UI Design, Software Development and Sprint 1 |
+| TB2 | 16/11 | Jesús Guillermo Uribe Quispe | Sprint 2, Validation Interviews and Final Corrections |
 
 # Project Report Collaboration Insights
 
 URL del repositorio para el reporte del proyecto:
 
+**TP:**
+
+<div align="center">
+  <img src="Img/insight_tb2.png" alt="insights" width=350>
+</div>
+
+<div align="center">
+  <img src="Img/insight_tb2a.png" alt="insights" width=350>
+</div>
+
+Para el desarrollo del informe perteneciente a la entrega del trabajo parcial, se dividió la implementación de secciones de la siguiente forma para cada integrante del equipo:
+
+| Integrante | Tareas Asignadas |
+| ---------- | ---------------- |
+| Bohórquez Lerzundi, Gerardo Sebastián | XXXXXXXXXXXXX |
+| Huanaco Huayta, Elizabeth Lucero | XXXXXXXXXXXXX |
+| Huapaya Cuevas, Anthony | XXXXXXXXXXXXX |
+| Silva Tirado, Sebastián Valentino | XXXXXXXXXXXXX |
+| Uribe Quispe, Jesús Guillermo | XXXXXXXXXXXXX  |
+
+<br>
 
 **TP:**
 
@@ -284,7 +306,8 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
       <td>
         <b>Bohorquez Lerzundi Gerardo Sebastián:</b><br>
         <b>TB1:</b> Participé activamente en reuniones del grupo, compartiendo ideas y propuestas sobre la estructuración del Bounded Context de Monitoring, organizando la funcionalidad en servicios y capas de arquitectura. Además, coordiné con mis compañeros para asegurar que las tareas se distribuyeran de manera equitativa y que cada miembro comprendiera su rol dentro del proyecto.<br>
-        <b>TP1:</b> En la segunda entrega, lideré la integración de nuevas funcionalidades en el sistema, facilitando la revisión de código y la resolución de conflictos entre ramas. Promoví la colaboración en la documentación técnica y la validación de los diagramas de arquitectura, asegurando que todos los integrantes participaran en la toma de decisiones sobre el diseño final.<br><br>
+        <b>TP1:</b> En la segunda entrega, lideré la integración de nuevas funcionalidades en el sistema, facilitando la revisión de código y la resolución de conflictos entre ramas. Promoví la colaboración en la documentación técnica y la validación de los diagramas de arquitectura, asegurando que todos los integrantes participaran en la toma de decisiones sobre el diseño final.<br>
+        <b>TB2:</b> Durante la última fase del proyecto, continué promoviendo el liderazgo compartido al coordinar la integración de los módulos finales y la revisión de los entregables. Fomenté la participación activa de todos los miembros en la toma de decisiones técnicas y en la validación de los resultados, asegurando que el liderazgo y la responsabilidad fueran distribuidos equitativamente.<br><br>
         <strong>Huanaco Huayta, Elizabeth Lucero</strong><br>
         <strong>TB1:</strong> El desarrollo de estas tareas, desde la aplicación del Lean UX Process hasta la definición del Bounded Context: Treatment Support con sus diferentes capas y diagramas, me permitió trabajar en equipo de manera organizada y colaborativa. Cada actividad requirió discutir ideas, validar supuestos, formular hipótesis y estructurar el diseño técnico de forma conjunta, lo que fomentó la toma de decisiones compartida y la distribución de responsabilidades. Este proceso fortaleció la comunicación y coordinación dentro del grupo, lo que me permitió contribuir activamente a alcanzar el objetivo común.<br>
         <strong>TP1:</strong> En la segunda fase, participé en la revisión y mejora de los flujos de usuario y wireframes, coordinando sesiones de feedback con el equipo. Impulsé la integración de los prototipos en Figma y la validación conjunta de los criterios de aceptación, asegurando que el liderazgo fuera compartido y que todos los miembros pudieran aportar en la definición de la experiencia de usuario.<br>
@@ -295,14 +318,17 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
         <b>TB2:</b> Durante el desarrollo del proyecto trabajé de manera colaborativa dentro de mi equipo, asumiendo un liderazgo compartido que nos permitió organizarnos y tomar decisiones de forma conjunta. Participé activamente en la planificación, distribución de tareas y revisión de cada etapa, como el diseño de entrevistas, la validación mediante heurísticas y la elaboración del video About-the-Product. Gracias a esta dinámica, contribuí a mantener una comunicación constante, resolver problemas en grupo y asegurar que todas las perspectivas fueran escuchadas, fortaleciendo así el trabajo en equipo y el liderazgo colectivo.<br><br>
         <b>Silva Tirado, Sebastián:</b><br>
         <b>TB1:</b> Coordinó la distribución de responsabilidades entre los integrantes del equipo, fomentando la toma de decisiones de manera consensuada. Propuso soluciones ante dificultades técnicas y apoyó a sus compañeros en la comprensión de las tareas asignadas.<br>
-        <b>TP1:</b> En la segunda fase, lideré la planificación de los sprints y la asignación de tareas, asegurando que cada integrante tuviera claridad sobre sus responsabilidades. Promoví la revisión cruzada de entregables y la resolución colaborativa de problemas, fortaleciendo el liderazgo compartido y la cohesión del grupo.<br><br>
+        <b>TP1:</b> En la segunda fase, lideré la planificación de los sprints y la asignación de tareas, asegurando que cada integrante tuviera claridad sobre sus responsabilidades. Promoví la revisión cruzada de entregables y la resolución colaborativa de problemas, fortaleciendo el liderazgo compartido y la cohesión del grupo.<br>
+        <b>TB2:</b> En la última etapa del proyecto, mantuve el liderazgo compartido al coordinar la integración de los entregables finales y la revisión de los resultados. Fomenté la participación de todos los miembros en la toma de decisiones y en la validación de los entregables, asegurando que el liderazgo y la responsabilidad fueran distribuidos de manera equitativa.<br><br>
         <b>Uribe Quispe Jesús Guillermo:</b><br>
         <b>TB1:</b> Coordiné la elaboración de la arquitectura, proceso de eventstorming y needfinding. Ayudando a mis compañeros a realizar dicho proceso.<br>
         <b>TP1:</b> En la segunda entrega, lideré la integración de los diagramas de arquitectura y la documentación técnica, facilitando la revisión y validación conjunta de los modelos. Promoví la participación activa en la definición de los flujos de trabajo y la toma de decisiones sobre la estructura final del sistema.<br>
+        <b>TB2:</b> En la última fase, continué promoviendo el liderazgo compartido al coordinar la integración de los módulos finales y la revisión de los entregables. Fomenté la participación activa de todos los miembros en la toma de decisiones técnicas y en la validación de los resultados, asegurando que el liderazgo y la responsabilidad fueran distribuidos equitativamente.<br>
       </td>
       <td>
         <b>TB1:</b> En conclusión, el equipo evidenció una dinámica de trabajo basada en la colaboración, la organización y el liderazgo compartido, donde cada integrante asumió un rol activo en la construcción de los bounded contexts, la aplicación del Lean UX Process y el diseño de la arquitectura del sistema. La distribución equitativa de tareas, la discusión de ideas y la validación conjunta de hipótesis fortalecieron la comunicación y la coordinación, lo que permitió tomar decisiones consensuadas y afrontar con eficacia los retos técnicos. Gracias a esta sinergia, el grupo logró estructurar de manera sólida los distintos dominios del proyecto y avanzar de forma ordenada hacia los objetivos comunes.<br>
         <b>TP1:</b> En la segunda entrega, el liderazgo conjunto se consolidó mediante la integración de nuevas funcionalidades, la validación colaborativa de los prototipos y la revisión técnica de los diagramas. La participación activa de todos los miembros en la toma de decisiones y la resolución de conflictos permitió fortalecer la cohesión del equipo y avanzar de manera eficiente hacia los objetivos planteados, demostrando una capacidad sólida para liderar y coordinar el trabajo en equipo.
+        <br><b>TB2:</b> Finalmente, en la última etapa del proyecto, el equipo mantuvo el liderazgo compartido y la colaboración activa en la integración y validación de los entregables finales. La participación equitativa de todos los miembros en la toma de decisiones y la revisión de los resultados permitió consolidar la cohesión del grupo y alcanzar los objetivos propuestos, demostrando una capacidad sólida para liderar y coordinar el trabajo en equipo hasta la culminación del proyecto.
       </td>
     </tr>
     <tr>
@@ -310,7 +336,8 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
       <td>
         <b>Bohorquez Lerzundi Gerardo Sebastián:</b><br>
         <b>TB1:</b> Contribuí en la fase de needfinding, realizando análisis de user persona y empathy map para identificar necesidades reales de los usuarios. Esto permitió al grupo empatizar con los clientes y definir soluciones más ajustadas. También participé en la planificación de tareas del proyecto, ayudando a cumplir objetivos establecidos en tiempo y forma.<br>
-        <b>TP1:</b> En la segunda entrega, colaboré en la definición de los objetivos del sprint y la planificación de las tareas, asegurando que el entorno de trabajo fuera inclusivo y que todos los miembros pudieran aportar sus ideas. Fomenté la revisión cruzada de entregables y la retroalimentación constante, lo que permitió cumplir los objetivos en los plazos establecidos.<br><br>
+        <b>TP1:</b> En la segunda entrega, colaboré en la definición de los objetivos del sprint y la planificación de las tareas, asegurando que el entorno de trabajo fuera inclusivo y que todos los miembros pudieran aportar sus ideas. Fomenté la revisión cruzada de entregables y la retroalimentación constante, lo que permitió cumplir los objetivos en los plazos establecidos.<br>
+        <b>TB2:</b> En la última etapa, participé activamente en la planificación y organización de las tareas finales, asegurando que el entorno de trabajo se mantuviera colaborativo e inclusivo. Contribuí a la definición de metas claras y al seguimiento del cumplimiento de los objetivos, promoviendo la participación de todos los miembros y la retroalimentación constante.<br><br>
         <strong>Huanaco Huayta, Elizabeth Lucero</strong><br>
         <strong>TB1:</strong> Durante el desarrollo de estas tareas logré desarrollar junto a mi equipo un entorno colaborativo e inclusivo, en el que cada integrante pudo aportar ideas y conocimientos desde su experiencia. Definimos metas claras, como la elaboración del Lean UX Canvas y los diferentes Bounded Context, lo que nos permitió planificar tareas de manera ordenada y asignarlas. Gracias a esta organización, pudimos cumplir con los objetivos establecidos en el tiempo acordado, fortaleciendo la participación equitativa y el compromiso hacia el proyecto del curso.<br>
         <strong>TP1:</strong> En la segunda fase, participé en la planificación de los sprints y la definición de los entregables, promoviendo la inclusión de todos los miembros en la toma de decisiones. Coordiné la revisión de los prototipos y la validación de los criterios de aceptación, asegurando que el entorno de trabajo fuera colaborativo y que los objetivos se cumplieran en los plazos establecidos.<br>
@@ -321,14 +348,17 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
         <b>TB2:</b> A lo largo del proyecto procuré crear un entorno colaborativo e inclusivo dentro de mi equipo, asegurando que cada integrante pudiera participar y aportar sus ideas libremente. Establecí metas claras junto con mis compañeros, lo que facilitó organizar y planificar las tareas de manera eficiente. Asimismo, me aseguré de cumplir los objetivos propuestos en cada etapa, manteniendo una comunicación constante y promoviendo un ambiente de trabajo donde todos pudieran desarrollarse y contribuir al avance del proyecto.<br><br>
         <b>Silva Tirado, Sebastian:</b><br>
         <b>TB1:</b> Promovió reuniones periódicas para definir objetivos y plazos, fomentó la participación activa de cada miembro y aseguró que las ideas fueran valoradas por igual. Elaboró un cronograma de actividades y dio seguimiento al cumplimiento de tareas.<br>
-        <b>TP1:</b> En la segunda fase, coordinó la planificación de los sprints y la definición de los entregables, asegurando que el entorno de trabajo fuera inclusivo y que todos los miembros pudieran aportar sus ideas. Fomentó la revisión cruzada de entregables y la retroalimentación constante, lo que permitió cumplir los objetivos en los plazos establecidos.<br><br>
+        <b>TP1:</b> En la segunda fase, coordinó la planificación de los sprints y la definición de los entregables, asegurando que el entorno de trabajo fuera inclusivo y que todos los miembros pudieran aportar sus ideas. Fomentó la revisión cruzada de entregables y la retroalimentación constante, lo que permitió cumplir los objetivos en los plazos establecidos.<br>
+        <b>TB2:</b> En la última etapa, participé activamente en la planificación y organización de las tareas finales, asegurando que el entorno de trabajo se mantuviera colaborativo e inclusivo. Contribuí a la definición de metas claras y al seguimiento del cumplimiento de los objetivos, promoviendo la participación de todos los miembros y la retroalimentación constante.<br><br>
         <b>Uribe Quispe, Jesús Guillermo:</b><br>
         <b>TB1:</b> Cree canales de comunicación entre mis compañeros y yo para desenvolvernos mejor en el proyecto. Además tracé y designé tareas con tiempo para una mayor eficiencia en la realización del entregable.<br>
         <b>TP1:</b> En la segunda entrega, coordiné la planificación de los sprints y la definición de los entregables, promoviendo la inclusión de todos los miembros en la toma de decisiones. Fomenté la revisión cruzada de entregables y la retroalimentación constante, lo que permitió cumplir los objetivos en los plazos establecidos y fortalecer el entorno colaborativo.<br>
+        <b>TB2:</b> En la última etapa, continué promoviendo un entorno colaborativo e inclusivo, asegurando que cada integrante pudiera participar y aportar sus ideas libremente. Junto con mis compañeros establecimos metas claras y planificamos las tareas de manera eficiente, lo que permitió cumplir los objetivos propuestos y mantener una comunicación constante hasta la culminación del proyecto.<br>
       </td>
       <td>
         <b>TB1:</b> En conjunto, el equipo demostró un trabajo colaborativo e inclusivo, en el que cada integrante aportó desde su rol al cumplimiento de los objetivos planteados. A través de la aplicación de metodologías como Lean UX y herramientas como empathy maps, user personas y bounded contexts, lograron definir necesidades reales de los usuarios, establecer metas claras, planificar tareas de manera organizada y dar seguimiento a su ejecución. La comunicación constante, la distribución equitativa de responsabilidades y la valoración de las ideas de todos los miembros fortalecieron el compromiso y permitieron alcanzar los entregables en los tiempos acordados, consolidando así un proceso de trabajo eficiente y orientado a resultados.<br>
         <b>TP1:</b> En la segunda entrega, el equipo consolidó el entorno colaborativo e inclusivo mediante la planificación conjunta de los sprints, la definición de los objetivos y la revisión cruzada de los entregables. La participación activa de todos los miembros en la toma de decisiones y la retroalimentación constante permitieron cumplir los objetivos en los plazos establecidos, fortaleciendo la cohesión del grupo y la eficiencia en el trabajo en equipo.
+        <br><b>TB2:</b> Finalmente, en la última etapa del proyecto, el equipo mantuvo un entorno colaborativo e inclusivo, asegurando la participación equitativa de todos los miembros en la planificación, organización y cumplimiento de los objetivos. La comunicación constante y la retroalimentación continua permitieron alcanzar los entregables en los tiempos acordados y consolidar un proceso de trabajo eficiente y orientado a resultados hasta la culminación del proyecto.
       </td>
     </tr>
   </tbody>
@@ -3846,11 +3876,11 @@ En la siguiente sección, se presentará el sprint #2 con primera versión del b
 | **Prepared By**                        | Uribe Quispe, Jesús Guillermo                                                                                                                                                                                                                                                                                                                                          |
 | **Attendees (to planning meeting)**    | Uribe Quispe Jesús Guillermo / Bohorquez Lerzundi Gerardo Sebastián / Huanaco Huayta Elizabeth Lucero / Huapaya Cuevas Anthony / Sebastián Silva Tirado                                                                                                                                                                                                                |
 | **Sprint 2 – 1 Review Summary**        | Desarrollo de UX/UI DESIGN, Back-end y Mobile App                                                                                                                                                                                                                                                                                                                                       |
-| **Sprint 2 – 1 Retrospective Summary** | XXX                                                                                                                                                                                                                                                                         |
+| **Sprint 2 – 1 Retrospective Summary** | Mejorar el frontend enlanzando al backend                                                                                                                                                                                                                                                                         |
 | **Sprint Goal & User Stories**         |                                                                                                                                                                                                                                                                                                                                                                        |
 | **Sprint #2 Goal** | Nuestro enfoque está en completar y entregar la segunda versión integrada del frontend y del backend de AlertaVital: una interfaz web interactiva (monitoreo, alertas, gestión de usuarios) y una API REST segura y persistente que soporte autenticación, registros de signos vitales y manejo de emergencias. Sabremos que tuvimos éxito cuando: (1) el frontend consuma correctamente los endpoints del backend; (2) las funciones críticas (inicio de sesión, visualización de signos vitales, envío/recepción de alertas y registro de emergencias) funcionen de forma end-to-end en un entorno de staging; y (3) ambos componentes estén desplegados y accesibles para pruebas de usuario. |
-| **Sprint #2 Velocity** |  XXh |
-| **Sum of Story Points** | XX |
+| **Sprint #2 Velocity** |  65h |
+| **Sum of Story Points** | 15 |
 
 <div id='6.2.2.2.'><h5>6.2.2.2. Aspect Leaders and Collaborators.</h5></div>
 
@@ -4027,73 +4057,262 @@ Para el Sprint #2 nos trazamos como objetivo desarrollar y desplegar la primera 
   </tr></thead>
 <tbody>
   <tr>
-<td rowspan="10">
-	<a href="https://github.com/TF-SolucionesIoT/iam_service" target="_blank" rel="noopener noreferrer">https://github.com/TF-SolucionesIoT/iam_service</a>
-	<br>
-</td>
-    <td><br>main</td>
-    <td><br>XXX</td>
-    <td><br>first commit</td>
-    <td><br>first commit</td>
-    <td><br>XX/XX/2025</td>
+    <td rowspan="13">
+      <a href="https://github.com/TF-SolucionesIoT/iam_service" target="_blank" rel="noopener noreferrer">https://github.com/TF-SolucionesIoT/alerta-vital-service</a>
+      <br>
+    </td>
   </tr>
-  
+  <tr>
+    <td>backup</td>
+    <td>fix-cors-auth-me</td>
+    <td>fix: fix duplicated cors configuration and bug in auth controller (profiles/me)</td>
+    <td></td>
+    <td>2025-11-15</td>
+  </tr>
+  <tr>
+    <td>backup</td>
+    <td>merge-emergencymanagement</td>
+    <td>Merge pull request #11 from TF-SolucionesIoT/feat/emergencymanagement</td>
+    <td></td>
+    <td>2025-11-15</td>
+  </tr>
+  <tr>
+    <td>backup</td>
+    <td>merge-monitoring-wss-dev</td>
+    <td>merge branch "feat/monitoring-wss" into dev</td>
+    <td></td>
+    <td>2025-11-15</td>
+  </tr>
+  <tr>
+    <td>backup</td>
+    <td>broadcast-realdata</td>
+    <td>feat: implemented Broadcast to see real data using a patient or caregiver account</td>
+    <td></td>
+    <td>2025-11-15</td>
+  </tr>
+  <tr>
+    <td>backup</td>
+    <td>merge-update-healthTracking</td>
+    <td>Merge pull request #9 from TF-SolucionesIoT/update-healthTracking</td>
+    <td></td>
+    <td>2025-11-15</td>
+  </tr>
+  <tr>
+    <td>backup</td>
+    <td>merge-monitoring-wss</td>
+    <td>Merge pull request #7 from TF-SolucionesIoT/feat/monitoring-wss</td>
+    <td></td>
+    <td>2025-11-15</td>
+  </tr>
+  <tr>
+    <td>backup</td>
+    <td>add-edge-data-patient</td>
+    <td>feat: add data from edge by patient authenticated</td>
+    <td></td>
+    <td>2025-11-15</td>
+  </tr>
+  <tr>
+    <td>backup</td>
+    <td>get-patient-by-caregiver</td>
+    <td>Add: Get patient by caregiver</td>
+    <td></td>
+    <td>2025-11-15</td>
+  </tr>
+  <tr>
+    <td>backup</td>
+    <td>add-controller-fix-entity</td>
+    <td>feat: Add controller and fix Entity</td>
+    <td></td>
+    <td>2025-11-15</td>
+  </tr>
+  <tr>
+    <td>backup</td>
+    <td>add-websockets-broadcast</td>
+    <td>feat: add websockets handler from edge application and real time brodcast to front end</td>
+    <td></td>
+    <td>2025-11-15</td>
+  </tr>
+  <tr>
+    <td>backup</td>
+    <td>add-emergency-management</td>
+    <td>feat: add emergency management endpoints v1 bounded context</td>
+    <td></td>
+    <td>2025-11-14</td>
+  </tr>
 </tbody></table>
 
 <div id='6.2.2.5.'><h5>6.2.2.5. Testing Suite Evidence for Sprint Review.</h5></div>
 
+A continuación se presenta el detalle de los archivos `.feature` desarrollados y subidos en el repositorio, relacionados a los user tasks implementados en este Sprint:
+
+| Archivo .feature           | Descripción                                               | User Task Relacionada                          |
+|---------------------------|-----------------------------------------------------------|------------------------------------------------|
+| login.feature              | Prueba de inicio de sesión de usuario (autenticación exitosa y fallida) | Login (API)                                    |
+| register_caregiver.feature | Registro de un nuevo cuidador, validando datos y duplicados | Registrar cuidador (Backend)                   |
+| register_patient.feature   | Registro de paciente y asociación con cuidador            | Registrar paciente (Backend)                    |
+| disturbances_crud.feature  | Alta, consulta y eliminación de alteraciones (disturbances) | CRUD Disturbances (Alteraciones)               |
+| symptoms_crud.feature      | Registro, consulta y eliminación de síntomas              | CRUD Symptoms (Síntomas)                        |
+| treatments_reminders.feature | Gestión de tratamientos y recordatorios asociados        | CRUD Treatments (Tratamientos) / Asociar recordatorios a Treatment |
+| device_register.feature    | Registro y vinculación de dispositivo IoT                 | Device Controller - Registrar dispositivo       |
+| device_readings.feature    | Consulta de lecturas de dispositivos IoT                  | Device Controller - Obtener lecturas            |
+
+> **Nota:** Puedes revisar todos los archivos en la carpeta [Features del repositorio](https://github.com/TF-SolucionesIoT/report/tree/main/Features).
 
 
 <div id='6.2.2.6.'><h5>6.2.2.6. Execution Evidence for Sprint Review.</h5></div>
 
-A continuación, se muestran las evidencias de ejecución del backend y de la primera versión del mobile app.
+A continuación, se muestran las evidencias de ejecución del backend.
 
 #### Backend:
 
 <div align="center">
-<img src="Img/execution_e.png">
+<img src="Img/back1.png">
 </div>
-
-#### Mobile App:
 
 <div align="center">
-<img src="Img/execution_m.png">
+<img src="Img/back2.png">
 </div>
+
+Link de Video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211g296_upc_edu_pe/IQDT3p9qrFqAR51RJFfNdNnIAfC8V3H6L9FagOaDpz_8Pdo?e=medbbd
 
 </div>
 
 <div id='6.2.2.7.'><h5>6.2.2.7. Services Documentation Evidence for Sprint Review.</h5></div>
 
+### Documentación de Endpoints Backend
+
+A continuación se presenta una tabla resumen de los principales endpoints REST implementados en el backend de AlertaVital, agrupados por contexto funcional. Para cada endpoint se indica el método HTTP, la ruta, una breve descripción y los permisos requeridos.
+
+| Método | Endpoint | Descripción | Permisos/Requiere Auth |
+|--------|----------|-------------|------------------------|
+| **Autenticación (IAM)** | | | |
+| POST   | `/api/auth/login` | Autenticación de usuario, retorna JWT | Público |
+| POST   | `/api/auth/register-caregiver` | Registro de cuidador | Público |
+| POST   | `/api/auth/register-patient` | Registro de paciente | Caregiver/Admin |
+| POST   | `/api/auth/forgot-password` | Solicitud de recuperación de contraseña | Público |
+| POST   | `/api/auth/reset-password` | Restablecimiento de contraseña | Público |
+| **Gestión de Perfil** | | | |
+| GET    | `/api/profiles/me` | Obtener perfil del usuario autenticado | JWT |
+| PUT    | `/api/profiles/me` | Actualizar datos personales | JWT |
+| PUT    | `/api/profiles/me/password` | Cambiar contraseña | JWT |
+| PUT    | `/api/profiles/me/email` | Cambiar correo electrónico | JWT |
+| **Pacientes y Cuidadores** | | | |
+| GET    | `/api/caregivers/{id}/patients` | Listar pacientes de un cuidador | Caregiver/Admin |
+| POST   | `/api/caregivers/{id}/patients` | Vincular paciente a cuidador | Caregiver/Admin |
+| GET    | `/api/patients/{id}` | Obtener datos de paciente | JWT (relación) |
+| **Signos Vitales y Monitoreo** | | | |
+| POST   | `/api/device` | Registrar/vincular dispositivo IoT | JWT |
+| GET    | `/api/device/readings/all` | Listar lecturas de dispositivos (filtros: patientId, deviceId, fechas) | JWT (relación) |
+| **Síntomas y Alteraciones** | | | |
+| POST   | `/api/patients/{id}/symptoms` | Registrar síntoma | JWT (relación) |
+| GET    | `/api/patients/{id}/symptoms` | Listar síntomas | JWT (relación) |
+| DELETE | `/api/symptoms/{id}` | Eliminar síntoma | JWT (relación) |
+| POST   | `/api/patients/{id}/disturbances` | Registrar alteración | JWT (relación) |
+| GET    | `/api/patients/{id}/disturbances` | Listar alteraciones | JWT (relación) |
+| DELETE | `/api/disturbances/{id}` | Eliminar alteración | JWT (relación) |
+| **Tratamientos y Recordatorios** | | | |
+| POST   | `/api/patients/{id}/treatments` | Crear tratamiento | JWT (relación) |
+| GET    | `/api/patients/{id}/treatments` | Listar tratamientos | JWT (relación) |
+| DELETE | `/api/treatments/{id}` | Eliminar tratamiento | JWT (relación) |
+| POST   | `/api/treatments/{id}/reminders` | Crear recordatorio | JWT (relación) |
+| GET    | `/api/treatments/{id}/reminders` | Listar recordatorios | JWT (relación) |
+| DELETE | `/api/reminders/{id}` | Eliminar recordatorio | JWT (relación) |
+| **Emergencias y Contactos** | | | |
+| POST   | `/api/emergencies/trigger-sos` | Disparar emergencia SOS | JWT (paciente) |
+| POST   | `/api/emergencies/detect` | Registrar emergencia automática | JWT (sistema) |
+| GET    | `/api/emergencies/active` | Listar emergencias activas | JWT (relación) |
+| GET    | `/api/emergencies/{id}` | Detalle de emergencia | JWT (relación) |
+| POST   | `/api/patients/{id}/contacts` | Registrar contacto de emergencia | JWT (relación) |
+| GET    | `/api/patients/{id}/contacts` | Listar contactos de emergencia | JWT (relación) |
+| DELETE | `/api/contacts/{id}` | Eliminar contacto de emergencia | JWT (relación) |
+
+> **Nota:** Todos los endpoints protegidos requieren autenticación JWT y validan la relación usuario-paciente/caregiver según el rol. Para detalles de payload y respuestas, consultar la documentación Swagger disponible en: [https://alertavital-aqesfcbafwe4d7fk.canadacentral-01.azurewebsites.net/swagger-ui/index.html](https://alertavital-aqesfcbafwe4d7fk.canadacentral-01.azurewebsites.net/swagger-ui/index.html)
 
 
 <div id='6.2.2.8.'><h5>6.2.2.8. Software Deployment Evidence for Sprint Review.</h5></div>
 
-En este segundo sprint, se desplegaron tanto el backend, como la primera versión del mobile app.
+En este segundo sprint, se desplegó la primera versión del backend.
 
 #### Backend:
 
-En el caso del backend, desplegaremos ...
+**Paso 1: Despliegue de la base de datos**
 
-Para configurar ...:
-<br><br>
-Ve a tu repositorio en ... 
-<br><br>
+Antes de desplegar la aplicación backend, es fundamental contar con una base de datos accesible desde la nube. En la imagen se muestra la creación y configuración de una base de datos SQL en Azure, donde se definen parámetros como el nombre, usuario, contraseña y reglas de firewall para permitir conexiones externas.
 
 <div align="center">
-<img src="Img/des_back_1.png">
+<img src="Img/des_back_1.jpeg">
 </div>
 
-#### Mobile App:
+**Paso 2: Creación de la aplicación web backend**
 
-En el caso del mobile app, desplegaremos la aplicación en una plataforma de hosting adecuada...
-
-Para configurar ...:
-<br><br>
-Ve a tu repositorio en ... 
-<br><br>
+El siguiente paso consiste en crear el recurso de App Service en Azure, que alojará la aplicación backend. En la imagen se observa la configuración del entorno de despliegue, seleccionando el stack tecnológico (por ejemplo, Java/Spring Boot), el grupo de recursos y el nombre de la aplicación.
 
 <div align="center">
-<img src="Img/des_mobile_1.png">
+<img src="Img/des_back_2.jpeg">
+</div>
+
+**Paso 3: Despliegue en Azure**
+
+Una vez configurada la App Service, se procede a desplegar el artefacto generado (por ejemplo, un archivo .jar o .war) desde el entorno local o mediante integración continua. La imagen muestra el panel de Azure donde se gestiona el despliegue, permitiendo cargar el archivo y monitorear el estado de la publicación.
+
+<div align="center">
+<img src="Img/des_back_3.jpeg">
+</div>
+
+**Paso 4: Conexión desde IntelliJ IDEA a Azure**
+
+Para facilitar el despliegue y la administración, se puede conectar el entorno de desarrollo (IntelliJ IDEA) directamente con Azure. En la imagen se visualiza la integración, que permite desplegar el backend, configurar variables de entorno y realizar pruebas directamente desde el IDE.
+
+<div align="center">
+<img src="Img/des_back_4.jpeg">
+</div>
+
+---
+
+### Frontend:
+
+**Paso 1: Creación de un proyecto en Firebase**
+
+Para el frontend, se utiliza Vercel como plataforma de despliegue debido a su facilidad de integración con repositorios de código y su capacidad para automatizar el proceso de publicación de aplicaciones web modernas. Vercel permite realizar despliegues continuos, lo que significa que cada vez que se realiza un cambio en el repositorio, la aplicación puede actualizarse automáticamente en producción. En la imagen a continuación se muestra el proceso de creación de un nuevo proyecto en Vercel, donde se asigna un nombre representativo y se habilitan los servicios necesarios para el alojamiento web, asegurando así una gestión centralizada y eficiente del ciclo de vida del frontend.
+
+<div align="center">
+<img src="Img/des_front_1.png">
+</div>
+
+**Paso 2: Importación y conexión con GitHub**
+
+En este paso, se importa el repositorio del proyecto directamente desde GitHub, lo que permite a Vercel acceder al código fuente y mantener sincronización continua con los cambios realizados por el equipo de desarrollo. Posteriormente, se asigna un nombre único al proyecto dentro de Vercel, facilitando su identificación y administración entre múltiples aplicaciones o entornos de despliegue. Esta integración garantiza que el flujo de trabajo de desarrollo y despliegue sea ágil y seguro.
+
+<div align="center">
+<img src="Img/des_front_2.png">
+</div>
+
+**Paso 3: Configuración de rama específica para despliegue**
+
+En muchos proyectos, es común trabajar con varias ramas (por ejemplo, `main`, `develop`, `feature/*`). Vercel permite seleccionar una rama específica para desplegar en el entorno de producción, lo que resulta útil para pruebas, revisiones o lanzamientos controlados. Para ello, se accede a la sección "Environments" y se selecciona "Production" para editar sus características, asegurando que solo la rama deseada se publique en el entorno final.
+
+<div align="center">
+<img src="Img/des_front_3.png">
+</div>
+
+A continuación, se ingresa el nombre de la rama que se desea desplegar. Esto permite que el equipo tenga control total sobre qué versión del código está activa en producción, facilitando la gestión de versiones y la implementación de nuevas funcionalidades de manera segura.
+
+<div align="center">
+<img src="Img/des_front_4.png">
+</div>
+
+**Configuración de variables de entorno**
+
+En este paso, se configuran las variables de entorno necesarias para el correcto funcionamiento de la aplicación. Estas variables pueden incluir claves de API, URLs de servicios externos, credenciales y otros parámetros sensibles que no deben estar expuestos en el código fuente. Vercel ofrece una interfaz sencilla para definir y gestionar estas variables, asegurando que cada entorno (desarrollo, staging, producción) tenga la configuración adecuada y segura.
+
+<div align="center">
+<img src="Img/des_front_5.png">
+</div>
+
+Una vez completada la configuración, Vercel despliega automáticamente la aplicación cada vez que se detectan cambios en la rama seleccionada o en las variables de entorno. Este proceso automatizado reduce el riesgo de errores manuales y acelera la entrega continua, permitiendo que el equipo de desarrollo se enfoque en la mejora constante del producto.
+
+<div align="center">
+<img src="Img/des_front_6.png">
 </div>
 
 <div id='6.2.2.9.'><h5>6.2.2.9. Team Collaboration Insights during Sprint.</h5></div>
@@ -4436,7 +4655,7 @@ Recomendaciones
     <td>About The Product</td>
     <td>
       <strong>Cantidad de videos</strong>: 1<br>
-      <strong>Nomenclatura</strong>: upc-pre-202501-cc238-353-MediTech-about-the-product-sprint-3<br>
+      <strong>Nomenclatura</strong>: upc-pre-202501-cc238-353-AlertaVital-about-the-product-sprint-3<br>
       <strong>Formato</strong>: .mp4<br>
       <strong>Duración</strong>: XX:XX min
     </td>
@@ -4446,14 +4665,14 @@ Recomendaciones
     <td>
       Screenshot: <br>
       <img src="Img/screen-video-about-the-product.png" alt="ATP" style="width: 200px;"><br>
-      Link: <a href="XXX">Video</a>
+      Link: <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211g296_upc_edu_pe/IQBlY5mHhggtT577uM1LcouFATT3hgO_Hgu9vqEbA2m1kHA?e=0nRS4U">Video</a>
     </td>
   </tr>
   </table>
 
 <div id='7.'><h2>7. Conclusiones</h2></div>
 
-Durante la unidad 5 y 6, el equipo se enfocó en el diseño y desarrollo de la Landing Page y la aplicación web, aplicando principios de UX/UI y buenas prácticas de ingeniería de software. Se inició con la definición de la arquitectura de información y wireframes en Figma, asegurando una navegación clara y accesible para los usuarios objetivo: adultos mayores y sus cuidadores. La Landing Page fue implementada utilizando HTML, CSS, Bootstrap y React, priorizando la presentación de beneficios, características, testimonios y acceso rápido a la descarga de la app. El desarrollo siguió una estructura modular y responsiva, facilitando la adaptación a distintos dispositivos. Para la aplicación web, se empleó una arquitectura basada en Clean Architecture y Domain-Driven Design, separando los módulos de autenticación, monitoreo, gestión de usuarios y soporte al tratamiento. El control de versiones se realizó con Git y GitHub, aplicando Git Flow para organizar las ramas y asegurar la calidad del código. La documentación técnica y los diagramas de componentes respaldan la mantenibilidad y escalabilidad del sistema. En conjunto, estas unidades permitieron entregar una solución digital robusta, centrada en la experiencia del usuario y alineada con los objetivos del proyecto.
+Durante la unidad 6, correspondiente al entregable 3 (Sprint #2), el equipo se enfocó en el desarrollo del backend, la implementación de la capa edge y la integración de WebSocket para la comunicación en tiempo real. Se diseñó y construyó la API RESTful utilizando Java Spring Boot, siguiendo principios de Clean Architecture y Domain-Driven Design para asegurar una separación clara entre los módulos de autenticación, gestión de usuarios, monitoreo de signos vitales, emergencias y soporte al tratamiento. La capa edge se implementó para facilitar la integración con dispositivos IoT, permitiendo la recepción y procesamiento eficiente de datos provenientes de los sensores. Además, se incorporó WebSocket para habilitar la actualización en tiempo real de los datos críticos, como alertas y cambios en los signos vitales, mejorando la experiencia de usuario tanto en la aplicación web como en la móvil. El control de versiones y la colaboración se gestionaron mediante Git y GitHub, aplicando Git Flow para mantener la calidad y trazabilidad del código. La documentación técnica, los diagramas de arquitectura y las pruebas de integración respaldan la robustez y escalabilidad de la solución, alineando el desarrollo con los objetivos funcionales y de negocio del proyecto.
 
 <div id='8.'><h2>8. Bibliografía</h2></div>
 
@@ -4472,5 +4691,7 @@ Organización Panamericana de la Salud. (2023). *La situación de los cuidados a
 |  Link de video de exposición          |  [Link de video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202221876_upc_edu_pe/EXvZqwze7apOu3moDficAfYBfor80Eh9jrz-ZFLR0JkPyQ?e=XYeo46)    |
 | Link de video de entrevistas | [Link](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220235_upc_edu_pe/ERMsAWnlK25BgS7DKzoCgPEBcVQJPN9Nr9zo1HhWZgaR4g?nav=eyJwbGF5YmFja09wdGlvbnMiOnsic3RhcnRUaW1lSW5TZWNvbmRzIjoxNTI3LCJ0aW1lc3RhbXBlZExpbmtSZWZlcnJlckluZm8iOnsic2NlbmFyaW8iOiJDaGFwdGVyU2hhcmUiLCJhZGRpdGlvbmFsSW5mbyI6eyJpc1NoYXJlZENoYXB0ZXJBdXRvIjpmYWxzZX19fSwicmVmZXJyYWxJbmZvIjp7InJlZmVycmFsQXBwIjoiU3RyZWFtV2ViQXBwIiwicmVmZXJyYWxWaWV3IjoiU2hhcmVDaGFwdGVyTGluayIsInJlZmVycmFsQXBwUGxhdGZvcm0iOiJXZWIiLCJyZWZlcnJhbE1vZGUiOiJ2aWV3In19&e=ZFJWW8) |
 | Link de Figma | [Link](https://www.figma.com/design/wDXE0NQLCOx7ccB5TPlRYr/IoT?node-id=1-3&t=ByrmBRuCKYXO44gX-1) |
+| Link Frontend Web | [Link](https://front-end-iot-smoky.vercel.app/auth/login) |
 | Link de Despliegue de Landing Page | [https://tf-solucionesiot.github.io/LandingPage/](https://tf-solucionesiot.github.io/LandingPage/) |
 | Link de documentacion de los servicios web | [https://alertavital-aqesfcbafwe4d7fk.canadacentral-01.azurewebsites.net/swagger-ui/index.html](https://alertavital-aqesfcbafwe4d7fk.canadacentral-01.azurewebsites.net/swagger-ui/index.html) |
+
