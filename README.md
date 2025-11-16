@@ -1071,8 +1071,8 @@ A continuación, se presenta una matriz de tareas enfocada en María Luisa Ramí
 | TS05 | CRUD Disturbances (Alteraciones) | Endpoints para crear, listar y eliminar alteraciones detectadas (disturbances). | **ES1:** POST /api/patients/{id}/disturbances crea entrada y devuelve 201.<br>**ES2:** GET /api/patients/{id}/disturbances devuelve lista paginada.<br>**ES3:** DELETE /api/disturbances/{id} borra (soft delete) con permisos adecuados (caregiver/patient/admin). | EP01 |
 | TS06 | CRUD Symptoms (Síntomas) | Endpoints para reportar, consultar y eliminar síntomas asociados a pacientes. | **ES1:** POST /api/patients/{id}/symptoms → 201 con id del síntoma.<br>**ES2:** GET /api/patients/{id}/symptoms → lista ordenada por fecha.<br>**ES3:** DELETE /api/symptoms/{id} → 200 y registro marcado inactivo. | EP01 |
 | TS07 | CRUD Treatments (Tratamientos) | Endpoints para gestionar tratamientos y recordatorios (create/get/delete). | **ES1:** POST /api/patients/{id}/treatments crea tratamiento y devuelve 201.<br>**ES2:** GET /api/patients/{id}/treatments devuelve activos/inactivos filtrables.<br>**ES3:** DELETE /api/treatments/{id} desactiva o elimina según política. | EP01 |
-| TS08 | Asociar recordatorios a Treatment | Backend para crear y listar treatment reminders. | **ES1:** POST /api/treatments/{id}/reminders crea reminder con hora y tipo → 201.<br>**ES2:** GET /api/treatments/{id}/reminders lista próximos recordatorios.<br>**ES3:** Scheduler/worker debe leer reminders activos para notificaciones. | EP01 |
-| TS09 | Seguridad y permisos en APIs | Implementar middleware de autorización (roles: patient, caregiver, admin) y validaciones. | **ES1:** Rutas protegidas validan JWT y rol.<br>**ES2:** Acciones sobre datos de paciente solo permitidas si relacion/permiso existe.<br>**ES3:** Logs de auditoría para creación/elim/acciones críticas. | EP01 |
+<tr><td>37</td><td>TS10</td><td>Device Controller - Registrar dispositivo (POST /api/device)</td><td>Endpoint REST para registrar y vincular un dispositivo IoT a un paciente. Valida payload (deviceId, patientId, model, firmware), crea/actualiza registro del dispositivo y publica evento de dispositivo registrado. Maneja duplicados y devuelve 201 con recurso creado.</td><td>3</td></tr>
+<tr><td>38</td><td>TS11</td><td>Device Controller - Obtener lecturas (GET /api/device/readings/all)</td><td>Endpoint REST para obtener todas las lecturas recopiladas por los dispositivos. Soporta filtros (patientId, deviceId, from,to), paginación y ordenamiento. Protege ruta (roles/permiso), valida acceso y devuelve lista paginada de lecturas con metadatos.</td><td>5</td></tr>
 
 <div id='3.2.'><h3>3.2. Impact Mapping</h3></div>
 
@@ -1137,7 +1137,8 @@ Así, se define un plan de trabajo claro para el equipo de desarrollo, garantiza
     <tr><td>33</td><td>TS06</td><td>CRUD Symptoms (Síntomas)</td><td>Endpoints para reportar, consultar y eliminar síntomas asociados a pacientes (incluye adjuntos y trazabilidad).</td><td>3</td></tr>
     <tr><td>34</td><td>TS07</td><td>CRUD Treatments (Tratamientos)</td><td>Endpoints para gestionar tratamientos y su ciclo de vida (create/get/update/delete) y relaciones con recordatorios.</td><td>5</td></tr>
     <tr><td>35</td><td>TS08</td><td>Asociar recordatorios a Treatment</td><td>Backend para crear/listar recordatorios asociados a tratamientos y exponer scheduler/worker para notificaciones.</td><td>5</td></tr>
-    <tr><td>36</td><td>TS09</td><td>Seguridad y permisos en APIs</td><td>Implementar middleware de autorización (roles: patient, caregiver, admin), validación de JWT y política de acceso por relación.</td><td>8</td></tr>
+    <tr><td>37</td><td>TS10</td><td>Device Controller - Registrar dispositivo (POST /api/device)</td><td>Endpoint REST para registrar y vincular un dispositivo IoT a un paciente. Valida payload (deviceId, patientId, model, firmware), crea/actualiza registro del dispositivo y publica evento de dispositivo registrado. Maneja duplicados y devuelve 201 con recurso creado.</td><td>3</td></tr>
+    <tr><td>38</td><td>TS11</td><td>Device Controller - Obtener lecturas (GET /api/device/readings/all)</td><td>Endpoint REST para obtener todas las lecturas recopiladas por los dispositivos. Soporta filtros (patientId, deviceId, from,to), paginación y ordenamiento. Protege ruta (roles/permiso), valida acceso y devuelve lista paginada de lecturas con metadatos.</td><td>5</td></tr>
   </tbody>
 </table>
 
@@ -3982,6 +3983,27 @@ Para el Sprint #2 nos trazamos como objetivo desarrollar y desplegar la primera 
       <td>8</td>
       <td>Jesús Uribe</td>
       <td>In Progress</td>
+    <tr>
+      <td>TS10</td>
+      <td>Device Controller - Registrar dispositivo</td>
+      <td>WT-BK10</td>
+      <td>POST /api/device</td>
+      <td>Implementar endpoint REST para registrar y vincular un dispositivo IoT a un paciente. Validar payload (deviceId, patientId, model, firmware), crear/actualizar registro del dispositivo y publicar evento de dispositivo registrado. Manejar duplicados y devolver 201 con recurso creado.</td>
+      <td>32h</td>
+      <td>5</td>
+      <td>Anthony Huapaya</td>
+      <td>To Do</td>
+    </tr>
+    <tr>
+      <td>TS11</td>
+      <td>Device Controller - Obtener lecturas</td>
+      <td>WT-BK11</td>
+      <td>GET /api/device/readings/all</td>
+      <td>Implementar endpoint REST para obtener todas las lecturas recopiladas por los dispositivos. Soportar filtros (patientId, deviceId, from, to), paginación y ordenamiento. Proteger ruta (roles/permiso), validar acceso y devolver lista paginada de lecturas con metadatos.</td>
+      <td>32h</td>
+      <td>5</td>
+      <td>Elizabeth Huanaco</td>
+      <td>To Do</td>
     </tr>
   </tbody>
 </table>
