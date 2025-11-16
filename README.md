@@ -291,7 +291,8 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
         <strong>TB2:</strong> A lo largo del proyecto trabajé de manera colaborativa con mi equipo, ejerciendo un liderazgo compartido que nos permitió organizarnos y tomar decisiones en conjunto. Participé activamente en la planificación, la asignación de tareas y la revisión de cada fase del trabajo, incluyendo el diseño de las entrevistas, la validación heurística y la creación del video About-the-Product. Esta forma de trabajo fomentó una comunicación constante, la resolución conjunta de problemas y la consideración de todas las opiniones, lo que fortaleció tanto el trabajo en equipo como nuestro liderazgo colectivo.<br><br>
         <b>Huapaya Cuevas, Anthony Martin:</b><br>
         <b>TB1:</b> En el equipo aporté liderazgo conjunto al desarrollar el Lean UX Process, ya que ayudó a estructurar nuestras hipótesis y experimentos de manera clara, lo que facilitó la toma de decisiones colaborativas. Además, trabajé en los bounded context canvases de health tracking, lo que permitió al grupo alinear la visión del sistema y delimitar responsabilidades dentro del diseño, favoreciendo un liderazgo distribuido. Finalmente, al realizar el registro de entrevistas, contribuí a organizar la información obtenida de los usuarios, asegurando que todo el equipo pudiera basar sus decisiones en evidencia real y compartida.<br>
-        <b>TP1:</b> En la segunda entrega, lideré la integración de los resultados de las entrevistas en el diseño de la arquitectura, coordinando la actualización de los diagramas y la documentación. Fomenté la participación activa de los miembros en la validación de los casos de uso y la revisión de los criterios de aceptación, consolidando el liderazgo conjunto en la toma de decisiones técnicas.<br><br>
+        <b>TP1:</b> En la segunda entrega, lideré la integración de los resultados de las entrevistas en el diseño de la arquitectura, coordinando la actualización de los diagramas y la documentación. Fomenté la participación activa de los miembros en la validación de los casos de uso y la revisión de los criterios de aceptación, consolidando el liderazgo conjunto en la toma de decisiones técnicas.<br>
+        <b>TB2:</b> Durante el desarrollo del proyecto trabajé de manera colaborativa dentro de mi equipo, asumiendo un liderazgo compartido que nos permitió organizarnos y tomar decisiones de forma conjunta. Participé activamente en la planificación, distribución de tareas y revisión de cada etapa, como el diseño de entrevistas, la validación mediante heurísticas y la elaboración del video About-the-Product. Gracias a esta dinámica, contribuí a mantener una comunicación constante, resolver problemas en grupo y asegurar que todas las perspectivas fueran escuchadas, fortaleciendo así el trabajo en equipo y el liderazgo colectivo.<br><br>
         <b>Silva Tirado, Sebastián:</b><br>
         <b>TB1:</b> Coordinó la distribución de responsabilidades entre los integrantes del equipo, fomentando la toma de decisiones de manera consensuada. Propuso soluciones ante dificultades técnicas y apoyó a sus compañeros en la comprensión de las tareas asignadas.<br>
         <b>TP1:</b> En la segunda fase, lideré la planificación de los sprints y la asignación de tareas, asegurando que cada integrante tuviera claridad sobre sus responsabilidades. Promoví la revisión cruzada de entregables y la resolución colaborativa de problemas, fortaleciendo el liderazgo compartido y la cohesión del grupo.<br><br>
@@ -316,7 +317,8 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
         <strong>TB2:</strong> Durante el desarrollo del proyecto me esforcé por fomentar un ambiente colaborativo e inclusivo dentro del equipo, garantizando que cada integrante tuviera espacio para participar y expresar sus ideas. Junto con mis compañeros establecimos metas claras, lo que permitió organizar y planificar las tareas de forma más eficaz. Además, procuré cumplir los objetivos planteados en cada etapa, manteniendo una comunicación constante y promoviendo un entorno de trabajo que favoreciera el crecimiento de todos y el progreso del proyecto.<br><br>
         <b>Huapaya Cuevas, Anthony Martin:</b><br>
         <b>TB1:</b> Durante el proyecto fomenté un entorno colaborativo e inclusivo al aplicar el Lean UX Process, donde todas las ideas del equipo fueron consideradas y priorizadas de manera conjunta. A través de los bounded context canvases de health tracking, ayudé a establecer metas claras y a planificar tareas específicas relacionadas con el diseño de los dominios, asegurando que cada miembro comprendiera su responsabilidad. Con el registro de entrevistas, contribuí a cumplir los objetivos del equipo, ya que la información recogida permitió orientar el diseño hacia las necesidades reales de los usuarios.<br>
-        <b>TP1:</b> En la segunda entrega, colaboré en la planificación de los sprints y la asignación de tareas, promoviendo la inclusión de todos los miembros en la toma de decisiones. Fomenté la revisión cruzada de entregables y la retroalimentación constante, lo que permitió cumplir los objetivos en los plazos establecidos y fortalecer el entorno colaborativo.<br><br>
+        <b>TP1:</b> En la segunda entrega, colaboré en la planificación de los sprints y la asignación de tareas, promoviendo la inclusión de todos los miembros en la toma de decisiones. Fomenté la revisión cruzada de entregables y la retroalimentación constante, lo que permitió cumplir los objetivos en los plazos establecidos y fortalecer el entorno colaborativo.<br>
+        <b>TB2:</b> A lo largo del proyecto procuré crear un entorno colaborativo e inclusivo dentro de mi equipo, asegurando que cada integrante pudiera participar y aportar sus ideas libremente. Establecí metas claras junto con mis compañeros, lo que facilitó organizar y planificar las tareas de manera eficiente. Asimismo, me aseguré de cumplir los objetivos propuestos en cada etapa, manteniendo una comunicación constante y promoviendo un ambiente de trabajo donde todos pudieran desarrollarse y contribuir al avance del proyecto.<br><br>
         <b>Silva Tirado, Sebastian:</b><br>
         <b>TB1:</b> Promovió reuniones periódicas para definir objetivos y plazos, fomentó la participación activa de cada miembro y aseguró que las ideas fueran valoradas por igual. Elaboró un cronograma de actividades y dio seguimiento al cumplimiento de tareas.<br>
         <b>TP1:</b> En la segunda fase, coordinó la planificación de los sprints y la definición de los entregables, asegurando que el entorno de trabajo fuera inclusivo y que todos los miembros pudieran aportar sus ideas. Fomentó la revisión cruzada de entregables y la retroalimentación constante, lo que permitió cumplir los objetivos en los plazos establecidos.<br><br>
@@ -1396,7 +1398,7 @@ Este context mapping representa un ecosistema de salud digital centrado en el pa
 <div id='4.1.3.2.'><h5>4.1.3.2. Software Architecture Context Level Diagrams</h5></div>
 
 <div align="center">
-<img src="Img/structurizr-SystemContext (1).png">
+<img src="Img/structurizr-SystemContext (1).jpg">
 </div>
 
 <div id='4.1.3.3.'><h5>4.1.3.3. Software Architecture Container Level Diagrams</h5></div>
@@ -4110,31 +4112,35 @@ En esta sección de nuestro proyecto, nos enfocamos en detectar cuáles son los 
 
 Esta sección detalla los objetivos de usuario que guiarán nuestras entrevistas, los cuales son fundamentales para asegurar que nuestro aplicativo, AlertaVital, responda efectivamente a las necesidades reales de los adultos mayores y sus cuidadores. A continuación, se presentan dichos objetivos de usuario:
 
-User Flows: Aplicación Móvil
+Introducción:
+- ¿Podría indicar su nombre completo, edad, distrito de residencia y ocupación?
+- ¿Ha tenido experiencia previa utilizando aplicaciones o dispositivos relacionados al monitoreo de salud?
+- ¿Con qué frecuencia utiliza herramientas digitales para llevar el control de la salud del adulto mayor/su salud?
 
-User goal: Gestión de Perfil de Usuario
+Landing Page:
+- ¿Le parece que el diseño de la página inicial resulta atractivo y profesional?
+- ¿Considera que el contenido de la página comunica de forma clara el propósito y los beneficios de la aplicación?
+- ¿Qué elementos visuales o de información considera más útiles o interesantes?
+- ¿Cambiaría o eliminaría algún elemento de la página para hacerlo más claro o atractivo?
 
-Al ingresar a la aplicación AlertaVital, el usuario debe autenticarse. Una vez dentro, puede acceder a su perfil para actualizar datos personales como nombre, correo electrónico, contraseña y datos médicos relevantes. También puede gestionar sus contactos de emergencia y preferencias de notificación.
+Aplicación:
+- ¿Las herramientas y secciones de la aplicación le resultan fáciles de identificar y comprender?
+- ¿La navegación dentro de la aplicación le parece intuitiva o presenta confusiones?
+- ¿Los textos, botones e íconos tienen un tamaño y contraste adecuados para su lectura?
 
-User goal: Monitoreo de Signos Vitales
+Para el adulto mayor:
+- ¿Considera que esta aplicación le ayudaría a llevar un mejor control de sus citas y medicamentos?
+- Si usara la aplicación por primera vez sin guía, ¿le resultaría fácil comprender cómo empezar?
 
-Al ingresar a la aplicación AlertaVital, el usuario puede visualizar en tiempo real sus signos vitales principales como frecuencia cardíaca, presión arterial y niveles de oxigenación. Los datos son mostrados de forma clara y accesible, con indicadores visuales que señalan cuando los valores están fuera de rangos normales.
+Para cuidador o tutor:
+- ¿Considera que las herramientas de la aplicación le ayudarían a organizar y hacer seguimiento de la persona bajo su cuidado?
+- ¿La interfaz le permite acceder rápidamente a la información médica relevante del adulto mayor?
+- ¿Hay alguna funcionalidad que considere necesaria para mejorar las alertas o notificaciones acerca del estado de salud del adulto mayor?
 
-User goal: Registro y Seguimiento de alteraciones
-
-Al ingresar a la aplicación AlertaVital, el usuario puede registrar manualmente alteraciones en su salud y consultar un historial de las mismas. Esto incluye la capacidad de documentar síntomas, eventos específicos o cambios en su condición médica.
-
-User goal: Emergencias y Alertas
-
-Al ingresar a la aplicación AlertaVital, el usuario tiene acceso inmediato a un botón de emergencia SOS. Puede enviar alertas automáticas a sus cuidadores cuando se detectan anomalías en sus signos vitales o cuando sufre una caída. También puede consultar un historial de alertas previas.
-
-User goal: Soporte al Tratamiento
-
-Al ingresar a la aplicación AlertaVital, el usuario puede gestionar sus tratamientos médicos, incluyendo recordatorios de medicación y seguimiento de rutinas de cuidado. Puede programar alertas para tomas de medicamentos y registrar su cumplimiento.
-
-Landing Page
-
-Al ingresar al landing page de AlertaVital, el usuario encuentra información clara sobre cómo la solución IoT ayuda en el monitoreo y cuidado de adultos mayores. La página presenta las características principales del sistema, testimonios de usuarios, planes de suscripción y una sección de contacto. Está diseñada considerando la accesibilidad para usuarios mayores, con tipografía clara y navegación intuitiva. Al final se incluyen las políticas de privacidad y términos de uso.
+General:
+- ¿Qué cambios visuales o funcionales implementaría para mejorar la experiencia de uso?
+- ¿Qué tan satisfecho se siente con la experiencia general que ofrece la aplicación?
+- ¿Le gustaría seguir utilizando la aplicación en el futuro? ¿Por qué?
 
 <div id='6.3.2.'><h4>6.3.2. Registro de Entrevistas.</h4></div>
 
@@ -4149,20 +4155,20 @@ Al ingresar al landing page de AlertaVital, el usuario encuentra información cl
     <td>Validation Interviews</td>
     <td>
       <strong>Cantidad de videos</strong>: 1<br>
-      <strong>Nomenclatura</strong>: XXX<n><br>
+      <strong>Nomenclatura</strong>: upc-pre-202520-1asi0572-3428-AlertaVital-validation-sprint-2<n><br>
       <strong>Formato</strong>: .mp4<br>
-      <strong>Duración</strong>: XX:XX min
+      <strong>Duración</strong>: 09:25 min
     </td>
     <td>
-      Nombre: XXX
-      <br>Segmento Objetivo: XXX
-      <br>Edad: XX
-      <br>Distrito: XXX
+      Nombre: Fabrisio Belahonia
+      <br>Segmento Objetivo: Tutor
+      <br>Edad: 23
+      <br>Distrito: Huachipa
     </td>
     <td>
       Screenshot: <br>
-      <img src="Img/vi-vid.png" style="width: 200px;"></img>
-       Link: <a href="XXX">Video</a>
+      <img src="Img/validation_tutor_1.png" style="width: 200px;"><br>
+      Link: <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220235_upc_edu_pe/IQBvcbEGTVFxTZ9DWmpx5U8kAXxpKY49vqhwONNkZtt0_yU?nav=eyJwbGF5YmFja09wdGlvbnMiOnsic3RhcnRUaW1lSW5TZWNvbmRzIjoxMDg0LjA5NywidGltZXN0YW1wZWRMaW5rUmVmZXJyZXJJbmZvIjp7InNjZW5hcmlvIjoiQ2hhcHRlclNoYXJlIiwiYWRkaXRpb25hbEluZm8iOnsiaXNTaGFyZWRDaGFwdGVyQXV0byI6ZmFsc2V9fX0sInJlZmVycmFsSW5mbyI6eyJyZWZlcnJhbEFwcCI6IlN0cmVhbVdlYkFwcCIsInJlZmVycmFsVmlldyI6IlNoYXJlQ2hhcHRlckxpbmsiLCJyZWZlcnJhbEFwcFBsYXRmb3JtIjoiV2ViIiwicmVmZXJyYWxNb2RlIjoidmlldyJ9fQ&e=i9hlz0" style="word-break: break-all;">https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220235_upc_edu_pe/IQBvcbEGTVFxTZ9DWmpx5U8kAXxpKY49vqhwONNkZtt0_yU?nav=eyJwbGF5YmFja09wdGlvbnMiOnsic3RhcnRUaW1lSW5TZWNvbmRzIjoxMDg0LjA5NywidGltZXN0YW1wZWRMaW5rUmVmZXJyZXJJbmZvIjp7InNjZW5hcmlvIjoiQ2hhcHRlclNoYXJlIiwiYWRkaXRpb25hbEluZm8iOnsiaXNTaGFyZWRDaGFwdGVyQXV0byI6ZmFsc2V9fX0sInJlZmVycmFsSW5mbyI6eyJyZWZlcnJhbEFwcCI6IlN0cmVhbVdlYkFwcCIsInJlZmVycmFsVmlldyI6IlNoYXJlQ2hhcHRlckxpbmsiLCJyZWZlcnJhbEFwcFBsYXRmb3JtIjoiV2ViIiwicmVmZXJyYWxNb2RlIjoidmlldyJ9fQ&e=i9hlz0</a>
     </td>
 
   </tr>
@@ -4170,40 +4176,100 @@ Al ingresar al landing page de AlertaVital, el usuario encuentra información cl
     <td>Validation Interviews</td>
     <td>
       <strong>Cantidad de videos</strong>: 1<br>
-      <strong>Nomenclatura</strong>: upc-pre-202501-cc238-353-Dentify-validation-sprint-2<n><br>
+      <strong>Nomenclatura</strong>: upc-pre-202520-1asi0572-3428-AlertaVital-validation-sprint-2<n><br>
       <strong>Formato</strong>: .mp4<br>
-      <strong>Duración</strong>: 12:30 min<br>
+      <strong>Duración</strong>: 17:57 min<br>
     </td>
     <td>
-      Nombre: XXX
-      <br>Segmento Objetivo: XXX<br>
-      <br>Edad: XXX
-      <br>Distrito: XXX
+      Nombre: James Urbano
+      <br>Segmento Objetivo: Tutor<br>
+      <br>Edad: 19
+      <br>Distrito: San Juan de Lurigancho
     </td>
     <td>
       Screenshot: <br>
-      <img src="Img/validation_interviews_2.png" style="width: 200px;"><br>
-      Link: <a href="XXX">Video</a>
+      <img src="Img/validation_tutor_2.png" style="width: 200px;"><br>
+      Link: <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220235_upc_edu_pe/IQBvcbEGTVFxTZ9DWmpx5U8kAXxpKY49vqhwONNkZtt0_yU?nav=eyJwbGF5YmFja09wdGlvbnMiOnsic3RhcnRUaW1lSW5TZWNvbmRzIjo1LCJ0aW1lc3RhbXBlZExpbmtSZWZlcnJlckluZm8iOnsic2NlbmFyaW8iOiJDaGFwdGVyU2hhcmUiLCJhZGRpdGlvbmFsSW5mbyI6eyJpc1NoYXJlZENoYXB0ZXJBdXRvIjpmYWxzZX19fSwicmVmZXJyYWxJbmZvIjp7InJlZmVycmFsQXBwIjoiU3RyZWFtV2ViQXBwIiwicmVmZXJyYWxWaWV3IjoiU2hhcmVDaGFwdGVyTGluayIsInJlZmVycmFsQXBwUGxhdGZvcm0iOiJXZWIiLCJyZWZlcnJhbE1vZGUiOiJ2aWV3In19&e=DyD4e4" style="word-break: break-all;">https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220235_upc_edu_pe/IQBvcbEGTVFxTZ9DWmpx5U8kAXxpKY49vqhwONNkZtt0_yU?nav=eyJwbGF5YmFja09wdGlvbnMiOnsic3RhcnRUaW1lSW5TZWNvbmRzIjo1LCJ0aW1lc3RhbXBlZExpbmtSZWZlcnJlckluZm8iOnsic2NlbmFyaW8iOiJDaGFwdGVyU2hhcmUiLCJhZGRpdGlvbmFsSW5mbyI6eyJpc1NoYXJlZENoYXB0ZXJBdXRvIjpmYWxzZX19fSwicmVmZXJyYWxJbmZvIjp7InJlZmVycmFsQXBwIjoiU3RyZWFtV2ViQXBwIiwicmVmZXJyYWxWaWV3IjoiU2hhcmVDaGFwdGVyTGluayIsInJlZmVycmFsQXBwUGxhdGZvcm0iOiJXZWIiLCJyZWZlcnJhbE1vZGUiOiJ2aWV3In19&e=DyD4e4</a>
     </td>
   </tr>
   <tr>
     <td>Validation Interviews</td>
     <td>
       <strong>Cantidad de videos</strong>: 1<br>
-      <strong>Nomenclatura</strong>: XXX<n><br>
+      <strong>Nomenclatura</strong>: upc-pre-202520-1asi0572-3428-AlertaVital-validation-sprint-2<n><br>
       <strong>Formato</strong>: .mp4<br>
-      <strong>Duración</strong>: X:XX min
+      <strong>Duración</strong>: 10:00 min
     </td>
     <td>
-      Nombre: XXX
-      <br>Segmento Objetivo: XXX<br>
-      <br>Edad: XXX
-      <br>Distrito: XXX
+      Nombre: Diego Bastidas
+      <br>Segmento Objetivo: Tutor<br>
+      <br>Edad: 23
+      <br>Distrito: Magdalena
     </td>
     <td>
       Screenshot: <br>
-      <img src="Img/validation_interviews_3.png" style="width: 200px;"><br>
-      Link: <a href="XXX">Video</a>
+      <img src="Img/validation_tutor_3.png" style="width: 200px;"><br>
+      Link: <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220235_upc_edu_pe/IQBvcbEGTVFxTZ9DWmpx5U8kAXxpKY49vqhwONNkZtt0_yU?nav=eyJwbGF5YmFja09wdGlvbnMiOnsic3RhcnRUaW1lSW5TZWNvbmRzIjoxNjQ5LjgzOCwidGltZXN0YW1wZWRMaW5rUmVmZXJyZXJJbmZvIjp7InNjZW5hcmlvIjoiQ2hhcHRlclNoYXJlIiwiYWRkaXRpb25hbEluZm8iOnsiaXNTaGFyZWRDaGFwdGVyQXV0byI6ZmFsc2V9fX0sInJlZmVycmFsSW5mbyI6eyJyZWZlcnJhbEFwcCI6IlN0cmVhbVdlYkFwcCIsInJlZmVycmFsVmlldyI6IlNoYXJlQ2hhcHRlckxpbmsiLCJyZWZlcnJhbEFwcFBsYXRmb3JtIjoiV2ViIiwicmVmZXJyYWxNb2RlIjoidmlldyJ9fQ&e=7yFDd8" style="word-break: break-all;">https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220235_upc_edu_pe/IQBvcbEGTVFxTZ9DWmpx5U8kAXxpKY49vqhwONNkZtt0_yU?nav=eyJwbGF5YmFja09wdGlvbnMiOnsic3RhcnRUaW1lSW5TZWNvbmRzIjoxNjQ5LjgzOCwidGltZXN0YW1wZWRMaW5rUmVmZXJyZXJJbmZvIjp7InNjZW5hcmlvIjoiQ2hhcHRlclNoYXJlIiwiYWRkaXRpb25hbEluZm8iOnsiaXNTaGFyZWRDaGFwdGVyQXV0byI6ZmFsc2V9fX0sInJlZmVycmFsSW5mbyI6eyJyZWZlcnJhbEFwcCI6IlN0cmVhbVdlYkFwcCIsInJlZmVycmFsVmlldyI6IlNoYXJlQ2hhcHRlckxpbmsiLCJyZWZlcnJhbEFwcFBsYXRmb3JtIjoiV2ViIiwicmVmZXJyYWxNb2RlIjoidmlldyJ9fQ&e=7yFDd8</a>
+    </td>
+  </tr>
+  <tr>
+    <td>Validation Interviews</td>
+    <td>
+      <strong>Cantidad de videos</strong>: 1<br>
+      <strong>Nomenclatura</strong>: upc-pre-202520-1asi0572-3428-AlertaVital-validation-sprint-2<n><br>
+      <strong>Formato</strong>: .mp4<br>
+      <strong>Duración</strong>: 14:46 min
+    </td>
+    <td>
+      Nombre: Nilo Salinas
+      <br>Segmento Objetivo: Adulto mayor<br>
+      <br>Edad: 67
+      <br>Distrito: Villa el Salvador
+    </td>
+    <td>
+      Screenshot: <br>
+      <img src="Img/validation_granny_1.png" style="width: 200px;"><br>
+      Link: <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220235_upc_edu_pe/IQBvcbEGTVFxTZ9DWmpx5U8kAXxpKY49vqhwONNkZtt0_yU?nav=eyJwbGF5YmFja09wdGlvbnMiOnsic3RhcnRUaW1lSW5TZWNvbmRzIjoyMjU2LjY5LCJ0aW1lc3RhbXBlZExpbmtSZWZlcnJlckluZm8iOnsic2NlbmFyaW8iOiJDaGFwdGVyU2hhcmUiLCJhZGRpdGlvbmFsSW5mbyI6eyJpc1NoYXJlZENoYXB0ZXJBdXRvIjpmYWxzZX19fSwicmVmZXJyYWxJbmZvIjp7InJlZmVycmFsQXBwIjoiU3RyZWFtV2ViQXBwIiwicmVmZXJyYWxWaWV3IjoiU2hhcmVDaGFwdGVyTGluayIsInJlZmVycmFsQXBwUGxhdGZvcm0iOiJXZWIiLCJyZWZlcnJhbE1vZGUiOiJ2aWV3In19&e=L3Qubo" style="word-break: break-all;">https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220235_upc_edu_pe/IQBvcbEGTVFxTZ9DWmpx5U8kAXxpKY49vqhwONNkZtt0_yU?nav=eyJwbGF5YmFja09wdGlvbnMiOnsic3RhcnRUaW1lSW5TZWNvbmRzIjoyMjU2LjY5LCJ0aW1lc3RhbXBlZExpbmtSZWZlcnJlckluZm8iOnsic2NlbmFyaW8iOiJDaGFwdGVyU2hhcmUiLCJhZGRpdGlvbmFsSW5mbyI6eyJpc1NoYXJlZENoYXB0ZXJBdXRvIjpmYWxzZX19fSwicmVmZXJyYWxJbmZvIjp7InJlZmVycmFsQXBwIjoiU3RyZWFtV2ViQXBwIiwicmVmZXJyYWxWaWV3IjoiU2hhcmVDaGFwdGVyTGluayIsInJlZmVycmFsQXBwUGxhdGZvcm0iOiJXZWIiLCJyZWZlcnJhbE1vZGUiOiJ2aWV3In19&e=L3Qubo</a>
+    </td>
+  </tr>
+  <tr>
+    <td>Validation Interviews</td>
+    <td>
+      <strong>Cantidad de videos</strong>: 1<br>
+      <strong>Nomenclatura</strong>: upc-pre-202520-1asi0572-3428-AlertaVital-validation-sprint-2<n><br>
+      <strong>Formato</strong>: .mp4<br>
+      <strong>Duración</strong>: 06:29 min
+    </td>
+    <td>
+      Nombre: Rosa Valera
+      <br>Segmento Objetivo: Adulto mayor<br>
+      <br>Edad: 66
+      <br>Distrito: San Luis
+    </td>
+    <td>
+      Screenshot: <br>
+      <img src="Img/validation_granny_2.png" style="width: 200px;"><br>
+      Link: <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220235_upc_edu_pe/IQBvcbEGTVFxTZ9DWmpx5U8kAXxpKY49vqhwONNkZtt0_yU?nav=eyJwbGF5YmFja09wdGlvbnMiOnsic3RhcnRUaW1lSW5TZWNvbmRzIjozMTQxLjc4OCwidGltZXN0YW1wZWRMaW5rUmVmZXJyZXJJbmZvIjp7InNjZW5hcmlvIjoiQ2hhcHRlclNoYXJlIiwiYWRkaXRpb25hbEluZm8iOnsiaXNTaGFyZWRDaGFwdGVyQXV0byI6ZmFsc2V9fX0sInJlZmVycmFsSW5mbyI6eyJyZWZlcnJhbEFwcCI6IlN0cmVhbVdlYkFwcCIsInJlZmVycmFsVmlldyI6IlNoYXJlQ2hhcHRlckxpbmsiLCJyZWZlcnJhbEFwcFBsYXRmb3JtIjoiV2ViIiwicmVmZXJyYWxNb2RlIjoidmlldyJ9fQ&e=jTKivs" style="word-break: break-all;">https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220235_upc_edu_pe/IQBvcbEGTVFxTZ9DWmpx5U8kAXxpKY49vqhwONNkZtt0_yU?nav=eyJwbGF5YmFja09wdGlvbnMiOnsic3RhcnRUaW1lSW5TZWNvbmRzIjozMTQxLjc4OCwidGltZXN0YW1wZWRMaW5rUmVmZXJyZXJJbmZvIjp7InNjZW5hcmlvIjoiQ2hhcHRlclNoYXJlIiwiYWRkaXRpb25hbEluZm8iOnsiaXNTaGFyZWRDaGFwdGVyQXV0byI6ZmFsc2V9fX0sInJlZmVycmFsSW5mbyI6eyJyZWZlcnJhbEFwcCI6IlN0cmVhbVdlYkFwcCIsInJlZmVycmFsVmlldyI6IlNoYXJlQ2hhcHRlckxpbmsiLCJyZWZlcnJhbEFwcFBsYXRmb3JtIjoiV2ViIiwicmVmZXJyYWxNb2RlIjoidmlldyJ9fQ&e=jTKivs</a>
+    </td>
+  </tr>
+  <tr>
+    <td>Validation Interviews</td>
+    <td>
+      <strong>Cantidad de videos</strong>: 1<br>
+      <strong>Nomenclatura</strong>: upc-pre-202520-1asi0572-3428-AlertaVital-validation-sprint-2<n><br>
+      <strong>Formato</strong>: .mp4<br>
+      <strong>Duración</strong>: 07:42 min
+    </td>
+    <td>
+      Nombre: Juan Pérez
+      <br>Segmento Objetivo: Adulto mayor<br>
+      <br>Edad: 72
+      <br>Distrito: San Miguel
+    </td>
+    <td>
+      Screenshot: <br>
+      <img src="Img/validation_granny_3.png" style="width: 200px;"><br>
+      Link: <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220235_upc_edu_pe/IQBvcbEGTVFxTZ9DWmpx5U8kAXxpKY49vqhwONNkZtt0_yU?nav=eyJwbGF5YmFja09wdGlvbnMiOnsic3RhcnRUaW1lSW5TZWNvbmRzIjozNTMxLjcwMSwidGltZXN0YW1wZWRMaW5rUmVmZXJyZXJJbmZvIjp7InNjZW5hcmlvIjoiQ2hhcHRlclNoYXJlIiwiYWRkaXRpb25hbEluZm8iOnsiaXNTaGFyZWRDaGFwdGVyQXV0byI6ZmFsc2V9fX0sInJlZmVycmFsSW5mbyI6eyJyZWZlcnJhbEFwcCI6IlN0cmVhbVdlYkFwcCIsInJlZmVycmFsVmlldyI6IlNoYXJlQ2hhcHRlckxpbmsiLCJyZWZlcnJhbEFwcFBsYXRmb3JtIjoiV2ViIiwicmVmZXJyYWxNb2RlIjoidmlldyJ9fQ&e=nRuuor" style="word-break: break-all;">https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220235_upc_edu_pe/IQBvcbEGTVFxTZ9DWmpx5U8kAXxpKY49vqhwONNkZtt0_yU?nav=eyJwbGF5YmFja09wdGlvbnMiOnsic3RhcnRUaW1lSW5TZWNvbmRzIjozNTMxLjcwMSwidGltZXN0YW1wZWRMaW5rUmVmZXJyZXJJbmZvIjp7InNjZW5hcmlvIjoiQ2hhcHRlclNoYXJlIiwiYWRkaXRpb25hbEluZm8iOnsiaXNTaGFyZWRDaGFwdGVyQXV0byI6ZmFsc2V9fX0sInJlZmVycmFsSW5mbyI6eyJyZWZlcnJhbEFwcCI6IlN0cmVhbVdlYkFwcCIsInJlZmVycmFsVmlldyI6IlNoYXJlQ2hhcHRlckxpbmsiLCJyZWZlcnJhbEFwcFBsYXRmb3JtIjoiV2ViIiwicmVmZXJyYWxNb2RlIjoidmlldyJ9fQ&e=nRuuor</a>
     </td>
   </tr>
  
