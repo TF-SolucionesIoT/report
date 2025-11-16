@@ -21,7 +21,7 @@ width=50%"/>
 
 ## Team members:
 
-<div style="text-align: center;">
+<div align="center">
   
 |                Nombre                 |   Código   |
 | :-----------------------------------: | :--------: |
@@ -33,9 +33,9 @@ width=50%"/>
 
 </div>
 
-<br><br><br><br><br><br><br><br><br><br><br>
-
 <h5 style="text-align: center"> Ciclo 2025-20 </h5>
+
+<br><br><br><br><br><br><br><br><br><br><br>
 
 # Registro de Versiones del Informe
 
@@ -54,11 +54,11 @@ URL del repositorio para el reporte del proyecto:
 **TP:**
 
 <div align="center">
-  <img src="Img/insight_tp1.png" alt="insights">
+  <img src="Img/insight_tp1.png" alt="insights" width=350>
 </div>
 
 <div align="center">
-  <img src="Img/insight_tp1a.png" alt="insights">
+  <img src="Img/insight_tp1a.png" alt="insights" width=350>
 </div>
 
 Para el desarrollo del informe perteneciente a la entrega del trabajo parcial, se dividió la implementación de secciones de la siguiente forma para cada integrante del equipo:
@@ -71,16 +71,16 @@ Para el desarrollo del informe perteneciente a la entrega del trabajo parcial, s
 | Silva Tirado, Sebastián Valentino | Corrección de errores, Desarrollo App Web, UX / UI Web App Design |
 | Uribe Quispe, Jesús Guillermo | Desarrollo Landing Page, UX/UI Design  |
 
-<br><br>
+<br>
 
 **TB1**
 
 <div align="center">
-  <img src="Img/insights.png" alt="insights">
+  <img src="Img/insights.png" alt="insights" width=350>
 </div>
 
 <div align="center">
-  <img src="Img/insights2.png" alt="insights">
+  <img src="Img/insights2.png" alt="insights" width=350>
 </div>
 
 Para el desarrollo del informe perteneciente a la entrega TB1, se dividió la implementación de secciones de la siguiente forma para cada integrante del equipo:
@@ -106,6 +106,7 @@ Los integrantes son:
 - Silva Tirado, Sebastián Valentino (SebasSilvaT)
 - Uribe Quispe, Jesús Guillermo(JesusU27)
 
+<br><br><br><br><br><br><br><br><br>
 # Contenido
 
 1. [**Capítulo I: Introducción.**](#1.) <br>
@@ -197,7 +198,7 @@ Los integrantes son:
    4.2.5.6. [Bounded Context Software Architecture Code Level Diagrams.](#4.2.5.6.)<br>
    4.2.5.6.1. [Bounded Context Domain Layer Class Diagrams.](#4.2.5.6.1.)<br>
    4.2.5.6.2. [Bounded Context Database Design Diagram.](#4.2.5.6.2.)<br>
-    4.2.6. [Bounded Context: Treatment Support](#4.2.6)<br>
+   4.2.6. [Bounded Context: Treatment Support](#4.2.6)<br>
    4.2.6.1. [Domain Layer.](#4.2.6.1.)<br>
    4.2.6.2. [Interface Layer.](#4.2.6.2.)<br>
    4.2.6.3. [Application Layer.](#4.2.6.3.)<br>
@@ -206,53 +207,63 @@ Los integrantes son:
    4.2.6.6. [Bounded Context Software Architecture Code Level Diagrams.](#4.2.6.6.)<br>
    4.2.6.6.1. [Bounded Context Domain Layer Class Diagrams.](#4.2.6.6.1.)<br>
    4.2.6.6.2. [Bounded Context Database Design Diagram.](#4.2.6.6.2.)<br>
-   5. [Capítulo V: Solution UI/UX Design.](#5.)<br>
-5.1. [Style Guidelines.](#5.1.)<br>
-5.1.1. [General Style Guidelines.](#5.1.1.)<br>
-5.1.2. [Web, Mobile and IoT Style Guidelines.](#5.1.2.)<br>
-
-5.2. [Information Architecture.](#5.2.)<br>
-5.2.1. [Organization Systems.](#5.2.1.)<br>
-5.2.2. [Labeling Systems.](#5.2.2.)<br>
-5.2.3. [SEO Tags and Meta Tags.](#5.2.3.)<br>
-5.2.4. [Searching Systems.](#5.2.4.)<br>
-5.2.5. [Navigation Systems.](#5.2.5.)<br>
-
-5.3. [Landing Page UI Design.](#5.3.)<br>
-5.3.1. [Landing Page Wireframe.](#5.3.1.)<br>
-5.3.2. [Landing Page Mock-up.](#5.3.2.)<br>
-
-5.4. [Applications UX/UI Design.](#5.4.)<br>
-5.4.1. [Applications Wireframes.](#5.4.1.)<br>
-5.4.2. [Applications Wireflow Diagrams.](#5.4.2.)<br>
-5.4.2.1. [Applications Mock-ups.](#5.4.2.1.)<br>
-5.4.3. [Applications User Flow Diagrams.](#5.4.3.)<br>
-
-5.5. [Applications Prototyping.](#5.5.)<br>
-
-6. [Capítulo VI: Product Implementation, Validation & Deployment.](#6.)<br>
-6.1. [Software Configuration Management.](#6.1.)<br>
-6.1.1. [Software Development Environment Configuration.](#6.1.1.)<br>
-6.1.2. [Source Code Management.](#6.1.2.)<br>
-6.1.3. [Source Code Style Guide & Conventions.](#6.1.3.)<br>
-6.1.4. [Software Deployment Configuration.](#6.1.4.)<br>
-
-6.2. [Landing Page, Services & Applications Implementation.](#6.2.)<br>
-6.2.1. [Sprint n.](#6.2.1.)<br>
-6.2.1.1. [Sprint Planning n.](#6.2.1.1.)<br>
-6.2.1.2. [Aspect Leaders and Collaborators.](#6.2.1.2.)<br>
-6.2.1.3. [Sprint Backlog n.](#6.2.1.3.)<br>
-6.2.1.4. [Development Evidence for Sprint Review.](#6.2.1.4.)<br>
-6.2.1.5. [Testing Suite Evidence for Sprint Review.](#6.2.1.5.)<br>
-6.2.1.6. [Execution Evidence for Sprint Review.](#6.2.1.6.)<br>
-6.2.1.7. [Services Documentation Evidence for Sprint Review.](#6.2.1.7.)<br>
-6.2.1.8. [Software Deployment Evidence for Sprint Review.](#6.2.1.8.)<br>
-6.2.1.9. [Team Collaboration Insights during Sprint.](#6.2.1.9.)<br>
-
-
+5. [**Capítulo V: Solution UI/UX Design.**](#5.)<br>
+   5.1. [Style Guidelines.](#5.1.)<br>
+   5.1.1. [General Style Guidelines.](#5.1.1.)<br>
+   5.1.2. [Web, Mobile and IoT Style Guidelines.](#5.1.2.)<br>
+   5.2. [Information Architecture.](#5.2.)<br>
+   5.2.1. [Organization Systems.](#5.2.1.)<br>
+   5.2.2. [Labeling Systems.](#5.2.2.)<br>
+   5.2.3. [SEO Tags and Meta Tags.](#5.2.3.)<br>
+   5.2.4. [Searching Systems.](#5.2.4.)<br>
+   5.2.5. [Navigation Systems.](#5.2.5.)<br>
+   5.3. [Landing Page UI Design.](#5.3.)<br>
+   5.3.1. [Landing Page Wireframe.](#5.3.1.)<br>
+   5.3.2. [Landing Page Mock-up.](#5.3.2.)<br>
+   5.4. [Applications UX/UI Design.](#5.4.)<br>
+   5.4.1. [Applications Wireframes.](#5.4.1.)<br>
+   5.4.2. [Applications Wireflow Diagrams.](#5.4.2.)<br>
+   5.4.2.1. [Applications Mock-ups.](#5.4.2.1.)<br>
+   5.4.3. [Applications User Flow Diagrams.](#5.4.3.)<br>
+   5.5. [Applications Prototyping.](#5.5.)<br>
+6. [**Capítulo VI: Product Implementation, Validation & Deployment.**](#6.)<br>
+   6.1. [Software Configuration Management.](#6.1.)<br>
+   6.1.1. [Software Development Environment Configuration.](#6.1.1.)<br>
+   6.1.2. [Source Code Management.](#6.1.2.)<br>
+   6.1.3. [Source Code Style Guide & Conventions.](#6.1.3.)<br>
+   6.1.4. [Software Deployment Configuration.](#6.1.4.)<br>
+   6.2. [Landing Page, Services & Applications Implementation.](#6.2.)<br>
+   6.2.1. [Sprint 1.](#6.2.1.)<br>
+   6.2.1.1. [Sprint Planning 1.](#6.2.1.1.)<br>
+   6.2.1.2. [Aspect Leaders and Collaborators.](#6.2.1.2.)<br>
+   6.2.1.3. [Sprint Backlog 1.](#6.2.1.3.)<br>
+   6.2.1.4. [Development Evidence for Sprint Review.](#6.2.1.4.)<br>
+   6.2.1.5. [Testing Suite Evidence for Sprint Review.](#6.2.1.5.)<br>
+   6.2.1.6. [Execution Evidence for Sprint Review.](#6.2.1.6.)<br>
+   6.2.1.7. [Services Documentation Evidence for Sprint Review.](#6.2.1.7.)<br>
+   6.2.1.8. [Software Deployment Evidence for Sprint Review.](#6.2.1.8.)<br>
+   6.2.1.9. [Team Collaboration Insights during Sprint.](#6.2.1.9.)<br>
+   6.2.2. [Sprint 2.](#6.2.2.)<br>
+   6.2.2.1. [Sprint Planning 2.](#6.2.2.1.)<br>
+   6.2.2.2. [Aspect Leaders and Collaborators.](#6.2.2.2.)<br>
+   6.2.2.3. [Sprint Backlog 2.](#6.2.2.3.)<br>
+   6.2.2.4. [Development Evidence for Sprint Review.](#6.2.2.4.)<br>
+   6.2.2.5. [Testing Suite Evidence for Sprint Review.](#6.2.2.5.)<br>
+   6.2.2.6. [Execution Evidence for Sprint Review.](#6.2.2.6.)<br>
+   6.2.2.7. [Services Documentation Evidence for Sprint Review.](#6.2.2.7.)<br>
+   6.2.2.8. [Software Deployment Evidence for Sprint Review.](#6.2.2.8.)<br>
+   6.2.2.9. [Team Collaboration Insights during Sprint.](#6.2.2.9.)<br>
+   6.3. [Validation Interviews.](#6.3.)<br>
+   6.3.1. [Diseño de Entrevistas.](#6.3.1.)<br>
+   6.3.2. [Registro de Entrevistas.](#6.3.2.)<br>
+   6.3.3. [Evaluaciones según heurísticas.](#6.3.3.)<br>
+   6.4. [Video About-the-Product.](#6.4.)<br>
 7. [Conclusiones](#7.)<br>
 8. [Bibliografía](#8.)<br>
 9. [Anexo](#9.)<br>
+
+<br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br>
 
 # STUDENT OUTCOME
 
@@ -318,6 +329,11 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
     </tr>
   </tbody>
 </table>
+
+
+<br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br>
 
 <div id='1.'><h2>1. Capítulo I: Introducción</h2></div>
 
@@ -582,7 +598,7 @@ El Lean UX Canvas permitió estructurar y validar las hipótesis del proyecto, q
 
 <img src="Img/lean ux canvas iot.jpg" alt="Lean UX Canvas" width="800">
 
-
+<br><br><br><br><br>
 <div id='1.3.'><h3>1.3. Segmentos objetivo</h3></div>
 
 En esta sección, definiremos los perfiles específicos del público objetivo para nuestro brazalete inteligente. Estos grupos comparten características demográficas, comportamientos o necesidades similares, lo que les diferencia de otros segmentos del mercado y permite ajustar estrategias para satisfacer sus necesidades de una mejor manera.
@@ -607,6 +623,8 @@ En esta sección, definiremos los perfiles específicos del público objetivo pa
 - **Segmento conductual:**  
   Cuidadores que necesitan recibir alertas inmediatas ante emergencias de salud para intervenir rápidamente. El brazalete inteligente les ofrece monitoreo continuo del paciente y notificaciones automáticas, aliviando su carga emocional y mejorando su capacidad de respuesta.  
 
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 <div id='2.'><h2>2. Capítulo II: Requirements Elicitation & Analysis</h2></div>
 
 <div id='2.1.'><h3>2.1. Competidores</h3></div>
@@ -625,6 +643,7 @@ En esta sección, definiremos los perfiles específicos del público objetivo pa
 | **Oportunidades** | Crecimiento del envejecimiento poblacional en Perú (13%+), alta demanda de soluciones accesibles para monitoreo de salud crónica y prevención de caídas. | Expansión en telemedicina y integración con más métricas de salud en mercados crecientes de envejecimiento. | Mejoras en tecnología RealFall™ y expansión a más usuarios seniors con datos recolectados. | Desarrollo de app para cuidadores y mejoras en batería para mercado en crecimiento de wearables para elderly. | Expansión basada en recomendaciones médicas y mercado de independencia senior. |
 | **Fortalezas** | Adaptada al contexto socioeconómico peruano, enfoque en accesibilidad y escalabilidad, interfaz simple y confiable, beneficios directos para cuidadores con reducción de estrés. | Monitoreo avanzado de salud, detección de caídas y emergencias, integración con conectividad familiar. | Protección 24/7, detección precisa de caídas, diseño amigable para usuarios. | Independiente, detección de caídas precisa, materiales cómodos, reseñas positivas. | Confiable, fácil configuración, alta satisfacción de usuarios, enfoque en privacidad.
 
+<br><br>
 <div id='2.1.2.'><h4>2.1.2. Estrategias y tácticas frente a competidores</h4></div>
 
 - Diseñaremos un sistema de monitoreo accesible y fácil de usar, con una interfaz pensada tanto para adultos mayores como para familiares y cuidadores. La navegación será intuitiva, con alertas visuales y auditivas claras, además de un soporte técnico adaptado al usuario final, garantizando la confianza y la rápida adopción de la herramienta.
@@ -669,6 +688,7 @@ Esta sección recopila la información obtenida a partir de entrevistas realizad
 11. ¿Qué expectativas tendría en términos de seguridad y confiabilidad del dispositivo?
 12. ¿Cómo cree que un sistema de este tipo impactaría en su tranquilidad y en la calidad de vida del adulto mayor?
 
+<br><br>
 <div id='2.2.2.'><h4>2.2.2. Registro de entrevistas</h4></div>
 
 ### Segmento 1: Adultos Mayores
@@ -805,6 +825,7 @@ Esta sección recopila la información obtenida a partir de entrevistas realizad
 
 </div>
 
+<br><br><br><br><br><br><br><br><br><br><br>
 <div id='2.2.3.'><h4>2.2.3. Análisis de entrevistas</h4></div>
 
 ### Análisis del segmento de adultos mayores
@@ -824,11 +845,11 @@ En general, los cuidadores perciben el sistema IoT como una herramienta clave pa
  
 **a. User Persona de un adulto mayor**
 
-<img src="Img/user_persona_maria_ramirez.png" alt="Imagen_User" style="margin-bottom: 5px;" width="800"/>
+<img src="Img/user_persona_maria_ramirez.png" alt="Imagen_User" style="margin-bottom: 5px;" width="300"/>
 
 **b. User Persona de un Cuidador**
 
-<img src="Img/user_persona_juan_herrera.png" alt="Imagen_User" style="margin-bottom: 5px;" width="800"/>
+<img src="Img/user_persona_juan_herrera.png" alt="Imagen_User" style="margin-bottom: 5px;" width="300"/>
 
 
 <div id='2.3.2.'><h4>2.3.2. User Task Matrix</h4></div>
@@ -1039,6 +1060,20 @@ A continuación, se presenta una matriz de tareas enfocada en María Luisa Ramí
 | US27 | Descargar la aplicación | Como visitante, quiero descargar la aplicación desde la landing page para comenzar a usarla. | **ES1:** Enlaces funcionales → Los botones de “Descargar en Play Store / App Store” redirigen correctamente.<br>**ES2:** Detección de dispositivo → Si accede desde Android o iOS, se sugiere el enlace correspondiente.<br>**ES3:** Versión web → Si el dispositivo no es compatible, se ofrece versión web o aviso informativo. | EP007 |
 
 
+
+| Epic / Story ID | Título | Descripción | Criterios de Aceptación | Relacionado con (Epic ID) |
+|-----------------|---------|--------------|-------------------------------------------|---------------------------|
+| **EP01** | **Backend APIs y Servicios** | Endpoints y lógica del lado servidor para autenticación, gestión de entidades clínicas y relaciones entre pacientes y cuidadores. | | |
+| TS01 | Login (API) | Endpoint REST para autenticación de usuarios (email/password) y emisión de JWT. | **ES1:** POST /api/auth/login → devuelve token JWT y datos básicos del usuario.<br>**ES2:** Credenciales inválidas → 401 con mensaje genérico.<br>**ES3:** Token válido → accesible recursos protegidos. | EP01 |
+| TS02 | Registrar cuidador (Backend) | Endpoint para crear cuenta de tipo "caregiver" y perfil asociado. | **ES1:** POST /api/auth/register-caregiver crea User + Profile + Caregiver y devuelve 201.<br>**ES2:** Email duplicado → 409 y mensaje.<br>**ES3:** Validaciones de campos (dni, teléfono) aplicadas. | EP01 |
+| TS03 | Registrar paciente (Backend) | Endpoint para crear cuenta/registro de paciente (puede ser por caretakers). | **ES1:** POST /api/patients crea Patient y Profile y devuelve 201.<br>**ES2:** Si es creado por caregiver, se establece relación N:M inicial.<br>**ES3:** Validaciones de datos clínicos básicas. | EP01 |
+| TS04 | Vincular paciente ↔ cuidador | Endpoint para relacionar un paciente con un cuidador (adds relation). | **ES1:** POST /api/caregivers/{id}/patients con patientId → devuelve 200 y relación creada.<br>**ES2:** Si ya existe relación → 409.<br>**ES3:** Permisos: solo caregiver autenticado o admin puede vincular. | EP01 |
+| TS05 | CRUD Disturbances (Alteraciones) | Endpoints para crear, listar y eliminar alteraciones detectadas (disturbances). | **ES1:** POST /api/patients/{id}/disturbances crea entrada y devuelve 201.<br>**ES2:** GET /api/patients/{id}/disturbances devuelve lista paginada.<br>**ES3:** DELETE /api/disturbances/{id} borra (soft delete) con permisos adecuados (caregiver/patient/admin). | EP01 |
+| TS06 | CRUD Symptoms (Síntomas) | Endpoints para reportar, consultar y eliminar síntomas asociados a pacientes. | **ES1:** POST /api/patients/{id}/symptoms → 201 con id del síntoma.<br>**ES2:** GET /api/patients/{id}/symptoms → lista ordenada por fecha.<br>**ES3:** DELETE /api/symptoms/{id} → 200 y registro marcado inactivo. | EP01 |
+| TS07 | CRUD Treatments (Tratamientos) | Endpoints para gestionar tratamientos y recordatorios (create/get/delete). | **ES1:** POST /api/patients/{id}/treatments crea tratamiento y devuelve 201.<br>**ES2:** GET /api/patients/{id}/treatments devuelve activos/inactivos filtrables.<br>**ES3:** DELETE /api/treatments/{id} desactiva o elimina según política. | EP01 |
+<tr><td>37</td><td>TS10</td><td>Device Controller - Registrar dispositivo (POST /api/device)</td><td>Endpoint REST para registrar y vincular un dispositivo IoT a un paciente. Valida payload (deviceId, patientId, model, firmware), crea/actualiza registro del dispositivo y publica evento de dispositivo registrado. Maneja duplicados y devuelve 201 con recurso creado.</td><td>3</td></tr>
+<tr><td>38</td><td>TS11</td><td>Device Controller - Obtener lecturas (GET /api/device/readings/all)</td><td>Endpoint REST para obtener todas las lecturas recopiladas por los dispositivos. Soporta filtros (patientId, deviceId, from,to), paginación y ordenamiento. Protege ruta (roles/permiso), valida acceso y devuelve lista paginada de lecturas con metadatos.</td><td>5</td></tr>
+
 <div id='3.2.'><h3>3.2. Impact Mapping</h3></div>
 
 ### User Journey Map – Adulto Mayor
@@ -1050,6 +1085,12 @@ A continuación, se presenta una matriz de tareas enfocada en María Luisa Ramí
 <img src="Img/Impact_Mapping2.jpg" alt="Journey_Mapping2"></img>
 
 <div id='3.3.'><h3>3.3. Product Backlog</h3></div>
+
+Esta tabla muestra una lista estructurada de las funcionalidades principales que deben desarrollarse para el sistema IOT, organizadas conforme a la prioridad del negocio y las necesidades del usuario. Las características se clasifican en User Stories (historias de usuario) y Technical Stories (historias técnicas), y se ordenan según su importancia para asegurar que las más relevantes se atiendan primero.
+
+La intención de esta organización es facilitar una implementación eficaz, dando prioridad a las funciones que aportan mayor valor tanto al negocio como a la experiencia del usuario. Entre ellas se incluyen la administración de pacientes, registro de tratamientos, sintomas y recordatorios, vinculación de cuidador a paciente y otros elementos fundamentales para el funcionamiento de los sensores IOT. También se considera el esfuerzo requerido para cada actividad, expresado en Story Points, con el fin de optimizar la entrega de valor en el menor tiempo posible.
+
+Así, se define un plan de trabajo claro para el equipo de desarrollo, garantizando que las funcionalidades más importantes estén disponibles desde las primeras fases del proyecto.
 
 <table border="1" cellspacing="0" cellpadding="5">
   <thead>
@@ -1088,7 +1129,16 @@ A continuación, se presenta una matriz de tareas enfocada en María Luisa Ramí
     <tr><td>24</td><td>US24</td><td>Conocer acerca del proyecto</td><td>Mostrar misión, visión y equipo responsable del desarrollo de la aplicación.</td><td>1</td></tr>
     <tr><td>25</td><td>US25</td><td>Ver testimonios</td><td>Visualizar experiencias reales de usuarios o cuidadores para generar confianza.</td><td>2</td></tr>
     <tr><td>26</td><td>US26</td><td>Enviar mensaje de contacto</td><td>Permitir al visitante enviar un mensaje o consulta mediante formulario de contacto.</td><td>3</td></tr>
-    <tr><td>27</td><td>US27</td><td>Descargar la aplicación</td><td>Proveer enlaces de descarga directa a la app en Play Store o App Store.</td><td>2</td></tr>
+    <tr><td>28</td><td>TS01</td><td>Login (API)</td><td>Endpoint REST para autenticación de usuarios (email/password) y emisión de JWT.</td><td>3</td></tr>
+    <tr><td>29</td><td>TS02</td><td>Registrar cuidador (Backend)</td><td>Endpoint para crear cuenta de tipo "caregiver" y perfil asociado (User + Profile + Caregiver).</td><td>5</td></tr>
+    <tr><td>30</td><td>TS03</td><td>Registrar paciente (Backend)</td><td>Endpoint para crear cuenta/registro de paciente (puede ser creado por caregivers) y establecer relaciones iniciales.</td><td>5</td></tr>
+    <tr><td>31</td><td>TS04</td><td>Vincular paciente ↔ cuidador</td><td>Endpoint para relacionar un paciente con un cuidador (crear relación N:M) con validaciones y permisos.</td><td>3</td></tr>
+    <tr><td>32</td><td>TS05</td><td>CRUD Disturbances (Alteraciones)</td><td>Endpoints para crear, listar, filtrar y eliminar alteraciones detectadas por el sistema (soft delete, paginación).</td><td>5</td></tr>
+    <tr><td>33</td><td>TS06</td><td>CRUD Symptoms (Síntomas)</td><td>Endpoints para reportar, consultar y eliminar síntomas asociados a pacientes (incluye adjuntos y trazabilidad).</td><td>3</td></tr>
+    <tr><td>34</td><td>TS07</td><td>CRUD Treatments (Tratamientos)</td><td>Endpoints para gestionar tratamientos y su ciclo de vida (create/get/update/delete) y relaciones con recordatorios.</td><td>5</td></tr>
+    <tr><td>35</td><td>TS08</td><td>Asociar recordatorios a Treatment</td><td>Backend para crear/listar recordatorios asociados a tratamientos y exponer scheduler/worker para notificaciones.</td><td>5</td></tr>
+    <tr><td>37</td><td>TS10</td><td>Device Controller - Registrar dispositivo (POST /api/device)</td><td>Endpoint REST para registrar y vincular un dispositivo IoT a un paciente. Valida payload (deviceId, patientId, model, firmware), crea/actualiza registro del dispositivo y publica evento de dispositivo registrado. Maneja duplicados y devuelve 201 con recurso creado.</td><td>3</td></tr>
+    <tr><td>38</td><td>TS11</td><td>Device Controller - Obtener lecturas (GET /api/device/readings/all)</td><td>Endpoint REST para obtener todas las lecturas recopiladas por los dispositivos. Soporta filtros (patientId, deviceId, from,to), paginación y ordenamiento. Protege ruta (roles/permiso), valida acceso y devuelve lista paginada de lecturas con metadatos.</td><td>5</td></tr>
   </tbody>
 </table>
 
@@ -2477,34 +2527,34 @@ Un toque prolongado en el botón principal activa la función SOS o reinicia la 
 Sección Principal de la landing page:
 
 <div align = "center">
-  <img src="./Img/wf1.png">
+  <img src="./Img/wf1.png" style="margin-bottom: 5px;" width="500">
 </div>
 
 
 Sección Características y Beneficios:
 <div align = "center">
-  <img src="./Img/wf2.png">
+  <img src="./Img/wf2.png" style="margin-bottom: 5px;" width="500">
 </div>
 
 Sección Antecedentes:
 <div align = "center">
-  <img src="./Img/wf3.png">
+  <img src="./Img/wf3.png" style="margin-bottom: 5px;" width="500">
 </div>
 
 Sección "Acerca de":
 <div align = "center">
-  <img src="./Img/wf4.png">
+  <img src="./Img/wf4.png" style="margin-bottom: 5px;" width="500">
 </div>
 
 Sección de Formulario de contacto:
 
 <div align = "center">
-  <img src="./Img/wf5.png">
+  <img src="./Img/wf5.png" style="margin-bottom: 5px;" width="500">
 </div>
 
 Sección de Descargas de aplicación móvil y pie de página:
 <div align = "center">
-  <img src="./Img/wf6.png">
+  <img src="./Img/wf6.png" style="margin-bottom: 5px;" width="500">
 </div>
 
 ### Wireframe Landing Page (Mobile)
@@ -2512,34 +2562,34 @@ Sección de Descargas de aplicación móvil y pie de página:
 Sección Principal de la landing page:
 
 <div align = "center">
-  <img src="./Img/wfm1.png">
+  <img src="./Img/wfm1.png" style="margin-bottom: 5px;" width="250">
 </div>
 
 
 Sección Características y Beneficios:
 <div align = "center">
-  <img src="./Img/wfm2.png">
+  <img src="./Img/wfm2.png" style="margin-bottom: 5px;" width="250">
 </div>
 
 Sección Antecedentes:
 <div align = "center">
-  <img src="./Img/wfm3.png">
+  <img src="./Img/wfm3.png" style="margin-bottom: 5px;" width="250">
 </div>
 
 Sección "Acerca de":
 <div align = "center">
-  <img src="./Img/wfm4.png">
+  <img src="./Img/wfm4.png" style="margin-bottom: 5px;" width="250">
 </div>
 
 Sección de Formulario de contacto:
 
 <div align = "center">
-  <img src="./Img/wfm5.png">
+  <img src="./Img/wfm5.png" style="margin-bottom: 5px;" width="250">
 </div>
 
 Sección de Descargas de aplicación móvil y pie de página:
 <div align = "center">
-  <img src="./Img/wfm6.png">
+  <img src="./Img/wfm6.png" style="margin-bottom: 5px;" width="250">
 </div>
 
 <div id='5.3.2.'><h4>5.3.2. Landing Page Mock-up.</h4></div>
@@ -2549,37 +2599,37 @@ Sección de Descargas de aplicación móvil y pie de página:
 Sección Principal de la landing page
 
 <div align = "center">
-  <img src="./Img/mockup1.png">
+  <img src="./Img/mockup1.png" style="margin-bottom: 5px;" width="500">
 </div>
 
 Sección Características y Beneficios:
 
 <div align = "center">
-  <img src="./Img/mockup2.png">
+  <img src="./Img/mockup2.png" style="margin-bottom: 5px;" width="500">
 </div>
 
 Sección Antecedentes:
 
 <div align = "center">
-  <img src="./Img/mockup3.png">
+  <img src="./Img/mockup3.png" style="margin-bottom: 5px;" width="500">
 </div>
 
 Sección "Acerca de":
 
 <div align = "center">
-  <img src="./Img/mockup4.png">
+  <img src="./Img/mockup4.png" style="margin-bottom: 5px;" width="500">
 </div>
 
 Sección de Formulario de contacto:
 
 <div align = "center">
-  <img src="./Img/mockup5.png">
+  <img src="./Img/mockup5.png" style="margin-bottom: 5px;" width="500">
 </div>
 
 Sección de Descargas de aplicación móvil y pie de página:
 
 <div align = "center">
-  <img src="./Img/mockup6.png">
+  <img src="./Img/mockup6.png" style="margin-bottom: 5px;" width="500">
 </div>
 
 ### Mockups Landing Page (Mobile)
@@ -2587,37 +2637,37 @@ Sección de Descargas de aplicación móvil y pie de página:
 Sección Principal de la landing page
 
 <div align = "center">
-  <img src="./Img/mockupm1.png">
+  <img src="./Img/mockupm1.png" style="margin-bottom: 5px;" width="250">
 </div>
 
 Sección Características y Beneficios:
 
 <div align = "center">
-  <img src="./Img/mockupm2.png">
+  <img src="./Img/mockupm2.png" style="margin-bottom: 5px;" width="250">
 </div>
 
 Sección Antecedentes:
 
 <div align = "center">
-  <img src="./Img/mockupm3.png">
+  <img src="./Img/mockupm3.png" style="margin-bottom: 5px;" width="250">
 </div>
 
 Sección "Acerca de":
 
 <div align = "center">
-  <img src="./Img/mockupm4.png">
+  <img src="./Img/mockupm4.png" style="margin-bottom: 5px;" width="250">
 </div>
 
 Sección de Formulario de contacto:
 
 <div align = "center">
-  <img src="./Img/mockupm5.png">
+  <img src="./Img/mockupm5.png" style="margin-bottom: 5px;" width="250">
 </div>
 
 Sección de Descargas de aplicación móvil y pie de página:
 
 <div align = "center">
-  <img src="./Img/mockupm6.png">
+  <img src="./Img/mockupm6.png" style="margin-bottom: 5px;" width="250">
 </div>
 
 
@@ -2629,43 +2679,43 @@ Sección de Descargas de aplicación móvil y pie de página:
 Register
 
 <div align = "center">
-  <img src="./Img/webappwf2.png">
+  <img src="./Img/webappwf2.png" style="margin-bottom: 5px;" width="500">
 </div>
 
 Login
 
 <div align = "center">
-  <img src="./Img/webappwf1.png">
+  <img src="./Img/webappwf1.png" style="margin-bottom: 5px;" width="500">
 </div>
 
 Dashboard
 
 <div align = "center">
-  <img src="./Img/webappwf3.png">
+  <img src="./Img/webappwf3.png" style="margin-bottom: 5px;" width="500">
 </div>
 
 Emergencia
 
 <div align = "center">
-  <img src="./Img/webappwf4.png">
+  <img src="./Img/webappwf4.png" style="margin-bottom: 5px;" width="500">
 </div>
 
 Signos Vitales
 
 <div align = "center">
-  <img src="./Img/webappwf5.png">
+  <img src="./Img/webappwf5.png" style="margin-bottom: 5px;" width="500">
 </div>
 
 Alteraciones
 
 <div align = "center">
-  <img src="./Img/webappwf6.png">
+  <img src="./Img/webappwf6.png" style="margin-bottom: 5px;" width="500">
 </div>
 
 Perfil
 
 <div align = "center">
-  <img src="./Img/webappwf6.png">
+  <img src="./Img/webappwf7.png" style="margin-bottom: 5px;" width="500">
 </div>
 
 **Application wireframes (mobile)**
@@ -2673,43 +2723,43 @@ Perfil
 Register
 
 <div align = "center">
-  <img src="./Img/webappwfm2.png">
+  <img src="./Img/webappwfm2.png" style="margin-bottom: 5px;" width="250">
 </div>
 
 Login
 
 <div align = "center">
-  <img src="./Img/webappwfm1.png">
+  <img src="./Img/webappwfm1.png" style="margin-bottom: 5px;" width="250">
 </div>
 
 Dashboard
 
 <div align = "center">
-  <img src="./Img/webappwfm3.png">
+  <img src="./Img/webappwfm3.png" style="margin-bottom: 5px;" width="250">
 </div>
 
 Emergencia
 
 <div align = "center">
-  <img src="./Img/webappwfm4.png">
+  <img src="./Img/webappwfm4.png" style="margin-bottom: 5px;" width="250">
 </div>
 
 Signos Vitales
 
 <div align = "center">
-  <img src="./Img/webappwfm5.png">
+  <img src="./Img/webappwfm5.png" style="margin-bottom: 5px;" width="250">
 </div>
 
 Alteraciones
 
 <div align = "center">
-  <img src="./Img/webappwfm6.png">
+  <img src="./Img/webappwfm6.png" style="margin-bottom: 5px;" width="250">
 </div>
 
 Perfil
 
 <div align = "center">
-  <img src="./Img/webappwfm7.png">
+  <img src="./Img/webappwfm7.png" style="margin-bottom: 5px;" width="250">
 </div>
 
 <div id='5.4.2.'><h4>5.4.2. Applications Wireflow Diagrams.</h4></div>
@@ -2719,75 +2769,77 @@ Perfil
 User Goal: Autenticación y gestión de cuenta
 
 <div align = "center">
-  <img src="./Img/wflow1.png">
+  <img src="./Img/wflow1.png" style="margin-bottom: 5px;" width="500">
 </div>
 
 User Goal: Gestión de Perfil de Usuario
 
 <div align = "center">
-  <img src="./Img/wflow2.png">
+  <img src="./Img/wflow2.png" style="margin-bottom: 5px;" width="500">
 </div>
 
 User Goal: Monitoreo de Signos Vitales
 
 <div align = "center">
-  <img src="./Img/wflow3.png">
+  <img src="./Img/wflow3.png" style="margin-bottom: 5px;" width="500">
 </div>
 
 User Goal: Registro y Seguimiento de alteraciones
 
 <div align = "center">
-  <img src="./Img/wflow4.png">
+  <img src="./Img/wflow4.png" style="margin-bottom: 5px;" width="500">
 </div>
 
 User Goal: Emergencias y Alerta
 
 <div align = "center">
-  <img src="./Img/wflow5.png">
+  <img src="./Img/wflow5.png" style="margin-bottom: 5px;" width="500">
 </div>
 
 User Goal: Soporte al Tratamiento
 
 <div align = "center">
-  <img src="./Img/wflow6.png">
+  <img src="./Img/wflow6.png" style="margin-bottom: 5px;" width="500">
 </div>
 
 **Applications Wireflows Diagrams (Mobile)**
 
+Link Lucid: https://lucid.app/lucidchart/a47baef7-d733-4cd7-baf0-e65d8a534db6/edit?viewport_loc=-11%2C-11%2C2217%2C1052%2C0_0&invitationId=inv_cd890741-d2b7-48f0-9b7c-56cc9bf788bf
+
 User Goal: Autenticación y gestión de cuenta
 
 <div align = "center">
-  <img src="./Img/wireflow mobile 1.jpg">
+  <img src="./Img/wireflow mobile 1.jpg" style="margin-bottom: 5px;" width="500">
 </div>
 
 User Goal: Gestión de Perfil de Usuario
 
 <div align = "center">
-  <img src="./Img/wireflow mobile 2.jpg">
+  <img src="./Img/wireflow mobile 2.jpg" style="margin-bottom: 5px;" width="500">
 </div>
 
 User Goal: Monitoreo de Signos Vitales
 
 <div align = "center">
-  <img src="./Img/wireflow mobile 3.jpg">
+  <img src="./Img/wireflow mobile 3.jpg" style="margin-bottom: 5px;" width="500">
 </div>
 
 User Goal: Registro y Seguimiento de alteraciones
 
 <div align = "center">
-  <img src="./Img/wflowm4.png">
+  <img src="./Img/wireflow_4.jpg" style="margin-bottom: 5px;" width="500">
 </div>
 
 User Goal: Emergencias y Alerta
 
 <div align = "center">
-  <img src="./Img/wflowm5.png">
+  <img src="./Img/wireflow_5.jpg" style="margin-bottom: 5px;" width="500">
 </div>
 
 User Goal: Soporte al Tratamiento
 
 <div align = "center">
-  <img src="./Img/wflowm6.png">
+  <img src="./Img/wireflow_6.jpg" style="margin-bottom: 5px;" width="500">
 </div>
 
 <div id='5.4.2.1.'><h5>5.4.2. Applications Mock-ups.</h5></div>
@@ -2797,43 +2849,43 @@ User Goal: Soporte al Tratamiento
 Register
 
 <div align = "center">
-  <img src="./Img/webappmo1.png">
+  <img src="./Img/webappmo1.png" style="margin-bottom: 5px;" width="500">
 </div>
 
 Login
 
 <div align = "center">
-  <img src="./Img/webappmo2.png">
+  <img src="./Img/webappmo2.png" style="margin-bottom: 5px;" width="500">
 </div>
 
 Dashboard
 
 <div align = "center">
-  <img src="./Img/webappmo3.png">
+  <img src="./Img/webappmo3.png" style="margin-bottom: 5px;" width="500">
 </div>
 
 Emergencia
 
 <div align = "center">
-  <img src="./Img/webappmo4.png">
+  <img src="./Img/webappmo4.png" style="margin-bottom: 5px;" width="500">
 </div>
 
 Signos Vitales
 
 <div align = "center">
-  <img src="./Img/webappmo5.png">
+  <img src="./Img/webappmo5.png" style="margin-bottom: 5px;" width="500">
 </div>
 
 Alteraciones
 
 <div align = "center">
-  <img src="./Img/webappmo6.png">
+  <img src="./Img/webappmo6.png" style="margin-bottom: 5px;" width="500">
 </div>
 
 Perfil
 
 <div align = "center">
-  <img src="./Img/webappmo6.png">
+  <img src="./Img/webappmo6.png" style="margin-bottom: 5px;" width="500">
 </div>
 
 **Application Mock-ups (mobile)**
@@ -2841,43 +2893,43 @@ Perfil
 Register
 
 <div align = "center">
-  <img src="./Img/webappmom1.png">
+  <img src="./Img/webappmom1.png" style="margin-bottom: 5px;" width="250">
 </div>
 
 Login
 
 <div align = "center">
-  <img src="./Img/webappmom2.png">
+  <img src="./Img/webappmom2.png" style="margin-bottom: 5px;" width="250">
 </div>
 
 Dashboard
 
 <div align = "center">
-  <img src="./Img/webappmom3.png">
+  <img src="./Img/webappmom3.png" style="margin-bottom: 5px;" width="250">
 </div>
 
 Emergencia
 
 <div align = "center">
-  <img src="./Img/webappmom4.png">
+  <img src="./Img/webappmom4.png" style="margin-bottom: 5px;" width="250">
 </div>
 
 Signos Vitales
 
 <div align = "center">
-  <img src="./Img/webappmom5.png">
+  <img src="./Img/webappmom5.png" style="margin-bottom: 5px;" width="250">
 </div>
 
 Alteraciones
 
 <div align = "center">
-  <img src="./Img/webappmom6.png">
+  <img src="./Img/webappmom6.png" style="margin-bottom: 5px;" width="250">
 </div>
 
 Perfil
 
 <div align = "center">
-  <img src="./Img/webappmom7.png">
+  <img src="./Img/webappmom7.png" style="margin-bottom: 5px;" width="250">
 </div>
 
 
@@ -2890,97 +2942,104 @@ Link Lucid: https://lucid.app/lucidchart/217716ff-f8b0-4cf2-a47f-ce803460c6f1/ed
 User Goal: Autenticación y gestión de cuenta
 
 <div align = "center">
-  <img src="./Img/userflow1.png">
+  <img src="./Img/userflow1.png" style="margin-bottom: 5px;" width="500">
 </div>
 
 User Goal: Gestión de Perfil de Usuario
 
 <div align = "center">
-  <img src="./Img/userflow2.png">
+  <img src="./Img/userflow2.png" style="margin-bottom: 5px;" width="500">
 </div>
 
 User Goal: Monitoreo de Signos Vitales
 
 <div align = "center">
-  <img src="./Img/userflow3.png">
+  <img src="./Img/userflow3.png" style="margin-bottom: 5px;" width="500">
 </div>
 
 User Goal: Registro y Seguimiento de alteraciones
 
 <div align = "center">
-  <img src="./Img/userflow4.png">
+  <img src="./Img/userflow4.png" style="margin-bottom: 5px;" width="500">
 </div>
 
 User Goal: Emergencias y Alerta
 
 <div align = "center">
-  <img src="./Img/userflow5.png">
+  <img src="./Img/userflow5.png" style="margin-bottom: 5px;" width="500">
 </div>
 
 User Goal: Soporte al Tratamiento
 
 <div align = "center">
-  <img src="./Img/userflow6.png">
+  <img src="./Img/userflow6.png" style="margin-bottom: 5px;" width="500">
 </div>
 
 
 **Applications User Flow Diagrams (Mobile)**
 
-Link Lucid: https://lucid.app/lucidchart/56228267-948d-4917-a4ce-c1c0a8345ffc/edit?view_items=HBfY-7Xjwzhr&page=vAfYoJjIZ-Tr&invitationId=inv_6667df5d-4724-4df5-bc23-452b278a75f8
+Link Lucid: <a href="https://lucid.app/lucidchart/56228267-948d-4917-a4ce-c1c0a8345ffc/edit?view_items=HBfY-7Xjwzhr&page=vAfYoJjIZ-Tr&invitationId=inv_6667df5d-4724-4df5-bc23-452b278a75f8" target="_blank">Link</a></td>
+
 User Goal: Autenticación y gestión de cuenta
 
 <div align = "center">
-  <img src="./Img/userflowm1.png">
+  <img src="./Img/userflowm1.png" style="margin-bottom: 5px;" width="500">
 </div>
 
 User Goal: Gestión de Perfil de Usuario
 
 <div align = "center">
-  <img src="./Img/userflowm2.png">
+  <img src="./Img/userflowm2.png" style="margin-bottom: 5px;" width="500">
 </div>
 
 User Goal: Monitoreo de Signos Vitales
 
 <div align = "center">
-  <img src="./Img/userflowm3.png">
+  <img src="./Img/userflowm3.png" style="margin-bottom: 5px;" width="500">
 </div>
 
 User Goal: Registro y Seguimiento de alteraciones
 
 <div align = "center">
-  <img src="./Img/userflowm4.png">
+  <img src="./Img/userflowm4.png" style="margin-bottom: 5px;" width="500">
 </div>
 
 User Goal: Emergencias y Alerta
 
 <div align = "center">
-  <img src="./Img/userflowm6.png">
+  <img src="./Img/userflowm6.png" style="margin-bottom: 5px;" width="500">
 </div>
 
 User Goal: Soporte al Tratamiento
 
 <div align = "center">
-  <img src="./Img/userflowm5.png">
+  <img src="./Img/userflowm5.png" style="margin-bottom: 5px;" width="500">
 </div>
 
 
 <div id='5.5.'><h3>5.5. Applications Prototyping.</h3></div>
 
 <div align = "center">
-  <img src="./Img/prototipo.png">
+  <img src="./Img/prototipo.png" style="margin-bottom: 5px;" width="500">
 </div>
 
+Link Prototipo: <a href="https://www.figma.com/proto/wDXE0NQLCOx7ccB5TPlRYr/IoT?node-id=73-6622&t=pD1aaJtBOTr4UEQg-1&scaling=contain&content-scaling=fixed&page-id=1%3A2&starting-point-node-id=73%3A6622&show-proto-sidebar=1" target="_blank">Link</a></td>
 
-Link Prototipo: https://www.figma.com/proto/wDXE0NQLCOx7ccB5TPlRYr/IoT?node-id=73-6622&t=pD1aaJtBOTr4UEQg-1&scaling=contain&content-scaling=fixed&page-id=1%3A2&starting-point-node-id=73%3A6622&show-proto-sidebar=1
+**Prototipo móvil del tutor**
 
+<div align = "center">
+  <img src="./Img/prototype_mobile_tutor.png" style="margin-bottom: 5px;" width="500">
+</div>
+
+Link Prototipo: <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220235_upc_edu_pe/EQ7A-FlrQLpOuExC6cEqW6MB0okmyZfggY1jekoiwepePw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=tz3ksu" target="_blank">Link</a></td>
 
 **Prototipo móvil del adulto mayor**
 
 <div align = "center">
-  <img src="./Img/older adult mobile prototype capture.png">
+  <img src="./Img/older adult mobile prototype capture.png" style="margin-bottom: 5px;" width="500">
 </div>
 
-Link del Prototipo: https://upcedupe-my.sharepoint.com/personal/u20211g522_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu20211g522%5Fupc%5Fedu%5Fpe%2FDocuments%2FUniversidad%20%2D%20archivos%2FCICLO%20VII%2FDise%C3%B1o%20de%20soluciones%20IoT%2FProyecto%2Fprototype%20mobile%20older%20adult%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ee3032e6a%2Dc77e%2D4640%2D86bf%2D5b96acfd7ff3 
+Link Prototipo: <a href="https://upcedupe-my.sharepoint.com/personal/u20211g522_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu20211g522%5Fupc%5Fedu%5Fpe%2FDocuments%2FUniversidad%20%2D%20archivos%2FCICLO%20VII%2FDise%C3%B1o%20de%20soluciones%20IoT%2FProyecto%2Fprototype%20mobile%20older%20adult%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ee3032e6a%2Dc77e%2D4640%2D86bf%2D5b96acfd7ff3 " target="_blank">Link</a></td>
 
 <div id='6.'><h2>Capítulo VI: Product Implementation, Validation & Deployment</h2></div>
 
@@ -3628,6 +3687,7 @@ A continuación, se muestran las evidencias de ejecución de la landing page y d
 <img src="Img/execution_d.png">
 </div>
 
+Link de Video: [https://upcedupe-my.sharepoint.com/v:/g/personal/u202221876_upc_edu_pe/ES14VABBaE1HttolgWJvG4IBV8ZsJiyVlWeUVjRBrGbOdA?e=TTZLFc](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202221876_upc_edu_pe/ES14VABBaE1HttolgWJvG4IBV8ZsJiyVlWeUVjRBrGbOdA?e=TTZLFc)
 #### Web Application:
 
 Iniciar Sesion:
@@ -3687,6 +3747,7 @@ Signos Vitales:
 <img src="Img/executionappweb_i.png">
 </div>
 
+Link de video: [https://upcedupe-my.sharepoint.com/v:/g/personal/u202221876_upc_edu_pe/EdCzlnRFUMBNmYdpdZZpk0IBA2j7wJJ-wcfvjDW3xGw_pw?e=HZaZ2R](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202221876_upc_edu_pe/EdCzlnRFUMBNmYdpdZZpk0IBA2j7wJJ-wcfvjDW3xGw_pw?e=HZaZ2R)
 
 
 <div id='6.2.1.7.'><h5>6.2.1.7. Services Documentation Evidence for Sprint Review.</h5></div>
@@ -3761,16 +3822,422 @@ Al final de los pasos, podemos ver que nos brinda los links para gestionar el de
 
 <div id='6.2.1.9.'><h5>6.2.1.9. Team Collaboration Insights during Sprint.</h5></div>
 
-a continuación, se demuestran los insights en base a este Sprint:
+A continuación, se demuestran los insights en base a este Sprint:
 
 <div align="center">
   <img src="Img/insight_tp1.png" alt="insights">
 </div>
 
+<div id='6.2.2.'><h4>6.2.2. Sprint 2</h4></div>
+<div id='6.2.2.1.'><h5>6.2.2.1. Sprint Planning 2.</h5></div>
+
+En la siguiente sección, se presentará el sprint #2 con primera versión del backend y mobile app.
+
+| Sprint #2                               | Sprint 2                                                                                                                                                                                                                                                                                                                                                               |
+| -------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Sprint Planning Background**         |                                                                                                                                                                                                                                                                                                                                                                        |
+| **Date**                               | 2025-11-04                                                                                                                                                                                                                                                                                                                                                             |
+| **Time**                               | 04:30 PM                                                                                                                                                                                                                                                                                                                                                               |
+| **Location**                           | Llamada por la plataforma "Discord"                                                                                                                                                                                                                                                                                                                                    |
+| **Prepared By**                        | Uribe Quispe, Jesús Guillermo                                                                                                                                                                                                                                                                                                                                          |
+| **Attendees (to planning meeting)**    | Uribe Quispe Jesús Guillermo / Bohorquez Lerzundi Gerardo Sebastián / Huanaco Huayta Elizabeth Lucero / Huapaya Cuevas Anthony / Sebastián Silva Tirado                                                                                                                                                                                                                |
+| **Sprint 2 – 1 Review Summary**        | Desarrollo de UX/UI DESIGN, Back-end y Mobile App                                                                                                                                                                                                                                                                                                                                       |
+| **Sprint 2 – 1 Retrospective Summary** | XXX                                                                                                                                                                                                                                                                         |
+| **Sprint Goal & User Stories**         |                                                                                                                                                                                                                                                                                                                                                                        |
+| **Sprint #2 Goal** | Nuestro enfoque está en completar y entregar la segunda versión integrada del frontend y del backend de AlertaVital: una interfaz web interactiva (monitoreo, alertas, gestión de usuarios) y una API REST segura y persistente que soporte autenticación, registros de signos vitales y manejo de emergencias. Sabremos que tuvimos éxito cuando: (1) el frontend consuma correctamente los endpoints del backend; (2) las funciones críticas (inicio de sesión, visualización de signos vitales, envío/recepción de alertas y registro de emergencias) funcionen de forma end-to-end en un entorno de staging; y (3) ambos componentes estén desplegados y accesibles para pruebas de usuario. |
+| **Sprint #2 Velocity** |  XXh |
+| **Sum of Story Points** | XX |
+
+<div id='6.2.2.2.'><h5>6.2.2.2. Aspect Leaders and Collaborators.</h5></div>
+
+| Team Member (Last Name, First Name) 	| GitHub Username 	| Backend 	| Mobile Application 	|
+|-------------------------------------	|-----------------	|---------	|--------------------	|
+| Huapaya, Anthony                    	| AnthonyHuapaya  	| C       	| C                  	|
+| Huanaco, Elizabeth                  	| lucerohh        	| C       	| L                  	|
+| Silva, Sebastian                    	| SebasSilvaT     	| C       	| C                  	|
+| Bohorquez, Sebastián                	| sebasbl562      	| C       	| C                  	|
+| Uribe, Jesús                        	| JesusU27        	| L       	| C                  	|
+
+<div id='6.2.2.3.'><h5>6.2.2.3. Sprint Backlog 2.</h5></div>
+
+Para el Sprint #2 nos trazamos como objetivo desarrollar y desplegar la primera versión del backend funcional, listo funcionalmente con la mayoria de implementaciones para producción y tiempos de carga rápidos.
+
+<table>
+  <thead>
+    <tr>
+      <th># Sprint</th>
+      <th colspan="8">Sprint 2 (Backend)</th>
+    </tr>
+    <tr>
+      <th colspan="2">Technical Story</th>
+      <th colspan="7">Work Item / Task</th>
+    </tr>
+    <tr>
+      <th>Id</th>
+      <th>Título</th>
+      <th>Id</th>
+      <th>Título</th>
+      <th>Descripción</th>
+      <th>Estimación (Horas)</th>
+      <th>Story Points</th>
+      <th>Asignado a</th>
+      <th>Estado</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>TS01</td>
+      <td>Login (API)</td>
+      <td>WT-BK01</td>
+      <td>Endpoint /auth/login</td>
+      <td>Implementar endpoint REST para autenticación (email/password) y emisión de JWT.</td>
+      <td>24h</td>
+      <td>3</td>
+      <td>Sebastián Silva</td>
+      <td>In Progress</td>
+    </tr>
+    <tr>
+      <td>TS02</td>
+      <td>Registrar cuidador (Backend)</td>
+      <td>WT-BK02</td>
+      <td>Crear endpoint register-caregiver</td>
+      <td>Endpoint para crear cuenta de tipo "caregiver" + validaciones (dni, teléfono) y manejo de duplicados.</td>
+      <td>40h</td>
+      <td>5</td>
+      <td>Sebastián Bohorquez</td>
+      <td>In Progress</td>
+    </tr>
+    <tr>
+      <td>TS03</td>
+      <td>Registrar paciente (Backend)</td>
+      <td>WT-BK03</td>
+      <td>Crear endpoint patients</td>
+      <td>Endpoint para registrar paciente (posible creación por caregiver) y establecer relaciones iniciales.</td>
+      <td>40h</td>
+      <td>5</td>
+      <td>Anthony Huapaya</td>
+      <td>In Progress</td>
+    </tr>
+    <tr>
+      <td>TS04</td>
+      <td>Vincular paciente ↔ cuidador</td>
+      <td>WT-BK04</td>
+      <td>Relacionar pacientes y cuidadores</td>
+      <td>Endpoint para relacionar patientId ↔ caregiverId con validaciones de permisos y duplicados.</td>
+      <td>24h</td>
+      <td>3</td>
+      <td>Elizabeth Huanaco</td>
+      <td>To Do</td>
+    </tr>
+    <tr>
+      <td>TS05</td>
+      <td>CRUD Disturbances (Alteraciones)</td>
+      <td>WT-BK05</td>
+      <td>Endpoints disturbaces</td>
+      <td>Crear, listar (paginado) y eliminar alteraciones detectadas (soft delete) con permisos.</td>
+      <td>40h</td>
+      <td>5</td>
+      <td>Anthony Huapaya</td>
+      <td>In Progress</td>
+    </tr>
+    <tr>
+      <td>TS06</td>
+      <td>CRUD Symptoms (Síntomas)</td>
+      <td>WT-BK06</td>
+      <td>Endpoints symptoms</td>
+      <td>Reportar, consultar y eliminar síntomas (adjuntos, trazabilidad) para pacientes.</td>
+      <td>24h</td>
+      <td>3</td>
+      <td>Sebastián Bohorquez</td>
+      <td>In Progress</td>
+    </tr>
+    <tr>
+      <td>TS07</td>
+      <td>CRUD Treatments (Tratamientos)</td>
+      <td>WT-BK07</td>
+      <td>Endpoints treatments</td>
+      <td>Gestionar tratamientos y recordatorios (create/get/update/delete) y relaciones con reminders.</td>
+      <td>40h</td>
+      <td>5</td>
+      <td>Jesús Uribe</td>
+      <td>In Progress</td>
+    </tr>
+    <tr>
+      <td>TS08</td>
+      <td>Asociar recordatorios a Treatment</td>
+      <td>WT-BK08</td>
+      <td>Reminders scheduler</td>
+      <td>Backend para crear/listar reminders asociados a treatments y exponer scheduler/worker para notificaciones.</td>
+      <td>40h</td>
+      <td>5</td>
+      <td>Jesús Uribe</td>
+      <td>In Progress</td>
+    </tr>
+    <tr>
+      <td>TS09</td>
+      <td>Seguridad y permisos en APIs</td>
+      <td>WT-BK09</td>
+      <td>JWT & RBAC</td>
+      <td>Middleware de autorización (roles: patient, caregiver, admin), validación de JWT y políticas de acceso por relación.</td>
+      <td>64h</td>
+      <td>8</td>
+      <td>Jesús Uribe</td>
+      <td>In Progress</td>
+    <tr>
+      <td>TS10</td>
+      <td>Device Controller - Registrar dispositivo</td>
+      <td>WT-BK10</td>
+      <td>POST /api/device</td>
+      <td>Implementar endpoint REST para registrar y vincular un dispositivo IoT a un paciente. Validar payload (deviceId, patientId, model, firmware), crear/actualizar registro del dispositivo y publicar evento de dispositivo registrado. Manejar duplicados y devolver 201 con recurso creado.</td>
+      <td>32h</td>
+      <td>5</td>
+      <td>Anthony Huapaya</td>
+      <td>To Do</td>
+    </tr>
+    <tr>
+      <td>TS11</td>
+      <td>Device Controller - Obtener lecturas</td>
+      <td>WT-BK11</td>
+      <td>GET /api/device/readings/all</td>
+      <td>Implementar endpoint REST para obtener todas las lecturas recopiladas por los dispositivos. Soportar filtros (patientId, deviceId, from, to), paginación y ordenamiento. Proteger ruta (roles/permiso), validar acceso y devolver lista paginada de lecturas con metadatos.</td>
+      <td>32h</td>
+      <td>5</td>
+      <td>Elizabeth Huanaco</td>
+      <td>To Do</td>
+    </tr>
+  </tbody>
+</table>
+
+<div id='6.2.2.4.'><h5>6.2.2.4. Development Evidence for Sprint Review.</h5></div>
+
+### BACKEND:
+
+<table><thead>
+  <tr>
+    <th>&nbsp;&nbsp;&nbsp;<br>Repository&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Branch&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Commit ID&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Commit<br>&nbsp;&nbsp;&nbsp;<br>Message&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Commit<br>&nbsp;&nbsp;&nbsp;<br>Message Body&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Committed on&nbsp;&nbsp;&nbsp;(Date)&nbsp;&nbsp;&nbsp;</th>
+  </tr></thead>
+<tbody>
+  <tr>
+<td rowspan="10">
+	<a href="https://github.com/TF-SolucionesIoT/iam_service" target="_blank" rel="noopener noreferrer">https://github.com/TF-SolucionesIoT/iam_service</a>
+	<br>
+</td>
+    <td><br>main</td>
+    <td><br>XXX</td>
+    <td><br>first commit</td>
+    <td><br>first commit</td>
+    <td><br>XX/XX/2025</td>
+  </tr>
+  
+</tbody></table>
+
+<div id='6.2.2.5.'><h5>6.2.2.5. Testing Suite Evidence for Sprint Review.</h5></div>
 
 
 
+<div id='6.2.2.6.'><h5>6.2.2.6. Execution Evidence for Sprint Review.</h5></div>
 
+A continuación, se muestran las evidencias de ejecución del backend y de la primera versión del mobile app.
+
+#### Backend:
+
+<div align="center">
+<img src="Img/execution_e.png">
+</div>
+
+#### Mobile App:
+
+<div align="center">
+<img src="Img/execution_m.png">
+</div>
+
+</div>
+
+<div id='6.2.2.7.'><h5>6.2.2.7. Services Documentation Evidence for Sprint Review.</h5></div>
+
+
+
+<div id='6.2.2.8.'><h5>6.2.2.8. Software Deployment Evidence for Sprint Review.</h5></div>
+
+En este segundo sprint, se desplegaron tanto el backend, como la primera versión del mobile app.
+
+#### Backend:
+
+En el caso del backend, desplegaremos ...
+
+Para configurar ...:
+<br><br>
+Ve a tu repositorio en ... 
+<br><br>
+
+<div align="center">
+<img src="Img/des_back_1.png">
+</div>
+
+#### Mobile App:
+
+En el caso del mobile app, desplegaremos la aplicación en una plataforma de hosting adecuada...
+
+Para configurar ...:
+<br><br>
+Ve a tu repositorio en ... 
+<br><br>
+
+<div align="center">
+<img src="Img/des_mobile_1.png">
+</div>
+
+<div id='6.2.2.9.'><h5>6.2.2.9. Team Collaboration Insights during Sprint.</h5></div>
+
+A continuación, se demuestran los insights en base a este Sprint:
+
+<div align="center">
+  <img src="Img/insight_tb2.png" alt="insights">
+</div>
+
+<div id='6.3.'><h3>6.3. Validation Interviews.</h3></div>
+
+En esta sección de nuestro proyecto, nos enfocamos en detectar cuáles son los puntos de mejora de nuestra solución IoT para lograr una mayor efectividad en el monitoreo y cuidado de adultos mayores. Esta fase crucial del proyecto implica un diálogo directo con nuestros usuarios principales (adultos mayores y sus cuidadores) para recopilar sus opiniones y sugerencias a través de entrevistas. Así, aseguramos que la plataforma no solo cumpla con los requisitos técnicos, sino que también se adapte a las necesidades diarias y expectativas tanto de los adultos mayores como de sus cuidadores, mejorando la experiencia de monitoreo de signos vitales y la gestión de emergencias.
+
+<div id='6.3.1.'><h4>6.3.1. Diseño de Entrevistas.</h4></div>
+
+Esta sección detalla los objetivos de usuario que guiarán nuestras entrevistas, los cuales son fundamentales para asegurar que nuestro aplicativo, AlertaVital, responda efectivamente a las necesidades reales de los adultos mayores y sus cuidadores. A continuación, se presentan dichos objetivos de usuario:
+
+User Flows: Aplicación Móvil
+
+User goal: Gestión de Perfil de Usuario
+
+Al ingresar a la aplicación AlertaVital, el usuario debe autenticarse. Una vez dentro, puede acceder a su perfil para actualizar datos personales como nombre, correo electrónico, contraseña y datos médicos relevantes. También puede gestionar sus contactos de emergencia y preferencias de notificación.
+
+User goal: Monitoreo de Signos Vitales
+
+Al ingresar a la aplicación AlertaVital, el usuario puede visualizar en tiempo real sus signos vitales principales como frecuencia cardíaca, presión arterial y niveles de oxigenación. Los datos son mostrados de forma clara y accesible, con indicadores visuales que señalan cuando los valores están fuera de rangos normales.
+
+User goal: Registro y Seguimiento de alteraciones
+
+Al ingresar a la aplicación AlertaVital, el usuario puede registrar manualmente alteraciones en su salud y consultar un historial de las mismas. Esto incluye la capacidad de documentar síntomas, eventos específicos o cambios en su condición médica.
+
+User goal: Emergencias y Alertas
+
+Al ingresar a la aplicación AlertaVital, el usuario tiene acceso inmediato a un botón de emergencia SOS. Puede enviar alertas automáticas a sus cuidadores cuando se detectan anomalías en sus signos vitales o cuando sufre una caída. También puede consultar un historial de alertas previas.
+
+User goal: Soporte al Tratamiento
+
+Al ingresar a la aplicación AlertaVital, el usuario puede gestionar sus tratamientos médicos, incluyendo recordatorios de medicación y seguimiento de rutinas de cuidado. Puede programar alertas para tomas de medicamentos y registrar su cumplimiento.
+
+Landing Page
+
+Al ingresar al landing page de AlertaVital, el usuario encuentra información clara sobre cómo la solución IoT ayuda en el monitoreo y cuidado de adultos mayores. La página presenta las características principales del sistema, testimonios de usuarios, planes de suscripción y una sección de contacto. Está diseñada considerando la accesibilidad para usuarios mayores, con tipografía clara y navegación intuitiva. Al final se incluyen las políticas de privacidad y términos de uso.
+
+<div id='6.3.2.'><h4>6.3.2. Registro de Entrevistas.</h4></div>
+
+<table style="font-size: 12px;">
+  <tr>
+    <th>Sección</th>
+    <th>Características del video</th>
+    <th>Sobre el contenido</th>
+    <th>Integración y entrega</th>
+  </tr>
+  <tr>
+    <td>Validation Interviews</td>
+    <td>
+      <strong>Cantidad de videos</strong>: 1<br>
+      <strong>Nomenclatura</strong>: XXX<n><br>
+      <strong>Formato</strong>: .mp4<br>
+      <strong>Duración</strong>: XX:XX min
+    </td>
+    <td>
+      Nombre: XXX
+      <br>Segmento Objetivo: XXX
+      <br>Edad: XX
+      <br>Distrito: XXX
+    </td>
+    <td>
+      Screenshot: <br>
+      <img src="Img/vi-vid.png" style="width: 200px;"></img>
+       Link: <a href="XXX">Video</a>
+    </td>
+
+  </tr>
+  <tr>
+    <td>Validation Interviews</td>
+    <td>
+      <strong>Cantidad de videos</strong>: 1<br>
+      <strong>Nomenclatura</strong>: upc-pre-202501-cc238-353-Dentify-validation-sprint-2<n><br>
+      <strong>Formato</strong>: .mp4<br>
+      <strong>Duración</strong>: 12:30 min<br>
+    </td>
+    <td>
+      Nombre: XXX
+      <br>Segmento Objetivo: XXX<br>
+      <br>Edad: XXX
+      <br>Distrito: XXX
+    </td>
+    <td>
+      Screenshot: <br>
+      <img src="Img/validation_interviews_2.png" style="width: 200px;"><br>
+      Link: <a href="XXX">Video</a>
+    </td>
+  </tr>
+  <tr>
+    <td>Validation Interviews</td>
+    <td>
+      <strong>Cantidad de videos</strong>: 1<br>
+      <strong>Nomenclatura</strong>: XXX<n><br>
+      <strong>Formato</strong>: .mp4<br>
+      <strong>Duración</strong>: X:XX min
+    </td>
+    <td>
+      Nombre: XXX
+      <br>Segmento Objetivo: XXX<br>
+      <br>Edad: XXX
+      <br>Distrito: XXX
+    </td>
+    <td>
+      Screenshot: <br>
+      <img src="Img/validation_interviews_3.png" style="width: 200px;"><br>
+      Link: <a href="XXX">Video</a>
+    </td>
+  </tr>
+ 
+</table>
+
+<div id='6.3.3.'><h4>6.3.3. Evaluaciones según heurísticas.</h4></div>
+
+
+
+<div id='6.4.'><h3>6.4. Video About-the-Product.</h3></div>
+
+<table style="font-size: 12px;">
+  <tr>
+    <th>Sección</th>
+    <th>Características del video</th>
+    <th>Sobre el contenido</th>
+    <th>Integración y entrega</th>
+  </tr>
+  <tr>
+    <td>About The Product</td>
+    <td>
+      <strong>Cantidad de videos</strong>: 1<br>
+      <strong>Nomenclatura</strong>: upc-pre-202501-cc238-353-MediTech-about-the-product-sprint-3<br>
+      <strong>Formato</strong>: .mp4<br>
+      <strong>Duración</strong>: XX:XX min
+    </td>
+    <td>
+      Video de About The Product en base a la aplicación "AlertaVital" desarrollado por Alerta Vital.
+    </td>
+    <td>
+      Screenshot: <br>
+      <img src="Img/screen-video-about-the-product.png" alt="ATP" style="width: 200px;"><br>
+      Link: <a href="XXX">Video</a>
+    </td>
+  </tr>
+  </table>
 
 <div id='7.'><h2>7. Conclusiones</h2></div>
 
@@ -3790,6 +4257,6 @@ Organización Panamericana de la Salud. (2023). *La situación de los cuidados a
 |-----------------|------|
 |          Organización de Github       | [https://github.com/TF-SolucionesIoT](https://github.com/TF-SolucionesIoT)     |
 |    Link de Miro             | [Miro Board](https://miro.com/welcomeonboard/M2JhbUZCSUFOdnN6ZG84cEJOM0g2R1BsUktITmFLZHNlcGMyTlMycTdBZEVsb2lmaWg1alVKL2dRMkJMWkdOTlMzdEhBV0VKeWNKZlo4bTJ2Mmtxc0t6UVVqdEV2Q1FYdjFrK3hINnhJSTYxcXpXejd2ZEtwTldRVHZRVEQ2RkhhWWluRVAxeXRuUUgwWDl3Mk1qRGVRPT0hdjE=?share_link_id=142838303004)      |
-|  Link de video de exposición          |  [Link de video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202221876_upc_edu_pe/Ecw7NNvw_IFIo9WNR4NB8M8BC4jRlWE-WH7RtcXJnlwdMQ?e=VbtdCX)    |
+|  Link de video de exposición          |  [Link de video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202221876_upc_edu_pe/EXvZqwze7apOu3moDficAfYBfor80Eh9jrz-ZFLR0JkPyQ?e=XYeo46)    |
 | Link de video de entrevistas | [Link](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220235_upc_edu_pe/ERMsAWnlK25BgS7DKzoCgPEBcVQJPN9Nr9zo1HhWZgaR4g?nav=eyJwbGF5YmFja09wdGlvbnMiOnsic3RhcnRUaW1lSW5TZWNvbmRzIjoxNTI3LCJ0aW1lc3RhbXBlZExpbmtSZWZlcnJlckluZm8iOnsic2NlbmFyaW8iOiJDaGFwdGVyU2hhcmUiLCJhZGRpdGlvbmFsSW5mbyI6eyJpc1NoYXJlZENoYXB0ZXJBdXRvIjpmYWxzZX19fSwicmVmZXJyYWxJbmZvIjp7InJlZmVycmFsQXBwIjoiU3RyZWFtV2ViQXBwIiwicmVmZXJyYWxWaWV3IjoiU2hhcmVDaGFwdGVyTGluayIsInJlZmVycmFsQXBwUGxhdGZvcm0iOiJXZWIiLCJyZWZlcnJhbE1vZGUiOiJ2aWV3In19&e=ZFJWW8) |
 | Link de Figma | [Link](https://www.figma.com/design/wDXE0NQLCOx7ccB5TPlRYr/IoT?node-id=1-3&t=ByrmBRuCKYXO44gX-1) |
