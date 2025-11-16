@@ -45,11 +45,34 @@ El objetivo de esta sección es resumir las modificaciones relevantes que se rea
 | :-----: | :---: | :---: | --------------------------- |
 |    TB1    |   21/09   |   Jesús Guillermo Uribe Quispe   | Se añadió el capítulo I, II, III y IV del proyecto.                         |
 |TP | 10/10 | Jesús Guillermo Uribe Quispe | UX/UI Design, Software Development and Sprint 1 |
+| TB2 | 16/11 | Jesús Guillermo Uribe Quispe | Sprint 2, Validation Interviews and Final Corrections |
 
 # Project Report Collaboration Insights
 
 URL del repositorio para el reporte del proyecto:
 
+**TB2:**
+
+<div align="center">
+  <img src="Img/insight_tb2.png" alt="insights" width=350>
+</div>
+
+<div align="center">
+  <img src="Img/insight_tb2a.png" alt="insights" width=350>
+</div>
+
+
+Para el desarrollo del informe perteneciente a la entrega del trabajo parcial, se dividió la implementación de secciones de la siguiente forma para cada integrante del equipo:
+
+| Integrante | Tareas Asignadas |
+| ---------- | ---------------- |
+| Bohórquez Lerzundi, Gerardo Sebastián | Despliegue servicio web y aplicacion web, desarrollo de funcionalidades en servicios web |
+| Huanaco Huayta, Elizabeth Lucero | Validation Interviews, desarrollo de funcionalidades en servicios web |
+| Huapaya Cuevas, Anthony | Validation Interviews, desarrollo de funcionalidades en servicios web  |
+| Silva Tirado, Sebastián Valentino | Desarrollo de aplicación web. |
+| Uribe Quispe, Jesús Guillermo | Desarrollo de servicio web y aplicación edge.  |
+
+<br>
 
 **TP:**
 
@@ -284,7 +307,8 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
       <td>
         <b>Bohorquez Lerzundi Gerardo Sebastián:</b><br>
         <b>TB1:</b> Participé activamente en reuniones del grupo, compartiendo ideas y propuestas sobre la estructuración del Bounded Context de Monitoring, organizando la funcionalidad en servicios y capas de arquitectura. Además, coordiné con mis compañeros para asegurar que las tareas se distribuyeran de manera equitativa y que cada miembro comprendiera su rol dentro del proyecto.<br>
-        <b>TP1:</b> En la segunda entrega, lideré la integración de nuevas funcionalidades en el sistema, facilitando la revisión de código y la resolución de conflictos entre ramas. Promoví la colaboración en la documentación técnica y la validación de los diagramas de arquitectura, asegurando que todos los integrantes participaran en la toma de decisiones sobre el diseño final.<br><br>
+        <b>TP1:</b> En la segunda entrega, lideré la integración de nuevas funcionalidades en el sistema, facilitando la revisión de código y la resolución de conflictos entre ramas. Promoví la colaboración en la documentación técnica y la validación de los diagramas de arquitectura, asegurando que todos los integrantes participaran en la toma de decisiones sobre el diseño final.<br>
+        <b>TB2:</b> Durante la última fase del proyecto, continué promoviendo el liderazgo compartido al coordinar la integración de los módulos finales y la revisión de los entregables. Fomenté la participación activa de todos los miembros en la toma de decisiones técnicas y en la validación de los resultados, asegurando que el liderazgo y la responsabilidad fueran distribuidos equitativamente.<br><br>
         <strong>Huanaco Huayta, Elizabeth Lucero</strong><br>
         <strong>TB1:</strong> El desarrollo de estas tareas, desde la aplicación del Lean UX Process hasta la definición del Bounded Context: Treatment Support con sus diferentes capas y diagramas, me permitió trabajar en equipo de manera organizada y colaborativa. Cada actividad requirió discutir ideas, validar supuestos, formular hipótesis y estructurar el diseño técnico de forma conjunta, lo que fomentó la toma de decisiones compartida y la distribución de responsabilidades. Este proceso fortaleció la comunicación y coordinación dentro del grupo, lo que me permitió contribuir activamente a alcanzar el objetivo común.<br>
         <strong>TP1:</strong> En la segunda fase, participé en la revisión y mejora de los flujos de usuario y wireframes, coordinando sesiones de feedback con el equipo. Impulsé la integración de los prototipos en Figma y la validación conjunta de los criterios de aceptación, asegurando que el liderazgo fuera compartido y que todos los miembros pudieran aportar en la definición de la experiencia de usuario.<br>
@@ -295,14 +319,17 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
         <b>TB2:</b> Durante el desarrollo del proyecto trabajé de manera colaborativa dentro de mi equipo, asumiendo un liderazgo compartido que nos permitió organizarnos y tomar decisiones de forma conjunta. Participé activamente en la planificación, distribución de tareas y revisión de cada etapa, como el diseño de entrevistas, la validación mediante heurísticas y la elaboración del video About-the-Product. Gracias a esta dinámica, contribuí a mantener una comunicación constante, resolver problemas en grupo y asegurar que todas las perspectivas fueran escuchadas, fortaleciendo así el trabajo en equipo y el liderazgo colectivo.<br><br>
         <b>Silva Tirado, Sebastián:</b><br>
         <b>TB1:</b> Coordinó la distribución de responsabilidades entre los integrantes del equipo, fomentando la toma de decisiones de manera consensuada. Propuso soluciones ante dificultades técnicas y apoyó a sus compañeros en la comprensión de las tareas asignadas.<br>
-        <b>TP1:</b> En la segunda fase, lideré la planificación de los sprints y la asignación de tareas, asegurando que cada integrante tuviera claridad sobre sus responsabilidades. Promoví la revisión cruzada de entregables y la resolución colaborativa de problemas, fortaleciendo el liderazgo compartido y la cohesión del grupo.<br><br>
+        <b>TP1:</b> En la segunda fase, lideré la planificación de los sprints y la asignación de tareas, asegurando que cada integrante tuviera claridad sobre sus responsabilidades. Promoví la revisión cruzada de entregables y la resolución colaborativa de problemas, fortaleciendo el liderazgo compartido y la cohesión del grupo.<br>
+        <b>TB2:</b> En la última etapa del proyecto, mantuve el liderazgo compartido al coordinar la integración de los entregables finales y la revisión de los resultados. Fomenté la participación de todos los miembros en la toma de decisiones y en la validación de los entregables, asegurando que el liderazgo y la responsabilidad fueran distribuidos de manera equitativa.<br><br>
         <b>Uribe Quispe Jesús Guillermo:</b><br>
         <b>TB1:</b> Coordiné la elaboración de la arquitectura, proceso de eventstorming y needfinding. Ayudando a mis compañeros a realizar dicho proceso.<br>
         <b>TP1:</b> En la segunda entrega, lideré la integración de los diagramas de arquitectura y la documentación técnica, facilitando la revisión y validación conjunta de los modelos. Promoví la participación activa en la definición de los flujos de trabajo y la toma de decisiones sobre la estructura final del sistema.<br>
+        <b>TB2:</b> En la última fase, continué promoviendo el liderazgo compartido al coordinar la integración de los módulos finales y la revisión de los entregables. Fomenté la participación activa de todos los miembros en la toma de decisiones técnicas y en la validación de los resultados, asegurando que el liderazgo y la responsabilidad fueran distribuidos equitativamente.<br>
       </td>
       <td>
         <b>TB1:</b> En conclusión, el equipo evidenció una dinámica de trabajo basada en la colaboración, la organización y el liderazgo compartido, donde cada integrante asumió un rol activo en la construcción de los bounded contexts, la aplicación del Lean UX Process y el diseño de la arquitectura del sistema. La distribución equitativa de tareas, la discusión de ideas y la validación conjunta de hipótesis fortalecieron la comunicación y la coordinación, lo que permitió tomar decisiones consensuadas y afrontar con eficacia los retos técnicos. Gracias a esta sinergia, el grupo logró estructurar de manera sólida los distintos dominios del proyecto y avanzar de forma ordenada hacia los objetivos comunes.<br>
         <b>TP1:</b> En la segunda entrega, el liderazgo conjunto se consolidó mediante la integración de nuevas funcionalidades, la validación colaborativa de los prototipos y la revisión técnica de los diagramas. La participación activa de todos los miembros en la toma de decisiones y la resolución de conflictos permitió fortalecer la cohesión del equipo y avanzar de manera eficiente hacia los objetivos planteados, demostrando una capacidad sólida para liderar y coordinar el trabajo en equipo.
+        <br><b>TB2:</b> Finalmente, en la última etapa del proyecto, el equipo mantuvo el liderazgo compartido y la colaboración activa en la integración y validación de los entregables finales. La participación equitativa de todos los miembros en la toma de decisiones y la revisión de los resultados permitió consolidar la cohesión del grupo y alcanzar los objetivos propuestos, demostrando una capacidad sólida para liderar y coordinar el trabajo en equipo hasta la culminación del proyecto.
       </td>
     </tr>
     <tr>
@@ -310,7 +337,8 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
       <td>
         <b>Bohorquez Lerzundi Gerardo Sebastián:</b><br>
         <b>TB1:</b> Contribuí en la fase de needfinding, realizando análisis de user persona y empathy map para identificar necesidades reales de los usuarios. Esto permitió al grupo empatizar con los clientes y definir soluciones más ajustadas. También participé en la planificación de tareas del proyecto, ayudando a cumplir objetivos establecidos en tiempo y forma.<br>
-        <b>TP1:</b> En la segunda entrega, colaboré en la definición de los objetivos del sprint y la planificación de las tareas, asegurando que el entorno de trabajo fuera inclusivo y que todos los miembros pudieran aportar sus ideas. Fomenté la revisión cruzada de entregables y la retroalimentación constante, lo que permitió cumplir los objetivos en los plazos establecidos.<br><br>
+        <b>TP1:</b> En la segunda entrega, colaboré en la definición de los objetivos del sprint y la planificación de las tareas, asegurando que el entorno de trabajo fuera inclusivo y que todos los miembros pudieran aportar sus ideas. Fomenté la revisión cruzada de entregables y la retroalimentación constante, lo que permitió cumplir los objetivos en los plazos establecidos.<br>
+        <b>TB2:</b> En la última etapa, participé activamente en la planificación y organización de las tareas finales, asegurando que el entorno de trabajo se mantuviera colaborativo e inclusivo. Contribuí a la definición de metas claras y al seguimiento del cumplimiento de los objetivos, promoviendo la participación de todos los miembros y la retroalimentación constante.<br><br>
         <strong>Huanaco Huayta, Elizabeth Lucero</strong><br>
         <strong>TB1:</strong> Durante el desarrollo de estas tareas logré desarrollar junto a mi equipo un entorno colaborativo e inclusivo, en el que cada integrante pudo aportar ideas y conocimientos desde su experiencia. Definimos metas claras, como la elaboración del Lean UX Canvas y los diferentes Bounded Context, lo que nos permitió planificar tareas de manera ordenada y asignarlas. Gracias a esta organización, pudimos cumplir con los objetivos establecidos en el tiempo acordado, fortaleciendo la participación equitativa y el compromiso hacia el proyecto del curso.<br>
         <strong>TP1:</strong> En la segunda fase, participé en la planificación de los sprints y la definición de los entregables, promoviendo la inclusión de todos los miembros en la toma de decisiones. Coordiné la revisión de los prototipos y la validación de los criterios de aceptación, asegurando que el entorno de trabajo fuera colaborativo y que los objetivos se cumplieran en los plazos establecidos.<br>
@@ -321,14 +349,17 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
         <b>TB2:</b> A lo largo del proyecto procuré crear un entorno colaborativo e inclusivo dentro de mi equipo, asegurando que cada integrante pudiera participar y aportar sus ideas libremente. Establecí metas claras junto con mis compañeros, lo que facilitó organizar y planificar las tareas de manera eficiente. Asimismo, me aseguré de cumplir los objetivos propuestos en cada etapa, manteniendo una comunicación constante y promoviendo un ambiente de trabajo donde todos pudieran desarrollarse y contribuir al avance del proyecto.<br><br>
         <b>Silva Tirado, Sebastian:</b><br>
         <b>TB1:</b> Promovió reuniones periódicas para definir objetivos y plazos, fomentó la participación activa de cada miembro y aseguró que las ideas fueran valoradas por igual. Elaboró un cronograma de actividades y dio seguimiento al cumplimiento de tareas.<br>
-        <b>TP1:</b> En la segunda fase, coordinó la planificación de los sprints y la definición de los entregables, asegurando que el entorno de trabajo fuera inclusivo y que todos los miembros pudieran aportar sus ideas. Fomentó la revisión cruzada de entregables y la retroalimentación constante, lo que permitió cumplir los objetivos en los plazos establecidos.<br><br>
+        <b>TP1:</b> En la segunda fase, coordinó la planificación de los sprints y la definición de los entregables, asegurando que el entorno de trabajo fuera inclusivo y que todos los miembros pudieran aportar sus ideas. Fomentó la revisión cruzada de entregables y la retroalimentación constante, lo que permitió cumplir los objetivos en los plazos establecidos.<br>
+        <b>TB2:</b> En la última etapa, participé activamente en la planificación y organización de las tareas finales, asegurando que el entorno de trabajo se mantuviera colaborativo e inclusivo. Contribuí a la definición de metas claras y al seguimiento del cumplimiento de los objetivos, promoviendo la participación de todos los miembros y la retroalimentación constante.<br><br>
         <b>Uribe Quispe, Jesús Guillermo:</b><br>
         <b>TB1:</b> Cree canales de comunicación entre mis compañeros y yo para desenvolvernos mejor en el proyecto. Además tracé y designé tareas con tiempo para una mayor eficiencia en la realización del entregable.<br>
         <b>TP1:</b> En la segunda entrega, coordiné la planificación de los sprints y la definición de los entregables, promoviendo la inclusión de todos los miembros en la toma de decisiones. Fomenté la revisión cruzada de entregables y la retroalimentación constante, lo que permitió cumplir los objetivos en los plazos establecidos y fortalecer el entorno colaborativo.<br>
+        <b>TB2:</b> En la última etapa, continué promoviendo un entorno colaborativo e inclusivo, asegurando que cada integrante pudiera participar y aportar sus ideas libremente. Junto con mis compañeros establecimos metas claras y planificamos las tareas de manera eficiente, lo que permitió cumplir los objetivos propuestos y mantener una comunicación constante hasta la culminación del proyecto.<br>
       </td>
       <td>
         <b>TB1:</b> En conjunto, el equipo demostró un trabajo colaborativo e inclusivo, en el que cada integrante aportó desde su rol al cumplimiento de los objetivos planteados. A través de la aplicación de metodologías como Lean UX y herramientas como empathy maps, user personas y bounded contexts, lograron definir necesidades reales de los usuarios, establecer metas claras, planificar tareas de manera organizada y dar seguimiento a su ejecución. La comunicación constante, la distribución equitativa de responsabilidades y la valoración de las ideas de todos los miembros fortalecieron el compromiso y permitieron alcanzar los entregables en los tiempos acordados, consolidando así un proceso de trabajo eficiente y orientado a resultados.<br>
         <b>TP1:</b> En la segunda entrega, el equipo consolidó el entorno colaborativo e inclusivo mediante la planificación conjunta de los sprints, la definición de los objetivos y la revisión cruzada de los entregables. La participación activa de todos los miembros en la toma de decisiones y la retroalimentación constante permitieron cumplir los objetivos en los plazos establecidos, fortaleciendo la cohesión del grupo y la eficiencia en el trabajo en equipo.
+        <br><b>TB2:</b> Finalmente, en la última etapa del proyecto, el equipo mantuvo un entorno colaborativo e inclusivo, asegurando la participación equitativa de todos los miembros en la planificación, organización y cumplimiento de los objetivos. La comunicación constante y la retroalimentación continua permitieron alcanzar los entregables en los tiempos acordados y consolidar un proceso de trabajo eficiente y orientado a resultados hasta la culminación del proyecto.
       </td>
     </tr>
   </tbody>
@@ -1391,11 +1422,15 @@ Este context mapping representa un ecosistema de salud digital centrado en el pa
 <div id='4.1.3.'><h4>4.1.3. Software Architecture</h4></div>
 <div id='4.1.3.1.'><h5>4.1.3.1. Software Architecture System Landscape Diagram</h5></div>
 
+Representa el panorama global de la organización. En esta vista se identifican todas las personas y sistemas que existen en el ecosistema, independientemente de si forman parte o no del sistema principal. El System Landscape incluye a las dos personas (Usuario y Cuidador), los sistemas externos (Oauth 2.0, IoT Device y Firebase Cloud Messaging) y el sistema principal denominado Healthcare System. También muestra las relaciones de alto nivel entre todos estos elementos, permitiendo entender cómo encaja el Healthcare System dentro del entorno tecnológico total.
+
 <div align="center">
-<img src="Img/structurizr-SystemLandscape (1).png">
+<img src="Img/structurizr-SystemContext (1).jpg">
 </div>
 
 <div id='4.1.3.2.'><h5>4.1.3.2. Software Architecture Context Level Diagrams</h5></div>
+
+Este nivel se centra exclusivamente en el Healthcare System y su interacción con el exterior. Aquí se muestran las personas que utilizan el sistema (Usuario y Cuidador), los sistemas externos con los que se integra (Oauth 2.0, IoT Device y Firebase Cloud Messaging) y las relaciones entre ellos. No se entra en detalles internos del sistema; sólo se muestra cómo se vincula con su entorno. Esta vista define claramente los límites del Healthcare System y establece el alcance general del modelo.
 
 <div align="center">
 <img src="Img/structurizr-SystemContext (1).jpg">
@@ -1403,13 +1438,18 @@ Este context mapping representa un ecosistema de salud digital centrado en el pa
 
 <div id='4.1.3.3.'><h5>4.1.3.3. Software Architecture Container Level Diagrams</h5></div>
 
+Este nivel descompone el Healthcare System en sus principales contenedores, es decir, en los bloques tecnológicos que lo conforman: aplicaciones, servicios, bases de datos y ejecutables. En tu caso, se identifican la aplicación web, la aplicación móvil, la base de datos principal, los bounded contexts (IAM_BC, User_Profile_BC, Monitoring_BC, Health_Tracking_BC y Emergency_Management_BC), el software edge, el dispositivo embebido y las bases de datos SQLite locales de los dispositivos móviles y del edge. También se muestran las relaciones entre estos contenedores, lo cual permite comprender cómo se estructura el sistema internamente y cómo cada parte colabora para cumplir las funcionalidades globales.
+
 #### Health System Container
 <div align="center">
-<img src="Img/structurizr-HealthcareSystemContainers (1).png">
+<img src="Img/containers.png">
 </div>
 
 
 <div id='4.1.3.4.'><h5>4.1.3.4. Software Architecture Deployment Diagrams</h5></div>
+
+Diagrama de despliegue, en donde se puede definir que para la aplicación web usaremos una web llamada Netlify, para las aplicaciones móviles se distribuiran las apks firmadas en Firebase Distribution y el servicio Web junto a su base de datos estaran desplegadas en servicios de Azure.
+
 
 <div align="center">
 <img src="Img/structurizr-AmazonWebServicesDeployment.png">
@@ -3846,11 +3886,11 @@ En la siguiente sección, se presentará el sprint #2 con primera versión del b
 | **Prepared By**                        | Uribe Quispe, Jesús Guillermo                                                                                                                                                                                                                                                                                                                                          |
 | **Attendees (to planning meeting)**    | Uribe Quispe Jesús Guillermo / Bohorquez Lerzundi Gerardo Sebastián / Huanaco Huayta Elizabeth Lucero / Huapaya Cuevas Anthony / Sebastián Silva Tirado                                                                                                                                                                                                                |
 | **Sprint 2 – 1 Review Summary**        | Desarrollo de UX/UI DESIGN, Back-end y Mobile App                                                                                                                                                                                                                                                                                                                                       |
-| **Sprint 2 – 1 Retrospective Summary** | XXX                                                                                                                                                                                                                                                                         |
+| **Sprint 2 – 1 Retrospective Summary** | Mejorar el frontend enlanzando al backend                                                                                                                                                                                                                                                                         |
 | **Sprint Goal & User Stories**         |                                                                                                                                                                                                                                                                                                                                                                        |
 | **Sprint #2 Goal** | Nuestro enfoque está en completar y entregar la segunda versión integrada del frontend y del backend de AlertaVital: una interfaz web interactiva (monitoreo, alertas, gestión de usuarios) y una API REST segura y persistente que soporte autenticación, registros de signos vitales y manejo de emergencias. Sabremos que tuvimos éxito cuando: (1) el frontend consuma correctamente los endpoints del backend; (2) las funciones críticas (inicio de sesión, visualización de signos vitales, envío/recepción de alertas y registro de emergencias) funcionen de forma end-to-end en un entorno de staging; y (3) ambos componentes estén desplegados y accesibles para pruebas de usuario. |
-| **Sprint #2 Velocity** |  XXh |
-| **Sum of Story Points** | XX |
+| **Sprint #2 Velocity** |  65h |
+| **Sum of Story Points** | 15 |
 
 <div id='6.2.2.2.'><h5>6.2.2.2. Aspect Leaders and Collaborators.</h5></div>
 
@@ -3895,10 +3935,10 @@ Para el Sprint #2 nos trazamos como objetivo desarrollar y desplegar la primera 
       <td>WT-BK01</td>
       <td>Endpoint /auth/login</td>
       <td>Implementar endpoint REST para autenticación (email/password) y emisión de JWT.</td>
-      <td>24h</td>
+      <td>4h</td>
       <td>3</td>
-      <td>Sebastián Silva</td>
-      <td>In Progress</td>
+      <td>Jesús Uribe</td>
+      <td>Done</td>
     </tr>
     <tr>
       <td>TS02</td>
@@ -3906,10 +3946,10 @@ Para el Sprint #2 nos trazamos como objetivo desarrollar y desplegar la primera 
       <td>WT-BK02</td>
       <td>Crear endpoint register-caregiver</td>
       <td>Endpoint para crear cuenta de tipo "caregiver" + validaciones (dni, teléfono) y manejo de duplicados.</td>
-      <td>40h</td>
+      <td>4h</td>
       <td>5</td>
-      <td>Sebastián Bohorquez</td>
-      <td>In Progress</td>
+      <td>Jesús Uribe</td>
+      <td>Done</td>
     </tr>
     <tr>
       <td>TS03</td>
@@ -3917,10 +3957,10 @@ Para el Sprint #2 nos trazamos como objetivo desarrollar y desplegar la primera 
       <td>WT-BK03</td>
       <td>Crear endpoint patients</td>
       <td>Endpoint para registrar paciente (posible creación por caregiver) y establecer relaciones iniciales.</td>
-      <td>40h</td>
+      <td>4h</td>
       <td>5</td>
-      <td>Anthony Huapaya</td>
-      <td>In Progress</td>
+      <td>Jesús Uribe</td>
+      <td>Done</td>
     </tr>
     <tr>
       <td>TS04</td>
@@ -3928,10 +3968,10 @@ Para el Sprint #2 nos trazamos como objetivo desarrollar y desplegar la primera 
       <td>WT-BK04</td>
       <td>Relacionar pacientes y cuidadores</td>
       <td>Endpoint para relacionar patientId ↔ caregiverId con validaciones de permisos y duplicados.</td>
-      <td>24h</td>
-      <td>3</td>
-      <td>Elizabeth Huanaco</td>
-      <td>To Do</td>
+      <td>4h</td>
+      <td>5</td>
+      <td>Sebastián Bohorquez</td>
+      <td>Done</td>
     </tr>
     <tr>
       <td>TS05</td>
@@ -3939,10 +3979,10 @@ Para el Sprint #2 nos trazamos como objetivo desarrollar y desplegar la primera 
       <td>WT-BK05</td>
       <td>Endpoints disturbaces</td>
       <td>Crear, listar (paginado) y eliminar alteraciones detectadas (soft delete) con permisos.</td>
-      <td>40h</td>
+      <td>4h</td>
       <td>5</td>
-      <td>Anthony Huapaya</td>
-      <td>In Progress</td>
+      <td>Sebastián Silva</td>
+      <td>Done</td>
     </tr>
     <tr>
       <td>TS06</td>
@@ -3952,8 +3992,8 @@ Para el Sprint #2 nos trazamos como objetivo desarrollar y desplegar la primera 
       <td>Reportar, consultar y eliminar síntomas (adjuntos, trazabilidad) para pacientes.</td>
       <td>24h</td>
       <td>3</td>
-      <td>Sebastián Bohorquez</td>
-      <td>In Progress</td>
+      <td>Jesús Uribe</td>
+      <td>Done</td>
     </tr>
     <tr>
       <td>TS07</td>
@@ -3964,7 +4004,7 @@ Para el Sprint #2 nos trazamos como objetivo desarrollar y desplegar la primera 
       <td>40h</td>
       <td>5</td>
       <td>Jesús Uribe</td>
-      <td>In Progress</td>
+      <td>Done</td>
     </tr>
     <tr>
       <td>TS08</td>
@@ -3972,7 +4012,7 @@ Para el Sprint #2 nos trazamos como objetivo desarrollar y desplegar la primera 
       <td>WT-BK08</td>
       <td>Reminders scheduler</td>
       <td>Backend para crear/listar reminders asociados a treatments y exponer scheduler/worker para notificaciones.</td>
-      <td>40h</td>
+      <td>4h</td>
       <td>5</td>
       <td>Jesús Uribe</td>
       <td>In Progress</td>
@@ -3983,20 +4023,20 @@ Para el Sprint #2 nos trazamos como objetivo desarrollar y desplegar la primera 
       <td>WT-BK09</td>
       <td>JWT & RBAC</td>
       <td>Middleware de autorización (roles: patient, caregiver, admin), validación de JWT y políticas de acceso por relación.</td>
-      <td>64h</td>
-      <td>8</td>
+      <td>8h</td>
+      <td>5</td>
       <td>Jesús Uribe</td>
-      <td>In Progress</td>
+      <td>Done</td>
     <tr>
       <td>TS10</td>
       <td>Device Controller - Registrar dispositivo</td>
       <td>WT-BK10</td>
       <td>POST /api/device</td>
       <td>Implementar endpoint REST para registrar y vincular un dispositivo IoT a un paciente. Validar payload (deviceId, patientId, model, firmware), crear/actualizar registro del dispositivo y publicar evento de dispositivo registrado. Manejar duplicados y devolver 201 con recurso creado.</td>
-      <td>32h</td>
+      <td>8h</td>
       <td>5</td>
-      <td>Anthony Huapaya</td>
-      <td>To Do</td>
+      <td>Jesús Uribe</td>
+      <td>In Progress</td>
     </tr>
     <tr>
       <td>TS11</td>
@@ -4004,17 +4044,17 @@ Para el Sprint #2 nos trazamos como objetivo desarrollar y desplegar la primera 
       <td>WT-BK11</td>
       <td>GET /api/device/readings/all</td>
       <td>Implementar endpoint REST para obtener todas las lecturas recopiladas por los dispositivos. Soportar filtros (patientId, deviceId, from, to), paginación y ordenamiento. Proteger ruta (roles/permiso), validar acceso y devolver lista paginada de lecturas con metadatos.</td>
-      <td>32h</td>
+      <td>8h</td>
       <td>5</td>
-      <td>Elizabeth Huanaco</td>
-      <td>To Do</td>
+      <td>Jesús Uribe</td>
+      <td>In Progress</td>
     </tr>
   </tbody>
 </table>
 
 <div id='6.2.2.4.'><h5>6.2.2.4. Development Evidence for Sprint Review.</h5></div>
 
-### BACKEND:
+### WEB SERVICE:
 
 <table><thead>
   <tr>
@@ -4027,73 +4067,561 @@ Para el Sprint #2 nos trazamos como objetivo desarrollar y desplegar la primera 
   </tr></thead>
 <tbody>
   <tr>
-<td rowspan="10">
-	<a href="https://github.com/TF-SolucionesIoT/iam_service" target="_blank" rel="noopener noreferrer">https://github.com/TF-SolucionesIoT/iam_service</a>
-	<br>
-</td>
-    <td><br>main</td>
-    <td><br>XXX</td>
-    <td><br>first commit</td>
-    <td><br>first commit</td>
-    <td><br>XX/XX/2025</td>
+    <td rowspan="13">
+      <a href="https://github.com/TF-SolucionesIoT/iam_service" target="_blank" rel="noopener noreferrer">https://github.com/TF-SolucionesIoT/alerta-vital-service</a>
+      <br>
+    </td>
   </tr>
-  
+  <tr>
+  <td>HEAD -> backup, origin/backup</td>
+  <td>1c8c310</td>
+  <td>fix: fix duplicated cors configuration and bug in auth controller (profiles/me)</td>
+  <td>-</td>
+  <td>2025-11-15</td>
+</tr>
+<tr>
+  <td>-</td>
+  <td>2abaf83</td>
+  <td>Merge pull request #11 from TF-SolucionesIoT/feat/emergencymanagement</td>
+  <td>Feat/emergencymanagement</td>
+  <td>2025-11-15</td>
+</tr>
+<tr>
+  <td>origin/dev</td>
+  <td>dea97f8</td>
+  <td>merge branch "feat/monitoring-wss" into dev</td>
+  <td>feat: implemented Broadcast to see real data using a patient or caregiver</td>
+  <td>2025-11-15</td>
+</tr>
+<tr>
+  <td>origin/feat/monitoring-wss, feat/monitoring-wss</td>
+  <td>4196e8e</td>
+  <td>feat: implemented Broadcast to see real data using a patient or caregiver account</td>
+  <td>-</td>
+  <td>2025-11-15</td>
+</tr>
+<tr>
+  <td>-</td>
+  <td>da43ccb</td>
+  <td>Merge pull request #9 from TF-SolucionesIoT/update-healthTracking</td>
+  <td>Add: Get patient by caregiver</td>
+  <td>2025-11-15</td>
+</tr>
+<tr>
+  <td>-</td>
+  <td>39491cd</td>
+  <td>Merge pull request #7 from TF-SolucionesIoT/feat/monitoring-wss</td>
+  <td>Feat/monitoring wss</td>
+  <td>2025-11-15</td>
+</tr>
+<tr>
+  <td>-</td>
+  <td>e0e0b16</td>
+  <td>feat: add data from edge by patient authenticated</td>
+  <td>-</td>
+  <td>2025-11-15</td>
+</tr>
+<tr>
+  <td>origin/update-healthTracking</td>
+  <td>36fda47</td>
+  <td>Add: Get patient by caregiver</td>
+  <td>-</td>
+  <td>2025-11-15</td>
+</tr>
+<tr>
+  <td>origin/feat/emergencymanagement</td>
+  <td>bc92f03</td>
+  <td>feat: Add controller and fix Entity</td>
+  <td>-</td>
+  <td>2025-11-15</td>
+</tr>
+<tr>
+  <td>-</td>
+  <td>a0d79f0</td>
+  <td>feat: add websockets handler from edge application and real time brodcast to front end</td>
+  <td>-</td>
+  <td>2025-11-15</td>
+</tr>
+<tr>
+  <td>-</td>
+  <td>c498af0</td>
+  <td>feat: add emergency management endpoints v1 bounded context</td>
+  <td>-</td>
+  <td>2025-11-15</td>
+</tr>
+<tr>
+  <td>-</td>
+  <td>b0a7833</td>
+  <td>feat: add user profile retrieval endpoint and related resource/assembler</td>
+  <td>-</td>
+  <td>2025-11-12</td>
+  <td></td>
+</tr>
+  <td></td>
+  <td>dev</td>
+  <td>c958c82</td>
+  <td>fix: invite code authorization</td>
+  <td>-</td>
+  <td>2025-11-11</td></tr>
+<tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td>925c6ae</td>
+  <td>Merge branch "feat/relations" into "dev"</td>
+  <td>Merge branch "feat/relations" into "dev"</td>
+  <td>2025-11-11</td>
+</tr>
+<tr>
+    <td></td>
+  <td>origin/feat/relations, feat/relations</td>
+  <td>cf736b1</td>
+  <td>feat: added user type and verify authorization</td>
+  <td></td>
+  <td>2025-11-11</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td>002d8c0</td>
+  <td>feat: relations with generated unique code caregiver-patient</td>
+  <td></td>
+  <td>2025-11-11</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td>20fa4fe</td>
+  <td>Feat/monitoring</td>
+  <td>Feat/monitoring</td>
+  <td>2025-11-11</td>
+</tr>
+<tr>
+  <td></td>
+  <td>origin/feat/monitoring</td>
+  <td>19730ec</td>
+  <td>feat: reading data associated on device id</td>
+  <td></td>
+  <td>2025-11-11</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td>9e43415</td>
+  <td>feat: device associated with patient</td>
+  <td></td>
+  <td>2025-11-11</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td>91ebf57</td>
+  <td>Feat/sympton</td>
+  <td>Feat/sympton</td>
+  <td>2025-11-08</td>
+</tr>
+<tr>
+  <td></td>
+  <td>origin/feat/sympton</td>
+  <td>ed58bd6</td>
+  <td>feat: implement treatment management functionality in RecordsController and related classes</td>
+  <td></td>
+  <td>2025-11-08</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td>43f24de</td>
+  <td>feat: add sympton management functionality in RecordsController</td>
+  <td></td>
+  <td>2025-11-08</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td>42d0ba9</td>
+  <td>Feat/healthtracking</td>
+  <td>Feat/healthtracking</td>
+  <td>2025-11-07</td>
+</tr>
+<tr>
+  <td></td>
+  <td>origin/feat/healthtracking, master</td>
+  <td>73257d5</td>
+  <td>feat: delete disturbance by id and user id</td>
+  <td></td>
+  <td>2025-11-07</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td>3ef6497</td>
+  <td>feat: healthtracking domain layer - sympton entity</td>
+  <td></td>
+  <td>2025-11-07</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td>88c259d</td>
+  <td>feat: healthtracking interface layer</td>
+  <td></td>
+  <td>2025-11-07</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td>b0583aa</td>
+  <td>feat: healthtracking infrastructure layer</td>
+  <td></td>
+  <td>2025-11-07</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td>7109256</td>
+  <td>feat: healthtracking application layer</td>
+  <td></td>
+  <td>2025-11-07</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td>4b31441</td>
+  <td>feat: healthtracking domain layer</td>
+  <td></td>
+  <td>2025-11-07</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td>59065b5</td>
+  <td>feat: implementation of create patient and caregiver user</td>
+  <td></td>
+  <td>2025-11-05</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td>5b5097f</td>
+  <td>feat: implementation of profiles bc</td>
+  <td></td>
+  <td>2025-11-05</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td>ce6aca4</td>
+  <td>feat: domain layer of profiles bc</td>
+  <td></td>
+  <td>2025-11-04</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td>ced0dea</td>
+  <td>feat: interface layer of iam bc</td>
+  <td></td>
+  <td>2025-11-04</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td>1694352</td>
+  <td>feat: infrastructure layer of iam bc</td>
+  <td></td>
+  <td>2025-11-04</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td>3f9524e</td>
+  <td>feat: application layer of iam bc</td>
+  <td></td>
+  <td>2025-11-04</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td>8a129aa</td>
+  <td>feat: shared files</td>
+  <td></td>
+  <td>2025-11-04</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td>b2760d7</td>
+  <td>feat: domain layer of bc iam</td>
+  <td></td>
+  <td>2025-11-04</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td>f1aeffa</td>
+  <td>first commit</td>
+  <td></td>
+  <td>2025-11-04</td>
+</tr>
+
+</tbody></table>
+
+### EDGE APP:
+
+<table><thead>
+  <tr>
+    <th>&nbsp;&nbsp;&nbsp;<br>Repository&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Branch&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Commit ID&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Commit<br>&nbsp;&nbsp;&nbsp;<br>Message&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Commit<br>&nbsp;&nbsp;&nbsp;<br>Message Body&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Committed on&nbsp;&nbsp;&nbsp;(Date)&nbsp;&nbsp;&nbsp;</th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td rowspan="13">
+      <a href="https://github.com/TF-SolucionesIoT/edge_app" target="_blank" rel="noopener noreferrer">https://github.com/TF-SolucionesIoT/edge_app</a>
+      <br>
+    </td>
+  </tr>
+  <tr>
+  <td>HEAD -> master, origin/main</td>
+  <td>371f9e8</td>
+  <td>feat: edge app (simulation)</td>
+  <td></td>
+  <td>2025-11-16</td>
+  </tr>
+  <tr>
+  <td></td>
+  <td>c26de3e</td>
+  <td>feat: update git ignore</td>
+  <td></td>
+  <td>2025-11-16</td>
+  <tr>
+  <td></td>
+  <td>6d81a57</td>
+  <td>gitignore</td>
+  <td></td>
+  <td>2025-11-16</td>
+</tr>
+
 </tbody></table>
 
 <div id='6.2.2.5.'><h5>6.2.2.5. Testing Suite Evidence for Sprint Review.</h5></div>
 
+A continuación se presenta el detalle de los archivos `.feature` desarrollados y subidos en el repositorio, relacionados a los user tasks implementados en este Sprint:
+
+
+<table><thead>
+  <tr>
+    <th>&nbsp;&nbsp;&nbsp;<br>Repository&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Branch&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Commit ID&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Commit<br>&nbsp;&nbsp;&nbsp;<br>Message&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Commit<br>&nbsp;&nbsp;&nbsp;<br>Message Body&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Committed on&nbsp;&nbsp;&nbsp;(Date)&nbsp;&nbsp;&nbsp;</th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td rowspan="13">
+      <a href="https://github.com/TF-SolucionesIoT/iam_service" target="_blank" rel="noopener noreferrer">https://github.com/TF-SolucionesIoT/alerta-vital-service</a>
+      <br>
+    </td>
+  </tr>
+   <tr>
+  <td>develop</td>
+  <td>371f9e8</td>
+  <td>Silva (#20)</td>
+  <td>
+
+* Refactor code structure for improved readability and maintainability
+
+* Update project report with new version entries and collaboration insights
+
+* Refactor code structure and remove redundant sections for improved readability and maintainability
+
+</td>
+  <td>2025-11-16</td>
+  </tr>
+</tbody></table>
+
+
+
+### DESCRIPCIÓN:
+
+
+| Archivo .feature           | Descripción                                               | User Task Relacionada                          |
+|---------------------------|-----------------------------------------------------------|------------------------------------------------|
+| login.feature              | Prueba de inicio de sesión de usuario (autenticación exitosa y fallida) | Login (API)                                    |
+| register_caregiver.feature | Registro de un nuevo cuidador, validando datos y duplicados | Registrar cuidador (Backend)                   |
+| register_patient.feature   | Registro de paciente y asociación con cuidador            | Registrar paciente (Backend)                    |
+| disturbances_crud.feature  | Alta, consulta y eliminación de alteraciones (disturbances) | CRUD Disturbances (Alteraciones)               |
+| symptoms_crud.feature      | Registro, consulta y eliminación de síntomas              | CRUD Symptoms (Síntomas)                        |
+| treatments_reminders.feature | Gestión de tratamientos y recordatorios asociados        | CRUD Treatments (Tratamientos) / Asociar recordatorios a Treatment |
+| device_register.feature    | Registro y vinculación de dispositivo IoT                 | Device Controller - Registrar dispositivo       |
+| device_readings.feature    | Consulta de lecturas de dispositivos IoT                  | Device Controller - Obtener lecturas            |
+
+> **Nota:** Puedes revisar todos los archivos en la carpeta [Features del repositorio](https://github.com/TF-SolucionesIoT/report/tree/main/Features).
 
 
 <div id='6.2.2.6.'><h5>6.2.2.6. Execution Evidence for Sprint Review.</h5></div>
 
-A continuación, se muestran las evidencias de ejecución del backend y de la primera versión del mobile app.
+A continuación, se muestran las evidencias de ejecución del backend.
 
 #### Backend:
 
 <div align="center">
-<img src="Img/execution_e.png">
+<img src="Img/back1.png">
 </div>
-
-#### Mobile App:
 
 <div align="center">
-<img src="Img/execution_m.png">
+<img src="Img/back2.png">
 </div>
 
+Link de Video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211g296_upc_edu_pe/IQDT3p9qrFqAR51RJFfNdNnIAfC8V3H6L9FagOaDpz_8Pdo?e=medbbd
+
+
+
+### EDGE APP:
+
+Simulación de envío de datos a la nube por medio de websockets:
+
+<div align="center">
+<img src="Img/edge_app.png">
 </div>
+
+Recepción de la nube por parte de la aplicación Edge por medio de websockets:
+
+<div align="center">
+<img src="Img/edge_app2.png">
+</div>
+
+Link de video: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202221876_upc_edu_pe/IQCsvrOFrXhZTK8dVXel_wPyAc6l3Q_Vc6rxp3V0wtVh-RM?e=NZK4zA&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202221876_upc_edu_pe/IQCsvrOFrXhZTK8dVXel_wPyAc6l3Q_Vc6rxp3V0wtVh-RM?e=NZK4zA&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
 
 <div id='6.2.2.7.'><h5>6.2.2.7. Services Documentation Evidence for Sprint Review.</h5></div>
 
+### Documentación de Endpoints Backend
+
+A continuación se presenta una tabla resumen de los principales endpoints REST implementados en el backend de AlertaVital, agrupados por contexto funcional. Para cada endpoint se indica el método HTTP, la ruta, una breve descripción y los permisos requeridos.
+
+| Método | Endpoint | Descripción | Permisos/Requiere Auth |
+|--------|----------|-------------|------------------------|
+| **Autenticación (IAM)** | | | |
+| POST   | `/api/auth/login` | Autenticación de usuario, retorna JWT | Público |
+| POST   | `/api/auth/register/patient` | Registro de nuevo paciente | Público |
+| POST   | `/api/auth/register/caregiver` | Registro de nuevo cuidador | Público |
+| GET    | `/api/auth/profile/me` | Obtener perfil del usuario autenticado | Requiere Auth |
+| **Contactos de Emergencia** | | | |
+| POST   | `/api/contacts/emergencies` | Crear nuevo contacto de emergencia | Requiere Auth |
+| PUT    | `/api/contacts/emergencies/contact/{id}` | Actualizar contacto de emergencia por ID | Requiere Auth |
+| DELETE | `/api/contacts/emergencies/contact/{id}` | Eliminar contacto de emergencia por ID | Requiere Auth |
+| GET    | `/api/contacts/emergencies/patient/{patientId}/all` | Obtener todos los contactos de emergencia de un paciente | Requiere Auth |
+| **Registros Médicos** | | | |
+| POST   | `/api/records/treatments` | Crear nuevo registro de tratamiento | Requiere Auth |
+| GET    | `/api/records/treatments/all` | Obtener todos los tratamientos | Requiere Auth |
+| POST   | `/api/records/symptons` | Crear nuevo registro de síntoma | Requiere Auth |
+| DELETE | `/api/records/symptons` | Eliminar registro de síntoma | Requiere Auth |
+| GET    | `/api/records/symptons/all` | Obtener todos los síntomas | Requiere Auth |
+| POST   | `/api/records/disturbances` | Crear nuevo registro de alteración | Requiere Auth |
+| DELETE | `/api/records/disturbances` | Eliminar registro de alteración | Requiere Auth |
+| GET    | `/api/records/disturbances/all` | Obtener todas las alteraciones | Requiere Auth |
+| GET    | `/api/records/patient/{patientId}` | Obtener todos los registros médicos de un paciente | Requiere Auth |
+| **Dispositivos** | | | |
+| POST   | `/api/device` | Registrar nuevo dispositivo | Requiere Auth |
+| GET    | `/api/device/readings/all` | Obtener todas las lecturas de dispositivos | Requiere Auth |
+| **Códigos de Invitación** | | | |
+| POST   | `/api/invite/generate` | Generar nuevo código de invitación | Requiere Auth |
+| POST   | `/api/invite/use/{code}` | Usar código de invitación | Requiere Auth |
+
+> **Nota:** Todos los endpoints protegidos requieren autenticación JWT y validan la relación usuario-paciente/caregiver según el rol. Para detalles de payload y respuestas, consultar la documentación Swagger disponible en: [https://alertavital-aqesfcbafwe4d7fk.canadacentral-01.azurewebsites.net/swagger-ui/index.html](https://alertavital-aqesfcbafwe4d7fk.canadacentral-01.azurewebsites.net/swagger-ui/index.html)
 
 
 <div id='6.2.2.8.'><h5>6.2.2.8. Software Deployment Evidence for Sprint Review.</h5></div>
 
-En este segundo sprint, se desplegaron tanto el backend, como la primera versión del mobile app.
+En este segundo sprint, se desplegó un avance del desarrollo del servicio Web.
 
-#### Backend:
+#### Servicio Web:
 
-En el caso del backend, desplegaremos ...
+**Paso 1: Despliegue de la base de datos**
 
-Para configurar ...:
-<br><br>
-Ve a tu repositorio en ... 
-<br><br>
+Antes de desplegar la aplicación backend, es fundamental contar con una base de datos accesible desde la nube. En la imagen se muestra la creación y configuración de una base de datos SQL en Azure, donde se definen parámetros como el nombre, usuario, contraseña y reglas de firewall para permitir conexiones externas.
 
 <div align="center">
-<img src="Img/des_back_1.png">
+<img src="Img/des_back_1.jpeg">
 </div>
 
-#### Mobile App:
+**Paso 2: Creación de la aplicación web backend**
 
-En el caso del mobile app, desplegaremos la aplicación en una plataforma de hosting adecuada...
-
-Para configurar ...:
-<br><br>
-Ve a tu repositorio en ... 
-<br><br>
+El siguiente paso consiste en crear el recurso de App Service en Azure, que alojará la aplicación backend. En la imagen se observa la configuración del entorno de despliegue, seleccionando el stack tecnológico (por ejemplo, Java/Spring Boot), el grupo de recursos y el nombre de la aplicación.
 
 <div align="center">
-<img src="Img/des_mobile_1.png">
+<img src="Img/des_back_2.jpeg">
+</div>
+
+**Paso 3: Despliegue en Azure**
+
+Una vez configurada la App Service, se procede a desplegar el artefacto generado (por ejemplo, un archivo .jar o .war) desde el entorno local o mediante integración continua. La imagen muestra el panel de Azure donde se gestiona el despliegue, permitiendo cargar el archivo y monitorear el estado de la publicación.
+
+<div align="center">
+<img src="Img/des_back_3.jpeg">
+</div>
+
+**Paso 4: Conexión desde IntelliJ IDEA a Azure**
+
+Para facilitar el despliegue y la administración, se puede conectar el entorno de desarrollo (IntelliJ IDEA) directamente con Azure. En la imagen se visualiza la integración, que permite desplegar el backend, configurar variables de entorno y realizar pruebas directamente desde el IDE.
+
+<div align="center">
+<img src="Img/des_back_4.jpeg">
+</div>
+
+---
+
+### Frontend:
+
+**Paso 1: Creación de un proyecto en Firebase**
+
+Para el frontend, se utiliza Vercel como plataforma de despliegue debido a su facilidad de integración con repositorios de código y su capacidad para automatizar el proceso de publicación de aplicaciones web modernas. Vercel permite realizar despliegues continuos, lo que significa que cada vez que se realiza un cambio en el repositorio, la aplicación puede actualizarse automáticamente en producción. En la imagen a continuación se muestra el proceso de creación de un nuevo proyecto en Vercel, donde se asigna un nombre representativo y se habilitan los servicios necesarios para el alojamiento web, asegurando así una gestión centralizada y eficiente del ciclo de vida del frontend.
+
+<div align="center">
+<img src="Img/des_front_1.png">
+</div>
+
+**Paso 2: Importación y conexión con GitHub**
+
+En este paso, se importa el repositorio del proyecto directamente desde GitHub, lo que permite a Vercel acceder al código fuente y mantener sincronización continua con los cambios realizados por el equipo de desarrollo. Posteriormente, se asigna un nombre único al proyecto dentro de Vercel, facilitando su identificación y administración entre múltiples aplicaciones o entornos de despliegue. Esta integración garantiza que el flujo de trabajo de desarrollo y despliegue sea ágil y seguro.
+
+<div align="center">
+<img src="Img/des_front_2.png">
+</div>
+
+**Paso 3: Configuración de rama específica para despliegue**
+
+En muchos proyectos, es común trabajar con varias ramas (por ejemplo, `main`, `develop`, `feature/*`). Vercel permite seleccionar una rama específica para desplegar en el entorno de producción, lo que resulta útil para pruebas, revisiones o lanzamientos controlados. Para ello, se accede a la sección "Environments" y se selecciona "Production" para editar sus características, asegurando que solo la rama deseada se publique en el entorno final.
+
+<div align="center">
+<img src="Img/des_front_3.png">
+</div>
+
+A continuación, se ingresa el nombre de la rama que se desea desplegar. Esto permite que el equipo tenga control total sobre qué versión del código está activa en producción, facilitando la gestión de versiones y la implementación de nuevas funcionalidades de manera segura.
+
+<div align="center">
+<img src="Img/des_front_4.png">
+</div>
+
+**Configuración de variables de entorno**
+
+En este paso, se configuran las variables de entorno necesarias para el correcto funcionamiento de la aplicación. Estas variables pueden incluir claves de API, URLs de servicios externos, credenciales y otros parámetros sensibles que no deben estar expuestos en el código fuente. Vercel ofrece una interfaz sencilla para definir y gestionar estas variables, asegurando que cada entorno (desarrollo, staging, producción) tenga la configuración adecuada y segura.
+
+<div align="center">
+<img src="Img/des_front_5.png">
+</div>
+
+Una vez completada la configuración, Vercel despliega automáticamente la aplicación cada vez que se detectan cambios en la rama seleccionada o en las variables de entorno. Este proceso automatizado reduce el riesgo de errores manuales y acelera la entrega continua, permitiendo que el equipo de desarrollo se enfoque en la mejora constante del producto.
+
+<div align="center">
+<img src="Img/des_front_6.png">
 </div>
 
 <div id='6.2.2.9.'><h5>6.2.2.9. Team Collaboration Insights during Sprint.</h5></div>
@@ -4103,6 +4631,28 @@ A continuación, se demuestran los insights en base a este Sprint:
 <div align="center">
   <img src="Img/insight_tb2.png" alt="insights">
 </div>
+
+<div align="center">
+  <img src="Img/insight_tb2a.png" alt="insights">
+</div>
+
+
+
+
+
+
+
+| Integrante | Tareas Asignadas |
+| ---------- | ---------------- |
+| Bohórquez Lerzundi, Gerardo Sebastián | Despliegue servicio web y aplicacion web, desarrollo de funcionalidades en servicios web |
+| Huanaco Huayta, Elizabeth Lucero | Validation Interviews, desarrollo de funcionalidades en servicios web |
+| Huapaya Cuevas, Anthony | Validation Interviews, desarrollo de funcionalidades en servicios web  |
+| Silva Tirado, Sebastián Valentino | Desarrollo de aplicación web. |
+| Uribe Quispe, Jesús Guillermo | Desarrollo de servicio web y aplicación edge.  |
+
+
+
+
 
 <div id='6.3.'><h3>6.3. Validation Interviews.</h3></div>
 
@@ -4436,9 +4986,9 @@ Recomendaciones
     <td>About The Product</td>
     <td>
       <strong>Cantidad de videos</strong>: 1<br>
-      <strong>Nomenclatura</strong>: upc-pre-202501-cc238-353-MediTech-about-the-product-sprint-3<br>
+      <strong>Nomenclatura</strong>: upc-pre-202501-cc238-353-AlertaVital-about-the-product-sprint-3<br>
       <strong>Formato</strong>: .mp4<br>
-      <strong>Duración</strong>: XX:XX min
+      <strong>Duración</strong>: 02:58 min
     </td>
     <td>
       Video de About The Product en base a la aplicación "AlertaVital" desarrollado por Alerta Vital.
@@ -4446,14 +4996,14 @@ Recomendaciones
     <td>
       Screenshot: <br>
       <img src="Img/screen-video-about-the-product.png" alt="ATP" style="width: 200px;"><br>
-      Link: <a href="XXX">Video</a>
+      Link: <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211g296_upc_edu_pe/IQBlY5mHhggtT577uM1LcouFATT3hgO_Hgu9vqEbA2m1kHA?e=0nRS4U">Video</a>
     </td>
   </tr>
   </table>
 
 <div id='7.'><h2>7. Conclusiones</h2></div>
 
-Durante la unidad 5 y 6, el equipo se enfocó en el diseño y desarrollo de la Landing Page y la aplicación web, aplicando principios de UX/UI y buenas prácticas de ingeniería de software. Se inició con la definición de la arquitectura de información y wireframes en Figma, asegurando una navegación clara y accesible para los usuarios objetivo: adultos mayores y sus cuidadores. La Landing Page fue implementada utilizando HTML, CSS, Bootstrap y React, priorizando la presentación de beneficios, características, testimonios y acceso rápido a la descarga de la app. El desarrollo siguió una estructura modular y responsiva, facilitando la adaptación a distintos dispositivos. Para la aplicación web, se empleó una arquitectura basada en Clean Architecture y Domain-Driven Design, separando los módulos de autenticación, monitoreo, gestión de usuarios y soporte al tratamiento. El control de versiones se realizó con Git y GitHub, aplicando Git Flow para organizar las ramas y asegurar la calidad del código. La documentación técnica y los diagramas de componentes respaldan la mantenibilidad y escalabilidad del sistema. En conjunto, estas unidades permitieron entregar una solución digital robusta, centrada en la experiencia del usuario y alineada con los objetivos del proyecto.
+Durante la unidad 6, correspondiente al entregable 3 (Sprint #2), el equipo se enfocó en el desarrollo del backend, la implementación de la capa edge y la integración de WebSocket para la comunicación en tiempo real. Se diseñó y construyó la API RESTful utilizando Java Spring Boot, siguiendo principios de Clean Architecture y Domain-Driven Design para asegurar una separación clara entre los módulos de autenticación, gestión de usuarios, monitoreo de signos vitales, emergencias y soporte al tratamiento. La capa edge se implementó para facilitar la integración con dispositivos IoT, permitiendo la recepción y procesamiento eficiente de datos provenientes de los sensores. Además, se incorporó WebSocket para habilitar la actualización en tiempo real de los datos críticos, como alertas y cambios en los signos vitales, mejorando la experiencia de usuario tanto en la aplicación web como en la móvil. El control de versiones y la colaboración se gestionaron mediante Git y GitHub, aplicando Git Flow para mantener la calidad y trazabilidad del código. La documentación técnica, los diagramas de arquitectura y las pruebas de integración respaldan la robustez y escalabilidad de la solución, alineando el desarrollo con los objetivos funcionales y de negocio del proyecto.
 
 <div id='8.'><h2>8. Bibliografía</h2></div>
 
@@ -4472,5 +5022,7 @@ Organización Panamericana de la Salud. (2023). *La situación de los cuidados a
 |  Link de video de exposición          |  [Link de video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202221876_upc_edu_pe/EXvZqwze7apOu3moDficAfYBfor80Eh9jrz-ZFLR0JkPyQ?e=XYeo46)    |
 | Link de video de entrevistas | [Link](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220235_upc_edu_pe/ERMsAWnlK25BgS7DKzoCgPEBcVQJPN9Nr9zo1HhWZgaR4g?nav=eyJwbGF5YmFja09wdGlvbnMiOnsic3RhcnRUaW1lSW5TZWNvbmRzIjoxNTI3LCJ0aW1lc3RhbXBlZExpbmtSZWZlcnJlckluZm8iOnsic2NlbmFyaW8iOiJDaGFwdGVyU2hhcmUiLCJhZGRpdGlvbmFsSW5mbyI6eyJpc1NoYXJlZENoYXB0ZXJBdXRvIjpmYWxzZX19fSwicmVmZXJyYWxJbmZvIjp7InJlZmVycmFsQXBwIjoiU3RyZWFtV2ViQXBwIiwicmVmZXJyYWxWaWV3IjoiU2hhcmVDaGFwdGVyTGluayIsInJlZmVycmFsQXBwUGxhdGZvcm0iOiJXZWIiLCJyZWZlcnJhbE1vZGUiOiJ2aWV3In19&e=ZFJWW8) |
 | Link de Figma | [Link](https://www.figma.com/design/wDXE0NQLCOx7ccB5TPlRYr/IoT?node-id=1-3&t=ByrmBRuCKYXO44gX-1) |
+| Link Frontend Web | [Link](https://front-end-iot-smoky.vercel.app/auth/login) |
 | Link de Despliegue de Landing Page | [https://tf-solucionesiot.github.io/LandingPage/](https://tf-solucionesiot.github.io/LandingPage/) |
 | Link de documentacion de los servicios web | [https://alertavital-aqesfcbafwe4d7fk.canadacentral-01.azurewebsites.net/swagger-ui/index.html](https://alertavital-aqesfcbafwe4d7fk.canadacentral-01.azurewebsites.net/swagger-ui/index.html) |
+
