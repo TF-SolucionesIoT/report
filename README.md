@@ -45,11 +45,33 @@ El objetivo de esta sección es resumir las modificaciones relevantes que se rea
 | :-----: | :---: | :---: | --------------------------- |
 |    TB1    |   21/09   |   Jesús Guillermo Uribe Quispe   | Se añadió el capítulo I, II, III y IV del proyecto.                         |
 |TP | 10/10 | Jesús Guillermo Uribe Quispe | UX/UI Design, Software Development and Sprint 1 |
+| TB2 | 16/11 | Jesús Guillermo Uribe Quispe | Sprint 2, Validation Interviews and Final Corrections |
 
 # Project Report Collaboration Insights
 
 URL del repositorio para el reporte del proyecto:
 
+**TP:**
+
+<div align="center">
+  <img src="Img/insight_tb2.png" alt="insights" width=350>
+</div>
+
+<div align="center">
+  <img src="Img/insight_tb2a.png" alt="insights" width=350>
+</div>
+
+Para el desarrollo del informe perteneciente a la entrega del trabajo parcial, se dividió la implementación de secciones de la siguiente forma para cada integrante del equipo:
+
+| Integrante | Tareas Asignadas |
+| ---------- | ---------------- |
+| Bohórquez Lerzundi, Gerardo Sebastián | XXXXXXXXXXXXX |
+| Huanaco Huayta, Elizabeth Lucero | XXXXXXXXXXXXX |
+| Huapaya Cuevas, Anthony | XXXXXXXXXXXXX |
+| Silva Tirado, Sebastián Valentino | XXXXXXXXXXXXX |
+| Uribe Quispe, Jesús Guillermo | XXXXXXXXXXXXX  |
+
+<br>
 
 **TP:**
 
@@ -284,7 +306,8 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
       <td>
         <b>Bohorquez Lerzundi Gerardo Sebastián:</b><br>
         <b>TB1:</b> Participé activamente en reuniones del grupo, compartiendo ideas y propuestas sobre la estructuración del Bounded Context de Monitoring, organizando la funcionalidad en servicios y capas de arquitectura. Además, coordiné con mis compañeros para asegurar que las tareas se distribuyeran de manera equitativa y que cada miembro comprendiera su rol dentro del proyecto.<br>
-        <b>TP1:</b> En la segunda entrega, lideré la integración de nuevas funcionalidades en el sistema, facilitando la revisión de código y la resolución de conflictos entre ramas. Promoví la colaboración en la documentación técnica y la validación de los diagramas de arquitectura, asegurando que todos los integrantes participaran en la toma de decisiones sobre el diseño final.<br><br>
+        <b>TP1:</b> En la segunda entrega, lideré la integración de nuevas funcionalidades en el sistema, facilitando la revisión de código y la resolución de conflictos entre ramas. Promoví la colaboración en la documentación técnica y la validación de los diagramas de arquitectura, asegurando que todos los integrantes participaran en la toma de decisiones sobre el diseño final.<br>
+        <b>TB2:</b> Durante la última fase del proyecto, continué promoviendo el liderazgo compartido al coordinar la integración de los módulos finales y la revisión de los entregables. Fomenté la participación activa de todos los miembros en la toma de decisiones técnicas y en la validación de los resultados, asegurando que el liderazgo y la responsabilidad fueran distribuidos equitativamente.<br><br>
         <strong>Huanaco Huayta, Elizabeth Lucero</strong><br>
         <strong>TB1:</strong> El desarrollo de estas tareas, desde la aplicación del Lean UX Process hasta la definición del Bounded Context: Treatment Support con sus diferentes capas y diagramas, me permitió trabajar en equipo de manera organizada y colaborativa. Cada actividad requirió discutir ideas, validar supuestos, formular hipótesis y estructurar el diseño técnico de forma conjunta, lo que fomentó la toma de decisiones compartida y la distribución de responsabilidades. Este proceso fortaleció la comunicación y coordinación dentro del grupo, lo que me permitió contribuir activamente a alcanzar el objetivo común.<br>
         <strong>TP1:</strong> En la segunda fase, participé en la revisión y mejora de los flujos de usuario y wireframes, coordinando sesiones de feedback con el equipo. Impulsé la integración de los prototipos en Figma y la validación conjunta de los criterios de aceptación, asegurando que el liderazgo fuera compartido y que todos los miembros pudieran aportar en la definición de la experiencia de usuario.<br>
@@ -295,14 +318,17 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
         <b>TB2:</b> Durante el desarrollo del proyecto trabajé de manera colaborativa dentro de mi equipo, asumiendo un liderazgo compartido que nos permitió organizarnos y tomar decisiones de forma conjunta. Participé activamente en la planificación, distribución de tareas y revisión de cada etapa, como el diseño de entrevistas, la validación mediante heurísticas y la elaboración del video About-the-Product. Gracias a esta dinámica, contribuí a mantener una comunicación constante, resolver problemas en grupo y asegurar que todas las perspectivas fueran escuchadas, fortaleciendo así el trabajo en equipo y el liderazgo colectivo.<br><br>
         <b>Silva Tirado, Sebastián:</b><br>
         <b>TB1:</b> Coordinó la distribución de responsabilidades entre los integrantes del equipo, fomentando la toma de decisiones de manera consensuada. Propuso soluciones ante dificultades técnicas y apoyó a sus compañeros en la comprensión de las tareas asignadas.<br>
-        <b>TP1:</b> En la segunda fase, lideré la planificación de los sprints y la asignación de tareas, asegurando que cada integrante tuviera claridad sobre sus responsabilidades. Promoví la revisión cruzada de entregables y la resolución colaborativa de problemas, fortaleciendo el liderazgo compartido y la cohesión del grupo.<br><br>
+        <b>TP1:</b> En la segunda fase, lideré la planificación de los sprints y la asignación de tareas, asegurando que cada integrante tuviera claridad sobre sus responsabilidades. Promoví la revisión cruzada de entregables y la resolución colaborativa de problemas, fortaleciendo el liderazgo compartido y la cohesión del grupo.<br>
+        <b>TB2:</b> En la última etapa del proyecto, mantuve el liderazgo compartido al coordinar la integración de los entregables finales y la revisión de los resultados. Fomenté la participación de todos los miembros en la toma de decisiones y en la validación de los entregables, asegurando que el liderazgo y la responsabilidad fueran distribuidos de manera equitativa.<br><br>
         <b>Uribe Quispe Jesús Guillermo:</b><br>
         <b>TB1:</b> Coordiné la elaboración de la arquitectura, proceso de eventstorming y needfinding. Ayudando a mis compañeros a realizar dicho proceso.<br>
         <b>TP1:</b> En la segunda entrega, lideré la integración de los diagramas de arquitectura y la documentación técnica, facilitando la revisión y validación conjunta de los modelos. Promoví la participación activa en la definición de los flujos de trabajo y la toma de decisiones sobre la estructura final del sistema.<br>
+        <b>TB2:</b> En la última fase, continué promoviendo el liderazgo compartido al coordinar la integración de los módulos finales y la revisión de los entregables. Fomenté la participación activa de todos los miembros en la toma de decisiones técnicas y en la validación de los resultados, asegurando que el liderazgo y la responsabilidad fueran distribuidos equitativamente.<br>
       </td>
       <td>
         <b>TB1:</b> En conclusión, el equipo evidenció una dinámica de trabajo basada en la colaboración, la organización y el liderazgo compartido, donde cada integrante asumió un rol activo en la construcción de los bounded contexts, la aplicación del Lean UX Process y el diseño de la arquitectura del sistema. La distribución equitativa de tareas, la discusión de ideas y la validación conjunta de hipótesis fortalecieron la comunicación y la coordinación, lo que permitió tomar decisiones consensuadas y afrontar con eficacia los retos técnicos. Gracias a esta sinergia, el grupo logró estructurar de manera sólida los distintos dominios del proyecto y avanzar de forma ordenada hacia los objetivos comunes.<br>
         <b>TP1:</b> En la segunda entrega, el liderazgo conjunto se consolidó mediante la integración de nuevas funcionalidades, la validación colaborativa de los prototipos y la revisión técnica de los diagramas. La participación activa de todos los miembros en la toma de decisiones y la resolución de conflictos permitió fortalecer la cohesión del equipo y avanzar de manera eficiente hacia los objetivos planteados, demostrando una capacidad sólida para liderar y coordinar el trabajo en equipo.
+        <br><b>TB2:</b> Finalmente, en la última etapa del proyecto, el equipo mantuvo el liderazgo compartido y la colaboración activa en la integración y validación de los entregables finales. La participación equitativa de todos los miembros en la toma de decisiones y la revisión de los resultados permitió consolidar la cohesión del grupo y alcanzar los objetivos propuestos, demostrando una capacidad sólida para liderar y coordinar el trabajo en equipo hasta la culminación del proyecto.
       </td>
     </tr>
     <tr>
@@ -310,7 +336,8 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
       <td>
         <b>Bohorquez Lerzundi Gerardo Sebastián:</b><br>
         <b>TB1:</b> Contribuí en la fase de needfinding, realizando análisis de user persona y empathy map para identificar necesidades reales de los usuarios. Esto permitió al grupo empatizar con los clientes y definir soluciones más ajustadas. También participé en la planificación de tareas del proyecto, ayudando a cumplir objetivos establecidos en tiempo y forma.<br>
-        <b>TP1:</b> En la segunda entrega, colaboré en la definición de los objetivos del sprint y la planificación de las tareas, asegurando que el entorno de trabajo fuera inclusivo y que todos los miembros pudieran aportar sus ideas. Fomenté la revisión cruzada de entregables y la retroalimentación constante, lo que permitió cumplir los objetivos en los plazos establecidos.<br><br>
+        <b>TP1:</b> En la segunda entrega, colaboré en la definición de los objetivos del sprint y la planificación de las tareas, asegurando que el entorno de trabajo fuera inclusivo y que todos los miembros pudieran aportar sus ideas. Fomenté la revisión cruzada de entregables y la retroalimentación constante, lo que permitió cumplir los objetivos en los plazos establecidos.<br>
+        <b>TB2:</b> En la última etapa, participé activamente en la planificación y organización de las tareas finales, asegurando que el entorno de trabajo se mantuviera colaborativo e inclusivo. Contribuí a la definición de metas claras y al seguimiento del cumplimiento de los objetivos, promoviendo la participación de todos los miembros y la retroalimentación constante.<br><br>
         <strong>Huanaco Huayta, Elizabeth Lucero</strong><br>
         <strong>TB1:</strong> Durante el desarrollo de estas tareas logré desarrollar junto a mi equipo un entorno colaborativo e inclusivo, en el que cada integrante pudo aportar ideas y conocimientos desde su experiencia. Definimos metas claras, como la elaboración del Lean UX Canvas y los diferentes Bounded Context, lo que nos permitió planificar tareas de manera ordenada y asignarlas. Gracias a esta organización, pudimos cumplir con los objetivos establecidos en el tiempo acordado, fortaleciendo la participación equitativa y el compromiso hacia el proyecto del curso.<br>
         <strong>TP1:</strong> En la segunda fase, participé en la planificación de los sprints y la definición de los entregables, promoviendo la inclusión de todos los miembros en la toma de decisiones. Coordiné la revisión de los prototipos y la validación de los criterios de aceptación, asegurando que el entorno de trabajo fuera colaborativo y que los objetivos se cumplieran en los plazos establecidos.<br>
@@ -321,14 +348,17 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
         <b>TB2:</b> A lo largo del proyecto procuré crear un entorno colaborativo e inclusivo dentro de mi equipo, asegurando que cada integrante pudiera participar y aportar sus ideas libremente. Establecí metas claras junto con mis compañeros, lo que facilitó organizar y planificar las tareas de manera eficiente. Asimismo, me aseguré de cumplir los objetivos propuestos en cada etapa, manteniendo una comunicación constante y promoviendo un ambiente de trabajo donde todos pudieran desarrollarse y contribuir al avance del proyecto.<br><br>
         <b>Silva Tirado, Sebastian:</b><br>
         <b>TB1:</b> Promovió reuniones periódicas para definir objetivos y plazos, fomentó la participación activa de cada miembro y aseguró que las ideas fueran valoradas por igual. Elaboró un cronograma de actividades y dio seguimiento al cumplimiento de tareas.<br>
-        <b>TP1:</b> En la segunda fase, coordinó la planificación de los sprints y la definición de los entregables, asegurando que el entorno de trabajo fuera inclusivo y que todos los miembros pudieran aportar sus ideas. Fomentó la revisión cruzada de entregables y la retroalimentación constante, lo que permitió cumplir los objetivos en los plazos establecidos.<br><br>
+        <b>TP1:</b> En la segunda fase, coordinó la planificación de los sprints y la definición de los entregables, asegurando que el entorno de trabajo fuera inclusivo y que todos los miembros pudieran aportar sus ideas. Fomentó la revisión cruzada de entregables y la retroalimentación constante, lo que permitió cumplir los objetivos en los plazos establecidos.<br>
+        <b>TB2:</b> En la última etapa, participé activamente en la planificación y organización de las tareas finales, asegurando que el entorno de trabajo se mantuviera colaborativo e inclusivo. Contribuí a la definición de metas claras y al seguimiento del cumplimiento de los objetivos, promoviendo la participación de todos los miembros y la retroalimentación constante.<br><br>
         <b>Uribe Quispe, Jesús Guillermo:</b><br>
         <b>TB1:</b> Cree canales de comunicación entre mis compañeros y yo para desenvolvernos mejor en el proyecto. Además tracé y designé tareas con tiempo para una mayor eficiencia en la realización del entregable.<br>
         <b>TP1:</b> En la segunda entrega, coordiné la planificación de los sprints y la definición de los entregables, promoviendo la inclusión de todos los miembros en la toma de decisiones. Fomenté la revisión cruzada de entregables y la retroalimentación constante, lo que permitió cumplir los objetivos en los plazos establecidos y fortalecer el entorno colaborativo.<br>
+        <b>TB2:</b> En la última etapa, continué promoviendo un entorno colaborativo e inclusivo, asegurando que cada integrante pudiera participar y aportar sus ideas libremente. Junto con mis compañeros establecimos metas claras y planificamos las tareas de manera eficiente, lo que permitió cumplir los objetivos propuestos y mantener una comunicación constante hasta la culminación del proyecto.<br>
       </td>
       <td>
         <b>TB1:</b> En conjunto, el equipo demostró un trabajo colaborativo e inclusivo, en el que cada integrante aportó desde su rol al cumplimiento de los objetivos planteados. A través de la aplicación de metodologías como Lean UX y herramientas como empathy maps, user personas y bounded contexts, lograron definir necesidades reales de los usuarios, establecer metas claras, planificar tareas de manera organizada y dar seguimiento a su ejecución. La comunicación constante, la distribución equitativa de responsabilidades y la valoración de las ideas de todos los miembros fortalecieron el compromiso y permitieron alcanzar los entregables en los tiempos acordados, consolidando así un proceso de trabajo eficiente y orientado a resultados.<br>
         <b>TP1:</b> En la segunda entrega, el equipo consolidó el entorno colaborativo e inclusivo mediante la planificación conjunta de los sprints, la definición de los objetivos y la revisión cruzada de los entregables. La participación activa de todos los miembros en la toma de decisiones y la retroalimentación constante permitieron cumplir los objetivos en los plazos establecidos, fortaleciendo la cohesión del grupo y la eficiencia en el trabajo en equipo.
+        <br><b>TB2:</b> Finalmente, en la última etapa del proyecto, el equipo mantuvo un entorno colaborativo e inclusivo, asegurando la participación equitativa de todos los miembros en la planificación, organización y cumplimiento de los objetivos. La comunicación constante y la retroalimentación continua permitieron alcanzar los entregables en los tiempos acordados y consolidar un proceso de trabajo eficiente y orientado a resultados hasta la culminación del proyecto.
       </td>
     </tr>
   </tbody>
