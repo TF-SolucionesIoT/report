@@ -5025,4 +5025,5 @@ Organización Panamericana de la Salud. (2023). *La situación de los cuidados a
 | Link Frontend Web | [Link](https://front-end-iot-smoky.vercel.app/auth/login) |
 | Link de Despliegue de Landing Page | [https://tf-solucionesiot.github.io/LandingPage/](https://tf-solucionesiot.github.io/LandingPage/) |
 | Link de documentacion de los servicios web | [https://alertavital-aqesfcbafwe4d7fk.canadacentral-01.azurewebsites.net/swagger-ui/index.html](https://alertavital-aqesfcbafwe4d7fk.canadacentral-01.azurewebsites.net/swagger-ui/index.html) |
+| Link de Despliegue de Web App | [https://front-end-iot-smoky.vercel.app/](https://front-end-iot-smoky.vercel.app/) |
 
