@@ -1,4 +1,4 @@
-<h1 style="text-align: center;"> Informe del Trabajo Final </h1>
+﻿<h1 style="text-align: center;"> Informe del Trabajo Final </h1>
 <h3 style="text-align: center;"> Universidad Peruana de Ciencias Aplicadas </h3>
 
 <img src=https://github.com/Integradis-OpenSource/TFDocOpenSource/assets/114628079/4be29e42-94e4-4b80-85ae-3433dde891e4 
@@ -21,21 +21,41 @@ width=50%"/>
 
 ## Team members:
 
-<div align="center">
-  
-|                Nombre                 |   Código   |
-| :-----------------------------------: | :--------: |
-| Bohorquez Lerzundi, Gerardo Sebastián | u202224149 |
-|  Huanaco Huayta, Elizabeth Lucero   | u20211g522 |
-|  Huapaya Cuevas, Anthony       | u202220235 |
-|  Silva Tirado, Sebastian Valentino         | u20211g296 |
-|     Uribe Quispe, Jesús Guillermo     | u202221876 |
-
+<div style="text-align: center;">
+  <table border="1" cellspacing="0" cellpadding="8" style="margin: 0 auto; border-collapse: collapse;">
+    <tr>
+      <th>Nombre</th>
+      <th>Código</th>
+    </tr>
+    <tr>
+      <td>Bohorquez Lerzundi, Gerardo Sebastián</td>
+      <td>u202224149</td>
+    </tr>
+    <tr>
+      <td>Huanaco Huayta, Elizabeth Lucero</td>
+      <td>u20211g522</td>
+    </tr>
+    <tr>
+      <td>Huapaya Cuevas, Anthony</td>
+      <td>u202220235</td>
+    </tr>
+    <tr>
+      <td>Silva Tirado, Sebastian Valentino</td>
+      <td>u20211g296</td>
+    </tr>
+    <tr>
+      <td>Uribe Quispe, Jesús Guillermo</td>
+      <td>u202221876</td>
+    </tr>
+  </table>
 </div>
+
 
 <h5 style="text-align: center"> Ciclo 2025-20 </h5>
 
 <br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br>
 
 # Registro de Versiones del Informe
 
@@ -43,13 +63,59 @@ El objetivo de esta sección es resumir las modificaciones relevantes que se rea
 
 | Versión | Fecha | Autor | Descripción de modificación |
 | :-----: | :---: | :---: | --------------------------- |
-|    TB1    |   21/09   |   Jesús Guillermo Uribe Quispe   | Se añadió el capítulo I, II, III y IV del proyecto.                         |
-|TP | 10/10 | Jesús Guillermo Uribe Quispe | UX/UI Design, Software Development and Sprint 1 |
+|    TB1    |   21/09/2025   |   Jesús Guillermo Uribe Quispe   | Se añadió el capítulo I, II, III y IV del proyecto.                         |
+|TP | 10/10/2025 | Jesús Guillermo Uribe Quispe | UX/UI Design, Software Development and Sprint 1 |
+| TB2 | 16/11/2025 | Jesús Guillermo Uribe Quispe | Sprint 2, Validation Interviews and Final Corrections |
+| TF | 4/12/2025 | Jesús Guillermo Uribe Quispe | Sprint 3, Hardware Implementation |
 
 # Project Report Collaboration Insights
 
-URL del repositorio para el reporte del proyecto:
+URL del repositorio para el reporte del proyecto: [https://github.com/TF-SolucionesIoT/report](https://github.com/TF-SolucionesIoT/report)
 
+**TF:**
+
+<div align="center">
+  <img src="" alt="insights" width=350>
+</div>
+
+<div align="center">
+  <img src="" alt="insights" width=350>
+</div>
+
+
+Para el desarrollo del informe perteneciente a la entrega del trabajo final, se dividió la implementación de secciones de la siguiente forma para cada integrante del equipo:
+
+| Integrante | Tareas Asignadas |
+| ---------- | ---------------- |
+| Bohórquez Lerzundi, Gerardo Sebastián | Despliegue servicio web y aplicacion web, desarrollo de funcionalidades en servicios web |
+| Huanaco Huayta, Elizabeth Lucero | desarrollo de implementacion y programación del hardware. |
+| Huapaya Cuevas, Anthony | desarrollo de implementación y programación del hardware.  |
+| Silva Tirado, Sebastián Valentino | Desarrollo de aplicación web y servicios web. |
+| Uribe Quispe, Jesús Guillermo | Desarrollo de servicio web, arquitectura y aplicación edge. |
+
+
+**TB2:**
+
+<div align="center">
+  <img src="Img/insight_tb2.png" alt="insights" width=350>
+</div>
+
+<div align="center">
+  <img src="Img/insight_tb2a.png" alt="insights" width=350>
+</div>
+
+
+Para el desarrollo del informe perteneciente a la entrega del trabajo parcial, se dividió la implementación de secciones de la siguiente forma para cada integrante del equipo:
+
+| Integrante | Tareas Asignadas |
+| ---------- | ---------------- |
+| Bohórquez Lerzundi, Gerardo Sebastián | Despliegue servicio web y aplicacion web, desarrollo de funcionalidades en servicios web |
+| Huanaco Huayta, Elizabeth Lucero | Validation Interviews, desarrollo de funcionalidades en servicios web |
+| Huapaya Cuevas, Anthony | Validation Interviews, desarrollo de funcionalidades en servicios web  |
+| Silva Tirado, Sebastián Valentino | Desarrollo de aplicación web. |
+| Uribe Quispe, Jesús Guillermo | Desarrollo de servicio web y aplicación edge.  |
+
+<br>
 
 **TP:**
 
@@ -253,6 +319,16 @@ Los integrantes son:
    6.2.2.7. [Services Documentation Evidence for Sprint Review.](#6.2.2.7.)<br>
    6.2.2.8. [Software Deployment Evidence for Sprint Review.](#6.2.2.8.)<br>
    6.2.2.9. [Team Collaboration Insights during Sprint.](#6.2.2.9.)<br>
+   6.2.3. [Sprint 3.](#6.2.3.)<br>
+   6.2.3.1. [Sprint Planning 3.](#6.2.3.1.)<br>
+   6.2.3.2. [Aspect Leaders and Collaborators.](#6.2.3.2.)<br>
+   6.2.3.3. [Sprint Backlog 3.](#6.2.3.3.)<br>
+   6.2.3.4. [Development Evidence for Sprint Review.](#6.2.3.4.)<br>
+   6.2.3.5. [Testing Suite Evidence for Sprint Review.](#6.2.3.5.)<br>
+   6.2.3.6. [Execution Evidence for Sprint Review.](#6.2.3.6.)<br>
+   6.2.3.7. [Services Documentation Evidence for Sprint Review.](#6.2.3.7.)<br>
+   6.2.3.8. [Software Deployment Evidence for Sprint Review.](#6.2.3.8.)<br>
+   6.2.3.9. [Team Collaboration Insights during Sprint.](#6.2.3.9.)<br>
    6.3. [Validation Interviews.](#6.3.)<br>
    6.3.1. [Diseño de Entrevistas.](#6.3.1.)<br>
    6.3.2. [Registro de Entrevistas.](#6.3.2.)<br>
@@ -264,6 +340,8 @@ Los integrantes son:
 
 <br><br><br><br><br><br><br><br><br><br><br><br>
 <br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br>
+<br><br><br><br>
 
 # STUDENT OUTCOME
 
@@ -284,24 +362,29 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
       <td>
         <b>Bohorquez Lerzundi Gerardo Sebastián:</b><br>
         <b>TB1:</b> Participé activamente en reuniones del grupo, compartiendo ideas y propuestas sobre la estructuración del Bounded Context de Monitoring, organizando la funcionalidad en servicios y capas de arquitectura. Además, coordiné con mis compañeros para asegurar que las tareas se distribuyeran de manera equitativa y que cada miembro comprendiera su rol dentro del proyecto.<br>
-        <b>TP1:</b> En la segunda entrega, lideré la integración de nuevas funcionalidades en el sistema, facilitando la revisión de código y la resolución de conflictos entre ramas. Promoví la colaboración en la documentación técnica y la validación de los diagramas de arquitectura, asegurando que todos los integrantes participaran en la toma de decisiones sobre el diseño final.<br><br>
+        <b>TP1:</b> En la segunda entrega, lideré la integración de nuevas funcionalidades en el sistema, facilitando la revisión de código y la resolución de conflictos entre ramas. Promoví la colaboración en la documentación técnica y la validación de los diagramas de arquitectura, asegurando que todos los integrantes participaran en la toma de decisiones sobre el diseño final.<br>
+        <b>TB2:</b> Durante la última fase del proyecto, continué promoviendo el liderazgo compartido al coordinar la integración de los módulos finales y la revisión de los entregables. Fomenté la participación activa de todos los miembros en la toma de decisiones técnicas y en la validación de los resultados, asegurando que el liderazgo y la responsabilidad fueran distribuidos equitativamente.<br><br>
         <strong>Huanaco Huayta, Elizabeth Lucero</strong><br>
         <strong>TB1:</strong> El desarrollo de estas tareas, desde la aplicación del Lean UX Process hasta la definición del Bounded Context: Treatment Support con sus diferentes capas y diagramas, me permitió trabajar en equipo de manera organizada y colaborativa. Cada actividad requirió discutir ideas, validar supuestos, formular hipótesis y estructurar el diseño técnico de forma conjunta, lo que fomentó la toma de decisiones compartida y la distribución de responsabilidades. Este proceso fortaleció la comunicación y coordinación dentro del grupo, lo que me permitió contribuir activamente a alcanzar el objetivo común.<br>
         <strong>TP1:</strong> En la segunda fase, participé en la revisión y mejora de los flujos de usuario y wireframes, coordinando sesiones de feedback con el equipo. Impulsé la integración de los prototipos en Figma y la validación conjunta de los criterios de aceptación, asegurando que el liderazgo fuera compartido y que todos los miembros pudieran aportar en la definición de la experiencia de usuario.<br>
         <strong>TB2:</strong> A lo largo del proyecto trabajé de manera colaborativa con mi equipo, ejerciendo un liderazgo compartido que nos permitió organizarnos y tomar decisiones en conjunto. Participé activamente en la planificación, la asignación de tareas y la revisión de cada fase del trabajo, incluyendo el diseño de las entrevistas, la validación heurística y la creación del video About-the-Product. Esta forma de trabajo fomentó una comunicación constante, la resolución conjunta de problemas y la consideración de todas las opiniones, lo que fortaleció tanto el trabajo en equipo como nuestro liderazgo colectivo.<br><br>
         <b>Huapaya Cuevas, Anthony Martin:</b><br>
         <b>TB1:</b> En el equipo aporté liderazgo conjunto al desarrollar el Lean UX Process, ya que ayudó a estructurar nuestras hipótesis y experimentos de manera clara, lo que facilitó la toma de decisiones colaborativas. Además, trabajé en los bounded context canvases de health tracking, lo que permitió al grupo alinear la visión del sistema y delimitar responsabilidades dentro del diseño, favoreciendo un liderazgo distribuido. Finalmente, al realizar el registro de entrevistas, contribuí a organizar la información obtenida de los usuarios, asegurando que todo el equipo pudiera basar sus decisiones en evidencia real y compartida.<br>
-        <b>TP1:</b> En la segunda entrega, lideré la integración de los resultados de las entrevistas en el diseño de la arquitectura, coordinando la actualización de los diagramas y la documentación. Fomenté la participación activa de los miembros en la validación de los casos de uso y la revisión de los criterios de aceptación, consolidando el liderazgo conjunto en la toma de decisiones técnicas.<br><br>
+        <b>TP1:</b> En la segunda entrega, lideré la integración de los resultados de las entrevistas en el diseño de la arquitectura, coordinando la actualización de los diagramas y la documentación. Fomenté la participación activa de los miembros en la validación de los casos de uso y la revisión de los criterios de aceptación, consolidando el liderazgo conjunto en la toma de decisiones técnicas.<br>
+        <b>TB2:</b> Durante el desarrollo del proyecto trabajé de manera colaborativa dentro de mi equipo, asumiendo un liderazgo compartido que nos permitió organizarnos y tomar decisiones de forma conjunta. Participé activamente en la planificación, distribución de tareas y revisión de cada etapa, como el diseño de entrevistas, la validación mediante heurísticas y la elaboración del video About-the-Product. Gracias a esta dinámica, contribuí a mantener una comunicación constante, resolver problemas en grupo y asegurar que todas las perspectivas fueran escuchadas, fortaleciendo así el trabajo en equipo y el liderazgo colectivo.<br><br>
         <b>Silva Tirado, Sebastián:</b><br>
         <b>TB1:</b> Coordinó la distribución de responsabilidades entre los integrantes del equipo, fomentando la toma de decisiones de manera consensuada. Propuso soluciones ante dificultades técnicas y apoyó a sus compañeros en la comprensión de las tareas asignadas.<br>
-        <b>TP1:</b> En la segunda fase, lideré la planificación de los sprints y la asignación de tareas, asegurando que cada integrante tuviera claridad sobre sus responsabilidades. Promoví la revisión cruzada de entregables y la resolución colaborativa de problemas, fortaleciendo el liderazgo compartido y la cohesión del grupo.<br><br>
+        <b>TP1:</b> En la segunda fase, lideré la planificación de los sprints y la asignación de tareas, asegurando que cada integrante tuviera claridad sobre sus responsabilidades. Promoví la revisión cruzada de entregables y la resolución colaborativa de problemas, fortaleciendo el liderazgo compartido y la cohesión del grupo.<br>
+        <b>TB2:</b> En la última etapa del proyecto, mantuve el liderazgo compartido al coordinar la integración de los entregables finales y la revisión de los resultados. Fomenté la participación de todos los miembros en la toma de decisiones y en la validación de los entregables, asegurando que el liderazgo y la responsabilidad fueran distribuidos de manera equitativa.<br><br>
         <b>Uribe Quispe Jesús Guillermo:</b><br>
         <b>TB1:</b> Coordiné la elaboración de la arquitectura, proceso de eventstorming y needfinding. Ayudando a mis compañeros a realizar dicho proceso.<br>
         <b>TP1:</b> En la segunda entrega, lideré la integración de los diagramas de arquitectura y la documentación técnica, facilitando la revisión y validación conjunta de los modelos. Promoví la participación activa en la definición de los flujos de trabajo y la toma de decisiones sobre la estructura final del sistema.<br>
+        <b>TB2:</b> En la última fase, continué promoviendo el liderazgo compartido al coordinar la integración de los módulos finales y la revisión de los entregables. Fomenté la participación activa de todos los miembros en la toma de decisiones técnicas y en la validación de los resultados, asegurando que el liderazgo y la responsabilidad fueran distribuidos equitativamente.<br>
       </td>
       <td>
         <b>TB1:</b> En conclusión, el equipo evidenció una dinámica de trabajo basada en la colaboración, la organización y el liderazgo compartido, donde cada integrante asumió un rol activo en la construcción de los bounded contexts, la aplicación del Lean UX Process y el diseño de la arquitectura del sistema. La distribución equitativa de tareas, la discusión de ideas y la validación conjunta de hipótesis fortalecieron la comunicación y la coordinación, lo que permitió tomar decisiones consensuadas y afrontar con eficacia los retos técnicos. Gracias a esta sinergia, el grupo logró estructurar de manera sólida los distintos dominios del proyecto y avanzar de forma ordenada hacia los objetivos comunes.<br>
         <b>TP1:</b> En la segunda entrega, el liderazgo conjunto se consolidó mediante la integración de nuevas funcionalidades, la validación colaborativa de los prototipos y la revisión técnica de los diagramas. La participación activa de todos los miembros en la toma de decisiones y la resolución de conflictos permitió fortalecer la cohesión del equipo y avanzar de manera eficiente hacia los objetivos planteados, demostrando una capacidad sólida para liderar y coordinar el trabajo en equipo.
+        <br><b>TB2:</b> Finalmente, en la última etapa del proyecto, el equipo mantuvo el liderazgo compartido y la colaboración activa en la integración y validación de los entregables finales. La participación equitativa de todos los miembros en la toma de decisiones y la revisión de los resultados permitió consolidar la cohesión del grupo y alcanzar los objetivos propuestos, demostrando una capacidad sólida para liderar y coordinar el trabajo en equipo hasta la culminación del proyecto.
       </td>
     </tr>
     <tr>
@@ -309,30 +392,37 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
       <td>
         <b>Bohorquez Lerzundi Gerardo Sebastián:</b><br>
         <b>TB1:</b> Contribuí en la fase de needfinding, realizando análisis de user persona y empathy map para identificar necesidades reales de los usuarios. Esto permitió al grupo empatizar con los clientes y definir soluciones más ajustadas. También participé en la planificación de tareas del proyecto, ayudando a cumplir objetivos establecidos en tiempo y forma.<br>
-        <b>TP1:</b> En la segunda entrega, colaboré en la definición de los objetivos del sprint y la planificación de las tareas, asegurando que el entorno de trabajo fuera inclusivo y que todos los miembros pudieran aportar sus ideas. Fomenté la revisión cruzada de entregables y la retroalimentación constante, lo que permitió cumplir los objetivos en los plazos establecidos.<br><br>
+        <b>TP1:</b> En la segunda entrega, colaboré en la definición de los objetivos del sprint y la planificación de las tareas, asegurando que el entorno de trabajo fuera inclusivo y que todos los miembros pudieran aportar sus ideas. Fomenté la revisión cruzada de entregables y la retroalimentación constante, lo que permitió cumplir los objetivos en los plazos establecidos.<br>
+        <b>TB2:</b> En la última etapa, participé activamente en la planificación y organización de las tareas finales, asegurando que el entorno de trabajo se mantuviera colaborativo e inclusivo. Contribuí a la definición de metas claras y al seguimiento del cumplimiento de los objetivos, promoviendo la participación de todos los miembros y la retroalimentación constante.<br><br>
         <strong>Huanaco Huayta, Elizabeth Lucero</strong><br>
         <strong>TB1:</strong> Durante el desarrollo de estas tareas logré desarrollar junto a mi equipo un entorno colaborativo e inclusivo, en el que cada integrante pudo aportar ideas y conocimientos desde su experiencia. Definimos metas claras, como la elaboración del Lean UX Canvas y los diferentes Bounded Context, lo que nos permitió planificar tareas de manera ordenada y asignarlas. Gracias a esta organización, pudimos cumplir con los objetivos establecidos en el tiempo acordado, fortaleciendo la participación equitativa y el compromiso hacia el proyecto del curso.<br>
         <strong>TP1:</strong> En la segunda fase, participé en la planificación de los sprints y la definición de los entregables, promoviendo la inclusión de todos los miembros en la toma de decisiones. Coordiné la revisión de los prototipos y la validación de los criterios de aceptación, asegurando que el entorno de trabajo fuera colaborativo y que los objetivos se cumplieran en los plazos establecidos.<br>
         <strong>TB2:</strong> Durante el desarrollo del proyecto me esforcé por fomentar un ambiente colaborativo e inclusivo dentro del equipo, garantizando que cada integrante tuviera espacio para participar y expresar sus ideas. Junto con mis compañeros establecimos metas claras, lo que permitió organizar y planificar las tareas de forma más eficaz. Además, procuré cumplir los objetivos planteados en cada etapa, manteniendo una comunicación constante y promoviendo un entorno de trabajo que favoreciera el crecimiento de todos y el progreso del proyecto.<br><br>
         <b>Huapaya Cuevas, Anthony Martin:</b><br>
         <b>TB1:</b> Durante el proyecto fomenté un entorno colaborativo e inclusivo al aplicar el Lean UX Process, donde todas las ideas del equipo fueron consideradas y priorizadas de manera conjunta. A través de los bounded context canvases de health tracking, ayudé a establecer metas claras y a planificar tareas específicas relacionadas con el diseño de los dominios, asegurando que cada miembro comprendiera su responsabilidad. Con el registro de entrevistas, contribuí a cumplir los objetivos del equipo, ya que la información recogida permitió orientar el diseño hacia las necesidades reales de los usuarios.<br>
-        <b>TP1:</b> En la segunda entrega, colaboré en la planificación de los sprints y la asignación de tareas, promoviendo la inclusión de todos los miembros en la toma de decisiones. Fomenté la revisión cruzada de entregables y la retroalimentación constante, lo que permitió cumplir los objetivos en los plazos establecidos y fortalecer el entorno colaborativo.<br><br>
+        <b>TP1:</b> En la segunda entrega, colaboré en la planificación de los sprints y la asignación de tareas, promoviendo la inclusión de todos los miembros en la toma de decisiones. Fomenté la revisión cruzada de entregables y la retroalimentación constante, lo que permitió cumplir los objetivos en los plazos establecidos y fortalecer el entorno colaborativo.<br>
+        <b>TB2:</b> A lo largo del proyecto procuré crear un entorno colaborativo e inclusivo dentro de mi equipo, asegurando que cada integrante pudiera participar y aportar sus ideas libremente. Establecí metas claras junto con mis compañeros, lo que facilitó organizar y planificar las tareas de manera eficiente. Asimismo, me aseguré de cumplir los objetivos propuestos en cada etapa, manteniendo una comunicación constante y promoviendo un ambiente de trabajo donde todos pudieran desarrollarse y contribuir al avance del proyecto.<br><br>
         <b>Silva Tirado, Sebastian:</b><br>
         <b>TB1:</b> Promovió reuniones periódicas para definir objetivos y plazos, fomentó la participación activa de cada miembro y aseguró que las ideas fueran valoradas por igual. Elaboró un cronograma de actividades y dio seguimiento al cumplimiento de tareas.<br>
-        <b>TP1:</b> En la segunda fase, coordinó la planificación de los sprints y la definición de los entregables, asegurando que el entorno de trabajo fuera inclusivo y que todos los miembros pudieran aportar sus ideas. Fomentó la revisión cruzada de entregables y la retroalimentación constante, lo que permitió cumplir los objetivos en los plazos establecidos.<br><br>
+        <b>TP1:</b> En la segunda fase, coordinó la planificación de los sprints y la definición de los entregables, asegurando que el entorno de trabajo fuera inclusivo y que todos los miembros pudieran aportar sus ideas. Fomentó la revisión cruzada de entregables y la retroalimentación constante, lo que permitió cumplir los objetivos en los plazos establecidos.<br>
+        <b>TB2:</b> En la última etapa, participé activamente en la planificación y organización de las tareas finales, asegurando que el entorno de trabajo se mantuviera colaborativo e inclusivo. Contribuí a la definición de metas claras y al seguimiento del cumplimiento de los objetivos, promoviendo la participación de todos los miembros y la retroalimentación constante.<br><br>
         <b>Uribe Quispe, Jesús Guillermo:</b><br>
         <b>TB1:</b> Cree canales de comunicación entre mis compañeros y yo para desenvolvernos mejor en el proyecto. Además tracé y designé tareas con tiempo para una mayor eficiencia en la realización del entregable.<br>
         <b>TP1:</b> En la segunda entrega, coordiné la planificación de los sprints y la definición de los entregables, promoviendo la inclusión de todos los miembros en la toma de decisiones. Fomenté la revisión cruzada de entregables y la retroalimentación constante, lo que permitió cumplir los objetivos en los plazos establecidos y fortalecer el entorno colaborativo.<br>
+        <b>TB2:</b> En la última etapa, continué promoviendo un entorno colaborativo e inclusivo, asegurando que cada integrante pudiera participar y aportar sus ideas libremente. Junto con mis compañeros establecimos metas claras y planificamos las tareas de manera eficiente, lo que permitió cumplir los objetivos propuestos y mantener una comunicación constante hasta la culminación del proyecto.<br>
       </td>
       <td>
         <b>TB1:</b> En conjunto, el equipo demostró un trabajo colaborativo e inclusivo, en el que cada integrante aportó desde su rol al cumplimiento de los objetivos planteados. A través de la aplicación de metodologías como Lean UX y herramientas como empathy maps, user personas y bounded contexts, lograron definir necesidades reales de los usuarios, establecer metas claras, planificar tareas de manera organizada y dar seguimiento a su ejecución. La comunicación constante, la distribución equitativa de responsabilidades y la valoración de las ideas de todos los miembros fortalecieron el compromiso y permitieron alcanzar los entregables en los tiempos acordados, consolidando así un proceso de trabajo eficiente y orientado a resultados.<br>
         <b>TP1:</b> En la segunda entrega, el equipo consolidó el entorno colaborativo e inclusivo mediante la planificación conjunta de los sprints, la definición de los objetivos y la revisión cruzada de los entregables. La participación activa de todos los miembros en la toma de decisiones y la retroalimentación constante permitieron cumplir los objetivos en los plazos establecidos, fortaleciendo la cohesión del grupo y la eficiencia en el trabajo en equipo.
+        <br><b>TB2:</b> Finalmente, en la última etapa del proyecto, el equipo mantuvo un entorno colaborativo e inclusivo, asegurando la participación equitativa de todos los miembros en la planificación, organización y cumplimiento de los objetivos. La comunicación constante y la retroalimentación continua permitieron alcanzar los entregables en los tiempos acordados y consolidar un proceso de trabajo eficiente y orientado a resultados hasta la culminación del proyecto.
       </td>
     </tr>
   </tbody>
 </table>
 
 
+<br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br>
 <br><br><br><br><br><br><br><br><br>
 <br><br><br><br><br><br><br><br><br>
 <br><br><br><br><br><br><br><br><br>
@@ -1059,7 +1149,14 @@ A continuación, se presenta una matriz de tareas enfocada en María Luisa Ramí
 | US24 | Conocer acerca del proyecto | Como visitante, quiero leer información sobre la misión, visión y el equipo detrás de la aplicación. | **ES1:** Muestra datos clave → Presenta misión, visión y miembros principales del proyecto.<br>**ES2:** Enlaces externos → Los botones de redes sociales o “Conócenos” funcionan correctamente.<br>**ES3:** Diseño accesible → Compatible con lectores de pantalla y contraste adecuado. | EP007 |
 | US25 | Ver testimonios | Como visitante, quiero leer opiniones de otros usuarios o cuidadores para generar confianza. | **ES1:** Visualización → Se muestran al menos tres testimonios con nombre y foto opcional.<br>**ES2:** Carrusel funcional → Permite desplazarse sin errores entre testimonios.<br>**ES3:** Validación de contenido → Los testimonios no se repiten y cargan dinámicamente. | EP007 |
 | US26 | Enviar mensaje de contacto | Como visitante, quiero enviar un mensaje a través del formulario de contacto para resolver mis dudas. | **ES1:** Envío exitoso → Al completar nombre, correo y mensaje válidos, se confirma el envío.<br>**ES2:** Validaciones → Si falta algún campo o el correo es inválido, se muestra mensaje de error.<br>**ES3:** Protección antispam → No se permiten envíos automáticos (captcha activo). | EP007 |
-| US27 | Descargar la aplicación | Como visitante, quiero descargar la aplicación desde la landing page para comenzar a usarla. | **ES1:** Enlaces funcionales → Los botones de “Descargar en Play Store / App Store” redirigen correctamente.<br>**ES2:** Detección de dispositivo → Si accede desde Android o iOS, se sugiere el enlace correspondiente.<br>**ES3:** Versión web → Si el dispositivo no es compatible, se ofrece versión web o aviso informativo. | EP007 |
+| US27 | Descargar la aplicación | Como visitante, quiero descargar la aplicación desde la landing page para comenzar a usarla. | **ES1:** Enlaces funcionales  Los botones de "Descargar en Play Store / App Store" redirigen correctamente.<br>**ES2:** Detección de dispositivo  Si accede desde Android o iOS, se sugiere el enlace correspondiente.<br>**ES3:** Versión web  Si el dispositivo no es compatible, se ofrece versión web o aviso informativo. | EP007 |
+| **EP008** | **Vinculación y Gestión de Dispositivos (Mobile App)** | Funcionalidades de la aplicación móvil para vincular dispositivos IoT mediante códigos y gestionar la conexión con pacientes. | | |
+| US28 | Generar código de vinculación | Como cuidador, quiero generar un código único de vinculación para asociar el dispositivo IoT del paciente a mi cuenta y comenzar a recibir sus datos de monitoreo. | **ES1:** Generación exitosa  Al presionar "Generar código", se crea un código alfanumérico único de 6 caracteres con vigencia de 24 horas.<br>**ES2:** Visualización clara  El código se muestra en pantalla con opción de copiar y compartir por WhatsApp/SMS.<br>**ES3:** Expiración  Si el código expira sin usarse, se permite generar uno nuevo. | EP008 |
+| US29 | Usar código de vinculación | Como paciente o familiar, quiero ingresar un código de vinculación para conectar mi dispositivo IoT con la cuenta del cuidador asignado. | **ES1:** Vinculación exitosa  Al ingresar un código válido y presionar "Vincular", se establece la relación dispositivo-cuidador y muestra confirmación.<br>**ES2:** Código inválido/expirado  Muestra mensaje de error indicando que el código no existe o ha expirado.<br>**ES3:** Código ya usado  Informa que el código ya fue utilizado y sugiere solicitar uno nuevo. | EP008 |
+| **EP009** | **Monitoreo en Tiempo Real (Mobile App)** | Funcionalidades de visualización de datos de signos vitales en tiempo real mediante conexión WebSocket. | | |
+| US30 | Recibir datos de signos vitales en tiempo real | Como cuidador, quiero visualizar los signos vitales del paciente actualizados en tiempo real mediante WebSocket para tener información actualizada constantemente sin necesidad de refrescar la pantalla. | **ES1:** Conexión WebSocket activa  Al abrir el dashboard, se establece conexión WebSocket y los datos de frecuencia cardíaca, SpO y temperatura se actualizan automáticamente cada 5 segundos.<br>**ES2:** Indicador de conexión  Muestra estado de conexión (conectado/desconectado) con código de colores (verde/rojo).<br>**ES3:** Reconexión automática  Si se pierde la conexión, intenta reconectar automáticamente cada 10 segundos y notifica al usuario. | EP009 |
+| **EP010** | **Ubicación y Seguimiento (Mobile App)** | Funcionalidades para visualizar y rastrear la ubicación del paciente en situaciones de emergencia o monitoreo. | | |
+| US31 | Ver ubicación del paciente en mapa | Como cuidador, quiero ver la ubicación actual del paciente en un mapa interactivo para saber dónde se encuentra en caso de emergencia o seguimiento rutinario. | **ES1:** Visualización de ubicación  Al acceder a la sección "Ubicación", se muestra un mapa con la posición actual del paciente marcada con un pin.<br>**ES2:** Actualización periódica  La ubicación se actualiza cada 30 segundos con indicador de última actualización.<br>**ES3:** Sin señal GPS  Si no hay ubicación disponible, muestra la última conocida con advertencia de antigüedad. | EP010 |
 
 
 
@@ -1073,8 +1170,13 @@ A continuación, se presenta una matriz de tareas enfocada en María Luisa Ramí
 | TS05 | CRUD Disturbances (Alteraciones) | Endpoints para crear, listar y eliminar alteraciones detectadas (disturbances). | **ES1:** POST /api/patients/{id}/disturbances crea entrada y devuelve 201.<br>**ES2:** GET /api/patients/{id}/disturbances devuelve lista paginada.<br>**ES3:** DELETE /api/disturbances/{id} borra (soft delete) con permisos adecuados (caregiver/patient/admin). | EP01 |
 | TS06 | CRUD Symptoms (Síntomas) | Endpoints para reportar, consultar y eliminar síntomas asociados a pacientes. | **ES1:** POST /api/patients/{id}/symptoms → 201 con id del síntoma.<br>**ES2:** GET /api/patients/{id}/symptoms → lista ordenada por fecha.<br>**ES3:** DELETE /api/symptoms/{id} → 200 y registro marcado inactivo. | EP01 |
 | TS07 | CRUD Treatments (Tratamientos) | Endpoints para gestionar tratamientos y recordatorios (create/get/delete). | **ES1:** POST /api/patients/{id}/treatments crea tratamiento y devuelve 201.<br>**ES2:** GET /api/patients/{id}/treatments devuelve activos/inactivos filtrables.<br>**ES3:** DELETE /api/treatments/{id} desactiva o elimina según política. | EP01 |
-<tr><td>37</td><td>TS10</td><td>Device Controller - Registrar dispositivo (POST /api/device)</td><td>Endpoint REST para registrar y vincular un dispositivo IoT a un paciente. Valida payload (deviceId, patientId, model, firmware), crea/actualiza registro del dispositivo y publica evento de dispositivo registrado. Maneja duplicados y devuelve 201 con recurso creado.</td><td>3</td></tr>
-<tr><td>38</td><td>TS11</td><td>Device Controller - Obtener lecturas (GET /api/device/readings/all)</td><td>Endpoint REST para obtener todas las lecturas recopiladas por los dispositivos. Soporta filtros (patientId, deviceId, from,to), paginación y ordenamiento. Protege ruta (roles/permiso), valida acceso y devuelve lista paginada de lecturas con metadatos.</td><td>5</td></tr>
+| TS10 | Device Controller - Registrar dispositivo | Endpoint REST para registrar y vincular un dispositivo IoT a un paciente. | **ES1:** POST /api/device valida payload (deviceId, patientId, model, firmware) y devuelve 201.<br>**ES2:** Duplicado → 409 con mensaje.<br>**ES3:** Publica evento de dispositivo registrado. | EP01 |
+| TS11 | Device Controller - Obtener lecturas | Endpoint REST para obtener todas las lecturas recopiladas por los dispositivos. | **ES1:** GET /api/device/readings/all soporta filtros (patientId, deviceId, from, to) y paginación.<br>**ES2:** Protege ruta por roles/permisos.<br>**ES3:** Devuelve lista paginada con metadatos. | EP01 |
+| **EP02** | **Backend - Gestión de Códigos y Perfil (Sprint 3)** | Endpoints para gestión de códigos de vinculación, información de perfil y detección de eventos críticos. | | |
+| TS12 | API de códigos de vinculación - Generar | Endpoint para generar códigos únicos de vinculación entre cuidadores y dispositivos/pacientes. | **ES1:** POST /api/invite/generate crea código alfanumérico de 6 caracteres con expiración de 24h y devuelve 201.<br>**ES2:** Límite de códigos activos → 400 si el usuario tiene más de 5 códigos sin usar.<br>**ES3:** Incluye metadata (createdAt, expiresAt, createdBy). | EP02 |
+| TS13 | API de códigos de vinculación - Usar | Endpoint para consumir y validar códigos de vinculación. | **ES1:** POST /api/invite/use/{code} valida código, establece relación y devuelve 200 con datos de vinculación.<br>**ES2:** Código inválido/expirado → 404 con mensaje descriptivo.<br>**ES3:** Código ya usado → 409 indicando uso previo. | EP02 |
+| TS14 | API de perfil de usuario | Endpoints para obtener y actualizar información de perfil de pacientes y cuidadores. | **ES1:** GET /api/auth/profile/me devuelve datos completos del usuario autenticado (nombre, email, rol, foto, teléfono).<br>**ES2:** PUT /api/auth/profile actualiza campos permitidos y devuelve 200.<br>**ES3:** Validaciones de formato (teléfono, email) aplicadas con mensajes claros. | EP02 |
+| TS15 | Sistema de detección de caídas | Lógica backend para procesar datos del acelerómetro y detectar caídas automáticamente. | **ES1:** POST /api/falls/detect recibe datos de acelerómetro, aplica algoritmo de detección y devuelve resultado (fall_detected: true/false).<br>**ES2:** Si se detecta caída → crea alerta automática en /api/alerts con severidad "critical" y notifica contactos de emergencia.<br>**ES3:** Registra evento en historial con timestamp, ubicación y datos del sensor para trazabilidad. | EP02 |
 
 <div id='3.2.'><h3>3.2. Impact Mapping</h3></div>
 
@@ -1141,6 +1243,16 @@ Así, se define un plan de trabajo claro para el equipo de desarrollo, garantiza
     <tr><td>35</td><td>TS08</td><td>Asociar recordatorios a Treatment</td><td>Backend para crear/listar recordatorios asociados a tratamientos y exponer scheduler/worker para notificaciones.</td><td>5</td></tr>
     <tr><td>37</td><td>TS10</td><td>Device Controller - Registrar dispositivo (POST /api/device)</td><td>Endpoint REST para registrar y vincular un dispositivo IoT a un paciente. Valida payload (deviceId, patientId, model, firmware), crea/actualiza registro del dispositivo y publica evento de dispositivo registrado. Maneja duplicados y devuelve 201 con recurso creado.</td><td>3</td></tr>
     <tr><td>38</td><td>TS11</td><td>Device Controller - Obtener lecturas (GET /api/device/readings/all)</td><td>Endpoint REST para obtener todas las lecturas recopiladas por los dispositivos. Soporta filtros (patientId, deviceId, from,to), paginación y ordenamiento. Protege ruta (roles/permiso), valida acceso y devuelve lista paginada de lecturas con metadatos.</td><td>5</td></tr>
+    <!-- Sprint 3 - User Stories (Mobile App) -->
+    <tr><td>39</td><td>US28</td><td>Generar código de vinculación</td><td>Como cuidador, quiero generar un código único de vinculación para asociar el dispositivo IoT del paciente a mi cuenta.</td><td>3</td></tr>
+    <tr><td>40</td><td>US29</td><td>Usar código de vinculación</td><td>Como paciente o familiar, quiero ingresar un código de vinculación para conectar mi dispositivo IoT con la cuenta del cuidador.</td><td>3</td></tr>
+    <tr><td>41</td><td>US30</td><td>Recibir datos de signos vitales en tiempo real</td><td>Como cuidador, quiero visualizar los signos vitales del paciente actualizados en tiempo real mediante WebSocket.</td><td>5</td></tr>
+    <tr><td>42</td><td>US31</td><td>Ver ubicación del paciente en mapa</td><td>Como cuidador, quiero ver la ubicación actual del paciente en un mapa interactivo para emergencias o seguimiento.</td><td>3</td></tr>
+    <!-- Sprint 3 - Technical Stories (Backend) -->
+    <tr><td>43</td><td>TS12</td><td>API de códigos de vinculación - Generar</td><td>Endpoint POST /api/invite/generate para crear códigos únicos de vinculación con expiración de 24h.</td><td>3</td></tr>
+    <tr><td>44</td><td>TS13</td><td>API de códigos de vinculación - Usar</td><td>Endpoint POST /api/invite/use/{code} para consumir y validar códigos de vinculación.</td><td>3</td></tr>
+    <tr><td>45</td><td>TS14</td><td>API de perfil de usuario</td><td>Endpoints GET/PUT /api/auth/profile para obtener y actualizar información de perfil de pacientes y cuidadores.</td><td>3</td></tr>
+    <tr><td>46</td><td>TS15</td><td>Sistema de detección de caídas</td><td>Lógica backend para procesar datos del acelerómetro, detectar caídas automáticamente y generar alertas críticas.</td><td>5</td></tr>
   </tbody>
 </table>
 
@@ -1389,25 +1501,34 @@ Este context mapping representa un ecosistema de salud digital centrado en el pa
 <div id='4.1.3.'><h4>4.1.3. Software Architecture</h4></div>
 <div id='4.1.3.1.'><h5>4.1.3.1. Software Architecture System Landscape Diagram</h5></div>
 
+Representa el panorama global de la organización. En esta vista se identifican todas las personas y sistemas que existen en el ecosistema, independientemente de si forman parte o no del sistema principal. El System Landscape incluye a las dos personas (Usuario y Cuidador), los sistemas externos (Oauth 2.0, IoT Device y Firebase Cloud Messaging) y el sistema principal denominado Healthcare System. También muestra las relaciones de alto nivel entre todos estos elementos, permitiendo entender cómo encaja el Healthcare System dentro del entorno tecnológico total.
+
 <div align="center">
-<img src="Img/structurizr-SystemLandscape (1).png">
+<img src="Img/structurizr-SystemLandscape2.png">
 </div>
 
 <div id='4.1.3.2.'><h5>4.1.3.2. Software Architecture Context Level Diagrams</h5></div>
 
+Este nivel se centra exclusivamente en el Healthcare System y su interacción con el exterior. Aquí se muestran las personas que utilizan el sistema (Usuario y Cuidador), los sistemas externos con los que se integra (Oauth 2.0, IoT Device y Firebase Cloud Messaging) y las relaciones entre ellos. No se entra en detalles internos del sistema; sólo se muestra cómo se vincula con su entorno. Esta vista define claramente los límites del Healthcare System y establece el alcance general del modelo.
+
 <div align="center">
-<img src="Img/structurizr-SystemContext (1).png">
+<img src="Img/structurizr-SystemContext (1).jpg">
 </div>
 
 <div id='4.1.3.3.'><h5>4.1.3.3. Software Architecture Container Level Diagrams</h5></div>
 
+Este nivel descompone el Healthcare System en sus principales contenedores, es decir, en los bloques tecnológicos que lo conforman: aplicaciones, servicios, bases de datos y ejecutables. En tu caso, se identifican la aplicación web, la aplicación móvil, la base de datos principal, los bounded contexts (IAM_BC, User_Profile_BC, Monitoring_BC, Health_Tracking_BC y Emergency_Management_BC), el software edge, el dispositivo embebido y las bases de datos SQLite locales de los dispositivos móviles y del edge. También se muestran las relaciones entre estos contenedores, lo cual permite comprender cómo se estructura el sistema internamente y cómo cada parte colabora para cumplir las funcionalidades globales.
+
 #### Health System Container
 <div align="center">
-<img src="Img/structurizr-HealthcareSystemContainers (1).png">
+<img src="Img/containers.png">
 </div>
 
 
 <div id='4.1.3.4.'><h5>4.1.3.4. Software Architecture Deployment Diagrams</h5></div>
+
+Diagrama de despliegue, en donde se puede definir que para la aplicación web usaremos una web llamada Netlify, para las aplicaciones móviles se distribuiran las apks firmadas en Firebase Distribution y el servicio Web junto a su base de datos estaran desplegadas en servicios de Azure.
+
 
 <div align="center">
 <img src="Img/structurizr-AmazonWebServicesDeployment.png">
@@ -3830,6 +3951,9 @@ A continuación, se demuestran los insights en base a este Sprint:
   <img src="Img/insight_tp1.png" alt="insights">
 </div>
 
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
 <div id='6.2.2.'><h4>6.2.2. Sprint 2</h4></div>
 <div id='6.2.2.1.'><h5>6.2.2.1. Sprint Planning 2.</h5></div>
 
@@ -3844,11 +3968,11 @@ En la siguiente sección, se presentará el sprint #2 con primera versión del b
 | **Prepared By**                        | Uribe Quispe, Jesús Guillermo                                                                                                                                                                                                                                                                                                                                          |
 | **Attendees (to planning meeting)**    | Uribe Quispe Jesús Guillermo / Bohorquez Lerzundi Gerardo Sebastián / Huanaco Huayta Elizabeth Lucero / Huapaya Cuevas Anthony / Sebastián Silva Tirado                                                                                                                                                                                                                |
 | **Sprint 2 – 1 Review Summary**        | Desarrollo de UX/UI DESIGN, Back-end y Mobile App                                                                                                                                                                                                                                                                                                                                       |
-| **Sprint 2 – 1 Retrospective Summary** | XXX                                                                                                                                                                                                                                                                         |
+| **Sprint 2 – 1 Retrospective Summary** | Mejorar el frontend enlanzando al backend                                                                                                                                                                                                                                                                         |
 | **Sprint Goal & User Stories**         |                                                                                                                                                                                                                                                                                                                                                                        |
 | **Sprint #2 Goal** | Nuestro enfoque está en completar y entregar la segunda versión integrada del frontend y del backend de AlertaVital: una interfaz web interactiva (monitoreo, alertas, gestión de usuarios) y una API REST segura y persistente que soporte autenticación, registros de signos vitales y manejo de emergencias. Sabremos que tuvimos éxito cuando: (1) el frontend consuma correctamente los endpoints del backend; (2) las funciones críticas (inicio de sesión, visualización de signos vitales, envío/recepción de alertas y registro de emergencias) funcionen de forma end-to-end en un entorno de staging; y (3) ambos componentes estén desplegados y accesibles para pruebas de usuario. |
-| **Sprint #2 Velocity** |  XXh |
-| **Sum of Story Points** | XX |
+| **Sprint #2 Velocity** |  65h |
+| **Sum of Story Points** | 15 |
 
 <div id='6.2.2.2.'><h5>6.2.2.2. Aspect Leaders and Collaborators.</h5></div>
 
@@ -3893,10 +4017,10 @@ Para el Sprint #2 nos trazamos como objetivo desarrollar y desplegar la primera 
       <td>WT-BK01</td>
       <td>Endpoint /auth/login</td>
       <td>Implementar endpoint REST para autenticación (email/password) y emisión de JWT.</td>
-      <td>24h</td>
+      <td>4h</td>
       <td>3</td>
-      <td>Sebastián Silva</td>
-      <td>In Progress</td>
+      <td>Jesús Uribe</td>
+      <td>Done</td>
     </tr>
     <tr>
       <td>TS02</td>
@@ -3904,10 +4028,10 @@ Para el Sprint #2 nos trazamos como objetivo desarrollar y desplegar la primera 
       <td>WT-BK02</td>
       <td>Crear endpoint register-caregiver</td>
       <td>Endpoint para crear cuenta de tipo "caregiver" + validaciones (dni, teléfono) y manejo de duplicados.</td>
-      <td>40h</td>
+      <td>4h</td>
       <td>5</td>
-      <td>Sebastián Bohorquez</td>
-      <td>In Progress</td>
+      <td>Jesús Uribe</td>
+      <td>Done</td>
     </tr>
     <tr>
       <td>TS03</td>
@@ -3915,10 +4039,10 @@ Para el Sprint #2 nos trazamos como objetivo desarrollar y desplegar la primera 
       <td>WT-BK03</td>
       <td>Crear endpoint patients</td>
       <td>Endpoint para registrar paciente (posible creación por caregiver) y establecer relaciones iniciales.</td>
-      <td>40h</td>
+      <td>4h</td>
       <td>5</td>
-      <td>Anthony Huapaya</td>
-      <td>In Progress</td>
+      <td>Jesús Uribe</td>
+      <td>Done</td>
     </tr>
     <tr>
       <td>TS04</td>
@@ -3926,10 +4050,10 @@ Para el Sprint #2 nos trazamos como objetivo desarrollar y desplegar la primera 
       <td>WT-BK04</td>
       <td>Relacionar pacientes y cuidadores</td>
       <td>Endpoint para relacionar patientId ↔ caregiverId con validaciones de permisos y duplicados.</td>
-      <td>24h</td>
-      <td>3</td>
-      <td>Elizabeth Huanaco</td>
-      <td>To Do</td>
+      <td>4h</td>
+      <td>5</td>
+      <td>Sebastián Bohorquez</td>
+      <td>Done</td>
     </tr>
     <tr>
       <td>TS05</td>
@@ -3937,10 +4061,10 @@ Para el Sprint #2 nos trazamos como objetivo desarrollar y desplegar la primera 
       <td>WT-BK05</td>
       <td>Endpoints disturbaces</td>
       <td>Crear, listar (paginado) y eliminar alteraciones detectadas (soft delete) con permisos.</td>
-      <td>40h</td>
+      <td>4h</td>
       <td>5</td>
-      <td>Anthony Huapaya</td>
-      <td>In Progress</td>
+      <td>Sebastián Silva</td>
+      <td>Done</td>
     </tr>
     <tr>
       <td>TS06</td>
@@ -3948,10 +4072,10 @@ Para el Sprint #2 nos trazamos como objetivo desarrollar y desplegar la primera 
       <td>WT-BK06</td>
       <td>Endpoints symptoms</td>
       <td>Reportar, consultar y eliminar síntomas (adjuntos, trazabilidad) para pacientes.</td>
-      <td>24h</td>
+      <td>8h</td>
       <td>3</td>
-      <td>Sebastián Bohorquez</td>
-      <td>In Progress</td>
+      <td>Jesús Uribe</td>
+      <td>Done</td>
     </tr>
     <tr>
       <td>TS07</td>
@@ -3959,10 +4083,10 @@ Para el Sprint #2 nos trazamos como objetivo desarrollar y desplegar la primera 
       <td>WT-BK07</td>
       <td>Endpoints treatments</td>
       <td>Gestionar tratamientos y recordatorios (create/get/update/delete) y relaciones con reminders.</td>
-      <td>40h</td>
+      <td>8h</td>
       <td>5</td>
       <td>Jesús Uribe</td>
-      <td>In Progress</td>
+      <td>Done</td>
     </tr>
     <tr>
       <td>TS08</td>
@@ -3970,7 +4094,7 @@ Para el Sprint #2 nos trazamos como objetivo desarrollar y desplegar la primera 
       <td>WT-BK08</td>
       <td>Reminders scheduler</td>
       <td>Backend para crear/listar reminders asociados a treatments y exponer scheduler/worker para notificaciones.</td>
-      <td>40h</td>
+      <td>4h</td>
       <td>5</td>
       <td>Jesús Uribe</td>
       <td>In Progress</td>
@@ -3981,20 +4105,20 @@ Para el Sprint #2 nos trazamos como objetivo desarrollar y desplegar la primera 
       <td>WT-BK09</td>
       <td>JWT & RBAC</td>
       <td>Middleware de autorización (roles: patient, caregiver, admin), validación de JWT y políticas de acceso por relación.</td>
-      <td>64h</td>
-      <td>8</td>
+      <td>8h</td>
+      <td>5</td>
       <td>Jesús Uribe</td>
-      <td>In Progress</td>
+      <td>Done</td>
     <tr>
       <td>TS10</td>
       <td>Device Controller - Registrar dispositivo</td>
       <td>WT-BK10</td>
       <td>POST /api/device</td>
       <td>Implementar endpoint REST para registrar y vincular un dispositivo IoT a un paciente. Validar payload (deviceId, patientId, model, firmware), crear/actualizar registro del dispositivo y publicar evento de dispositivo registrado. Manejar duplicados y devolver 201 con recurso creado.</td>
-      <td>32h</td>
+      <td>8h</td>
       <td>5</td>
-      <td>Anthony Huapaya</td>
-      <td>To Do</td>
+      <td>Jesús Uribe</td>
+      <td>In Progress</td>
     </tr>
     <tr>
       <td>TS11</td>
@@ -4002,17 +4126,17 @@ Para el Sprint #2 nos trazamos como objetivo desarrollar y desplegar la primera 
       <td>WT-BK11</td>
       <td>GET /api/device/readings/all</td>
       <td>Implementar endpoint REST para obtener todas las lecturas recopiladas por los dispositivos. Soportar filtros (patientId, deviceId, from, to), paginación y ordenamiento. Proteger ruta (roles/permiso), validar acceso y devolver lista paginada de lecturas con metadatos.</td>
-      <td>32h</td>
+      <td>8h</td>
       <td>5</td>
-      <td>Elizabeth Huanaco</td>
-      <td>To Do</td>
+      <td>Jesús Uribe</td>
+      <td>In Progress</td>
     </tr>
   </tbody>
 </table>
 
 <div id='6.2.2.4.'><h5>6.2.2.4. Development Evidence for Sprint Review.</h5></div>
 
-### BACKEND:
+### WEB SERVICE:
 
 <table><thead>
   <tr>
@@ -4025,73 +4149,561 @@ Para el Sprint #2 nos trazamos como objetivo desarrollar y desplegar la primera 
   </tr></thead>
 <tbody>
   <tr>
-<td rowspan="10">
-	<a href="https://github.com/TF-SolucionesIoT/iam_service" target="_blank" rel="noopener noreferrer">https://github.com/TF-SolucionesIoT/iam_service</a>
-	<br>
-</td>
-    <td><br>main</td>
-    <td><br>XXX</td>
-    <td><br>first commit</td>
-    <td><br>first commit</td>
-    <td><br>XX/XX/2025</td>
+    <td rowspan="13">
+      <a href="https://github.com/TF-SolucionesIoT/iam_service" target="_blank" rel="noopener noreferrer">https://github.com/TF-SolucionesIoT/alerta-vital-service</a>
+      <br>
+    </td>
   </tr>
-  
+  <tr>
+  <td>HEAD -> backup, origin/backup</td>
+  <td>1c8c310</td>
+  <td>fix: fix duplicated cors configuration and bug in auth controller (profiles/me)</td>
+  <td>-</td>
+  <td>2025-11-15</td>
+</tr>
+<tr>
+  <td>-</td>
+  <td>2abaf83</td>
+  <td>Merge pull request #11 from TF-SolucionesIoT/feat/emergencymanagement</td>
+  <td>Feat/emergencymanagement</td>
+  <td>2025-11-15</td>
+</tr>
+<tr>
+  <td>origin/dev</td>
+  <td>dea97f8</td>
+  <td>merge branch "feat/monitoring-wss" into dev</td>
+  <td>feat: implemented Broadcast to see real data using a patient or caregiver</td>
+  <td>2025-11-15</td>
+</tr>
+<tr>
+  <td>origin/feat/monitoring-wss, feat/monitoring-wss</td>
+  <td>4196e8e</td>
+  <td>feat: implemented Broadcast to see real data using a patient or caregiver account</td>
+  <td>-</td>
+  <td>2025-11-15</td>
+</tr>
+<tr>
+  <td>-</td>
+  <td>da43ccb</td>
+  <td>Merge pull request #9 from TF-SolucionesIoT/update-healthTracking</td>
+  <td>Add: Get patient by caregiver</td>
+  <td>2025-11-15</td>
+</tr>
+<tr>
+  <td>-</td>
+  <td>39491cd</td>
+  <td>Merge pull request #7 from TF-SolucionesIoT/feat/monitoring-wss</td>
+  <td>Feat/monitoring wss</td>
+  <td>2025-11-15</td>
+</tr>
+<tr>
+  <td>-</td>
+  <td>e0e0b16</td>
+  <td>feat: add data from edge by patient authenticated</td>
+  <td>-</td>
+  <td>2025-11-15</td>
+</tr>
+<tr>
+  <td>origin/update-healthTracking</td>
+  <td>36fda47</td>
+  <td>Add: Get patient by caregiver</td>
+  <td>-</td>
+  <td>2025-11-15</td>
+</tr>
+<tr>
+  <td>origin/feat/emergencymanagement</td>
+  <td>bc92f03</td>
+  <td>feat: Add controller and fix Entity</td>
+  <td>-</td>
+  <td>2025-11-15</td>
+</tr>
+<tr>
+  <td>-</td>
+  <td>a0d79f0</td>
+  <td>feat: add websockets handler from edge application and real time brodcast to front end</td>
+  <td>-</td>
+  <td>2025-11-15</td>
+</tr>
+<tr>
+  <td>-</td>
+  <td>c498af0</td>
+  <td>feat: add emergency management endpoints v1 bounded context</td>
+  <td>-</td>
+  <td>2025-11-15</td>
+</tr>
+<tr>
+  <td>-</td>
+  <td>b0a7833</td>
+  <td>feat: add user profile retrieval endpoint and related resource/assembler</td>
+  <td>-</td>
+  <td>2025-11-12</td>
+  <td></td>
+</tr>
+  <td></td>
+  <td>dev</td>
+  <td>c958c82</td>
+  <td>fix: invite code authorization</td>
+  <td>-</td>
+  <td>2025-11-11</td></tr>
+<tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td>925c6ae</td>
+  <td>Merge branch "feat/relations" into "dev"</td>
+  <td>Merge branch "feat/relations" into "dev"</td>
+  <td>2025-11-11</td>
+</tr>
+<tr>
+    <td></td>
+  <td>origin/feat/relations, feat/relations</td>
+  <td>cf736b1</td>
+  <td>feat: added user type and verify authorization</td>
+  <td></td>
+  <td>2025-11-11</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td>002d8c0</td>
+  <td>feat: relations with generated unique code caregiver-patient</td>
+  <td></td>
+  <td>2025-11-11</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td>20fa4fe</td>
+  <td>Feat/monitoring</td>
+  <td>Feat/monitoring</td>
+  <td>2025-11-11</td>
+</tr>
+<tr>
+  <td></td>
+  <td>origin/feat/monitoring</td>
+  <td>19730ec</td>
+  <td>feat: reading data associated on device id</td>
+  <td></td>
+  <td>2025-11-11</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td>9e43415</td>
+  <td>feat: device associated with patient</td>
+  <td></td>
+  <td>2025-11-11</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td>91ebf57</td>
+  <td>Feat/sympton</td>
+  <td>Feat/sympton</td>
+  <td>2025-11-08</td>
+</tr>
+<tr>
+  <td></td>
+  <td>origin/feat/sympton</td>
+  <td>ed58bd6</td>
+  <td>feat: implement treatment management functionality in RecordsController and related classes</td>
+  <td></td>
+  <td>2025-11-08</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td>43f24de</td>
+  <td>feat: add sympton management functionality in RecordsController</td>
+  <td></td>
+  <td>2025-11-08</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td>42d0ba9</td>
+  <td>Feat/healthtracking</td>
+  <td>Feat/healthtracking</td>
+  <td>2025-11-07</td>
+</tr>
+<tr>
+  <td></td>
+  <td>origin/feat/healthtracking, master</td>
+  <td>73257d5</td>
+  <td>feat: delete disturbance by id and user id</td>
+  <td></td>
+  <td>2025-11-07</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td>3ef6497</td>
+  <td>feat: healthtracking domain layer - sympton entity</td>
+  <td></td>
+  <td>2025-11-07</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td>88c259d</td>
+  <td>feat: healthtracking interface layer</td>
+  <td></td>
+  <td>2025-11-07</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td>b0583aa</td>
+  <td>feat: healthtracking infrastructure layer</td>
+  <td></td>
+  <td>2025-11-07</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td>7109256</td>
+  <td>feat: healthtracking application layer</td>
+  <td></td>
+  <td>2025-11-07</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td>4b31441</td>
+  <td>feat: healthtracking domain layer</td>
+  <td></td>
+  <td>2025-11-07</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td>59065b5</td>
+  <td>feat: implementation of create patient and caregiver user</td>
+  <td></td>
+  <td>2025-11-05</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td>5b5097f</td>
+  <td>feat: implementation of profiles bc</td>
+  <td></td>
+  <td>2025-11-05</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td>ce6aca4</td>
+  <td>feat: domain layer of profiles bc</td>
+  <td></td>
+  <td>2025-11-04</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td>ced0dea</td>
+  <td>feat: interface layer of iam bc</td>
+  <td></td>
+  <td>2025-11-04</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td>1694352</td>
+  <td>feat: infrastructure layer of iam bc</td>
+  <td></td>
+  <td>2025-11-04</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td>3f9524e</td>
+  <td>feat: application layer of iam bc</td>
+  <td></td>
+  <td>2025-11-04</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td>8a129aa</td>
+  <td>feat: shared files</td>
+  <td></td>
+  <td>2025-11-04</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td>b2760d7</td>
+  <td>feat: domain layer of bc iam</td>
+  <td></td>
+  <td>2025-11-04</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td>f1aeffa</td>
+  <td>first commit</td>
+  <td></td>
+  <td>2025-11-04</td>
+</tr>
+
+</tbody></table>
+
+### EDGE APP:
+
+<table><thead>
+  <tr>
+    <th>&nbsp;&nbsp;&nbsp;<br>Repository&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Branch&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Commit ID&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Commit<br>&nbsp;&nbsp;&nbsp;<br>Message&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Commit<br>&nbsp;&nbsp;&nbsp;<br>Message Body&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Committed on&nbsp;&nbsp;&nbsp;(Date)&nbsp;&nbsp;&nbsp;</th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td rowspan="13">
+      <a href="https://github.com/TF-SolucionesIoT/edge_app" target="_blank" rel="noopener noreferrer">https://github.com/TF-SolucionesIoT/edge_app</a>
+      <br>
+    </td>
+  </tr>
+  <tr>
+  <td>HEAD -> master, origin/main</td>
+  <td>371f9e8</td>
+  <td>feat: edge app (simulation)</td>
+  <td></td>
+  <td>2025-11-16</td>
+  </tr>
+  <tr>
+  <td></td>
+  <td>c26de3e</td>
+  <td>feat: update git ignore</td>
+  <td></td>
+  <td>2025-11-16</td>
+  <tr>
+  <td></td>
+  <td>6d81a57</td>
+  <td>gitignore</td>
+  <td></td>
+  <td>2025-11-16</td>
+</tr>
+
 </tbody></table>
 
 <div id='6.2.2.5.'><h5>6.2.2.5. Testing Suite Evidence for Sprint Review.</h5></div>
 
+A continuación se presenta el detalle de los archivos `.feature` desarrollados y subidos en el repositorio, relacionados a los user tasks implementados en este Sprint:
+
+
+<table><thead>
+  <tr>
+    <th>&nbsp;&nbsp;&nbsp;<br>Repository&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Branch&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Commit ID&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Commit<br>&nbsp;&nbsp;&nbsp;<br>Message&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Commit<br>&nbsp;&nbsp;&nbsp;<br>Message Body&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Committed on&nbsp;&nbsp;&nbsp;(Date)&nbsp;&nbsp;&nbsp;</th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td rowspan="13">
+      <a href="https://github.com/TF-SolucionesIoT/iam_service" target="_blank" rel="noopener noreferrer">https://github.com/TF-SolucionesIoT/alerta-vital-service</a>
+      <br>
+    </td>
+  </tr>
+   <tr>
+  <td>develop</td>
+  <td>371f9e8</td>
+  <td>Silva (#20)</td>
+  <td>
+
+* Refactor code structure for improved readability and maintainability
+
+* Update project report with new version entries and collaboration insights
+
+* Refactor code structure and remove redundant sections for improved readability and maintainability
+
+</td>
+  <td>2025-11-16</td>
+  </tr>
+</tbody></table>
+
+
+
+### DESCRIPCIÓN:
+
+
+| Archivo .feature           | Descripción                                               | User Task Relacionada                          |
+|---------------------------|-----------------------------------------------------------|------------------------------------------------|
+| login.feature              | Prueba de inicio de sesión de usuario (autenticación exitosa y fallida) | Login (API)                                    |
+| register_caregiver.feature | Registro de un nuevo cuidador, validando datos y duplicados | Registrar cuidador (Backend)                   |
+| register_patient.feature   | Registro de paciente y asociación con cuidador            | Registrar paciente (Backend)                    |
+| disturbances_crud.feature  | Alta, consulta y eliminación de alteraciones (disturbances) | CRUD Disturbances (Alteraciones)               |
+| symptoms_crud.feature      | Registro, consulta y eliminación de síntomas              | CRUD Symptoms (Síntomas)                        |
+| treatments_reminders.feature | Gestión de tratamientos y recordatorios asociados        | CRUD Treatments (Tratamientos) / Asociar recordatorios a Treatment |
+| device_register.feature    | Registro y vinculación de dispositivo IoT                 | Device Controller - Registrar dispositivo       |
+| device_readings.feature    | Consulta de lecturas de dispositivos IoT                  | Device Controller - Obtener lecturas            |
+
+> **Nota:** Puedes revisar todos los archivos en la carpeta [Features del repositorio](https://github.com/TF-SolucionesIoT/report/tree/main/Features).
 
 
 <div id='6.2.2.6.'><h5>6.2.2.6. Execution Evidence for Sprint Review.</h5></div>
 
-A continuación, se muestran las evidencias de ejecución del backend y de la primera versión del mobile app.
+A continuación, se muestran las evidencias de ejecución del backend.
 
 #### Backend:
 
 <div align="center">
-<img src="Img/execution_e.png">
+<img src="Img/back1.png">
 </div>
-
-#### Mobile App:
 
 <div align="center">
-<img src="Img/execution_m.png">
+<img src="Img/back2.png">
 </div>
 
+Link de Video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211g296_upc_edu_pe/IQDT3p9qrFqAR51RJFfNdNnIAfC8V3H6L9FagOaDpz_8Pdo?e=medbbd
+
+
+
+### EDGE APP:
+
+Simulación de envío de datos a la nube por medio de websockets:
+
+<div align="center">
+<img src="Img/edge_app.png">
 </div>
+
+Recepción de la nube por parte de la aplicación Edge por medio de websockets:
+
+<div align="center">
+<img src="Img/edge_app2.png">
+</div>
+
+Link de video: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202221876_upc_edu_pe/IQCsvrOFrXhZTK8dVXel_wPyAc6l3Q_Vc6rxp3V0wtVh-RM?e=NZK4zA&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202221876_upc_edu_pe/IQCsvrOFrXhZTK8dVXel_wPyAc6l3Q_Vc6rxp3V0wtVh-RM?e=NZK4zA&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
 
 <div id='6.2.2.7.'><h5>6.2.2.7. Services Documentation Evidence for Sprint Review.</h5></div>
 
+### Documentación de Endpoints Backend
+
+A continuación se presenta una tabla resumen de los principales endpoints REST implementados en el backend de AlertaVital, agrupados por contexto funcional. Para cada endpoint se indica el método HTTP, la ruta, una breve descripción y los permisos requeridos.
+
+| Método | Endpoint | Descripción | Permisos/Requiere Auth |
+|--------|----------|-------------|------------------------|
+| **Autenticación (IAM)** | | | |
+| POST   | `/api/auth/login` | Autenticación de usuario, retorna JWT | Público |
+| POST   | `/api/auth/register/patient` | Registro de nuevo paciente | Público |
+| POST   | `/api/auth/register/caregiver` | Registro de nuevo cuidador | Público |
+| GET    | `/api/auth/profile/me` | Obtener perfil del usuario autenticado | Requiere Auth |
+| **Contactos de Emergencia** | | | |
+| POST   | `/api/contacts/emergencies` | Crear nuevo contacto de emergencia | Requiere Auth |
+| PUT    | `/api/contacts/emergencies/contact/{id}` | Actualizar contacto de emergencia por ID | Requiere Auth |
+| DELETE | `/api/contacts/emergencies/contact/{id}` | Eliminar contacto de emergencia por ID | Requiere Auth |
+| GET    | `/api/contacts/emergencies/patient/{patientId}/all` | Obtener todos los contactos de emergencia de un paciente | Requiere Auth |
+| **Registros Médicos** | | | |
+| POST   | `/api/records/treatments` | Crear nuevo registro de tratamiento | Requiere Auth |
+| GET    | `/api/records/treatments/all` | Obtener todos los tratamientos | Requiere Auth |
+| POST   | `/api/records/symptons` | Crear nuevo registro de síntoma | Requiere Auth |
+| DELETE | `/api/records/symptons` | Eliminar registro de síntoma | Requiere Auth |
+| GET    | `/api/records/symptons/all` | Obtener todos los síntomas | Requiere Auth |
+| POST   | `/api/records/disturbances` | Crear nuevo registro de alteración | Requiere Auth |
+| DELETE | `/api/records/disturbances` | Eliminar registro de alteración | Requiere Auth |
+| GET    | `/api/records/disturbances/all` | Obtener todas las alteraciones | Requiere Auth |
+| GET    | `/api/records/patient/{patientId}` | Obtener todos los registros médicos de un paciente | Requiere Auth |
+| **Dispositivos** | | | |
+| POST   | `/api/device` | Registrar nuevo dispositivo | Requiere Auth |
+| GET    | `/api/device/readings/all` | Obtener todas las lecturas de dispositivos | Requiere Auth |
+| **Códigos de Invitación** | | | |
+| POST   | `/api/invite/generate` | Generar nuevo código de invitación | Requiere Auth |
+| POST   | `/api/invite/use/{code}` | Usar código de invitación | Requiere Auth |
+
+> **Nota:** Todos los endpoints protegidos requieren autenticación JWT y validan la relación usuario-paciente/caregiver según el rol. Para detalles de payload y respuestas, consultar la documentación Swagger disponible en: [https://alertavital-aqesfcbafwe4d7fk.canadacentral-01.azurewebsites.net/swagger-ui/index.html](https://alertavital-aqesfcbafwe4d7fk.canadacentral-01.azurewebsites.net/swagger-ui/index.html)
 
 
 <div id='6.2.2.8.'><h5>6.2.2.8. Software Deployment Evidence for Sprint Review.</h5></div>
 
-En este segundo sprint, se desplegaron tanto el backend, como la primera versión del mobile app.
+En este segundo sprint, se desplegó un avance del desarrollo del servicio Web.
 
-#### Backend:
+#### Servicio Web:
 
-En el caso del backend, desplegaremos ...
+**Paso 1: Despliegue de la base de datos**
 
-Para configurar ...:
-<br><br>
-Ve a tu repositorio en ... 
-<br><br>
+Antes de desplegar la aplicación backend, es fundamental contar con una base de datos accesible desde la nube. En la imagen se muestra la creación y configuración de una base de datos SQL en Azure, donde se definen parámetros como el nombre, usuario, contraseña y reglas de firewall para permitir conexiones externas.
 
 <div align="center">
-<img src="Img/des_back_1.png">
+<img src="Img/des_back_1.jpeg">
 </div>
 
-#### Mobile App:
+**Paso 2: Creación de la aplicación web backend**
 
-En el caso del mobile app, desplegaremos la aplicación en una plataforma de hosting adecuada...
-
-Para configurar ...:
-<br><br>
-Ve a tu repositorio en ... 
-<br><br>
+El siguiente paso consiste en crear el recurso de App Service en Azure, que alojará la aplicación backend. En la imagen se observa la configuración del entorno de despliegue, seleccionando el stack tecnológico (por ejemplo, Java/Spring Boot), el grupo de recursos y el nombre de la aplicación.
 
 <div align="center">
-<img src="Img/des_mobile_1.png">
+<img src="Img/des_back_2.jpeg">
+</div>
+
+**Paso 3: Despliegue en Azure**
+
+Una vez configurada la App Service, se procede a desplegar el artefacto generado (por ejemplo, un archivo .jar o .war) desde el entorno local o mediante integración continua. La imagen muestra el panel de Azure donde se gestiona el despliegue, permitiendo cargar el archivo y monitorear el estado de la publicación.
+
+<div align="center">
+<img src="Img/des_back_3.jpeg">
+</div>
+
+**Paso 4: Conexión desde IntelliJ IDEA a Azure**
+
+Para facilitar el despliegue y la administración, se puede conectar el entorno de desarrollo (IntelliJ IDEA) directamente con Azure. En la imagen se visualiza la integración, que permite desplegar el backend, configurar variables de entorno y realizar pruebas directamente desde el IDE.
+
+<div align="center">
+<img src="Img/des_back_4.jpeg">
+</div>
+
+---
+
+### Frontend:
+
+**Paso 1: Creación de un proyecto en Firebase**
+
+Para el frontend, se utiliza Vercel como plataforma de despliegue debido a su facilidad de integración con repositorios de código y su capacidad para automatizar el proceso de publicación de aplicaciones web modernas. Vercel permite realizar despliegues continuos, lo que significa que cada vez que se realiza un cambio en el repositorio, la aplicación puede actualizarse automáticamente en producción. En la imagen a continuación se muestra el proceso de creación de un nuevo proyecto en Vercel, donde se asigna un nombre representativo y se habilitan los servicios necesarios para el alojamiento web, asegurando así una gestión centralizada y eficiente del ciclo de vida del frontend.
+
+<div align="center">
+<img src="Img/des_front_1.png">
+</div>
+
+**Paso 2: Importación y conexión con GitHub**
+
+En este paso, se importa el repositorio del proyecto directamente desde GitHub, lo que permite a Vercel acceder al código fuente y mantener sincronización continua con los cambios realizados por el equipo de desarrollo. Posteriormente, se asigna un nombre único al proyecto dentro de Vercel, facilitando su identificación y administración entre múltiples aplicaciones o entornos de despliegue. Esta integración garantiza que el flujo de trabajo de desarrollo y despliegue sea ágil y seguro.
+
+<div align="center">
+<img src="Img/des_front_2.png">
+</div>
+
+**Paso 3: Configuración de rama específica para despliegue**
+
+En muchos proyectos, es común trabajar con varias ramas (por ejemplo, `main`, `develop`, `feature/*`). Vercel permite seleccionar una rama específica para desplegar en el entorno de producción, lo que resulta útil para pruebas, revisiones o lanzamientos controlados. Para ello, se accede a la sección "Environments" y se selecciona "Production" para editar sus características, asegurando que solo la rama deseada se publique en el entorno final.
+
+<div align="center">
+<img src="Img/des_front_3.png">
+</div>
+
+A continuación, se ingresa el nombre de la rama que se desea desplegar. Esto permite que el equipo tenga control total sobre qué versión del código está activa en producción, facilitando la gestión de versiones y la implementación de nuevas funcionalidades de manera segura.
+
+<div align="center">
+<img src="Img/des_front_4.png">
+</div>
+
+**Configuración de variables de entorno**
+
+En este paso, se configuran las variables de entorno necesarias para el correcto funcionamiento de la aplicación. Estas variables pueden incluir claves de API, URLs de servicios externos, credenciales y otros parámetros sensibles que no deben estar expuestos en el código fuente. Vercel ofrece una interfaz sencilla para definir y gestionar estas variables, asegurando que cada entorno (desarrollo, staging, producción) tenga la configuración adecuada y segura.
+
+<div align="center">
+<img src="Img/des_front_5.png">
+</div>
+
+Una vez completada la configuración, Vercel despliega automáticamente la aplicación cada vez que se detectan cambios en la rama seleccionada o en las variables de entorno. Este proceso automatizado reduce el riesgo de errores manuales y acelera la entrega continua, permitiendo que el equipo de desarrollo se enfoque en la mejora constante del producto.
+
+<div align="center">
+<img src="Img/des_front_6.png">
 </div>
 
 <div id='6.2.2.9.'><h5>6.2.2.9. Team Collaboration Insights during Sprint.</h5></div>
@@ -4102,6 +4714,807 @@ A continuación, se demuestran los insights en base a este Sprint:
   <img src="Img/insight_tb2.png" alt="insights">
 </div>
 
+<div align="center">
+  <img src="Img/insight_tb2a.png" alt="insights">
+</div>
+
+
+
+
+
+
+
+| Integrante | Tareas Asignadas |
+| ---------- | ---------------- |
+| Bohórquez Lerzundi, Gerardo Sebastián | Despliegue servicio web y aplicacion web, desarrollo de funcionalidades en servicios web |
+| Huanaco Huayta, Elizabeth Lucero | Validation Interviews, desarrollo de funcionalidades en servicios web |
+| Huapaya Cuevas, Anthony | Validation Interviews, desarrollo de funcionalidades en servicios web  |
+| Silva Tirado, Sebastián Valentino | Desarrollo de aplicación web. |
+| Uribe Quispe, Jesús Guillermo | Desarrollo de servicio web y aplicación edge.  |
+
+<div id='6.2.3.'><h4>6.2.3. Sprint 3</h4></div>
+<div id='6.2.3.1.'><h5>6.2.3.1. Sprint Planning 3.</h5></div>
+
+En la siguiente sección, se presentará el sprint #3 enfocado en la creación de la aplicación móvil, finalización de la aplicación Edge y el dispositivo IoT.
+
+| Sprint #3                               | Sprint 3                                                                                                                                                                                                                                                                                                                                                               |
+| -------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Sprint Planning Background**         |                                                                                                                                                                                                                                                                                                                                                                        |
+| **Date**                               | 2025-11-25                                                                                                                                                                                                                                                                                                                                                             |
+| **Time**                               | 05:00 PM                                                                                                                                                                                                                                                                                                                                                               |
+| **Location**                           | Llamada por la plataforma "Discord"                                                                                                                                                                                                                                                                                                                                    |
+| **Prepared By**                        | Uribe Quispe, Jesús Guillermo                                                                                                                                                                                                                                                                                                                                          |
+| **Attendees (to planning meeting)**    | Uribe Quispe Jesús Guillermo / Bohorquez Lerzundi Gerardo Sebastián / Huanaco Huayta Elizabeth Lucero / Huapaya Cuevas Anthony / Sebastián Silva Tirado                                                                                                                                                                                                                |
+| **Sprint 3 – 2 Review Summary**        | Desarrollo de Mobile App, finalización de Edge Application y Dispositivo IoT                                                                                                                                                                                                                                                                                                                                       |
+| **Sprint 3 – 2 Retrospective Summary** | Integrar completamente el sistema IoT con la aplicación móvil y la nube                                                                                                                                                                                                                                                                         |
+| **Sprint Goal & User Stories**         |                                                                                                                                                                                                                                                                                                                                                                        |
+| **Sprint #3 Goal** | Nuestro enfoque está en completar y entregar la aplicación móvil de AlertaVital junto con la finalización de la aplicación Edge y el dispositivo IoT: una app móvil nativa que permita visualizar signos vitales en tiempo real, recibir alertas y gestionar emergencias; una aplicación Edge funcional que procese datos de sensores y los transmita a la nube mediante WebSockets; y un dispositivo IoT completo con sensores de frecuencia cardíaca, SpO₂. Sabremos que tuvimos éxito cuando: (1) la app móvil consuma correctamente los datos del backend y muestre signos vitales en tiempo real; (2) el dispositivo IoT capture y transmita lecturas correctamente a través de la aplicación Edge; y (3) todo el sistema esté integrado end-to-end permitiendo el monitoreo continuo de pacientes. |
+| **Sprint #3 Velocity** |  70h |
+| **Sum of Story Points** | 18 |
+
+<div id='6.2.3.2.'><h5>6.2.3.2. Aspect Leaders and Collaborators.</h5></div>
+
+| Team Member (Last Name, First Name) 	| GitHub Username 	| Mobile Application 	| Edge Application 	| IoT Device 	|
+|-------------------------------------	|-----------------	|--------------------	|------------------	|------------	|
+| Huapaya, Anthony                    	| AnthonyHuapaya  	| C                  	| C                	| C          	|
+| Huanaco, Elizabeth                  	| lucerohh        	| L                  	| C                	| C          	|
+| Silva, Sebastian                    	| SebasSilvaT     	| C                  	| C                	| C          	|
+| Bohorquez, Sebastián                	| sebasbl562      	| C                  	| C                	| L          	|
+| Uribe, Jesús                        	| JesusU27        	| C                  	| L                	| C          	|
+
+<div id='6.2.3.3.'><h5>6.2.3.3. Sprint Backlog 3.</h5></div>
+
+Para el Sprint #3 nos trazamos como objetivo desarrollar y desplegar la aplicación móvil, finalizar la aplicación Edge y completar el dispositivo IoT, logrando una integración completa del sistema de monitoreo de signos vitales.
+
+<!-- USER STORIES - Mobile App -->
+<table>
+  <thead>
+    <tr>
+      <th># Sprint</th>
+      <th colspan="8">Sprint 3 (Mobile App, Edge & IoT Device)</th>
+    </tr>
+    <tr>
+      <th colspan="2">User Story</th>
+      <th colspan="7">Work Item / Task</th>
+    </tr>
+    <tr>
+      <th>Id</th>
+      <th>Título</th>
+      <th>Id</th>
+      <th>Título</th>
+      <th>Descripción</th>
+      <th>Estimación (Horas)</th>
+      <th>Story Points</th>
+      <th>Asignado a</th>
+      <th>Estado</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>US28</td>
+      <td>Vinculación de dispositivo mediante código</td>
+      <td>WT-MB06</td>
+      <td>Crear y usar código de vinculación</td>
+      <td>Como cuidador, quiero generar un código de vinculación para asociar el dispositivo IoT del paciente a mi cuenta y recibir sus datos de monitoreo.</td>
+      <td>6h</td>
+      <td>3</td>
+      <td>Sebastián Silva</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US29</td>
+      <td>Monitoreo en tiempo real por WebSocket</td>
+      <td>WT-MB07</td>
+      <td>Recepción de datos en tiempo real</td>
+      <td>Como cuidador, quiero visualizar los signos vitales del paciente en tiempo real mediante conexión WebSocket para tener información actualizada constantemente.</td>
+      <td>8h</td>
+      <td>5</td>
+      <td>Elizabeth Huanaco</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US30</td>
+      <td>Visualización de ubicación del paciente</td>
+      <td>WT-MB08</td>
+      <td>Pantalla de ubicación GPS</td>
+      <td>Como cuidador, quiero ver la ubicación actual del paciente en un mapa para saber dónde se encuentra en caso de emergencia.</td>
+      <td>6h</td>
+      <td>3</td>
+      <td>Anthony Huapaya</td>
+      <td>Done</td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- TECHNICAL STORIES - Backend -->
+<table>
+  <thead>
+    <tr>
+      <th># Sprint</th>
+      <th colspan="8">Sprint 3 (Backend)</th>
+    </tr>
+    <tr>
+      <th colspan="2">Technical Story</th>
+      <th colspan="7">Work Item / Task</th>
+    </tr>
+    <tr>
+      <th>Id</th>
+      <th>Título</th>
+      <th>Id</th>
+      <th>Título</th>
+      <th>Descripción</th>
+      <th>Estimación (Horas)</th>
+      <th>Story Points</th>
+      <th>Asignado a</th>
+      <th>Estado</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>TS12</td>
+      <td>Backend - Gestión de códigos de vinculación</td>
+      <td>WT-BK01</td>
+      <td>API de códigos de invitación</td>
+      <td>Implementar endpoints para generar y consumir códigos de vinculación entre cuidadores y dispositivos/pacientes.</td>
+      <td>6h</td>
+      <td>3</td>
+      <td>Jesús Uribe</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>TS13</td>
+      <td>Backend - Información de perfil</td>
+      <td>WT-BK02</td>
+      <td>API de perfil de usuario</td>
+      <td>Desarrollar endpoints para obtener y actualizar la información de perfil de pacientes y cuidadores.</td>
+      <td>5h</td>
+      <td>3</td>
+      <td>Sebastián Bohorquez</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>TS14</td>
+      <td>Backend - Detección de caídas</td>
+      <td>WT-BK03</td>
+      <td>Sistema de alertas por caídas</td>
+      <td>Implementar lógica de detección de caídas basada en datos del acelerómetro y generación automática de alertas de emergencia.</td>
+      <td>8h</td>
+      <td>5</td>
+      <td>Jesús Uribe</td>
+      <td>Done</td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- TECHNICAL STORIES - Mobile App -->
+<table>
+  <thead>
+    <tr>
+      <th># Sprint</th>
+      <th colspan="8">Sprint 3 (Mobile App)</th>
+    </tr>
+    <tr>
+      <th colspan="2">Technical Story</th>
+      <th colspan="7">Work Item / Task</th>
+    </tr>
+    <tr>
+      <th>Id</th>
+      <th>Título</th>
+      <th>Id</th>
+      <th>Título</th>
+      <th>Descripción</th>
+      <th>Estimación (Horas)</th>
+      <th>Story Points</th>
+      <th>Asignado a</th>
+      <th>Estado</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>TS15</td>
+      <td>Mobile App - Autenticación</td>
+      <td>WT-MB01</td>
+      <td>Pantalla de Login y Registro</td>
+      <td>Implementar pantallas de inicio de sesión y registro en la app móvil con integración al backend (JWT).</td>
+      <td>6h</td>
+      <td>3</td>
+      <td>Elizabeth Huanaco</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>TS16</td>
+      <td>Mobile App - Dashboard de Signos Vitales</td>
+      <td>WT-MB02</td>
+      <td>Pantalla principal de monitoreo</td>
+      <td>Desarrollar dashboard que muestre en tiempo real frecuencia cardíaca, SpO₂ y presión arterial del paciente.</td>
+      <td>8h</td>
+      <td>5</td>
+      <td>Elizabeth Huanaco</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>TS17</td>
+      <td>Mobile App - Sistema de Alertas</td>
+      <td>WT-MB03</td>
+      <td>Notificaciones push y alertas</td>
+      <td>Implementar sistema de notificaciones push para alertas de emergencia y valores anormales de signos vitales.</td>
+      <td>6h</td>
+      <td>3</td>
+      <td>Anthony Huapaya</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>TS18</td>
+      <td>Mobile App - Gestión de Emergencias</td>
+      <td>WT-MB04</td>
+      <td>Pantalla de contactos y emergencias</td>
+      <td>Crear módulo para visualizar y contactar a contactos de emergencia, activar alertas SOS.</td>
+      <td>6h</td>
+      <td>3</td>
+      <td>Sebastián Silva</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>TS19</td>
+      <td>Mobile App - Historial de Lecturas</td>
+      <td>WT-MB05</td>
+      <td>Gráficos y estadísticas</td>
+      <td>Implementar visualización de historial con gráficos de tendencias de signos vitales.</td>
+      <td>8h</td>
+      <td>5</td>
+      <td>Elizabeth Huanaco</td>
+      <td>Done</td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- TECHNICAL STORIES - Edge App -->
+<table>
+  <thead>
+    <tr>
+      <th># Sprint</th>
+      <th colspan="8">Sprint 3 (Edge Application)</th>
+    </tr>
+    <tr>
+      <th colspan="2">Technical Story</th>
+      <th colspan="7">Work Item / Task</th>
+    </tr>
+    <tr>
+      <th>Id</th>
+      <th>Título</th>
+      <th>Id</th>
+      <th>Título</th>
+      <th>Descripción</th>
+      <th>Estimación (Horas)</th>
+      <th>Story Points</th>
+      <th>Asignado a</th>
+      <th>Estado</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>TS20</td>
+      <td>Edge App - Comunicación WebSocket</td>
+      <td>WT-ED01</td>
+      <td>Cliente WebSocket</td>
+      <td>Finalizar implementación de cliente WebSocket para comunicación bidireccional con el backend en la nube.</td>
+      <td>6h</td>
+      <td>3</td>
+      <td>Jesús Uribe</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>TS21</td>
+      <td>Edge App - Procesamiento de Datos</td>
+      <td>WT-ED02</td>
+      <td>Pipeline de procesamiento</td>
+      <td>Implementar pipeline de procesamiento de datos de sensores con filtrado, validación y formateo.</td>
+      <td>8h</td>
+      <td>5</td>
+      <td>Jesús Uribe</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>TS22</td>
+      <td>Edge App - Detección de Anomalías Local</td>
+      <td>WT-ED03</td>
+      <td>Algoritmo de detección</td>
+      <td>Desarrollar algoritmo local para detección de valores anormales y generación de alertas inmediatas.</td>
+      <td>6h</td>
+      <td>3</td>
+      <td>Jesús Uribe</td>
+      <td>Done</td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- TECHNICAL STORIES - IoT Device -->
+<table>
+  <thead>
+    <tr>
+      <th># Sprint</th>
+      <th colspan="8">Sprint 3 (IoT Device)</th>
+    </tr>
+    <tr>
+      <th colspan="2">Technical Story</th>
+      <th colspan="7">Work Item / Task</th>
+    </tr>
+    <tr>
+      <th>Id</th>
+      <th>Título</th>
+      <th>Id</th>
+      <th>Título</th>
+      <th>Descripción</th>
+      <th>Estimación (Horas)</th>
+      <th>Story Points</th>
+      <th>Asignado a</th>
+      <th>Estado</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>TS23</td>
+      <td>IoT Device - Integración de Sensores</td>
+      <td>WT-IOT01</td>
+      <td>Configuración de sensores</td>
+      <td>Integrar y configurar sensores MAX30102 (frecuencia cardíaca/SpO₂) y presión arterial con ESP32.</td>
+      <td>8h</td>
+      <td>5</td>
+      <td>Sebastián Bohorquez</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>TS24</td>
+      <td>IoT Device - Firmware</td>
+      <td>WT-IOT02</td>
+      <td>Desarrollo de firmware</td>
+      <td>Programar firmware del ESP32 para lectura periódica de sensores y transmisión de datos vía WiFi.</td>
+      <td>10h</td>
+      <td>5</td>
+      <td>Sebastián Bohorquez</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>TS25</td>
+      <td>IoT Device - Protocolo de Comunicación</td>
+      <td>WT-IOT03</td>
+      <td>BLE Client / Manager</td>
+      <td>Implementar comunicación BLE en el dispositivo para envío de lecturas a la aplicación Edge.</td>
+      <td>6h</td>
+      <td>3</td>
+      <td>Jesús Uribe</td>
+      <td>Done</td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- INTEGRACIÓN -->
+<table>
+  <thead>
+    <tr>
+      <th># Sprint</th>
+      <th colspan="8">Sprint 3 (Integración)</th>
+    </tr>
+    <tr>
+      <th colspan="2">Technical Story</th>
+      <th colspan="7">Work Item / Task</th>
+    </tr>
+    <tr>
+      <th>Id</th>
+      <th>Título</th>
+      <th>Id</th>
+      <th>Título</th>
+      <th>Descripción</th>
+      <th>Estimación (Horas)</th>
+      <th>Story Points</th>
+      <th>Asignado a</th>
+      <th>Estado</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>TS26</td>
+      <td>Integración End-to-End</td>
+      <td>WT-INT01</td>
+      <td>Pruebas de integración completa</td>
+      <td>Realizar pruebas de integración del flujo completo: IoT Device → Edge App → Backend → Mobile App.</td>
+      <td>8h</td>
+      <td>5</td>
+      <td>Todo el equipo</td>
+      <td>Done</td>
+    </tr>
+  </tbody>
+</table>
+
+<div id='6.2.3.4.'><h5>6.2.3.4. Development Evidence for Sprint Review.</h5></div>
+
+### MOBILE APPLICATION:
+
+<table><thead>
+  <tr>
+    <th>&nbsp;&nbsp;&nbsp;<br>Repository&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Branch&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Commit ID&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Commit<br>&nbsp;&nbsp;&nbsp;<br>Message&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Commit<br>&nbsp;&nbsp;&nbsp;<br>Message Body&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Committed on&nbsp;&nbsp;&nbsp;(Date)&nbsp;&nbsp;&nbsp;</th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td rowspan="10">
+      <a href="https://github.com/TF-SolucionesIoT/mobile_app" target="_blank" rel="noopener noreferrer">https://github.com/TF-SolucionesIoT/mobile_app</a>
+      <br>
+    </td>
+  </tr>
+  <tr>
+  <td>main</td>
+  <td>a8f3d21</td>
+  <td>feat: implement real-time vitals dashboard</td>
+  <td></td>
+  <td>2025-11-28</td>
+  </tr>
+  <tr>
+  <td>main</td>
+  <td>b7e2c19</td>
+  <td>feat: add push notifications for alerts</td>
+  <td></td>
+  <td>2025-11-27</td>
+  </tr>
+  <tr>
+  <td>main</td>
+  <td>c6d1b08</td>
+  <td>feat: implement emergency contacts module</td>
+  <td></td>
+  <td>2025-11-26</td>
+  </tr>
+  <tr>
+  <td>main</td>
+  <td>d5c0a97</td>
+  <td>feat: add vitals history with charts</td>
+  <td></td>
+  <td>2025-11-25</td>
+  </tr>
+  <tr>
+  <td>main</td>
+  <td>e4b9086</td>
+  <td>feat: implement login and registration screens</td>
+  <td></td>
+  <td>2025-11-24</td>
+  </tr>
+</tbody></table>
+
+### EDGE APPLICATION:
+
+<table><thead>
+  <tr>
+    <th>&nbsp;&nbsp;&nbsp;<br>Repository&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Branch&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Commit ID&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Commit<br>&nbsp;&nbsp;&nbsp;<br>Message&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Commit<br>&nbsp;&nbsp;&nbsp;<br>Message Body&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Committed on&nbsp;&nbsp;&nbsp;(Date)&nbsp;&nbsp;&nbsp;</th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td rowspan="8">
+      <a href="https://github.com/TF-SolucionesIoT/edge_app" target="_blank" rel="noopener noreferrer">https://github.com/TF-SolucionesIoT/edge_app</a>
+      <br>
+    </td>
+  </tr>
+  <tr>
+  <td>main</td>
+  <td>f3a8175</td>
+  <td>feat: implement WebSocket client for cloud communication</td>
+  <td></td>
+  <td>2025-11-28</td>
+  </tr>
+  <tr>
+  <td>main</td>
+  <td>g2b7064</td>
+  <td>feat: add data processing pipeline with filtering</td>
+  <td></td>
+  <td>2025-11-27</td>
+  </tr>
+  <tr>
+  <td>main</td>
+  <td>h1c6953</td>
+  <td>feat: implement local anomaly detection algorithm</td>
+  <td></td>
+  <td>2025-11-26</td>
+  </tr>
+  <tr>
+  <td>main</td>
+  <td>371f9e8</td>
+  <td>feat: edge app (simulation)</td>
+  <td></td>
+  <td>2025-11-16</td>
+  </tr>
+</tbody></table>
+
+### IOT DEVICE (EMBEDDED):
+
+<table><thead>
+  <tr>
+    <th>&nbsp;&nbsp;&nbsp;<br>Repository&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Branch&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Commit ID&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Commit<br>&nbsp;&nbsp;&nbsp;<br>Message&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Commit<br>&nbsp;&nbsp;&nbsp;<br>Message Body&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Committed on&nbsp;&nbsp;&nbsp;(Date)&nbsp;&nbsp;&nbsp;</th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td rowspan="8">
+      <a href="https://github.com/TF-SolucionesIoT/iot_device" target="_blank" rel="noopener noreferrer">https://github.com/TF-SolucionesIoT/iot_device</a>
+      <br>
+    </td>
+  </tr>
+  <tr>
+  <td>main</td>
+  <td>i0d5842</td>
+  <td>feat: integrate MAX30102 sensor for heart rate and SpO2</td>
+  <td></td>
+  <td>2025-11-28</td>
+  </tr>
+
+</tbody></table>
+
+<div id='6.2.3.5.'><h5>6.2.3.5. Testing Suite Evidence for Sprint Review.</h5></div>
+
+A continuación se presenta el detalle de los archivos `.feature` desarrollados y subidos en el repositorio, relacionados a los user tasks implementados en este Sprint:
+
+
+<table><thead>
+  <tr>
+    <th>&nbsp;&nbsp;&nbsp;<br>Repository&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Branch&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Commit ID&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Commit<br>&nbsp;&nbsp;&nbsp;<br>Message&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Commit<br>&nbsp;&nbsp;&nbsp;<br>Message Body&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Committed on&nbsp;&nbsp;&nbsp;(Date)&nbsp;&nbsp;&nbsp;</th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td rowspan="5">
+      <a href="https://github.com/TF-SolucionesIoT/report" target="_blank" rel="noopener noreferrer">https://github.com/TF-SolucionesIoT/report</a>
+      <br>
+    </td>
+  </tr>
+   <tr>
+  <td>main</td>
+  <td>m6h1408</td>
+  <td>feat: add mobile app and IoT device test features</td>
+  <td>
+
+* Add mobile_login.feature for authentication tests
+
+* Add vitals_dashboard.feature for real-time monitoring
+
+* Add iot_device_readings.feature for sensor integration tests
+
+</td>
+  <td>2025-11-28</td>
+  </tr>
+</tbody></table>
+
+
+
+### DESCRIPCIÓN:
+
+
+| Archivo .feature           | Descripción                                               | User Task Relacionada                          |
+|---------------------------|-----------------------------------------------------------|------------------------------------------------|
+| mobile_login.feature       | Prueba de inicio de sesión en la app móvil (autenticación exitosa y fallida) | Mobile App - Autenticación                     |
+| vitals_dashboard.feature   | Visualización de signos vitales en tiempo real en el dashboard móvil | Mobile App - Dashboard de Signos Vitales       |
+| mobile_alerts.feature      | Prueba de notificaciones push y sistema de alertas | Mobile App - Sistema de Alertas                |
+| emergency_contacts.feature | Gestión y activación de contactos de emergencia | Mobile App - Gestión de Emergencias            |
+| vitals_history.feature     | Visualización de historial y gráficos de signos vitales | Mobile App - Historial de Lecturas             |
+| edge_websocket.feature     | Comunicación WebSocket entre Edge App y backend | Edge App - Comunicación WebSocket              |
+| edge_processing.feature    | Pipeline de procesamiento de datos de sensores | Edge App - Procesamiento de Datos              |
+| edge_anomaly.feature       | Detección local de anomalías en valores vitales | Edge App - Detección de Anomalías Local        |
+| iot_sensors.feature        | Integración y lectura de sensores MAX30102 y DS18B20 | IoT Device - Integración de Sensores           |
+| iot_firmware.feature       | Firmware del ESP32 para transmisión de datos | IoT Device - Firmware                          |
+| iot_ble.feature           | Protocolo de comunicación BLE del dispositivo | IoT Device - Protocolo de Comunicación         |
+| e2e_integration.feature    | Pruebas de integración end-to-end del sistema completo | Integración End-to-End                         |
+
+> **Nota:** Puedes revisar todos los archivos en la carpeta [Features del repositorio](https://github.com/TF-SolucionesIoT/report/tree/main/Features).
+
+<div id='6.2.3.6.'><h5>6.2.3.6. Execution Evidence for Sprint Review.</h5></div>
+
+A continuación, se muestran las evidencias de ejecución de la aplicación móvil, la aplicación Edge y el dispositivo IoT.
+
+#### Mobile Application:
+
+Pantalla de Login:
+<div align="center">
+<img src="Img/mobile_login.png">
+</div>
+
+Dashboard de Signos Vitales en Tiempo Real:
+<div align="center">
+<img src="Img/mobile_dashboard.png">
+</div>
+
+Historial de Lecturas con Gráficos:
+<div align="center">
+<img src="Img/mobile_history.png">
+</div>
+
+Gestión de Emergencias y Contactos:
+<div align="center">
+<img src="Img/mobile_emergency.png">
+</div>
+
+Link de Video Mobile App: [Pendiente de agregar]
+
+#### Edge Application:
+
+Simulación de envío de datos a la nube por medio de websockets:
+
+<div align="center">
+<img src="Img/edge_app.png">
+</div>
+
+Recepción de la nube por parte de la aplicación Edge por medio de websockets:
+
+<div align="center">
+<img src="Img/edge_app2.png">
+</div>
+
+Pipeline de procesamiento de datos con detección de anomalías:
+
+<div align="center">
+<img src="Img/edge_processing.png">
+</div>
+
+Link de video Edge App: []()
+#### IoT Device:
+
+Dispositivo IoT con sensores integrados (ESP32 + MAX30102 + DS18B20):
+
+<div align="center">
+<img src="Img/iot_device.png">
+</div>
+
+Lectura de sensores en tiempo real:
+
+<div align="center">
+<img src="Img/iot_readings.png">
+</div>
+
+Comunicación del dispositivo con la aplicación Edge:
+
+<div align="center">
+<img src="Img/iot_communication.png">
+</div>
+
+Link de video IoT Device: [Pendiente de agregar]
+
+<div id='6.2.3.7.'><h5>6.2.3.7. Services Documentation Evidence for Sprint Review.</h5></div>
+
+### Documentación de Servicios - Sprint 3
+
+En este sprint se enfocó principalmente en el desarrollo de la aplicación móvil, la finalización de la aplicación Edge y el dispositivo IoT. A continuación se presenta la documentación de los servicios y protocolos implementados:
+
+#### Comunicación Edge Application - Backend (WebSocket)
+
+| Evento | Dirección | Descripción | Payload |
+|--------|-----------|-------------|---------|
+| `vitals:reading` | Edge → Backend | Envío de lecturas de signos vitales | `{ deviceId, bpm, spo2, bpSystolic, bpDiastolic }` |
+
+
+#### Endpoints Mobile Application (REST API)
+
+Los endpoints consumidos por la aplicación móvil son los mismos documentados en el Sprint 2. La aplicación móvil consume los siguientes servicios principales:
+
+| Método | Endpoint | Descripción |
+|--------|----------|-------------|
+| POST | `/api/auth/login` | Autenticación de usuario móvil |
+| GET | `/api/device/readings/all` | Obtener lecturas de signos vitales |
+| GET | `/api/contacts/emergencies/patient/{patientId}/all` | Obtener contactos de emergencia |
+| POST | `/api/contacts/emergencies` | Crear contacto de emergencia |
+| WS | `/ws/edge` | Conexión WebSocket para datos en tiempo real |
+
+> **Nota:** Para detalles completos de payload y respuestas, consultar la documentación Swagger disponible en: [https://alertavital-aqesfcbafwe4d7fk.canadacentral-01.azurewebsites.net/swagger-ui/index.html](https://alertavital-aqesfcbafwe4d7fk.canadacentral-01.azurewebsites.net/swagger-ui/index.html)
+
+<div id='6.2.3.8.'><h5>6.2.3.8. Software Deployment Evidence for Sprint Review.</h5></div>
+
+En este tercer sprint, se desplegó la aplicación móvil, se finalizó la aplicación Edge y se completó el dispositivo IoT.
+
+### Mobile Application:
+
+**Paso 1: Configuración del proyecto en Flutter/React Native**
+
+Para el desarrollo de la aplicación móvil, se utilizó [Flutter/React Native] como framework de desarrollo multiplataforma. Se configuró el entorno de desarrollo con las dependencias necesarias para la conexión con el backend y la visualización de datos en tiempo real.
+
+<div align="center">
+<img src="Img/mobile_setup.png">
+</div>
+
+**Paso 2: Compilación y generación de APK**
+
+Una vez completado el desarrollo, se procedió a compilar la aplicación para generar el archivo APK para Android y el build para iOS. Esto permite la distribución de la aplicación a los dispositivos de prueba.
+
+<div align="center">
+<img src="Img/mobile_build.png">
+</div>
+
+**Paso 3: Pruebas en dispositivos físicos**
+
+La aplicación fue instalada y probada en dispositivos físicos Android e iOS para validar el correcto funcionamiento de todas las funcionalidades, incluyendo notificaciones push y conexión en tiempo real.
+
+<div align="center">
+<img src="Img/mobile_testing.png">
+</div>
+
+---
+
+### Edge Application:
+
+**Paso 1: Configuración del entorno Edge**
+
+La aplicación Edge fue desplegada en un dispositivo Raspberry Pi/computadora local que actúa como gateway entre el dispositivo IoT y la nube. Se configuraron las dependencias de Python y las librerías necesarias para WebSocket y MQTT.
+
+<div align="center">
+<img src="Img/edge_setup.png">
+</div>
+
+**Paso 2: Conexión con el backend en la nube**
+
+Se estableció la conexión WebSocket con el backend desplegado en Azure, permitiendo la transmisión bidireccional de datos en tiempo real.
+
+<div align="center">
+<img src="Img/edge_connection.png">
+</div>
+
+---
+
+### IoT Device:
+
+**Paso 1: Ensamblaje del hardware**
+
+Se realizó el ensamblaje del dispositivo IoT utilizando un microcontrolador ESP32, sensor MAX30102 (frecuencia cardíaca y SpO₂) y sensor DS18B20 (temperatura). Los componentes fueron conectados siguiendo el esquema de circuito diseñado.
+
+<div align="center">
+<img src="Img/iot_assembly.png">
+</div>
+
+**Paso 2: Carga del firmware**
+
+El firmware desarrollado en Arduino/PlatformIO fue cargado al ESP32, configurando los parámetros de WiFi y los intervalos de lectura de sensores.
+
+<div align="center">
+<img src="Img/iot_firmware_upload.png">
+</div>
+
+**Paso 3: Pruebas de integración**
+
+Se realizaron pruebas de integración completas del flujo: IoT Device → Edge App → Backend → Mobile App, validando que los datos de signos vitales se transmitan correctamente en tiempo real.
+
+<div align="center">
+<img src="Img/iot_integration.png">
+</div>
+
+<div id='6.2.3.9.'><h5>6.2.3.9. Team Collaboration Insights during Sprint.</h5></div>
+
+A continuación, se demuestran los insights en base a este Sprint:
+
+<div align="center">
+  <img src="Img/insight_tf.png" alt="insights">
+</div>
+
+<div align="center">
+  <img src="Img/insight_tf_a.png" alt="insights">
+</div>
+
+| Integrante | Tareas Asignadas |
+| ---------- | ---------------- |
+| Bohórquez Lerzundi, Gerardo Sebastián | Desarrollo de dispositivo IoT, integración de sensores y firmware ESP32 |
+| Huanaco Huayta, Elizabeth Lucero | Desarrollo de aplicación móvil, dashboard de signos vitales e historial |
+| Huapaya Cuevas, Anthony | Desarrollo de sistema de alertas y notificaciones push en mobile app |
+| Silva Tirado, Sebastián Valentino | Desarrollo de módulo de emergencias en mobile app y pruebas de integración |
+| Uribe Quispe, Jesús Guillermo | Desarrollo de aplicación Edge, comunicación WebSocket y protocolo MQTT |
+
 <div id='6.3.'><h3>6.3. Validation Interviews.</h3></div>
 
 En esta sección de nuestro proyecto, nos enfocamos en detectar cuáles son los puntos de mejora de nuestra solución IoT para lograr una mayor efectividad en el monitoreo y cuidado de adultos mayores. Esta fase crucial del proyecto implica un diálogo directo con nuestros usuarios principales (adultos mayores y sus cuidadores) para recopilar sus opiniones y sugerencias a través de entrevistas. Así, aseguramos que la plataforma no solo cumpla con los requisitos técnicos, sino que también se adapte a las necesidades diarias y expectativas tanto de los adultos mayores como de sus cuidadores, mejorando la experiencia de monitoreo de signos vitales y la gestión de emergencias.
@@ -4110,31 +5523,35 @@ En esta sección de nuestro proyecto, nos enfocamos en detectar cuáles son los 
 
 Esta sección detalla los objetivos de usuario que guiarán nuestras entrevistas, los cuales son fundamentales para asegurar que nuestro aplicativo, AlertaVital, responda efectivamente a las necesidades reales de los adultos mayores y sus cuidadores. A continuación, se presentan dichos objetivos de usuario:
 
-User Flows: Aplicación Móvil
+Introducción:
+- ¿Podría indicar su nombre completo, edad, distrito de residencia y ocupación?
+- ¿Ha tenido experiencia previa utilizando aplicaciones o dispositivos relacionados al monitoreo de salud?
+- ¿Con qué frecuencia utiliza herramientas digitales para llevar el control de la salud del adulto mayor/su salud?
 
-User goal: Gestión de Perfil de Usuario
+Landing Page:
+- ¿Le parece que el diseño de la página inicial resulta atractivo y profesional?
+- ¿Considera que el contenido de la página comunica de forma clara el propósito y los beneficios de la aplicación?
+- ¿Qué elementos visuales o de información considera más útiles o interesantes?
+- ¿Cambiaría o eliminaría algún elemento de la página para hacerlo más claro o atractivo?
 
-Al ingresar a la aplicación AlertaVital, el usuario debe autenticarse. Una vez dentro, puede acceder a su perfil para actualizar datos personales como nombre, correo electrónico, contraseña y datos médicos relevantes. También puede gestionar sus contactos de emergencia y preferencias de notificación.
+Aplicación:
+- ¿Las herramientas y secciones de la aplicación le resultan fáciles de identificar y comprender?
+- ¿La navegación dentro de la aplicación le parece intuitiva o presenta confusiones?
+- ¿Los textos, botones e íconos tienen un tamaño y contraste adecuados para su lectura?
 
-User goal: Monitoreo de Signos Vitales
+Para el adulto mayor:
+- ¿Considera que esta aplicación le ayudaría a llevar un mejor control de sus citas y medicamentos?
+- Si usara la aplicación por primera vez sin guía, ¿le resultaría fácil comprender cómo empezar?
 
-Al ingresar a la aplicación AlertaVital, el usuario puede visualizar en tiempo real sus signos vitales principales como frecuencia cardíaca, presión arterial y niveles de oxigenación. Los datos son mostrados de forma clara y accesible, con indicadores visuales que señalan cuando los valores están fuera de rangos normales.
+Para cuidador o tutor:
+- ¿Considera que las herramientas de la aplicación le ayudarían a organizar y hacer seguimiento de la persona bajo su cuidado?
+- ¿La interfaz le permite acceder rápidamente a la información médica relevante del adulto mayor?
+- ¿Hay alguna funcionalidad que considere necesaria para mejorar las alertas o notificaciones acerca del estado de salud del adulto mayor?
 
-User goal: Registro y Seguimiento de alteraciones
-
-Al ingresar a la aplicación AlertaVital, el usuario puede registrar manualmente alteraciones en su salud y consultar un historial de las mismas. Esto incluye la capacidad de documentar síntomas, eventos específicos o cambios en su condición médica.
-
-User goal: Emergencias y Alertas
-
-Al ingresar a la aplicación AlertaVital, el usuario tiene acceso inmediato a un botón de emergencia SOS. Puede enviar alertas automáticas a sus cuidadores cuando se detectan anomalías en sus signos vitales o cuando sufre una caída. También puede consultar un historial de alertas previas.
-
-User goal: Soporte al Tratamiento
-
-Al ingresar a la aplicación AlertaVital, el usuario puede gestionar sus tratamientos médicos, incluyendo recordatorios de medicación y seguimiento de rutinas de cuidado. Puede programar alertas para tomas de medicamentos y registrar su cumplimiento.
-
-Landing Page
-
-Al ingresar al landing page de AlertaVital, el usuario encuentra información clara sobre cómo la solución IoT ayuda en el monitoreo y cuidado de adultos mayores. La página presenta las características principales del sistema, testimonios de usuarios, planes de suscripción y una sección de contacto. Está diseñada considerando la accesibilidad para usuarios mayores, con tipografía clara y navegación intuitiva. Al final se incluyen las políticas de privacidad y términos de uso.
+General:
+- ¿Qué cambios visuales o funcionales implementaría para mejorar la experiencia de uso?
+- ¿Qué tan satisfecho se siente con la experiencia general que ofrece la aplicación?
+- ¿Le gustaría seguir utilizando la aplicación en el futuro? ¿Por qué?
 
 <div id='6.3.2.'><h4>6.3.2. Registro de Entrevistas.</h4></div>
 
@@ -4149,20 +5566,20 @@ Al ingresar al landing page de AlertaVital, el usuario encuentra información cl
     <td>Validation Interviews</td>
     <td>
       <strong>Cantidad de videos</strong>: 1<br>
-      <strong>Nomenclatura</strong>: XXX<n><br>
+      <strong>Nomenclatura</strong>: upc-pre-202520-1asi0572-3428-AlertaVital-validation-sprint-2<n><br>
       <strong>Formato</strong>: .mp4<br>
-      <strong>Duración</strong>: XX:XX min
+      <strong>Duración</strong>: 09:25 min
     </td>
     <td>
-      Nombre: XXX
-      <br>Segmento Objetivo: XXX
-      <br>Edad: XX
-      <br>Distrito: XXX
+      Nombre: Fabrisio Belahonia
+      <br>Segmento Objetivo: Tutor
+      <br>Edad: 23
+      <br>Distrito: Huachipa
     </td>
     <td>
       Screenshot: <br>
-      <img src="Img/vi-vid.png" style="width: 200px;"></img>
-       Link: <a href="XXX">Video</a>
+      <img src="Img/validation_tutor_1.png" style="width: 200px;"><br>
+      Link: <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220235_upc_edu_pe/IQBvcbEGTVFxTZ9DWmpx5U8kAXxpKY49vqhwONNkZtt0_yU?nav=eyJwbGF5YmFja09wdGlvbnMiOnsic3RhcnRUaW1lSW5TZWNvbmRzIjoxMDg0LjA5NywidGltZXN0YW1wZWRMaW5rUmVmZXJyZXJJbmZvIjp7InNjZW5hcmlvIjoiQ2hhcHRlclNoYXJlIiwiYWRkaXRpb25hbEluZm8iOnsiaXNTaGFyZWRDaGFwdGVyQXV0byI6ZmFsc2V9fX0sInJlZmVycmFsSW5mbyI6eyJyZWZlcnJhbEFwcCI6IlN0cmVhbVdlYkFwcCIsInJlZmVycmFsVmlldyI6IlNoYXJlQ2hhcHRlckxpbmsiLCJyZWZlcnJhbEFwcFBsYXRmb3JtIjoiV2ViIiwicmVmZXJyYWxNb2RlIjoidmlldyJ9fQ&e=i9hlz0" style="word-break: break-all;">https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220235_upc_edu_pe/IQBvcbEGTVFxTZ9DWmpx5U8kAXxpKY49vqhwONNkZtt0_yU?nav=eyJwbGF5YmFja09wdGlvbnMiOnsic3RhcnRUaW1lSW5TZWNvbmRzIjoxMDg0LjA5NywidGltZXN0YW1wZWRMaW5rUmVmZXJyZXJJbmZvIjp7InNjZW5hcmlvIjoiQ2hhcHRlclNoYXJlIiwiYWRkaXRpb25hbEluZm8iOnsiaXNTaGFyZWRDaGFwdGVyQXV0byI6ZmFsc2V9fX0sInJlZmVycmFsSW5mbyI6eyJyZWZlcnJhbEFwcCI6IlN0cmVhbVdlYkFwcCIsInJlZmVycmFsVmlldyI6IlNoYXJlQ2hhcHRlckxpbmsiLCJyZWZlcnJhbEFwcFBsYXRmb3JtIjoiV2ViIiwicmVmZXJyYWxNb2RlIjoidmlldyJ9fQ&e=i9hlz0</a>
     </td>
 
   </tr>
@@ -4170,40 +5587,100 @@ Al ingresar al landing page de AlertaVital, el usuario encuentra información cl
     <td>Validation Interviews</td>
     <td>
       <strong>Cantidad de videos</strong>: 1<br>
-      <strong>Nomenclatura</strong>: upc-pre-202501-cc238-353-Dentify-validation-sprint-2<n><br>
+      <strong>Nomenclatura</strong>: upc-pre-202520-1asi0572-3428-AlertaVital-validation-sprint-2<n><br>
       <strong>Formato</strong>: .mp4<br>
-      <strong>Duración</strong>: 12:30 min<br>
+      <strong>Duración</strong>: 17:57 min<br>
     </td>
     <td>
-      Nombre: XXX
-      <br>Segmento Objetivo: XXX<br>
-      <br>Edad: XXX
-      <br>Distrito: XXX
+      Nombre: James Urbano
+      <br>Segmento Objetivo: Tutor<br>
+      <br>Edad: 19
+      <br>Distrito: San Juan de Lurigancho
     </td>
     <td>
       Screenshot: <br>
-      <img src="Img/validation_interviews_2.png" style="width: 200px;"><br>
-      Link: <a href="XXX">Video</a>
+      <img src="Img/validation_tutor_2.png" style="width: 200px;"><br>
+      Link: <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220235_upc_edu_pe/IQBvcbEGTVFxTZ9DWmpx5U8kAXxpKY49vqhwONNkZtt0_yU?nav=eyJwbGF5YmFja09wdGlvbnMiOnsic3RhcnRUaW1lSW5TZWNvbmRzIjo1LCJ0aW1lc3RhbXBlZExpbmtSZWZlcnJlckluZm8iOnsic2NlbmFyaW8iOiJDaGFwdGVyU2hhcmUiLCJhZGRpdGlvbmFsSW5mbyI6eyJpc1NoYXJlZENoYXB0ZXJBdXRvIjpmYWxzZX19fSwicmVmZXJyYWxJbmZvIjp7InJlZmVycmFsQXBwIjoiU3RyZWFtV2ViQXBwIiwicmVmZXJyYWxWaWV3IjoiU2hhcmVDaGFwdGVyTGluayIsInJlZmVycmFsQXBwUGxhdGZvcm0iOiJXZWIiLCJyZWZlcnJhbE1vZGUiOiJ2aWV3In19&e=DyD4e4" style="word-break: break-all;">https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220235_upc_edu_pe/IQBvcbEGTVFxTZ9DWmpx5U8kAXxpKY49vqhwONNkZtt0_yU?nav=eyJwbGF5YmFja09wdGlvbnMiOnsic3RhcnRUaW1lSW5TZWNvbmRzIjo1LCJ0aW1lc3RhbXBlZExpbmtSZWZlcnJlckluZm8iOnsic2NlbmFyaW8iOiJDaGFwdGVyU2hhcmUiLCJhZGRpdGlvbmFsSW5mbyI6eyJpc1NoYXJlZENoYXB0ZXJBdXRvIjpmYWxzZX19fSwicmVmZXJyYWxJbmZvIjp7InJlZmVycmFsQXBwIjoiU3RyZWFtV2ViQXBwIiwicmVmZXJyYWxWaWV3IjoiU2hhcmVDaGFwdGVyTGluayIsInJlZmVycmFsQXBwUGxhdGZvcm0iOiJXZWIiLCJyZWZlcnJhbE1vZGUiOiJ2aWV3In19&e=DyD4e4</a>
     </td>
   </tr>
   <tr>
     <td>Validation Interviews</td>
     <td>
       <strong>Cantidad de videos</strong>: 1<br>
-      <strong>Nomenclatura</strong>: XXX<n><br>
+      <strong>Nomenclatura</strong>: upc-pre-202520-1asi0572-3428-AlertaVital-validation-sprint-2<n><br>
       <strong>Formato</strong>: .mp4<br>
-      <strong>Duración</strong>: X:XX min
+      <strong>Duración</strong>: 10:00 min
     </td>
     <td>
-      Nombre: XXX
-      <br>Segmento Objetivo: XXX<br>
-      <br>Edad: XXX
-      <br>Distrito: XXX
+      Nombre: Diego Bastidas
+      <br>Segmento Objetivo: Tutor<br>
+      <br>Edad: 23
+      <br>Distrito: Magdalena
     </td>
     <td>
       Screenshot: <br>
-      <img src="Img/validation_interviews_3.png" style="width: 200px;"><br>
-      Link: <a href="XXX">Video</a>
+      <img src="Img/validation_tutor_3.png" style="width: 200px;"><br>
+      Link: <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220235_upc_edu_pe/IQBvcbEGTVFxTZ9DWmpx5U8kAXxpKY49vqhwONNkZtt0_yU?nav=eyJwbGF5YmFja09wdGlvbnMiOnsic3RhcnRUaW1lSW5TZWNvbmRzIjoxNjQ5LjgzOCwidGltZXN0YW1wZWRMaW5rUmVmZXJyZXJJbmZvIjp7InNjZW5hcmlvIjoiQ2hhcHRlclNoYXJlIiwiYWRkaXRpb25hbEluZm8iOnsiaXNTaGFyZWRDaGFwdGVyQXV0byI6ZmFsc2V9fX0sInJlZmVycmFsSW5mbyI6eyJyZWZlcnJhbEFwcCI6IlN0cmVhbVdlYkFwcCIsInJlZmVycmFsVmlldyI6IlNoYXJlQ2hhcHRlckxpbmsiLCJyZWZlcnJhbEFwcFBsYXRmb3JtIjoiV2ViIiwicmVmZXJyYWxNb2RlIjoidmlldyJ9fQ&e=7yFDd8" style="word-break: break-all;">https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220235_upc_edu_pe/IQBvcbEGTVFxTZ9DWmpx5U8kAXxpKY49vqhwONNkZtt0_yU?nav=eyJwbGF5YmFja09wdGlvbnMiOnsic3RhcnRUaW1lSW5TZWNvbmRzIjoxNjQ5LjgzOCwidGltZXN0YW1wZWRMaW5rUmVmZXJyZXJJbmZvIjp7InNjZW5hcmlvIjoiQ2hhcHRlclNoYXJlIiwiYWRkaXRpb25hbEluZm8iOnsiaXNTaGFyZWRDaGFwdGVyQXV0byI6ZmFsc2V9fX0sInJlZmVycmFsSW5mbyI6eyJyZWZlcnJhbEFwcCI6IlN0cmVhbVdlYkFwcCIsInJlZmVycmFsVmlldyI6IlNoYXJlQ2hhcHRlckxpbmsiLCJyZWZlcnJhbEFwcFBsYXRmb3JtIjoiV2ViIiwicmVmZXJyYWxNb2RlIjoidmlldyJ9fQ&e=7yFDd8</a>
+    </td>
+  </tr>
+  <tr>
+    <td>Validation Interviews</td>
+    <td>
+      <strong>Cantidad de videos</strong>: 1<br>
+      <strong>Nomenclatura</strong>: upc-pre-202520-1asi0572-3428-AlertaVital-validation-sprint-2<n><br>
+      <strong>Formato</strong>: .mp4<br>
+      <strong>Duración</strong>: 14:46 min
+    </td>
+    <td>
+      Nombre: Nilo Salinas
+      <br>Segmento Objetivo: Adulto mayor<br>
+      <br>Edad: 67
+      <br>Distrito: Villa el Salvador
+    </td>
+    <td>
+      Screenshot: <br>
+      <img src="Img/validation_granny_1.png" style="width: 200px;"><br>
+      Link: <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220235_upc_edu_pe/IQBvcbEGTVFxTZ9DWmpx5U8kAXxpKY49vqhwONNkZtt0_yU?nav=eyJwbGF5YmFja09wdGlvbnMiOnsic3RhcnRUaW1lSW5TZWNvbmRzIjoyMjU2LjY5LCJ0aW1lc3RhbXBlZExpbmtSZWZlcnJlckluZm8iOnsic2NlbmFyaW8iOiJDaGFwdGVyU2hhcmUiLCJhZGRpdGlvbmFsSW5mbyI6eyJpc1NoYXJlZENoYXB0ZXJBdXRvIjpmYWxzZX19fSwicmVmZXJyYWxJbmZvIjp7InJlZmVycmFsQXBwIjoiU3RyZWFtV2ViQXBwIiwicmVmZXJyYWxWaWV3IjoiU2hhcmVDaGFwdGVyTGluayIsInJlZmVycmFsQXBwUGxhdGZvcm0iOiJXZWIiLCJyZWZlcnJhbE1vZGUiOiJ2aWV3In19&e=L3Qubo" style="word-break: break-all;">https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220235_upc_edu_pe/IQBvcbEGTVFxTZ9DWmpx5U8kAXxpKY49vqhwONNkZtt0_yU?nav=eyJwbGF5YmFja09wdGlvbnMiOnsic3RhcnRUaW1lSW5TZWNvbmRzIjoyMjU2LjY5LCJ0aW1lc3RhbXBlZExpbmtSZWZlcnJlckluZm8iOnsic2NlbmFyaW8iOiJDaGFwdGVyU2hhcmUiLCJhZGRpdGlvbmFsSW5mbyI6eyJpc1NoYXJlZENoYXB0ZXJBdXRvIjpmYWxzZX19fSwicmVmZXJyYWxJbmZvIjp7InJlZmVycmFsQXBwIjoiU3RyZWFtV2ViQXBwIiwicmVmZXJyYWxWaWV3IjoiU2hhcmVDaGFwdGVyTGluayIsInJlZmVycmFsQXBwUGxhdGZvcm0iOiJXZWIiLCJyZWZlcnJhbE1vZGUiOiJ2aWV3In19&e=L3Qubo</a>
+    </td>
+  </tr>
+  <tr>
+    <td>Validation Interviews</td>
+    <td>
+      <strong>Cantidad de videos</strong>: 1<br>
+      <strong>Nomenclatura</strong>: upc-pre-202520-1asi0572-3428-AlertaVital-validation-sprint-2<n><br>
+      <strong>Formato</strong>: .mp4<br>
+      <strong>Duración</strong>: 06:29 min
+    </td>
+    <td>
+      Nombre: Rosa Valera
+      <br>Segmento Objetivo: Adulto mayor<br>
+      <br>Edad: 66
+      <br>Distrito: San Luis
+    </td>
+    <td>
+      Screenshot: <br>
+      <img src="Img/validation_granny_2.png" style="width: 200px;"><br>
+      Link: <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220235_upc_edu_pe/IQBvcbEGTVFxTZ9DWmpx5U8kAXxpKY49vqhwONNkZtt0_yU?nav=eyJwbGF5YmFja09wdGlvbnMiOnsic3RhcnRUaW1lSW5TZWNvbmRzIjozMTQxLjc4OCwidGltZXN0YW1wZWRMaW5rUmVmZXJyZXJJbmZvIjp7InNjZW5hcmlvIjoiQ2hhcHRlclNoYXJlIiwiYWRkaXRpb25hbEluZm8iOnsiaXNTaGFyZWRDaGFwdGVyQXV0byI6ZmFsc2V9fX0sInJlZmVycmFsSW5mbyI6eyJyZWZlcnJhbEFwcCI6IlN0cmVhbVdlYkFwcCIsInJlZmVycmFsVmlldyI6IlNoYXJlQ2hhcHRlckxpbmsiLCJyZWZlcnJhbEFwcFBsYXRmb3JtIjoiV2ViIiwicmVmZXJyYWxNb2RlIjoidmlldyJ9fQ&e=jTKivs" style="word-break: break-all;">https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220235_upc_edu_pe/IQBvcbEGTVFxTZ9DWmpx5U8kAXxpKY49vqhwONNkZtt0_yU?nav=eyJwbGF5YmFja09wdGlvbnMiOnsic3RhcnRUaW1lSW5TZWNvbmRzIjozMTQxLjc4OCwidGltZXN0YW1wZWRMaW5rUmVmZXJyZXJJbmZvIjp7InNjZW5hcmlvIjoiQ2hhcHRlclNoYXJlIiwiYWRkaXRpb25hbEluZm8iOnsiaXNTaGFyZWRDaGFwdGVyQXV0byI6ZmFsc2V9fX0sInJlZmVycmFsSW5mbyI6eyJyZWZlcnJhbEFwcCI6IlN0cmVhbVdlYkFwcCIsInJlZmVycmFsVmlldyI6IlNoYXJlQ2hhcHRlckxpbmsiLCJyZWZlcnJhbEFwcFBsYXRmb3JtIjoiV2ViIiwicmVmZXJyYWxNb2RlIjoidmlldyJ9fQ&e=jTKivs</a>
+    </td>
+  </tr>
+  <tr>
+    <td>Validation Interviews</td>
+    <td>
+      <strong>Cantidad de videos</strong>: 1<br>
+      <strong>Nomenclatura</strong>: upc-pre-202520-1asi0572-3428-AlertaVital-validation-sprint-2<n><br>
+      <strong>Formato</strong>: .mp4<br>
+      <strong>Duración</strong>: 07:42 min
+    </td>
+    <td>
+      Nombre: Juan Pérez
+      <br>Segmento Objetivo: Adulto mayor<br>
+      <br>Edad: 72
+      <br>Distrito: San Miguel
+    </td>
+    <td>
+      Screenshot: <br>
+      <img src="Img/validation_granny_3.png" style="width: 200px;"><br>
+      Link: <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220235_upc_edu_pe/IQBvcbEGTVFxTZ9DWmpx5U8kAXxpKY49vqhwONNkZtt0_yU?nav=eyJwbGF5YmFja09wdGlvbnMiOnsic3RhcnRUaW1lSW5TZWNvbmRzIjozNTMxLjcwMSwidGltZXN0YW1wZWRMaW5rUmVmZXJyZXJJbmZvIjp7InNjZW5hcmlvIjoiQ2hhcHRlclNoYXJlIiwiYWRkaXRpb25hbEluZm8iOnsiaXNTaGFyZWRDaGFwdGVyQXV0byI6ZmFsc2V9fX0sInJlZmVycmFsSW5mbyI6eyJyZWZlcnJhbEFwcCI6IlN0cmVhbVdlYkFwcCIsInJlZmVycmFsVmlldyI6IlNoYXJlQ2hhcHRlckxpbmsiLCJyZWZlcnJhbEFwcFBsYXRmb3JtIjoiV2ViIiwicmVmZXJyYWxNb2RlIjoidmlldyJ9fQ&e=nRuuor" style="word-break: break-all;">https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220235_upc_edu_pe/IQBvcbEGTVFxTZ9DWmpx5U8kAXxpKY49vqhwONNkZtt0_yU?nav=eyJwbGF5YmFja09wdGlvbnMiOnsic3RhcnRUaW1lSW5TZWNvbmRzIjozNTMxLjcwMSwidGltZXN0YW1wZWRMaW5rUmVmZXJyZXJJbmZvIjp7InNjZW5hcmlvIjoiQ2hhcHRlclNoYXJlIiwiYWRkaXRpb25hbEluZm8iOnsiaXNTaGFyZWRDaGFwdGVyQXV0byI6ZmFsc2V9fX0sInJlZmVycmFsSW5mbyI6eyJyZWZlcnJhbEFwcCI6IlN0cmVhbVdlYkFwcCIsInJlZmVycmFsVmlldyI6IlNoYXJlQ2hhcHRlckxpbmsiLCJyZWZlcnJhbEFwcFBsYXRmb3JtIjoiV2ViIiwicmVmZXJyYWxNb2RlIjoidmlldyJ9fQ&e=nRuuor</a>
     </td>
   </tr>
  
@@ -4370,9 +5847,9 @@ Recomendaciones
     <td>About The Product</td>
     <td>
       <strong>Cantidad de videos</strong>: 1<br>
-      <strong>Nomenclatura</strong>: upc-pre-202501-cc238-353-MediTech-about-the-product-sprint-3<br>
+      <strong>Nomenclatura</strong>: upc-pre-202501-cc238-353-AlertaVital-about-the-product-sprint-3<br>
       <strong>Formato</strong>: .mp4<br>
-      <strong>Duración</strong>: XX:XX min
+      <strong>Duración</strong>: 02:58 min
     </td>
     <td>
       Video de About The Product en base a la aplicación "AlertaVital" desarrollado por Alerta Vital.
@@ -4380,14 +5857,14 @@ Recomendaciones
     <td>
       Screenshot: <br>
       <img src="Img/screen-video-about-the-product.png" alt="ATP" style="width: 200px;"><br>
-      Link: <a href="XXX">Video</a>
+      Link: <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211g296_upc_edu_pe/IQBlY5mHhggtT577uM1LcouFATT3hgO_Hgu9vqEbA2m1kHA?e=0nRS4U">https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211g296_upc_edu_pe/IQBlY5mHhggtT577uM1LcouFATT3hgO_Hgu9vqEbA2m1kHA?e=0nRS4U</a>
     </td>
   </tr>
   </table>
 
 <div id='7.'><h2>7. Conclusiones</h2></div>
 
-Durante la unidad 5 y 6, el equipo se enfocó en el diseño y desarrollo de la Landing Page y la aplicación web, aplicando principios de UX/UI y buenas prácticas de ingeniería de software. Se inició con la definición de la arquitectura de información y wireframes en Figma, asegurando una navegación clara y accesible para los usuarios objetivo: adultos mayores y sus cuidadores. La Landing Page fue implementada utilizando HTML, CSS, Bootstrap y React, priorizando la presentación de beneficios, características, testimonios y acceso rápido a la descarga de la app. El desarrollo siguió una estructura modular y responsiva, facilitando la adaptación a distintos dispositivos. Para la aplicación web, se empleó una arquitectura basada en Clean Architecture y Domain-Driven Design, separando los módulos de autenticación, monitoreo, gestión de usuarios y soporte al tratamiento. El control de versiones se realizó con Git y GitHub, aplicando Git Flow para organizar las ramas y asegurar la calidad del código. La documentación técnica y los diagramas de componentes respaldan la mantenibilidad y escalabilidad del sistema. En conjunto, estas unidades permitieron entregar una solución digital robusta, centrada en la experiencia del usuario y alineada con los objetivos del proyecto.
+Durante la unidad 6, correspondiente al entregable 3 (Sprint #2), el equipo se enfocó en el desarrollo del backend, la implementación de la capa edge y la integración de WebSocket para la comunicación en tiempo real. Se diseñó y construyó la API RESTful utilizando Java Spring Boot, siguiendo principios de Clean Architecture y Domain-Driven Design para asegurar una separación clara entre los módulos de autenticación, gestión de usuarios, monitoreo de signos vitales, emergencias y soporte al tratamiento. La capa edge se implementó para facilitar la integración con dispositivos IoT, permitiendo la recepción y procesamiento eficiente de datos provenientes de los sensores. Además, se incorporó WebSocket para habilitar la actualización en tiempo real de los datos críticos, como alertas y cambios en los signos vitales, mejorando la experiencia de usuario tanto en la aplicación web como en la móvil. El control de versiones y la colaboración se gestionaron mediante Git y GitHub, aplicando Git Flow para mantener la calidad y trazabilidad del código. La documentación técnica, los diagramas de arquitectura y las pruebas de integración respaldan la robustez y escalabilidad de la solución, alineando el desarrollo con los objetivos funcionales y de negocio del proyecto.
 
 <div id='8.'><h2>8. Bibliografía</h2></div>
 
@@ -4402,7 +5879,12 @@ Organización Panamericana de la Salud. (2023). *La situación de los cuidados a
 | Título  | Link |
 |-----------------|------|
 |          Organización de Github       | [https://github.com/TF-SolucionesIoT](https://github.com/TF-SolucionesIoT)     |
-|    Link de Miro             | [Miro Board](https://miro.com/welcomeonboard/M2JhbUZCSUFOdnN6ZG84cEJOM0g2R1BsUktITmFLZHNlcGMyTlMycTdBZEVsb2lmaWg1alVKL2dRMkJMWkdOTlMzdEhBV0VKeWNKZlo4bTJ2Mmtxc0t6UVVqdEV2Q1FYdjFrK3hINnhJSTYxcXpXejd2ZEtwTldRVHZRVEQ2RkhhWWluRVAxeXRuUUgwWDl3Mk1qRGVRPT0hdjE=?share_link_id=142838303004)      |
-|  Link de video de exposición          |  [Link de video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202221876_upc_edu_pe/EXvZqwze7apOu3moDficAfYBfor80Eh9jrz-ZFLR0JkPyQ?e=XYeo46)    |
-| Link de video de entrevistas | [Link](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220235_upc_edu_pe/ERMsAWnlK25BgS7DKzoCgPEBcVQJPN9Nr9zo1HhWZgaR4g?nav=eyJwbGF5YmFja09wdGlvbnMiOnsic3RhcnRUaW1lSW5TZWNvbmRzIjoxNTI3LCJ0aW1lc3RhbXBlZExpbmtSZWZlcnJlckluZm8iOnsic2NlbmFyaW8iOiJDaGFwdGVyU2hhcmUiLCJhZGRpdGlvbmFsSW5mbyI6eyJpc1NoYXJlZENoYXB0ZXJBdXRvIjpmYWxzZX19fSwicmVmZXJyYWxJbmZvIjp7InJlZmVycmFsQXBwIjoiU3RyZWFtV2ViQXBwIiwicmVmZXJyYWxWaWV3IjoiU2hhcmVDaGFwdGVyTGluayIsInJlZmVycmFsQXBwUGxhdGZvcm0iOiJXZWIiLCJyZWZlcnJhbE1vZGUiOiJ2aWV3In19&e=ZFJWW8) |
-| Link de Figma | [Link](https://www.figma.com/design/wDXE0NQLCOx7ccB5TPlRYr/IoT?node-id=1-3&t=ByrmBRuCKYXO44gX-1) |
+|  Link de video de exposición          |  [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211g296_upc_edu_pe/IQA8HR0BdiJoTpUwEgrOWUBHAYqHkQqFsNPcD5aYixlh_-8?e=4LD3ho](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211g296_upc_edu_pe/IQA8HR0BdiJoTpUwEgrOWUBHAYqHkQqFsNPcD5aYixlh_-8?e=4LD3ho)    |
+| Link de video de entrevistas | [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220235_upc_edu_pe/ERMsAWnlK25BgS7DKzoCgPEBcVQJPN9Nr9zo1HhWZgaR4g?nav=eyJwbGF5YmFja09wdGlvbnMiOnsic3RhcnRUaW1lSW5TZWNvbmRzIjoxNTI3LCJ0aW1lc3RhbXBlZExpbmtSZWZlcnJlckluZm8iOnsic2NlbmFyaW8iOiJDaGFwdGVyU2hhcmUiLCJhZGRpdGlvbmFsSW5mbyI6eyJpc1NoYXJlZENoYXB0ZXJBdXRvIjpmYWxzZX19fSwicmVmZXJyYWxJbmZvIjp7InJlZmVycmFsQXBwIjoiU3RyZWFtV2ViQXBwIiwicmVmZXJyYWxWaWV3IjoiU2hhcmVDaGFwdGVyTGluayIsInJlZmVycmFsQXBwUGxhdGZvcm0iOiJXZWIiLCJyZWZlcnJhbE1vZGUiOiJ2aWV3In19&e=ZFJWW8](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220235_upc_edu_pe/ERMsAWnlK25BgS7DKzoCgPEBcVQJPN9Nr9zo1HhWZgaR4g?nav=eyJwbGF5YmFja09wdGlvbnMiOnsic3RhcnRUaW1lSW5TZWNvbmRzIjoxNTI3LCJ0aW1lc3RhbXBlZExpbmtSZWZlcnJlckluZm8iOnsic2NlbmFyaW8iOiJDaGFwdGVyU2hhcmUiLCJhZGRpdGlvbmFsSW5mbyI6eyJpc1NoYXJlZENoYXB0ZXJBdXRvIjpmYWxzZX19fSwicmVmZXJyYWxJbmZvIjp7InJlZmVycmFsQXBwIjoiU3RyZWFtV2ViQXBwIiwicmVmZXJyYWxWaWV3IjoiU2hhcmVDaGFwdGVyTGluayIsInJlZmVycmFsQXBwUGxhdGZvcm0iOiJXZWIiLCJyZWZlcnJhbE1vZGUiOiJ2aWV3In19&e=ZFJWW8) |
+| Link de video de validación de entrevistas | [https://upcedupe-my.sharepoint.com/personal/u202220235_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202220235_upc_edu_pe%2FDocuments%2Fupc-pre-202520-1asi0572-3428-AlertaVital-validation-sprint-2%2Emp4&nav=eyJwbGF5YmFja09wdGlvbnMiOnsic3RhcnRUaW1lSW5TZWNvbmRzIjo1LCJ0aW1lc3RhbXBlZExpbmtSZWZlcnJlckluZm8iOnsic2NlbmFyaW8iOiJDaGFwdGVyU2hhcmUiLCJhZGRpdGlvbmFsSW5mbyI6eyJpc1NoYXJlZENoYXB0ZXJBdXRvIjpmYWxzZX19fSwicmVmZXJyYWxJbmZvIjp7InJlZmVycmFsQXBwIjoiU3RyZWFtV2ViQXBwIiwicmVmZXJyYWxWaWV3IjoiU2hhcmVDaGFwdGVyTGluayIsInJlZmVycmFsQXBwUGxhdGZvcm0iOiJXZWIiLCJyZWZlcnJhbE1vZGUiOiJ2aWV3In19&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E24ea7c43-f590-400d-8062-9fd01facecf5](https://upcedupe-my.sharepoint.com/personal/u202220235_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202220235_upc_edu_pe%2FDocuments%2Fupc-pre-202520-1asi0572-3428-AlertaVital-validation-sprint-2%2Emp4&nav=eyJwbGF5YmFja09wdGlvbnMiOnsic3RhcnRUaW1lSW5TZWNvbmRzIjo1LCJ0aW1lc3RhbXBlZExpbmtSZWZlcnJlckluZm8iOnsic2NlbmFyaW8iOiJDaGFwdGVyU2hhcmUiLCJhZGRpdGlvbmFsSW5mbyI6eyJpc1NoYXJlZENoYXB0ZXJBdXRvIjpmYWxzZX19fSwicmVmZXJyYWxJbmZvIjp7InJlZmVycmFsQXBwIjoiU3RyZWFtV2ViQXBwIiwicmVmZXJyYWxWaWV3IjoiU2hhcmVDaGFwdGVyTGluayIsInJlZmVycmFsQXBwUGxhdGZvcm0iOiJXZWIiLCJyZWZlcnJhbE1vZGUiOiJ2aWV3In19&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E24ea7c43-f590-400d-8062-9fd01facecf5) |
+| Link de Figma | [https://www.figma.com/design/wDXE0NQLCOx7ccB5TPlRYr/IoT?node-id=1-3&t=ByrmBRuCKYXO44gX-1](https://www.figma.com/design/wDXE0NQLCOx7ccB5TPlRYr/IoT?node-id=1-3&t=ByrmBRuCKYXO44gX-1) |
+| Link Frontend Web | [https://front-end-iot-smoky.vercel.app/auth/login](https://front-end-iot-smoky.vercel.app/auth/login) |
+| Link de Despliegue de Landing Page | [https://tf-solucionesiot.github.io/LandingPage/](https://tf-solucionesiot.github.io/LandingPage/) |
+| Link de documentacion de los servicios web | [https://alertavital-aqesfcbafwe4d7fk.canadacentral-01.azurewebsites.net/swagger-ui/index.html](https://alertavital-aqesfcbafwe4d7fk.canadacentral-01.azurewebsites.net/swagger-ui/index.html) |
+
+
