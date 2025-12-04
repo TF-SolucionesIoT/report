@@ -5233,31 +5233,90 @@ Para el Sprint #3 nos trazamos como objetivo desarrollar y desplegar la aplicaci
 
 ### IOT DEVICE (EMBEDDED):
 
-<table><thead>
-  <tr>
-    <th>&nbsp;&nbsp;&nbsp;<br>Repository&nbsp;&nbsp;&nbsp;</th>
-    <th>&nbsp;&nbsp;&nbsp;<br>Branch&nbsp;&nbsp;&nbsp;</th>
-    <th>&nbsp;&nbsp;&nbsp;<br>Commit ID&nbsp;&nbsp;&nbsp;</th>
-    <th>&nbsp;&nbsp;&nbsp;<br>Commit<br>&nbsp;&nbsp;&nbsp;<br>Message&nbsp;&nbsp;&nbsp;</th>
-    <th>&nbsp;&nbsp;&nbsp;<br>Commit<br>&nbsp;&nbsp;&nbsp;<br>Message Body&nbsp;&nbsp;&nbsp;</th>
-    <th>&nbsp;&nbsp;&nbsp;<br>Committed on&nbsp;&nbsp;&nbsp;(Date)&nbsp;&nbsp;&nbsp;</th>
-  </tr></thead>
-<tbody>
-  <tr>
-    <td rowspan="8">
-      <a href="https://github.com/TF-SolucionesIoT/iot_device" target="_blank" rel="noopener noreferrer">https://github.com/TF-SolucionesIoT/iot_device</a>
-      <br>
-    </td>
-  </tr>
-  <tr>
-  <td>main</td>
-  <td>i0d5842</td>
-  <td>feat: integrate MAX30102 sensor for heart rate and SpO2</td>
-  <td></td>
-  <td>2025-11-28</td>
-  </tr>
+<table>
+  <thead>
+    <tr>
+      <th>Repository</th>
+      <th>Branch</th>
+      <th>Commit ID</th>
+      <th>Commit Message</th>
+      <th>Commit Message Body</th>
+      <th>Committed on (Date)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="9">
+        <a href="https://github.com/TF-SolucionesIoT/embedded_system" target="_blank" rel="noopener noreferrer">
+          https://github.com/TF-SolucionesIoT/embedded_system
+        </a>
+      </td>
+      <td>main</td>
+      <td>a9a2147</td>
+      <td>feat: integrate MAX30102 sensor for heart rate and SpO2</td>
+      <td>Add MAX30102 sensor integration for heart rate and SpO2 measurements</td>
+      <td>2025-12-04</td>
+    </tr>
+    <tr>
+      <td>main</td>
+      <td>cab80b0</td>
+      <td>feat: integrate MPU6050 sensor for detecting falls</td>
+      <td>Add MPU6050 integration for fall detection using accelerometer and gyroscope data</td>
+      <td>2025-12-04</td>
+    </tr>
+    <tr>
+      <td>main</td>
+      <td>3519f8e</td>
+      <td>feat: integrate OLED display for showing data</td>
+      <td>Add OLED display integration for real-time sensor data visualization</td>
+      <td>2025-12-04</td>
+    </tr>
+    <tr>
+      <td>main</td>
+      <td>c8d38c4</td>
+      <td>feat: integrate Device Manager class for managing system embedded</td>
+      <td>Add Device Manager class to coordinate and manage embedded system components</td>
+      <td>2025-12-04</td>
+    </tr>
+    <tr>
+      <td>main</td>
+      <td>0245a29</td>
+      <td>feat: integrate Buzzer actuator for alerts</td>
+      <td>Add buzzer actuator integration to trigger system alerts</td>
+      <td>2025-12-04</td>
+    </tr>
+    <tr>
+      <td>main</td>
+      <td>26321db</td>
+      <td>feat: integrate MPS20N0040D + HX710B sensor for blood pressure</td>
+      <td>Add MPS20N0040D + HX710B integration for blood pressure measurement</td>
+      <td>2025-12-04</td>
+    </tr>
+    <tr>
+      <td>main</td>
+      <td>8e02dca</td>
+      <td>feat: integrate Blood Pressure Pulse Detector for blood pressure</td>
+      <td>Add pulse detector integration for blood pressure measurement support</td>
+      <td>2025-12-04</td>
+    </tr>
+    <tr>
+      <td>main</td>
+      <td>d7116ed</td>
+      <td>feat: integrate LED Actuator for alerts</td>
+      <td>Add LED actuator integration for visual system alerts</td>
+      <td>2025-12-04</td>
+    </tr>
+    <tr>
+      <td>main</td>
+      <td>2b9cd13</td>
+      <td>feat: integrate AlertaVitalDev class main for running the system</td>
+      <td>Add AlertaVitalDev main class to run and orchestrate the system</td>
+      <td>2025-12-04</td>
+    </tr>
+  </tbody>
+</table>
 
-</tbody></table>
+
 
 <div id='6.2.3.5.'><h5>6.2.3.5. Testing Suite Evidence for Sprint Review.</h5></div>
 
