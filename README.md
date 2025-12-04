@@ -1,4 +1,4 @@
-<h1 style="text-align: center;"> Informe del Trabajo Final </h1>
+﻿<h1 style="text-align: center;"> Informe del Trabajo Final </h1>
 <h3 style="text-align: center;"> Universidad Peruana de Ciencias Aplicadas </h3>
 
 <img src=https://github.com/Integradis-OpenSource/TFDocOpenSource/assets/114628079/4be29e42-94e4-4b80-85ae-3433dde891e4 
@@ -21,35 +21,97 @@ width=50%"/>
 
 ## Team members:
 
-<div align="center">
-  
-|                Nombre                 |   Código   |
-| :-----------------------------------: | :--------: |
-| Bohorquez Lerzundi, Gerardo Sebastián | u202224149 |
-|  Huanaco Huayta, Elizabeth Lucero   | u20211g522 |
-|  Huapaya Cuevas, Anthony       | u202220235 |
-|  Silva Tirado, Sebastian Valentino         | u20211g296 |
-|     Uribe Quispe, Jesús Guillermo     | u202221876 |
-
+<div style="text-align: center;">
+  <table border="1" cellspacing="0" cellpadding="8" style="margin: 0 auto; border-collapse: collapse;">
+    <tr>
+      <th>Nombre</th>
+      <th>Código</th>
+    </tr>
+    <tr>
+      <td>Bohorquez Lerzundi, Gerardo Sebastián</td>
+      <td>u202224149</td>
+    </tr>
+    <tr>
+      <td>Huanaco Huayta, Elizabeth Lucero</td>
+      <td>u20211g522</td>
+    </tr>
+    <tr>
+      <td>Huapaya Cuevas, Anthony</td>
+      <td>u202220235</td>
+    </tr>
+    <tr>
+      <td>Silva Tirado, Sebastian Valentino</td>
+      <td>u20211g296</td>
+    </tr>
+    <tr>
+      <td>Uribe Quispe, Jesús Guillermo</td>
+      <td>u202221876</td>
+    </tr>
+  </table>
 </div>
 
 <h5 style="text-align: center"> Ciclo 2025-20 </h5>
 
 <br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br>
 
 # Registro de Versiones del Informe
 
 El objetivo de esta sección es resumir las modificaciones relevantes que se realizan al informe durante el ciclo de vida del proyecto. Esta sección inicia en una página nueva y se incluye un cuadro con la siguiente estructura:
 
-| Versión | Fecha | Autor | Descripción de modificación |
-| :-----: | :---: | :---: | --------------------------- |
-|    TB1    |   21/09   |   Jesús Guillermo Uribe Quispe   | Se añadió el capítulo I, II, III y IV del proyecto.                         |
-|TP | 10/10 | Jesús Guillermo Uribe Quispe | UX/UI Design, Software Development and Sprint 1 |
+| Versión |   Fecha    |            Autor             | Descripción de modificación                           |
+| :-----: | :--------: | :--------------------------: | ----------------------------------------------------- |
+|   TB1   | 21/09/2025 | Jesús Guillermo Uribe Quispe | Se añadió el capítulo I, II, III y IV del proyecto.   |
+|   TP    | 10/10/2025 | Jesús Guillermo Uribe Quispe | UX/UI Design, Software Development and Sprint 1       |
+|   TB2   | 16/11/2025 | Jesús Guillermo Uribe Quispe | Sprint 2, Validation Interviews and Final Corrections |
+|   TF    | 4/12/2025  | Jesús Guillermo Uribe Quispe | Sprint 3, Hardware Implementation                     |
 
 # Project Report Collaboration Insights
 
-URL del repositorio para el reporte del proyecto:
+URL del repositorio para el reporte del proyecto: [https://github.com/TF-SolucionesIoT/report](https://github.com/TF-SolucionesIoT/report)
 
+**TF:**
+
+<div align="center">
+  <img src="" alt="insights" width=350>
+</div>
+
+<div align="center">
+  <img src="" alt="insights" width=350>
+</div>
+
+Para el desarrollo del informe perteneciente a la entrega del trabajo final, se dividió la implementación de secciones de la siguiente forma para cada integrante del equipo:
+
+| Integrante                            | Tareas Asignadas                                                                         |
+| ------------------------------------- | ---------------------------------------------------------------------------------------- |
+| Bohórquez Lerzundi, Gerardo Sebastián | Despliegue servicio web y aplicacion web, desarrollo de funcionalidades en servicios web |
+| Huanaco Huayta, Elizabeth Lucero      | desarrollo de implementacion y programación del hardware.                                |
+| Huapaya Cuevas, Anthony               | desarrollo de implementación y programación del hardware.                                |
+| Silva Tirado, Sebastián Valentino     | Desarrollo de aplicación web y servicios web.                                            |
+| Uribe Quispe, Jesús Guillermo         | Desarrollo de servicio web, arquitectura y aplicación edge.                              |
+
+**TB2:**
+
+<div align="center">
+  <img src="Img/insight_tb2.png" alt="insights" width=350>
+</div>
+
+<div align="center">
+  <img src="Img/insight_tb2a.png" alt="insights" width=350>
+</div>
+
+Para el desarrollo del informe perteneciente a la entrega del trabajo parcial, se dividió la implementación de secciones de la siguiente forma para cada integrante del equipo:
+
+| Integrante                            | Tareas Asignadas                                                                         |
+| ------------------------------------- | ---------------------------------------------------------------------------------------- |
+| Bohórquez Lerzundi, Gerardo Sebastián | Despliegue servicio web y aplicacion web, desarrollo de funcionalidades en servicios web |
+| Huanaco Huayta, Elizabeth Lucero      | Validation Interviews, desarrollo de funcionalidades en servicios web                    |
+| Huapaya Cuevas, Anthony               | Validation Interviews, desarrollo de funcionalidades en servicios web                    |
+| Silva Tirado, Sebastián Valentino     | Desarrollo de aplicación web.                                                            |
+| Uribe Quispe, Jesús Guillermo         | Desarrollo de servicio web y aplicación edge.                                            |
+
+<br>
 
 **TP:**
 
@@ -63,13 +125,13 @@ URL del repositorio para el reporte del proyecto:
 
 Para el desarrollo del informe perteneciente a la entrega del trabajo parcial, se dividió la implementación de secciones de la siguiente forma para cada integrante del equipo:
 
-| Integrante | Tareas Asignadas |
-| ---------- | ---------------- |
-| Bohórquez Lerzundi, Gerardo Sebastián |Solution UX / UI Design, Information Architecture, Systems |
-| Huanaco Huayta, Elizabeth Lucero | UX/UI Mobile Design |
-| Huapaya Cuevas, Anthony | UX/UI Mobile Design |
-| Silva Tirado, Sebastián Valentino | Corrección de errores, Desarrollo App Web, UX / UI Web App Design |
-| Uribe Quispe, Jesús Guillermo | Desarrollo Landing Page, UX/UI Design  |
+| Integrante                            | Tareas Asignadas                                                  |
+| ------------------------------------- | ----------------------------------------------------------------- |
+| Bohórquez Lerzundi, Gerardo Sebastián | Solution UX / UI Design, Information Architecture, Systems        |
+| Huanaco Huayta, Elizabeth Lucero      | UX/UI Mobile Design                                               |
+| Huapaya Cuevas, Anthony               | UX/UI Mobile Design                                               |
+| Silva Tirado, Sebastián Valentino     | Corrección de errores, Desarrollo App Web, UX / UI Web App Design |
+| Uribe Quispe, Jesús Guillermo         | Desarrollo Landing Page, UX/UI Design                             |
 
 <br>
 
@@ -85,14 +147,13 @@ Para el desarrollo del informe perteneciente a la entrega del trabajo parcial, s
 
 Para el desarrollo del informe perteneciente a la entrega TB1, se dividió la implementación de secciones de la siguiente forma para cada integrante del equipo:
 
-| Integrante | Tareas Asignadas |
-| ---------- | ---------------- |
-| Bohórquez Lerzundi, Gerardo Sebastián | Analisis competitivo, documentación de Bounded context, entrevistas |
-| Huanaco Huayta, Elizabeth Lucero | Lean UX process, entrevistas, documentación de Bounded context, entrevistas|
-| Huapaya Cuevas, Anthony | Lean UX process, entrevistas, documentación de Bounded context, entrevistas |
-| Silva Tirado, Sebastián Valentino | Antecedentes y problemática, entrevistas, documentación de Bounded context, entrevistas, Impact Mapping |
-| Uribe Quispe, Jesús Guillermo | User Stories, Product Backlog, EventStorming process, Software architecture |
-
+| Integrante                            | Tareas Asignadas                                                                                        |
+| ------------------------------------- | ------------------------------------------------------------------------------------------------------- |
+| Bohórquez Lerzundi, Gerardo Sebastián | Analisis competitivo, documentación de Bounded context, entrevistas                                     |
+| Huanaco Huayta, Elizabeth Lucero      | Lean UX process, entrevistas, documentación de Bounded context, entrevistas                             |
+| Huapaya Cuevas, Anthony               | Lean UX process, entrevistas, documentación de Bounded context, entrevistas                             |
+| Silva Tirado, Sebastián Valentino     | Antecedentes y problemática, entrevistas, documentación de Bounded context, entrevistas, Impact Mapping |
+| Uribe Quispe, Jesús Guillermo         | User Stories, Product Backlog, EventStorming process, Software architecture                             |
 
 **Github Collaboration Insights**
 
@@ -107,6 +168,7 @@ Los integrantes son:
 - Uribe Quispe, Jesús Guillermo(JesusU27)
 
 <br><br><br><br><br><br><br><br><br>
+
 # Contenido
 
 1. [**Capítulo I: Introducción.**](#1.) <br>
@@ -253,6 +315,16 @@ Los integrantes son:
    6.2.2.7. [Services Documentation Evidence for Sprint Review.](#6.2.2.7.)<br>
    6.2.2.8. [Software Deployment Evidence for Sprint Review.](#6.2.2.8.)<br>
    6.2.2.9. [Team Collaboration Insights during Sprint.](#6.2.2.9.)<br>
+   6.2.3. [Sprint 3.](#6.2.3.)<br>
+   6.2.3.1. [Sprint Planning 3.](#6.2.3.1.)<br>
+   6.2.3.2. [Aspect Leaders and Collaborators.](#6.2.3.2.)<br>
+   6.2.3.3. [Sprint Backlog 3.](#6.2.3.3.)<br>
+   6.2.3.4. [Development Evidence for Sprint Review.](#6.2.3.4.)<br>
+   6.2.3.5. [Testing Suite Evidence for Sprint Review.](#6.2.3.5.)<br>
+   6.2.3.6. [Execution Evidence for Sprint Review.](#6.2.3.6.)<br>
+   6.2.3.7. [Services Documentation Evidence for Sprint Review.](#6.2.3.7.)<br>
+   6.2.3.8. [Software Deployment Evidence for Sprint Review.](#6.2.3.8.)<br>
+   6.2.3.9. [Team Collaboration Insights during Sprint.](#6.2.3.9.)<br>
    6.3. [Validation Interviews.](#6.3.)<br>
    6.3.1. [Diseño de Entrevistas.](#6.3.1.)<br>
    6.3.2. [Registro de Entrevistas.](#6.3.2.)<br>
@@ -264,6 +336,8 @@ Los integrantes son:
 
 <br><br><br><br><br><br><br><br><br><br><br><br>
 <br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br>
+<br><br><br><br>
 
 # STUDENT OUTCOME
 
@@ -284,24 +358,29 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
       <td>
         <b>Bohorquez Lerzundi Gerardo Sebastián:</b><br>
         <b>TB1:</b> Participé activamente en reuniones del grupo, compartiendo ideas y propuestas sobre la estructuración del Bounded Context de Monitoring, organizando la funcionalidad en servicios y capas de arquitectura. Además, coordiné con mis compañeros para asegurar que las tareas se distribuyeran de manera equitativa y que cada miembro comprendiera su rol dentro del proyecto.<br>
-        <b>TP1:</b> En la segunda entrega, lideré la integración de nuevas funcionalidades en el sistema, facilitando la revisión de código y la resolución de conflictos entre ramas. Promoví la colaboración en la documentación técnica y la validación de los diagramas de arquitectura, asegurando que todos los integrantes participaran en la toma de decisiones sobre el diseño final.<br><br>
+        <b>TP1:</b> En la segunda entrega, lideré la integración de nuevas funcionalidades en el sistema, facilitando la revisión de código y la resolución de conflictos entre ramas. Promoví la colaboración en la documentación técnica y la validación de los diagramas de arquitectura, asegurando que todos los integrantes participaran en la toma de decisiones sobre el diseño final.<br>
+        <b>TB2:</b> Durante la última fase del proyecto, continué promoviendo el liderazgo compartido al coordinar la integración de los módulos finales y la revisión de los entregables. Fomenté la participación activa de todos los miembros en la toma de decisiones técnicas y en la validación de los resultados, asegurando que el liderazgo y la responsabilidad fueran distribuidos equitativamente.<br><br>
         <strong>Huanaco Huayta, Elizabeth Lucero</strong><br>
         <strong>TB1:</strong> El desarrollo de estas tareas, desde la aplicación del Lean UX Process hasta la definición del Bounded Context: Treatment Support con sus diferentes capas y diagramas, me permitió trabajar en equipo de manera organizada y colaborativa. Cada actividad requirió discutir ideas, validar supuestos, formular hipótesis y estructurar el diseño técnico de forma conjunta, lo que fomentó la toma de decisiones compartida y la distribución de responsabilidades. Este proceso fortaleció la comunicación y coordinación dentro del grupo, lo que me permitió contribuir activamente a alcanzar el objetivo común.<br>
-        <strong>TP1:</strong> En la segunda fase, participé en la revisión y mejora de los flujos de usuario y wireframes, coordinando sesiones de feedback con el equipo. Impulsé la integración de los prototipos en Figma y la validación conjunta de los criterios de aceptación, asegurando que el liderazgo fuera compartido y que todos los miembros pudieran aportar en la definición de la experiencia de usuario.<br><br>
+        <strong>TP1:</strong> En la segunda fase, participé en la revisión y mejora de los flujos de usuario y wireframes, coordinando sesiones de feedback con el equipo. Impulsé la integración de los prototipos en Figma y la validación conjunta de los criterios de aceptación, asegurando que el liderazgo fuera compartido y que todos los miembros pudieran aportar en la definición de la experiencia de usuario.<br>
+        <strong>TB2:</strong> A lo largo del proyecto trabajé de manera colaborativa con mi equipo, ejerciendo un liderazgo compartido que nos permitió organizarnos y tomar decisiones en conjunto. Participé activamente en la planificación, la asignación de tareas y la revisión de cada fase del trabajo, incluyendo el diseño de las entrevistas, la validación heurística y la creación del video About-the-Product. Esta forma de trabajo fomentó una comunicación constante, la resolución conjunta de problemas y la consideración de todas las opiniones, lo que fortaleció tanto el trabajo en equipo como nuestro liderazgo colectivo.<br><br>
         <b>Huapaya Cuevas, Anthony Martin:</b><br>
         <b>TB1:</b> En el equipo aporté liderazgo conjunto al desarrollar el Lean UX Process, ya que ayudó a estructurar nuestras hipótesis y experimentos de manera clara, lo que facilitó la toma de decisiones colaborativas. Además, trabajé en los bounded context canvases de health tracking, lo que permitió al grupo alinear la visión del sistema y delimitar responsabilidades dentro del diseño, favoreciendo un liderazgo distribuido. Finalmente, al realizar el registro de entrevistas, contribuí a organizar la información obtenida de los usuarios, asegurando que todo el equipo pudiera basar sus decisiones en evidencia real y compartida.<br>
         <b>TP1:</b> En la segunda entrega, lideré la integración de los resultados de las entrevistas en el diseño de la arquitectura, coordinando la actualización de los diagramas y la documentación. Fomenté la participación activa de los miembros en la validación de los casos de uso y la revisión de los criterios de aceptación, consolidando el liderazgo conjunto en la toma de decisiones técnicas.<br>
         <b>TB2:</b> Durante el desarrollo del proyecto trabajé de manera colaborativa dentro de mi equipo, asumiendo un liderazgo compartido que nos permitió organizarnos y tomar decisiones de forma conjunta. Participé activamente en la planificación, distribución de tareas y revisión de cada etapa, como el diseño de entrevistas, la validación mediante heurísticas y la elaboración del video About-the-Product. Gracias a esta dinámica, contribuí a mantener una comunicación constante, resolver problemas en grupo y asegurar que todas las perspectivas fueran escuchadas, fortaleciendo así el trabajo en equipo y el liderazgo colectivo.<br><br>
         <b>Silva Tirado, Sebastián:</b><br>
         <b>TB1:</b> Coordinó la distribución de responsabilidades entre los integrantes del equipo, fomentando la toma de decisiones de manera consensuada. Propuso soluciones ante dificultades técnicas y apoyó a sus compañeros en la comprensión de las tareas asignadas.<br>
-        <b>TP1:</b> En la segunda fase, lideré la planificación de los sprints y la asignación de tareas, asegurando que cada integrante tuviera claridad sobre sus responsabilidades. Promoví la revisión cruzada de entregables y la resolución colaborativa de problemas, fortaleciendo el liderazgo compartido y la cohesión del grupo.<br><br>
+        <b>TP1:</b> En la segunda fase, lideré la planificación de los sprints y la asignación de tareas, asegurando que cada integrante tuviera claridad sobre sus responsabilidades. Promoví la revisión cruzada de entregables y la resolución colaborativa de problemas, fortaleciendo el liderazgo compartido y la cohesión del grupo.<br>
+        <b>TB2:</b> En la última etapa del proyecto, mantuve el liderazgo compartido al coordinar la integración de los entregables finales y la revisión de los resultados. Fomenté la participación de todos los miembros en la toma de decisiones y en la validación de los entregables, asegurando que el liderazgo y la responsabilidad fueran distribuidos de manera equitativa.<br><br>
         <b>Uribe Quispe Jesús Guillermo:</b><br>
         <b>TB1:</b> Coordiné la elaboración de la arquitectura, proceso de eventstorming y needfinding. Ayudando a mis compañeros a realizar dicho proceso.<br>
         <b>TP1:</b> En la segunda entrega, lideré la integración de los diagramas de arquitectura y la documentación técnica, facilitando la revisión y validación conjunta de los modelos. Promoví la participación activa en la definición de los flujos de trabajo y la toma de decisiones sobre la estructura final del sistema.<br>
+        <b>TB2:</b> En la última fase, continué promoviendo el liderazgo compartido al coordinar la integración de los módulos finales y la revisión de los entregables. Fomenté la participación activa de todos los miembros en la toma de decisiones técnicas y en la validación de los resultados, asegurando que el liderazgo y la responsabilidad fueran distribuidos equitativamente.<br>
       </td>
       <td>
         <b>TB1:</b> En conclusión, el equipo evidenció una dinámica de trabajo basada en la colaboración, la organización y el liderazgo compartido, donde cada integrante asumió un rol activo en la construcción de los bounded contexts, la aplicación del Lean UX Process y el diseño de la arquitectura del sistema. La distribución equitativa de tareas, la discusión de ideas y la validación conjunta de hipótesis fortalecieron la comunicación y la coordinación, lo que permitió tomar decisiones consensuadas y afrontar con eficacia los retos técnicos. Gracias a esta sinergia, el grupo logró estructurar de manera sólida los distintos dominios del proyecto y avanzar de forma ordenada hacia los objetivos comunes.<br>
         <b>TP1:</b> En la segunda entrega, el liderazgo conjunto se consolidó mediante la integración de nuevas funcionalidades, la validación colaborativa de los prototipos y la revisión técnica de los diagramas. La participación activa de todos los miembros en la toma de decisiones y la resolución de conflictos permitió fortalecer la cohesión del equipo y avanzar de manera eficiente hacia los objetivos planteados, demostrando una capacidad sólida para liderar y coordinar el trabajo en equipo.
+        <br><b>TB2:</b> Finalmente, en la última etapa del proyecto, el equipo mantuvo el liderazgo compartido y la colaboración activa en la integración y validación de los entregables finales. La participación equitativa de todos los miembros en la toma de decisiones y la revisión de los resultados permitió consolidar la cohesión del grupo y alcanzar los objetivos propuestos, demostrando una capacidad sólida para liderar y coordinar el trabajo en equipo hasta la culminación del proyecto.
       </td>
     </tr>
     <tr>
@@ -309,30 +388,36 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
       <td>
         <b>Bohorquez Lerzundi Gerardo Sebastián:</b><br>
         <b>TB1:</b> Contribuí en la fase de needfinding, realizando análisis de user persona y empathy map para identificar necesidades reales de los usuarios. Esto permitió al grupo empatizar con los clientes y definir soluciones más ajustadas. También participé en la planificación de tareas del proyecto, ayudando a cumplir objetivos establecidos en tiempo y forma.<br>
-        <b>TP1:</b> En la segunda entrega, colaboré en la definición de los objetivos del sprint y la planificación de las tareas, asegurando que el entorno de trabajo fuera inclusivo y que todos los miembros pudieran aportar sus ideas. Fomenté la revisión cruzada de entregables y la retroalimentación constante, lo que permitió cumplir los objetivos en los plazos establecidos.<br><br>
+        <b>TP1:</b> En la segunda entrega, colaboré en la definición de los objetivos del sprint y la planificación de las tareas, asegurando que el entorno de trabajo fuera inclusivo y que todos los miembros pudieran aportar sus ideas. Fomenté la revisión cruzada de entregables y la retroalimentación constante, lo que permitió cumplir los objetivos en los plazos establecidos.<br>
+        <b>TB2:</b> En la última etapa, participé activamente en la planificación y organización de las tareas finales, asegurando que el entorno de trabajo se mantuviera colaborativo e inclusivo. Contribuí a la definición de metas claras y al seguimiento del cumplimiento de los objetivos, promoviendo la participación de todos los miembros y la retroalimentación constante.<br><br>
         <strong>Huanaco Huayta, Elizabeth Lucero</strong><br>
         <strong>TB1:</strong> Durante el desarrollo de estas tareas logré desarrollar junto a mi equipo un entorno colaborativo e inclusivo, en el que cada integrante pudo aportar ideas y conocimientos desde su experiencia. Definimos metas claras, como la elaboración del Lean UX Canvas y los diferentes Bounded Context, lo que nos permitió planificar tareas de manera ordenada y asignarlas. Gracias a esta organización, pudimos cumplir con los objetivos establecidos en el tiempo acordado, fortaleciendo la participación equitativa y el compromiso hacia el proyecto del curso.<br>
-        <strong>TP1:</strong> En la segunda fase, participé en la planificación de los sprints y la definición de los entregables, promoviendo la inclusión de todos los miembros en la toma de decisiones. Coordiné la revisión de los prototipos y la validación de los criterios de aceptación, asegurando que el entorno de trabajo fuera colaborativo y que los objetivos se cumplieran en los plazos establecidos.<br><br>
+        <strong>TP1:</strong> En la segunda fase, participé en la planificación de los sprints y la definición de los entregables, promoviendo la inclusión de todos los miembros en la toma de decisiones. Coordiné la revisión de los prototipos y la validación de los criterios de aceptación, asegurando que el entorno de trabajo fuera colaborativo y que los objetivos se cumplieran en los plazos establecidos.<br>
+        <strong>TB2:</strong> Durante el desarrollo del proyecto me esforcé por fomentar un ambiente colaborativo e inclusivo dentro del equipo, garantizando que cada integrante tuviera espacio para participar y expresar sus ideas. Junto con mis compañeros establecimos metas claras, lo que permitió organizar y planificar las tareas de forma más eficaz. Además, procuré cumplir los objetivos planteados en cada etapa, manteniendo una comunicación constante y promoviendo un entorno de trabajo que favoreciera el crecimiento de todos y el progreso del proyecto.<br><br>
         <b>Huapaya Cuevas, Anthony Martin:</b><br>
         <b>TB1:</b> Durante el proyecto fomenté un entorno colaborativo e inclusivo al aplicar el Lean UX Process, donde todas las ideas del equipo fueron consideradas y priorizadas de manera conjunta. A través de los bounded context canvases de health tracking, ayudé a establecer metas claras y a planificar tareas específicas relacionadas con el diseño de los dominios, asegurando que cada miembro comprendiera su responsabilidad. Con el registro de entrevistas, contribuí a cumplir los objetivos del equipo, ya que la información recogida permitió orientar el diseño hacia las necesidades reales de los usuarios.<br>
         <b>TP1:</b> En la segunda entrega, colaboré en la planificación de los sprints y la asignación de tareas, promoviendo la inclusión de todos los miembros en la toma de decisiones. Fomenté la revisión cruzada de entregables y la retroalimentación constante, lo que permitió cumplir los objetivos en los plazos establecidos y fortalecer el entorno colaborativo.<br>
         <b>TB2:</b> A lo largo del proyecto procuré crear un entorno colaborativo e inclusivo dentro de mi equipo, asegurando que cada integrante pudiera participar y aportar sus ideas libremente. Establecí metas claras junto con mis compañeros, lo que facilitó organizar y planificar las tareas de manera eficiente. Asimismo, me aseguré de cumplir los objetivos propuestos en cada etapa, manteniendo una comunicación constante y promoviendo un ambiente de trabajo donde todos pudieran desarrollarse y contribuir al avance del proyecto.<br><br>
         <b>Silva Tirado, Sebastian:</b><br>
         <b>TB1:</b> Promovió reuniones periódicas para definir objetivos y plazos, fomentó la participación activa de cada miembro y aseguró que las ideas fueran valoradas por igual. Elaboró un cronograma de actividades y dio seguimiento al cumplimiento de tareas.<br>
-        <b>TP1:</b> En la segunda fase, coordinó la planificación de los sprints y la definición de los entregables, asegurando que el entorno de trabajo fuera inclusivo y que todos los miembros pudieran aportar sus ideas. Fomentó la revisión cruzada de entregables y la retroalimentación constante, lo que permitió cumplir los objetivos en los plazos establecidos.<br><br>
+        <b>TP1:</b> En la segunda fase, coordinó la planificación de los sprints y la definición de los entregables, asegurando que el entorno de trabajo fuera inclusivo y que todos los miembros pudieran aportar sus ideas. Fomentó la revisión cruzada de entregables y la retroalimentación constante, lo que permitió cumplir los objetivos en los plazos establecidos.<br>
+        <b>TB2:</b> En la última etapa, participé activamente en la planificación y organización de las tareas finales, asegurando que el entorno de trabajo se mantuviera colaborativo e inclusivo. Contribuí a la definición de metas claras y al seguimiento del cumplimiento de los objetivos, promoviendo la participación de todos los miembros y la retroalimentación constante.<br><br>
         <b>Uribe Quispe, Jesús Guillermo:</b><br>
         <b>TB1:</b> Cree canales de comunicación entre mis compañeros y yo para desenvolvernos mejor en el proyecto. Además tracé y designé tareas con tiempo para una mayor eficiencia en la realización del entregable.<br>
         <b>TP1:</b> En la segunda entrega, coordiné la planificación de los sprints y la definición de los entregables, promoviendo la inclusión de todos los miembros en la toma de decisiones. Fomenté la revisión cruzada de entregables y la retroalimentación constante, lo que permitió cumplir los objetivos en los plazos establecidos y fortalecer el entorno colaborativo.<br>
+        <b>TB2:</b> En la última etapa, continué promoviendo un entorno colaborativo e inclusivo, asegurando que cada integrante pudiera participar y aportar sus ideas libremente. Junto con mis compañeros establecimos metas claras y planificamos las tareas de manera eficiente, lo que permitió cumplir los objetivos propuestos y mantener una comunicación constante hasta la culminación del proyecto.<br>
       </td>
       <td>
         <b>TB1:</b> En conjunto, el equipo demostró un trabajo colaborativo e inclusivo, en el que cada integrante aportó desde su rol al cumplimiento de los objetivos planteados. A través de la aplicación de metodologías como Lean UX y herramientas como empathy maps, user personas y bounded contexts, lograron definir necesidades reales de los usuarios, establecer metas claras, planificar tareas de manera organizada y dar seguimiento a su ejecución. La comunicación constante, la distribución equitativa de responsabilidades y la valoración de las ideas de todos los miembros fortalecieron el compromiso y permitieron alcanzar los entregables en los tiempos acordados, consolidando así un proceso de trabajo eficiente y orientado a resultados.<br>
         <b>TP1:</b> En la segunda entrega, el equipo consolidó el entorno colaborativo e inclusivo mediante la planificación conjunta de los sprints, la definición de los objetivos y la revisión cruzada de los entregables. La participación activa de todos los miembros en la toma de decisiones y la retroalimentación constante permitieron cumplir los objetivos en los plazos establecidos, fortaleciendo la cohesión del grupo y la eficiencia en el trabajo en equipo.
+        <br><b>TB2:</b> Finalmente, en la última etapa del proyecto, el equipo mantuvo un entorno colaborativo e inclusivo, asegurando la participación equitativa de todos los miembros en la planificación, organización y cumplimiento de los objetivos. La comunicación constante y la retroalimentación continua permitieron alcanzar los entregables en los tiempos acordados y consolidar un proceso de trabajo eficiente y orientado a resultados hasta la culminación del proyecto.
       </td>
     </tr>
   </tbody>
 </table>
 
-
+<br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br>
 <br><br><br><br><br><br><br><br><br>
 <br><br><br><br><br><br><br><br><br>
 <br><br><br><br><br><br><br><br><br>
@@ -345,7 +430,6 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
 AlertaVital es una startup tecnológica dedicada a desarrollar soluciones innovadoras basadas en Internet de las Cosas (IoT) para mejorar la calidad de vida de las personas mayores y sus familias. Nuestra misión es proporcionar herramientas accesibles y confiables que permitan el monitoreo en tiempo real de signos vitales y la detección de caídas, brindando tranquilidad y seguridad tanto a los adultos mayores como a sus cuidadores. A través de un dispositivo portátil y una aplicación móvil intuitiva, AlertaVital busca transformar la manera en que se cuida a los adultos mayores, facilitando la prevención de emergencias y promoviendo un envejecimiento saludable y autónomo.
 
 <div id='1.1.2.'><h4>1.1.2. Perfiles de los integrantes del equipo</h4></div>
-
 
 <table align="center"  border="1" width="70%" style="text-align:center;">
     <tr align="center">
@@ -534,36 +618,37 @@ En la actualidad, el cuidado de los adultos mayores representa un gran reto debi
 Actualmente, las familias y cuidadores aún dependen de visitas presenciales o llamadas telefónicas para conocer el estado de sus seres queridos, lo que genera incertidumbre, tiempos de respuesta lentos y, en ocasiones, falta de información médica precisa para la toma de decisiones. La ausencia de una solución tecnológica integral limita la capacidad de detectar emergencias de manera inmediata y de contar con un registro histórico de la salud del adulto mayor, dificultando así la prevención y el seguimiento adecuado de su bienestar.
 
 ¿Cómo podemos desarrollar una solución integral basada en dispositivos IoT y una aplicación móvil que permita a los cuidadores o familiares monitorizar en tiempo real los signos vitales y posibles caídas de los adultos mayores, generando alertas inmediatas y un historial accesible, de manera que se incremente la seguridad, se optimice el cuidado y se brinde mayor tranquilidad a todos los involucrados?
+
 </p>
 
 <div id='1.2.2.2.'><h5>1.2.2.2. Lean UX Assumptions</h5></div>
 
-**Business Assumptions** 
+**Business Assumptions**
 
-* Creemos que nuestros clientes necesitan una mejor forma de monitorear el estado de salud y seguridad de los adultos mayores, especialmente en lo relacionado con el registro de signos vitales, la detección de caídas y la generación de alertas inmediatas para familiares o cuidadores.
+- Creemos que nuestros clientes necesitan una mejor forma de monitorear el estado de salud y seguridad de los adultos mayores, especialmente en lo relacionado con el registro de signos vitales, la detección de caídas y la generación de alertas inmediatas para familiares o cuidadores.
 
-* Estas necesidades se pueden resolver mediante el uso de un dispositivo IoT portátil conectado a una aplicación móvil, que permita la recolección de datos en tiempo real, la centralización de información de salud y el envío de notificaciones en caso de emergencia.
+- Estas necesidades se pueden resolver mediante el uso de un dispositivo IoT portátil conectado a una aplicación móvil, que permita la recolección de datos en tiempo real, la centralización de información de salud y el envío de notificaciones en caso de emergencia.
 
-* Los clientes principales son los tutores de los adultos mayores, quienes buscan 
-tranquilidad y rapidez en la respuesta ante emergencias. Sin embargo, la solución también está diseñada para beneficiar directamente a los adultos mayores, al ofrecerles mayor seguridad en su vida cotidiana.
+- Los clientes principales son los tutores de los adultos mayores, quienes buscan
+  tranquilidad y rapidez en la respuesta ante emergencias. Sin embargo, la solución también está diseñada para beneficiar directamente a los adultos mayores, al ofrecerles mayor seguridad en su vida cotidiana.
 
-* El valor #1 que busca el cliente es contar con un sistema accesible y confiable que incremente la seguridad y bienestar de los adultos mayores, a la vez que brinde tranquilidad a los tutores mediante la detección temprana de emergencias y un monitoreo continuo de la salud.
+- El valor #1 que busca el cliente es contar con un sistema accesible y confiable que incremente la seguridad y bienestar de los adultos mayores, a la vez que brinde tranquilidad a los tutores mediante la detección temprana de emergencias y un monitoreo continuo de la salud.
 
-* El cliente también puede obtener beneficios adicionales gracias a la flexibilidad y escalabilidad de la solución, que permitirá integrar nuevas métricas de salud como oxigenación, presión arterial y frecuencia cardíaca, además de incluir la capacidad de realizar llamadas a los servicios de emergencia y a los contactos registrados. Asimismo, se podrán generar reportes sobre posibles alteraciones detectadas en el estado de salud.
+- El cliente también puede obtener beneficios adicionales gracias a la flexibilidad y escalabilidad de la solución, que permitirá integrar nuevas métricas de salud como oxigenación, presión arterial y frecuencia cardíaca, además de incluir la capacidad de realizar llamadas a los servicios de emergencia y a los contactos registrados. Asimismo, se podrán generar reportes sobre posibles alteraciones detectadas en el estado de salud.
 
-* Vamos a adquirir la mayoría de los clientes mediante el uso de marketing digital dirigido a familias y asociaciones de adultos mayores, además de alianzas con centros de salud, hogares geriátricos y ONGs, lo que permitirá ampliar la red de usuarios y aumentar la visibilidad de la solución.
+- Vamos a adquirir la mayoría de los clientes mediante el uso de marketing digital dirigido a familias y asociaciones de adultos mayores, además de alianzas con centros de salud, hogares geriátricos y ONGs, lo que permitirá ampliar la red de usuarios y aumentar la visibilidad de la solución.
 
-* Se hará dinero a través de la venta del dispositivo IoT acompañado de un pago único por el acceso de la aplicación, aplicando cuotas bajas por el soporte y mantenimiento de la aplicación y el dispositivo.
+- Se hará dinero a través de la venta del dispositivo IoT acompañado de un pago único por el acceso de la aplicación, aplicando cuotas bajas por el soporte y mantenimiento de la aplicación y el dispositivo.
 
-* Nuestra competencia principal en el mercado son las aplicaciones y dispositivos de monitoreo de salud y caídas ya existentes, aunque muchos presentan precios elevados, falta de integración de funciones o interfaces poco intuitivas para adultos mayores.
+- Nuestra competencia principal en el mercado son las aplicaciones y dispositivos de monitoreo de salud y caídas ya existentes, aunque muchos presentan precios elevados, falta de integración de funciones o interfaces poco intuitivas para adultos mayores.
 
-* Los venceremos gracias al uso de tecnología accesible, un enfoque integral en seguridad y salud, y una experiencia de usuario optimizada tanto para los adultos mayores como para sus cuidadores. Además, ofreceremos soporte técnico cercano y constantes mejoras de la aplicación.
+- Los venceremos gracias al uso de tecnología accesible, un enfoque integral en seguridad y salud, y una experiencia de usuario optimizada tanto para los adultos mayores como para sus cuidadores. Además, ofreceremos soporte técnico cercano y constantes mejoras de la aplicación.
 
-* Nuestro mayor riesgo es que los adultos mayores y sus familias desconfíen o sean reacios al uso de nuevas tecnologías.
+- Nuestro mayor riesgo es que los adultos mayores y sus familias desconfíen o sean reacios al uso de nuevas tecnologías.
 
-* Resolveremos esto a través de demostraciones claras, interfaces simples y un soporte al cliente enfocado en la capacitación, de modo que la adaptación al sistema sea rápida, amigable y sin complicaciones.
+- Resolveremos esto a través de demostraciones claras, interfaces simples y un soporte al cliente enfocado en la capacitación, de modo que la adaptación al sistema sea rápida, amigable y sin complicaciones.
 
-**Assumptions Worksheet** 
+**Assumptions Worksheet**
 
 **¿Quién es el usuario?**
 Los usuarios son los adultos mayores y sus tutores, quienes necesitan una solución confiable para monitorear la salud y la seguridad en tiempo real. El usuario principal son los tutores, quienes toman decisiones sobre herramientas tecnológicas y buscan soluciones que ofrezcan tranquilidad, respuesta rápida ante emergencias y un mejor cuidado para sus seres queridos.
@@ -592,6 +677,7 @@ Debe verse limpio, amigable y confiable, transmitiendo seguridad y accesibilidad
 **Creemos que**, al ofrecer reportes resumidos sobre los signos vitales y eventos de caídas, los tutores podrán tomar decisiones más informadas para el cuidado del adulto mayor. Sabremos que estamos cumpliendo este objetivo cuando los cuidadores consulten regularmente los reportes y se observe una mejora del 50% en la prevención y seguimiento de la salud.
 
 **Creemos que**, al incorporar un sistema de alertas automáticas y notificaciones inmediatas a los servicios de emergencia y números registrados, se mejorará la capacidad de respuesta ante emergencias. Sabremos que estamos cumpliendo este objetivo cuando el 80% de las alertas generadas reciban una atención oportuna.
+
 </p>
 
 <div id='1.2.2.4.'><h5>1.2.2.4. Lean UX Canvas</h5></div>
@@ -601,51 +687,55 @@ El Lean UX Canvas permitió estructurar y validar las hipótesis del proyecto, q
 <img src="Img/lean ux canvas iot.jpg" alt="Lean UX Canvas" width="800">
 
 <br><br><br><br><br>
+
 <div id='1.3.'><h3>1.3. Segmentos objetivo</h3></div>
 
 En esta sección, definiremos los perfiles específicos del público objetivo para nuestro brazalete inteligente. Estos grupos comparten características demográficas, comportamientos o necesidades similares, lo que les diferencia de otros segmentos del mercado y permite ajustar estrategias para satisfacer sus necesidades de una mejor manera.
 
 ### 1. Personas de edad avanzada o individuos con enfermedades cardiovasculares
+
 - **Segmento demográfico:**  
-  Personas mayores de 60 años en Perú, que representan cerca del 12,4 % de la población total (aproximadamente 4,1 millones en 2023), con una prevalencia de hipertensión arterial del 29,7 % y un 66 % con enfermedades crónicas como diabetes o patologías cardiovasculares (INEI, 2023; MINSA, 2023).  
+  Personas mayores de 60 años en Perú, que representan cerca del 12,4 % de la población total (aproximadamente 4,1 millones en 2023), con una prevalencia de hipertensión arterial del 29,7 % y un 66 % con enfermedades crónicas como diabetes o patologías cardiovasculares (INEI, 2023; MINSA, 2023).
 - **Segmento geográfico:**  
-  Residentes en áreas urbanas, especialmente en Lima Metropolitana, donde el 43,2 % de los hogares incluye al menos un adulto mayor (INEI, 2023).  
+  Residentes en áreas urbanas, especialmente en Lima Metropolitana, donde el 43,2 % de los hogares incluye al menos un adulto mayor (INEI, 2023).
 - **Segmento psicográfico:**  
-  Individuos preocupados por su salud y seguridad, que valoran la tranquilidad de contar con monitoreo continuo para prevenir o manejar emergencias médicas como desmayos, arritmias o crisis hipertensivas.  
+  Individuos preocupados por su salud y seguridad, que valoran la tranquilidad de contar con monitoreo continuo para prevenir o manejar emergencias médicas como desmayos, arritmias o crisis hipertensivas.
 - **Segmento conductual:**  
   Personas que necesitan monitoreo constante de signos vitales (pulso, respiración, saturación) y alertas automáticas ante condiciones críticas. El brazalete inteligente satisface esta necesidad al proporcionar monitoreo en tiempo real y notificaciones inmediatas.
 
 ### 2. Cuidadores o contactos de emergencia de los usuarios
-- **Segmento demográfico:**  
-  Cuidadores familiares, mayormente sin capacitación formal, que conviven en más de 4,4 millones de hogares con un adulto mayor o paciente crónico. Aproximadamente el 31 % presenta síntomas depresivos, y el 44 % ha dejado su empleo para dedicarse al cuidado (OPS, 2023).  
-- **Segmento geográfico:**  
-  Principalmente en áreas urbanas de Perú, con alta concentración en Lima Metropolitana, donde la convivencia con adultos mayores o pacientes crónicos es común (OPS, 2023).  
-- **Segmento psicográfico:**  
-  Cuidadores que enfrentan alto estrés, sobrecarga emocional y mental (más del 70 % reporta sobrecarga intensa), y buscan herramientas que les brinden seguridad y reduzcan la incertidumbre al cuidar de sus seres queridos.  
-- **Segmento conductual:**  
-  Cuidadores que necesitan recibir alertas inmediatas ante emergencias de salud para intervenir rápidamente. El brazalete inteligente les ofrece monitoreo continuo del paciente y notificaciones automáticas, aliviando su carga emocional y mejorando su capacidad de respuesta.  
 
+- **Segmento demográfico:**  
+  Cuidadores familiares, mayormente sin capacitación formal, que conviven en más de 4,4 millones de hogares con un adulto mayor o paciente crónico. Aproximadamente el 31 % presenta síntomas depresivos, y el 44 % ha dejado su empleo para dedicarse al cuidado (OPS, 2023).
+- **Segmento geográfico:**  
+  Principalmente en áreas urbanas de Perú, con alta concentración en Lima Metropolitana, donde la convivencia con adultos mayores o pacientes crónicos es común (OPS, 2023).
+- **Segmento psicográfico:**  
+  Cuidadores que enfrentan alto estrés, sobrecarga emocional y mental (más del 70 % reporta sobrecarga intensa), y buscan herramientas que les brinden seguridad y reduzcan la incertidumbre al cuidar de sus seres queridos.
+- **Segmento conductual:**  
+  Cuidadores que necesitan recibir alertas inmediatas ante emergencias de salud para intervenir rápidamente. El brazalete inteligente les ofrece monitoreo continuo del paciente y notificaciones automáticas, aliviando su carga emocional y mejorando su capacidad de respuesta.
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
 <div id='2.'><h2>2. Capítulo II: Requirements Elicitation & Analysis</h2></div>
 
 <div id='2.1.'><h3>2.1. Competidores</h3></div>
 <div id='2.1.1.'><h4>2.1.1. Análisis competitivo</h4></div>
 
-| **Competidor** |<img src="Img/logo.png" alt="Logo Nuestra Solución" style="margin-bottom: 5px;" width="800"> | <img src="Img/applewathc-logo.svg" alt="Logo Apple Watch" style="margin-bottom: 5px;" width="800"> | <img src="Img/unaliwear-logo.png" alt="Logo UnaliWear Kanega Watch" style="margin-bottom: 5px;" width="800"> | <img src="Img/bayalarm-logo.png" alt="Logo Bay Alarm SOS Smartwatch" style="margin-bottom: 5px;" width="800"> | <img src="Img/bewell-logo.png" alt="Logo BeWell Alert Smartwatch" style="margin-bottom: 5px;" width="800"> |
-| --------------------------- | ------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
-| **Perfil Overview** | **Nuestra Solucion**   Brazalete inteligente IoT con app móvil para monitoreo en tiempo real de signos vitales y detección de caídas en adultos mayores, enfocado en el mercado peruano. | Reloj inteligente con enfoque en monitoreo de salud, fitness y seguridad, incluyendo detección de caídas y signos vitales para usuarios mayores. | Reloj de alerta médica con detección de caídas, diseñado para protección 24/7 sin necesidad de recarga constante. | Reloj de alerta médica independiente con detección de caídas automática y seguimiento de ubicación para seniors activos. | Reloj inteligente para seniors con detección de caídas, monitoreo de signos vitales y GPS en tiempo real. |
-| **Ventaja competitiva** | Solución accesible y local con integración IoT completa, alertas inmediatas a cuidadores y servicios de emergencia, interfaz intuitiva para adultos mayores y soporte técnico cercano en Perú. | Sensores avanzados para ECG, detección de hipertensión y apnea del sueño, integración con ecosistema Apple. | Tecnología RealFall™ para detección precisa de caídas, batería intercambiable y conectividad dual (celular y WiFi). | Operación independiente sin smartphone, detección de caídas con IA y red 4G LTE para claridad y velocidad. | Dispositivo gratuito con suscripción, compliant con HIPAA, centro de emergencias certificado 24/7. |
-| **Mercado objetivo** | Adultos mayores de 60 años en Perú (especialmente Lima Metropolitana) con enfermedades crónicas, y sus cuidadores familiares que buscan tranquilidad y respuesta rápida. | Adultos mayores y personas preocupadas por la salud en áreas urbanas, con énfasis en independencia y monitoreo continuo. | Seniors que necesitan protección constante contra caídas y emergencias, priorizando facilidad de uso. | Elderly activos que requieren alertas médicas sin dependencia de teléfonos, en entornos cotidianos. | Adultos mayores viviendo solos o con condiciones médicas, y sus cuidadores buscando tranquilidad. |
-| **Estrategia de marketing** | Marketing digital dirigido a familias y asociaciones de adultos mayores, alianzas con centros de salud, hogares geriátricos y ONGs en Perú. | Presencia en tiendas Apple, publicidad digital, énfasis en características de salud y fitness, ofertas como Fitness+ gratis. | Endorsements de expertos (NY Times, NCOA), historias de clientes, contenido educativo comparativo. | Promociones como descuentos y meses gratis, enfoque en simplicidad y reseñas positivas (4.8/5). | Testimonios de usuarios y médicos, calificación alta (4.9/5), énfasis en transparencia y recomendaciones. |
-| **Productos & Servicios** | Monitoreo continuo de signos vitales (pulso, respiración, saturación de oxígeno), detección de caídas, alertas automáticas a cuidadores y emergencias, historial accesible, reportes de salud, integración con llamadas de emergencia. | Detección de caídas, monitoreo de signos vitales (ritmo cardíaco, respiración, temperatura), ECG, notificaciones de irregularidades, alertas de emergencia. | Detección de caídas automática, activación por voz o botón, conexión a agentes 24/7, sin monitoreo vital directo. | Detección de caídas con IA, botón SOS, comunicación bidireccional, contador de pasos, alertas de batería baja. | Detección de caídas automática, monitoreo de ritmo cardíaco, GPS, botón SOS con altavoz bidireccional, alertas a emergencias. |
-| **Precios & Costos** | Venta del dispositivo con pago único por acceso a la app, cuotas bajas mensuales por soporte y mantenimiento. | Precio del dispositivo desde aproximadamente $399, sin suscripción obligatoria para funciones básicas de salud. | Precio no especificado en el contenido, enfocado en suscripción para monitoreo 24/7. | Suscripciones desde $39.95/mes, con promociones de descuento y mes gratis. | Suscripciones desde $34.95/mes, dispositivo gratis, sin tarifas ocultas. |
-| **Canales de distribución** | App móvil (iOS/Android), ventas en línea, alianzas con centros de salud y ONGs. | Tiendas Apple, sitio web, App Store. | Sitio web oficial, posiblemente Amazon. | Sitio web, compras en línea con envíos. | Sitio web oficial con envíos gratuitos. |
-| **Debilidades** | Producto nuevo en el mercado, posible resistencia inicial de adultos mayores a la tecnología, dependencia de cobertura móvil en Perú. | Requiere iPhone para configuración completa, batería diaria, precio alto para algunos usuarios. | No apto para inmersión en agua, no monitorea signos vitales directamente. | Vida de batería variable (6-18 horas), GPS limitado actualmente. | Dependencia de red móvil, posibles limitaciones en áreas sin cobertura. |
-| **Oportunidades** | Crecimiento del envejecimiento poblacional en Perú (13%+), alta demanda de soluciones accesibles para monitoreo de salud crónica y prevención de caídas. | Expansión en telemedicina y integración con más métricas de salud en mercados crecientes de envejecimiento. | Mejoras en tecnología RealFall™ y expansión a más usuarios seniors con datos recolectados. | Desarrollo de app para cuidadores y mejoras en batería para mercado en crecimiento de wearables para elderly. | Expansión basada en recomendaciones médicas y mercado de independencia senior. |
-| **Fortalezas** | Adaptada al contexto socioeconómico peruano, enfoque en accesibilidad y escalabilidad, interfaz simple y confiable, beneficios directos para cuidadores con reducción de estrés. | Monitoreo avanzado de salud, detección de caídas y emergencias, integración con conectividad familiar. | Protección 24/7, detección precisa de caídas, diseño amigable para usuarios. | Independiente, detección de caídas precisa, materiales cómodos, reseñas positivas. | Confiable, fácil configuración, alta satisfacción de usuarios, enfoque en privacidad.
+| **Competidor**              | <img src="Img/logo.png" alt="Logo Nuestra Solución" style="margin-bottom: 5px;" width="800">                                                                                                                                           | <img src="Img/applewathc-logo.svg" alt="Logo Apple Watch" style="margin-bottom: 5px;" width="800">                                                          | <img src="Img/unaliwear-logo.png" alt="Logo UnaliWear Kanega Watch" style="margin-bottom: 5px;" width="800">        | <img src="Img/bayalarm-logo.png" alt="Logo Bay Alarm SOS Smartwatch" style="margin-bottom: 5px;" width="800">            | <img src="Img/bewell-logo.png" alt="Logo BeWell Alert Smartwatch" style="margin-bottom: 5px;" width="800">                    |
+| --------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------- |
+| **Perfil Overview**         | **Nuestra Solucion** Brazalete inteligente IoT con app móvil para monitoreo en tiempo real de signos vitales y detección de caídas en adultos mayores, enfocado en el mercado peruano.                                                 | Reloj inteligente con enfoque en monitoreo de salud, fitness y seguridad, incluyendo detección de caídas y signos vitales para usuarios mayores.            | Reloj de alerta médica con detección de caídas, diseñado para protección 24/7 sin necesidad de recarga constante.   | Reloj de alerta médica independiente con detección de caídas automática y seguimiento de ubicación para seniors activos. | Reloj inteligente para seniors con detección de caídas, monitoreo de signos vitales y GPS en tiempo real.                     |
+| **Ventaja competitiva**     | Solución accesible y local con integración IoT completa, alertas inmediatas a cuidadores y servicios de emergencia, interfaz intuitiva para adultos mayores y soporte técnico cercano en Perú.                                         | Sensores avanzados para ECG, detección de hipertensión y apnea del sueño, integración con ecosistema Apple.                                                 | Tecnología RealFall™ para detección precisa de caídas, batería intercambiable y conectividad dual (celular y WiFi). | Operación independiente sin smartphone, detección de caídas con IA y red 4G LTE para claridad y velocidad.               | Dispositivo gratuito con suscripción, compliant con HIPAA, centro de emergencias certificado 24/7.                            |
+| **Mercado objetivo**        | Adultos mayores de 60 años en Perú (especialmente Lima Metropolitana) con enfermedades crónicas, y sus cuidadores familiares que buscan tranquilidad y respuesta rápida.                                                               | Adultos mayores y personas preocupadas por la salud en áreas urbanas, con énfasis en independencia y monitoreo continuo.                                    | Seniors que necesitan protección constante contra caídas y emergencias, priorizando facilidad de uso.               | Elderly activos que requieren alertas médicas sin dependencia de teléfonos, en entornos cotidianos.                      | Adultos mayores viviendo solos o con condiciones médicas, y sus cuidadores buscando tranquilidad.                             |
+| **Estrategia de marketing** | Marketing digital dirigido a familias y asociaciones de adultos mayores, alianzas con centros de salud, hogares geriátricos y ONGs en Perú.                                                                                            | Presencia en tiendas Apple, publicidad digital, énfasis en características de salud y fitness, ofertas como Fitness+ gratis.                                | Endorsements de expertos (NY Times, NCOA), historias de clientes, contenido educativo comparativo.                  | Promociones como descuentos y meses gratis, enfoque en simplicidad y reseñas positivas (4.8/5).                          | Testimonios de usuarios y médicos, calificación alta (4.9/5), énfasis en transparencia y recomendaciones.                     |
+| **Productos & Servicios**   | Monitoreo continuo de signos vitales (pulso, respiración, saturación de oxígeno), detección de caídas, alertas automáticas a cuidadores y emergencias, historial accesible, reportes de salud, integración con llamadas de emergencia. | Detección de caídas, monitoreo de signos vitales (ritmo cardíaco, respiración, temperatura), ECG, notificaciones de irregularidades, alertas de emergencia. | Detección de caídas automática, activación por voz o botón, conexión a agentes 24/7, sin monitoreo vital directo.   | Detección de caídas con IA, botón SOS, comunicación bidireccional, contador de pasos, alertas de batería baja.           | Detección de caídas automática, monitoreo de ritmo cardíaco, GPS, botón SOS con altavoz bidireccional, alertas a emergencias. |
+| **Precios & Costos**        | Venta del dispositivo con pago único por acceso a la app, cuotas bajas mensuales por soporte y mantenimiento.                                                                                                                          | Precio del dispositivo desde aproximadamente $399, sin suscripción obligatoria para funciones básicas de salud.                                             | Precio no especificado en el contenido, enfocado en suscripción para monitoreo 24/7.                                | Suscripciones desde $39.95/mes, con promociones de descuento y mes gratis.                                               | Suscripciones desde $34.95/mes, dispositivo gratis, sin tarifas ocultas.                                                      |
+| **Canales de distribución** | App móvil (iOS/Android), ventas en línea, alianzas con centros de salud y ONGs.                                                                                                                                                        | Tiendas Apple, sitio web, App Store.                                                                                                                        | Sitio web oficial, posiblemente Amazon.                                                                             | Sitio web, compras en línea con envíos.                                                                                  | Sitio web oficial con envíos gratuitos.                                                                                       |
+| **Debilidades**             | Producto nuevo en el mercado, posible resistencia inicial de adultos mayores a la tecnología, dependencia de cobertura móvil en Perú.                                                                                                  | Requiere iPhone para configuración completa, batería diaria, precio alto para algunos usuarios.                                                             | No apto para inmersión en agua, no monitorea signos vitales directamente.                                           | Vida de batería variable (6-18 horas), GPS limitado actualmente.                                                         | Dependencia de red móvil, posibles limitaciones en áreas sin cobertura.                                                       |
+| **Oportunidades**           | Crecimiento del envejecimiento poblacional en Perú (13%+), alta demanda de soluciones accesibles para monitoreo de salud crónica y prevención de caídas.                                                                               | Expansión en telemedicina y integración con más métricas de salud en mercados crecientes de envejecimiento.                                                 | Mejoras en tecnología RealFall™ y expansión a más usuarios seniors con datos recolectados.                          | Desarrollo de app para cuidadores y mejoras en batería para mercado en crecimiento de wearables para elderly.            | Expansión basada en recomendaciones médicas y mercado de independencia senior.                                                |
+| **Fortalezas**              | Adaptada al contexto socioeconómico peruano, enfoque en accesibilidad y escalabilidad, interfaz simple y confiable, beneficios directos para cuidadores con reducción de estrés.                                                       | Monitoreo avanzado de salud, detección de caídas y emergencias, integración con conectividad familiar.                                                      | Protección 24/7, detección precisa de caídas, diseño amigable para usuarios.                                        | Independiente, detección de caídas precisa, materiales cómodos, reseñas positivas.                                       | Confiable, fácil configuración, alta satisfacción de usuarios, enfoque en privacidad.                                         |
 
 <br><br>
+
 <div id='2.1.2.'><h4>2.1.2. Estrategias y tácticas frente a competidores</h4></div>
 
 - Diseñaremos un sistema de monitoreo accesible y fácil de usar, con una interfaz pensada tanto para adultos mayores como para familiares y cuidadores. La navegación será intuitiva, con alertas visuales y auditivas claras, además de un soporte técnico adaptado al usuario final, garantizando la confianza y la rápida adopción de la herramienta.
@@ -691,6 +781,7 @@ Esta sección recopila la información obtenida a partir de entrevistas realizad
 12. ¿Cómo cree que un sistema de este tipo impactaría en su tranquilidad y en la calidad de vida del adulto mayor?
 
 <br><br>
+
 <div id='2.2.2.'><h4>2.2.2. Registro de entrevistas</h4></div>
 
 ### Segmento 1: Adultos Mayores
@@ -828,6 +919,7 @@ Esta sección recopila la información obtenida a partir de entrevistas realizad
 </div>
 
 <br><br><br><br><br><br><br><br><br><br><br>
+
 <div id='2.2.3.'><h4>2.2.3. Análisis de entrevistas</h4></div>
 
 ### Análisis del segmento de adultos mayores
@@ -852,7 +944,6 @@ En general, los cuidadores perciben el sistema IoT como una herramienta clave pa
 **b. User Persona de un Cuidador**
 
 <img src="Img/user_persona_juan_herrera.png" alt="Imagen_User" style="margin-bottom: 5px;" width="300"/>
-
 
 <div id='2.3.2.'><h4>2.3.2. User Task Matrix</h4></div>
 
@@ -911,12 +1002,11 @@ A continuación, se presenta una matriz de tareas enfocada en María Luisa Ramí
 </table>
 <br>
 
+Del análisis de la matriz de tareas de María Luisa Ramírez, se destaca que las actividades más críticas son recordar tomar medicinas, controlar signos vitales y pedir ayuda en caso de emergencia. Aunque no todas son frecuentes, tienen alta o muy alta importancia, ya que afectan directamente a su salud y seguridad. Una solución digital debe priorizar la automatización de alertas y la simplicidad de uso, garantizando que no dependa de interacciones complejas para mantenerse protegida.
 
- Del análisis de la matriz de tareas de María Luisa Ramírez, se destaca que las actividades más críticas son recordar tomar medicinas, controlar signos vitales y pedir ayuda en caso de emergencia. Aunque no todas son frecuentes, tienen alta o muy alta importancia, ya que afectan directamente a su salud y seguridad. Una solución digital debe priorizar la automatización de alertas y la simplicidad de uso, garantizando que no dependa de interacciones complejas para mantenerse protegida.
+**b. User Task Matriz a un Cuidador**
 
- **b. User Task Matriz a un Cuidador**
-
- A continuación, se presenta una matriz de tareas enfocada en Juan Carlos Herrera, cuidador principal de su madre adulta mayor. Esta herramienta permite identificar y clasificar las actividades clave que realiza en su rol de cuidador, considerando la frecuencia con la que las lleva a cabo y el nivel de importancia que representan dentro de su rutina diaria.</br></br>
+A continuación, se presenta una matriz de tareas enfocada en Juan Carlos Herrera, cuidador principal de su madre adulta mayor. Esta herramienta permite identificar y clasificar las actividades clave que realiza en su rol de cuidador, considerando la frecuencia con la que las lleva a cabo y el nivel de importancia que representan dentro de su rutina diaria.</br></br>
 
 <table border="1">
   <thead>
@@ -969,8 +1059,7 @@ A continuación, se presenta una matriz de tareas enfocada en María Luisa Ramí
 </table>
 <br>
 
-
- Del análisis de la matriz de tareas de Juan Carlos Herrera, se evidencia que las tareas de mayor relevancia son supervisar la salud, recibir alertas de emergencias y controlar la medicación. Aunque algunas (como emergencias) no son frecuentes, su impacto es crítico. Un sistema de monitoreo que brinde alertas inmediatas, reportes confiables y funciones de seguimiento en tiempo real es clave para brindarle tranquilidad, optimizar su tiempo y reducir la sobrecarga emocional asociada al cuidado.
+Del análisis de la matriz de tareas de Juan Carlos Herrera, se evidencia que las tareas de mayor relevancia son supervisar la salud, recibir alertas de emergencias y controlar la medicación. Aunque algunas (como emergencias) no son frecuentes, su impacto es crítico. Un sistema de monitoreo que brinde alertas inmediatas, reportes confiables y funciones de seguimiento en tiempo real es clave para brindarle tranquilidad, optimizar su tiempo y reducir la sobrecarga emocional asociada al cuidado.
 
 <div id='2.3.3.'><h4>2.3.3. User Journey Mapping</h4></div>
 
@@ -1024,57 +1113,67 @@ A continuación, se presenta una matriz de tareas enfocada en María Luisa Ramí
 
 <div id='3.1.'><h3>3.1. User Stories</h3></div>
 
-| Epic / Story ID | Título | Descripción | Criterios de Aceptación | Relacionado con (Epic ID) |
-|-----------------|---------|--------------|-------------------------------------------|---------------------------|
-| **EP001** | **Autenticación y Gestión de Cuenta** | Funcionalidades relacionadas con el acceso inicial del usuario (registro, inicio de sesión y recuperación). | | |
-| US01 | Registrar usuario | Como adulto mayor o cuidador, quiero registrarme en la aplicación para acceder a los servicios de monitoreo. | **ES1:** Registro exitoso → Al completar datos válidos y pulsar *Registrarme*, se confirma y redirige al inicio de sesión.<br>**ES2:** Validaciones → Si el correo o contraseña son inválidos, muestra error y bloquea envío.<br>**ES3:** Correo ya registrado → Si el correo existe, informa y ofrece *Recuperar cuenta*. | EP001 |
-| US02 | Iniciar sesión | Como usuario, quiero iniciar sesión para acceder a mi perfil y datos de salud. | **ES1:** Inicio válido → Con credenciales correctas accede al panel principal.<br>**ES2:** Credenciales inválidas → Muestra error y ofrece *Olvidé mi contraseña*.<br>**ES3:** Cuenta no verificada → Solicita verificación o informa bloqueo temporal. | EP001 |
-| US03 | Recuperar cuenta | Como usuario, quiero recuperar mi cuenta si olvido mis credenciales. | **ES1:** Solicitud de restablecimiento → Envío de enlace al correo registrado.<br>**ES2:** Correo no registrado → Mensaje genérico (“si existe el correo…”).<br>**ES3:** Enlace expirado → Indica vencimiento y permite generar uno nuevo. | EP001 |
-| **EP002** | **Gestión de Perfil de Usuario** | Administración de datos personales, visualización y actualización de credenciales. | | |
-| US04 | Ver perfil | Como usuario, quiero visualizar mi información personal registrada. | **ES1:** Visualización correcta → Muestra datos completos al estar autenticado.<br>**ES2:** Sin conexión → Muestra datos en caché con aviso de sincronización.<br>**ES3:** Accesibilidad → Ajuste de fuentes sin pérdida de contenido. | EP002 |
-| US05 | Cambiar datos personales | Como usuario, quiero actualizar mis datos para mantener la información al día. | **ES1:** Actualización exitosa → Cambios guardados y confirmados.<br>**ES2:** Validaciones → Formatos incorrectos muestran error.<br>**ES3:** Conflicto → Notifica cambios desde otro dispositivo y permite resolver. | EP002 |
-| US06 | Cambiar contraseña | Como usuario, quiero cambiar mi contraseña para mantener mi cuenta segura. | **ES1:** Cambio exitoso → Actualiza credencial y cierra otras sesiones.<br>**ES2:** Error → Si la actual o nueva no cumplen requisitos, muestra mensaje.<br>**ES3:** Reautenticación → Solicita contraseña actual por seguridad. | EP002 |
-| US07 | Cambiar correo | Como usuario, quiero actualizar mi correo electrónico. | **ES1:** Cambio con verificación → Envía correo de confirmación antes de actualizar.<br>**ES2:** Correo inválido/duplicado → Error y no se guarda.<br>**ES3:** No verificación → Reversión al correo anterior tras vencimiento. | EP002 |
-| **EP003** | **Monitoreo de Signos Vitales** | Visualización de frecuencia cardiaca, presión arterial y oxigenación en tiempo real. | | |
-| US08 | Ver frecuencia cardiaca | Como usuario, quiero ver mi frecuencia cardiaca en tiempo real. | **ES1:** Lectura en tiempo real → Muestra BPM y estado de conexión.<br>**ES2:** Sin conexión → Último valor conocido y sugerencia de reconexión.<br>**ES3:** Filtros → Permite seleccionar intervalos de tiempo. | EP003 |
-| US09 | Ver presión arterial | Como usuario, quiero consultar mi presión arterial. | **ES1:** Lectura correcta → Muestra sistólica y diastólica.<br>**ES2:** Unidad y calibración → Indica mmHg y última calibración.<br>**ES3:** Falta parcial → Muestra aviso si falta un valor. | EP003 |
-| US10 | Ver oxigenación | Como usuario, quiero ver mis niveles de oxigenación (SpO₂). | **ES1:** Consulta correcta → Muestra nivel SpO₂ con calidad de señal.<br>**ES2:** Alerta visual → Color de advertencia bajo umbral.<br>**ES3:** Ahorro energía → Indica menor frecuencia de lectura. | EP003 |
-| US11 | Alertas inteligentes | Como usuario, quiero recibir notificaciones automáticas al detectar valores fuera de rango. | **ES1:** Alerta a usuario → Envía notificación con valor y recomendación.<br>**ES2:** Alerta a contactos → Envía aviso a contactos ante anomalías graves.<br>**ES3:** Evitar ruido → Agrupa eventos frecuentes para no saturar. | EP003 |
-| US12 | Tendencias gráficas | Como usuario, quiero ver gráficos históricos de mis signos vitales. | **ES1:** Rango temporal → Visualización diaria, semanal o mensual.<br>**ES2:** Filtros → Recalcula estadísticas según rango.<br>**ES3:** Exportación → Genera PDF o CSV con los datos. | EP003 |
-| **EP004** | **Registro y Seguimiento de alteraciones** | Registro, consulta y seguimiento de alteraciones detectadas o reportadas. | | |
-| US13 | Reportar una alteración | Como usuario o cuidador, quiero registrar manualmente una alteración de salud. | **ES1:** Reporte exitoso → Guarda tipo, severidad y descripción.<br>**ES2:** Adjuntos → Permite agregar foto o nota de voz.<br>**ES3:** Validaciones → No permite guardar con campos vacíos. | EP004 |
-| US14 | Log de alteraciones | Como usuario o cuidador, quiero consultar el historial de alteraciones. | **ES1:** Consulta → Lista con fecha, hora y detalle.<br>**ES2:** Filtros → Permite buscar por severidad o fecha.<br>**ES3:** Detalle → Muestra historial de cambios y adjuntos. | EP004 |
-| US15 | Registro de síntomas | Como usuario, quiero registrar síntomas adicionales. | **ES1:** Alta → Guarda síntoma con fecha y notas.<br>**ES2:** Historial → Muestra síntomas en orden cronológico.<br>**ES3:** Edición → Permite corregir o eliminar con trazabilidad. | EP004 |
-| **EP005** | **Emergencias y Alerta** | Acciones ante situaciones críticas, llamadas al 106 y contactos adicionales. | | |
-| US16 | Mandar llamado a emergencia 106 | Como usuario, quiero que la app realice una llamada directa al 106 en caso de emergencia. | **ES1:** Llamada automática → Botón SOS inicia llamada con cuenta regresiva.<br>**ES2:** Sin permisos → Solicita permiso o muestra número manual.<br>**ES3:** Confirmación → Pide doble toque para evitar errores. | EP005 |
-| US17 | Registrar números de emergencia adicionales | Como usuario, quiero registrar contactos de emergencia. | **ES1:** Registro → Guarda nombre, relación y número.<br>**ES2:** Validación → Evita duplicados o formato inválido.<br>**ES3:** Prioridad → Ordena contactos por nivel de aviso. | EP005 |
-| US18 | Geolocalización en emergencias | Como usuario, quiero enviar mi ubicación al activar SOS. | **ES1:** Envío con llamada → Envía ubicación al 106 y contactos.<br>**ES2:** Notificación → Envía SMS/WhatsApp con enlace de seguimiento.<br>**ES3:** Sin permisos → Usa última ubicación conocida. | EP005 |
-| **EP006** | **Soporte al Tratamiento** | Funcionalidades de apoyo social o médico como recordatorios y acceso multiusuario. | | |
-| US19 | Recordatorios de medicamentos | Como usuario, quiero programar recordatorios para no olvidar medicación. | **ES1:** Notificación → Envía alerta a la hora programada.<br>**ES2:** Registro → Marca como tomado u omitido.<br>**ES3:** Reprogramación → Permite posponer o registrar omisión. | EP006 |
-| US20 | Acceso multiusuario | Como usuario, quiero autorizar a familiares o cuidadores a ver mi estado de salud. | **ES1:** Conceder acceso → Registra contacto y define permisos.<br>**ES2:** Revocar acceso → Permite modificar o eliminar permisos.<br>**ES3:** Privacidad → Comparte solo la información autorizada. | EP006 |
-| **EP007** | **Landing Page Informativa** | Este Epic abarca las secciones públicas de la aplicación web orientadas a captar nuevos usuarios y comunicar valor: características, beneficios, problemática, acerca de, testimonios, contacto y descarga. | | |
-| US21 | Ver características | Como visitante, quiero conocer las principales características de la aplicación para entender qué ofrece. | **ES1:** Carga de sección → Al entrar al sitio, se muestran iconos y descripciones de funcionalidades clave.<br>**ES2:** Accesibilidad → Las tarjetas son legibles, con texto alternativo e íconos descriptivos.<br>**ES3:** Navegación → Los enlaces de “Ver más” dirigen correctamente a detalles o registro. | EP007 |
-| US22 | Ver beneficios | Como visitante, quiero ver los beneficios de usar la aplicación para motivarme a registrarme. | **ES1:** Visualización clara → La sección muestra beneficios con frases breves y visuales.<br>**ES2:** Responsive → El diseño se adapta correctamente en móvil y escritorio.<br>**ES3:** Llamado a la acción → Incluye botón “Regístrate” o “Descarga la app” visible. | EP007 |
-| US23 | Comprender la problemática | Como visitante, quiero entender la problemática de salud que aborda la aplicación para sentirme identificado con su propósito. | **ES1:** Texto informativo → Se muestra explicación clara y empática de la problemática.<br>**ES2:** Recursos visuales → Incluye imágenes o gráficos ilustrativos.<br>**ES3:** Tiempo de carga → La sección carga sin retrasos perceptibles (<3s). | EP007 |
-| US24 | Conocer acerca del proyecto | Como visitante, quiero leer información sobre la misión, visión y el equipo detrás de la aplicación. | **ES1:** Muestra datos clave → Presenta misión, visión y miembros principales del proyecto.<br>**ES2:** Enlaces externos → Los botones de redes sociales o “Conócenos” funcionan correctamente.<br>**ES3:** Diseño accesible → Compatible con lectores de pantalla y contraste adecuado. | EP007 |
-| US25 | Ver testimonios | Como visitante, quiero leer opiniones de otros usuarios o cuidadores para generar confianza. | **ES1:** Visualización → Se muestran al menos tres testimonios con nombre y foto opcional.<br>**ES2:** Carrusel funcional → Permite desplazarse sin errores entre testimonios.<br>**ES3:** Validación de contenido → Los testimonios no se repiten y cargan dinámicamente. | EP007 |
-| US26 | Enviar mensaje de contacto | Como visitante, quiero enviar un mensaje a través del formulario de contacto para resolver mis dudas. | **ES1:** Envío exitoso → Al completar nombre, correo y mensaje válidos, se confirma el envío.<br>**ES2:** Validaciones → Si falta algún campo o el correo es inválido, se muestra mensaje de error.<br>**ES3:** Protección antispam → No se permiten envíos automáticos (captcha activo). | EP007 |
-| US27 | Descargar la aplicación | Como visitante, quiero descargar la aplicación desde la landing page para comenzar a usarla. | **ES1:** Enlaces funcionales → Los botones de “Descargar en Play Store / App Store” redirigen correctamente.<br>**ES2:** Detección de dispositivo → Si accede desde Android o iOS, se sugiere el enlace correspondiente.<br>**ES3:** Versión web → Si el dispositivo no es compatible, se ofrece versión web o aviso informativo. | EP007 |
+| Epic / Story ID | Título                                                 | Descripción                                                                                                                                                                                                 | Criterios de Aceptación                                                                                                                                                                                                                                                                                                                                                                                                                                         | Relacionado con (Epic ID) |
+| --------------- | ------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------- |
+| **EP001**       | **Autenticación y Gestión de Cuenta**                  | Funcionalidades relacionadas con el acceso inicial del usuario (registro, inicio de sesión y recuperación).                                                                                                 |                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |                           |
+| US01            | Registrar usuario                                      | Como adulto mayor o cuidador, quiero registrarme en la aplicación para acceder a los servicios de monitoreo.                                                                                                | **ES1:** Registro exitoso → Al completar datos válidos y pulsar _Registrarme_, se confirma y redirige al inicio de sesión.<br>**ES2:** Validaciones → Si el correo o contraseña son inválidos, muestra error y bloquea envío.<br>**ES3:** Correo ya registrado → Si el correo existe, informa y ofrece _Recuperar cuenta_.                                                                                                                                      | EP001                     |
+| US02            | Iniciar sesión                                         | Como usuario, quiero iniciar sesión para acceder a mi perfil y datos de salud.                                                                                                                              | **ES1:** Inicio válido → Con credenciales correctas accede al panel principal.<br>**ES2:** Credenciales inválidas → Muestra error y ofrece _Olvidé mi contraseña_.<br>**ES3:** Cuenta no verificada → Solicita verificación o informa bloqueo temporal.                                                                                                                                                                                                         | EP001                     |
+| US03            | Recuperar cuenta                                       | Como usuario, quiero recuperar mi cuenta si olvido mis credenciales.                                                                                                                                        | **ES1:** Solicitud de restablecimiento → Envío de enlace al correo registrado.<br>**ES2:** Correo no registrado → Mensaje genérico (“si existe el correo…”).<br>**ES3:** Enlace expirado → Indica vencimiento y permite generar uno nuevo.                                                                                                                                                                                                                      | EP001                     |
+| **EP002**       | **Gestión de Perfil de Usuario**                       | Administración de datos personales, visualización y actualización de credenciales.                                                                                                                          |                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |                           |
+| US04            | Ver perfil                                             | Como usuario, quiero visualizar mi información personal registrada.                                                                                                                                         | **ES1:** Visualización correcta → Muestra datos completos al estar autenticado.<br>**ES2:** Sin conexión → Muestra datos en caché con aviso de sincronización.<br>**ES3:** Accesibilidad → Ajuste de fuentes sin pérdida de contenido.                                                                                                                                                                                                                          | EP002                     |
+| US05            | Cambiar datos personales                               | Como usuario, quiero actualizar mis datos para mantener la información al día.                                                                                                                              | **ES1:** Actualización exitosa → Cambios guardados y confirmados.<br>**ES2:** Validaciones → Formatos incorrectos muestran error.<br>**ES3:** Conflicto → Notifica cambios desde otro dispositivo y permite resolver.                                                                                                                                                                                                                                           | EP002                     |
+| US06            | Cambiar contraseña                                     | Como usuario, quiero cambiar mi contraseña para mantener mi cuenta segura.                                                                                                                                  | **ES1:** Cambio exitoso → Actualiza credencial y cierra otras sesiones.<br>**ES2:** Error → Si la actual o nueva no cumplen requisitos, muestra mensaje.<br>**ES3:** Reautenticación → Solicita contraseña actual por seguridad.                                                                                                                                                                                                                                | EP002                     |
+| US07            | Cambiar correo                                         | Como usuario, quiero actualizar mi correo electrónico.                                                                                                                                                      | **ES1:** Cambio con verificación → Envía correo de confirmación antes de actualizar.<br>**ES2:** Correo inválido/duplicado → Error y no se guarda.<br>**ES3:** No verificación → Reversión al correo anterior tras vencimiento.                                                                                                                                                                                                                                 | EP002                     |
+| **EP003**       | **Monitoreo de Signos Vitales**                        | Visualización de frecuencia cardiaca, presión arterial y oxigenación en tiempo real.                                                                                                                        |                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |                           |
+| US08            | Ver frecuencia cardiaca                                | Como usuario, quiero ver mi frecuencia cardiaca en tiempo real.                                                                                                                                             | **ES1:** Lectura en tiempo real → Muestra BPM y estado de conexión.<br>**ES2:** Sin conexión → Último valor conocido y sugerencia de reconexión.<br>**ES3:** Filtros → Permite seleccionar intervalos de tiempo.                                                                                                                                                                                                                                                | EP003                     |
+| US09            | Ver presión arterial                                   | Como usuario, quiero consultar mi presión arterial.                                                                                                                                                         | **ES1:** Lectura correcta → Muestra sistólica y diastólica.<br>**ES2:** Unidad y calibración → Indica mmHg y última calibración.<br>**ES3:** Falta parcial → Muestra aviso si falta un valor.                                                                                                                                                                                                                                                                   | EP003                     |
+| US10            | Ver oxigenación                                        | Como usuario, quiero ver mis niveles de oxigenación (SpO₂).                                                                                                                                                 | **ES1:** Consulta correcta → Muestra nivel SpO₂ con calidad de señal.<br>**ES2:** Alerta visual → Color de advertencia bajo umbral.<br>**ES3:** Ahorro energía → Indica menor frecuencia de lectura.                                                                                                                                                                                                                                                            | EP003                     |
+| US11            | Alertas inteligentes                                   | Como usuario, quiero recibir notificaciones automáticas al detectar valores fuera de rango.                                                                                                                 | **ES1:** Alerta a usuario → Envía notificación con valor y recomendación.<br>**ES2:** Alerta a contactos → Envía aviso a contactos ante anomalías graves.<br>**ES3:** Evitar ruido → Agrupa eventos frecuentes para no saturar.                                                                                                                                                                                                                                 | EP003                     |
+| US12            | Tendencias gráficas                                    | Como usuario, quiero ver gráficos históricos de mis signos vitales.                                                                                                                                         | **ES1:** Rango temporal → Visualización diaria, semanal o mensual.<br>**ES2:** Filtros → Recalcula estadísticas según rango.<br>**ES3:** Exportación → Genera PDF o CSV con los datos.                                                                                                                                                                                                                                                                          | EP003                     |
+| **EP004**       | **Registro y Seguimiento de alteraciones**             | Registro, consulta y seguimiento de alteraciones detectadas o reportadas.                                                                                                                                   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |                           |
+| US13            | Reportar una alteración                                | Como usuario o cuidador, quiero registrar manualmente una alteración de salud.                                                                                                                              | **ES1:** Reporte exitoso → Guarda tipo, severidad y descripción.<br>**ES2:** Adjuntos → Permite agregar foto o nota de voz.<br>**ES3:** Validaciones → No permite guardar con campos vacíos.                                                                                                                                                                                                                                                                    | EP004                     |
+| US14            | Log de alteraciones                                    | Como usuario o cuidador, quiero consultar el historial de alteraciones.                                                                                                                                     | **ES1:** Consulta → Lista con fecha, hora y detalle.<br>**ES2:** Filtros → Permite buscar por severidad o fecha.<br>**ES3:** Detalle → Muestra historial de cambios y adjuntos.                                                                                                                                                                                                                                                                                 | EP004                     |
+| US15            | Registro de síntomas                                   | Como usuario, quiero registrar síntomas adicionales.                                                                                                                                                        | **ES1:** Alta → Guarda síntoma con fecha y notas.<br>**ES2:** Historial → Muestra síntomas en orden cronológico.<br>**ES3:** Edición → Permite corregir o eliminar con trazabilidad.                                                                                                                                                                                                                                                                            | EP004                     |
+| **EP005**       | **Emergencias y Alerta**                               | Acciones ante situaciones críticas, llamadas al 106 y contactos adicionales.                                                                                                                                |                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |                           |
+| US16            | Mandar llamado a emergencia 106                        | Como usuario, quiero que la app realice una llamada directa al 106 en caso de emergencia.                                                                                                                   | **ES1:** Llamada automática → Botón SOS inicia llamada con cuenta regresiva.<br>**ES2:** Sin permisos → Solicita permiso o muestra número manual.<br>**ES3:** Confirmación → Pide doble toque para evitar errores.                                                                                                                                                                                                                                              | EP005                     |
+| US17            | Registrar números de emergencia adicionales            | Como usuario, quiero registrar contactos de emergencia.                                                                                                                                                     | **ES1:** Registro → Guarda nombre, relación y número.<br>**ES2:** Validación → Evita duplicados o formato inválido.<br>**ES3:** Prioridad → Ordena contactos por nivel de aviso.                                                                                                                                                                                                                                                                                | EP005                     |
+| US18            | Geolocalización en emergencias                         | Como usuario, quiero enviar mi ubicación al activar SOS.                                                                                                                                                    | **ES1:** Envío con llamada → Envía ubicación al 106 y contactos.<br>**ES2:** Notificación → Envía SMS/WhatsApp con enlace de seguimiento.<br>**ES3:** Sin permisos → Usa última ubicación conocida.                                                                                                                                                                                                                                                             | EP005                     |
+| **EP006**       | **Soporte al Tratamiento**                             | Funcionalidades de apoyo social o médico como recordatorios y acceso multiusuario.                                                                                                                          |                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |                           |
+| US19            | Recordatorios de medicamentos                          | Como usuario, quiero programar recordatorios para no olvidar medicación.                                                                                                                                    | **ES1:** Notificación → Envía alerta a la hora programada.<br>**ES2:** Registro → Marca como tomado u omitido.<br>**ES3:** Reprogramación → Permite posponer o registrar omisión.                                                                                                                                                                                                                                                                               | EP006                     |
+| US20            | Acceso multiusuario                                    | Como usuario, quiero autorizar a familiares o cuidadores a ver mi estado de salud.                                                                                                                          | **ES1:** Conceder acceso → Registra contacto y define permisos.<br>**ES2:** Revocar acceso → Permite modificar o eliminar permisos.<br>**ES3:** Privacidad → Comparte solo la información autorizada.                                                                                                                                                                                                                                                           | EP006                     |
+| **EP007**       | **Landing Page Informativa**                           | Este Epic abarca las secciones públicas de la aplicación web orientadas a captar nuevos usuarios y comunicar valor: características, beneficios, problemática, acerca de, testimonios, contacto y descarga. |                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |                           |
+| US21            | Ver características                                    | Como visitante, quiero conocer las principales características de la aplicación para entender qué ofrece.                                                                                                   | **ES1:** Carga de sección → Al entrar al sitio, se muestran iconos y descripciones de funcionalidades clave.<br>**ES2:** Accesibilidad → Las tarjetas son legibles, con texto alternativo e íconos descriptivos.<br>**ES3:** Navegación → Los enlaces de “Ver más” dirigen correctamente a detalles o registro.                                                                                                                                                 | EP007                     |
+| US22            | Ver beneficios                                         | Como visitante, quiero ver los beneficios de usar la aplicación para motivarme a registrarme.                                                                                                               | **ES1:** Visualización clara → La sección muestra beneficios con frases breves y visuales.<br>**ES2:** Responsive → El diseño se adapta correctamente en móvil y escritorio.<br>**ES3:** Llamado a la acción → Incluye botón “Regístrate” o “Descarga la app” visible.                                                                                                                                                                                          | EP007                     |
+| US23            | Comprender la problemática                             | Como visitante, quiero entender la problemática de salud que aborda la aplicación para sentirme identificado con su propósito.                                                                              | **ES1:** Texto informativo → Se muestra explicación clara y empática de la problemática.<br>**ES2:** Recursos visuales → Incluye imágenes o gráficos ilustrativos.<br>**ES3:** Tiempo de carga → La sección carga sin retrasos perceptibles (<3s).                                                                                                                                                                                                              | EP007                     |
+| US24            | Conocer acerca del proyecto                            | Como visitante, quiero leer información sobre la misión, visión y el equipo detrás de la aplicación.                                                                                                        | **ES1:** Muestra datos clave → Presenta misión, visión y miembros principales del proyecto.<br>**ES2:** Enlaces externos → Los botones de redes sociales o “Conócenos” funcionan correctamente.<br>**ES3:** Diseño accesible → Compatible con lectores de pantalla y contraste adecuado.                                                                                                                                                                        | EP007                     |
+| US25            | Ver testimonios                                        | Como visitante, quiero leer opiniones de otros usuarios o cuidadores para generar confianza.                                                                                                                | **ES1:** Visualización → Se muestran al menos tres testimonios con nombre y foto opcional.<br>**ES2:** Carrusel funcional → Permite desplazarse sin errores entre testimonios.<br>**ES3:** Validación de contenido → Los testimonios no se repiten y cargan dinámicamente.                                                                                                                                                                                      | EP007                     |
+| US26            | Enviar mensaje de contacto                             | Como visitante, quiero enviar un mensaje a través del formulario de contacto para resolver mis dudas.                                                                                                       | **ES1:** Envío exitoso → Al completar nombre, correo y mensaje válidos, se confirma el envío.<br>**ES2:** Validaciones → Si falta algún campo o el correo es inválido, se muestra mensaje de error.<br>**ES3:** Protección antispam → No se permiten envíos automáticos (captcha activo).                                                                                                                                                                       | EP007                     |
+| US27            | Descargar la aplicación                                | Como visitante, quiero descargar la aplicación desde la landing page para comenzar a usarla.                                                                                                                | **ES1:** Enlaces funcionales Los botones de "Descargar en Play Store / App Store" redirigen correctamente.<br>**ES2:** Detección de dispositivo Si accede desde Android o iOS, se sugiere el enlace correspondiente.<br>**ES3:** Versión web Si el dispositivo no es compatible, se ofrece versión web o aviso informativo.                                                                                                                                     | EP007                     |
+| **EP008**       | **Vinculación y Gestión de Dispositivos (Mobile App)** | Funcionalidades de la aplicación móvil para vincular dispositivos IoT mediante códigos y gestionar la conexión con pacientes.                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |                           |
+| US28            | Generar código de vinculación                          | Como cuidador, quiero generar un código único de vinculación para asociar el dispositivo IoT del paciente a mi cuenta y comenzar a recibir sus datos de monitoreo.                                          | **ES1:** Generación exitosa Al presionar "Generar código", se crea un código alfanumérico único de 6 caracteres con vigencia de 24 horas.<br>**ES2:** Visualización clara El código se muestra en pantalla con opción de copiar y compartir por WhatsApp/SMS.<br>**ES3:** Expiración Si el código expira sin usarse, se permite generar uno nuevo.                                                                                                              | EP008                     |
+| US29            | Usar código de vinculación                             | Como paciente o familiar, quiero ingresar un código de vinculación para conectar mi dispositivo IoT con la cuenta del cuidador asignado.                                                                    | **ES1:** Vinculación exitosa Al ingresar un código válido y presionar "Vincular", se establece la relación dispositivo-cuidador y muestra confirmación.<br>**ES2:** Código inválido/expirado Muestra mensaje de error indicando que el código no existe o ha expirado.<br>**ES3:** Código ya usado Informa que el código ya fue utilizado y sugiere solicitar uno nuevo.                                                                                        | EP008                     |
+| **EP009**       | **Monitoreo en Tiempo Real (Mobile App)**              | Funcionalidades de visualización de datos de signos vitales en tiempo real mediante conexión WebSocket.                                                                                                     |                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |                           |
+| US30            | Recibir datos de signos vitales en tiempo real         | Como cuidador, quiero visualizar los signos vitales del paciente actualizados en tiempo real mediante WebSocket para tener información actualizada constantemente sin necesidad de refrescar la pantalla.   | **ES1:** Conexión WebSocket activa Al abrir el dashboard, se establece conexión WebSocket y los datos de frecuencia cardíaca, SpO y temperatura se actualizan automáticamente cada 5 segundos.<br>**ES2:** Indicador de conexión Muestra estado de conexión (conectado/desconectado) con código de colores (verde/rojo).<br>**ES3:** Reconexión automática Si se pierde la conexión, intenta reconectar automáticamente cada 10 segundos y notifica al usuario. | EP009                     |
+| **EP010**       | **Ubicación y Seguimiento (Mobile App)**               | Funcionalidades para visualizar y rastrear la ubicación del paciente en situaciones de emergencia o monitoreo.                                                                                              |                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |                           |
+| US31            | Ver ubicación del paciente en mapa                     | Como cuidador, quiero ver la ubicación actual del paciente en un mapa interactivo para saber dónde se encuentra en caso de emergencia o seguimiento rutinario.                                              | **ES1:** Visualización de ubicación Al acceder a la sección "Ubicación", se muestra un mapa con la posición actual del paciente marcada con un pin.<br>**ES2:** Actualización periódica La ubicación se actualiza cada 30 segundos con indicador de última actualización.<br>**ES3:** Sin señal GPS Si no hay ubicación disponible, muestra la última conocida con advertencia de antigüedad.                                                                   | EP010                     |
 
-
-
-| Epic / Story ID | Título | Descripción | Criterios de Aceptación | Relacionado con (Epic ID) |
-|-----------------|---------|--------------|-------------------------------------------|---------------------------|
-| **EP01** | **Backend APIs y Servicios** | Endpoints y lógica del lado servidor para autenticación, gestión de entidades clínicas y relaciones entre pacientes y cuidadores. | | |
-| TS01 | Login (API) | Endpoint REST para autenticación de usuarios (email/password) y emisión de JWT. | **ES1:** POST /api/auth/login → devuelve token JWT y datos básicos del usuario.<br>**ES2:** Credenciales inválidas → 401 con mensaje genérico.<br>**ES3:** Token válido → accesible recursos protegidos. | EP01 |
-| TS02 | Registrar cuidador (Backend) | Endpoint para crear cuenta de tipo "caregiver" y perfil asociado. | **ES1:** POST /api/auth/register-caregiver crea User + Profile + Caregiver y devuelve 201.<br>**ES2:** Email duplicado → 409 y mensaje.<br>**ES3:** Validaciones de campos (dni, teléfono) aplicadas. | EP01 |
-| TS03 | Registrar paciente (Backend) | Endpoint para crear cuenta/registro de paciente (puede ser por caretakers). | **ES1:** POST /api/patients crea Patient y Profile y devuelve 201.<br>**ES2:** Si es creado por caregiver, se establece relación N:M inicial.<br>**ES3:** Validaciones de datos clínicos básicas. | EP01 |
-| TS04 | Vincular paciente ↔ cuidador | Endpoint para relacionar un paciente con un cuidador (adds relation). | **ES1:** POST /api/caregivers/{id}/patients con patientId → devuelve 200 y relación creada.<br>**ES2:** Si ya existe relación → 409.<br>**ES3:** Permisos: solo caregiver autenticado o admin puede vincular. | EP01 |
-| TS05 | CRUD Disturbances (Alteraciones) | Endpoints para crear, listar y eliminar alteraciones detectadas (disturbances). | **ES1:** POST /api/patients/{id}/disturbances crea entrada y devuelve 201.<br>**ES2:** GET /api/patients/{id}/disturbances devuelve lista paginada.<br>**ES3:** DELETE /api/disturbances/{id} borra (soft delete) con permisos adecuados (caregiver/patient/admin). | EP01 |
-| TS06 | CRUD Symptoms (Síntomas) | Endpoints para reportar, consultar y eliminar síntomas asociados a pacientes. | **ES1:** POST /api/patients/{id}/symptoms → 201 con id del síntoma.<br>**ES2:** GET /api/patients/{id}/symptoms → lista ordenada por fecha.<br>**ES3:** DELETE /api/symptoms/{id} → 200 y registro marcado inactivo. | EP01 |
-| TS07 | CRUD Treatments (Tratamientos) | Endpoints para gestionar tratamientos y recordatorios (create/get/delete). | **ES1:** POST /api/patients/{id}/treatments crea tratamiento y devuelve 201.<br>**ES2:** GET /api/patients/{id}/treatments devuelve activos/inactivos filtrables.<br>**ES3:** DELETE /api/treatments/{id} desactiva o elimina según política. | EP01 |
-<tr><td>37</td><td>TS10</td><td>Device Controller - Registrar dispositivo (POST /api/device)</td><td>Endpoint REST para registrar y vincular un dispositivo IoT a un paciente. Valida payload (deviceId, patientId, model, firmware), crea/actualiza registro del dispositivo y publica evento de dispositivo registrado. Maneja duplicados y devuelve 201 con recurso creado.</td><td>3</td></tr>
-<tr><td>38</td><td>TS11</td><td>Device Controller - Obtener lecturas (GET /api/device/readings/all)</td><td>Endpoint REST para obtener todas las lecturas recopiladas por los dispositivos. Soporta filtros (patientId, deviceId, from,to), paginación y ordenamiento. Protege ruta (roles/permiso), valida acceso y devuelve lista paginada de lecturas con metadatos.</td><td>5</td></tr>
+| Epic / Story ID | Título                                               | Descripción                                                                                                                       | Criterios de Aceptación                                                                                                                                                                                                                                                                                                                                                                    | Relacionado con (Epic ID) |
+| --------------- | ---------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------- |
+| **EP01**        | **Backend APIs y Servicios**                         | Endpoints y lógica del lado servidor para autenticación, gestión de entidades clínicas y relaciones entre pacientes y cuidadores. |                                                                                                                                                                                                                                                                                                                                                                                            |                           |
+| TS01            | Login (API)                                          | Endpoint REST para autenticación de usuarios (email/password) y emisión de JWT.                                                   | **ES1:** POST /api/auth/login → devuelve token JWT y datos básicos del usuario.<br>**ES2:** Credenciales inválidas → 401 con mensaje genérico.<br>**ES3:** Token válido → accesible recursos protegidos.                                                                                                                                                                                   | EP01                      |
+| TS02            | Registrar cuidador (Backend)                         | Endpoint para crear cuenta de tipo "caregiver" y perfil asociado.                                                                 | **ES1:** POST /api/auth/register-caregiver crea User + Profile + Caregiver y devuelve 201.<br>**ES2:** Email duplicado → 409 y mensaje.<br>**ES3:** Validaciones de campos (dni, teléfono) aplicadas.                                                                                                                                                                                      | EP01                      |
+| TS03            | Registrar paciente (Backend)                         | Endpoint para crear cuenta/registro de paciente (puede ser por caretakers).                                                       | **ES1:** POST /api/patients crea Patient y Profile y devuelve 201.<br>**ES2:** Si es creado por caregiver, se establece relación N:M inicial.<br>**ES3:** Validaciones de datos clínicos básicas.                                                                                                                                                                                          | EP01                      |
+| TS04            | Vincular paciente ↔ cuidador                         | Endpoint para relacionar un paciente con un cuidador (adds relation).                                                             | **ES1:** POST /api/caregivers/{id}/patients con patientId → devuelve 200 y relación creada.<br>**ES2:** Si ya existe relación → 409.<br>**ES3:** Permisos: solo caregiver autenticado o admin puede vincular.                                                                                                                                                                              | EP01                      |
+| TS05            | CRUD Disturbances (Alteraciones)                     | Endpoints para crear, listar y eliminar alteraciones detectadas (disturbances).                                                   | **ES1:** POST /api/patients/{id}/disturbances crea entrada y devuelve 201.<br>**ES2:** GET /api/patients/{id}/disturbances devuelve lista paginada.<br>**ES3:** DELETE /api/disturbances/{id} borra (soft delete) con permisos adecuados (caregiver/patient/admin).                                                                                                                        | EP01                      |
+| TS06            | CRUD Symptoms (Síntomas)                             | Endpoints para reportar, consultar y eliminar síntomas asociados a pacientes.                                                     | **ES1:** POST /api/patients/{id}/symptoms → 201 con id del síntoma.<br>**ES2:** GET /api/patients/{id}/symptoms → lista ordenada por fecha.<br>**ES3:** DELETE /api/symptoms/{id} → 200 y registro marcado inactivo.                                                                                                                                                                       | EP01                      |
+| TS07            | CRUD Treatments (Tratamientos)                       | Endpoints para gestionar tratamientos y recordatorios (create/get/delete).                                                        | **ES1:** POST /api/patients/{id}/treatments crea tratamiento y devuelve 201.<br>**ES2:** GET /api/patients/{id}/treatments devuelve activos/inactivos filtrables.<br>**ES3:** DELETE /api/treatments/{id} desactiva o elimina según política.                                                                                                                                              | EP01                      |
+| TS10            | Device Controller - Registrar dispositivo            | Endpoint REST para registrar y vincular un dispositivo IoT a un paciente.                                                         | **ES1:** POST /api/device valida payload (deviceId, patientId, model, firmware) y devuelve 201.<br>**ES2:** Duplicado → 409 con mensaje.<br>**ES3:** Publica evento de dispositivo registrado.                                                                                                                                                                                             | EP01                      |
+| TS11            | Device Controller - Obtener lecturas                 | Endpoint REST para obtener todas las lecturas recopiladas por los dispositivos.                                                   | **ES1:** GET /api/device/readings/all soporta filtros (patientId, deviceId, from, to) y paginación.<br>**ES2:** Protege ruta por roles/permisos.<br>**ES3:** Devuelve lista paginada con metadatos.                                                                                                                                                                                        | EP01                      |
+| **EP02**        | **Backend - Gestión de Códigos y Perfil (Sprint 3)** | Endpoints para gestión de códigos de vinculación, información de perfil y detección de eventos críticos.                          |                                                                                                                                                                                                                                                                                                                                                                                            |                           |
+| TS12            | API de códigos de vinculación - Generar              | Endpoint para generar códigos únicos de vinculación entre cuidadores y dispositivos/pacientes.                                    | **ES1:** POST /api/invite/generate crea código alfanumérico de 6 caracteres con expiración de 24h y devuelve 201.<br>**ES2:** Límite de códigos activos → 400 si el usuario tiene más de 5 códigos sin usar.<br>**ES3:** Incluye metadata (createdAt, expiresAt, createdBy).                                                                                                               | EP02                      |
+| TS13            | API de códigos de vinculación - Usar                 | Endpoint para consumir y validar códigos de vinculación.                                                                          | **ES1:** POST /api/invite/use/{code} valida código, establece relación y devuelve 200 con datos de vinculación.<br>**ES2:** Código inválido/expirado → 404 con mensaje descriptivo.<br>**ES3:** Código ya usado → 409 indicando uso previo.                                                                                                                                                | EP02                      |
+| TS14            | API de perfil de usuario                             | Endpoints para obtener y actualizar información de perfil de pacientes y cuidadores.                                              | **ES1:** GET /api/auth/profile/me devuelve datos completos del usuario autenticado (nombre, email, rol, foto, teléfono).<br>**ES2:** PUT /api/auth/profile actualiza campos permitidos y devuelve 200.<br>**ES3:** Validaciones de formato (teléfono, email) aplicadas con mensajes claros.                                                                                                | EP02                      |
+| TS15            | Sistema de detección de caídas                       | Lógica backend para procesar datos del acelerómetro y detectar caídas automáticamente.                                            | **ES1:** POST /api/falls/detect recibe datos de acelerómetro, aplica algoritmo de detección y devuelve resultado (fall_detected: true/false).<br>**ES2:** Si se detecta caída → crea alerta automática en /api/alerts con severidad "critical" y notifica contactos de emergencia.<br>**ES3:** Registra evento en historial con timestamp, ubicación y datos del sensor para trazabilidad. | EP02                      |
 
 <div id='3.2.'><h3>3.2. Impact Mapping</h3></div>
 
@@ -1141,9 +1240,18 @@ Así, se define un plan de trabajo claro para el equipo de desarrollo, garantiza
     <tr><td>35</td><td>TS08</td><td>Asociar recordatorios a Treatment</td><td>Backend para crear/listar recordatorios asociados a tratamientos y exponer scheduler/worker para notificaciones.</td><td>5</td></tr>
     <tr><td>37</td><td>TS10</td><td>Device Controller - Registrar dispositivo (POST /api/device)</td><td>Endpoint REST para registrar y vincular un dispositivo IoT a un paciente. Valida payload (deviceId, patientId, model, firmware), crea/actualiza registro del dispositivo y publica evento de dispositivo registrado. Maneja duplicados y devuelve 201 con recurso creado.</td><td>3</td></tr>
     <tr><td>38</td><td>TS11</td><td>Device Controller - Obtener lecturas (GET /api/device/readings/all)</td><td>Endpoint REST para obtener todas las lecturas recopiladas por los dispositivos. Soporta filtros (patientId, deviceId, from,to), paginación y ordenamiento. Protege ruta (roles/permiso), valida acceso y devuelve lista paginada de lecturas con metadatos.</td><td>5</td></tr>
+    <!-- Sprint 3 - User Stories (Mobile App) -->
+    <tr><td>39</td><td>US28</td><td>Generar código de vinculación</td><td>Como cuidador, quiero generar un código único de vinculación para asociar el dispositivo IoT del paciente a mi cuenta.</td><td>3</td></tr>
+    <tr><td>40</td><td>US29</td><td>Usar código de vinculación</td><td>Como paciente o familiar, quiero ingresar un código de vinculación para conectar mi dispositivo IoT con la cuenta del cuidador.</td><td>3</td></tr>
+    <tr><td>41</td><td>US30</td><td>Recibir datos de signos vitales en tiempo real</td><td>Como cuidador, quiero visualizar los signos vitales del paciente actualizados en tiempo real mediante WebSocket.</td><td>5</td></tr>
+    <tr><td>42</td><td>US31</td><td>Ver ubicación del paciente en mapa</td><td>Como cuidador, quiero ver la ubicación actual del paciente en un mapa interactivo para emergencias o seguimiento.</td><td>3</td></tr>
+    <!-- Sprint 3 - Technical Stories (Backend) -->
+    <tr><td>43</td><td>TS12</td><td>API de códigos de vinculación - Generar</td><td>Endpoint POST /api/invite/generate para crear códigos únicos de vinculación con expiración de 24h.</td><td>3</td></tr>
+    <tr><td>44</td><td>TS13</td><td>API de códigos de vinculación - Usar</td><td>Endpoint POST /api/invite/use/{code} para consumir y validar códigos de vinculación.</td><td>3</td></tr>
+    <tr><td>45</td><td>TS14</td><td>API de perfil de usuario</td><td>Endpoints GET/PUT /api/auth/profile para obtener y actualizar información de perfil de pacientes y cuidadores.</td><td>3</td></tr>
+    <tr><td>46</td><td>TS15</td><td>Sistema de detección de caídas</td><td>Lógica backend para procesar datos del acelerómetro, detectar caídas automáticamente y generar alertas críticas.</td><td>5</td></tr>
   </tbody>
 </table>
-
 
 <div id='4.'><h2>4. Capítulo IV: Solution Software Design</h2></div>
 
@@ -1157,7 +1265,7 @@ Algunos eventos estan en la misma columna, ya que, el orden no es consecutivo po
 - Post It Anaranjado: Evento a realizar.
 - Post It Azul: Comando que desata el evento de su derecha.
 - Post It Amarillo: Usuario final que genera el comando de su derecha.
-Delimitaciones amarillas: Secciona eventos y comandos relacionados a un "aggregate".
+  Delimitaciones amarillas: Secciona eventos y comandos relacionados a un "aggregate".
 - Post It Morado: Políticas y reglas de negocio.
 - Post It Verde: referencia a modelos UI (lo que veerá el usuario)
 - Post It Celeste: Agentes externos
@@ -1221,13 +1329,11 @@ Como último paso determinamos las conexiones entre diferentes bounded context. 
 
 En este segmento, identificamos y fundamentamos la elección de los bounded context mediante "start-with-value", "start-with-simple" y "look-for-pivotal-evens".
 
-
-| **Técnica**                | **Cómo se aplica**                                                                                       | **Bounded Contexts Identificados**                                                                 |
-|-----------------------------|----------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
-| **Start-with-Value**        | Se parte de lo más crítico para el negocio (seguridad, continuidad del servicio, confianza del usuario). | - **IAM** (login, registro, recuperación de cuenta)<br>- **Emergency Management** (SOS, alertas)   |
-| **Start-with-Simple**       | Se descomponen procesos en pasos secuenciales y fáciles de aislar.                                      | - **User Profile** (datos personales, multiusuario)<br>- **Treatment Support** (medicación, agenda) |
-| **Look-for-Pivotal-Events** | Se detectan eventos clave que cambian estados de negocio.                                               | - **Monitoring** (datos IoT que generan alertas)<br>- **Health Tracking** (síntomas → historial)   |
-
+| **Técnica**                 | **Cómo se aplica**                                                                                       | **Bounded Contexts Identificados**                                                                  |
+| --------------------------- | -------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
+| **Start-with-Value**        | Se parte de lo más crítico para el negocio (seguridad, continuidad del servicio, confianza del usuario). | - **IAM** (login, registro, recuperación de cuenta)<br>- **Emergency Management** (SOS, alertas)    |
+| **Start-with-Simple**       | Se descomponen procesos en pasos secuenciales y fáciles de aislar.                                       | - **User Profile** (datos personales, multiusuario)<br>- **Treatment Support** (medicación, agenda) |
+| **Look-for-Pivotal-Events** | Se detectan eventos clave que cambian estados de negocio.                                                | - **Monitoring** (datos IoT que generan alertas)<br>- **Health Tracking** (síntomas → historial)    |
 
 <div id='4.1.1.2.'><h5>4.1.1.2. Domain Message Flows Modeling</h5></div>
 
@@ -1247,32 +1353,34 @@ A continuación representaremos las conexiones entre bounded context mediante Do
 <img src="Img/message_flow2.png" >
 </div>
 
-
-
 <div id='4.1.1.3.'><h5>4.1.1.3. Bounded Context Canvases</h5></div>
 
-
 ### IAM:
+
 <div align="center">
 <img src="Img/canvas_IAM.png">
 </div>
 
 ### Profile:
+
 <div align="center">
 <img src="Img/canvas_Profile.png">
 </div>
 
 ### Monitoring:
+
 <div align="center">
 <img src="Img/monitoring_canvas.png">
 </div>
 
 ### Health Tracking:
+
 <div align="center">
 <img src="Img/health_tracking_bounded_context_canvases.jpg" alt="health_tracking_canvases">
 </div>
 
 ### Emergency Management:
+
 <div align="center">
 <img src="Img/emergency_canvas.png" alt="health_tracking_canvases">
 </div>
@@ -1296,8 +1404,8 @@ Este context mapping representa un ecosistema de salud digital centrado en el pa
 - Patrón: Customer/Supplier → todos los demás consumen.
 
 ##### Relaciones:
- upstream común, no guarda lógica de negocio.
 
+upstream común, no guarda lógica de negocio.
 
 #### UserProfile BC
 
@@ -1346,6 +1454,7 @@ Este context mapping representa un ecosistema de salud digital centrado en el pa
 - Patrón: Consume EventBus → Customer/Supplier. Usa NotificationService para enviar alertas al paciente.
 
 ##### Relaciones:
+
 - depende de datos de HealthTracking para tendencias de adherencia.
 
 #### EmergencyManagement BC
@@ -1359,6 +1468,7 @@ Este context mapping representa un ecosistema de salud digital centrado en el pa
 - Integra con sistemas externos (106, SMS, WhatsApp) vía Anti-Corruption Layer.
 
 ### Shared Services
+
 #### EventBus
 
 - Rol: desacoplar productores (Monitoring) y consumidores (HT, Emergencias, Tratamiento).
@@ -1385,15 +1495,18 @@ Este context mapping representa un ecosistema de salud digital centrado en el pa
 
 - Riesgo: debe soportar alta disponibilidad y multi-canal.
 
-
 <div id='4.1.3.'><h4>4.1.3. Software Architecture</h4></div>
 <div id='4.1.3.1.'><h5>4.1.3.1. Software Architecture System Landscape Diagram</h5></div>
 
+Representa el panorama global de la organización. En esta vista se identifican todas las personas y sistemas que existen en el ecosistema, independientemente de si forman parte o no del sistema principal. El System Landscape incluye a las dos personas (Usuario y Cuidador), los sistemas externos (Oauth 2.0, IoT Device y Firebase Cloud Messaging) y el sistema principal denominado Healthcare System. También muestra las relaciones de alto nivel entre todos estos elementos, permitiendo entender cómo encaja el Healthcare System dentro del entorno tecnológico total.
+
 <div align="center">
-<img src="Img/structurizr-SystemLandscape (1).png">
+<img src="Img/structurizr-SystemLandscape2.png">
 </div>
 
 <div id='4.1.3.2.'><h5>4.1.3.2. Software Architecture Context Level Diagrams</h5></div>
+
+Este nivel se centra exclusivamente en el Healthcare System y su interacción con el exterior. Aquí se muestran las personas que utilizan el sistema (Usuario y Cuidador), los sistemas externos con los que se integra (Oauth 2.0, IoT Device y Firebase Cloud Messaging) y las relaciones entre ellos. No se entra en detalles internos del sistema; sólo se muestra cómo se vincula con su entorno. Esta vista define claramente los límites del Healthcare System y establece el alcance general del modelo.
 
 <div align="center">
 <img src="Img/structurizr-SystemContext (1).jpg">
@@ -1401,13 +1514,17 @@ Este context mapping representa un ecosistema de salud digital centrado en el pa
 
 <div id='4.1.3.3.'><h5>4.1.3.3. Software Architecture Container Level Diagrams</h5></div>
 
+Este nivel descompone el Healthcare System en sus principales contenedores, es decir, en los bloques tecnológicos que lo conforman: aplicaciones, servicios, bases de datos y ejecutables. En tu caso, se identifican la aplicación web, la aplicación móvil, la base de datos principal, los bounded contexts (IAM_BC, User_Profile_BC, Monitoring_BC, Health_Tracking_BC y Emergency_Management_BC), el software edge, el dispositivo embebido y las bases de datos SQLite locales de los dispositivos móviles y del edge. También se muestran las relaciones entre estos contenedores, lo cual permite comprender cómo se estructura el sistema internamente y cómo cada parte colabora para cumplir las funcionalidades globales.
+
 #### Health System Container
+
 <div align="center">
-<img src="Img/structurizr-HealthcareSystemContainers (1).png">
+<img src="Img/containers.png">
 </div>
 
-
 <div id='4.1.3.4.'><h5>4.1.3.4. Software Architecture Deployment Diagrams</h5></div>
+
+Diagrama de despliegue, en donde se puede definir que para la aplicación web usaremos una web llamada Netlify, para las aplicaciones móviles se distribuiran las apks firmadas en Firebase Distribution y el servicio Web junto a su base de datos estaran desplegadas en servicios de Azure.
 
 <div align="center">
 <img src="Img/structurizr-AmazonWebServicesDeployment.png">
@@ -1418,13 +1535,13 @@ Este context mapping representa un ecosistema de salud digital centrado en el pa
 <div id='4.2.1.1.'><h5>4.2.1.1. Domain Layer</h5></div>
 
 **Sub-capa Model:**
-| Tipo         | Nombre        | Descripción                                    | Responsabilidad Principal                                                                                         | Relación con otros elementos                                                          |
+| Tipo | Nombre | Descripción | Responsabilidad Principal | Relación con otros elementos |
 | ------------ | ------------- | ---------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
-| Aggregate    | User          | clase para definir el Usuario de la aplicación | Ser el punto de entrada para modificar y mantener la integridad del usuario como entidad del dominio de identidad | Relacionado con los demás boundedContext, ya que encapsula toda la lógica de negocio. |
-| Command      | SignInCommand | comando para el inicio de sesión               | representar la intención de iniciar sesión                                                                        | Usado en la implementación del servicio de autenticación.                             |
-| Command      | SignUpCommand | comando para registro                          | representa la intención de registrarse a la aplicación                                                            | Usado en la implementación del servicio de autenticación                              |
-| Value Object | EmailAddress  | dirección de correo electrónico del usuario    | representar la dirección de correo del usuario                                                                    | usado en "User"                                                                       |
-| Value Object | PersonName    | nombre y apellido de usuario                   | representa los nombres y apellidos de un usuario                                                                  | usado en "User"                                                                       |
+| Aggregate | User | clase para definir el Usuario de la aplicación | Ser el punto de entrada para modificar y mantener la integridad del usuario como entidad del dominio de identidad | Relacionado con los demás boundedContext, ya que encapsula toda la lógica de negocio. |
+| Command | SignInCommand | comando para el inicio de sesión | representar la intención de iniciar sesión | Usado en la implementación del servicio de autenticación. |
+| Command | SignUpCommand | comando para registro | representa la intención de registrarse a la aplicación | Usado en la implementación del servicio de autenticación |
+| Value Object | EmailAddress | dirección de correo electrónico del usuario | representar la dirección de correo del usuario | usado en "User" |
+| Value Object | PersonName | nombre y apellido de usuario | representa los nombres y apellidos de un usuario | usado en "User" |
 
 **Sub-capa Services:**
 | Tipo | Nombre | Descripción | Responsabilidad Principal | Relación con otros elementos |
@@ -1445,18 +1562,14 @@ Este context mapping representa un ecosistema de salud digital centrado en el pa
 |Assembler | SignUpCommandFromResourceAssembler|Convierte un recurso a un comando| Evitar la corrupcion entre comunicación de datos | Usaso en el "AuthController" para convertir el recurso pedido en autenticación a un comando|
 |Controller|AuthController| Parte de la aplicación que recibe las solicitudes del cliente| recibe solicitudes, coordina la ejecución y devuelve respuestas.|-|
 
-
 <div id='4.2.1.3.'><h5>4.2.1.3. Application Layer</h5></div>
-
 
 **Sub-capa Internal:**
 | Tipo | Nombre | Descripción | Responsabilidad Principal | Relación con otros elementos |
 | ---- | ------ | ----------- | ------------------------- | ---------------------------- |
 |CommandHandlers| AuthCommandServiceImpl|Implementación de los Comandos de Autenticación| Implementar los métodos para el servicio de autenticación | Implementa los métodos de la interface de su mismo nombre en la capa de "Services".|
 
-
 <div id='4.2.1.4.'><h5>4.2.1.4. Infrastructure Layer</h5></div>
-
 
 **Sub-capa Repository:**
 | Tipo | Nombre | Descripción | Responsabilidad Principal | Relación con otros elementos |
@@ -1468,13 +1581,11 @@ Este context mapping representa un ecosistema de salud digital centrado en el pa
 | ---- | ------ | ----------- | ------------------------- | ---------------------------- |
 |Config|SecurityConfig| configuración de autorizaciones y permisos| configurar reglas de seguridad para la aplicación| Relacionado a la aplicación|
 
-
 **Sub-capa JWT:**
 | Tipo | Nombre | Descripción | Responsabilidad Principal | Relación con otros elementos |
 | ---- | ------ | ----------- | ------------------------- | ---------------------------- |
 |Class| JwtAuthFilter| Un filtro que intercepta cada petición HTTP para verificar si contiene un token JWT válido antes de dejar que llegue al controlador.|Validar el JWT en cada solicitud y establecer la autenticación en el contexto de seguridad.| Relacionado con la seguridad de la aplicación|
 |Class|JwtServiceImpl|Una clase de servicio que gestiona la creación, validación y decodificación de tokens JWT.|Encapsular toda la lógica relacionada con el manejo de tokens JWT.|Relacionado con la seguridad de la aplicación|
-
 
 <div id='4.2.1.5.'><h5>4.2.1.5. Bounded Context Software Architecture Component Level Diagrams</h5></div>
 
@@ -1495,44 +1606,39 @@ Bounded Context Software Architecture Code Level Diagrams</h5></div>
 <img src="Img/user_db.png">
 </div>
 
-
 ### USERS
+
 **Propósito**: Manejo de autenticación y datos básicos del usuario
 
-| Campo | Tipo | Descripción |
-|-------|------|-------------|
-| id | Long (PK) | Identificador único del usuario |
-| first_name | varchar | Nombre del usuario |
-| last_name | varchar | Apellido del usuario |
-| email | varchar | Correo electrónico (único) |
-| password | varchar | Contraseña hasheada |
-| type_user | varchar | Tipo de usuario (admin, user, etc.) |
+| Campo      | Tipo      | Descripción                         |
+| ---------- | --------- | ----------------------------------- |
+| id         | Long (PK) | Identificador único del usuario     |
+| first_name | varchar   | Nombre del usuario                  |
+| last_name  | varchar   | Apellido del usuario                |
+| email      | varchar   | Correo electrónico (único)          |
+| password   | varchar   | Contraseña hasheada                 |
+| type_user  | varchar   | Tipo de usuario (admin, user, etc.) |
 
-**Relaciones**: 
+**Relaciones**:
+
 - 1:1 con PROFILES
-
 
 <div id='4.2.2.'><h4>4.2.2. Bounded Context: Profile</h4></div>
 <div id='4.2.2.1.'><h5>4.2.2.1. Domain Layer</h5></div>
 
 **Sub-capa Model:**
-| Tipo         | Nombre        | Descripción                                    | Responsabilidad Principal                                                                                         | Relación con otros elementos                                                          |
+| Tipo | Nombre | Descripción | Responsabilidad Principal | Relación con otros elementos |
 | ------------ | ------------- | ---------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
 |Entity | Patient | Persona vulnerable a cuidar | representa los datos de la entidad "Paciente" | Relacionado con "User", este determina el tipo de usuario |
 |Entity | Caregiver | Persona que cuida de la persona vulnerable | Representar los datos de la entidad "Caregiver" | Relacionado con "User", este determina el tipo de usuario |
-|Value Object	|Birthday	|Value object usado en el Aggregate de Patient|Representar la fecha de nacimiento de un paciente.|	Relacionado con Patient |
-|Value Object |	DNI	| Value object usado en el Aggregate de Patient	y Cuidador | Representar el documento de identidad del paciente o cuidador | 	Relacionado con Patient o Caregiver|
-|Record (Query) | GetAllPatientsByCaregiver | Consulta para obtener las personas que esta cuidando el tipo de usuario "Cuidador" | Encapsula los parámetros para buscar a los pacientes de cada cuidador | Usado por servicio de Cuidador | 
-|Record (Query) | GetInformation | Consulta para obtener los datos personales del usuario general | Encapsula los parámetros para buscar los datos personales | Usado por servicio de ambos tipos de usuario | 
+|Value Object |Birthday |Value object usado en el Aggregate de Patient|Representar la fecha de nacimiento de un paciente.| Relacionado con Patient |
+|Value Object | DNI | Value object usado en el Aggregate de Patient y Cuidador | Representar el documento de identidad del paciente o cuidador | Relacionado con Patient o Caregiver|
+|Record (Query) | GetAllPatientsByCaregiver | Consulta para obtener las personas que esta cuidando el tipo de usuario "Cuidador" | Encapsula los parámetros para buscar a los pacientes de cada cuidador | Usado por servicio de Cuidador |
+|Record (Query) | GetInformation | Consulta para obtener los datos personales del usuario general | Encapsula los parámetros para buscar los datos personales | Usado por servicio de ambos tipos de usuario |
 |Record (Command) | RegisterInformation | Comando para guardar los datos personales | Encapsular los datos necesarios para guardar los datos personales | Usado por servicios de ambos tipos de usuario |
 |Record (Command) | UpdateInformation | Comando para actualizar los datos personales | Encapsular los datos necesarios para actualizar los datos personales | Usado por servicios de ambos tipos de usuario |
 |Record (Command) | UpdatePassword | Comando para actualizar la contraseña | Encapsular los datos necesarios para actualizar la contraseña| Usado por servicio de ambos tipos de usuario y Bounded Context de IAM |
 |Record (Command) | UpdateEmail | Comando para actualizar el correo electrónico | Encapsular los datos necesarios para actualizar el correo electrónico | Usado por servicio de ambos tipos de usuario y Bounded Context de IAM |
-
-
-
-
-
 
 **Sub-capa Services:**
 | Tipo | Nombre | Descripción | Responsabilidad Principal | Relación con otros elementos |
@@ -1540,28 +1646,21 @@ Bounded Context Software Architecture Code Level Diagrams</h5></div>
 |Interface | ProfileCommandService | Servicio para comandos relacionados con los usuarios | Declarar métodos para crear o actualizar datos personales de los usuarios | Implementado por la clase `ProfileCommandServiceImpl`. Usado en capa Application|
 |Interface | ProfileQueryService | Servicio para comandos relacionados con los usuarios | Obtener datos persistidos de los usuarios | Implementado por la clase `ProfileQueryServiceImpl`. Usado en capa Application|
 
-
-
-
-
 <div id='4.2.2.2.'><h5>4.2.2.2. Interface Layer</h5></div>
 
 **Sub-capa REST:**
 
-| Tipo | Nombre | Descripción | Responsabilidad Principal | Relación con otros elementos |
-| ---- | ------ | ----------- | ------------------------- | ---------------------------- |
-|Controller | ProfileController| clase encargada de la gestión de los endpoints | enviar respuestas o recibir peticiones | Relacionado con las demás capas. |
-
+| Tipo       | Nombre            | Descripción                                    | Responsabilidad Principal              | Relación con otros elementos     |
+| ---------- | ----------------- | ---------------------------------------------- | -------------------------------------- | -------------------------------- |
+| Controller | ProfileController | clase encargada de la gestión de los endpoints | enviar respuestas o recibir peticiones | Relacionado con las demás capas. |
 
 <div id='4.2.2.3.'><h5>4.2.2.3. Application Layer</h5></div>
-
 
 **Sub-capa Internal:**
 | Tipo | Nombre | Descripción | Responsabilidad Principal | Relación con otros elementos |
 | ---- | ------ | ----------- | ------------------------- | ---------------------------- |
 |Class (implementation service) | ProfileCommandServiceImpl|Implementación de los Comandos del Perfil| Implementar los métodos para el servicio de Perfil | Implementa los métodos de la interface de su mismo nombre en la capa de "Services".|
 |Class (implementation service) | ProfileQueryServiceImpl|Implementación de las Consultas del Perfil| Implementar los métodos para el servicio de Perfil | Implementa los métodos de la interface de su mismo nombre en la capa de "Services".|
-
 
 <div id='4.2.2.4.'><h5>4.2.2.4. Infrastructure Layer</h5></div>
 
@@ -1570,7 +1669,6 @@ Bounded Context Software Architecture Code Level Diagrams</h5></div>
 | ---- | ------ | ----------- | ------------------------- | ---------------------------- |
 |Repository| PatientRepository| repositorio a usar del modelo "Patient"| acceder y manipular datos persistidos| Usado en la Capa "Application" para implementar el registro de un usuario "Paciente".|
 |Repository| CareGiverRepository| repositorio a usar del modelo "Caregiver"| acceder y manipular datos persistidos| Usado en la Capa "Application" para implementar el registro de un usuario "Cuidador".|
-
 
 <div id='4.2.2.5.'><h5>4.2.2.5. Bounded Context Software Architecture Component Level Diagrams</h5></div>
 
@@ -1597,30 +1695,34 @@ Cada paciente puede tener muchos cuidadores y un cuidador puede tener muchos pac
 </div>
 
 ### PROFILES
+
 **Propósito**: Información demográfica común entre pacientes y cuidadores
 
-| Campo | Tipo | Descripción |
-|-------|------|-------------|
-| id | Long (PK) | Identificador único del perfil |
-| birthday | Tipo | Fecha de nacimiento |
-| gender | Tipo | Género del usuario |
-| user_id | Tipo (FK) | Referencia a USERS |
+| Campo    | Tipo      | Descripción                    |
+| -------- | --------- | ------------------------------ |
+| id       | Long (PK) | Identificador único del perfil |
+| birthday | Tipo      | Fecha de nacimiento            |
+| gender   | Tipo      | Género del usuario             |
+| user_id  | Tipo (FK) | Referencia a USERS             |
 
 **Relaciones**:
+
 - N:1 con USERS
 - 1:1 con PATIENTS
 - 1:1 con CAREGIVERS
 
 ### PATIENTS
+
 **Propósito**: Información específica de pacientes
 
-| Campo | Tipo | Descripción |
-|-------|------|-------------|
-| id | Long (PK) | Identificador único del paciente |
-| profile_id | Long (FK) | Referencia a PROFILES |
-| birthday | varchar | Fecha de nacimiento específica |
+| Campo      | Tipo      | Descripción                      |
+| ---------- | --------- | -------------------------------- |
+| id         | Long (PK) | Identificador único del paciente |
+| profile_id | Long (FK) | Referencia a PROFILES            |
+| birthday   | varchar   | Fecha de nacimiento específica   |
 
 **Relaciones**:
+
 - N:1 con PROFILES
 - N:M con CAREGIVERS (a través de CAREGIVERS_PATIENTS)
 - 1:N con TREATMENTS
@@ -1631,25 +1733,28 @@ Cada paciente puede tener muchos cuidadores y un cuidador puede tener muchos pac
 - 1:N con CONTACTS
 
 ### CAREGIVERS
+
 **Propósito**: Información específica de cuidadores
 
-| Campo | Tipo | Descripción |
-|-------|------|-------------|
-| id | Long (PK) | Identificador único del cuidador |
-| profile_id | Long (FK) | Referencia a PROFILES |
-| phone_number | varchar | Número de teléfono del cuidador |
+| Campo        | Tipo      | Descripción                      |
+| ------------ | --------- | -------------------------------- |
+| id           | Long (PK) | Identificador único del cuidador |
+| profile_id   | Long (FK) | Referencia a PROFILES            |
+| phone_number | varchar   | Número de teléfono del cuidador  |
 
 **Relaciones**:
+
 - N:1 con PROFILES
 - N:M con PATIENTS (a través de CAREGIVERS_PATIENTS)
 
 ### CAREGIVERS_PATIENTS
+
 **Propósito**: Tabla intermedia para la relación N:M entre cuidadores y pacientes
 
-| Campo | Tipo | Descripción |
-|-------|------|-------------|
-| id | Long (PK) | Identificador único |
-| patient_id | Long (FK) | Referencia a PATIENTS |
+| Campo        | Tipo      | Descripción             |
+| ------------ | --------- | ----------------------- |
+| id           | Long (PK) | Identificador único     |
+| patient_id   | Long (FK) | Referencia a PATIENTS   |
 | caregiver_id | Long (FK) | Referencia a CAREGIVERS |
 
 <div id='4.2.3.'><h4>4.2.3. Bounded Context: &lt;Health Tracking&gt;</h4></div>
@@ -1663,13 +1768,13 @@ Cada paciente puede tener muchos cuidadores y un cuidador puede tener muchos pac
 | Value Object | Alteration | Cambio detectado en los signos vitales que indica una condición irregular. | Representa valores medidos y compararlos con rangos normales. | Relacionado con paciente. |
 | Value Object | Vital | Lectura puntual por parte del sensor IoT. | Estandarizar los datos del sensor. | Relacionado con . |
 | Aggregate | Alert | Notificación generada por cambios críticos en el estado del paciente. | Advertir de riesgos. | Relacionado con paciente. |
-| Command | PostPatient | Registra un nuevo paciente.          | Crear un paciente con los datos necesarios. | Usa User. |
-| Command | PostSymptom    | Añade un nuevo síntoma reportado por el paciente.                 | Crear instancia de Sintoma asociada a Paciente.       | Usa Patient y Symptom.                             |
-| Command | PostAlert       | Crea una alerta manual o automática. | Persistir una Alerta y notificar al sistema.          | Usa Patient y Alert.                              |
-| Command | PostAlteration | Registra una alteración detectada en los signos vitales.          | Persistir una Alteracion asociada al Paciente.        | Usa Patient y Alteration.                          |
-| Query | GetPatientHistory      | Devuelve el historial completo del paciente. | Reunir datos clínicos del Paciente.              | Consulta Patient y todas sus entidades relacionadas. |
-| Query | GetPendantAlert      | Recupera las alertas que no han sido atendidas.                                        | Soportar monitoreo activo del paciente.          | Consulta Alert.                                      |
-| Query | GetByPatientSymptoms                | Recupera los síntomas registrados por el paciente.                                     | Complementar información clínica.                | Consulta Symptom.                                     |
+| Command | PostPatient | Registra un nuevo paciente. | Crear un paciente con los datos necesarios. | Usa User. |
+| Command | PostSymptom | Añade un nuevo síntoma reportado por el paciente. | Crear instancia de Sintoma asociada a Paciente. | Usa Patient y Symptom. |
+| Command | PostAlert | Crea una alerta manual o automática. | Persistir una Alerta y notificar al sistema. | Usa Patient y Alert. |
+| Command | PostAlteration | Registra una alteración detectada en los signos vitales. | Persistir una Alteracion asociada al Paciente. | Usa Patient y Alteration. |
+| Query | GetPatientHistory | Devuelve el historial completo del paciente. | Reunir datos clínicos del Paciente. | Consulta Patient y todas sus entidades relacionadas. |
+| Query | GetPendantAlert | Recupera las alertas que no han sido atendidas. | Soportar monitoreo activo del paciente. | Consulta Alert. |
+| Query | GetByPatientSymptoms | Recupera los síntomas registrados por el paciente. | Complementar información clínica. | Consulta Symptom. |
 
 **Sub-capa Services**
 | Tipo | Nombre | Descripción | Responsabilidad Principal | Relación con otros elementos |
@@ -1704,7 +1809,7 @@ Cada paciente puede tener muchos cuidadores y un cuidador puede tener muchos pac
 |Service | PatientCommandServiceImpl | Implementación del servicio de comandos para pacientes | Ejecutar la lógica de creación, actualización y eliminación de pacientes | Implementa PatientCommandService. Utiliza entidades y repositorios de dominio |
 |Service | AlertCommandServiceImpl | Implementación del servicio de comandos para alertas | Ejecutar la lógica de creación de alertas | Implementa AlertCommandService. Interactúa con Alert y sus repositorios |
 |Service | PatientQueryServiceImpl | Implementación del servicio de consultas para pacientes | Obtener información de pacientes a partir de distintas consultas | Implementa PatientQueryService. Consulta entidades Patient |
-|Service | AlertQueryServiceImpl | Implementación del servicio de consultas para alertas | Obtener  alertas por ID | Implementa AlertQueryService. Usa Alert y consultas específicas |
+|Service | AlertQueryServiceImpl | Implementación del servicio de consultas para alertas | Obtener alertas por ID | Implementa AlertQueryService. Usa Alert y consultas específicas |
 
 <div id='4.2.3.4.'><h5>4.2.3.4. Infrastructure Layer</h5></div>
 
@@ -1740,53 +1845,58 @@ Este diagrama UML representa la arquitectura de un sistema de gestión médica c
 | Value Object | Alteration | Cambio detectado en los signos vitales que indica una condición irregular. | Representa valores medidos y compararlos con rangos normales. | Relacionado con paciente. |
 | Value Object | Vital | Lectura puntual por parte del sensor IoT. | Estandarizar los datos del sensor. | Relacionado con . |
 | Aggregate | Alert | Notificación generada por cambios críticos en el estado del paciente. | Advertir de riesgos. | Relacionado con paciente. |
-| Command | PostPatient | Registra un nuevo paciente.          | Crear un paciente con los datos necesarios. | Usa User. |
-| Command | PostSymptom    | Añade un nuevo síntoma reportado por el paciente.                 | Crear instancia de Sintoma asociada a Paciente.       | Usa Patient y Symptom.                             |
-| Command | PostAlert       | Crea una alerta manual o automática. | Persistir una Alerta y notificar al sistema.          | Usa Patient y Alert.                              |
-| Command | PostAlteration | Registra una alteración detectada en los signos vitales.          | Persistir una Alteracion asociada al Paciente.        | Usa Patient y Alteration.                          |
-| Query | GetPatientHistory      | Devuelve el historial completo del paciente. | Reunir datos clínicos del Paciente.              | Consulta Patient y todas sus entidades relacionadas. |
-| Query | GetPendantAlert      | Recupera las alertas que no han sido atendidas.                                        | Soportar monitoreo activo del paciente.          | Consulta Alert.                                      |
-| Query | GetByPatientSymptoms                | Recupera los síntomas registrados por el paciente.                                     | Complementar información clínica.                | Consulta Symptom.                                     |
-
+| Command | PostPatient | Registra un nuevo paciente. | Crear un paciente con los datos necesarios. | Usa User. |
+| Command | PostSymptom | Añade un nuevo síntoma reportado por el paciente. | Crear instancia de Sintoma asociada a Paciente. | Usa Patient y Symptom. |
+| Command | PostAlert | Crea una alerta manual o automática. | Persistir una Alerta y notificar al sistema. | Usa Patient y Alert. |
+| Command | PostAlteration | Registra una alteración detectada en los signos vitales. | Persistir una Alteracion asociada al Paciente. | Usa Patient y Alteration. |
+| Query | GetPatientHistory | Devuelve el historial completo del paciente. | Reunir datos clínicos del Paciente. | Consulta Patient y todas sus entidades relacionadas. |
+| Query | GetPendantAlert | Recupera las alertas que no han sido atendidas. | Soportar monitoreo activo del paciente. | Consulta Alert. |
+| Query | GetByPatientSymptoms | Recupera los síntomas registrados por el paciente. | Complementar información clínica. | Consulta Symptom. |
 
 ### SYMPTOMS
+
 **Propósito**: Registro de síntomas reportados por pacientes
 
-| Campo | Tipo | Descripción |
-|-------|------|-------------|
-| id | Long (PK) | Identificador único del síntoma |
-| patient_id | Long (FK) | Referencia a PATIENTS |
-| description | varchar | Descripción del síntoma |
-| symptom_date | datetime | Fecha de registro del síntoma |
+| Campo        | Tipo      | Descripción                     |
+| ------------ | --------- | ------------------------------- |
+| id           | Long (PK) | Identificador único del síntoma |
+| patient_id   | Long (FK) | Referencia a PATIENTS           |
+| description  | varchar   | Descripción del síntoma         |
+| symptom_date | datetime  | Fecha de registro del síntoma   |
 
 **Relaciones**:
+
 - N:1 con PATIENTS
 
 ### DISTURBANCES
+
 **Propósito**: Registro de alteraciones o eventos anómalos
 
-| Campo | Tipo | Descripción |
-|-------|------|-------------|
-| id | Long (PK) | Identificador único |
-| patient_id | Long (FK) | Referencia a PATIENTS |
-| description | varchar | Descripción de la alteración |
-| disturbance_date | datetime | Fecha de la alteración |
+| Campo            | Tipo      | Descripción                  |
+| ---------------- | --------- | ---------------------------- |
+| id               | Long (PK) | Identificador único          |
+| patient_id       | Long (FK) | Referencia a PATIENTS        |
+| description      | varchar   | Descripción de la alteración |
+| disturbance_date | datetime  | Fecha de la alteración       |
 
 **Relaciones**:
+
 - N:1 con PATIENTS
 
 ### VITAL_SIGNS_ALERT
+
 **Propósito**: Alertas relacionadas con signos vitales
 
-| Campo | Tipo | Descripción |
-|-------|------|-------------|
-| id | Long (PK) | Identificador único |
-| patient_id | Long (FK) | Referencia a PATIENTS |
-| alert_type | varchar | Tipo de alerta |
-| description | varchar | Descripción de la alerta |
-| alert_date | datetime | Fecha de la alerta |
+| Campo       | Tipo      | Descripción              |
+| ----------- | --------- | ------------------------ |
+| id          | Long (PK) | Identificador único      |
+| patient_id  | Long (FK) | Referencia a PATIENTS    |
+| alert_type  | varchar   | Tipo de alerta           |
+| description | varchar   | Descripción de la alerta |
+| alert_date  | datetime  | Fecha de la alerta       |
 
 **Relaciones**:
+
 - N:1 con PATIENTS
 
 <div id='4.2.3.2.'><h5>4.2.3.2. Interface Layer</h5></div>
@@ -1814,7 +1924,7 @@ Este diagrama UML representa la arquitectura de un sistema de gestión médica c
 |Service | PatientCommandServiceImpl | Implementación del servicio de comandos para pacientes | Ejecutar la lógica de creación, actualización y eliminación de pacientes | Implementa PatientCommandService. Utiliza entidades y repositorios de dominio |
 |Service | AlertCommandServiceImpl | Implementación del servicio de comandos para alertas | Ejecutar la lógica de creación de alertas | Implementa AlertCommandService. Interactúa con Alert y sus repositorios |
 |Service | PatientQueryServiceImpl | Implementación del servicio de consultas para pacientes | Obtener información de pacientes a partir de distintas consultas | Implementa PatientQueryService. Consulta entidades Patient |
-|Service | AlertQueryServiceImpl | Implementación del servicio de consultas para alertas | Obtener  alertas por ID | Implementa AlertQueryService. Usa Alert y consultas específicas |
+|Service | AlertQueryServiceImpl | Implementación del servicio de consultas para alertas | Obtener alertas por ID | Implementa AlertQueryService. Usa Alert y consultas específicas |
 
 <div id='4.2.3.4.'><h5>4.2.3.4. Infrastructure Layer</h5></div>
 
@@ -1847,60 +1957,55 @@ Este diagrama UML representa la arquitectura de un sistema de gestión médica c
 
 **Sub-capa Model:**
 
-| Tipo      | Nombre                       | Descripción                                                                 | Responsabilidad Principal                                 | Relación con otros elementos                                                                                       |
-| --------- | ---------------------------- | --------------------------------------------------------------------------- | --------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
-| Aggregate | Monitoring             | Clase que representa un registro de monitoreo | Ser el punto de entrada para la gestión de datos de monitoreo| Relacionado con eventos de logging, alertas y métricas recibidas desde otros bounded contexts.                      |
-| Command   | CreateMonitoringEventCommand | Comando para registrar un nuevo evento de monitoreo                         | Crear un nuevo registro de monitoreo                       | Relacionado con el Bounded Context de Infraestructura (captura de logs, métricas de red, BD, etc.).                |
-| Query     | GetMonitoringStatusQuery     | Query para obtener el estado general del sistema                            | Consultar métricas y eventos registrados                  | Se usa desde la capa de Application para mostrar datos al Dashboard.                                                |
-| Query     | GetAlertsBySeverityQuery     | Query para obtener alertas filtradas por nivel de severidad                 | Permitir análisis de criticidad en el monitoreo            | Relacionado con el módulo de alertas y con el bounded context de *Notifications*.                                   |
+| Tipo      | Nombre                       | Descripción                                                 | Responsabilidad Principal                                     | Relación con otros elementos                                                                        |
+| --------- | ---------------------------- | ----------------------------------------------------------- | ------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
+| Aggregate | Monitoring                   | Clase que representa un registro de monitoreo               | Ser el punto de entrada para la gestión de datos de monitoreo | Relacionado con eventos de logging, alertas y métricas recibidas desde otros bounded contexts.      |
+| Command   | CreateMonitoringEventCommand | Comando para registrar un nuevo evento de monitoreo         | Crear un nuevo registro de monitoreo                          | Relacionado con el Bounded Context de Infraestructura (captura de logs, métricas de red, BD, etc.). |
+| Query     | GetMonitoringStatusQuery     | Query para obtener el estado general del sistema            | Consultar métricas y eventos registrados                      | Se usa desde la capa de Application para mostrar datos al Dashboard.                                |
+| Query     | GetAlertsBySeverityQuery     | Query para obtener alertas filtradas por nivel de severidad | Permitir análisis de criticidad en el monitoreo               | Relacionado con el módulo de alertas y con el bounded context de _Notifications_.                   |
 
 **Sub-capa Services:**
 
-| Tipo      | Nombre                   | Descripción                                                               | Responsabilidad Principal                     | Relación con otros elementos |
-| --------- | ------------------------ | ------------------------------------------------------------------------- | --------------------------------------------- | ---------------------------- |
-| Interface | MonitoringCommandService | Servicio que define métodos para registrar eventos y métricas              | Estipular contratos claros para registrar datos| Usado en la capa "application" para implementar la lógica de registro |
-| Interface | MonitoringQueryService   | Servicio que define métodos para obtener información del monitoreo         | Estipular contratos claros para consultas      | Usado en la capa "application" para implementar consultas al sistema |
+| Tipo      | Nombre                   | Descripción                                                        | Responsabilidad Principal                       | Relación con otros elementos                                          |
+| --------- | ------------------------ | ------------------------------------------------------------------ | ----------------------------------------------- | --------------------------------------------------------------------- |
+| Interface | MonitoringCommandService | Servicio que define métodos para registrar eventos y métricas      | Estipular contratos claros para registrar datos | Usado en la capa "application" para implementar la lógica de registro |
+| Interface | MonitoringQueryService   | Servicio que define métodos para obtener información del monitoreo | Estipular contratos claros para consultas       | Usado en la capa "application" para implementar consultas al sistema  |
 
 <div id='4.2.4.2.'><h5>4.2.4.2. Interface Layer</h5></div>
 
 **Sub-capa REST:**
 
-| Tipo       | Nombre                                      | Descripción                                                         | Responsabilidad Principal                                                            | Relación con otros elementos |
-| ---------- | ------------------------------------------- | ------------------------------------------------------------------- | ------------------------------------------------------------------------------------ | ---------------------------- |
-| Controller | MonitoringController                        | Controlador REST para gestionar el monitoreo                        | Recibe solicitudes de clientes para consultar métricas o registrar eventos           | Utiliza resources y assemblers |
-| Resource   | MonitoringRequestResource                   | Estructura de una petición para registrar un evento de monitoreo     | Representar datos de entrada de forma accesible para el sistema                      | Usado en MonitoringController para registrar eventos |
-| Resource   | MonitoringResponseResource                  | Estructura de respuesta con datos de monitoreo                       | Exponer métricas, logs o alertas al cliente                                          | Usado en MonitoringController para devolver resultados |
-| Assembler  | CreateMonitoringCommandFromResourceAssembler| Convierte un recurso de petición en un comando de creación           | Evitar acoplamiento entre la interfaz REST y el dominio                              | Usado en MonitoringController |
-| Assembler  | MonitoringResourceFromEntityAssembler        | Convierte una entidad MonitoringRecord en un recurso de respuesta    | Asegurar consistencia en la información retornada                                    | Usado en MonitoringController |
-
+| Tipo       | Nombre                                       | Descripción                                                       | Responsabilidad Principal                                                  | Relación con otros elementos                           |
+| ---------- | -------------------------------------------- | ----------------------------------------------------------------- | -------------------------------------------------------------------------- | ------------------------------------------------------ |
+| Controller | MonitoringController                         | Controlador REST para gestionar el monitoreo                      | Recibe solicitudes de clientes para consultar métricas o registrar eventos | Utiliza resources y assemblers                         |
+| Resource   | MonitoringRequestResource                    | Estructura de una petición para registrar un evento de monitoreo  | Representar datos de entrada de forma accesible para el sistema            | Usado en MonitoringController para registrar eventos   |
+| Resource   | MonitoringResponseResource                   | Estructura de respuesta con datos de monitoreo                    | Exponer métricas, logs o alertas al cliente                                | Usado en MonitoringController para devolver resultados |
+| Assembler  | CreateMonitoringCommandFromResourceAssembler | Convierte un recurso de petición en un comando de creación        | Evitar acoplamiento entre la interfaz REST y el dominio                    | Usado en MonitoringController                          |
+| Assembler  | MonitoringResourceFromEntityAssembler        | Convierte una entidad MonitoringRecord en un recurso de respuesta | Asegurar consistencia en la información retornada                          | Usado en MonitoringController                          |
 
 <div id='4.2.4.3.'><h5>4.2.4.3. Application Layer</h5></div>
 
 ### Application Layer - Internal
 
-| Tipo     | Nombre                     | Descripción                                                                 | Responsabilidad Principal                                                                 | Relación con otros elementos |
-| -------- | -------------------------- | --------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- | ---------------------------- |
-| Command  | RecordVitalSignCommand     | Registrar un nuevo valor de signo vital de un paciente.                      | Validar y persistir un nuevo registro en la tabla SignosVitales.                         | Usa MonitoringService y MonitoringRepository |
-| Command  | ValidateVitalSignCommand   | Validar un signo vital contra thresholds clínicos.                           | Consultar thresholds locales y, si está disponible, delegar validación a RulesService.   | Depende de MonitoringService y RulesService |
-| Query    | GetMonitoringStatusQuery   | Obtener estado actual de los signos vitales registrados, validando contra thresholds locales y/o RulesService. | Permite consultas del estado de un paciente en tiempo real. | Usa MonitoringRepository y RulesService |
-
+| Tipo    | Nombre                   | Descripción                                                                                                    | Responsabilidad Principal                                                              | Relación con otros elementos                 |
+| ------- | ------------------------ | -------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- | -------------------------------------------- |
+| Command | RecordVitalSignCommand   | Registrar un nuevo valor de signo vital de un paciente.                                                        | Validar y persistir un nuevo registro en la tabla SignosVitales.                       | Usa MonitoringService y MonitoringRepository |
+| Command | ValidateVitalSignCommand | Validar un signo vital contra thresholds clínicos.                                                             | Consultar thresholds locales y, si está disponible, delegar validación a RulesService. | Depende de MonitoringService y RulesService  |
+| Query   | GetMonitoringStatusQuery | Obtener estado actual de los signos vitales registrados, validando contra thresholds locales y/o RulesService. | Permite consultas del estado de un paciente en tiempo real.                            | Usa MonitoringRepository y RulesService      |
 
 **Sub-capa External:**
 
-| Tipo           | Nombre                        | Descripción                                                       | Responsabilidad Principal                                  | Relación con otros elementos |
-| -------------- | ----------------------------- | ----------------------------------------------------------------- | ---------------------------------------------------------- | ---------------------------- |
-| EventPublisher | MonitoringAlertPublisher | Publicador de eventos críticos detectados en el monitoreo vía EventBus | Enviar una alerta al Bounded Context de *Notifications* y/o *EmergencyManagement* para que gestionen notificaciones o llamadas SOS | Conecta con EventBus para distribuir eventos a otros BCs |
-
-
+| Tipo           | Nombre                   | Descripción                                                            | Responsabilidad Principal                                                                                                          | Relación con otros elementos                             |
+| -------------- | ------------------------ | ---------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- |
+| EventPublisher | MonitoringAlertPublisher | Publicador de eventos críticos detectados en el monitoreo vía EventBus | Enviar una alerta al Bounded Context de _Notifications_ y/o _EmergencyManagement_ para que gestionen notificaciones o llamadas SOS | Conecta con EventBus para distribuir eventos a otros BCs |
 
 <div id='4.2.4.4.'><h5>4.2.4.4. Infrastructure Layer</h5></div>
 
 **Sub-capa Repository:**
 
-| Tipo       | Nombre               | Descripción                                           | Responsabilidad Principal                   | Relación con otros elementos |
-| ---------- | -------------------- | ----------------------------------------------------- | ------------------------------------------- | ---------------------------- |
-| Repository | MonitoringRepository | Repositorio del modelo MonitoringRecord               | Acceder y manipular los registros persistidos| Usado en la capa "Application" para almacenar y recuperar eventos |
-
+| Tipo       | Nombre               | Descripción                             | Responsabilidad Principal                     | Relación con otros elementos                                      |
+| ---------- | -------------------- | --------------------------------------- | --------------------------------------------- | ----------------------------------------------------------------- |
+| Repository | MonitoringRepository | Repositorio del modelo MonitoringRecord | Acceder y manipular los registros persistidos | Usado en la capa "Application" para almacenar y recuperar eventos |
 
 <div id='4.2.4.5.'><h5>4.2.4.5. Bounded Context Software Architecture Component Level Diagrams</h5></div>
 
@@ -1962,7 +2067,6 @@ Al ser datos de entrada proveniente del dispositivo IoT, la persistencia la gest
 | Assembler  | EmergencyCommandAssembler  | Request → Command.        | Mapear Trigger/Detect.            | Usado en Controller.           |
 | Assembler  | EmergencyResponseAssembler | Entity → Response.        | Formato consistente de salida.    | Usado en Controller.           |
 
-
 <div id='4.2.5.3.'><h5>4.2.5.3. Application Layer</h5></div>
 
 **Sub-capa Internal:**
@@ -1976,7 +2080,6 @@ Al ser datos de entrada proveniente del dispositivo IoT, la persistencia la gest
 | QueryHandler | AlertQueryServiceImpl       | Consultas de alertas.                | Usa AlertaReadModel.                 |
 | QueryHandler | ContactQueryServiceImpl     | Consultas de contactos.              | Usa ContactoReadModel.               |
 
-
 **Sub-capa External:**
 
 | Tipo      | Nombre          | Descripción                       | Relación              |
@@ -1986,7 +2089,6 @@ Al ser datos de entrada proveniente del dispositivo IoT, la persistencia la gest
 | ACL       | GeoProviderACL  | Ubicación/GPS.                    | GeoLocationService.   |
 | ACL       | MonitoringACL   | Eventos de signos vitales/caídas. | EmergencyService.     |
 | Messaging | EventBus        | Transporte de eventos.            | Notif. + Emergencies. |
-
 
 <div id='4.2.5.4.'><h5>4.2.5.4. Infrastructure Layer</h5></div>
 
@@ -2000,7 +2102,6 @@ Al ser datos de entrada proveniente del dispositivo IoT, la persistencia la gest
 | Repository | ContactoRepository   | Gestionar contactos de emergencia.          | ContactService.     |
 | Repository | ConsentRepository    | Consentimientos por canal/contacto.         | ConsentPolicy.      |
 | Repository | UbicacionRepository  | Guardar ubicación histórica en emergencias. | GeoLocationService. |
-
 
 <div id='4.2.5.5.'><h5>4.2.5.5. Bounded Context Software Architecture Component Level Diagrams</h5></div>
 
@@ -2030,34 +2131,38 @@ Usa la interface/base AuditableAbstractAggregateRoot para heredar metadatos de a
 </div>
 
 ### EMERGENCIES
+
 **Propósito**: Registro de situaciones de emergencia
 
-| Campo | Tipo | Descripción |
-|-------|------|-------------|
-| id | Long (PK) | Identificador único |
-| patient_id | Long (FK) | Referencia a PATIENTS |
-| type_emergency | varchar | Tipo de emergencia |
-| emergency_date | datetime | Fecha de la emergencia |
-| lat | varchar | Latitud de la ubicación |
-| lon | varchar | Longitud de la ubicación |
-| successfully_call | boolean | Si se logró contactar ayuda |
-| resolved_date | datetime | Fecha de resolución |
+| Campo             | Tipo      | Descripción                 |
+| ----------------- | --------- | --------------------------- |
+| id                | Long (PK) | Identificador único         |
+| patient_id        | Long (FK) | Referencia a PATIENTS       |
+| type_emergency    | varchar   | Tipo de emergencia          |
+| emergency_date    | datetime  | Fecha de la emergencia      |
+| lat               | varchar   | Latitud de la ubicación     |
+| lon               | varchar   | Longitud de la ubicación    |
+| successfully_call | boolean   | Si se logró contactar ayuda |
+| resolved_date     | datetime  | Fecha de resolución         |
 
 **Relaciones**:
+
 - N:1 con PATIENTS
 
 ### CONTACTS
+
 **Propósito**: Contactos de emergencia para pacientes
 
-| Campo | Tipo | Descripción |
-|-------|------|-------------|
-| id | Long (PK) | Identificador único |
-| name | varchar | Nombre del contacto |
-| phone_number | varchar | Número de teléfono |
-| connection | varchar | Relación con el paciente |
-| patient_id | Long (FK) | Referencia a PATIENTS |
+| Campo        | Tipo      | Descripción              |
+| ------------ | --------- | ------------------------ |
+| id           | Long (PK) | Identificador único      |
+| name         | varchar   | Nombre del contacto      |
+| phone_number | varchar   | Número de teléfono       |
+| connection   | varchar   | Relación con el paciente |
+| patient_id   | Long (FK) | Referencia a PATIENTS    |
 
 **Relaciones**:
+
 - N:1 con PATIENTS
 
 <div id='4.2.6.'><h4>4.2.6. Bounded Context: &lt;Treatment Support&gt;</h4></div>
@@ -2070,19 +2175,18 @@ a continuación detallaremos las capas del Bounded Context referenciado.
 
 **Sub-capa Model:**
 
-| Tipo         | Nombre        | Descripción                                    | Responsabilidad Principal                                                                                         | Relación con otros elementos                                                          |
-| ------------ | ------------- | ---------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
-| Aggregate    | Treatment          | Clase para definir el tratamiento del adulto mayor | Ser el punto de entrada para modificar y mantener la integridad del tratamiento como entidad del dominio | Útil para generar alertas de recordartorios como parte del tratamiento |
-| Aggregate    | Reminder          | Clase para definir el recordatorio del consumo de medicamentos del adulto mayor | Ser el punto de entrada para modificar y mantener la integridad del recordatorio como entidad del dominio | Útil para generar alertas para que el adulto mayor consuma el medicamento en el horario establecido |
-| Command      | CreateTreatmentCommand | Comando para registro de tratamiento                          | Representa la intención de registrar tratamiento en la aplicación                                                            | Usado para registrar un nuevo tratamiento                             |
-| Command      | UpdateTreatmentCommand | Comando para actualización de tratamiento                          | Representa la intención de actualizar tratamiento en la aplicación                                                            | Usado para actualizar un nuevo tratamiento                             |
-| Command      | DeleteTreatmentCommand | Comando para eliminación de tratamiento                          | Representa la intención de eliminar tratamiento en la aplicación                                                            | Usado para eliminar un nuevo tratamiento                             |
-| Command      | CreateReminderCommand | Comando para registro de recordatorio                          | Representa la intención de registrar un recordartorio de un medicamento en la aplicación                                                            | Usado para registrar un nuevo recordatorio                             |
-| Command      | UpdateReminderCommand  | Comando para actualización de recordatorio | Representa la intención de actualizar un recordatorio ya creado | Usado para actualizar un recordatorio existente |
-| Command      | DeleteReminderCommand  | Comando para eliminación de recordatorio | Representa la intención de eliminar un recordatorio ya creado | Usado para eliminar un recordatorio existente |
-| Query      | GetAllRemindersByPatientQuery | Consulta para obtener todos los recordatorios de un adulto mayor específico                          | Permite recuperar la lista de recordatorios asociados a un paciente para visualizar sus próximos medicamentos                                                      | Usado para mostrar los recordatorios activos del adulto mayor                             |
-| Query        | GetAllTreatmentsByPatientQuery | Query para obtener todos los tratamientos de un paciente específico | Permite consultar la lista de tratamientos asociados a un adulto mayor en particular | Usado para mostrar todos los tratamientos de un paciente identificado |
-
+| Tipo      | Nombre                         | Descripción                                                                     | Responsabilidad Principal                                                                                     | Relación con otros elementos                                                                        |
+| --------- | ------------------------------ | ------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
+| Aggregate | Treatment                      | Clase para definir el tratamiento del adulto mayor                              | Ser el punto de entrada para modificar y mantener la integridad del tratamiento como entidad del dominio      | Útil para generar alertas de recordartorios como parte del tratamiento                              |
+| Aggregate | Reminder                       | Clase para definir el recordatorio del consumo de medicamentos del adulto mayor | Ser el punto de entrada para modificar y mantener la integridad del recordatorio como entidad del dominio     | Útil para generar alertas para que el adulto mayor consuma el medicamento en el horario establecido |
+| Command   | CreateTreatmentCommand         | Comando para registro de tratamiento                                            | Representa la intención de registrar tratamiento en la aplicación                                             | Usado para registrar un nuevo tratamiento                                                           |
+| Command   | UpdateTreatmentCommand         | Comando para actualización de tratamiento                                       | Representa la intención de actualizar tratamiento en la aplicación                                            | Usado para actualizar un nuevo tratamiento                                                          |
+| Command   | DeleteTreatmentCommand         | Comando para eliminación de tratamiento                                         | Representa la intención de eliminar tratamiento en la aplicación                                              | Usado para eliminar un nuevo tratamiento                                                            |
+| Command   | CreateReminderCommand          | Comando para registro de recordatorio                                           | Representa la intención de registrar un recordartorio de un medicamento en la aplicación                      | Usado para registrar un nuevo recordatorio                                                          |
+| Command   | UpdateReminderCommand          | Comando para actualización de recordatorio                                      | Representa la intención de actualizar un recordatorio ya creado                                               | Usado para actualizar un recordatorio existente                                                     |
+| Command   | DeleteReminderCommand          | Comando para eliminación de recordatorio                                        | Representa la intención de eliminar un recordatorio ya creado                                                 | Usado para eliminar un recordatorio existente                                                       |
+| Query     | GetAllRemindersByPatientQuery  | Consulta para obtener todos los recordatorios de un adulto mayor específico     | Permite recuperar la lista de recordatorios asociados a un paciente para visualizar sus próximos medicamentos | Usado para mostrar los recordatorios activos del adulto mayor                                       |
+| Query     | GetAllTreatmentsByPatientQuery | Query para obtener todos los tratamientos de un paciente específico             | Permite consultar la lista de tratamientos asociados a un adulto mayor en particular                          | Usado para mostrar todos los tratamientos de un paciente identificado                               |
 
 **Sub-capa Services:**
 | Tipo | Nombre | Descripción | Responsabilidad Principal | Relación con otros elementos |
@@ -2092,44 +2196,41 @@ a continuación detallaremos las capas del Bounded Context referenciado.
 |Interface| TreatmentQueryService | Servicio para métodos de obtención de datos| estipular una estructura clara a seguir. | Uso en la capa "application" para implementar el método estipulado.|
 |Interface | ReminderQueryService | Servicio para métodos de obtención de recordatorios| estipular una estructura clara a seguir.| Uso en la capa "application" para implementar el método estipulado.|
 
-
 <div id='4.2.6.2.'><h5>4.2.6.2. Interface Layer</h5></div>
 
 **Sub-capa REST:**
-| Tipo       | Nombre                                            | Descripción                                                                | Responsabilidad Principal                                                                 | Relación con otros elementos                                                                 |
+| Tipo | Nombre | Descripción | Responsabilidad Principal | Relación con otros elementos |
 |------------|---------------------------------------------------|----------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|
-| Controller | TreatmentController                               | Controlador REST para gestionar tratamientos                               | Recibe solicitudes del cliente relacionadas con tratamientos, coordina comandos y queries  | Utiliza TreatmentRequestResource, TreatmentResponseResource y los assemblers correspondientes |
-| Controller | ReminderController                                | Controlador REST para gestionar recordatorios                              | Recibe solicitudes del cliente relacionadas con recordatorios, coordina comandos y queries | Utiliza ReminderRequestResource, ReminderResponseResource y los assemblers correspondientes   |
-| Resource   | TreatmentRequestResource                          | Estructura de una petición para crear o actualizar un tratamiento          | Representar y exponer datos del dominio de forma accesible y estructurada para el cliente  | Uso en TreatmentController para enviar datos estructurados al sistema                         |
-| Resource   | TreatmentResponseResource                         | Estructura de una respuesta con información de un tratamiento              | Representar y exponer datos del dominio de forma accesible y estructurada para el cliente  | Uso en TreatmentController para responder con datos del sistema                               |
-| Resource   | ReminderRequestResource                           | Estructura de una petición para crear o actualizar un recordatorio         | Representar y exponer datos del dominio de forma accesible y estructurada para el cliente  | Uso en ReminderController para enviar datos estructurados al sistema                          |
-| Resource   | ReminderResponseResource                          | Estructura de una respuesta con información de un recordatorio             | Representar y exponer datos del dominio de forma accesible y estructurada para el cliente  | Uso en ReminderController para responder con datos del sistema                                |
-| Assembler  | CreateTreatmentCommandFromResourceAssembler       | Convierte un recurso de petición en un comando de creación de tratamiento  | Evitar acoplamiento entre la interfaz REST y la capa de aplicación                         | Usado en TreatmentController para traducir la petición a CreateTreatmentCommand               |
-| Assembler  | UpdateTreatmentCommandFromResourceAssembler       | Convierte un recurso de petición en un comando de actualización de tratamiento | Evitar acoplamiento entre la interfaz REST y la capa de aplicación                      | Usado en TreatmentController para traducir la petición a UpdateTreatmentCommand               |
-| Assembler  | TreatmentResourceFromEntityAssembler              | Convierte una entidad Treatment en un recurso de respuesta                 | Asegura una respuesta consistente para el cliente                                          | Usado en TreatmentController para retornar TreatmentResponseResource                          |
-| Assembler  | CreateReminderCommandFromResourceAssembler        | Convierte un recurso de petición en un comando de creación de recordatorio | Evitar acoplamiento entre la interfaz REST y la capa de aplicación                         | Usado en ReminderController para traducir la petición a CreateReminderCommand                 |
-| Assembler  | UpdateReminderCommandFromResourceAssembler        | Convierte un recurso de petición en un comando de actualización de recordatorio | Evitar acoplamiento entre la interfaz REST y la capa de aplicación                      | Usado en ReminderController para traducir la petición a UpdateReminderCommand                 |
-| Assembler  | ReminderResourceFromEntityAssembler               | Convierte una entidad Reminder en un recurso de respuesta                  | Asegura una respuesta consistente para el cliente                                          | Usado en ReminderController para retornar ReminderResponseResource                            |
-
+| Controller | TreatmentController | Controlador REST para gestionar tratamientos | Recibe solicitudes del cliente relacionadas con tratamientos, coordina comandos y queries | Utiliza TreatmentRequestResource, TreatmentResponseResource y los assemblers correspondientes |
+| Controller | ReminderController | Controlador REST para gestionar recordatorios | Recibe solicitudes del cliente relacionadas con recordatorios, coordina comandos y queries | Utiliza ReminderRequestResource, ReminderResponseResource y los assemblers correspondientes |
+| Resource | TreatmentRequestResource | Estructura de una petición para crear o actualizar un tratamiento | Representar y exponer datos del dominio de forma accesible y estructurada para el cliente | Uso en TreatmentController para enviar datos estructurados al sistema |
+| Resource | TreatmentResponseResource | Estructura de una respuesta con información de un tratamiento | Representar y exponer datos del dominio de forma accesible y estructurada para el cliente | Uso en TreatmentController para responder con datos del sistema |
+| Resource | ReminderRequestResource | Estructura de una petición para crear o actualizar un recordatorio | Representar y exponer datos del dominio de forma accesible y estructurada para el cliente | Uso en ReminderController para enviar datos estructurados al sistema |
+| Resource | ReminderResponseResource | Estructura de una respuesta con información de un recordatorio | Representar y exponer datos del dominio de forma accesible y estructurada para el cliente | Uso en ReminderController para responder con datos del sistema |
+| Assembler | CreateTreatmentCommandFromResourceAssembler | Convierte un recurso de petición en un comando de creación de tratamiento | Evitar acoplamiento entre la interfaz REST y la capa de aplicación | Usado en TreatmentController para traducir la petición a CreateTreatmentCommand |
+| Assembler | UpdateTreatmentCommandFromResourceAssembler | Convierte un recurso de petición en un comando de actualización de tratamiento | Evitar acoplamiento entre la interfaz REST y la capa de aplicación | Usado en TreatmentController para traducir la petición a UpdateTreatmentCommand |
+| Assembler | TreatmentResourceFromEntityAssembler | Convierte una entidad Treatment en un recurso de respuesta | Asegura una respuesta consistente para el cliente | Usado en TreatmentController para retornar TreatmentResponseResource |
+| Assembler | CreateReminderCommandFromResourceAssembler | Convierte un recurso de petición en un comando de creación de recordatorio | Evitar acoplamiento entre la interfaz REST y la capa de aplicación | Usado en ReminderController para traducir la petición a CreateReminderCommand |
+| Assembler | UpdateReminderCommandFromResourceAssembler | Convierte un recurso de petición en un comando de actualización de recordatorio | Evitar acoplamiento entre la interfaz REST y la capa de aplicación | Usado en ReminderController para traducir la petición a UpdateReminderCommand |
+| Assembler | ReminderResourceFromEntityAssembler | Convierte una entidad Reminder en un recurso de respuesta | Asegura una respuesta consistente para el cliente | Usado en ReminderController para retornar ReminderResponseResource |
 
 <div id='4.2.6.3.'><h5>4.2.6.3. Application Layer</h5></div>
 
 **Sub-capa Internal:**
-| Tipo          | Nombre                        | Descripción                                               | Responsabilidad Principal                                          | Relación con otros elementos                                                                 |
+| Tipo | Nombre | Descripción | Responsabilidad Principal | Relación con otros elementos |
 |---------------|-------------------------------|-----------------------------------------------------------|-------------------------------------------------------------------|----------------------------------------------------------------------------------------------|
-| CommandHandler| TreatmentCommandServiceImpl   | Implementación de los comandos de creación, actualización y eliminación de tratamientos | Implementar los métodos para el servicio de tratamientos           | Implementa los métodos de la interfaz TreatmentCommandService en la capa de "Services".      |
-| CommandHandler| ReminderCommandServiceImpl    | Implementación de los comandos de creación, actualización y eliminación de recordatorios | Implementar los métodos para el servicio de recordatorios          | Implementa los métodos de la interfaz ReminderCommandService en la capa de "Services".       |
-| QueryHandler  | TreatmentQueryServiceImpl     | Implementación de la obtención de datos de tratamientos    | Implementar los métodos para el servicio de consultas de tratamientos | Implementa los métodos de la interfaz TreatmentQueryService en la capa de "Services".       |
-| QueryHandler  | ReminderQueryServiceImpl      | Implementación de la obtención de datos de recordatorios   | Implementar los métodos para el servicio de consultas de recordatorios | Implementa los métodos de la interfaz ReminderQueryService en la capa de "Services".        |
+| CommandHandler| TreatmentCommandServiceImpl | Implementación de los comandos de creación, actualización y eliminación de tratamientos | Implementar los métodos para el servicio de tratamientos | Implementa los métodos de la interfaz TreatmentCommandService en la capa de "Services". |
+| CommandHandler| ReminderCommandServiceImpl | Implementación de los comandos de creación, actualización y eliminación de recordatorios | Implementar los métodos para el servicio de recordatorios | Implementa los métodos de la interfaz ReminderCommandService en la capa de "Services". |
+| QueryHandler | TreatmentQueryServiceImpl | Implementación de la obtención de datos de tratamientos | Implementar los métodos para el servicio de consultas de tratamientos | Implementa los métodos de la interfaz TreatmentQueryService en la capa de "Services". |
+| QueryHandler | ReminderQueryServiceImpl | Implementación de la obtención de datos de recordatorios | Implementar los métodos para el servicio de consultas de recordatorios | Implementa los métodos de la interfaz ReminderQueryService en la capa de "Services". |
 
 <div id='4.2.6.4.'><h5>4.2.6.4. Infrastructure Layer</h5></div>
 
 **Sub-capa Repository:**
-| Tipo       | Nombre              | Descripción                                   | Responsabilidad Principal              | Relación con otros elementos                                                                 |
+| Tipo | Nombre | Descripción | Responsabilidad Principal | Relación con otros elementos |
 |------------|---------------------|-----------------------------------------------|----------------------------------------|----------------------------------------------------------------------------------------------|
-| Repository | TreatmentRepository | Repositorio a usar del modelo "Treatment"     | Acceder y manipular datos persistidos de tratamientos | Usado en la Capa "Application" para actualizar y obtener datos de tratamientos.              |
-| Repository | ReminderRepository  | Repositorio a usar del modelo "Reminder"      | Acceder y manipular datos persistidos de recordatorios | Usado en la Capa "Application" para actualizar y obtener datos de recordatorios.             |
-
+| Repository | TreatmentRepository | Repositorio a usar del modelo "Treatment" | Acceder y manipular datos persistidos de tratamientos | Usado en la Capa "Application" para actualizar y obtener datos de tratamientos. |
+| Repository | ReminderRepository | Repositorio a usar del modelo "Reminder" | Acceder y manipular datos persistidos de recordatorios | Usado en la Capa "Application" para actualizar y obtener datos de recordatorios. |
 
 <div id='4.2.6.5.'><h5>4.2.6.5. Bounded Context Software Architecture Component Level Diagrams</h5></div>
 
@@ -2149,7 +2250,6 @@ El diseño refleja una clara orientación a DDD (Domain-Driven Design), donde la
 <img src="Img/treatment support class diagram.png">
 </div>
 
-
 <div id='4.2.6.6.2.'><h6>4.2.6.6.2. Bounded Context Database Design Diagram</h6></div>
 
 <div align="center">
@@ -2157,36 +2257,40 @@ El diseño refleja una clara orientación a DDD (Domain-Driven Design), donde la
 </div>
 
 ### TREATMENTS
+
 **Propósito**: Gestión de tratamientos médicos y medicamentos
 
-| Campo | Tipo | Descripción |
-|-------|------|-------------|
-| id | Long (PK) | Identificador único del tratamiento |
-| patient_id | Long (FK) | Referencia a PATIENTS |
-| description | varchar | Descripción del tratamiento |
-| frequency | varchar | Frecuencia de administración |
-| dosage | varchar | Dosis del medicamento |
-| start_date | datetime | Fecha de inicio del tratamiento |
-| end_date | datetime | Fecha de fin del tratamiento |
-| is_active | boolean | Estado activo del tratamiento |
+| Campo       | Tipo      | Descripción                         |
+| ----------- | --------- | ----------------------------------- |
+| id          | Long (PK) | Identificador único del tratamiento |
+| patient_id  | Long (FK) | Referencia a PATIENTS               |
+| description | varchar   | Descripción del tratamiento         |
+| frequency   | varchar   | Frecuencia de administración        |
+| dosage      | varchar   | Dosis del medicamento               |
+| start_date  | datetime  | Fecha de inicio del tratamiento     |
+| end_date    | datetime  | Fecha de fin del tratamiento        |
+| is_active   | boolean   | Estado activo del tratamiento       |
 
 **Relaciones**:
+
 - N:1 con PATIENTS
 - 1:N con TREATMENT_REMINDERS
 
 ### TREATMENT_REMINDERS
+
 **Propósito**: Gestión de recordatorios de medicación
 
-| Campo | Tipo | Descripción |
-|-------|------|-------------|
-| id | Long (PK) | Identificador único del recordatorio |
-| treatment_id | Long (FK) | Referencia a TREATMENTS |
-| reminder_date | datetime | Fecha y hora del recordatorio |
-| status | varchar | Estado (pending/sent/failed) |
-| sent_date | datetime | Fecha de envío real |
-| reminder_type | varchar | Tipo (push/sms/email) |
+| Campo         | Tipo      | Descripción                          |
+| ------------- | --------- | ------------------------------------ |
+| id            | Long (PK) | Identificador único del recordatorio |
+| treatment_id  | Long (FK) | Referencia a TREATMENTS              |
+| reminder_date | datetime  | Fecha y hora del recordatorio        |
+| status        | varchar   | Estado (pending/sent/failed)         |
+| sent_date     | datetime  | Fecha de envío real                  |
+| reminder_type | varchar   | Tipo (push/sms/email)                |
 
 **Relaciones**:
+
 - N:1 con TREATMENTS
 
 <div id='5.'><h2>Capítulo V: Solution UI/UX Design</h2></div>
@@ -2244,6 +2348,7 @@ Los íconos de AlertaVital son minimalistas, coherentes y de trazo redondeado, a
 Su diseño utiliza el mismo degradado azul-celeste para mantener una apariencia homogénea en toda la interfaz.
 Cada ícono tiene un propósito funcional claro: alertas, monitoreo, conexión y cuidado.
 Su consistencia visual refuerza la confianza y facilita la comprensión inmediata de las acciones dentro de la app.
+
 <div align="center">
 <img src="Img/icons.png">
 </div><br>
@@ -2297,7 +2402,7 @@ Aplicación por entorno:
 - Móvil: colores planos con acentos degradados para mejorar contraste y legibilidad en pantallas pequeñas.
 
 - IoT: uso del azul principal para retroiluminación o pantallas LED, complementado por blanco y gris para mantener una lectura clara en entornos con poca luz.
-  
+
 **Tipografía**
 
 Se utiliza la tipografía Poppins o Roboto, asegurando una experiencia legible y moderna en cualquier dispositivo.
@@ -2347,7 +2452,6 @@ Principios de interacción:
 - Animaciones suaves: transiciones ligeras con degradados para dar sensación de fluidez.
 
 - Iconografía uniforme: íconos redondeados, minimalistas, en azul o celeste con fondo blanco.
-
 
 <div id='5.2.'><h3>5.2. Information Architecture.</h3></div>
 <div id='5.2.1.'><h4>5.2.1. Organization Systems.</h4></div>
@@ -2408,12 +2512,12 @@ En el dispositivo IoT, la organización es mínima pero funcional, orientada a l
 - Pantalla principal: muestra los signos vitales más relevantes (frecuencia cardíaca, oxigenación, nivel de actividad).
 
 - Indicadores visuales (LED):
- 
+
   - Azul: conexión activa.
 
   - Celeste: monitoreo estable.
 
-  - Rojo: alerta de caída o emergencia. 
+  - Rojo: alerta de caída o emergencia.
 
 - Botón físico SOS: envía una alerta inmediata al cuidador registrado.
 
@@ -2492,34 +2596,34 @@ No dispone de búsqueda textual; su sistema “busca” de forma automatizada pa
 **Menú Principal:**
 
 - **Web App:**
-Navegación lateral fija tipo dashboard, con iconos representativos y estados activos en azul degradado.
-Ejemplo: el módulo “Alertas” se resalta con color celeste brillante cuando hay notificaciones nuevas.
+  Navegación lateral fija tipo dashboard, con iconos representativos y estados activos en azul degradado.
+  Ejemplo: el módulo “Alertas” se resalta con color celeste brillante cuando hay notificaciones nuevas.
 
 - **Mobile App:**
-Menú inferior con iconos grandes y etiquetas: “Inicio”, “Alertas”, “Historial”, “Perfil”.
-Ejemplo: un botón flotante de emergencia (“SOS”) permite enviar alertas desde cualquier pantalla.
+  Menú inferior con iconos grandes y etiquetas: “Inicio”, “Alertas”, “Historial”, “Perfil”.
+  Ejemplo: un botón flotante de emergencia (“SOS”) permite enviar alertas desde cualquier pantalla.
 
 - **Landing Page:**
-Menú superior fijo con anclas internas a secciones como “Inicio”, “Nosotros”, “Tecnología”, “Productos” y “Contáctanos”.
-En móviles, se transforma en un menú hamburguesa con íconos minimalistas.
+  Menú superior fijo con anclas internas a secciones como “Inicio”, “Nosotros”, “Tecnología”, “Productos” y “Contáctanos”.
+  En móviles, se transforma en un menú hamburguesa con íconos minimalistas.
 
 - **Dispositivo IoT:**
-Navegación física simple con botones “SOS” y “Menú”.
-Indicadores visuales cambian de color según el estado del dispositivo, guiando al usuario sin necesidad de texto.
+  Navegación física simple con botones “SOS” y “Menú”.
+  Indicadores visuales cambian de color según el estado del dispositivo, guiando al usuario sin necesidad de texto.
 
 **Navegación Contextual:**
 
 - **Web App:**
-Desde el historial de un usuario, se puede acceder a su monitoreo en tiempo real o enviar una alerta manual.
+  Desde el historial de un usuario, se puede acceder a su monitoreo en tiempo real o enviar una alerta manual.
 
 - **Mobile App:**
-Desde una alerta recibida, se puede abrir directamente el perfil del paciente y ver sus signos vitales actuales.
+  Desde una alerta recibida, se puede abrir directamente el perfil del paciente y ver sus signos vitales actuales.
 
 - **Landing Page:**
-En “Tecnología IoT”, enlaces conducen a “Productos” o “Contáctanos”, manteniendo la fluidez.
+  En “Tecnología IoT”, enlaces conducen a “Productos” o “Contáctanos”, manteniendo la fluidez.
 
 - **IoT Device:**
-Un toque prolongado en el botón principal activa la función SOS o reinicia la conexión, facilitando navegación táctil mínima.
+  Un toque prolongado en el botón principal activa la función SOS o reinicia la conexión, facilitando navegación táctil mínima.
 
 <div id='5.3.'><h3>5.3. Landing Page UI Design.</h3></div>
 <div id='5.3.1.'><h4>5.3.1. Landing Page Wireframe.</h4></div>
@@ -2532,18 +2636,20 @@ Sección Principal de la landing page:
   <img src="./Img/wf1.png" style="margin-bottom: 5px;" width="500">
 </div>
 
-
 Sección Características y Beneficios:
+
 <div align = "center">
   <img src="./Img/wf2.png" style="margin-bottom: 5px;" width="500">
 </div>
 
 Sección Antecedentes:
+
 <div align = "center">
   <img src="./Img/wf3.png" style="margin-bottom: 5px;" width="500">
 </div>
 
 Sección "Acerca de":
+
 <div align = "center">
   <img src="./Img/wf4.png" style="margin-bottom: 5px;" width="500">
 </div>
@@ -2555,6 +2661,7 @@ Sección de Formulario de contacto:
 </div>
 
 Sección de Descargas de aplicación móvil y pie de página:
+
 <div align = "center">
   <img src="./Img/wf6.png" style="margin-bottom: 5px;" width="500">
 </div>
@@ -2567,18 +2674,20 @@ Sección Principal de la landing page:
   <img src="./Img/wfm1.png" style="margin-bottom: 5px;" width="250">
 </div>
 
-
 Sección Características y Beneficios:
+
 <div align = "center">
   <img src="./Img/wfm2.png" style="margin-bottom: 5px;" width="250">
 </div>
 
 Sección Antecedentes:
+
 <div align = "center">
   <img src="./Img/wfm3.png" style="margin-bottom: 5px;" width="250">
 </div>
 
 Sección "Acerca de":
+
 <div align = "center">
   <img src="./Img/wfm4.png" style="margin-bottom: 5px;" width="250">
 </div>
@@ -2590,6 +2699,7 @@ Sección de Formulario de contacto:
 </div>
 
 Sección de Descargas de aplicación móvil y pie de página:
+
 <div align = "center">
   <img src="./Img/wfm6.png" style="margin-bottom: 5px;" width="250">
 </div>
@@ -2671,7 +2781,6 @@ Sección de Descargas de aplicación móvil y pie de página:
 <div align = "center">
   <img src="./Img/mockupm6.png" style="margin-bottom: 5px;" width="250">
 </div>
-
 
 <div id='5.4.'><h3>5.4. Applications UX/UI Design.</h3></div>
 <div id='5.4.1.'><h4>5.4.1. Applications Wireframes.</h4></div>
@@ -2934,7 +3043,6 @@ Perfil
   <img src="./Img/webappmom7.png" style="margin-bottom: 5px;" width="250">
 </div>
 
-
 <div id='5.4.3.'><h4>5.4.3. Applications User Flow Diagrams.</h4></div>
 
 **Applications User Flow Diagrams (Desktop)**
@@ -2977,7 +3085,6 @@ User Goal: Soporte al Tratamiento
   <img src="./Img/userflow6.png" style="margin-bottom: 5px;" width="500">
 </div>
 
-
 **Applications User Flow Diagrams (Mobile)**
 
 Link Lucid: <a href="https://lucid.app/lucidchart/56228267-948d-4917-a4ce-c1c0a8345ffc/edit?view_items=HBfY-7Xjwzhr&page=vAfYoJjIZ-Tr&invitationId=inv_6667df5d-4724-4df5-bc23-452b278a75f8" target="_blank">Link</a></td>
@@ -3017,7 +3124,6 @@ User Goal: Soporte al Tratamiento
 <div align = "center">
   <img src="./Img/userflowm5.png" style="margin-bottom: 5px;" width="500">
 </div>
-
 
 <div id='5.5.'><h3>5.5. Applications Prototyping.</h3></div>
 
@@ -3147,8 +3253,7 @@ La gestión del proyecto de la aplicación móvil, landing page y aplicación we
 
 **Repositorio de Landing Page:** [https://github.com/TF-SolucionesIoT/LandingPage](https://github.com/TF-SolucionesIoT/LandingPage)
 
-**Repositorio de Aplicación Web:** 
-
+**Repositorio de Aplicación Web:**
 
 ### Estructura de ramas:
 
@@ -3167,6 +3272,7 @@ Versionamiento Semántico: Para nombrar las Releases, se utilizará el sistema d
 Convenciones de Commits: Para los mensajes de los commits realizados, se usa la especificación Conventional Commits, La estructura a seguir será la siguiente:
 
 "(tipo):(titulo)" y "(descripcion)"
+
 <div id='6.1.3.'><h4>6.1.3. Source Code Style Guide & Conventions.</h4></div>
 
 Para el desarrollo de nuestro producto, hemos recurrido a estos lenguajes para desarrollar la solución:
@@ -3244,7 +3350,6 @@ En la sección Source, selecciona la rama de la que quieres desplegar (normalmen
 <img src="Img/6_1_4-b.png">
 </div>
 
-
 GitHub ahora generará una URL para tu landing page, que estará disponible en algo como: https://usuario.github.io/Example
 
 <div align="center">
@@ -3261,7 +3366,7 @@ Si necesitas hacer actualizaciones, cada vez que hagas un cambio en la rama que 
 
 Para el despliegue de la primera versión de la aplicación web, primero debemos buildear nuestro proyecto.
 
-**comando de build:** npm run build 
+**comando de build:** npm run build
 **comando para verificar ejecución de la build**: npm start
 
 Luego de verificar que la build funciona correctamente, debemos de instalar una dependencia solo para desarrollo, en este caso de Vercel.
@@ -3282,42 +3387,41 @@ Al final de los pasos, podemos ver que nos brinda los links para gestionar el de
 <img src="Img/deploy_aw1.png">
 </div>
 
-
 <div id='6.2.'><h3>6.2. Landing Page, Services & Applications Implementation.</h3></div>
 <div id='6.2.1.'><h4>6.2.1. Sprint 1</h4></div>
 <div id='6.2.1.1.'><h5>6.2.1.1. Sprint Planning 1.</h5></div>
 
 En la siguiente sección, se presentará el sprint #1 con la primera versión de la landing page y la primera versión de la aplicación web.
 
-| Sprint #                               | Sprint 1                                                                                                                                                                                                                                                                                                                                                               |
-| -------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Sprint Planning Background**         |                                                                                                                                                                                                                                                                                                                                                                        |
-| **Date**                               | 2025-09-18                                                                                                                                                                                                                                                                                                                                                             |
-| **Time**                               | 04:30 PM                                                                                                                                                                                                                                                                                                                                                               |
-| **Location**                           | llamada por la plataforma "Discord"                                                                                                                                                                                                                                                                                                                                    |
-| **Prepared By**                        | Uribe Quispe, Jesús Guillermo                                                                                                                                                                                                                                                                                                                                          |
-| **Attendees (to planning meeting)**    | Uribe Quispe Jesús Guillermo / Bohorquez Lerzundi Gerardo Sebastián / Huanaco Huayta Elizabeth Lucero / Huapaya Cuevas Anthony / Sebastián Silva Tirado                                                                                                                                                                                                                |
-| **Sprint 1 – 1 Review Summary**        | Desarrollo de UX/UI DESIGN, landing page y aplicación web.                                                                                                                                                                                                                                                                                                                                        |
-| **Sprint 1 – 1 Retrospective Summary** | Como es el primer sprint, no hay una retrospectiva anterior.                                                                                                                                                                                                                                                                         |
-| **Sprint Goal & User Stories**         |                                                                                                                                                                                                                                                                                                                                                                        |
+| Sprint #                               | Sprint 1                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| -------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Sprint Planning Background**         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| **Date**                               | 2025-09-18                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| **Time**                               | 04:30 PM                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| **Location**                           | llamada por la plataforma "Discord"                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| **Prepared By**                        | Uribe Quispe, Jesús Guillermo                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| **Attendees (to planning meeting)**    | Uribe Quispe Jesús Guillermo / Bohorquez Lerzundi Gerardo Sebastián / Huanaco Huayta Elizabeth Lucero / Huapaya Cuevas Anthony / Sebastián Silva Tirado                                                                                                                                                                                                                                                                                                                                    |
+| **Sprint 1 – 1 Review Summary**        | Desarrollo de UX/UI DESIGN, landing page y aplicación web.                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| **Sprint 1 – 1 Retrospective Summary** | Como es el primer sprint, no hay una retrospectiva anterior.                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| **Sprint Goal & User Stories**         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 | **Sprint #1 Goal**                     | Nuestro enfoque está en presentar AlertaVital a los potenciales usuarios mediante una landing page clara y atractiva, y en entregar la primera versión funcional de la aplicación web. Creemos que esto generará mayor visibilidad y compromiso de los usuarios iniciales y posibles clientes. Esto se confirmará cuando los visitantes puedan acceder a la landing page, comprender la propuesta de valor del producto y utilizar con éxito las funciones iniciales de la aplicación web. |
-| **Sprint #1 Velocity**                 |  68h                                                                                                                                                                                                                                                                                                                  |
-| **Sum of Story Points**                | 17                                                                                                                                                                                                                                                                                                                                                             |
-
+| **Sprint #1 Velocity**                 | 68h                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| **Sum of Story Points**                | 17                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 
 <div id='6.2.1.2.'><h5>6.2.1.2. Aspect Leaders and Collaborators.</h5></div>
 
-| Team Member (Last Name, First Name) | GitHub Username | Landing Page  | Web Application |
-|------------------------------------|-----------------|----------------|---------------------------------------------|
-| Huapaya, Anthony     |  AnthonyHuapaya   | C             | C    |
-| Huanaco, Elizabeth  | lucerohh      | C              | C    |
-| Silva, Sebastián  | SebasSilvaT      | C           | L   |
-| Bohorquez, Sebastián | sebasbl562      | C              | C    |
-| Uribe, Jesús  | JesusU27      | L             | C    |
+| Team Member (Last Name, First Name) | GitHub Username | Landing Page | Web Application |
+| ----------------------------------- | --------------- | ------------ | --------------- |
+| Huapaya, Anthony                    | AnthonyHuapaya  | C            | C               |
+| Huanaco, Elizabeth                  | lucerohh        | C            | C               |
+| Silva, Sebastián                    | SebasSilvaT     | C            | L               |
+| Bohorquez, Sebastián                | sebasbl562      | C            | C               |
+| Uribe, Jesús                        | JesusU27        | L            | C               |
 
 <div id='6.2.1.3.'><h5>6.2.1.3. Sprint Backlog 1.</h5></div>
 
 Para el Sprint #1 nos trazamos como objetivo desarrollar y desplegar una landing page funcional, optimizada para móviles y preparada para captar leads, lista para producción en GitHub Pages con un diseño responsivo y tiempos de carga rápidos.
+
 <table>
   <thead>
     <tr>
@@ -3553,7 +3657,6 @@ Para el Sprint #1 nos trazamos como objetivo desarrollar y desplegar una landing
   </tbody>
 </table>
 
-
 <div id='6.2.1.4.'><h5>6.2.1.4. Development Evidence for Sprint Review.</h5></div>
 
 ### LANDING PAGE:
@@ -3583,7 +3686,6 @@ Debido a la refactorización de un código, además de la realización de solo u
   </tr>
   
 </tbody></table>
-
 
 ### WEB APPLICATION:
 
@@ -3658,14 +3760,11 @@ Debido a la refactorización de un código, además de la realización de solo u
 	<br>
 </td><td>main</td><td>ecacaab</td><td>Initialized workspace with Firebase Studio</td><td></td><td>2025-10-06</td></tr>
 
-  
 </tbody></table>
-
 
 <div id='6.2.1.5.'><h5>6.2.1.5. Testing Suite Evidence for Sprint Review.</h5></div>
 
 Para este sprint, no nos centramos en elaborar los servicios web, por lo tanto, no hay pruebas unitarias, de integración y de aceptación.
-
 
 <div id='6.2.1.6.'><h5>6.2.1.6. Execution Evidence for Sprint Review.</h5></div>
 
@@ -3690,19 +3789,23 @@ A continuación, se muestran las evidencias de ejecución de la landing page y d
 </div>
 
 Link de Video: [https://upcedupe-my.sharepoint.com/v:/g/personal/u202221876_upc_edu_pe/ES14VABBaE1HttolgWJvG4IBV8ZsJiyVlWeUVjRBrGbOdA?e=TTZLFc](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202221876_upc_edu_pe/ES14VABBaE1HttolgWJvG4IBV8ZsJiyVlWeUVjRBrGbOdA?e=TTZLFc)
+
 #### Web Application:
 
 Iniciar Sesion:
+
 <div align="center">
 <img src="Img/executionappweb_k.png">
 </div>
 
 Perfil:
+
 <div align="center">
 <img src="Img/executionappweb_j.png">
 </div>
 
 Emergencias:
+
 <div align="center">
 <img src="Img/executionappweb_a.png">
 </div>
@@ -3720,37 +3823,42 @@ Alteraciones:
 </div>
 
 Añadir alteraciones
+
 <div align="center">
 <img src="Img/executionappweb_f.png">
 </div>
 
 Simtomas:
+
 <div align="center">
 <img src="Img/executionappweb_d.png">
 </div>
 
 Añadir Sintomas:
+
 <div align="center">
 <img src="Img/executionappweb_e.png">
 </div>
 
 Tratamientos:
+
 <div align="center">
 <img src="Img/executionappweb_g.png">
 </div>
 
 Añadir Tratamiento:
+
 <div align="center">
 <img src="Img/executionappweb_h.png">
 </div>
 
 Signos Vitales:
+
 <div align="center">
 <img src="Img/executionappweb_i.png">
 </div>
 
 Link de video: [https://upcedupe-my.sharepoint.com/v:/g/personal/u202221876_upc_edu_pe/EdCzlnRFUMBNmYdpdZZpk0IBA2j7wJJ-wcfvjDW3xGw_pw?e=HZaZ2R](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202221876_upc_edu_pe/EdCzlnRFUMBNmYdpdZZpk0IBA2j7wJJ-wcfvjDW3xGw_pw?e=HZaZ2R)
-
 
 <div id='6.2.1.7.'><h5>6.2.1.7. Services Documentation Evidence for Sprint Review.</h5></div>
 
@@ -3766,7 +3874,7 @@ En el caso de la Landing Page, desplegaremos la página en Github Pages que es l
 
 Para configurar GitHub Pages una vez el código esté en el repositorio, sigue estos pasos para habilitar GitHub Pages:
 <br><br>
-Ve a tu repositorio en GitHub. Haz clic en la pestaña Settings (Configuración). Desplázate hacia abajo hasta la sección Pages en el menú lateral izquierdo. 
+Ve a tu repositorio en GitHub. Haz clic en la pestaña Settings (Configuración). Desplázate hacia abajo hasta la sección Pages en el menú lateral izquierdo.
 <br><br>
 
 <div align="center">
@@ -3778,7 +3886,6 @@ En la sección Source, selecciona la rama de la que quieres desplegar (normalmen
 <div align="center">
 <img src="Img/6_1_4-b.png">
 </div>
-
 
 GitHub ahora generará una URL para tu landing page, que estará disponible en algo como: https://usuario.github.io/Example
 
@@ -3798,7 +3905,7 @@ Finalmente con el link proporcionado, podemos ver la landing page desplegada en 
 
 Para el despliegue de la primera versión de la aplicación web, primero debemos buildear nuestro proyecto.
 
-**comando de build:** npm run build 
+**comando de build:** npm run build
 **comando para verificar ejecución de la build**: npm start
 
 Luego de verificar que la build funciona correctamente, debemos de instalar una dependencia solo para desarrollo, en este caso de Vercel.
@@ -3819,9 +3926,6 @@ Al final de los pasos, podemos ver que nos brinda los links para gestionar el de
 <img src="Img/deploy_aw1.png">
 </div>
 
-
-
-
 <div id='6.2.1.9.'><h5>6.2.1.9. Team Collaboration Insights during Sprint.</h5></div>
 
 A continuación, se demuestran los insights en base a este Sprint:
@@ -3830,35 +3934,37 @@ A continuación, se demuestran los insights en base a este Sprint:
   <img src="Img/insight_tp1.png" alt="insights">
 </div>
 
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
 <div id='6.2.2.'><h4>6.2.2. Sprint 2</h4></div>
 <div id='6.2.2.1.'><h5>6.2.2.1. Sprint Planning 2.</h5></div>
 
 En la siguiente sección, se presentará el sprint #2 con primera versión del backend y mobile app.
 
-| Sprint #2                               | Sprint 2                                                                                                                                                                                                                                                                                                                                                               |
-| -------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Sprint Planning Background**         |                                                                                                                                                                                                                                                                                                                                                                        |
-| **Date**                               | 2025-11-04                                                                                                                                                                                                                                                                                                                                                             |
-| **Time**                               | 04:30 PM                                                                                                                                                                                                                                                                                                                                                               |
-| **Location**                           | Llamada por la plataforma "Discord"                                                                                                                                                                                                                                                                                                                                    |
-| **Prepared By**                        | Uribe Quispe, Jesús Guillermo                                                                                                                                                                                                                                                                                                                                          |
-| **Attendees (to planning meeting)**    | Uribe Quispe Jesús Guillermo / Bohorquez Lerzundi Gerardo Sebastián / Huanaco Huayta Elizabeth Lucero / Huapaya Cuevas Anthony / Sebastián Silva Tirado                                                                                                                                                                                                                |
-| **Sprint 2 – 1 Review Summary**        | Desarrollo de UX/UI DESIGN, Back-end y Mobile App                                                                                                                                                                                                                                                                                                                                       |
-| **Sprint 2 – 1 Retrospective Summary** | XXX                                                                                                                                                                                                                                                                         |
-| **Sprint Goal & User Stories**         |                                                                                                                                                                                                                                                                                                                                                                        |
-| **Sprint #2 Goal** | Nuestro enfoque está en completar y entregar la segunda versión integrada del frontend y del backend de AlertaVital: una interfaz web interactiva (monitoreo, alertas, gestión de usuarios) y una API REST segura y persistente que soporte autenticación, registros de signos vitales y manejo de emergencias. Sabremos que tuvimos éxito cuando: (1) el frontend consuma correctamente los endpoints del backend; (2) las funciones críticas (inicio de sesión, visualización de signos vitales, envío/recepción de alertas y registro de emergencias) funcionen de forma end-to-end en un entorno de staging; y (3) ambos componentes estén desplegados y accesibles para pruebas de usuario. |
-| **Sprint #2 Velocity** |  XXh |
-| **Sum of Story Points** | XX |
+| Sprint #2                              | Sprint 2                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| -------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Sprint Planning Background**         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| **Date**                               | 2025-11-04                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| **Time**                               | 04:30 PM                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| **Location**                           | Llamada por la plataforma "Discord"                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| **Prepared By**                        | Uribe Quispe, Jesús Guillermo                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| **Attendees (to planning meeting)**    | Uribe Quispe Jesús Guillermo / Bohorquez Lerzundi Gerardo Sebastián / Huanaco Huayta Elizabeth Lucero / Huapaya Cuevas Anthony / Sebastián Silva Tirado                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| **Sprint 2 – 1 Review Summary**        | Desarrollo de UX/UI DESIGN, Back-end y Mobile App                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| **Sprint 2 – 1 Retrospective Summary** | Mejorar el frontend enlanzando al backend                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| **Sprint Goal & User Stories**         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| **Sprint #2 Goal**                     | Nuestro enfoque está en completar y entregar la segunda versión integrada del frontend y del backend de AlertaVital: una interfaz web interactiva (monitoreo, alertas, gestión de usuarios) y una API REST segura y persistente que soporte autenticación, registros de signos vitales y manejo de emergencias. Sabremos que tuvimos éxito cuando: (1) el frontend consuma correctamente los endpoints del backend; (2) las funciones críticas (inicio de sesión, visualización de signos vitales, envío/recepción de alertas y registro de emergencias) funcionen de forma end-to-end en un entorno de staging; y (3) ambos componentes estén desplegados y accesibles para pruebas de usuario. |
+| **Sprint #2 Velocity**                 | 65h                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| **Sum of Story Points**                | 15                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 
 <div id='6.2.2.2.'><h5>6.2.2.2. Aspect Leaders and Collaborators.</h5></div>
 
-| Team Member (Last Name, First Name) 	| GitHub Username 	| Backend 	| Mobile Application 	|
-|-------------------------------------	|-----------------	|---------	|--------------------	|
-| Huapaya, Anthony                    	| AnthonyHuapaya  	| C       	| C                  	|
-| Huanaco, Elizabeth                  	| lucerohh        	| C       	| L                  	|
-| Silva, Sebastian                    	| SebasSilvaT     	| C       	| C                  	|
-| Bohorquez, Sebastián                	| sebasbl562      	| C       	| C                  	|
-| Uribe, Jesús                        	| JesusU27        	| L       	| C                  	|
+| Team Member (Last Name, First Name) | GitHub Username | Backend | Mobile Application |
+| ----------------------------------- | --------------- | ------- | ------------------ |
+| Huapaya, Anthony                    | AnthonyHuapaya  | C       | C                  |
+| Huanaco, Elizabeth                  | lucerohh        | C       | L                  |
+| Silva, Sebastian                    | SebasSilvaT     | C       | C                  |
+| Bohorquez, Sebastián                | sebasbl562      | C       | C                  |
+| Uribe, Jesús                        | JesusU27        | L       | C                  |
 
 <div id='6.2.2.3.'><h5>6.2.2.3. Sprint Backlog 2.</h5></div>
 
@@ -3893,10 +3999,10 @@ Para el Sprint #2 nos trazamos como objetivo desarrollar y desplegar la primera 
       <td>WT-BK01</td>
       <td>Endpoint /auth/login</td>
       <td>Implementar endpoint REST para autenticación (email/password) y emisión de JWT.</td>
-      <td>24h</td>
+      <td>4h</td>
       <td>3</td>
-      <td>Sebastián Silva</td>
-      <td>In Progress</td>
+      <td>Jesús Uribe</td>
+      <td>Done</td>
     </tr>
     <tr>
       <td>TS02</td>
@@ -3904,10 +4010,10 @@ Para el Sprint #2 nos trazamos como objetivo desarrollar y desplegar la primera 
       <td>WT-BK02</td>
       <td>Crear endpoint register-caregiver</td>
       <td>Endpoint para crear cuenta de tipo "caregiver" + validaciones (dni, teléfono) y manejo de duplicados.</td>
-      <td>40h</td>
+      <td>4h</td>
       <td>5</td>
-      <td>Sebastián Bohorquez</td>
-      <td>In Progress</td>
+      <td>Jesús Uribe</td>
+      <td>Done</td>
     </tr>
     <tr>
       <td>TS03</td>
@@ -3915,10 +4021,10 @@ Para el Sprint #2 nos trazamos como objetivo desarrollar y desplegar la primera 
       <td>WT-BK03</td>
       <td>Crear endpoint patients</td>
       <td>Endpoint para registrar paciente (posible creación por caregiver) y establecer relaciones iniciales.</td>
-      <td>40h</td>
+      <td>4h</td>
       <td>5</td>
-      <td>Anthony Huapaya</td>
-      <td>In Progress</td>
+      <td>Jesús Uribe</td>
+      <td>Done</td>
     </tr>
     <tr>
       <td>TS04</td>
@@ -3926,10 +4032,10 @@ Para el Sprint #2 nos trazamos como objetivo desarrollar y desplegar la primera 
       <td>WT-BK04</td>
       <td>Relacionar pacientes y cuidadores</td>
       <td>Endpoint para relacionar patientId ↔ caregiverId con validaciones de permisos y duplicados.</td>
-      <td>24h</td>
-      <td>3</td>
-      <td>Elizabeth Huanaco</td>
-      <td>To Do</td>
+      <td>4h</td>
+      <td>5</td>
+      <td>Sebastián Bohorquez</td>
+      <td>Done</td>
     </tr>
     <tr>
       <td>TS05</td>
@@ -3937,10 +4043,10 @@ Para el Sprint #2 nos trazamos como objetivo desarrollar y desplegar la primera 
       <td>WT-BK05</td>
       <td>Endpoints disturbaces</td>
       <td>Crear, listar (paginado) y eliminar alteraciones detectadas (soft delete) con permisos.</td>
-      <td>40h</td>
+      <td>4h</td>
       <td>5</td>
-      <td>Anthony Huapaya</td>
-      <td>In Progress</td>
+      <td>Sebastián Silva</td>
+      <td>Done</td>
     </tr>
     <tr>
       <td>TS06</td>
@@ -3948,10 +4054,10 @@ Para el Sprint #2 nos trazamos como objetivo desarrollar y desplegar la primera 
       <td>WT-BK06</td>
       <td>Endpoints symptoms</td>
       <td>Reportar, consultar y eliminar síntomas (adjuntos, trazabilidad) para pacientes.</td>
-      <td>24h</td>
+      <td>8h</td>
       <td>3</td>
-      <td>Sebastián Bohorquez</td>
-      <td>In Progress</td>
+      <td>Jesús Uribe</td>
+      <td>Done</td>
     </tr>
     <tr>
       <td>TS07</td>
@@ -3959,10 +4065,10 @@ Para el Sprint #2 nos trazamos como objetivo desarrollar y desplegar la primera 
       <td>WT-BK07</td>
       <td>Endpoints treatments</td>
       <td>Gestionar tratamientos y recordatorios (create/get/update/delete) y relaciones con reminders.</td>
-      <td>40h</td>
+      <td>8h</td>
       <td>5</td>
       <td>Jesús Uribe</td>
-      <td>In Progress</td>
+      <td>Done</td>
     </tr>
     <tr>
       <td>TS08</td>
@@ -3970,7 +4076,7 @@ Para el Sprint #2 nos trazamos como objetivo desarrollar y desplegar la primera 
       <td>WT-BK08</td>
       <td>Reminders scheduler</td>
       <td>Backend para crear/listar reminders asociados a treatments y exponer scheduler/worker para notificaciones.</td>
-      <td>40h</td>
+      <td>4h</td>
       <td>5</td>
       <td>Jesús Uribe</td>
       <td>In Progress</td>
@@ -3981,20 +4087,20 @@ Para el Sprint #2 nos trazamos como objetivo desarrollar y desplegar la primera 
       <td>WT-BK09</td>
       <td>JWT & RBAC</td>
       <td>Middleware de autorización (roles: patient, caregiver, admin), validación de JWT y políticas de acceso por relación.</td>
-      <td>64h</td>
-      <td>8</td>
+      <td>8h</td>
+      <td>5</td>
       <td>Jesús Uribe</td>
-      <td>In Progress</td>
+      <td>Done</td>
     <tr>
       <td>TS10</td>
       <td>Device Controller - Registrar dispositivo</td>
       <td>WT-BK10</td>
       <td>POST /api/device</td>
       <td>Implementar endpoint REST para registrar y vincular un dispositivo IoT a un paciente. Validar payload (deviceId, patientId, model, firmware), crear/actualizar registro del dispositivo y publicar evento de dispositivo registrado. Manejar duplicados y devolver 201 con recurso creado.</td>
-      <td>32h</td>
+      <td>8h</td>
       <td>5</td>
-      <td>Anthony Huapaya</td>
-      <td>To Do</td>
+      <td>Jesús Uribe</td>
+      <td>In Progress</td>
     </tr>
     <tr>
       <td>TS11</td>
@@ -4002,17 +4108,17 @@ Para el Sprint #2 nos trazamos como objetivo desarrollar y desplegar la primera 
       <td>WT-BK11</td>
       <td>GET /api/device/readings/all</td>
       <td>Implementar endpoint REST para obtener todas las lecturas recopiladas por los dispositivos. Soportar filtros (patientId, deviceId, from, to), paginación y ordenamiento. Proteger ruta (roles/permiso), validar acceso y devolver lista paginada de lecturas con metadatos.</td>
-      <td>32h</td>
+      <td>8h</td>
       <td>5</td>
-      <td>Elizabeth Huanaco</td>
-      <td>To Do</td>
+      <td>Jesús Uribe</td>
+      <td>In Progress</td>
     </tr>
   </tbody>
 </table>
 
 <div id='6.2.2.4.'><h5>6.2.2.4. Development Evidence for Sprint Review.</h5></div>
 
-### BACKEND:
+### WEB SERVICE:
 
 <table><thead>
   <tr>
@@ -4025,73 +4131,552 @@ Para el Sprint #2 nos trazamos como objetivo desarrollar y desplegar la primera 
   </tr></thead>
 <tbody>
   <tr>
-<td rowspan="10">
-	<a href="https://github.com/TF-SolucionesIoT/iam_service" target="_blank" rel="noopener noreferrer">https://github.com/TF-SolucionesIoT/iam_service</a>
-	<br>
-</td>
-    <td><br>main</td>
-    <td><br>XXX</td>
-    <td><br>first commit</td>
-    <td><br>first commit</td>
-    <td><br>XX/XX/2025</td>
+    <td rowspan="13">
+      <a href="https://github.com/TF-SolucionesIoT/iam_service" target="_blank" rel="noopener noreferrer">https://github.com/TF-SolucionesIoT/alerta-vital-service</a>
+      <br>
+    </td>
   </tr>
-  
+  <tr>
+  <td>HEAD -> backup, origin/backup</td>
+  <td>1c8c310</td>
+  <td>fix: fix duplicated cors configuration and bug in auth controller (profiles/me)</td>
+  <td>-</td>
+  <td>2025-11-15</td>
+</tr>
+<tr>
+  <td>-</td>
+  <td>2abaf83</td>
+  <td>Merge pull request #11 from TF-SolucionesIoT/feat/emergencymanagement</td>
+  <td>Feat/emergencymanagement</td>
+  <td>2025-11-15</td>
+</tr>
+<tr>
+  <td>origin/dev</td>
+  <td>dea97f8</td>
+  <td>merge branch "feat/monitoring-wss" into dev</td>
+  <td>feat: implemented Broadcast to see real data using a patient or caregiver</td>
+  <td>2025-11-15</td>
+</tr>
+<tr>
+  <td>origin/feat/monitoring-wss, feat/monitoring-wss</td>
+  <td>4196e8e</td>
+  <td>feat: implemented Broadcast to see real data using a patient or caregiver account</td>
+  <td>-</td>
+  <td>2025-11-15</td>
+</tr>
+<tr>
+  <td>-</td>
+  <td>da43ccb</td>
+  <td>Merge pull request #9 from TF-SolucionesIoT/update-healthTracking</td>
+  <td>Add: Get patient by caregiver</td>
+  <td>2025-11-15</td>
+</tr>
+<tr>
+  <td>-</td>
+  <td>39491cd</td>
+  <td>Merge pull request #7 from TF-SolucionesIoT/feat/monitoring-wss</td>
+  <td>Feat/monitoring wss</td>
+  <td>2025-11-15</td>
+</tr>
+<tr>
+  <td>-</td>
+  <td>e0e0b16</td>
+  <td>feat: add data from edge by patient authenticated</td>
+  <td>-</td>
+  <td>2025-11-15</td>
+</tr>
+<tr>
+  <td>origin/update-healthTracking</td>
+  <td>36fda47</td>
+  <td>Add: Get patient by caregiver</td>
+  <td>-</td>
+  <td>2025-11-15</td>
+</tr>
+<tr>
+  <td>origin/feat/emergencymanagement</td>
+  <td>bc92f03</td>
+  <td>feat: Add controller and fix Entity</td>
+  <td>-</td>
+  <td>2025-11-15</td>
+</tr>
+<tr>
+  <td>-</td>
+  <td>a0d79f0</td>
+  <td>feat: add websockets handler from edge application and real time brodcast to front end</td>
+  <td>-</td>
+  <td>2025-11-15</td>
+</tr>
+<tr>
+  <td>-</td>
+  <td>c498af0</td>
+  <td>feat: add emergency management endpoints v1 bounded context</td>
+  <td>-</td>
+  <td>2025-11-15</td>
+</tr>
+<tr>
+  <td>-</td>
+  <td>b0a7833</td>
+  <td>feat: add user profile retrieval endpoint and related resource/assembler</td>
+  <td>-</td>
+  <td>2025-11-12</td>
+  <td></td>
+</tr>
+  <td></td>
+  <td>dev</td>
+  <td>c958c82</td>
+  <td>fix: invite code authorization</td>
+  <td>-</td>
+  <td>2025-11-11</td></tr>
+<tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td>925c6ae</td>
+  <td>Merge branch "feat/relations" into "dev"</td>
+  <td>Merge branch "feat/relations" into "dev"</td>
+  <td>2025-11-11</td>
+</tr>
+<tr>
+    <td></td>
+  <td>origin/feat/relations, feat/relations</td>
+  <td>cf736b1</td>
+  <td>feat: added user type and verify authorization</td>
+  <td></td>
+  <td>2025-11-11</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td>002d8c0</td>
+  <td>feat: relations with generated unique code caregiver-patient</td>
+  <td></td>
+  <td>2025-11-11</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td>20fa4fe</td>
+  <td>Feat/monitoring</td>
+  <td>Feat/monitoring</td>
+  <td>2025-11-11</td>
+</tr>
+<tr>
+  <td></td>
+  <td>origin/feat/monitoring</td>
+  <td>19730ec</td>
+  <td>feat: reading data associated on device id</td>
+  <td></td>
+  <td>2025-11-11</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td>9e43415</td>
+  <td>feat: device associated with patient</td>
+  <td></td>
+  <td>2025-11-11</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td>91ebf57</td>
+  <td>Feat/sympton</td>
+  <td>Feat/sympton</td>
+  <td>2025-11-08</td>
+</tr>
+<tr>
+  <td></td>
+  <td>origin/feat/sympton</td>
+  <td>ed58bd6</td>
+  <td>feat: implement treatment management functionality in RecordsController and related classes</td>
+  <td></td>
+  <td>2025-11-08</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td>43f24de</td>
+  <td>feat: add sympton management functionality in RecordsController</td>
+  <td></td>
+  <td>2025-11-08</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td>42d0ba9</td>
+  <td>Feat/healthtracking</td>
+  <td>Feat/healthtracking</td>
+  <td>2025-11-07</td>
+</tr>
+<tr>
+  <td></td>
+  <td>origin/feat/healthtracking, master</td>
+  <td>73257d5</td>
+  <td>feat: delete disturbance by id and user id</td>
+  <td></td>
+  <td>2025-11-07</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td>3ef6497</td>
+  <td>feat: healthtracking domain layer - sympton entity</td>
+  <td></td>
+  <td>2025-11-07</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td>88c259d</td>
+  <td>feat: healthtracking interface layer</td>
+  <td></td>
+  <td>2025-11-07</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td>b0583aa</td>
+  <td>feat: healthtracking infrastructure layer</td>
+  <td></td>
+  <td>2025-11-07</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td>7109256</td>
+  <td>feat: healthtracking application layer</td>
+  <td></td>
+  <td>2025-11-07</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td>4b31441</td>
+  <td>feat: healthtracking domain layer</td>
+  <td></td>
+  <td>2025-11-07</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td>59065b5</td>
+  <td>feat: implementation of create patient and caregiver user</td>
+  <td></td>
+  <td>2025-11-05</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td>5b5097f</td>
+  <td>feat: implementation of profiles bc</td>
+  <td></td>
+  <td>2025-11-05</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td>ce6aca4</td>
+  <td>feat: domain layer of profiles bc</td>
+  <td></td>
+  <td>2025-11-04</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td>ced0dea</td>
+  <td>feat: interface layer of iam bc</td>
+  <td></td>
+  <td>2025-11-04</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td>1694352</td>
+  <td>feat: infrastructure layer of iam bc</td>
+  <td></td>
+  <td>2025-11-04</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td>3f9524e</td>
+  <td>feat: application layer of iam bc</td>
+  <td></td>
+  <td>2025-11-04</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td>8a129aa</td>
+  <td>feat: shared files</td>
+  <td></td>
+  <td>2025-11-04</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td>b2760d7</td>
+  <td>feat: domain layer of bc iam</td>
+  <td></td>
+  <td>2025-11-04</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td>f1aeffa</td>
+  <td>first commit</td>
+  <td></td>
+  <td>2025-11-04</td>
+</tr>
+
+</tbody></table>
+
+### EDGE APP:
+
+<table><thead>
+  <tr>
+    <th>&nbsp;&nbsp;&nbsp;<br>Repository&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Branch&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Commit ID&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Commit<br>&nbsp;&nbsp;&nbsp;<br>Message&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Commit<br>&nbsp;&nbsp;&nbsp;<br>Message Body&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Committed on&nbsp;&nbsp;&nbsp;(Date)&nbsp;&nbsp;&nbsp;</th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td rowspan="13">
+      <a href="https://github.com/TF-SolucionesIoT/edge_app" target="_blank" rel="noopener noreferrer">https://github.com/TF-SolucionesIoT/edge_app</a>
+      <br>
+    </td>
+  </tr>
+  <tr>
+  <td>HEAD -> master, origin/main</td>
+  <td>371f9e8</td>
+  <td>feat: edge app (simulation)</td>
+  <td></td>
+  <td>2025-11-16</td>
+  </tr>
+  <tr>
+  <td></td>
+  <td>c26de3e</td>
+  <td>feat: update git ignore</td>
+  <td></td>
+  <td>2025-11-16</td>
+  <tr>
+  <td></td>
+  <td>6d81a57</td>
+  <td>gitignore</td>
+  <td></td>
+  <td>2025-11-16</td>
+</tr>
+
 </tbody></table>
 
 <div id='6.2.2.5.'><h5>6.2.2.5. Testing Suite Evidence for Sprint Review.</h5></div>
 
+A continuación se presenta el detalle de los archivos `.feature` desarrollados y subidos en el repositorio, relacionados a los user tasks implementados en este Sprint:
 
+<table><thead>
+  <tr>
+    <th>&nbsp;&nbsp;&nbsp;<br>Repository&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Branch&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Commit ID&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Commit<br>&nbsp;&nbsp;&nbsp;<br>Message&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Commit<br>&nbsp;&nbsp;&nbsp;<br>Message Body&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Committed on&nbsp;&nbsp;&nbsp;(Date)&nbsp;&nbsp;&nbsp;</th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td rowspan="13">
+      <a href="https://github.com/TF-SolucionesIoT/iam_service" target="_blank" rel="noopener noreferrer">https://github.com/TF-SolucionesIoT/alerta-vital-service</a>
+      <br>
+    </td>
+  </tr>
+   <tr>
+  <td>develop</td>
+  <td>371f9e8</td>
+  <td>Silva (#20)</td>
+  <td>
+
+- Refactor code structure for improved readability and maintainability
+
+- Update project report with new version entries and collaboration insights
+
+- Refactor code structure and remove redundant sections for improved readability and maintainability
+
+</td>
+  <td>2025-11-16</td>
+  </tr>
+</tbody></table>
+
+### DESCRIPCIÓN:
+
+| Archivo .feature             | Descripción                                                             | User Task Relacionada                                              |
+| ---------------------------- | ----------------------------------------------------------------------- | ------------------------------------------------------------------ |
+| login.feature                | Prueba de inicio de sesión de usuario (autenticación exitosa y fallida) | Login (API)                                                        |
+| register_caregiver.feature   | Registro de un nuevo cuidador, validando datos y duplicados             | Registrar cuidador (Backend)                                       |
+| register_patient.feature     | Registro de paciente y asociación con cuidador                          | Registrar paciente (Backend)                                       |
+| disturbances_crud.feature    | Alta, consulta y eliminación de alteraciones (disturbances)             | CRUD Disturbances (Alteraciones)                                   |
+| symptoms_crud.feature        | Registro, consulta y eliminación de síntomas                            | CRUD Symptoms (Síntomas)                                           |
+| treatments_reminders.feature | Gestión de tratamientos y recordatorios asociados                       | CRUD Treatments (Tratamientos) / Asociar recordatorios a Treatment |
+| device_register.feature      | Registro y vinculación de dispositivo IoT                               | Device Controller - Registrar dispositivo                          |
+| device_readings.feature      | Consulta de lecturas de dispositivos IoT                                | Device Controller - Obtener lecturas                               |
+
+> **Nota:** Puedes revisar todos los archivos en la carpeta [Features del repositorio](https://github.com/TF-SolucionesIoT/report/tree/main/Features).
 
 <div id='6.2.2.6.'><h5>6.2.2.6. Execution Evidence for Sprint Review.</h5></div>
 
-A continuación, se muestran las evidencias de ejecución del backend y de la primera versión del mobile app.
+A continuación, se muestran las evidencias de ejecución del backend.
 
 #### Backend:
 
 <div align="center">
-<img src="Img/execution_e.png">
+<img src="Img/back1.png">
 </div>
-
-#### Mobile App:
 
 <div align="center">
-<img src="Img/execution_m.png">
+<img src="Img/back2.png">
 </div>
 
+Link de Video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211g296_upc_edu_pe/IQDT3p9qrFqAR51RJFfNdNnIAfC8V3H6L9FagOaDpz_8Pdo?e=medbbd
+
+### EDGE APP:
+
+Simulación de envío de datos a la nube por medio de websockets:
+
+<div align="center">
+<img src="Img/edge_app.png">
 </div>
+
+Recepción de la nube por parte de la aplicación Edge por medio de websockets:
+
+<div align="center">
+<img src="Img/edge_app2.png">
+</div>
+
+Link de video: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202221876_upc_edu_pe/IQCsvrOFrXhZTK8dVXel_wPyAc6l3Q_Vc6rxp3V0wtVh-RM?e=NZK4zA&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202221876_upc_edu_pe/IQCsvrOFrXhZTK8dVXel_wPyAc6l3Q_Vc6rxp3V0wtVh-RM?e=NZK4zA&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 <div id='6.2.2.7.'><h5>6.2.2.7. Services Documentation Evidence for Sprint Review.</h5></div>
 
+### Documentación de Endpoints Backend
 
+A continuación se presenta una tabla resumen de los principales endpoints REST implementados en el backend de AlertaVital, agrupados por contexto funcional. Para cada endpoint se indica el método HTTP, la ruta, una breve descripción y los permisos requeridos.
+
+| Método                      | Endpoint                                            | Descripción                                              | Permisos/Requiere Auth |
+| --------------------------- | --------------------------------------------------- | -------------------------------------------------------- | ---------------------- |
+| **Autenticación (IAM)**     |                                                     |                                                          |                        |
+| POST                        | `/api/auth/login`                                   | Autenticación de usuario, retorna JWT                    | Público                |
+| POST                        | `/api/auth/register/patient`                        | Registro de nuevo paciente                               | Público                |
+| POST                        | `/api/auth/register/caregiver`                      | Registro de nuevo cuidador                               | Público                |
+| GET                         | `/api/auth/profile/me`                              | Obtener perfil del usuario autenticado                   | Requiere Auth          |
+| **Contactos de Emergencia** |                                                     |                                                          |                        |
+| POST                        | `/api/contacts/emergencies`                         | Crear nuevo contacto de emergencia                       | Requiere Auth          |
+| PUT                         | `/api/contacts/emergencies/contact/{id}`            | Actualizar contacto de emergencia por ID                 | Requiere Auth          |
+| DELETE                      | `/api/contacts/emergencies/contact/{id}`            | Eliminar contacto de emergencia por ID                   | Requiere Auth          |
+| GET                         | `/api/contacts/emergencies/patient/{patientId}/all` | Obtener todos los contactos de emergencia de un paciente | Requiere Auth          |
+| **Registros Médicos**       |                                                     |                                                          |                        |
+| POST                        | `/api/records/treatments`                           | Crear nuevo registro de tratamiento                      | Requiere Auth          |
+| GET                         | `/api/records/treatments/all`                       | Obtener todos los tratamientos                           | Requiere Auth          |
+| POST                        | `/api/records/symptons`                             | Crear nuevo registro de síntoma                          | Requiere Auth          |
+| DELETE                      | `/api/records/symptons`                             | Eliminar registro de síntoma                             | Requiere Auth          |
+| GET                         | `/api/records/symptons/all`                         | Obtener todos los síntomas                               | Requiere Auth          |
+| POST                        | `/api/records/disturbances`                         | Crear nuevo registro de alteración                       | Requiere Auth          |
+| DELETE                      | `/api/records/disturbances`                         | Eliminar registro de alteración                          | Requiere Auth          |
+| GET                         | `/api/records/disturbances/all`                     | Obtener todas las alteraciones                           | Requiere Auth          |
+| GET                         | `/api/records/patient/{patientId}`                  | Obtener todos los registros médicos de un paciente       | Requiere Auth          |
+| **Dispositivos**            |                                                     |                                                          |                        |
+| POST                        | `/api/device`                                       | Registrar nuevo dispositivo                              | Requiere Auth          |
+| GET                         | `/api/device/readings/all`                          | Obtener todas las lecturas de dispositivos               | Requiere Auth          |
+| **Códigos de Invitación**   |                                                     |                                                          |                        |
+| POST                        | `/api/invite/generate`                              | Generar nuevo código de invitación                       | Requiere Auth          |
+| POST                        | `/api/invite/use/{code}`                            | Usar código de invitación                                | Requiere Auth          |
+
+> **Nota:** Todos los endpoints protegidos requieren autenticación JWT y validan la relación usuario-paciente/caregiver según el rol. Para detalles de payload y respuestas, consultar la documentación Swagger disponible en: [https://alertavital-aqesfcbafwe4d7fk.canadacentral-01.azurewebsites.net/swagger-ui/index.html](https://alertavital-aqesfcbafwe4d7fk.canadacentral-01.azurewebsites.net/swagger-ui/index.html)
 
 <div id='6.2.2.8.'><h5>6.2.2.8. Software Deployment Evidence for Sprint Review.</h5></div>
 
-En este segundo sprint, se desplegaron tanto el backend, como la primera versión del mobile app.
+En este segundo sprint, se desplegó un avance del desarrollo del servicio Web.
 
-#### Backend:
+#### Servicio Web:
 
-En el caso del backend, desplegaremos ...
+**Paso 1: Despliegue de la base de datos**
 
-Para configurar ...:
-<br><br>
-Ve a tu repositorio en ... 
-<br><br>
+Antes de desplegar la aplicación backend, es fundamental contar con una base de datos accesible desde la nube. En la imagen se muestra la creación y configuración de una base de datos SQL en Azure, donde se definen parámetros como el nombre, usuario, contraseña y reglas de firewall para permitir conexiones externas.
 
 <div align="center">
-<img src="Img/des_back_1.png">
+<img src="Img/des_back_1.jpeg">
 </div>
 
-#### Mobile App:
+**Paso 2: Creación de la aplicación web backend**
 
-En el caso del mobile app, desplegaremos la aplicación en una plataforma de hosting adecuada...
-
-Para configurar ...:
-<br><br>
-Ve a tu repositorio en ... 
-<br><br>
+El siguiente paso consiste en crear el recurso de App Service en Azure, que alojará la aplicación backend. En la imagen se observa la configuración del entorno de despliegue, seleccionando el stack tecnológico (por ejemplo, Java/Spring Boot), el grupo de recursos y el nombre de la aplicación.
 
 <div align="center">
-<img src="Img/des_mobile_1.png">
+<img src="Img/des_back_2.jpeg">
+</div>
+
+**Paso 3: Despliegue en Azure**
+
+Una vez configurada la App Service, se procede a desplegar el artefacto generado (por ejemplo, un archivo .jar o .war) desde el entorno local o mediante integración continua. La imagen muestra el panel de Azure donde se gestiona el despliegue, permitiendo cargar el archivo y monitorear el estado de la publicación.
+
+<div align="center">
+<img src="Img/des_back_3.jpeg">
+</div>
+
+**Paso 4: Conexión desde IntelliJ IDEA a Azure**
+
+Para facilitar el despliegue y la administración, se puede conectar el entorno de desarrollo (IntelliJ IDEA) directamente con Azure. En la imagen se visualiza la integración, que permite desplegar el backend, configurar variables de entorno y realizar pruebas directamente desde el IDE.
+
+<div align="center">
+<img src="Img/des_back_4.jpeg">
+</div>
+
+---
+
+### Frontend:
+
+**Paso 1: Creación de un proyecto en Firebase**
+
+Para el frontend, se utiliza Vercel como plataforma de despliegue debido a su facilidad de integración con repositorios de código y su capacidad para automatizar el proceso de publicación de aplicaciones web modernas. Vercel permite realizar despliegues continuos, lo que significa que cada vez que se realiza un cambio en el repositorio, la aplicación puede actualizarse automáticamente en producción. En la imagen a continuación se muestra el proceso de creación de un nuevo proyecto en Vercel, donde se asigna un nombre representativo y se habilitan los servicios necesarios para el alojamiento web, asegurando así una gestión centralizada y eficiente del ciclo de vida del frontend.
+
+<div align="center">
+<img src="Img/des_front_1.png">
+</div>
+
+**Paso 2: Importación y conexión con GitHub**
+
+En este paso, se importa el repositorio del proyecto directamente desde GitHub, lo que permite a Vercel acceder al código fuente y mantener sincronización continua con los cambios realizados por el equipo de desarrollo. Posteriormente, se asigna un nombre único al proyecto dentro de Vercel, facilitando su identificación y administración entre múltiples aplicaciones o entornos de despliegue. Esta integración garantiza que el flujo de trabajo de desarrollo y despliegue sea ágil y seguro.
+
+<div align="center">
+<img src="Img/des_front_2.png">
+</div>
+
+**Paso 3: Configuración de rama específica para despliegue**
+
+En muchos proyectos, es común trabajar con varias ramas (por ejemplo, `main`, `develop`, `feature/*`). Vercel permite seleccionar una rama específica para desplegar en el entorno de producción, lo que resulta útil para pruebas, revisiones o lanzamientos controlados. Para ello, se accede a la sección "Environments" y se selecciona "Production" para editar sus características, asegurando que solo la rama deseada se publique en el entorno final.
+
+<div align="center">
+<img src="Img/des_front_3.png">
+</div>
+
+A continuación, se ingresa el nombre de la rama que se desea desplegar. Esto permite que el equipo tenga control total sobre qué versión del código está activa en producción, facilitando la gestión de versiones y la implementación de nuevas funcionalidades de manera segura.
+
+<div align="center">
+<img src="Img/des_front_4.png">
+</div>
+
+**Configuración de variables de entorno**
+
+En este paso, se configuran las variables de entorno necesarias para el correcto funcionamiento de la aplicación. Estas variables pueden incluir claves de API, URLs de servicios externos, credenciales y otros parámetros sensibles que no deben estar expuestos en el código fuente. Vercel ofrece una interfaz sencilla para definir y gestionar estas variables, asegurando que cada entorno (desarrollo, staging, producción) tenga la configuración adecuada y segura.
+
+<div align="center">
+<img src="Img/des_front_5.png">
+</div>
+
+Una vez completada la configuración, Vercel despliega automáticamente la aplicación cada vez que se detectan cambios en la rama seleccionada o en las variables de entorno. Este proceso automatizado reduce el riesgo de errores manuales y acelera la entrega continua, permitiendo que el equipo de desarrollo se enfoque en la mejora constante del producto.
+
+<div align="center">
+<img src="Img/des_front_6.png">
 </div>
 
 <div id='6.2.2.9.'><h5>6.2.2.9. Team Collaboration Insights during Sprint.</h5></div>
@@ -4102,6 +4687,888 @@ A continuación, se demuestran los insights en base a este Sprint:
   <img src="Img/insight_tb2.png" alt="insights">
 </div>
 
+<div align="center">
+  <img src="Img/insight_tb2a.png" alt="insights">
+</div>
+
+| Integrante                            | Tareas Asignadas                                                                         |
+| ------------------------------------- | ---------------------------------------------------------------------------------------- |
+| Bohórquez Lerzundi, Gerardo Sebastián | Despliegue servicio web y aplicacion web, desarrollo de funcionalidades en servicios web |
+| Huanaco Huayta, Elizabeth Lucero      | Validation Interviews, desarrollo de funcionalidades en servicios web                    |
+| Huapaya Cuevas, Anthony               | Validation Interviews, desarrollo de funcionalidades en servicios web                    |
+| Silva Tirado, Sebastián Valentino     | Desarrollo de aplicación web.                                                            |
+| Uribe Quispe, Jesús Guillermo         | Desarrollo de servicio web y aplicación edge.                                            |
+
+<div id='6.2.3.'><h4>6.2.3. Sprint 3</h4></div>
+<div id='6.2.3.1.'><h5>6.2.3.1. Sprint Planning 3.</h5></div>
+
+En la siguiente sección, se presentará el sprint #3 enfocado en la creación de la aplicación móvil, finalización de la aplicación Edge y el dispositivo IoT.
+
+| Sprint #3                              | Sprint 3                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| -------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Sprint Planning Background**         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| **Date**                               | 2025-11-25                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| **Time**                               | 05:00 PM                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| **Location**                           | Llamada por la plataforma "Discord"                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| **Prepared By**                        | Uribe Quispe, Jesús Guillermo                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| **Attendees (to planning meeting)**    | Uribe Quispe Jesús Guillermo / Bohorquez Lerzundi Gerardo Sebastián / Huanaco Huayta Elizabeth Lucero / Huapaya Cuevas Anthony / Sebastián Silva Tirado                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| **Sprint 3 – 2 Review Summary**        | Desarrollo de Mobile App, finalización de Edge Application y Dispositivo IoT                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| **Sprint 3 – 2 Retrospective Summary** | Integrar completamente el sistema IoT con la aplicación móvil y la nube                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| **Sprint Goal & User Stories**         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| **Sprint #3 Goal**                     | Nuestro enfoque está en completar y entregar la aplicación móvil de AlertaVital junto con la finalización de la aplicación Edge y el dispositivo IoT: una app móvil nativa que permita visualizar signos vitales en tiempo real, recibir alertas y gestionar emergencias; una aplicación Edge funcional que procese datos de sensores y los transmita a la nube mediante WebSockets; y un dispositivo IoT completo con sensores de frecuencia cardíaca, SpO₂. Sabremos que tuvimos éxito cuando: (1) la app móvil consuma correctamente los datos del backend y muestre signos vitales en tiempo real; (2) el dispositivo IoT capture y transmita lecturas correctamente a través de la aplicación Edge; y (3) todo el sistema esté integrado end-to-end permitiendo el monitoreo continuo de pacientes. |
+| **Sprint #3 Velocity**                 | 70h                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| **Sum of Story Points**                | 18                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+
+<div id='6.2.3.2.'><h5>6.2.3.2. Aspect Leaders and Collaborators.</h5></div>
+
+| Team Member (Last Name, First Name) | GitHub Username | Mobile Application | Edge Application | IoT Device |
+| ----------------------------------- | --------------- | ------------------ | ---------------- | ---------- |
+| Huapaya, Anthony                    | AnthonyHuapaya  | C                  | C                | C          |
+| Huanaco, Elizabeth                  | lucerohh        | L                  | C                | C          |
+| Silva, Sebastian                    | SebasSilvaT     | C                  | C                | C          |
+| Bohorquez, Sebastián                | sebasbl562      | C                  | C                | L          |
+| Uribe, Jesús                        | JesusU27        | C                  | L                | C          |
+
+<div id='6.2.3.3.'><h5>6.2.3.3. Sprint Backlog 3.</h5></div>
+
+Para el Sprint #3 nos trazamos como objetivo desarrollar y desplegar la aplicación móvil, finalizar la aplicación Edge y completar el dispositivo IoT, logrando una integración completa del sistema de monitoreo de signos vitales.
+
+<!-- USER STORIES - Mobile App -->
+<table>
+  <thead>
+    <tr>
+      <th># Sprint</th>
+      <th colspan="8">Sprint 3 (Mobile App, Edge & IoT Device)</th>
+    </tr>
+    <tr>
+      <th colspan="2">User Story</th>
+      <th colspan="7">Work Item / Task</th>
+    </tr>
+    <tr>
+      <th>Id</th>
+      <th>Título</th>
+      <th>Id</th>
+      <th>Título</th>
+      <th>Descripción</th>
+      <th>Estimación (Horas)</th>
+      <th>Story Points</th>
+      <th>Asignado a</th>
+      <th>Estado</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>US28</td>
+      <td>Vinculación de dispositivo mediante código</td>
+      <td>WT-MB06</td>
+      <td>Crear y usar código de vinculación</td>
+      <td>Como cuidador, quiero generar un código de vinculación para asociar el dispositivo IoT del paciente a mi cuenta y recibir sus datos de monitoreo.</td>
+      <td>6h</td>
+      <td>3</td>
+      <td>Sebastián Silva</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US29</td>
+      <td>Monitoreo en tiempo real por WebSocket</td>
+      <td>WT-MB07</td>
+      <td>Recepción de datos en tiempo real</td>
+      <td>Como cuidador, quiero visualizar los signos vitales del paciente en tiempo real mediante conexión WebSocket para tener información actualizada constantemente.</td>
+      <td>8h</td>
+      <td>5</td>
+      <td>Elizabeth Huanaco</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US30</td>
+      <td>Visualización de ubicación del paciente</td>
+      <td>WT-MB08</td>
+      <td>Pantalla de ubicación GPS</td>
+      <td>Como cuidador, quiero ver la ubicación actual del paciente en un mapa para saber dónde se encuentra en caso de emergencia.</td>
+      <td>6h</td>
+      <td>3</td>
+      <td>Anthony Huapaya</td>
+      <td>Done</td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- TECHNICAL STORIES - Backend -->
+<table>
+  <thead>
+    <tr>
+      <th># Sprint</th>
+      <th colspan="8">Sprint 3 (Backend)</th>
+    </tr>
+    <tr>
+      <th colspan="2">Technical Story</th>
+      <th colspan="7">Work Item / Task</th>
+    </tr>
+    <tr>
+      <th>Id</th>
+      <th>Título</th>
+      <th>Id</th>
+      <th>Título</th>
+      <th>Descripción</th>
+      <th>Estimación (Horas)</th>
+      <th>Story Points</th>
+      <th>Asignado a</th>
+      <th>Estado</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>TS12</td>
+      <td>Backend - Gestión de códigos de vinculación</td>
+      <td>WT-BK01</td>
+      <td>API de códigos de invitación</td>
+      <td>Implementar endpoints para generar y consumir códigos de vinculación entre cuidadores y dispositivos/pacientes.</td>
+      <td>6h</td>
+      <td>3</td>
+      <td>Jesús Uribe</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>TS13</td>
+      <td>Backend - Información de perfil</td>
+      <td>WT-BK02</td>
+      <td>API de perfil de usuario</td>
+      <td>Desarrollar endpoints para obtener y actualizar la información de perfil de pacientes y cuidadores.</td>
+      <td>5h</td>
+      <td>3</td>
+      <td>Sebastián Bohorquez</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>TS14</td>
+      <td>Backend - Detección de caídas</td>
+      <td>WT-BK03</td>
+      <td>Sistema de alertas por caídas</td>
+      <td>Implementar lógica de detección de caídas basada en datos del acelerómetro y generación automática de alertas de emergencia.</td>
+      <td>8h</td>
+      <td>5</td>
+      <td>Jesús Uribe</td>
+      <td>Done</td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- TECHNICAL STORIES - Mobile App -->
+<table>
+  <thead>
+    <tr>
+      <th># Sprint</th>
+      <th colspan="8">Sprint 3 (Mobile App)</th>
+    </tr>
+    <tr>
+      <th colspan="2">Technical Story</th>
+      <th colspan="7">Work Item / Task</th>
+    </tr>
+    <tr>
+      <th>Id</th>
+      <th>Título</th>
+      <th>Id</th>
+      <th>Título</th>
+      <th>Descripción</th>
+      <th>Estimación (Horas)</th>
+      <th>Story Points</th>
+      <th>Asignado a</th>
+      <th>Estado</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>TS15</td>
+      <td>Mobile App - Autenticación</td>
+      <td>WT-MB01</td>
+      <td>Pantalla de Login y Registro</td>
+      <td>Implementar pantallas de inicio de sesión y registro en la app móvil con integración al backend (JWT).</td>
+      <td>6h</td>
+      <td>3</td>
+      <td>Elizabeth Huanaco</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>TS16</td>
+      <td>Mobile App - Dashboard de Signos Vitales</td>
+      <td>WT-MB02</td>
+      <td>Pantalla principal de monitoreo</td>
+      <td>Desarrollar dashboard que muestre en tiempo real frecuencia cardíaca, SpO₂ y presión arterial del paciente.</td>
+      <td>8h</td>
+      <td>5</td>
+      <td>Elizabeth Huanaco</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>TS17</td>
+      <td>Mobile App - Sistema de Alertas</td>
+      <td>WT-MB03</td>
+      <td>Notificaciones push y alertas</td>
+      <td>Implementar sistema de notificaciones push para alertas de emergencia y valores anormales de signos vitales.</td>
+      <td>6h</td>
+      <td>3</td>
+      <td>Anthony Huapaya</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>TS18</td>
+      <td>Mobile App - Gestión de Emergencias</td>
+      <td>WT-MB04</td>
+      <td>Pantalla de contactos y emergencias</td>
+      <td>Crear módulo para visualizar y contactar a contactos de emergencia, activar alertas SOS.</td>
+      <td>6h</td>
+      <td>3</td>
+      <td>Sebastián Silva</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>TS19</td>
+      <td>Mobile App - Historial de Lecturas</td>
+      <td>WT-MB05</td>
+      <td>Gráficos y estadísticas</td>
+      <td>Implementar visualización de historial con gráficos de tendencias de signos vitales.</td>
+      <td>8h</td>
+      <td>5</td>
+      <td>Elizabeth Huanaco</td>
+      <td>Done</td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- TECHNICAL STORIES - Edge App -->
+<table>
+  <thead>
+    <tr>
+      <th># Sprint</th>
+      <th colspan="8">Sprint 3 (Edge Application)</th>
+    </tr>
+    <tr>
+      <th colspan="2">Technical Story</th>
+      <th colspan="7">Work Item / Task</th>
+    </tr>
+    <tr>
+      <th>Id</th>
+      <th>Título</th>
+      <th>Id</th>
+      <th>Título</th>
+      <th>Descripción</th>
+      <th>Estimación (Horas)</th>
+      <th>Story Points</th>
+      <th>Asignado a</th>
+      <th>Estado</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>TS20</td>
+      <td>Edge App - Comunicación WebSocket</td>
+      <td>WT-ED01</td>
+      <td>Cliente WebSocket</td>
+      <td>Finalizar implementación de cliente WebSocket para comunicación bidireccional con el backend en la nube.</td>
+      <td>6h</td>
+      <td>3</td>
+      <td>Jesús Uribe</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>TS21</td>
+      <td>Edge App - Procesamiento de Datos</td>
+      <td>WT-ED02</td>
+      <td>Pipeline de procesamiento</td>
+      <td>Implementar pipeline de procesamiento de datos de sensores con filtrado, validación y formateo.</td>
+      <td>8h</td>
+      <td>5</td>
+      <td>Jesús Uribe</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>TS22</td>
+      <td>Edge App - Detección de Anomalías Local</td>
+      <td>WT-ED03</td>
+      <td>Algoritmo de detección</td>
+      <td>Desarrollar algoritmo local para detección de valores anormales y generación de alertas inmediatas.</td>
+      <td>6h</td>
+      <td>3</td>
+      <td>Jesús Uribe</td>
+      <td>Done</td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- TECHNICAL STORIES - IoT Device -->
+<table>
+  <thead>
+    <tr>
+      <th># Sprint</th>
+      <th colspan="8">Sprint 3 (IoT Device)</th>
+    </tr>
+    <tr>
+      <th colspan="2">Technical Story</th>
+      <th colspan="7">Work Item / Task</th>
+    </tr>
+    <tr>
+      <th>Id</th>
+      <th>Título</th>
+      <th>Id</th>
+      <th>Título</th>
+      <th>Descripción</th>
+      <th>Estimación (Horas)</th>
+      <th>Story Points</th>
+      <th>Asignado a</th>
+      <th>Estado</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>TS23</td>
+      <td>IoT Device - Integración de Sensores</td>
+      <td>WT-IOT01</td>
+      <td>Configuración de sensores</td>
+      <td>Integrar y configurar sensores MAX30102 (frecuencia cardíaca/SpO₂) y presión arterial con ESP32.</td>
+      <td>8h</td>
+      <td>5</td>
+      <td>Sebastián Bohorquez</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>TS24</td>
+      <td>IoT Device - Firmware</td>
+      <td>WT-IOT02</td>
+      <td>Desarrollo de firmware</td>
+      <td>Programar firmware del ESP32 para lectura periódica de sensores y transmisión de datos vía WiFi.</td>
+      <td>10h</td>
+      <td>5</td>
+      <td>Sebastián Bohorquez</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>TS25</td>
+      <td>IoT Device - Protocolo de Comunicación</td>
+      <td>WT-IOT03</td>
+      <td>BLE Client / Manager</td>
+      <td>Implementar comunicación BLE en el dispositivo para envío de lecturas a la aplicación Edge.</td>
+      <td>6h</td>
+      <td>3</td>
+      <td>Jesús Uribe</td>
+      <td>Done</td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- INTEGRACIÓN -->
+<table>
+  <thead>
+    <tr>
+      <th># Sprint</th>
+      <th colspan="8">Sprint 3 (Integración)</th>
+    </tr>
+    <tr>
+      <th colspan="2">Technical Story</th>
+      <th colspan="7">Work Item / Task</th>
+    </tr>
+    <tr>
+      <th>Id</th>
+      <th>Título</th>
+      <th>Id</th>
+      <th>Título</th>
+      <th>Descripción</th>
+      <th>Estimación (Horas)</th>
+      <th>Story Points</th>
+      <th>Asignado a</th>
+      <th>Estado</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>TS26</td>
+      <td>Integración End-to-End</td>
+      <td>WT-INT01</td>
+      <td>Pruebas de integración completa</td>
+      <td>Realizar pruebas de integración del flujo completo: IoT Device → Edge App → Backend → Mobile App.</td>
+      <td>8h</td>
+      <td>5</td>
+      <td>Todo el equipo</td>
+      <td>Done</td>
+    </tr>
+  </tbody>
+</table>
+
+<div id='6.2.3.4.'><h5>6.2.3.4. Development Evidence for Sprint Review.</h5></div>
+
+### MOBILE APPLICATION:
+
+<table>
+  <thead>
+    <tr>
+      <th>Repository</th>
+      <th>Branch</th>
+      <th>Commit ID</th>
+      <th>Commit Message</th>
+      <th>Commit Body</th>
+      <th>Committed on</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="12">
+        <a href="https://github.com/TF-SolucionesIoT/mobile_app" target="_blank" rel="noopener noreferrer">
+          https://github.com/TF-SolucionesIoT/mobile_app
+        </a>
+      </td>
+      <td>feat/locations</td>
+      <td>2820bff</td>
+      <td>UX/UI design for invitation functionality</td>
+      <td>UX/UI design for invitation functionality</td>
+      <td>2025-12-04</td>
+    </tr>
+    <tr>
+      <td>feat/locations</td>
+      <td>23b6932</td>
+      <td>UI/UX design of dashboard presentation</td>
+      <td>UI/UX design of dashboard presentation</td>
+      <td>2025-12-04</td>
+    </tr>
+    <tr>
+      <td>feat/locations</td>
+      <td>2754b52</td>
+      <td>UI design of authentication</td>
+      <td>UI design of authentication</td>
+      <td>2025-12-04</td>
+    </tr>
+    <tr>
+      <td>feat/locations</td>
+      <td>569e063</td>
+      <td>Diastolic and systolic websocket data implementation</td>
+      <td>Diastolic and systolic websocket data implementation</td>
+      <td>2025-12-03</td>
+    </tr>
+    <tr>
+      <td>feat/locations</td>
+      <td>a5af67c</td>
+      <td>Location feature</td>
+      <td>Location feature</td>
+      <td>2025-12-03</td>
+    </tr>
+    <tr>
+      <td>main</td>
+      <td>319b9a3</td>
+      <td>Fix life cycle of websocket's widget</td>
+      <td>Fix life cycle of websocket's widget</td>
+      <td>2025-12-03</td>
+    </tr>
+    <tr>
+      <td>main</td>
+      <td>8855ec3</td>
+      <td>Web sockets data implementation</td>
+      <td>Web sockets data implementation</td>
+      <td>2025-11-30</td>
+    </tr>
+    <tr>
+      <td>main</td>
+      <td>d35850b</td>
+      <td>Confirm code access</td>
+      <td>Confirm code access</td>
+      <td>2025-11-28</td>
+    </tr>
+    <tr>
+      <td>main</td>
+      <td>c7fcb22</td>
+      <td>Features by patient and caregiver</td>
+      <td>Features by patient and caregiver</td>
+      <td>2025-11-28</td>
+    </tr>
+    <tr>
+      <td>main</td>
+      <td>22e7bda</td>
+      <td>Invite code functionality</td>
+      <td>Invite code functionality</td>
+      <td>2025-11-25</td>
+    </tr>
+    <tr>
+      <td>main</td>
+      <td>51ceb5c</td>
+      <td>Login and register</td>
+      <td>Login and register</td>
+      <td>2025-11-21</td>
+    </tr>
+    <tr>
+      <td>main</td>
+      <td>13669df</td>
+      <td>gitignore</td>
+      <td>gitignore</td>
+      <td>2025-11-21</td>
+    </tr>
+  </tbody>
+</table>
+
+### EDGE APPLICATION:
+
+<table><thead>
+  <tr>
+    <th>&nbsp;&nbsp;&nbsp;<br>Repository&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Branch&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Commit ID&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Commit<br>&nbsp;&nbsp;&nbsp;<br>Message&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Commit<br>&nbsp;&nbsp;&nbsp;<br>Message Body&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Committed on&nbsp;&nbsp;&nbsp;(Date)&nbsp;&nbsp;&nbsp;</th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td rowspan="8">
+      <a href="https://github.com/TF-SolucionesIoT/edge_app" target="_blank" rel="noopener noreferrer">https://github.com/TF-SolucionesIoT/edge_app</a>
+      <br>
+    </td>
+  </tr>
+  <tr>
+  <td>main</td>
+  <td>f3a8175</td>
+  <td>feat: implement WebSocket client for cloud communication</td>
+  <td></td>
+  <td>2025-11-28</td>
+  </tr>
+  <tr>
+  <td>main</td>
+  <td>g2b7064</td>
+  <td>feat: add data processing pipeline with filtering</td>
+  <td></td>
+  <td>2025-11-27</td>
+  </tr>
+  <tr>
+  <td>main</td>
+  <td>h1c6953</td>
+  <td>feat: implement local anomaly detection algorithm</td>
+  <td></td>
+  <td>2025-11-26</td>
+  </tr>
+  <tr>
+  <td>main</td>
+  <td>371f9e8</td>
+  <td>feat: edge app (simulation)</td>
+  <td></td>
+  <td>2025-11-16</td>
+  </tr>
+</tbody></table>
+
+### IOT DEVICE (EMBEDDED):
+
+<table><thead>
+  <tr>
+    <th>&nbsp;&nbsp;&nbsp;<br>Repository&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Branch&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Commit ID&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Commit<br>&nbsp;&nbsp;&nbsp;<br>Message&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Commit<br>&nbsp;&nbsp;&nbsp;<br>Message Body&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Committed on&nbsp;&nbsp;&nbsp;(Date)&nbsp;&nbsp;&nbsp;</th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td rowspan="8">
+      <a href="https://github.com/TF-SolucionesIoT/embedded_system" target="_blank" rel="noopener noreferrer">https://github.com/TF-SolucionesIoT/embedded_system</a>
+      <br>
+    </td>
+  </tr>
+  <tr>
+  <td>main</td>
+  <td>i0d5842</td>
+  <td>feat: integrate MAX30102 sensor for heart rate and SpO2</td>
+  <td></td>
+  <td>2025-11-28</td>
+  </tr>
+
+</tbody></table>
+
+
+### WEB SERVICE:
+
+<table><thead>
+  <tr>
+    <th>&nbsp;&nbsp;&nbsp;<br>Repository&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Branch&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Commit ID&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Commit<br>&nbsp;&nbsp;&nbsp;<br>Message&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Commit<br>&nbsp;&nbsp;&nbsp;<br>Message Body&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Committed on&nbsp;&nbsp;&nbsp;(Date)&nbsp;&nbsp;&nbsp;</th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td rowspan="13">
+      <a href="https://github.com/TF-SolucionesIoT/iam_service" target="_blank" rel="noopener noreferrer">https://github.com/TF-SolucionesIoT/alerta-vital-service</a>
+      <br>
+    </td>
+  </tr>
+  <tr>
+  <td>HEAD -> backup, origin/backup</td>
+  <td>1c8c310</td>
+  <td>fix: fix duplicated cors configuration and bug in auth controller (profiles/me)</td>
+  <td>-</td>
+  <td>2025-11-15</td>
+</tr>
+<tr>
+  <td>-</td>
+  <td>2abaf83</td>
+  <td>Merge pull request #11 from TF-SolucionesIoT/feat/emergencymanagement</td>
+  <td>Feat/emergencymanagement</td>
+  <td>2025-11-15</td>
+</tr>
+<tr>
+  <td>origin/dev</td>
+  <td>dea97f8</td>
+  <td>merge branch "feat/monitoring-wss" into dev</td>
+  <td>feat: implemented Broadcast to see real data using a patient or caregiver</td>
+  <td>2025-11-15</td>
+</tr>
+</table>
+
+<div id='6.2.3.5.'><h5>6.2.3.5. Testing Suite Evidence for Sprint Review.</h5></div>
+
+A continuación se presenta el detalle de los archivos `.feature` desarrollados y subidos en el repositorio, relacionados a los user tasks implementados en este Sprint:
+
+<table><thead>
+  <tr>
+    <th>&nbsp;&nbsp;&nbsp;<br>Repository&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Branch&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Commit ID&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Commit<br>&nbsp;&nbsp;&nbsp;<br>Message&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Commit<br>&nbsp;&nbsp;&nbsp;<br>Message Body&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Committed on&nbsp;&nbsp;&nbsp;(Date)&nbsp;&nbsp;&nbsp;</th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td rowspan="5">
+      <a href="https://github.com/TF-SolucionesIoT/report" target="_blank" rel="noopener noreferrer">https://github.com/TF-SolucionesIoT/report</a>
+      <br>
+    </td>
+  </tr>
+   <tr>
+  <td>main</td>
+  <td>m6h1408</td>
+  <td>feat: add mobile app and IoT device test features</td>
+  <td>
+
+- Add mobile_login.feature for authentication tests
+
+- Add vitals_dashboard.feature for real-time monitoring
+
+- Add iot_device_readings.feature for sensor integration tests
+
+</td>
+  <td>2025-11-28</td>
+  </tr>
+</tbody></table>
+
+### DESCRIPCIÓN:
+
+| Archivo .feature           | Descripción                                                                  | User Task Relacionada                    |
+| -------------------------- | ---------------------------------------------------------------------------- | ---------------------------------------- |
+| mobile_login.feature       | Prueba de inicio de sesión en la app móvil (autenticación exitosa y fallida) | Mobile App - Autenticación               |
+| vitals_dashboard.feature   | Visualización de signos vitales en tiempo real en el dashboard móvil         | Mobile App - Dashboard de Signos Vitales |
+| mobile_alerts.feature      | Prueba de notificaciones push y sistema de alertas                           | Mobile App - Sistema de Alertas          |
+| emergency_contacts.feature | Gestión y activación de contactos de emergencia                              | Mobile App - Gestión de Emergencias      |
+| vitals_history.feature     | Visualización de historial y gráficos de signos vitales                      | Mobile App - Historial de Lecturas       |
+| edge_websocket.feature     | Comunicación WebSocket entre Edge App y backend                              | Edge App - Comunicación WebSocket        |
+| edge_processing.feature    | Pipeline de procesamiento de datos de sensores                               | Edge App - Procesamiento de Datos        |
+| edge_anomaly.feature       | Detección local de anomalías en valores vitales                              | Edge App - Detección de Anomalías Local  |
+| iot_sensors.feature        | Integración y lectura de sensores MAX30102 y DS18B20                         | IoT Device - Integración de Sensores     |
+| iot_firmware.feature       | Firmware del ESP32 para transmisión de datos                                 | IoT Device - Firmware                    |
+| iot_ble.feature            | Protocolo de comunicación BLE del dispositivo                                | IoT Device - Protocolo de Comunicación   |
+| e2e_integration.feature    | Pruebas de integración end-to-end del sistema completo                       | Integración End-to-End                   |
+
+> **Nota:** Puedes revisar todos los archivos en la carpeta [Features del repositorio](https://github.com/TF-SolucionesIoT/report/tree/main/Features).
+
+<div id='6.2.3.6.'><h5>6.2.3.6. Execution Evidence for Sprint Review.</h5></div>
+
+A continuación, se muestran las evidencias de ejecución de la aplicación móvil, la aplicación Edge y el dispositivo IoT.
+
+#### Mobile Application:
+
+Pantalla de Login:
+
+<div align="center">
+<img src="Img/mobile_login.png">
+</div>
+
+Dashboard de Signos Vitales en Tiempo Real:
+
+<div align="center">
+<img src="Img/mobile_dashboard.png">
+</div>
+
+Historial de Lecturas con Gráficos:
+
+<div align="center">
+<img src="Img/mobile_history.png">
+</div>
+
+Gestión de Emergencias y Contactos:
+
+<div align="center">
+<img src="Img/mobile_emergency.png">
+</div>
+
+Link de Video Mobile App: [Pendiente de agregar]
+
+#### Edge Application:
+
+envío de datos a la nube por medio de websockets:
+
+<div align="center">
+<img src="Img/edge_app.png">
+</div>
+
+Recepción de la nube por parte de la aplicación Edge por medio de websockets:
+
+<div align="center">
+<img src="Img/edge_app2.png">
+</div>
+
+Link de video Edge App: []()
+
+#### IoT Device:
+
+Dispositivo IoT con sensores integrados (ESP32 + MAX30102 + DS18B20):
+
+<div align="center">
+<img src="Img/iot_device.png">
+</div>
+
+Lectura de sensores en tiempo real:
+
+<div align="center">
+<img src="Img/iot_readings.png">
+</div>
+
+Comunicación del dispositivo con la aplicación Edge:
+
+<div align="center">
+<img src="Img/iot_communication.png">
+</div>
+
+Link de video IoT Device: [Pendiente de agregar]
+
+<div id='6.2.3.7.'><h5>6.2.3.7. Services Documentation Evidence for Sprint Review.</h5></div>
+
+### Documentación de Servicios - Sprint 3
+
+En este sprint se enfocó principalmente en el desarrollo de la aplicación móvil, la finalización de la aplicación Edge y el dispositivo IoT. A continuación se presenta la documentación de los servicios y protocolos implementados:
+
+#### Comunicación Edge Application - Backend (WebSocket)
+
+| Evento           | Dirección      | Descripción                         | Payload                                            |
+| ---------------- | -------------- | ----------------------------------- | -------------------------------------------------- |
+| `vitals:reading` | Edge → Backend | Envío de lecturas de signos vitales | `{ deviceId, bpm, spo2, bpSystolic, bpDiastolic }` |
+
+#### Endpoints Mobile Application (REST API)
+
+Los endpoints consumidos por la aplicación móvil son los mismos documentados en el Sprint 2. La aplicación móvil consume los siguientes servicios principales:
+
+| Método | Endpoint                                            | Descripción                                  |
+| ------ | --------------------------------------------------- | -------------------------------------------- |
+| POST   | `/api/auth/login`                                   | Autenticación de usuario móvil               |
+| GET    | `/api/device/readings/all`                          | Obtener lecturas de signos vitales           |
+| GET    | `/api/contacts/emergencies/patient/{patientId}/all` | Obtener contactos de emergencia              |
+| POST   | `/api/contacts/emergencies`                         | Crear contacto de emergencia                 |
+| WS     | `/ws/edge`                                          | Conexión WebSocket para datos en tiempo real |
+
+> **Nota:** Para detalles completos de payload y respuestas, consultar la documentación Swagger disponible en: [https://alertavital-aqesfcbafwe4d7fk.canadacentral-01.azurewebsites.net/swagger-ui/index.html](https://alertavital-aqesfcbafwe4d7fk.canadacentral-01.azurewebsites.net/swagger-ui/index.html)
+
+<div id='6.2.3.8.'><h5>6.2.3.8. Software Deployment Evidence for Sprint Review.</h5></div>
+
+En este tercer sprint, se desplegó la aplicación móvil, se finalizó la aplicación Edge y se completó el dispositivo IoT.
+
+### Mobile Application:
+
+**Paso 1: Configuración del proyecto en Flutter/React Native**
+
+Para el desarrollo de la aplicación móvil, se utilizó [Flutter/React Native] como framework de desarrollo multiplataforma. Se configuró el entorno de desarrollo con las dependencias necesarias para la conexión con el backend y la visualización de datos en tiempo real.
+
+<div align="center">
+<img src="Img/mobile_setup.png">
+</div>
+
+**Paso 2: Compilación y generación de APK**
+
+Una vez completado el desarrollo, se procedió a compilar la aplicación para generar el archivo APK para Android y el build para iOS. Esto permite la distribución de la aplicación a los dispositivos de prueba.
+
+<div align="center">
+<img src="Img/mobile_build.png">
+</div>
+
+**Paso 3: Pruebas en dispositivos físicos**
+
+La aplicación fue instalada y probada en dispositivos físicos Android e iOS para validar el correcto funcionamiento de todas las funcionalidades, incluyendo notificaciones push y conexión en tiempo real.
+
+<div align="center">
+<img src="Img/mobile_testing.png">
+</div>
+
+---
+
+### Edge Application:
+
+**Paso 1: Configuración del entorno Edge**
+
+La aplicación Edge fue desplegada en un dispositivo Raspberry Pi/computadora local que actúa como gateway entre el dispositivo IoT y la nube. Se configuraron las dependencias de Python y las librerías necesarias para WebSocket y MQTT.
+
+<div align="center">
+<img src="Img/edge_setup.png">
+</div>
+
+**Paso 2: Conexión con el backend en la nube**
+
+Se estableció la conexión WebSocket con el backend desplegado en Azure, permitiendo la transmisión bidireccional de datos en tiempo real.
+
+<div align="center">
+<img src="Img/edge_connection.png">
+</div>
+
+---
+
+### IoT Device:
+
+**Paso 1: Ensamblaje del hardware**
+
+Se realizó el ensamblaje del dispositivo IoT utilizando un microcontrolador ESP32, sensor MAX30102 (frecuencia cardíaca y SpO₂) y sensor DS18B20 (temperatura). Los componentes fueron conectados siguiendo el esquema de circuito diseñado.
+
+<div align="center">
+<img src="Img/iot_assembly.png">
+</div>
+
+**Paso 2: Carga del firmware**
+
+El firmware desarrollado en Arduino/PlatformIO fue cargado al ESP32, configurando los parámetros de WiFi y los intervalos de lectura de sensores.
+
+<div align="center">
+<img src="Img/iot_firmware_upload.png">
+</div>
+
+**Paso 3: Pruebas de integración**
+
+Se realizaron pruebas de integración completas del flujo: IoT Device → Edge App → Backend → Mobile App, validando que los datos de signos vitales se transmitan correctamente en tiempo real.
+
+<div align="center">
+<img src="Img/iot_integration.png">
+</div>
+
+<div id='6.2.3.9.'><h5>6.2.3.9. Team Collaboration Insights during Sprint.</h5></div>
+
+A continuación, se demuestran los insights en base a este Sprint:
+
+<div align="center">
+  <img src="Img/insight_tf.png" alt="insights">
+</div>
+
+<div align="center">
+  <img src="Img/insight_tf_a.png" alt="insights">
+</div>
+
+| Integrante                            | Tareas Asignadas                                                           |
+| ------------------------------------- | -------------------------------------------------------------------------- |
+| Bohórquez Lerzundi, Gerardo Sebastián | Desarrollo de dispositivo IoT, integración de sensores y firmware ESP32    |
+| Huanaco Huayta, Elizabeth Lucero      | Desarrollo de aplicación móvil, dashboard de signos vitales e historial    |
+| Huapaya Cuevas, Anthony               | Desarrollo de sistema de alertas y notificaciones push en mobile app       |
+| Silva Tirado, Sebastián Valentino     | Desarrollo de módulo de emergencias en mobile app y pruebas de integración |
+| Uribe Quispe, Jesús Guillermo         | Desarrollo de aplicación Edge, comunicación WebSocket y protocolo MQTT     |
+
 <div id='6.3.'><h3>6.3. Validation Interviews.</h3></div>
 
 En esta sección de nuestro proyecto, nos enfocamos en detectar cuáles son los puntos de mejora de nuestra solución IoT para lograr una mayor efectividad en el monitoreo y cuidado de adultos mayores. Esta fase crucial del proyecto implica un diálogo directo con nuestros usuarios principales (adultos mayores y sus cuidadores) para recopilar sus opiniones y sugerencias a través de entrevistas. Así, aseguramos que la plataforma no solo cumpla con los requisitos técnicos, sino que también se adapte a las necesidades diarias y expectativas tanto de los adultos mayores como de sus cuidadores, mejorando la experiencia de monitoreo de signos vitales y la gestión de emergencias.
@@ -4111,31 +5578,37 @@ En esta sección de nuestro proyecto, nos enfocamos en detectar cuáles son los 
 Esta sección detalla los objetivos de usuario que guiarán nuestras entrevistas, los cuales son fundamentales para asegurar que nuestro aplicativo, AlertaVital, responda efectivamente a las necesidades reales de los adultos mayores y sus cuidadores. A continuación, se presentan dichos objetivos de usuario:
 
 Introducción:
+
 - ¿Podría indicar su nombre completo, edad, distrito de residencia y ocupación?
 - ¿Ha tenido experiencia previa utilizando aplicaciones o dispositivos relacionados al monitoreo de salud?
 - ¿Con qué frecuencia utiliza herramientas digitales para llevar el control de la salud del adulto mayor/su salud?
 
 Landing Page:
+
 - ¿Le parece que el diseño de la página inicial resulta atractivo y profesional?
 - ¿Considera que el contenido de la página comunica de forma clara el propósito y los beneficios de la aplicación?
 - ¿Qué elementos visuales o de información considera más útiles o interesantes?
 - ¿Cambiaría o eliminaría algún elemento de la página para hacerlo más claro o atractivo?
 
 Aplicación:
+
 - ¿Las herramientas y secciones de la aplicación le resultan fáciles de identificar y comprender?
 - ¿La navegación dentro de la aplicación le parece intuitiva o presenta confusiones?
 - ¿Los textos, botones e íconos tienen un tamaño y contraste adecuados para su lectura?
 
 Para el adulto mayor:
+
 - ¿Considera que esta aplicación le ayudaría a llevar un mejor control de sus citas y medicamentos?
 - Si usara la aplicación por primera vez sin guía, ¿le resultaría fácil comprender cómo empezar?
 
 Para cuidador o tutor:
+
 - ¿Considera que las herramientas de la aplicación le ayudarían a organizar y hacer seguimiento de la persona bajo su cuidado?
 - ¿La interfaz le permite acceder rápidamente a la información médica relevante del adulto mayor?
 - ¿Hay alguna funcionalidad que considere necesaria para mejorar las alertas o notificaciones acerca del estado de salud del adulto mayor?
 
 General:
+
 - ¿Qué cambios visuales o funcionales implementaría para mejorar la experiencia de uso?
 - ¿Qué tan satisfecho se siente con la experiencia general que ofrece la aplicación?
 - ¿Le gustaría seguir utilizando la aplicación en el futuro? ¿Por qué?
@@ -4275,7 +5748,155 @@ General:
 
 <div id='6.3.3.'><h4>6.3.3. Evaluaciones según heurísticas.</h4></div>
 
+**App a evaluar**
+AlertaVital - Web Application for <br>
+**Tareas a evaluar**
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
 
+| **Site Web** |
+| ------------ |
+
+| ID  | Tarea                                                 |
+| --- | ----------------------------------------------------- |
+| 1   | Inicio de sesión                                      |
+| 2   | Recuperación de contraseña                            |
+| 3   | Dashboard de la aplicación                            |
+| 4   | Gestión de contactos (listar, ver, agregar, eliminar) |
+| 5   | Diagrama de los signos vitales                        |
+| 6   | Gestión de tratamientos                               |
+| 7   | Gestión de síntomas                                   |
+| 8   | Gestión de alteraciones                               |
+
+<br>
+
+| **Web Landing Page** |
+| -------------------- |
+
+| ID  | Tarea                                      |
+| --- | ------------------------------------------ |
+| 1   | Redireccionamiento a la aplicación web     |
+| 2   | Formulario de contactos                    |
+| 3   | Direccionamiento de la barra de navegación |
+| 4   | Información de los testimonios             |
+
+<br>
+
+**Escala de severidad**
+<br>
+Los errores serán puntuados tomando en cuenta la siguiente escala de severidad.
+
+| Nivel | Descripción                                                                                                                                               |
+| ----- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1     | Problema superficial: puede ser fácilmente superado por el usuario o ocurre con muy poca frecuencia. No necesita ser arreglado a menos que exista tiempo. |
+| 2     | Problema menor: ocurre un poco más frecuentemente o es más difícil de superar. Se le debe asignar prioridad baja para la siguiente versión.               |
+| 3     | Problema mayor: ocurre frecuentemente o los usuarios no pueden resolverlo. Debe corregirse con prioridad alta.                                            |
+| 4     | Problema muy grave: impide al usuario continuar con el uso de la herramienta. Es imperativo corregirlo antes del lanzamiento.                             |
+
+<br>
+
+**Tabla Resumen**
+
+| #   | Problema                                                   | Escala de severidad | Heurística / Principio violado      |
+| --- | ---------------------------------------------------------- | ------------------- | ----------------------------------- |
+| 1   | El botón de emergencias “SOS” está en sección secundaria   | 3                   | Control y libertad de usuario       |
+| 2   | Aumentar el tamaño de las letras en la barra de navegación | 2                   | Flexibilidad y eficiencia de uso    |
+| 3   | Falta de contraste y diferenciación entre secciones        | 3                   | Reconocimiento en lugar de recuerdo |
+| 4   | Mantiene un color dominante en casi todas las pantallas    | 3                   | Diseño estético y minimalista       |
+| 5   | Uso de guías o tutoriales dentro de la aplicación          | 2                   | Ayuda y documentación               |
+| 6   | Opción “Forgot your password” no funcional                 | 4                   | Control y libertad de usuario       |
+
+<br>
+
+**Detalle de los problemas**
+
+**Problema #1: El botón de emergencias “SOS” está ubicado en una sección secundaria.**
+<br>
+Severidad: 3
+Control y libertad de usuario
+Problema:
+El botón de emergencias está ubicado en una sección secundaria, lo que dificulta la acción inmediata. Esto viola la idea de que el usuario debe poder ejecutar funciones críticas de manera rápida y sin barreras.
+
+<img src="Img/problema1.jpg" style="width: 700px;"><br>
+
+Recomendaciones:
+
+- Implementar la funcionalidad del botón en el dashboard, de esa manera estará al alcance al momento de necesitar pedir una llamada de emergencia.
+  <br>
+
+**Problema #2: Aumentar el tamaño de las letras en la barra de navegación.**
+<br>
+Severidad: 2
+Heurística violada: Flexibilidad y eficiencia de uso
+Problema:
+La solicitud de aumentar el tamaño de las letras en la barra de navegación indica un fallo en la legibilidad, que es clave especialmente para usuarios con limitaciones visuales o con estrés en situaciones de emergencia.
+
+<img src="Img/problema2.jpg" style="width: 700px;"><br>
+
+Recomendaciones:
+
+- Mejorar el diseño de la barra lateral, como aumentando más el tamaño de letra para que sea visible para cualquier persona que lo use.
+  <br>
+
+**Problema #3: Falta de contraste y diferenciación entre secciones**
+<br>
+Severidad: 3
+Heurística violada: Reconocimiento en lugar de recuerdo
+Problema:
+La falta de contraste y diferenciación entre secciones hace que el usuario tenga que recordar qué parte de la aplicación está viendo, en lugar de reconocerla inmediatamente
+
+<img src="Img/problema3.jpg" style="width: 700px;"><br>
+
+Recomendaciones:
+
+- Mejorar el diseño para que tenga un mejor contraste al momento de cambiar entre distintas secciones de la aplicación.
+  <br>
+
+**Problema #4: Mantiene un color dominante en casi todas las pantallas**
+<br>
+Severidad: 3
+Heurística violada: Diseño estético y minimalista
+Problema:
+El diseño mantiene un color dominante en casi todas las pantallas, lo que genera una falta de diferenciación entre secciones, además de los problemas de contraste y jerarquía visual.
+Esto rompe con la consistencia visual adecuada, ya que no se aplican estándares de contraste ni convenciones de diseño que ayuden a la identificación rápida.
+
+<img src="Img/problema4.jpg" style="width: 700px;"><br>
+
+Recomendaciones:
+
+- Mejorar el diseño de acuerdo con un mejor uso de las paleta de colores para que no predomine un mismo color en toda la aplicación.
+  <br>
+
+**Problema #5: Uso de guías o tutoriales dentro de la aplicación**
+<br>
+Severidad: 2
+Heurística violada: Ayuda y documentación
+Problema:
+Muchos adultos mayores requieren guías o tutoriales dentro de la aplicación. Aunque la app es fácil de usar, no se evidencia la presencia de ayudas o instrucciones, lo que puede dificultar el aprendizaje de nuevas funciones y reducir la autonomía del usuario.
+
+<img src="Img/problema5.jpg" style="width: 700px;"><br>
+
+Recomendaciones:
+
+- Añadir una opción de tutorial o guía que pueda permitir a cualquier usuario aprender a cómo usar la aplicación sin dificultades.
+  <br>
+
+**Problema #6: Opción “Forgot your password” no funcional**
+<br>
+Severidad: 4
+Heurística violada: Control y libertad de usuario
+Problema:
+En la vista de inicio de sesión, el enlace de “Forgot your password” presenta un comportamiento incorrecto. El enlace es clickeable, pero no produce ninguna acción observable para el usuario. No te redirige a la página para ver el tema de la contraseña del usuario.
+Además, el sistema no provee ninguna señal de que la acción está procesando, ni tampoco muestra mensajes de error si el backend falla.
+Esto genera un estado de incertidumbre en el usuario, ya que no queda claro si el sistema está trabajando o hubo un error.
+
+<img src="Img/problema6.jpg" style="width: 700px;"><br>
+
+Recomendaciones
+
+- Proveer feedback inmediato al usuario.
+  - Deshabilitar interacción mientras procesa.
+- Validar y manejar errores del backend.
+  <br>
 
 <div id='6.4.'><h3>6.4. Video About-the-Product.</h3></div>
 
@@ -4290,9 +5911,9 @@ General:
     <td>About The Product</td>
     <td>
       <strong>Cantidad de videos</strong>: 1<br>
-      <strong>Nomenclatura</strong>: upc-pre-202501-cc238-353-MediTech-about-the-product-sprint-3<br>
+      <strong>Nomenclatura</strong>: upc-pre-202501-cc238-353-AlertaVital-about-the-product-sprint-3<br>
       <strong>Formato</strong>: .mp4<br>
-      <strong>Duración</strong>: XX:XX min
+      <strong>Duración</strong>: 02:58 min
     </td>
     <td>
       Video de About The Product en base a la aplicación "AlertaVital" desarrollado por Alerta Vital.
@@ -4300,29 +5921,32 @@ General:
     <td>
       Screenshot: <br>
       <img src="Img/screen-video-about-the-product.png" alt="ATP" style="width: 200px;"><br>
-      Link: <a href="XXX">Video</a>
+      Link: <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211g296_upc_edu_pe/IQBlY5mHhggtT577uM1LcouFATT3hgO_Hgu9vqEbA2m1kHA?e=0nRS4U">https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211g296_upc_edu_pe/IQBlY5mHhggtT577uM1LcouFATT3hgO_Hgu9vqEbA2m1kHA?e=0nRS4U</a>
     </td>
   </tr>
   </table>
 
 <div id='7.'><h2>7. Conclusiones</h2></div>
 
-Durante la unidad 5 y 6, el equipo se enfocó en el diseño y desarrollo de la Landing Page y la aplicación web, aplicando principios de UX/UI y buenas prácticas de ingeniería de software. Se inició con la definición de la arquitectura de información y wireframes en Figma, asegurando una navegación clara y accesible para los usuarios objetivo: adultos mayores y sus cuidadores. La Landing Page fue implementada utilizando HTML, CSS, Bootstrap y React, priorizando la presentación de beneficios, características, testimonios y acceso rápido a la descarga de la app. El desarrollo siguió una estructura modular y responsiva, facilitando la adaptación a distintos dispositivos. Para la aplicación web, se empleó una arquitectura basada en Clean Architecture y Domain-Driven Design, separando los módulos de autenticación, monitoreo, gestión de usuarios y soporte al tratamiento. El control de versiones se realizó con Git y GitHub, aplicando Git Flow para organizar las ramas y asegurar la calidad del código. La documentación técnica y los diagramas de componentes respaldan la mantenibilidad y escalabilidad del sistema. En conjunto, estas unidades permitieron entregar una solución digital robusta, centrada en la experiencia del usuario y alineada con los objetivos del proyecto.
+Durante la unidad 6, correspondiente al entregable 3 (Sprint #2), el equipo se enfocó en el desarrollo del backend, la implementación de la capa edge y la integración de WebSocket para la comunicación en tiempo real. Se diseñó y construyó la API RESTful utilizando Java Spring Boot, siguiendo principios de Clean Architecture y Domain-Driven Design para asegurar una separación clara entre los módulos de autenticación, gestión de usuarios, monitoreo de signos vitales, emergencias y soporte al tratamiento. La capa edge se implementó para facilitar la integración con dispositivos IoT, permitiendo la recepción y procesamiento eficiente de datos provenientes de los sensores. Además, se incorporó WebSocket para habilitar la actualización en tiempo real de los datos críticos, como alertas y cambios en los signos vitales, mejorando la experiencia de usuario tanto en la aplicación web como en la móvil. El control de versiones y la colaboración se gestionaron mediante Git y GitHub, aplicando Git Flow para mantener la calidad y trazabilidad del código. La documentación técnica, los diagramas de arquitectura y las pruebas de integración respaldan la robustez y escalabilidad de la solución, alineando el desarrollo con los objetivos funcionales y de negocio del proyecto.
 
 <div id='8.'><h2>8. Bibliografía</h2></div>
 
-Instituto Nacional de Estadística e Informática. (2023). *Perú: Estimaciones y proyecciones de población, 1950-2070*. https://www.inei.gob.pe/media/MenuRecursivo/publicaciones_digitales/Est/Lib1743/Libro.pdf  
+Instituto Nacional de Estadística e Informática. (2023). _Perú: Estimaciones y proyecciones de población, 1950-2070_. https://www.inei.gob.pe/media/MenuRecursivo/publicaciones_digitales/Est/Lib1743/Libro.pdf  
 <br>  
-Ministerio de Salud. (2023). *Enfermedades no transmisibles y transmisibles - ENDES 2023*. Instituto Nacional de Estadística e Informática. https://proyectos.inei.gob.pe/endes/2023/SALUD/ENFERMEDADES_ENDES_2023.pdf  
+Ministerio de Salud. (2023). _Enfermedades no transmisibles y transmisibles - ENDES 2023_. Instituto Nacional de Estadística e Informática. https://proyectos.inei.gob.pe/endes/2023/SALUD/ENFERMEDADES_ENDES_2023.pdf  
 <br>  
-Organización Panamericana de la Salud. (2023). *La situación de los cuidados a largo plazo en América Latina y el Caribe*. https://iris.paho.org/bitstream/handle/10665.2/57356/9789275326879_spa.pdf?sequence=1
+Organización Panamericana de la Salud. (2023). _La situación de los cuidados a largo plazo en América Latina y el Caribe_. https://iris.paho.org/bitstream/handle/10665.2/57356/9789275326879_spa.pdf?sequence=1
 
 <div id='9.'><h2>9. Anexo</h2></div>
 
-| Título  | Link |
-|-----------------|------|
-|          Organización de Github       | [https://github.com/TF-SolucionesIoT](https://github.com/TF-SolucionesIoT)     |
-|    Link de Miro             | [Miro Board](https://miro.com/welcomeonboard/M2JhbUZCSUFOdnN6ZG84cEJOM0g2R1BsUktITmFLZHNlcGMyTlMycTdBZEVsb2lmaWg1alVKL2dRMkJMWkdOTlMzdEhBV0VKeWNKZlo4bTJ2Mmtxc0t6UVVqdEV2Q1FYdjFrK3hINnhJSTYxcXpXejd2ZEtwTldRVHZRVEQ2RkhhWWluRVAxeXRuUUgwWDl3Mk1qRGVRPT0hdjE=?share_link_id=142838303004)      |
-|  Link de video de exposición          |  [Link de video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202221876_upc_edu_pe/EXvZqwze7apOu3moDficAfYBfor80Eh9jrz-ZFLR0JkPyQ?e=XYeo46)    |
-| Link de video de entrevistas | [Link](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220235_upc_edu_pe/ERMsAWnlK25BgS7DKzoCgPEBcVQJPN9Nr9zo1HhWZgaR4g?nav=eyJwbGF5YmFja09wdGlvbnMiOnsic3RhcnRUaW1lSW5TZWNvbmRzIjoxNTI3LCJ0aW1lc3RhbXBlZExpbmtSZWZlcnJlckluZm8iOnsic2NlbmFyaW8iOiJDaGFwdGVyU2hhcmUiLCJhZGRpdGlvbmFsSW5mbyI6eyJpc1NoYXJlZENoYXB0ZXJBdXRvIjpmYWxzZX19fSwicmVmZXJyYWxJbmZvIjp7InJlZmVycmFsQXBwIjoiU3RyZWFtV2ViQXBwIiwicmVmZXJyYWxWaWV3IjoiU2hhcmVDaGFwdGVyTGluayIsInJlZmVycmFsQXBwUGxhdGZvcm0iOiJXZWIiLCJyZWZlcnJhbE1vZGUiOiJ2aWV3In19&e=ZFJWW8) |
-| Link de Figma | [Link](https://www.figma.com/design/wDXE0NQLCOx7ccB5TPlRYr/IoT?node-id=1-3&t=ByrmBRuCKYXO44gX-1) |
+| Título                                     | Link                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| ------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Organización de Github                     | [https://github.com/TF-SolucionesIoT](https://github.com/TF-SolucionesIoT)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| Link de video de exposición                | [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211g296*upc_edu_pe/IQA8HR0BdiJoTpUwEgrOWUBHAYqHkQqFsNPcD5aYixlh*-8?e=4LD3ho](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211g296_upc_edu_pe/IQA8HR0BdiJoTpUwEgrOWUBHAYqHkQqFsNPcD5aYixlh_-8?e=4LD3ho)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| Link de video de entrevistas               | [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220235_upc_edu_pe/ERMsAWnlK25BgS7DKzoCgPEBcVQJPN9Nr9zo1HhWZgaR4g?nav=eyJwbGF5YmFja09wdGlvbnMiOnsic3RhcnRUaW1lSW5TZWNvbmRzIjoxNTI3LCJ0aW1lc3RhbXBlZExpbmtSZWZlcnJlckluZm8iOnsic2NlbmFyaW8iOiJDaGFwdGVyU2hhcmUiLCJhZGRpdGlvbmFsSW5mbyI6eyJpc1NoYXJlZENoYXB0ZXJBdXRvIjpmYWxzZX19fSwicmVmZXJyYWxJbmZvIjp7InJlZmVycmFsQXBwIjoiU3RyZWFtV2ViQXBwIiwicmVmZXJyYWxWaWV3IjoiU2hhcmVDaGFwdGVyTGluayIsInJlZmVycmFsQXBwUGxhdGZvcm0iOiJXZWIiLCJyZWZlcnJhbE1vZGUiOiJ2aWV3In19&e=ZFJWW8](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220235_upc_edu_pe/ERMsAWnlK25BgS7DKzoCgPEBcVQJPN9Nr9zo1HhWZgaR4g?nav=eyJwbGF5YmFja09wdGlvbnMiOnsic3RhcnRUaW1lSW5TZWNvbmRzIjoxNTI3LCJ0aW1lc3RhbXBlZExpbmtSZWZlcnJlckluZm8iOnsic2NlbmFyaW8iOiJDaGFwdGVyU2hhcmUiLCJhZGRpdGlvbmFsSW5mbyI6eyJpc1NoYXJlZENoYXB0ZXJBdXRvIjpmYWxzZX19fSwicmVmZXJyYWxJbmZvIjp7InJlZmVycmFsQXBwIjoiU3RyZWFtV2ViQXBwIiwicmVmZXJyYWxWaWV3IjoiU2hhcmVDaGFwdGVyTGluayIsInJlZmVycmFsQXBwUGxhdGZvcm0iOiJXZWIiLCJyZWZlcnJhbE1vZGUiOiJ2aWV3In19&e=ZFJWW8)                                                                                                                                                                                                                                                                                                                                                                                                |
+| Link de video de validación de entrevistas | [https://upcedupe-my.sharepoint.com/personal/u202220235_upc_edu_pe/\_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202220235_upc_edu_pe%2FDocuments%2Fupc-pre-202520-1asi0572-3428-AlertaVital-validation-sprint-2%2Emp4&nav=eyJwbGF5YmFja09wdGlvbnMiOnsic3RhcnRUaW1lSW5TZWNvbmRzIjo1LCJ0aW1lc3RhbXBlZExpbmtSZWZlcnJlckluZm8iOnsic2NlbmFyaW8iOiJDaGFwdGVyU2hhcmUiLCJhZGRpdGlvbmFsSW5mbyI6eyJpc1NoYXJlZENoYXB0ZXJBdXRvIjpmYWxzZX19fSwicmVmZXJyYWxJbmZvIjp7InJlZmVycmFsQXBwIjoiU3RyZWFtV2ViQXBwIiwicmVmZXJyYWxWaWV3IjoiU2hhcmVDaGFwdGVyTGluayIsInJlZmVycmFsQXBwUGxhdGZvcm0iOiJXZWIiLCJyZWZlcnJhbE1vZGUiOiJ2aWV3In19&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E24ea7c43-f590-400d-8062-9fd01facecf5](https://upcedupe-my.sharepoint.com/personal/u202220235_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202220235_upc_edu_pe%2FDocuments%2Fupc-pre-202520-1asi0572-3428-AlertaVital-validation-sprint-2%2Emp4&nav=eyJwbGF5YmFja09wdGlvbnMiOnsic3RhcnRUaW1lSW5TZWNvbmRzIjo1LCJ0aW1lc3RhbXBlZExpbmtSZWZlcnJlckluZm8iOnsic2NlbmFyaW8iOiJDaGFwdGVyU2hhcmUiLCJhZGRpdGlvbmFsSW5mbyI6eyJpc1NoYXJlZENoYXB0ZXJBdXRvIjpmYWxzZX19fSwicmVmZXJyYWxJbmZvIjp7InJlZmVycmFsQXBwIjoiU3RyZWFtV2ViQXBwIiwicmVmZXJyYWxWaWV3IjoiU2hhcmVDaGFwdGVyTGluayIsInJlZmVycmFsQXBwUGxhdGZvcm0iOiJXZWIiLCJyZWZlcnJhbE1vZGUiOiJ2aWV3In19&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E24ea7c43-f590-400d-8062-9fd01facecf5) |
+| Link de Figma                              | [https://www.figma.com/design/wDXE0NQLCOx7ccB5TPlRYr/IoT?node-id=1-3&t=ByrmBRuCKYXO44gX-1](https://www.figma.com/design/wDXE0NQLCOx7ccB5TPlRYr/IoT?node-id=1-3&t=ByrmBRuCKYXO44gX-1)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| Link Frontend Web                          | [https://front-end-iot-smoky.vercel.app/auth/login](https://front-end-iot-smoky.vercel.app/auth/login)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| Link de Despliegue de Landing Page         | [https://tf-solucionesiot.github.io/LandingPage/](https://tf-solucionesiot.github.io/LandingPage/)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| Link de documentacion de los servicios web | [https://alertavital-aqesfcbafwe4d7fk.canadacentral-01.azurewebsites.net/swagger-ui/index.html](https://alertavital-aqesfcbafwe4d7fk.canadacentral-01.azurewebsites.net/swagger-ui/index.html)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
