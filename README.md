@@ -1,4 +1,4 @@
-<h1 style="text-align: center;"> Informe del Trabajo Final </h1>
+﻿<h1 style="text-align: center;"> Informe del Trabajo Final </h1>
 <h3 style="text-align: center;"> Universidad Peruana de Ciencias Aplicadas </h3>
 
 <img src=https://github.com/Integradis-OpenSource/TFDocOpenSource/assets/114628079/4be29e42-94e4-4b80-85ae-3433dde891e4 
@@ -1116,7 +1116,14 @@ A continuación, se presenta una matriz de tareas enfocada en María Luisa Ramí
 | US24 | Conocer acerca del proyecto | Como visitante, quiero leer información sobre la misión, visión y el equipo detrás de la aplicación. | **ES1:** Muestra datos clave → Presenta misión, visión y miembros principales del proyecto.<br>**ES2:** Enlaces externos → Los botones de redes sociales o “Conócenos” funcionan correctamente.<br>**ES3:** Diseño accesible → Compatible con lectores de pantalla y contraste adecuado. | EP007 |
 | US25 | Ver testimonios | Como visitante, quiero leer opiniones de otros usuarios o cuidadores para generar confianza. | **ES1:** Visualización → Se muestran al menos tres testimonios con nombre y foto opcional.<br>**ES2:** Carrusel funcional → Permite desplazarse sin errores entre testimonios.<br>**ES3:** Validación de contenido → Los testimonios no se repiten y cargan dinámicamente. | EP007 |
 | US26 | Enviar mensaje de contacto | Como visitante, quiero enviar un mensaje a través del formulario de contacto para resolver mis dudas. | **ES1:** Envío exitoso → Al completar nombre, correo y mensaje válidos, se confirma el envío.<br>**ES2:** Validaciones → Si falta algún campo o el correo es inválido, se muestra mensaje de error.<br>**ES3:** Protección antispam → No se permiten envíos automáticos (captcha activo). | EP007 |
-| US27 | Descargar la aplicación | Como visitante, quiero descargar la aplicación desde la landing page para comenzar a usarla. | **ES1:** Enlaces funcionales → Los botones de “Descargar en Play Store / App Store” redirigen correctamente.<br>**ES2:** Detección de dispositivo → Si accede desde Android o iOS, se sugiere el enlace correspondiente.<br>**ES3:** Versión web → Si el dispositivo no es compatible, se ofrece versión web o aviso informativo. | EP007 |
+| US27 | Descargar la aplicación | Como visitante, quiero descargar la aplicación desde la landing page para comenzar a usarla. | **ES1:** Enlaces funcionales  Los botones de "Descargar en Play Store / App Store" redirigen correctamente.<br>**ES2:** Detección de dispositivo  Si accede desde Android o iOS, se sugiere el enlace correspondiente.<br>**ES3:** Versión web  Si el dispositivo no es compatible, se ofrece versión web o aviso informativo. | EP007 |
+| **EP008** | **Vinculación y Gestión de Dispositivos (Mobile App)** | Funcionalidades de la aplicación móvil para vincular dispositivos IoT mediante códigos y gestionar la conexión con pacientes. | | |
+| US28 | Generar código de vinculación | Como cuidador, quiero generar un código único de vinculación para asociar el dispositivo IoT del paciente a mi cuenta y comenzar a recibir sus datos de monitoreo. | **ES1:** Generación exitosa  Al presionar "Generar código", se crea un código alfanumérico único de 6 caracteres con vigencia de 24 horas.<br>**ES2:** Visualización clara  El código se muestra en pantalla con opción de copiar y compartir por WhatsApp/SMS.<br>**ES3:** Expiración  Si el código expira sin usarse, se permite generar uno nuevo. | EP008 |
+| US29 | Usar código de vinculación | Como paciente o familiar, quiero ingresar un código de vinculación para conectar mi dispositivo IoT con la cuenta del cuidador asignado. | **ES1:** Vinculación exitosa  Al ingresar un código válido y presionar "Vincular", se establece la relación dispositivo-cuidador y muestra confirmación.<br>**ES2:** Código inválido/expirado  Muestra mensaje de error indicando que el código no existe o ha expirado.<br>**ES3:** Código ya usado  Informa que el código ya fue utilizado y sugiere solicitar uno nuevo. | EP008 |
+| **EP009** | **Monitoreo en Tiempo Real (Mobile App)** | Funcionalidades de visualización de datos de signos vitales en tiempo real mediante conexión WebSocket. | | |
+| US30 | Recibir datos de signos vitales en tiempo real | Como cuidador, quiero visualizar los signos vitales del paciente actualizados en tiempo real mediante WebSocket para tener información actualizada constantemente sin necesidad de refrescar la pantalla. | **ES1:** Conexión WebSocket activa  Al abrir el dashboard, se establece conexión WebSocket y los datos de frecuencia cardíaca, SpO y temperatura se actualizan automáticamente cada 5 segundos.<br>**ES2:** Indicador de conexión  Muestra estado de conexión (conectado/desconectado) con código de colores (verde/rojo).<br>**ES3:** Reconexión automática  Si se pierde la conexión, intenta reconectar automáticamente cada 10 segundos y notifica al usuario. | EP009 |
+| **EP010** | **Ubicación y Seguimiento (Mobile App)** | Funcionalidades para visualizar y rastrear la ubicación del paciente en situaciones de emergencia o monitoreo. | | |
+| US31 | Ver ubicación del paciente en mapa | Como cuidador, quiero ver la ubicación actual del paciente en un mapa interactivo para saber dónde se encuentra en caso de emergencia o seguimiento rutinario. | **ES1:** Visualización de ubicación  Al acceder a la sección "Ubicación", se muestra un mapa con la posición actual del paciente marcada con un pin.<br>**ES2:** Actualización periódica  La ubicación se actualiza cada 30 segundos con indicador de última actualización.<br>**ES3:** Sin señal GPS  Si no hay ubicación disponible, muestra la última conocida con advertencia de antigüedad. | EP010 |
 
 
 
@@ -1130,8 +1137,13 @@ A continuación, se presenta una matriz de tareas enfocada en María Luisa Ramí
 | TS05 | CRUD Disturbances (Alteraciones) | Endpoints para crear, listar y eliminar alteraciones detectadas (disturbances). | **ES1:** POST /api/patients/{id}/disturbances crea entrada y devuelve 201.<br>**ES2:** GET /api/patients/{id}/disturbances devuelve lista paginada.<br>**ES3:** DELETE /api/disturbances/{id} borra (soft delete) con permisos adecuados (caregiver/patient/admin). | EP01 |
 | TS06 | CRUD Symptoms (Síntomas) | Endpoints para reportar, consultar y eliminar síntomas asociados a pacientes. | **ES1:** POST /api/patients/{id}/symptoms → 201 con id del síntoma.<br>**ES2:** GET /api/patients/{id}/symptoms → lista ordenada por fecha.<br>**ES3:** DELETE /api/symptoms/{id} → 200 y registro marcado inactivo. | EP01 |
 | TS07 | CRUD Treatments (Tratamientos) | Endpoints para gestionar tratamientos y recordatorios (create/get/delete). | **ES1:** POST /api/patients/{id}/treatments crea tratamiento y devuelve 201.<br>**ES2:** GET /api/patients/{id}/treatments devuelve activos/inactivos filtrables.<br>**ES3:** DELETE /api/treatments/{id} desactiva o elimina según política. | EP01 |
-<tr><td>37</td><td>TS10</td><td>Device Controller - Registrar dispositivo (POST /api/device)</td><td>Endpoint REST para registrar y vincular un dispositivo IoT a un paciente. Valida payload (deviceId, patientId, model, firmware), crea/actualiza registro del dispositivo y publica evento de dispositivo registrado. Maneja duplicados y devuelve 201 con recurso creado.</td><td>3</td></tr>
-<tr><td>38</td><td>TS11</td><td>Device Controller - Obtener lecturas (GET /api/device/readings/all)</td><td>Endpoint REST para obtener todas las lecturas recopiladas por los dispositivos. Soporta filtros (patientId, deviceId, from,to), paginación y ordenamiento. Protege ruta (roles/permiso), valida acceso y devuelve lista paginada de lecturas con metadatos.</td><td>5</td></tr>
+| TS10 | Device Controller - Registrar dispositivo | Endpoint REST para registrar y vincular un dispositivo IoT a un paciente. | **ES1:** POST /api/device valida payload (deviceId, patientId, model, firmware) y devuelve 201.<br>**ES2:** Duplicado → 409 con mensaje.<br>**ES3:** Publica evento de dispositivo registrado. | EP01 |
+| TS11 | Device Controller - Obtener lecturas | Endpoint REST para obtener todas las lecturas recopiladas por los dispositivos. | **ES1:** GET /api/device/readings/all soporta filtros (patientId, deviceId, from, to) y paginación.<br>**ES2:** Protege ruta por roles/permisos.<br>**ES3:** Devuelve lista paginada con metadatos. | EP01 |
+| **EP02** | **Backend - Gestión de Códigos y Perfil (Sprint 3)** | Endpoints para gestión de códigos de vinculación, información de perfil y detección de eventos críticos. | | |
+| TS12 | API de códigos de vinculación - Generar | Endpoint para generar códigos únicos de vinculación entre cuidadores y dispositivos/pacientes. | **ES1:** POST /api/invite/generate crea código alfanumérico de 6 caracteres con expiración de 24h y devuelve 201.<br>**ES2:** Límite de códigos activos → 400 si el usuario tiene más de 5 códigos sin usar.<br>**ES3:** Incluye metadata (createdAt, expiresAt, createdBy). | EP02 |
+| TS13 | API de códigos de vinculación - Usar | Endpoint para consumir y validar códigos de vinculación. | **ES1:** POST /api/invite/use/{code} valida código, establece relación y devuelve 200 con datos de vinculación.<br>**ES2:** Código inválido/expirado → 404 con mensaje descriptivo.<br>**ES3:** Código ya usado → 409 indicando uso previo. | EP02 |
+| TS14 | API de perfil de usuario | Endpoints para obtener y actualizar información de perfil de pacientes y cuidadores. | **ES1:** GET /api/auth/profile/me devuelve datos completos del usuario autenticado (nombre, email, rol, foto, teléfono).<br>**ES2:** PUT /api/auth/profile actualiza campos permitidos y devuelve 200.<br>**ES3:** Validaciones de formato (teléfono, email) aplicadas con mensajes claros. | EP02 |
+| TS15 | Sistema de detección de caídas | Lógica backend para procesar datos del acelerómetro y detectar caídas automáticamente. | **ES1:** POST /api/falls/detect recibe datos de acelerómetro, aplica algoritmo de detección y devuelve resultado (fall_detected: true/false).<br>**ES2:** Si se detecta caída → crea alerta automática en /api/alerts con severidad "critical" y notifica contactos de emergencia.<br>**ES3:** Registra evento en historial con timestamp, ubicación y datos del sensor para trazabilidad. | EP02 |
 
 <div id='3.2.'><h3>3.2. Impact Mapping</h3></div>
 
@@ -1198,6 +1210,16 @@ Así, se define un plan de trabajo claro para el equipo de desarrollo, garantiza
     <tr><td>35</td><td>TS08</td><td>Asociar recordatorios a Treatment</td><td>Backend para crear/listar recordatorios asociados a tratamientos y exponer scheduler/worker para notificaciones.</td><td>5</td></tr>
     <tr><td>37</td><td>TS10</td><td>Device Controller - Registrar dispositivo (POST /api/device)</td><td>Endpoint REST para registrar y vincular un dispositivo IoT a un paciente. Valida payload (deviceId, patientId, model, firmware), crea/actualiza registro del dispositivo y publica evento de dispositivo registrado. Maneja duplicados y devuelve 201 con recurso creado.</td><td>3</td></tr>
     <tr><td>38</td><td>TS11</td><td>Device Controller - Obtener lecturas (GET /api/device/readings/all)</td><td>Endpoint REST para obtener todas las lecturas recopiladas por los dispositivos. Soporta filtros (patientId, deviceId, from,to), paginación y ordenamiento. Protege ruta (roles/permiso), valida acceso y devuelve lista paginada de lecturas con metadatos.</td><td>5</td></tr>
+    <!-- Sprint 3 - User Stories (Mobile App) -->
+    <tr><td>39</td><td>US28</td><td>Generar código de vinculación</td><td>Como cuidador, quiero generar un código único de vinculación para asociar el dispositivo IoT del paciente a mi cuenta.</td><td>3</td></tr>
+    <tr><td>40</td><td>US29</td><td>Usar código de vinculación</td><td>Como paciente o familiar, quiero ingresar un código de vinculación para conectar mi dispositivo IoT con la cuenta del cuidador.</td><td>3</td></tr>
+    <tr><td>41</td><td>US30</td><td>Recibir datos de signos vitales en tiempo real</td><td>Como cuidador, quiero visualizar los signos vitales del paciente actualizados en tiempo real mediante WebSocket.</td><td>5</td></tr>
+    <tr><td>42</td><td>US31</td><td>Ver ubicación del paciente en mapa</td><td>Como cuidador, quiero ver la ubicación actual del paciente en un mapa interactivo para emergencias o seguimiento.</td><td>3</td></tr>
+    <!-- Sprint 3 - Technical Stories (Backend) -->
+    <tr><td>43</td><td>TS12</td><td>API de códigos de vinculación - Generar</td><td>Endpoint POST /api/invite/generate para crear códigos únicos de vinculación con expiración de 24h.</td><td>3</td></tr>
+    <tr><td>44</td><td>TS13</td><td>API de códigos de vinculación - Usar</td><td>Endpoint POST /api/invite/use/{code} para consumir y validar códigos de vinculación.</td><td>3</td></tr>
+    <tr><td>45</td><td>TS14</td><td>API de perfil de usuario</td><td>Endpoints GET/PUT /api/auth/profile para obtener y actualizar información de perfil de pacientes y cuidadores.</td><td>3</td></tr>
+    <tr><td>46</td><td>TS15</td><td>Sistema de detección de caídas</td><td>Lógica backend para procesar datos del acelerómetro, detectar caídas automáticamente y generar alertas críticas.</td><td>5</td></tr>
   </tbody>
 </table>
 
@@ -4711,11 +4733,72 @@ En la siguiente sección, se presentará el sprint #3 enfocado en la creación d
 
 Para el Sprint #3 nos trazamos como objetivo desarrollar y desplegar la aplicación móvil, finalizar la aplicación Edge y completar el dispositivo IoT, logrando una integración completa del sistema de monitoreo de signos vitales.
 
+<!-- USER STORIES - Mobile App -->
 <table>
   <thead>
     <tr>
       <th># Sprint</th>
       <th colspan="8">Sprint 3 (Mobile App, Edge & IoT Device)</th>
+    </tr>
+    <tr>
+      <th colspan="2">User Story</th>
+      <th colspan="7">Work Item / Task</th>
+    </tr>
+    <tr>
+      <th>Id</th>
+      <th>Título</th>
+      <th>Id</th>
+      <th>Título</th>
+      <th>Descripción</th>
+      <th>Estimación (Horas)</th>
+      <th>Story Points</th>
+      <th>Asignado a</th>
+      <th>Estado</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>US28</td>
+      <td>Vinculación de dispositivo mediante código</td>
+      <td>WT-MB06</td>
+      <td>Crear y usar código de vinculación</td>
+      <td>Como cuidador, quiero generar un código de vinculación para asociar el dispositivo IoT del paciente a mi cuenta y recibir sus datos de monitoreo.</td>
+      <td>6h</td>
+      <td>3</td>
+      <td>Sebastián Silva</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US29</td>
+      <td>Monitoreo en tiempo real por WebSocket</td>
+      <td>WT-MB07</td>
+      <td>Recepción de datos en tiempo real</td>
+      <td>Como cuidador, quiero visualizar los signos vitales del paciente en tiempo real mediante conexión WebSocket para tener información actualizada constantemente.</td>
+      <td>8h</td>
+      <td>5</td>
+      <td>Elizabeth Huanaco</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US30</td>
+      <td>Visualización de ubicación del paciente</td>
+      <td>WT-MB08</td>
+      <td>Pantalla de ubicación GPS</td>
+      <td>Como cuidador, quiero ver la ubicación actual del paciente en un mapa para saber dónde se encuentra en caso de emergencia.</td>
+      <td>6h</td>
+      <td>3</td>
+      <td>Anthony Huapaya</td>
+      <td>Done</td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- TECHNICAL STORIES - Backend -->
+<table>
+  <thead>
+    <tr>
+      <th># Sprint</th>
+      <th colspan="8">Sprint 3 (Backend)</th>
     </tr>
     <tr>
       <th colspan="2">Technical Story</th>
@@ -4736,6 +4819,66 @@ Para el Sprint #3 nos trazamos como objetivo desarrollar y desplegar la aplicaci
   <tbody>
     <tr>
       <td>TS12</td>
+      <td>Backend - Gestión de códigos de vinculación</td>
+      <td>WT-BK01</td>
+      <td>API de códigos de invitación</td>
+      <td>Implementar endpoints para generar y consumir códigos de vinculación entre cuidadores y dispositivos/pacientes.</td>
+      <td>6h</td>
+      <td>3</td>
+      <td>Jesús Uribe</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>TS13</td>
+      <td>Backend - Información de perfil</td>
+      <td>WT-BK02</td>
+      <td>API de perfil de usuario</td>
+      <td>Desarrollar endpoints para obtener y actualizar la información de perfil de pacientes y cuidadores.</td>
+      <td>5h</td>
+      <td>3</td>
+      <td>Sebastián Bohorquez</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>TS14</td>
+      <td>Backend - Detección de caídas</td>
+      <td>WT-BK03</td>
+      <td>Sistema de alertas por caídas</td>
+      <td>Implementar lógica de detección de caídas basada en datos del acelerómetro y generación automática de alertas de emergencia.</td>
+      <td>8h</td>
+      <td>5</td>
+      <td>Jesús Uribe</td>
+      <td>Done</td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- TECHNICAL STORIES - Mobile App -->
+<table>
+  <thead>
+    <tr>
+      <th># Sprint</th>
+      <th colspan="8">Sprint 3 (Mobile App)</th>
+    </tr>
+    <tr>
+      <th colspan="2">Technical Story</th>
+      <th colspan="7">Work Item / Task</th>
+    </tr>
+    <tr>
+      <th>Id</th>
+      <th>Título</th>
+      <th>Id</th>
+      <th>Título</th>
+      <th>Descripción</th>
+      <th>Estimación (Horas)</th>
+      <th>Story Points</th>
+      <th>Asignado a</th>
+      <th>Estado</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>TS15</td>
       <td>Mobile App - Autenticación</td>
       <td>WT-MB01</td>
       <td>Pantalla de Login y Registro</td>
@@ -4746,7 +4889,7 @@ Para el Sprint #3 nos trazamos como objetivo desarrollar y desplegar la aplicaci
       <td>Done</td>
     </tr>
     <tr>
-      <td>TS13</td>
+      <td>TS16</td>
       <td>Mobile App - Dashboard de Signos Vitales</td>
       <td>WT-MB02</td>
       <td>Pantalla principal de monitoreo</td>
@@ -4757,7 +4900,7 @@ Para el Sprint #3 nos trazamos como objetivo desarrollar y desplegar la aplicaci
       <td>Done</td>
     </tr>
     <tr>
-      <td>TS14</td>
+      <td>TS17</td>
       <td>Mobile App - Sistema de Alertas</td>
       <td>WT-MB03</td>
       <td>Notificaciones push y alertas</td>
@@ -4768,7 +4911,7 @@ Para el Sprint #3 nos trazamos como objetivo desarrollar y desplegar la aplicaci
       <td>Done</td>
     </tr>
     <tr>
-      <td>TS15</td>
+      <td>TS18</td>
       <td>Mobile App - Gestión de Emergencias</td>
       <td>WT-MB04</td>
       <td>Pantalla de contactos y emergencias</td>
@@ -4779,7 +4922,7 @@ Para el Sprint #3 nos trazamos como objetivo desarrollar y desplegar la aplicaci
       <td>Done</td>
     </tr>
     <tr>
-      <td>TS16</td>
+      <td>TS19</td>
       <td>Mobile App - Historial de Lecturas</td>
       <td>WT-MB05</td>
       <td>Gráficos y estadísticas</td>
@@ -4789,8 +4932,35 @@ Para el Sprint #3 nos trazamos como objetivo desarrollar y desplegar la aplicaci
       <td>Elizabeth Huanaco</td>
       <td>Done</td>
     </tr>
+  </tbody>
+</table>
+
+<!-- TECHNICAL STORIES - Edge App -->
+<table>
+  <thead>
     <tr>
-      <td>TS17</td>
+      <th># Sprint</th>
+      <th colspan="8">Sprint 3 (Edge Application)</th>
+    </tr>
+    <tr>
+      <th colspan="2">Technical Story</th>
+      <th colspan="7">Work Item / Task</th>
+    </tr>
+    <tr>
+      <th>Id</th>
+      <th>Título</th>
+      <th>Id</th>
+      <th>Título</th>
+      <th>Descripción</th>
+      <th>Estimación (Horas)</th>
+      <th>Story Points</th>
+      <th>Asignado a</th>
+      <th>Estado</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>TS20</td>
       <td>Edge App - Comunicación WebSocket</td>
       <td>WT-ED01</td>
       <td>Cliente WebSocket</td>
@@ -4801,7 +4971,7 @@ Para el Sprint #3 nos trazamos como objetivo desarrollar y desplegar la aplicaci
       <td>Done</td>
     </tr>
     <tr>
-      <td>TS18</td>
+      <td>TS21</td>
       <td>Edge App - Procesamiento de Datos</td>
       <td>WT-ED02</td>
       <td>Pipeline de procesamiento</td>
@@ -4812,7 +4982,7 @@ Para el Sprint #3 nos trazamos como objetivo desarrollar y desplegar la aplicaci
       <td>Done</td>
     </tr>
     <tr>
-      <td>TS19</td>
+      <td>TS22</td>
       <td>Edge App - Detección de Anomalías Local</td>
       <td>WT-ED03</td>
       <td>Algoritmo de detección</td>
@@ -4822,8 +4992,35 @@ Para el Sprint #3 nos trazamos como objetivo desarrollar y desplegar la aplicaci
       <td>Sebastián Bohorquez</td>
       <td>Done</td>
     </tr>
+  </tbody>
+</table>
+
+<!-- TECHNICAL STORIES - IoT Device -->
+<table>
+  <thead>
     <tr>
-      <td>TS20</td>
+      <th># Sprint</th>
+      <th colspan="8">Sprint 3 (IoT Device)</th>
+    </tr>
+    <tr>
+      <th colspan="2">Technical Story</th>
+      <th colspan="7">Work Item / Task</th>
+    </tr>
+    <tr>
+      <th>Id</th>
+      <th>Título</th>
+      <th>Id</th>
+      <th>Título</th>
+      <th>Descripción</th>
+      <th>Estimación (Horas)</th>
+      <th>Story Points</th>
+      <th>Asignado a</th>
+      <th>Estado</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>TS23</td>
       <td>IoT Device - Integración de Sensores</td>
       <td>WT-IOT01</td>
       <td>Configuración de sensores</td>
@@ -4834,7 +5031,7 @@ Para el Sprint #3 nos trazamos como objetivo desarrollar y desplegar la aplicaci
       <td>Done</td>
     </tr>
     <tr>
-      <td>TS21</td>
+      <td>TS24</td>
       <td>IoT Device - Firmware</td>
       <td>WT-IOT02</td>
       <td>Desarrollo de firmware</td>
@@ -4845,7 +5042,7 @@ Para el Sprint #3 nos trazamos como objetivo desarrollar y desplegar la aplicaci
       <td>Done</td>
     </tr>
     <tr>
-      <td>TS22</td>
+      <td>TS25</td>
       <td>IoT Device - Protocolo de Comunicación</td>
       <td>WT-IOT03</td>
       <td>MQTT/HTTP Client</td>
@@ -4855,8 +5052,35 @@ Para el Sprint #3 nos trazamos como objetivo desarrollar y desplegar la aplicaci
       <td>Jesús Uribe</td>
       <td>Done</td>
     </tr>
+  </tbody>
+</table>
+
+<!-- INTEGRACIÓN -->
+<table>
+  <thead>
     <tr>
-      <td>TS23</td>
+      <th># Sprint</th>
+      <th colspan="8">Sprint 3 (Integración)</th>
+    </tr>
+    <tr>
+      <th colspan="2">Technical Story</th>
+      <th colspan="7">Work Item / Task</th>
+    </tr>
+    <tr>
+      <th>Id</th>
+      <th>Título</th>
+      <th>Id</th>
+      <th>Título</th>
+      <th>Descripción</th>
+      <th>Estimación (Horas)</th>
+      <th>Story Points</th>
+      <th>Asignado a</th>
+      <th>Estado</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>TS26</td>
       <td>Integración End-to-End</td>
       <td>WT-INT01</td>
       <td>Pruebas de integración completa</td>
@@ -5660,4 +5884,5 @@ Organización Panamericana de la Salud. (2023). *La situación de los cuidados a
 | Link Frontend Web | [https://front-end-iot-smoky.vercel.app/auth/login](https://front-end-iot-smoky.vercel.app/auth/login) |
 | Link de Despliegue de Landing Page | [https://tf-solucionesiot.github.io/LandingPage/](https://tf-solucionesiot.github.io/LandingPage/) |
 | Link de documentacion de los servicios web | [https://alertavital-aqesfcbafwe4d7fk.canadacentral-01.azurewebsites.net/swagger-ui/index.html](https://alertavital-aqesfcbafwe4d7fk.canadacentral-01.azurewebsites.net/swagger-ui/index.html) |
+
 
