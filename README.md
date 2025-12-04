@@ -63,13 +63,36 @@ El objetivo de esta sección es resumir las modificaciones relevantes que se rea
 
 | Versión | Fecha | Autor | Descripción de modificación |
 | :-----: | :---: | :---: | --------------------------- |
-|    TB1    |   21/09   |   Jesús Guillermo Uribe Quispe   | Se añadió el capítulo I, II, III y IV del proyecto.                         |
-|TP | 10/10 | Jesús Guillermo Uribe Quispe | UX/UI Design, Software Development and Sprint 1 |
-| TB2 | 16/11 | Jesús Guillermo Uribe Quispe | Sprint 2, Validation Interviews and Final Corrections |
+|    TB1    |   21/09/2025   |   Jesús Guillermo Uribe Quispe   | Se añadió el capítulo I, II, III y IV del proyecto.                         |
+|TP | 10/10/2025 | Jesús Guillermo Uribe Quispe | UX/UI Design, Software Development and Sprint 1 |
+| TB2 | 16/11/2025 | Jesús Guillermo Uribe Quispe | Sprint 2, Validation Interviews and Final Corrections |
+| TF | 4/12/2025 | Jesús Guillermo Uribe Quispe | Sprint 3, Hardware Implementation |
 
 # Project Report Collaboration Insights
 
-URL del repositorio para el reporte del proyecto:
+URL del repositorio para el reporte del proyecto: [https://github.com/TF-SolucionesIoT/report](https://github.com/TF-SolucionesIoT/report)
+
+**TF:**
+
+<div align="center">
+  <img src="" alt="insights" width=350>
+</div>
+
+<div align="center">
+  <img src="" alt="insights" width=350>
+</div>
+
+
+Para el desarrollo del informe perteneciente a la entrega del trabajo final, se dividió la implementación de secciones de la siguiente forma para cada integrante del equipo:
+
+| Integrante | Tareas Asignadas |
+| ---------- | ---------------- |
+| Bohórquez Lerzundi, Gerardo Sebastián | Despliegue servicio web y aplicacion web, desarrollo de funcionalidades en servicios web |
+| Huanaco Huayta, Elizabeth Lucero | desarrollo de implementacion y programación del hardware. |
+| Huapaya Cuevas, Anthony | desarrollo de implementación y programación del hardware.  |
+| Silva Tirado, Sebastián Valentino | Desarrollo de aplicación web y servicios web. |
+| Uribe Quispe, Jesús Guillermo | Desarrollo de servicio web, arquitectura y aplicación edge. |
+
 
 **TB2:**
 
@@ -296,6 +319,16 @@ Los integrantes son:
    6.2.2.7. [Services Documentation Evidence for Sprint Review.](#6.2.2.7.)<br>
    6.2.2.8. [Software Deployment Evidence for Sprint Review.](#6.2.2.8.)<br>
    6.2.2.9. [Team Collaboration Insights during Sprint.](#6.2.2.9.)<br>
+   6.2.3. [Sprint 3.](#6.2.3.)<br>
+   6.2.3.1. [Sprint Planning 3.](#6.2.3.1.)<br>
+   6.2.3.2. [Aspect Leaders and Collaborators.](#6.2.3.2.)<br>
+   6.2.3.3. [Sprint Backlog 3.](#6.2.3.3.)<br>
+   6.2.3.4. [Development Evidence for Sprint Review.](#6.2.3.4.)<br>
+   6.2.3.5. [Testing Suite Evidence for Sprint Review.](#6.2.3.5.)<br>
+   6.2.3.6. [Execution Evidence for Sprint Review.](#6.2.3.6.)<br>
+   6.2.3.7. [Services Documentation Evidence for Sprint Review.](#6.2.3.7.)<br>
+   6.2.3.8. [Software Deployment Evidence for Sprint Review.](#6.2.3.8.)<br>
+   6.2.3.9. [Team Collaboration Insights during Sprint.](#6.2.3.9.)<br>
    6.3. [Validation Interviews.](#6.3.)<br>
    6.3.1. [Diseño de Entrevistas.](#6.3.1.)<br>
    6.3.2. [Registro de Entrevistas.](#6.3.2.)<br>
@@ -4715,7 +4748,7 @@ En la siguiente sección, se presentará el sprint #3 enfocado en la creación d
 | **Sprint 3 – 2 Review Summary**        | Desarrollo de Mobile App, finalización de Edge Application y Dispositivo IoT                                                                                                                                                                                                                                                                                                                                       |
 | **Sprint 3 – 2 Retrospective Summary** | Integrar completamente el sistema IoT con la aplicación móvil y la nube                                                                                                                                                                                                                                                                         |
 | **Sprint Goal & User Stories**         |                                                                                                                                                                                                                                                                                                                                                                        |
-| **Sprint #3 Goal** | Nuestro enfoque está en completar y entregar la aplicación móvil de AlertaVital junto con la finalización de la aplicación Edge y el dispositivo IoT: una app móvil nativa que permita visualizar signos vitales en tiempo real, recibir alertas y gestionar emergencias; una aplicación Edge funcional que procese datos de sensores y los transmita a la nube mediante WebSockets; y un dispositivo IoT completo con sensores de frecuencia cardíaca, SpO₂ y temperatura. Sabremos que tuvimos éxito cuando: (1) la app móvil consuma correctamente los datos del backend y muestre signos vitales en tiempo real; (2) el dispositivo IoT capture y transmita lecturas correctamente a través de la aplicación Edge; y (3) todo el sistema esté integrado end-to-end permitiendo el monitoreo continuo de pacientes. |
+| **Sprint #3 Goal** | Nuestro enfoque está en completar y entregar la aplicación móvil de AlertaVital junto con la finalización de la aplicación Edge y el dispositivo IoT: una app móvil nativa que permita visualizar signos vitales en tiempo real, recibir alertas y gestionar emergencias; una aplicación Edge funcional que procese datos de sensores y los transmita a la nube mediante WebSockets; y un dispositivo IoT completo con sensores de frecuencia cardíaca, SpO₂. Sabremos que tuvimos éxito cuando: (1) la app móvil consuma correctamente los datos del backend y muestre signos vitales en tiempo real; (2) el dispositivo IoT capture y transmita lecturas correctamente a través de la aplicación Edge; y (3) todo el sistema esté integrado end-to-end permitiendo el monitoreo continuo de pacientes. |
 | **Sprint #3 Velocity** |  70h |
 | **Sum of Story Points** | 18 |
 
@@ -4893,7 +4926,7 @@ Para el Sprint #3 nos trazamos como objetivo desarrollar y desplegar la aplicaci
       <td>Mobile App - Dashboard de Signos Vitales</td>
       <td>WT-MB02</td>
       <td>Pantalla principal de monitoreo</td>
-      <td>Desarrollar dashboard que muestre en tiempo real frecuencia cardíaca, SpO₂ y temperatura del paciente.</td>
+      <td>Desarrollar dashboard que muestre en tiempo real frecuencia cardíaca, SpO₂ y presión arterial del paciente.</td>
       <td>8h</td>
       <td>5</td>
       <td>Elizabeth Huanaco</td>
@@ -4989,7 +5022,7 @@ Para el Sprint #3 nos trazamos como objetivo desarrollar y desplegar la aplicaci
       <td>Desarrollar algoritmo local para detección de valores anormales y generación de alertas inmediatas.</td>
       <td>6h</td>
       <td>3</td>
-      <td>Sebastián Bohorquez</td>
+      <td>Jesús Uribe</td>
       <td>Done</td>
     </tr>
   </tbody>
@@ -5024,7 +5057,7 @@ Para el Sprint #3 nos trazamos como objetivo desarrollar y desplegar la aplicaci
       <td>IoT Device - Integración de Sensores</td>
       <td>WT-IOT01</td>
       <td>Configuración de sensores</td>
-      <td>Integrar y configurar sensores MAX30102 (frecuencia cardíaca/SpO₂) y DS18B20 (temperatura) con ESP32.</td>
+      <td>Integrar y configurar sensores MAX30102 (frecuencia cardíaca/SpO₂) y presión arterial con ESP32.</td>
       <td>8h</td>
       <td>5</td>
       <td>Sebastián Bohorquez</td>
@@ -5045,8 +5078,8 @@ Para el Sprint #3 nos trazamos como objetivo desarrollar y desplegar la aplicaci
       <td>TS25</td>
       <td>IoT Device - Protocolo de Comunicación</td>
       <td>WT-IOT03</td>
-      <td>MQTT/HTTP Client</td>
-      <td>Implementar cliente MQTT/HTTP en el dispositivo para envío de lecturas a la aplicación Edge.</td>
+      <td>BLE Client / Manager</td>
+      <td>Implementar comunicación BLE en el dispositivo para envío de lecturas a la aplicación Edge.</td>
       <td>6h</td>
       <td>3</td>
       <td>Jesús Uribe</td>
@@ -5223,27 +5256,7 @@ Para el Sprint #3 nos trazamos como objetivo desarrollar y desplegar la aplicaci
   <td></td>
   <td>2025-11-28</td>
   </tr>
-  <tr>
-  <td>main</td>
-  <td>j9e4731</td>
-  <td>feat: add DS18B20 temperature sensor support</td>
-  <td></td>
-  <td>2025-11-27</td>
-  </tr>
-  <tr>
-  <td>main</td>
-  <td>k8f3620</td>
-  <td>feat: implement WiFi connectivity and MQTT client</td>
-  <td></td>
-  <td>2025-11-26</td>
-  </tr>
-  <tr>
-  <td>main</td>
-  <td>l7g2519</td>
-  <td>feat: ESP32 firmware for periodic sensor readings</td>
-  <td></td>
-  <td>2025-11-25</td>
-  </tr>
+
 </tbody></table>
 
 <div id='6.2.3.5.'><h5>6.2.3.5. Testing Suite Evidence for Sprint Review.</h5></div>
@@ -5301,7 +5314,7 @@ A continuación se presenta el detalle de los archivos `.feature` desarrollados 
 | edge_anomaly.feature       | Detección local de anomalías en valores vitales | Edge App - Detección de Anomalías Local        |
 | iot_sensors.feature        | Integración y lectura de sensores MAX30102 y DS18B20 | IoT Device - Integración de Sensores           |
 | iot_firmware.feature       | Firmware del ESP32 para transmisión de datos | IoT Device - Firmware                          |
-| iot_mqtt.feature           | Protocolo de comunicación MQTT/HTTP del dispositivo | IoT Device - Protocolo de Comunicación         |
+| iot_ble.feature           | Protocolo de comunicación BLE del dispositivo | IoT Device - Protocolo de Comunicación         |
 | e2e_integration.feature    | Pruebas de integración end-to-end del sistema completo | Integración End-to-End                         |
 
 > **Nota:** Puedes revisar todos los archivos en la carpeta [Features del repositorio](https://github.com/TF-SolucionesIoT/report/tree/main/Features).
@@ -5354,8 +5367,7 @@ Pipeline de procesamiento de datos con detección de anomalías:
 <img src="Img/edge_processing.png">
 </div>
 
-Link de video Edge App: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202221876_upc_edu_pe/IQCsvrOFrXhZTK8dVXel_wPyAc6l3Q_Vc6rxp3V0wtVh-RM?e=NZK4zA&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202221876_upc_edu_pe/IQCsvrOFrXhZTK8dVXel_wPyAc6l3Q_Vc6rxp3V0wtVh-RM?e=NZK4zA&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
-
+Link de video Edge App: []()
 #### IoT Device:
 
 Dispositivo IoT con sensores integrados (ESP32 + MAX30102 + DS18B20):
@@ -5388,18 +5400,8 @@ En este sprint se enfocó principalmente en el desarrollo de la aplicación móv
 
 | Evento | Dirección | Descripción | Payload |
 |--------|-----------|-------------|---------|
-| `vitals:reading` | Edge → Backend | Envío de lecturas de signos vitales | `{ deviceId, heartRate, spo2, temperature, timestamp }` |
-| `vitals:alert` | Edge → Backend | Alerta por valores anormales | `{ deviceId, alertType, value, threshold, timestamp }` |
-| `device:status` | Edge → Backend | Estado del dispositivo IoT | `{ deviceId, status, battery, lastReading }` |
-| `command:ack` | Backend → Edge | Confirmación de comando recibido | `{ commandId, status }` |
+| `vitals:reading` | Edge → Backend | Envío de lecturas de signos vitales | `{ deviceId, bpm, spo2, bpSystolic, bpDiastolic }` |
 
-#### Comunicación IoT Device - Edge Application (MQTT)
-
-| Topic | Dirección | Descripción | Payload |
-|-------|-----------|-------------|---------|
-| `alertavital/{deviceId}/vitals` | Device → Edge | Lecturas de sensores | `{ hr, spo2, temp, ts }` |
-| `alertavital/{deviceId}/status` | Device → Edge | Estado del dispositivo | `{ battery, wifi_rssi, uptime }` |
-| `alertavital/{deviceId}/config` | Edge → Device | Configuración del dispositivo | `{ interval, thresholds }` |
 
 #### Endpoints Mobile Application (REST API)
 
@@ -5411,7 +5413,7 @@ Los endpoints consumidos por la aplicación móvil son los mismos documentados e
 | GET | `/api/device/readings/all` | Obtener lecturas de signos vitales |
 | GET | `/api/contacts/emergencies/patient/{patientId}/all` | Obtener contactos de emergencia |
 | POST | `/api/contacts/emergencies` | Crear contacto de emergencia |
-| WS | `/ws/vitals` | Conexión WebSocket para datos en tiempo real |
+| WS | `/ws/edge` | Conexión WebSocket para datos en tiempo real |
 
 > **Nota:** Para detalles completos de payload y respuestas, consultar la documentación Swagger disponible en: [https://alertavital-aqesfcbafwe4d7fk.canadacentral-01.azurewebsites.net/swagger-ui/index.html](https://alertavital-aqesfcbafwe4d7fk.canadacentral-01.azurewebsites.net/swagger-ui/index.html)
 
