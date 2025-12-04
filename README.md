@@ -5426,25 +5426,25 @@ Link de video Edge App: []()
 
 #### IoT Device:
 
-Dispositivo IoT con sensores integrados (ESP32 + MAX30102 + DS18B20):
+Dispositivo IoT con sensores integrados (ESP32 + MAX30102 + MPS20N0040D + HX710B + MPU6050):
 
 <div align="center">
-<img src="Img/iot_device.png">
+<img src="Img/iot_device.jpg">
 </div>
 
 Lectura de sensores en tiempo real:
 
 <div align="center">
-<img src="Img/iot_readings.png">
+<img src="Img/iot_readings.jpg">
 </div>
 
 Comunicación del dispositivo con la aplicación Edge:
 
 <div align="center">
-<img src="Img/iot_communication.png">
+<img src="Img/iot_communication.jpg">
 </div>
 
-Link de video IoT Device: [Pendiente de agregar]
+Link de video IoT Device: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220235_upc_edu_pe/IQCc190B4VmHQoIE5QvufRUSAe_YqvLSwlMRH5oujQZ2v1k?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=OI9pD8](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220235_upc_edu_pe/IQCc190B4VmHQoIE5QvufRUSAe_YqvLSwlMRH5oujQZ2v1k?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=OI9pD8)
 
 <div id='6.2.3.7.'><h5>6.2.3.7. Services Documentation Evidence for Sprint Review.</h5></div>
 
